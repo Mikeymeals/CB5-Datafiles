@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Dwarven Armor Training</Name>
+      <Text>You have proficiency with light and medium armor.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and (Light or Medium)</Condition>
+      <Description>all light and medium armor</Description>
+    </ToolKWProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Shield Dwarf</Name>
+  <Description>The ancestral home of the shield dwarves is in northern Faerûn, where ancient dwarfholds exist in the North, Damara, lmpiltur, Vaasa, the Vast, and the Western Heartlands. The most famous of the old shield dwarf cities is Citadel Adbar, north and east of Silverymoon. Many of these dwarfholds have changed hands over the centuries in a cycle of invasion by enemies, followed by reconquest by the dwarves. 
+Living in a near-constant state of war for generations, shield dwarves are a hardy people, slow to trust, with long memories and often an equally long list of grievances against their ancient enemies. The more conservative among them want to maintain the traditions and remaining holdings of their people, isolated from the influence of outsiders and safe from invaders behind thick walls of stone. Shield dwarves of a more adventurous bent are interested in exploring the world and seeing what lies beyond the bounds of their ancient dwarfholds.
+Shield dwarves have the racial traits of mountain dwarves in the Player's Handbook. Their skin is usually fair, eyes green, hazel, or silver-blue, and they have brown, blond, or red hair. Full beards and mustaches are commonly seen on male shield dwarves.
+Shield dwarves are renowned artisans, particularly in metal and stone. They tend to focus more on sturdiness in their craft than on the artistic flourishes and gilding favored by their gold dwarf cousins. Shield dwarf crafters build to last, and each one's signature mark placed upon an enduring masterpiece serves as a way of gaining immortality.
+</Description>
+  <ParentRace>Dwarf</ParentRace>
+</SubRace>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Spirit Seeker</Name>
+      <Text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>Spirit Seeker</Name>
+          <Text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the beast sense and speak with animals spells, but only as rituals, as described in chapter 10.</Text>
+          <Level>3</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Spirit Seeker</Name>
+              <Text>You gain the ability to cast the beast sense spell, but only as a ritual, as described in chapter 10.</Text>
+              <Level>3</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Beast Sense</Spell>
+              <SpellCastingAbility>None</SpellCastingAbility>
+              <SpellCastModifier>Ritual</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Spirit Seeker</Name>
+              <Text>You gain the ability to cast the speak with animals spell, but only as a ritual, as described in chapter 10.</Text>
+              <Level>3</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Speak with Animals</Spell>
+              <SpellCastingAbility>None</SpellCastingAbility>
+              <SpellCastModifier>Ritual</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+          </Features>
+        </MultiFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Spirit Seeker (Tree Ghost)</Name>
+          <Text>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the speak with plants spell, but only as a ritual, as described in chapter 10.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Speak with Plants</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Ritual</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>BARBARIAN_TOTEM_WARRIOR_VARIANT</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Totem Spirit</Name>
+      <Text>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object- an amulet or similar adornment—that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thickskinned, or if your totem is the eagle, your eyes turn bright yellow.
+Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>TOTEM_WARRIOR_SPIRIT</UniqueID>
+      <Collection>Category = 'Feats/Totem Warrior' and Spirit and Barbarian</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Aspect of the Beast</Name>
+      <Text>At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>TOTEM_WARRIOR_ASPECT</UniqueID>
+      <Collection>Category = 'Feats/Totem Warrior' and Aspect and Barbarian</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Spirit Walker</Name>
+      <Text>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Commune with Nature</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Ritual</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Totemic Attunement</Name>
+      <Text>At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one. </Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>TOTEM_WARRIOR_ATTUNEMENT</UniqueID>
+      <Collection>Category = 'Feats/Totem Warrior' and Attunement and Barbarian</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Uthgardt Totems</Name>
+      <Text>The totems of the Uthgardt barbarians of the North (described in chapter 5) correspond to the spirits of the Path of the Totem Warrior as shown in the following table.
+Totem—Spirit
+Black Lion—Tiger
+Black Raven—Eagle
+Blue Bear—Bear
+Gray Wolf—Wolf
+Great Worm—Wolf
+Griffon—Eagle
+Red Tiger—Tiger
+Sky Pony—Eagle, with the Elk Aspect of the Beast
+Thunderbeast—Bear, with the Tiger Totemic Attunement
+Tree Ghost—Bear, with speak with plants in place of the normal rituals for the Spirit Seeker feature</Text>
+    </Description>
+  </Descriptions>
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Path of the Totem Warrior</Name>
+  <SheetName>Totem Warrior</SheetName>
+  <Description>The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
+Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.</Description>
+  <ParentRace>Barbarian</ParentRace>
+</SubClass>

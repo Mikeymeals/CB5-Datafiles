@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Arcana Domain</Name>
+      <Text>Arcana Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Arcana Domain Spells</Name>
+          <Text>detect magic, magic missile</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Detect Magic</string>
+            <string>Magic Missile</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Arcana Domain Spells</Name>
+          <Text>magic weapon, Nystul's magic aura</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Magic Weapon</string>
+            <string>Nystul's Magic Aura</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Arcana Domain Spells</Name>
+          <Text>dispel magic, magic circle</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Dispel Magic</string>
+            <string>Magic Circle</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Arcana Domain Spells</Name>
+          <Text>arcane eye, Leomund's secret chest</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Arcane Eye</string>
+            <string>Leomund's Secret Chest</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Arcana Domain Spells</Name>
+          <Text>planar binding, teleportation circle</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Planar Binding</string>
+            <string>Teleportation Circle</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Sword Coast Adventurer's Guide</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Sword Coast Adventurer's Guide</Source>
+</FeatureContainer>

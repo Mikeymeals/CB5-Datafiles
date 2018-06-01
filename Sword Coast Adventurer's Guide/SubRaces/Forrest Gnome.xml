@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>1</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Natural Illusionist</Name>
+      <Text>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Minor Illusion</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Speak with Small Beasts</Name>
+      <Text>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Forrest Gnome</Name>
+  <Description>The reclusive forest gnomes live simply in hillside dwellings deep in the woods. A neighbor could live only a few miles from a forest gnome settlement for a lifetime and never know it. In these communities, anonymity and stealth help to ensure protection, peace, and survival. If they are discovered and treated well, forest gnomes make fine neighbors, but they usually avoid contact even with civilizations that seem friendly.
+Forest gnomes use their affinity with small animals and their knack for illusions to help them remain hidden. When necessary, a forest gnome community defends itself with all the resources at its disposal. Many settlements, however, simply vanish if they are discovered, retreating to some uncharted corner of the forest to begin anew.
+The rare forest gnomes who leave their people to become adventurers often draw upon their closeness to nature and their magical gifts to serve as guides, scouts, or mystics. Living close to nature also makes forest gnomes likely to take up roles as druids, who serve various forest spirits and deities. 
+Forest gnomes in Faerûn have the racial traits of forest gnomes in the Player's Handbook.</Description>
+  <ParentRace>Gnome</ParentRace>
+</SubRace>

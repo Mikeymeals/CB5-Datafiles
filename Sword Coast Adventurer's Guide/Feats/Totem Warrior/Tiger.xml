@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>spirit</Name>
+        </Keyword>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Tiger</Name>
+      <Text>While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+        <Keyword>
+          <Name>aspect</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Tiger</Name>
+      <Text>You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Athletics</string>
+        <string>Acrobatics</string>
+        <string>Stealth</string>
+        <string>Survival</string>
+      </Skills>
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>BARBARIAN_TOTEM_WARRIOR_TIGER_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>attunement</Name>
+        </Keyword>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Tiger</Name>
+      <Text>While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Sword Coast Adventurer's Guide</Source>
+</FeatureContainer>

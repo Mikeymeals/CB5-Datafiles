@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Dwarven Toughness</Name>
+      <Text>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <HitPoints>PlayerLevel </HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Gold Dwarf</Name>
+  <Description>Gold dwarves are common in the lands to the south and east. They are formidable warriors, proud of their long traditions, with strong ties to clan. They are gruff and haughty and have a love of fine craftsmanship and an eagerness to trade. 
+Significant settlements of gold dwarves exist in the Great Rift, the area surrounding the Dragon Coast, as well as in the Old Empires of eastern Faerûn. Smaller communities are found in the Smoking Mountains, in the Giant's Run Mountains, and the Western Heartlands.
+Because they have not endured the same cycle of invasion and displacement, gold dwarves tend to be more optimistic than their shield dwarf cousins, but they're still standoffish and prideful as only a dwarf can be. They believe their race's stable history is the result of their attentiveness to tradition, and have little doubt that the future of the gold dwarves will be just as peaceful, if they remain true to their customs and principles.
+Gold dwarves have the racial traits of hill dwarves in the Player's Handbook. They are stocky and muscular, averaging about 4 feet tall, with brown skin, black or brown hair, and brown or hazel eyes, with green eyes rare (and considered lucky). Males grow full beards that they keep oiled and well groomed, and both genders wear their hair long and often elaborately braided. 
+Gold dwarves are best known for crafting beautiful objects. According to them, all the natural resources of the world exist for mortals to turn them into objects of great beauty. Gold dwarves don't want the most of everything; they want the best. Their artisans toil over items for years, getting their etchings and fine details just right before being satisfied with their efforts.
+That deliberate, perfectionist approach is a reflection of gold dwarf culture, in which there is a right and proper way to do everything. Tradition dictates every aspect of a gold dwarf's life, from one's place in society, to prospects for marriage, to what careers are acceptable. Gold dwarves who take up a life of adventuring, away from the clan, rarely forsake their traditions when doing so. Even though they might have to live as outsiders for a time, they hope to ultimately improve their standing in their society.</Description>
+  <ParentRace>Dwarf</ParentRace>
+</SubRace>

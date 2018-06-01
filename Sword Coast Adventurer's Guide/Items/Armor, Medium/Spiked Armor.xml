@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Armor">
+  <Keywords>
+    <Keyword>
+      <Name>medium</Name>
+    </Keyword>
+    <Keyword>
+      <Name>spiked</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Spiked Armor</Name>
+  <Description>Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>75</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Weight>45</Weight>
+  <BaseAC>14</BaseAC>
+  <StealthDisadvantage>true</StealthDisadvantage>
+  <StrengthRequired>0</StrengthRequired>
+</Item>

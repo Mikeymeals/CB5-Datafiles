@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Elf Weapon Training</Name>
+      <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>longsword</string>
+        <string>shortsword</string>
+        <string>shortbow</string>
+        <string>longbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Cantrip</Name>
+      <Text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Wizard and Cantrip</Condition>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <UniqueID>HIGH_ELF_CANTRIP</UniqueID>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write one extra language of your choice</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>HIGH_ELF_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Sun Elf</Name>
+  <Description>Sun elves, also known as gold elves, or Ar'Tel'Quessir, have a reputation for being arrogant and self-important. Many of them believe they are Corellon's chosen people and that other races- even other elves-are subordinate to them in skill, significance, and sophistication. They claim the title of "high elves" with pride, and indeed their race is responsible for great, and sometimes terrible, achievements.
+Recalling and emphasizing the glorious aspects of their history, sun elves subscribe to the principle of "elven excellence"- no matter how interesting, exceptional, heroic, or noteworthy other races' accomplishments might be, there is an inherent superiority to all things elven. This attitude colors sun elves' relations with other elves, whom they see as diluted or diminished representatives of elven culture. Some sun elves reject this way of thinking, but it is common enough that when most folk of Faerûn see a sun elf, they see arrogance personified. Their haughty attitude can overshadow the fact that most sun elves are also tirelessly compassionate and thoughtful champions of good.
+Sun elves have the racial traits of high elves in the Player's Handbook. Sun elves have bronze skin. Their eyes are black, metallic gold, or metallic silver, and their hair is black, metallic copper, or golden blond. 
+Sun elf culture and civilization is highly magical in nature, thanks to the race's many accomplished wizards, sages, and crafters. Not every sun elf is a skilled practitioner of the Art, but each one has at least a bit of inherent magic. Many sun elves mix magic with other art forms, which produces the complex dance of the bladesingers as well as the enchanting music of their bards and the meticulous craftwork of their artisans. Sun elf adventurers often bring a feeling of noblesse oblige to their profession: they venture out into the world to challenge its dangers because someone must, and who could be better suited?</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

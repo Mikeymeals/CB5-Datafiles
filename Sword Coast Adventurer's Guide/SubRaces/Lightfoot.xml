@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Naturally Stealthy</Name>
+      <Text>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Lightfoot</Name>
+  <Description>For lightfoot halflings, neither the journey nor the destination matters more; the important thing is to keep moving. The life of a lightfoot is one long exploration with each new horizon, new town, or new face a chance to find something delightful.
+Lightfoot halflings typically travel in small bands, using whatever conveyance is convenient but just as easily striking out on foot. Bands consist of loosely related individuals, and when bands meet, membership frequently shifts. Lightfoot halflings typically excel at tasks related to travel – be it navigation, handling pack animals, foraging, sailing, and cartwright work – having tried their hand at all such things before or learned from other lightfoots met during their journeys.
+Lightfoot halflings are highly social, often as curious about other people as they are about what might lie around the next bend. They characteristically possess an easygoing and open attitude, curious about others and willing to share of themselves, which enables them to make friends easily. Their facile friendships and ease with partings can make lightfoot halflings seem disingenuous to others. Lightfoot halflings get stereotyped as flighty, easily distracted, fickle, and unreliable. But their friendships and courtships, if brief, tend to be genuine. The staid and stable life that most other people desire just isn't part of their character.
+Lightfoot halflings have all the racial traits of lightfoot halflings in the Player's Handbook. They share the skin, hair, and eye tones of humans, but most lightfoot halflings have hazel or brown eyes and brown hair. Lightfoot halflings don't grow facial hair except that males and females typically grow short sideburns.</Description>
+  <ParentRace>Halfling</ParentRace>
+</SubRace>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Elf Weapon Training</Name>
+      <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>longsword</string>
+        <string>shortsword</string>
+        <string>shortbow</string>
+        <string>longbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Fleet of Foot</Name>
+      <Text>Your base walking speed increases to 35 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>35</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Mask of the Wild</Name>
+      <Text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Wood Elf</Name>
+  <Description>Also called copper elves, or Sy'Tel'Quessir, wood elves are the most common elves remaining in Faerûn. Their ancestors left behind the strife of the Crown Wars millennia ago to found strongholds and settlements deep in the forests. Today, most wood elves stand guard over the ruins of the past, believing it their duty to preserve their fallen glory as an object lesson of the dangers of hubris.
+Wood elves tend to be hardier than other elves, more solid and grounded than their cousins. This attitude is reflected in their culture and traditions; wood elves tend more toward physical pursuits than do other elves, and they view ancient elven history with a more critical eye. To the wood elves, the "great" elven kingdoms were responsible for many equally great mistakes. They look upon the Sundering, the Crown Wars, the descent of the drow, and other calamities as the result of acts of arrogance on the part of their ancestors. Living around and amid the reminders of this arrogance, and standing witness to the rise and fall of many elven empires, wood elves see the place of elves in the world differently than moon or sun elves do. Wood elves seek a quiet harmony, not domination, with the wider world. 
+Sylvan counterparts of the sun elves and moon elves, wood elves eschew the cities and strongholds of their kin in favor of living close to nature. Wood elves have not claimed a large realm of their own since the kingdom of Eaerlann was destroyed millennia ago. Instead they maintain a number of smaller settlements, the better to keep those communities hidden or protected. Wood elves claim territory in the High Forest, the Great Dale, the Western Heartlands, and beyond. Some wood elves live in other elven communities and territories, where they serve as scouts, rangers, and hunters. 
+Despite seeing themselves as part of the world, wood elves don't commonly emerge from their homes to encounter non-elves. Likewise, in the deep woods and forests of the world, most wood elves don't come across members of other races. Adventurers, diplomats, couriers, and those who pursue similar professions are the exceptions, traveling far outside their sylvan domains and meeting a wide variety of folk.
+Wood elves in Faerûn have the racial traits of wood elves in the Player's Handbook. They have tan or coppery skin, with hair of wood brown, golden blond, black, or a shining metallic copper, and eyes of green, brown, or hazel.
+Skilled naturalists, wood elves often take up professions that allow them to remain close to the wild or to make use of their knowledge of woodcraft, wildlife, and forestry. Wood elves are more than capable in warfare, particularly archery. They are less magically inclined than their cousins, but have their fair share of practitioners of the Art, as well as clerics and many druids.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

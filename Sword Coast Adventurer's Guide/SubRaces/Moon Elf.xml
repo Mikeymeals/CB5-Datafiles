@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Elf Weapon Training</Name>
+      <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>longsword</string>
+        <string>shortsword</string>
+        <string>shortbow</string>
+        <string>longbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Cantrip</Name>
+      <Text>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Wizard and Cantrip</Condition>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <UniqueID>HIGH_ELF_CANTRIP</UniqueID>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write one extra language of your choice</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>HIGH_ELF_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Moon Elf</Name>
+  <Description>Also called silver elves, or Teu'Tel'Quessir, moon elves are more tolerant and adventurous than elves of other sorts. In ancient times, the dissolution of their empires dispersed moon elves among other races, and since then they have traditionally gotten along well with their non-elf neighbors. They mingle with other people while their kin remain in hidden settlements and secluded strongholds.
+Moon elves are sometimes seen as frivolous, especially by other elves. But it is the easygoing, fluid nature of their culture, philosophy, and personality that has enabled them to survive and flourish during and after tragic times in elven history. While communities of moon elves can be found in mainland Faerûn, many moon elves live in the settlements of other races, staying for a few seasons or several decades before moving on.
+To a moon elf, home can be among the members of one's family, clan, or other friends and loved ones. Moon elves who temporarily take up residence in or near sun elf communities aren't shy about expressing the opinion that their kin need to be less serious. In turn, the sun elves pretend to be more annoyed by their moon elf neighbors than they truly are, provided that the moon elves' whims and adventuresome urges don't cause serious disruption. Given that the moon elves usually move on before wearing out their welcome, such unrest rarely occurs.
+Moon elves have the racial traits of high elves in the Player's Handbook. They have pale skin with a bluish tint. Their hair runs the gamut of human colors, and some moon elves have hair of silvery white or various shades of blue. Their eyes are blue or green and have gold flecks.
+Given the race's love of travel, exploration, and new experiences, many moon elves become adventurers, utilizing their talents for warfare, woodcraft, and wizardry in different measures.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

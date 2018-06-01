@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Sunlight Sensitivity</Name>
+      <Text>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Drow Magic</Name>
+      <Text>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow Magic</Name>
+          <Text>You know the dancing lights cantrip. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Dancing Lights</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow Magic</Name>
+          <Text>You can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Faerie Fire</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow Magic</Name>
+          <Text>You can also cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Darkness</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Drow Weapon Training</Name>
+      <Text>You have proficiency with rapiers, shortswords, and hand crossbows.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Rapier</string>
+        <string>Shortbow</string>
+        <string>Crossbow, Hand</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Superior Darkvision</Name>
+      <Text>Your darkvision has a radius of 120 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>120</Range>
+    </VisionFeature>
+  </Features>
+  <Descriptions />
+  <Flavour>Dark Elf</Flavour>
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Drow</Name>
+  <Description>The drow are descended from the dark elves who retreated into the Underdark after the Crown Wars. They are infamous for their cruelty, evilness, and drive to dominate.
+For much of history, many believed that all drow were beings of inherent and irredeemable evil. In truth, most drow do align with evil, engaging in torture, slavery, murder, and other nefarious activities in the name of their demon-goddess. Almost always, dark elves who reject the ways of their people are exiled, or executed for being rebels, heretics, and insurrectionists who have turned against drow culture and the will of Lolth. But the existence of noble and self-sacrificing drow such as Liriel Baenre and Drizzt Do'Urden suggests that the evil of the drow isn't innate and can be overcome. The actions of these few heroic drow have tempered some people's opinions toward the race, although the appearance of a dark elf on the surface remains a rare event and a cause for alarm.
+Many drow in Faerun hail from Menzoberranzan, the infamous City of Spiders, or one of the other drow citystates in the Underdark, such as Jhachalkhyn or Ched Nasad. Dark elves encountered on the surface are usually found near entrances to the Underdark, because they are harmed by the light of day, which weakens them and their magic. Drow who become adventurers often do so after fleeing the oppressive, cruel theocracy of the city-states. Most of these individuals live as outcasts and wanderers, though a rare few find new homes with another race or culture. 
+Drow have the racial traits of dark elves in the Player's Handbook. Drow characters can come from any background, though most have a history that links to one of the drow city-states of the Underdark. 
+Inherent magical abilities and a preference for dark places make drow naturally adept as assassins, thieves, and spies. Traditionally, male drow are warriors and wizards, and female drow occupy leadership roles as warriors or priestesses of Lolth. Drow exiles tend to follow their own path regardless of gender.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

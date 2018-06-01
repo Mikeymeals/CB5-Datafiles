@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Artificer’s Lore</Name>
+      <Text>Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Language</Name>
+      <Text>You can speak, read, and write Common and two other languages of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>2</Amount>
+      <UniqueID>AETHERBORN_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Rock Gnome</Name>
+  <Description>When most folk on the Sword Coast and in the North talk about gnomes, they mean rock gnomes. Unlike their shy forest cousins, the inquisitive and irrepressible rock gnomes interact regularly with individuals of other races, especially if those individuals have something to teach them. Rock gnomes prefer to live on the edges of other settlements in their own enclaves, though the occasional adventuresome rock gnome takes up residence in a human or dwarven city.
+Rock gnome communities are most common in the Western Heartlands and along the coast of the Shining Sea; but gnome wanderers travel between communities across Faerûn in order to trade with or learn from outsiders, including members of other races.
+Rock gnomes who leave their communities often find work by using their racial aptitudes to their advantage. Their heritage and their interest in precious stones leads many rock gnomes to become skilled gemcutters and jewelers. Rock gnomes also use their affinity with machines to work as tinkers, alchemists, and engineers. In human communities, gnome tutors and sages are popular, since their comparatively long life spans enable them to acquire and pass on knowledge for generations. 
+Rock gnomes in Faerûn have the racial traits of rock gnomes in the Player's Handbook.</Description>
+  <ParentRace>Gnome</ParentRace>
+</SubRace>

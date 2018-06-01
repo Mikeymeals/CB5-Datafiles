@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>1</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Superior Darkvision</Name>
+      <Text>Your darkvision has a radius of 120 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>120</Range>
+    </VisionFeature>
+    <Feature>
+      <Keywords />
+      <Name>Stone Camouflage</Name>
+      <Text>You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write Undercommon.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Undercommon</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>Svirfneblin Subrace Traits</Name>
+      <Text>The svirfneblin subrace has the gnome traits in the Player's Handbook, plus the subrace traits below. Unlike other gnomes, svirfneblin tend to be neutral, they weigh 80 to 120 pounds, and they reach maturity at 25 and live 200 to 250 years.</Text>
+    </Description>
+  </Descriptions>
+  <Flavour>Deep Gnome</Flavour>
+  <Source>Sword Coast Adventurer's Guide</Source>
+  <Name>Svirfneblin</Name>
+  <Description>Also known as svirfneblin, the deep gnomes of the Underdark are a stark contrast to their surface kin, dour and serious compared to the cheerful and generally optimistic rock gnomes and forest gnomes. They share their cousins' obsession with privacy, and their homes below the surface of Faerûn are well guarded and deeply hidden.
+Owing to the hostility of their Underdark neighbors, particularly the drow, the settlements and kingdoms of svirfneblin are in constant danger of being relocated, conquered, or destroyed. Such was the fate of Blingdenstone, one of the grandest deep gnome strongholds, which existed for more than two thousand years until it was overrun a little more than a century ago by the dark elves of Menzoberranzan. The deep gnomes recently reclaimed their old home, and now struggle to rid it of malign influences that have crept into the tunnels and warrens in their absence.
+Deep gnomes are lean with dark, earthen skin tones of gray. Males are bald and beardless, while females have hair on their heads. Both sexes have little or no body hair and a stone-like look to their skin. 
+Deep gnome adventurers are just as curious and daring as those of other races. Some find their purpose living among other subterranean races, and a few make their way to the surface. Those who study the arcane arts of illusion in particular often range far from home, seeking knowledge unavailable in their own lands.</Description>
+  <ParentRace>Gnome</ParentRace>
+</SubRace>
