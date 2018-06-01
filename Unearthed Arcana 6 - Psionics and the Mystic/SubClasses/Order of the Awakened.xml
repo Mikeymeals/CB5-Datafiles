@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_AWAKENED_DISCIPLINE</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Awakened</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_AWAKENED_DISCIPLINE</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Awakened</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_AWAKENED_DISCIPLINE</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Awakened</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Mind Thrust</Name>
+      <Text>At 1st level, you learn a deadly technique for channeling disruptive psychic energy into another creature’s mind. As an action, you make a ranged attack against a creature within 120 feet of you. You must be able to perceive the creature, but you do not need to see it. The target uses its Intelligence score in place of its AC against this attack, and gains no benefit from cover. You do not have disadvantage on your attack roll if a hostile creature is within 5 feet of you.
+On a hit, the target takes 1d8 psychic damage. You can increase this damage by spending psi points (up to your psi maximum) before making your attack roll. The attack deals an extra 1d8 psychic damage for each psi point you spend.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Psychic Mind</Name>
+      <Text>At 1st level, your mastery of psionic power allows you to tap directly into the minds of others. You can communicate telepathically with any creature you can see within 100 feet of you. You don’t need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. You can allow a creature to respond to you telepathically, but it must understand at least one language in order to communicate this way.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Object Reading</Name>
+      <Text>At 3rd level, you can focus your mind to read the psionic imprint left on an object. If you hold an object and concentrate on it for 10 minutes, you learn a few basic facts about it. You gain a mental image from the object’s point of view, showing the last creature to hold the object, regardless of how long ago it was last handled.
+You also learn of any events that have occurred within 20 feet of the object within the past 24 hours. The events you perceive unfold from the object’s perspective. You see and hear such events as if you were there, but cannot use other senses. Additionally, when you use Object Reading on an object, you can choose to embed a psychic sensor within the object. For the next 24 hours, you can use an action to learn the object’s location relative to you (its distance and direction) and to look at the objects surroundings from its point of view as if you were there.
+</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <TableDescription>
+      <Name>Discipline Overview</Name>
+      <Amount>0</Amount>
+      <Entries>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Title>Conquering Mind</Title>
+          <Text>Alter another creature’s mind</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Title>Intellect Fortress</Title>
+          <Text>Defend yourself with psychic counterattacks</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Title>Third Eye</Title>
+          <Text>Perceive what others cannot</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+  </Descriptions>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+  <Name>Order of the Awakened</Name>
+  <SheetName>Awakened</SheetName>
+  <Description>Mystics dedicated to the Order of the Awakened seek to unlock the full potential of the mind. By transcending the physical, the awakened hope to attain a perfect state of being—focused on pure
+intellect and mental energy. 
+The awakened are skilled at bending minds and unleashing devastating psionic attacks, and are able to read the secrets of the world through psionic energy. Awakened mystics who take to adventuring excel at unraveling mysteries, solving puzzles, and defeating monsters by turning them into unwilling pawns. 
+You choose disciplines from the awakened disciplines list. (Currently, only three disciplines are available for mystics of the Order of the Awakened. New disciplines will be added to this list as the playtest progresses.)</Description>
+  <ParentRace>Mystic</ParentRace>
+</SubClass>

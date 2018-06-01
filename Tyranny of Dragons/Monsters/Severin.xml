@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Severin</Name>
+  <Descriptions />
+  <Source>Tyranny of Dragons</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <HP>150</HP>
+  <HPRoll>20d8+60</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>While wearing the mask of the Dragon Queen: acid</string>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>While wearing the mask of the Dragon Queen: fire</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>While wearing the mask of the Dragon Queen: charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>While wearing the Mask of the Dragon Queen: darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>Severin has the Mask of the Dragon Queen.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Draconic Majesty</Name>
+      <Text>Severin adds his Charisma bonus to his AC (included).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ignite Enemy</Name>
+      <Text>If Severin deals fire damage to a creature while wearing the Mask of the Dragon Queen, the target catches fire. At the start of each of its turns, the burning target takes 5 (1d10) fire damage. A creature within reach of the fire can use an action to extinguish it.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (5/Day)</Name>
+      <Text>While wearing the Mask of the Dragon Queen, if Severin fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Burning Touch</Name>
+      <Text>Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 18 (4d8) fire damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>4d8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Flaming Orb</Name>
+      <Text>Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit: 40 (9d8) fire damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>9d8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Scorching Burst</Name>
+      <Text>Severin chooses a point he can see within 60 feet of him. Each creature within 5 feet of that point must make a DC 17 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>4d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Attack</Name>
+      <Text>If Severin is wearing the Mask of the Dragon Queen, he can take 3 legendary actions, choosing from the options listed. Only one legendary action option can be used at a time and only at the end of another creature's turn. Severin regains spent legendary actions at the start of his turn.
+Severin makes one attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Fiery Teleport (Costs 2 Actions)</Name>
+      <Text>Severin, along with any objects he is wearing or carrying, teleports up to 60 feet to an unoccupied space he can see. Each creature within 5 feet of Severin before he teleports takes 5 (1dlO) fire damage.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>1d10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hellish Chains (Costs 3 Actions)</Name>
+      <Text>Severin targets one creature he can see within 30 feet of him. The target is wrapped in magical chains of fire and restrained. The restrained target takes 21 (6d6) fire damage at the start of each of its turns. At the end of its turns, the target can make a DC 17 Strength saving throw, ending the effect on itself on a success.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>6d6</Damage>
+    </MonsterAction>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

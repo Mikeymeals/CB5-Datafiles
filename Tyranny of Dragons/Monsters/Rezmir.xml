@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Rezmir</Name>
+  <Descriptions />
+  <Source>Tyranny of Dragons</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>half-black dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>15 with the Black Dragon Mask</ACText>
+  <HP>90</HP>
+  <HPRoll>12d8+36</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+    <string>Giant</string>
+    <string>Netherese</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>Rezmir has the Black Dragon Mask, Hazirawn, and an insignia of claws.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>Rezmir can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dark Advantage</Name>
+      <Text>Once per turn, Rezmir can deal an extra 10 (3d6) damage when she hits with a weapon attack, provided Rezmir has advantage on the attack roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Draconic Majesty</Name>
+      <Text>While wearing no armor and wearing the Black Dragon Mask, Rezmir adds her Charisma bonus to her AC (included).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immolation</Name>
+      <Text>When Rezmir is reduced to 0 hit points, her body disintegrates into a pile of ash.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (1/Day)</Name>
+      <Text>If Rezmir fails a saving throw while wearing the Black Dragon Mask, she can choose to succeed instead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Greatsword (Hazirawn)</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) necrotic damage. If the target is a creature, it can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6+6+2d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Caustic Bolt</Name>
+      <Text>Ranged Spell Attack: +8 to hit, range 90 ft., one target. Hit: 18 (4d8) acid damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>4d8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Acid Breath (Recharge 5-6)</Name>
+      <Text>Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>5d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Darkness (Costs 2 Actions)</Name>
+      <Text>If she is wearing the Black Dragon Mask, Rezmir can take up to two legendary actions between each of her turns, taking the actions all at once or spreading them over the round. A legendary action can be taken only at the start or end of a turn.
+A 15-foot radius of magical darkness extends from a point Rezmir can see within 60 feet of her and spreads around corners. The darkness lasts as long as Rezmir maintains concentration, up to 1 minute. A creature with darkvision can't see through this darkness, and no natural light can illuminate it. If any of the area overlaps with a area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Attack</Name>
+      <Text>Rezmir makes one melee attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Hide</Name>
+      <Text>Rezmir takes the Hide action.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

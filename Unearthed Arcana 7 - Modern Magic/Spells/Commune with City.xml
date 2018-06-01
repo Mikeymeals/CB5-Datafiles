@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>technomagic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>divination</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ritual</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Commune with City</Name>
+  <CastingTime>1 minute</CastingTime>
+  <Range>Self</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>5</Level>
+  <Description>You briefly become one with the city and gain knowledge of the surrounding area. Aboveground, this spell gives you knowledge of the area within 1 mile of you. In sewers and other underground settings, you gain knowledge of the area within 600 feet of you.
+You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:
+• Terrain and bodies of water
+• Prevalent buildings, plants, animals, or intelligent creatures
+• Powerful CR 1 or higher celestials, fey, fiends, elementals, or undead
+• Influences from other planes of existence
+• Electrical currents, wireless signals, and active transit lines and tracks
+For example, you could determine the location of powerful undead in the area, the location of major sources of electrical power or i"nterference, and the location of any nearby parks. </Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 7 - Modern Magic</Source>
+</Spell>

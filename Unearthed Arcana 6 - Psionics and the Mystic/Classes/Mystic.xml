@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Disciplines</Name>
+      <Text>At 1st level, you know one discipline of your choice. You choose disciplines from the list included in your chosen order (see below). You learn additional disciplines of your choice at higher levels, as shown in the Disciplines Known column of the Mystic table.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Disciplines</Name>
+      <Text>2</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Disciplines</Name>
+      <Text>3</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Psi Maximum</Name>
+      <Text>Though you have access to a potent amount of psionic energy, it takes training and practice to channel that energy. You have a maximum number of psi points you can spend to activate a discipline based on your mystic level, as shown in the Psi Maximum column of the Mystic table.
+Maximum of 2 Psi Points.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Psi Maximum</Name>
+      <Text>Maximum of 3 Psi Points.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Psi Maximum</Name>
+      <Text>Maximum of 5 Psi Points.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Psi Points</Name>
+      <Text>You gain a pool of psi points based on your mystic level. (You start with 4.) Your psi point total returns to its maximum after you finish a long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>MYSTIC_PSI_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Psi Points</Name>
+      <Text>6</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>MYSTIC_PSI_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Psi Points</Name>
+      <Text>14</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>8</Value>
+      <ResourceID>MYSTIC_PSI_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Psi Points</Name>
+      <Text>17</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>MYSTIC_PSI_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Psi Points</Name>
+      <Text>27</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>10</Value>
+      <ResourceID>MYSTIC_PSI_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Using Disciplines</Name>
+      <Text>You activate a discipline as a bonus action, and must immediately concentrate on it. If a discipline grants a benefit for concentrating on it, you immediately gain that benefit. You continue to gain that benefit and can use the discipline’s optional features as long as you maintain your concentration on the discipline. 
+While you are concentrating on a discipline, you can spend psi points to augment the discipline’s effect. Each discipline details its optional effects and the type of action (if any) required to spend psi points on an option.
+You can end all effects of a discipline immediately by ending concentration on the discipline. If you want to end a single effect of a discipline but still maintain its other effects, you can end a specific effect as a bonus action.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Psionic Ability</Name>
+      <Text>Intelligence is your psionic ability for your mystic disciplines. Your intellect determines the strength of the psionic effects you manifest. In addition, you use your Intelligence modifier when setting the saving throw DC for a mystic discipline or when making an attack roll with one.
+Discipline save DC = 8 + your proficiency bonus + your Intelligence modifier
+Discipline attack modifier = your proficiency bonus + your Intelligence modifier</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Psionic Order</Name>
+      <Text>At 1st level, you choose a psionic order. Each order specializes in a specific type of psionic energy. Your order allows you to choose from its unique disciplines and grants you class features. (Currently, the two orders available for the mystic are the Order of the Awakened and the Order of the Immortal. Future orders will include the Order of the Knife and the Order of the Invisible Hand.)</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Mystic</ParentClass>
+    </SubClassFeature>
+    <Feature>
+      <Keywords />
+      <Name>Strength of Mind</Name>
+      <Text>The power of psionics comes from within, and even the simplest techniques require a deep mastery and understanding of how psionic energy can augment mind and body. This understanding allows you to alter your defenses to better deal with persistent threats.
+After completing a short or long rest, choose one ability score. You gain proficiency in saving throws using the chosen ability score. This benefit lasts until you finish your next short or long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>You can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>MYSTIC_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures />
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>Light armor, medium armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Armor and (Light or Medium))</Condition>
+      <Description>light armor, medium armor</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and Simple</Condition>
+      <Description>Simple weapons</Description>
+    </ToolKWProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Wisdom</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Wisdom</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose two skills from Arcana, History, Insight, Medicine, Nature, Perception, and Religion</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Arcana</string>
+        <string>History</string>
+        <string>Insight</string>
+        <string>Medicine</string>
+        <string>Nature</string>
+        <string>Perception</string>
+        <string>Religion</string>
+      </Skills>
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>MYSTIC_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a spear or (b) a mace</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Spear</string>
+        <string>Mace</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_EQUIPMENT_MAIN</UniqueID>
+    </ItemChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) leather armor or (b) scale mail</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Leather</string>
+        <string>Scale Mail</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_EQUIPMENT_ARMOR</UniqueID>
+    </ItemChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a light crossbow and 20 bolts or (b) any simple weapon</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A light crossbow and 20 bolts</Name>
+          <Text>a light crossbow and 20 bolts</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Crossbow, light</string>
+            <string>Crossbow Bolts</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <ItemChoiceConditionFeature>
+          <Keywords />
+          <Name>Any simple weapon</Name>
+          <Text>any simple weapon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>MYSTIC_EQUIPMENT_SIMPLE</UniqueID>
+          <Condition>Weapon and Simple</Condition>
+        </ItemChoiceConditionFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_EQUIPMENT_WEAPON</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a scholar’s pack or (b) an explorer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Scholar’s Pack</string>
+        <string>Explorer’s Pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_EQUIPMENT_PACK</UniqueID>
+    </ItemChoiceFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Mystic</Name>
+  <Description>A mystic draws upon the power of psionics—the energy of the mind—to create powerful effects.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a mystic, you gain the following class features.</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>8</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>8</HPFirstLevel>
+  <AverageHPPerLevel>5</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+  <MulticlassingCondition>false</MulticlassingCondition>
+</ClassDefinition>

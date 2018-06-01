@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>immortal</Name>
+        </Keyword>
+        <Keyword>
+          <Name>lesser</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Psionic Weapon</Name>
+      <Text>You channel psionic energy to lend devastating power to your attacks.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Lesser discipline (immortal)</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Psychic Focus</Name>
+          <Text>While focused on this discipline, you charge one nonmagical weapon you carry, or one of your fists, with psionic energy. Attacks you make with it are considered magical and have a +1 bonus to attack rolls and damage rolls.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Ethereal Weapon (1)</Name>
+          <Text>As a bonus action, you can momentarily transform a weapon you hold into psionic energy. The next attack you make with this weapon requires no attack roll. Instead, the target must make a Dexterity saving throw against this discipline. On a failed save, the target takes the attack’s normal damage and suffers any additional effects. On a successful save, the target takes half damage from the attack, but suffers no additional effects that would normally be imposed on a hit.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Lethal Strike (1–5)</Name>
+          <Text>When you hit a target with a melee weapon attack, you can increase the damage to that target. The target takes an extra 1d10 psychic damage for each psi point you spend.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Augmented Weapon (5, C)</Name>
+          <Text>As a bonus action, you touch one nonmagical weapon and infuse it with psionic energy. For up to 10 minutes, it is a magic weapon with a +3 bonus to attack rolls and damage rolls.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

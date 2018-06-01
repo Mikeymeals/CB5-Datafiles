@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>City Domain</Name>
+      <Text>Domain Spells:
+1st: comprehend languages, remote access
+2nd: find vehicle, heat metal
+3rd: lightning bolt, protection from ballistics
+4th: locate creature, synchronicity
+5th:commune with city, shutdown
+
+</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Heat Metal</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Channel Divinity: Spirits of the City</Name>
+          <Text>Starting at 2nd level, you can use your Channel Divinity to call on the city for aid. As an action, you present your holy symbol, and any city utility within 30 feet of you either works perfectly or shuts down entirely for 1 minute (your choice).
+Additionally, each hostile creature within 30 feet of you must make a Charisma saving throw. On a failed save, the creature is knocked prone or restrained (your choice) by hazards such as entangling wires, high[pressure water erupting from fire hydrants, pavement collapsing to unseen potholes, and so on. A restrained creature can escape by making a successful Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC.
+This effect is entirely local and affects only utilities within 30 feet of you. Determination of what utilities are available within range and how the physical effects of those utilities manifest are left to the DM.</Text>
+          <Level>2</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Bonus Cantrip</Name>
+          <Text>When you choose this domain at 1st level, you gain the on/off'cantrip (see “New Spells”) in addition to your chosen cantrips.</Text>
+          <Level>6</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>On/Off</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+          </KeywordsToAdd>
+        </BonusSpellFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Heart of the City</Name>
+          <Text>From 1st level, you are able to tap into the spirit of community found in the city. While you are within any city, you can gain advantage on a single Charisma (Deception, Intimidation, or Persuasion) check, and you are considered proficient in the appropriate skill. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain any expended uses when you finish a long rest.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>Min(1, WisMod)</Value>
+          <ResourceID>WIZARD_THEURGY_CITY_HEART_OF_THE_CITY</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name>Block Watch</Name>
+          <Text>Starting at 6th level, your awareness while in the city extends preternaturally. While in an urban environment, you are considered proficient in the Insight and Perception skills, and you add double your proficiency bonus to Wisdom Insight and Wisdom Perception checks, instead of your normal proficiency bonus.</Text>
+          <Level>10</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Insight</string>
+            <string>Perception</string>
+          </Skills>
+          <ProficiencyMultiplier>2</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+        </SkillProficiencyFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Express Transit</Name>
+          <Text>At 17th level, you can use mass transit routes to transport instantaneously to other points in the city. Starting from a bus stop, train station, subway stop, or other suitable mass transit site within the city, you can teleport to any other similar transit stop within the city, as if you had cast a teleport'spell whose destination is a permanent teleportation circle you know. Once you use this feature, you must finish a short or long rest before using it again.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>WIZARD_THEURGY_CITY_EXPRESS_TRANSIT</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Unearthed Arcana 7 - Modern Magic</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 7 - Modern Magic</Source>
+</FeatureContainer>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Favored Enemy</Name>
+      <Text>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
+Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.
+You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.
+You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FAVORED_ENEMY</UniqueID>
+      <Collection>Category = 'Feats/Favored Enemy'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Favored Enemy</Name>
+      <Text>An additional favored enemy</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FAVORED_ENEMY</UniqueID>
+      <Collection>Category = 'Feats/Favored Enemy'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Favored Enemy</Name>
+      <Text>An additional favored enemy</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FAVORED_ENEMY</UniqueID>
+      <Collection>Category = 'Feats/Favored Enemy'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Natural Explorer</Name>
+      <Text>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.
+While traveling for an hour or more in your favored terrain, you gain the following benefits: 
+• Difficult terrain doesn’t slow your group’s travel.
+• Your group can’t become lost except by magical means.
+• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
+• If you are traveling alone, you can move stealthily at a normal pace.
+• When you forage, you find twice as much food as you normally would.
+• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.
+You choose additional favored terrain types at 6th and 10th level.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FAVORED_TERRAIN</UniqueID>
+      <Collection>Category = 'Feats/Favored Terrain'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Natural Explorer</Name>
+      <Text>An additional favored terrain</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FAVORED_TERRAIN</UniqueID>
+      <Collection>Category = 'Feats/Favored Terrain'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Natural Explorer</Name>
+      <Text>An additional favored terrain</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FAVORED_TERRAIN</UniqueID>
+      <Collection>Category = 'Feats/Favored Terrain'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Fighting Style</Name>
+      <Text>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_STYLE</UniqueID>
+      <Collection>Category = 'Feats/Fighting Styles' and Ranger</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Combat Superiority</Name>
+      <Text>At 2nd level, you learn maneuvers that are fueled by special dice called superiority dice.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>You learn two maneuvers of your choice, which are chosen from the list of maneuvers available to fighters with the Battle Master archetype. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+You learn one additional maneuver of your choice at 5th, 9th, 13th, and 17th levels. Each time you learn a new maneuver, you can also replace one maneuver you know with a different one. </Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>RANGER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>One additional maneuver</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>RANGER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>One additional maneuver</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>RANGER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>One additional maneuver</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>RANGER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>One additional maneuver</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>RANGER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Superiority Dice</Name>
+      <Text>You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+You gain another superiority die at 9th level and one more at 17th level. </Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:
+Maneuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Primeval Awareness</Name>
+      <Text>Beginning at 3rd level, you can use your action to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number. If you use this feature you can't use it again until you finish a short or long rest.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>RANGER_PRIMEVAL_AWARENESS</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Poultices</Name>
+      <Text>At 3rd level, you can create special herbal poultices that have healing power comparable to some potions. You can spend 1 hour gathering herbs and preparing herbal poultices using treated bandages to create a number of such poultices equal to your Wisdom modifier (minimum 1). You can carry a number of poultices at one time equal to your Wisdom modifier (minimum 1). The poultices you create cannot be applied by anyone but you. After 24 hours, any poultices that you have not used lose their potency.
+If you spend 1 minute applying one of your poultices to a wounded humanoid creature, thereby expending its use, that creature regains 1d6 hit points for every two ranger levels you have (rounded up).</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>Max(1, WisMod)</Value>
+      <ResourceID>RANGER_POULTICES</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Extra Attack</Name>
+      <Text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+    <Feature>
+      <Keywords />
+      <Name>Land’s Stride</Name>
+      <Text>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</Text>
+      <Level>8</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Natural Antivenom</Name>
+      <Text>Starting at 9th level, you have advantage on saving throws against poison and have resistance to poison damage. Additionally, you can use one of your poultices to cure one poison effect on the creature you are applying it to, in addition to restoring hit points.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>poison</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>poison</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Hide in Plain Sight</Name>
+      <Text>Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
+Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Call Natural Allies</Name>
+      <Text>Starting at 13th level, when you are in an area of your favored terrain, you can call natural creatures from that terrain to fight on your behalf, using your attunement to the natural world to convince them to aid you. The DM chooses beasts appropriate to the terrain to come to your aid from among those that could hear you and that are within 1 mile of you, in one of the following groups:
+• One beast of challenge rating 2 or lower
+• Two beasts of challenge rating 1 or lower
+• Four beasts of challenge rating 1/2 or lower
+• Eight beasts of challenge rating 1/4 or lower
+These beasts approach you from their current location, and will fight alongside you, attacking any creatures that are hostile to you. They are friendly to you and your comrades, and you roll initiative for the called creatures as a group, which takes its own turns. The DM has the creatures’ statistics.
+After 1 hour, these beasts return to their previous location. Once you use this feature, you cannot use it again in the same general area for 24 hours, since the same animals will not repeatedly heed your call.</Text>
+      <Level>13</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Vanish</Name>
+      <Text>Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Relentless</Name>
+      <Text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain  1 superiority die.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Feral Senses</Name>
+      <Text>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it. 
+You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Foe Slayer</Name>
+      <Text>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Multiclassing Proficiency</Name>
+      <Text>Light armor, medium armor, shields, simple weapons, martial weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Armor and Light) or (Armor and Medium) or Shield or (Weapon and Simple) or (Weapon and Martial)</Condition>
+      <Description>Light armor, medium armor, shields, simple weapons, martial weapons</Description>
+    </ToolKWProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Multiclassing Skills</Name>
+      <Text>Choose one from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Animal Handling</string>
+        <string>Athletics</string>
+        <string>Insight</string>
+        <string>Investigation</string>
+        <string>Nature</string>
+        <string>Perception</string>
+        <string>Stealth</string>
+        <string>Survival</string>
+      </Skills>
+      <Amount>1</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>RANGER_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+  </MulticlassingFeatures>
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>Light armor, medium armor, shields</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Amror and Light) or (Armor and Medium) or Shield</Condition>
+      <Description>Light armor, medium armor, shields</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons, martial weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Simple or Martial) and Weapon</Condition>
+      <Description>Simple weapons, martial weapons</Description>
+    </ToolKWProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Strength, Dexterity</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Strength Dexterity</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Animal Handling</string>
+        <string>Athletics</string>
+        <string>Insight</string>
+        <string>Investigation</string>
+        <string>Nature</string>
+        <string>Perception</string>
+        <string>Stealth</string>
+        <string>Survival</string>
+      </Skills>
+      <Amount>3</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>RANGER_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) scale mail or (b) leather armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Scale mail</string>
+        <string>Leather Armor</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>RANGER_EQUIP1</UniqueID>
+    </ItemChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) two shortswords or (b) two simple melee weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>Two shortswords</Name>
+          <Text>two shortswords</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Shortsword</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <ItemChoiceConditionFeature>
+          <Keywords />
+          <Name>Two simple melee weapon</Name>
+          <Text>two simple melee weapons</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>2</Amount>
+          <UniqueID>RANGER_EQUIP2B</UniqueID>
+          <Condition>Simple and Weapon and Melee</Condition>
+        </ItemChoiceConditionFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>RANGER_EQUIP2</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a dungeoneer’s pack or (b) an explorer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>dungeoneer’s pack</string>
+        <string>explorer’s pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>RANGER_EQUIP3</UniqueID>
+    </ItemChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A longbow and a quiver of 20 arrows</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Longbow</string>
+        <string>Arrow</string>
+        <string>Quiver</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Ranger</Name>
+  <Description>As an example of what the class feature replacement process might be like, we will remove spellcasting from the ranger class. Let’s say that in your campaign you want rangers to be a little bit more like Strider from the Lord of the Rings, and less overtly magical from the outset.
+The Spellcasting class feature has a big impact on the ranger class, so this is no small project. Start by evaluating what the Spellcasting feature is contributing to the class. In general, rangers have a more limited spell list (and know only a relatively small number of spells), and operate on the same halfspeed progression for spellcasting as the paladin does. Looking over the ranger’s spells, you might come to the following conclusions about what the Spellcasting feature contributes to the class:
+• Rangers have a lot of exploration utility in their spells, with access to magic such as detect poison and disease, beast sense, and conjure animals.
+• Rangers gain a lot of their combat potency from spells, especially hunter’s mark.
+• Rangers get some healing and restoration ability from spells such as cure wounds, lesser restoration, and protection from poison, which stave off the harm an adventurer might suffer while exploring in the wilderness.
+• Rangers get some combat control effects from their spells such as ensnaring strike, spike growth, and conjure barrage, all of which give the ranger a magical edge in combat.
+• At some levels at which the ranger gains access to new spell levels, this is the only class feature the character receives. As a result, the ranger will need additional class features at those levels to prevent them from providing nothing to the ranger aside from increased hit points.
+Given the usefulness of the cure wounds spell, and the greater need for healing at lower levels, let’s create a healing class feature that allows the ranger to create and apply herbal poultices—an improvement that is on par with drinking a potion at first, but one that will scale up as the ranger gains levels.
+Additionally, since the ranger is likely to need some extra combat utility that spells would normally provide, let’s add a version of the Combat Superiority class feature drawn from the Battle Master fighter. The maneuvers that Combat Superiority grants can provide a nice boost in combat, especially in matters of battlefield control. Looking at the fighter class, we can see that the Battle Master fighter’s Combat Superiority is sitting in a similar space as the spellcasting progression of the Eldritch Knight. We don’t want the ranger to outshine the Battle Master fighter, so we’re going to start the ranger with fewer maneuvers, scaling up as the ranger gains levels. Since we’re going to be replacing a one-half spellcasting progression, this means that we’ll need a few other features to bring this ranger up to par.
+At 9th and 13th levels are gaps where we can place some exploration-focused mechanics. Let’s model the first one on the protection from poison spell, and also give the poultice-creating class feature an improved effect. The second one we can model on the conjure animals spell, which can be useful both in exploration scenes and in combat scenes.
+At 17th level is another gap, which we can fix with an improvement on Combat Superiority. Fortunately, the Battle Master has a class feature that would fit in well in the concept of this ranger, so we can swap in the Relentless feature to make sure the ranger always has at least some ability to exercise control over the battlefield, even in the later part of an adventuring day. Finally, we need to consider the impact of these changes on other class features, and make adjustments as necessary. For example, the Beast Master archetype for the ranger has a Share Spells class feature at 15th level that will no longer work without a Spellcasting feature. If your nonspellcasting ranger decides to play a Beast Master, you will need to create a substitute class feature for Share Spells as well, perhaps something to help keep the ranger’s beast companion alive longer. Additionally, since Primeval Awareness requires the ranger to expend spell slots to activate the class feature, we can modify that feature to allow the ranger to use it once and regain its use after finishing a short or long rest.
+Here are the full descriptions of the new class features for our spell-less ranger:
+</Description>
+  <Descriptions />
+  <HitDie>10</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>10</HPFirstLevel>
+  <AverageHPPerLevel>6</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Unearthed Arcana 3 - Modifiying Classes</Source>
+  <MulticlassingCondition>true</MulticlassingCondition>
+</ClassDefinition>

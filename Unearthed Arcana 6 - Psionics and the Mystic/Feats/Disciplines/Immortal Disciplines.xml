@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Celerity</Name>
+      <Text>You channel psionic power into your body, honing your reflexes and agility to an incredible degree. In your eyes, the world seems to slow down while you continue to move as normal.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Psionic Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Celerity - Concentration</Name>
+          <Text>While concentrating on this discipline, your speed increases by 5 feet and you have advantage on Initiative checks.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Celerity - Rapid Reaction (1)</Name>
+          <Text>If you are surprised, you can spend 1 psi point to no longer be surprised.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Celerity - Seize the Initiative (*)</Name>
+          <Text>When you roll initiative, you can spend up to 5 psi points, gaining a +2 bonus to your initiative roll for each psi point spent.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Celerity - Surge of Speed (1)</Name>
+          <Text>As a bonus action, you can spend 1 psi point to increase your speed by 30 feet until the end of your turn. In addition, you do not provoke opportunity attacks this turn.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Celerity - Surge of Action (5)</Name>
+          <Text>As a bonus action, you can spend 5 psi points and gain an additional action this turn.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Iron Durability</Name>
+      <Text>This discipline grants you unmatched toughness and resilience on the battlefield.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Psionic Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Iron Durability - Concentration</Name>
+          <Text>While concentrating on this discipline, you gain a +1 bonus to AC. As an action, you can spend one Hit Die. You roll the die and add your Constitution modifier to it, then regain hit points equal to the total.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Iron Durability - Iron Hide (*)</Name>
+          <Text>As a reaction when you are attacked, you can spend up to 3 psi points, gaining a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack’s result but before applying its effects.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Iron Durability - Iron Resistance (5)</Name>
+          <Text>As an action, you can spend 5 psi points to gain resistance to acid, cold, fire, lighting, or thunder damage (your choice). This benefit lasts for 1 hour or until you use this option again.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Psionic Weapon</Name>
+      <Text>You channel psionic energy into a weapon you wield (including your unarmed strike), lending devastating power to your attacks.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Psionic Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Concentration</Name>
+          <Text>While concentrating on this discipline, you charge one weapon you carry with psionic energy. While you hold the psionic weapon, it becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. If you use this option on a magic weapon, use the weapon’s bonuses or the discipline’s bonuses, whichever are higher.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Ethereal Weapon (1)</Name>
+          <Text>Each time you attack with your psionic weapon, you can spend 1 psi point to transform it into pure psionic energy. You do not make your attack roll against the target’s AC. Instead, the target makes a Dexterity saving throw against this discipline. On a failed save, the target takes the attack’s normal damage and suffers its additional effects. On a successful save, the target takes half damage from the attack but suffers no additional effects that would normally be imposed on a hit.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Lethal Strike (*)</Name>
+          <Text>Each time you hit with your psionic weapon, you can spend up to 5 psi points to increase your damage. The attack deals an extra 1d10 damage of the same type dealt by the weapon for each psi point you spend.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Psionic Weapon - Augmented Weapon (5)</Name>
+          <Text>You can strengthen the energy that you have infused into your psionic weapon, increasing its bonus to attack rolls and damage rolls to +3 for 1 minute.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+</FeatureContainer>

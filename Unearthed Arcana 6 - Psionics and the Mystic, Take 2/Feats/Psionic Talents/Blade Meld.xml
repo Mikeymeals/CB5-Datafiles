@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>talent</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Blade Meld</Name>
+      <Text>As an action, you cause one simple or martial melee weapon you are holding to dissolve into your body. This process is harmless to you and the weapon. Until the weapon reappears, it is inaccessible, as are any of its properties. You can have only one weapon at a time affected in this way. You can summon the weapon to your hand as a bonus action. It reappears in your space if you are unconscious or dead.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

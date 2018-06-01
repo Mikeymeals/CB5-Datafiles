@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>immortal</Name>
+        </Keyword>
+        <Keyword>
+          <Name>lesser</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Iron Durability</Name>
+      <Text>This discipline grants you unmatched toughness and resilience on the battlefield.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Lesser discipline (immortal)</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Iron Durability - Psychic Focus</Name>
+          <Text>While focused on this discipline, you gain a +1 bonus to AC.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Iron Durability - Psionic Recovery (2)</Name>
+          <Text>As an action, you can spend up to two Hit Dice. Roll each die, add your Constitution modifier to it, and regain hit points equal to the total.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Iron Durability -Iron Hide (1–3)</Name>
+          <Text>As a reaction when you are attacked, you gain a +2 bonus to AC for each psi point you spend. You spend these points after learning the attack’s result but before applying its effects.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

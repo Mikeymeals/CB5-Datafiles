@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>talent</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Thought Spear</Name>
+      <Text>As an action, you psychically strike one creature that you can see within 120 feet of you. The target must succeed on an Intelligence saving throw or take 1d8 psychic damage.
+The talent’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+        <Keyword>
+          <Name>invocation</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Arcane Gunslinger</Name>
+      <Text>You can create a pact weapon that is a sidearm or long arm, and you can transform a magical sidearm or long arm into your pact weapon.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Pact of the Blade feature</Prerequisite>
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 7 - Modern Magic</Source>
+</FeatureContainer>

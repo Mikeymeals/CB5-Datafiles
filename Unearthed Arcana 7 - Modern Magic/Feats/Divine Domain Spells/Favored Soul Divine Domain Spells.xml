@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>City Domain</Name>
+      <Text>City Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>City Domain Spells</Name>
+          <Text>detect magic, magic missile</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Comprehend Languages</string>
+            <string>Remote Access</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>City Domain Spells</Name>
+          <Text>magic weapon, Nystul's magic aura</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Find Vehicle</string>
+            <string>Heat Metal</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>City Domain Spells</Name>
+          <Text>dispel magic, magic circle</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Lightning Bolt</string>
+            <string>Protection from Ballistics</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>City Domain Spells</Name>
+          <Text>arcane eye, Leomund's secret chest</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Locate Creature</string>
+            <string>Synchronicity</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>City Domain Spells</Name>
+          <Text>planar binding, teleportation circle</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Commune with City</string>
+            <string>Shutdown</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Unearthed Arcana 7 - Modern Magic</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 7 - Modern Magic</Source>
+</FeatureContainer>

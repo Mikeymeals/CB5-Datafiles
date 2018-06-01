@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the on/off cantrip, and the following new spells are added to the warlock spell list for you. See “New Spells” at the end of this article.
+infallible relay, remote access</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Infallible Relay</string>
+        <string>Remote Access</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>On/Off</Spell>
+      <SpellCastingAbility>Charisma</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>arcane hacking, digital phantom</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Arcane Hacking</string>
+        <string>Digital Phantom</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>haywire, invisibility to cameras</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Haywire</string>
+        <string>Invisibility to Cameras</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>conjure knowbot, system backdoor</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Conjure Knowbot</string>
+        <string>System Backdoor</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>shutdown, synchronicity</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Shutdown</string>
+        <string>Synchronicity</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Bonus Proficiency</Name>
+      <Text>At 1st level, you gain proficiency with hacking tools (see “Ability Checks and Hacking Tools,” below).</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Hacking Tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Information Surge</Name>
+      <Text>At 1st level, you gain the ability to temporarily render computerized devices inoperable. As an action, you can target a computerized device within 30 feet of you. If the targeted device is held or otherwise actively used by a living creature, that creature must make an Intelligence saving throw against your spell save DC. On a failed save, the targeted device ceases to function until the end of your next turn. If the targeted device is not held or used by a creature, the DM makes a special saving throw for the device with disadvantage and a +0 modifier. Certain shielded devices might negate the disadvantage, at the DM’s determination.
+Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_GHOST_MACHINE_INFORMATION_SURGE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Wire Walk</Name>
+      <Text>Starting at 6th level, you gain the ability to travel short distances over electrical wires, data lines, or telephone cables. As a bonus action, you can touch a device or socket connected to a hardwired network and teleport along this network to another device or socket within your line of sight. Once you use this feature, you can’t use it again until you finish a short or long rest.
+</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_GREAT_OLD_ONE_WIRE_WALK</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Personal Encryption</Name>
+      <Text>Beginning at 10th level, you have learned to apply your innate knowledge of encryption to your thoughts, memories, and presence. You have advantage on saving throws against scrying, thought detection, or any other method of magically learning your whereabouts or reading your thoughts. For any such effect that does not grant you a saving throw but which requires the creature targeting you to make an ability check, the check is made with disadvantage.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Technovirus</Name>
+      <Text>At 14th level, you gain the ability to infect a humanoid’s body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno[organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one.
+Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the command' spell. The target makes its saving throw against your command with disadvantage. You can issue this command at any time while the target remains infected.
+Once you use this feature, you can’t use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a lesser restoration spell.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 7 - Modern Magic</Source>
+  <Name>The Ghost in the Machine</Name>
+  <SheetName>Machine Pact Warlock</SheetName>
+  <Description>You have made a bargain for power granted by an entity that you believe to be completely digital. Whether it is a rogue AI or the spirit of a deceased hacker, the Ghost in the Machine is capable of feats that defy explanation.</Description>
+  <ParentRace>Warlock</ParentRace>
+</SubClass>

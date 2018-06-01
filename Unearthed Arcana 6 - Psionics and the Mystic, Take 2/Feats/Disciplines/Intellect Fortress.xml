@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>lesser</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Intellect Fortress</Name>
+      <Text>You forge an indomitable wall of psionic energy around your mind—one that allows you to launch reflexive counterattacks against your opponents.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Lesser discipline (awakened)</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Intellect Fortress - Psychic Focus</Name>
+          <Text>While focused on this discipline, you gain resistance to psychic damage.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intellect Fortress - Psychic Backlash (1)</Name>
+          <Text>As a reaction, you can impose disadvantage on one attack roll made against you if you can see the attacker. If the attack still hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intellect Fortress - Psychic Parry (1–3)</Name>
+          <Text>As a reaction when you make an Intelligence, a Wisdom, or a Charisma saving throw, you gain a +2 bonus to that saving throw for each psi point you spend. You can use this ability after rolling the die but before applying the result.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intellect Fortress - Psychic Redoubt (5, C)</Name>
+          <Text>As an action, you create a field of protective psychic energy. For the next 10 minutes, you and creatures of your choice gain the following benefits while within 30 feet of you: resistance to psychic damage and advantage on Intelligence, Wisdom, and Charisma saving throws.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

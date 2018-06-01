@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>talent</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Mind Meld</Name>
+      <Text>As a bonus action, you can communicate telepathically with one creature you can see within 120 feet of you. You don’t need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. You can allow a creature to respond to you telepathically, but it must understand at least one language in order to communicate this way. This ability to communicate lasts until the start of your next turn. You can’t communicate with an unwilling creature.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

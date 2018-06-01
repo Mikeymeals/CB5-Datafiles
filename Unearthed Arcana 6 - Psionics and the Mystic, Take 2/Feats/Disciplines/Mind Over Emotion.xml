@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>greater</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Mind Over Emotion</Name>
+      <Text>You learn to use psionic energy to manipulate others with a subtle combination of psi and your own, natural charm.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Greater discipline (awakened)</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Mind Over Emotion - Psychic Focus</Name>
+          <Text>While focused on this discipline, you gain a bonus to Charisma checks. The bonus equals half your Intelligence modifier (minimum bonus of +1).</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mind Over Emotion - Charming Presence (1–7)</Name>
+          <Text>As an action, you exert an aura of sympathetic power. Roll 2d8 per psi point you spend on this ability; the total is how many hit points worth of creatures this spell can affect. Creatures within 30 feet of you are affected in ascending order of their hit point maximum, ignoring unconscious creatures or creatures immune to this effect. Each creature affected by this ability is charmed by you for 10 minutes. While charmed, it regards you as a friendly acquaintance. A creature engaged in combat is immune to this effect.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mind Over Emotion - Revolting Presence (5, C)</Name>
+          <Text>As an action, you exert an aura of repulsive power. Up to five creatures of your choice that you can see within 30 feet of you must each make an Intelligence saving throw. On a failed save, a target is frightened of you for 10 minutes. While frightened, it takes psychic damage equal to twice your mystic level if it doesn’t end its turn at least 10 feet farther away from you than it was at the start of that turn. It can then make another Intelligence saving throw at the end of the turn. On a success, this effect ends.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mind Over Emotion - Invoke Awe (7, C)</Name>
+          <Text>As an action, you exert an aura that inspires awe and adulation in others. Up to five creatures of your choice that you can see within 60 feet of you must each make an Intelligence saving throw. On a failed save, the target is charmed by you for 10 minutes. While charmed, it obeys all your orders to the best of its ability and without risking its life. The target will only harm creatures that it has seen harm you since it first came under the effect of this ability. At the end of each of its turns it can make another Intelligence saving throw. On a success, this effect ends.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

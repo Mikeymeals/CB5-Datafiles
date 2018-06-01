@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>lesser</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Conquering Mind</Name>
+      <Text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Lesser discipline (awakened)</Prerequisite>
+      <Features>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Conquering Mind - Psychic Focus</Name>
+          <Text>While focused on this discipline, you gain proficiency in one of the following skills of your choice: Deception, Intimidation, Performance, or Persuasion. You can change the chosen skill each time you apply your focus to this discipline.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Deception</string>
+            <string>Intimidation</string>
+            <string>Performance</string>
+            <string>Persuasion</string>
+          </Skills>
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>MYSTIC_CONQUERING_MIND_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Exacting Query (2)</Name>
+          <Text>As an action, you target a creature that you can see within 120 feet of you. The target must make an Intelligence saving throw (it succeeds automatically if it is immune to being charmed). On a failed save, the target truthfully answers one brief question you ask it as part of this action, provided that it understands the question. On a successful save, the target is unaffected, and you can’t use this ability on it again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Occluded Mind (2)</Name>
+          <Text>As an action, you target a creature that you can see within 120 feet of you. The target must make an Intelligence saving throw (it succeeds automatically if it is immune to being charmed). On a failed save, the target believes one statement of your choice for the next 5 minutes, provided that it understands the statement. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected, and you can’t use this ability on it again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Broken Will (5)</Name>
+          <Text>As an action, you target a creature that you can see within 120 feet of you. The target must make an Intelligence saving throw. On a failed save, the target is charmed until the end of its next turn, during which you choose its movement and action. On a successful save, the target is unaffected, and you can’t use this ability on that creature again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Psychic Grip (7, C)</Name>
+          <Text>As an action, you target a creature you can see. The target must make an Intelligence saving throw. On a failed save, you overload the creature with psychic energy. The target is paralyzed for 1 minute, but at the end of each of its turns it can make another Intelligence saving throw. On a success, this effect ends. On a failure, you can use your reaction to force the target to move up to half its speed, despite being paralyzed.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

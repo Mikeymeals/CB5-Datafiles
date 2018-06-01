@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>greater</Name>
+        </Keyword>
+        <Keyword>
+          <Name>immortal</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Body of Wind</Name>
+      <Text>You and your possessions take on a gaseous quality, allowing you to move like a howling gale, squeeze through small spaces, and escape danger. You move with the lightest steps using this discipline.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Greater discipline (immortal)</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Body of Wind - Psychic Focus</Name>
+          <Text>While focused on this discipline, you take no falling damage and ignore difficult terrain.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Body of Wind - Wind Step (1–7)</Name>
+          <Text>As your move, you can fly up to 20 feet for each psi point you spend. You must land at the end of this movement, otherwise you fall, unless you have some means of staying aloft.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Move</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Body of Wind - Wind Form (5, C)</Name>
+          <Text>As an action, you gain a flying speed of 60 feet for 10 minutes. </Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Body of Wind - Misty Form (7, C)</Name>
+          <Text>As an action, your body becomes mist-like. In this form, you gain resistance to bludgeoning, piercing, and slashing damage. You can pass through openings that are no more than an inch wide. This benefit lasts for up to 1 hour.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic, Take 2</Source>
+</FeatureContainer>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Conquering Mind</Name>
+      <Text>By channeling psionic power, you gain the ability to control other creatures by substituting your will for their own.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Psionic Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Concentration</Name>
+          <Text>While concentrating on this discipline, you have advantage on Charisma checks. </Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Exacting Query (1)</Name>
+          <Text>As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target  makes an Intelligence saving throw. On a failed save, the target truthfully answers one question of your choice through the telepathic link of your Psychic Mind. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Occluded Mind (3)</Name>
+          <Text>As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 5 minutes. The statement can be up to ten words long, and must describe you or a creature or object the target can see. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Conquering Mind - Broken Will (5)</Name>
+          <Text>As an action, you target a creature you can see and that you can communicate with using your Psychic Mind feature. The target makes an Intelligence saving throw. On a failed save, you choose the target’s movement and action on its next turn. On a successful save, the target is unaffected and you cannot use this ability on that creature again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Intellect Fortress</Name>
+      <Text>You forge an indomitable wall of psionic energy around your mind—one that allows you to launch reflexive counterattacks against your opponents.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Psionic Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Intellect Fortress - Concentration</Name>
+          <Text>While concentrating on this discipline, as a reaction, you can impose disadvantage on  ranged attack or a melee attack made against you if you can see your attacker. If the attack hits you, the attacker takes psychic damage equal to half your mystic level (rounded up).</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Third Eye</Name>
+      <Text>This discipline grants you the ability to open a third eye within your mind, allowing you to perceive things that others miss.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Psionic Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Third Eye - Concentration</Name>
+          <Text>While concentrating on this discipline, you have blindsight with a radius of 30 feet.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Third Eye - Tremorsense (1)</Name>
+          <Text>As a bonus action, you gain tremorsense with a radius of 30 feet for 1 minute.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Third Eye - Unwavering Eye (1)</Name>
+          <Text>As a bonus action, you gain advantage on Wisdom checks for 1 minute.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Third Eye - Truesight (5)</Name>
+          <Text>As a bonus action, you gain truesight with a radius of 30 feet for 1 minute.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+</FeatureContainer>

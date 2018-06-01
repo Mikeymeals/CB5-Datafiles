@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_IMMORTAL_DISCIPLINE</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Immortal</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_IMMORTAL_DISCIPLINE</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Immortal</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_IMMORTAL_DISCIPLINE</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Immortal</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Durable Mind</Name>
+      <Text>At 1st level, you gain the ability to maintain your focus despite injury. Your concentration on a psionic discipline cannot be ended as a result of taking damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Martial Order</Name>
+      <Text>At 1st level, you gain proficiency with martial weapons and shields.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Weapon and Martial) or Shield</Condition>
+      <Description>martial weapons, shields</Description>
+    </ToolKWProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Psionic Regeneration</Name>
+      <Text>At 3rd level, you learn to use psionic energy to augment and speed up your natural healing abilities. At the end of your turn, if your current hit point total is half or less of your hit point maximum, you regain hit points equal to half your mystic level.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <TableDescription>
+      <Name>Discipline Overview</Name>
+      <Amount>0</Amount>
+      <Entries>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Title>Celerity</Title>
+          <Text>Move and act with unmatched speed</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Title>Iron Durability</Title>
+          <Text>Boost your defenses</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Title>Psionic Weapon</Title>
+          <Text>Channel psionic energy into a weapon</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+  </Descriptions>
+  <Source>Unearthed Arcana 6 - Psionics and the Mystic</Source>
+  <Name>Order of the Immortal</Name>
+  <SheetName>Immortal</SheetName>
+  <Description>The Order of the Immortal strives to achieve physical perfection by augmenting the body’s natural strength with psionic power. This order’s goal is for its members to achieve immortality by overcoming the effects of aging through rigorous discipline and psionic perfection. To members of this order, psionic energy is a tool to augment, control, and perfect the physical body.
+Those immortals who take up the adventuring life are skilled warriors. Their psionic abilities allow them to shrug off injuries and hazards, while focusing their strength and speed in combat.
+You choose disciplines from the immortal disciplines list. (Currently, only three disciplines are  available for mystics of the Order of the Immortal. New disciplines will be added to this list as the playtest progresses.)</Description>
+  <ParentRace>Mystic</ParentRace>
+</SubClass>
