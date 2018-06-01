@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Periapt of Health</Name>
+      <Text>You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant.
+</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>contracting any disease</string>
+        <string>effects of disease</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Periapt of Health</Name>
+  <Description>You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

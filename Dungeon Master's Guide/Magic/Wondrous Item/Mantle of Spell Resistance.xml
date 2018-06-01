@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Mantle of Spell Resistance</Name>
+      <Text>You have advantage on saving throws against spells while you wear this cloak.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>spells</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Mantle of Spell Resistance</Name>
+  <Description>You have advantage on saving throws against spells while you wear this cloak.</Description>
+  <Slot>None</Slot>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>
