@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Light Domain Spells</Name>
+      <Text>burning hands, faerie fire</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Burning Hands</string>
+        <string>Faerie Fire</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Light Domain Spells</Name>
+      <Text>flaming sphere, scorching ray</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Flaming Sphere</string>
+        <string>Scorching Ray</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Light Domain Spells</Name>
+      <Text>daylight, fireball</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Daylight</string>
+        <string>Fireball</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Light Domain Spells</Name>
+      <Text>guardian of faith, wall of fire</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Guardian of Faith</string>
+        <string>Wall of Fire</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Light Domain Spells</Name>
+      <Text>flame strike, scrying</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Flame Strike</string>
+        <string>Scrying</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bonus Cantrip</Name>
+      <Text>When you choose this domain at 1st level, you gain the light cantrip if you don’t already know it.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Light</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Warding Flare</Name>
+      <Text>Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature. 
+You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>Max(WisMod, 1)</Value>
+      <ResourceID>LIGHT_CLERIC_WARDING_FLARE</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Radiance of the Dawn</Name>
+      <Text>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.
+As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Improved Flare</Name>
+      <Text>Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Potent Spellcasting</Name>
+      <Text>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip</Text>
+      <Level>8</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Cleric and Cantrip</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>WisMod</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>0</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Corona of Light</Name>
+      <Text>Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Light Domain</Name>
+  <SheetName>Cleric of Light</SheetName>
+  <Description>Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods’ discerning vision, charged with chasing away lies and burning away darkness.</Description>
+  <ParentRace>Cleric</ParentRace>
+</SubClass>

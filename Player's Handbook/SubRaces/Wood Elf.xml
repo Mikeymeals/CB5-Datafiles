@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Elf Weapon Training</Name>
+      <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>longsword</string>
+        <string>shortsword</string>
+        <string>shortbow</string>
+        <string>longbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Fleet of Foot</Name>
+      <Text>Your base walking speed increases to 35 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>35</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Mask of the Wild</Name>
+      <Text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Wood Elf</Name>
+  <Description>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.
+Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

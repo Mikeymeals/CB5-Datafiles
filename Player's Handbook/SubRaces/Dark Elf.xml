@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Sunlight Sensitivity</Name>
+      <Text>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Drow Magic</Name>
+      <Text>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can also cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow Magic</Name>
+          <Text>You know the dancing lights cantrip. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Dancing Lights</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow Magic</Name>
+          <Text>You can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Faerie Fire</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow Magic</Name>
+          <Text>You can also cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Darkness</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Drow Weapon Training</Name>
+      <Text>You have proficiency with rapiers, shortswords, and hand crossbows.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Rapier</string>
+        <string>Shortbow</string>
+        <string>Crossbow, Hand</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Superior Darkvision</Name>
+      <Text>Your darkvision has a radius of 120 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>120</Range>
+    </VisionFeature>
+  </Features>
+  <Descriptions />
+  <Flavour>Drow</Flavour>
+  <Source>Player's Handbook</Source>
+  <Name>Dark Elf</Name>
+  <Description>Descended from an earlier subrace of dark-skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth. Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes (so pale as to be mistaken for white) in shades of lilac, silver, pink, red, and blue. They tend to be smaller and thinner than most elves.
+Drow adventurers are rare, and the race does not exist in all worlds. Check with your Dungeon Master to see if you can play a drow character.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

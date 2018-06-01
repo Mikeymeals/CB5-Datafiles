@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard and Cantrip</AvailableSpellChoices>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <UniqueID>ELDRITCH_KNIGHT_CANTRIP</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_CANTRIP</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Preparing and Casting Spells</Name>
+      <Text>The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+For example, if you know the  1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shieldusing either slot.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>LearnSpells</Preparation>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <PrepareableSpells>false</PrepareableSpells>
+      <OverwrittenByMulticlassing>true</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>false</IgnoreMulticlassing>
+      <DisplayName>Eldritch Knight</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>Intelligence</SpellcastingAbility>
+      <PrepareCountPerClassLevel>1</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PreparationChange>LongRest</PreparationChange>
+    </SpellcastingFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spells Known of 1st-Level and Higher</Name>
+      <Text>You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.
+The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
+The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you’re replacing the spell you gained at 8th, 14th, or 20th level.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Level 1 evocation and abjuration spells</Name>
+      <Text>You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard and (Evocation or Abjuration) and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Level 1 any spell</Name>
+      <Text>You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <UniqueID>ELDRITCH_KNIGHT_ANY</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>1</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>4</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>5</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>6 (2 of any school)</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>7</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>8</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>9</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>10 (3 of any school)</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>11</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>12</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>13 (4 of any school)</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ELDRITCH_KNIGHT_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Ability</Name>
+      <Text>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+Spell attack modifier = your proficiency bonus + your Intelligence modifier</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 2</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 3</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 2</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 2</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 3</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 3, 4th: 1</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>3</int>
+        <int>1</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <Feature>
+      <Keywords />
+      <Name>Weapon  Bond</Name>
+      <Text>At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
+Once you have bonded a weapon to yourself, you can’t be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
+You can have up to two bonded w eapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Weapon  Bond</Name>
+      <Text>Once you have bonded a weapon to yourself, you can’t be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
+You can have up to two bonded w eapons, but can summon only one at a time with your bonus action.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>War Magic</Name>
+      <Text>Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Eldritch Strike</Name>
+      <Text>At 10th level, you learn how to make your weapon strikes undercut a creature’s resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Arcane Charge</Name>
+      <Text>At  15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Improved War Magic</Name>
+      <Text>Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels>
+    <int>0</int>
+    <int>0</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>2</int>
+    <int>2</int>
+    <int>2</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>4</int>
+    <int>4</int>
+    <int>4</int>
+    <int>5</int>
+    <int>5</int>
+    <int>5</int>
+    <int>6</int>
+    <int>6</int>
+    <int>6</int>
+  </MulticlassingSpellLevels>
+  <Descriptions>
+    <Description>
+      <Name>Spellcasting</Name>
+      <Text>When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Player's Handbook</Source>
+  <Name>Eldritch Knight</Name>
+  <SheetName>Eldritch Knight</SheetName>
+  <Description>The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic: abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter’s reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.</Description>
+  <ParentRace>Fighter</ParentRace>
+</SubClass>

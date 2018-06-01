@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Combat Wild Shape</Name>
+      <Text>When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action. Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
+</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <UniqueID>DRUID_WILDSHAPE</UniqueID>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Combat Wild Shape</TraitBonusName>
+      <TraitBonusText>While you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsFeature>
+      <Keywords />
+      <Name>Circle Forms</Name>
+      <Text>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).
+Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <DisplayName>WIld Shape</DisplayName>
+      <UniqueID>DRUID_WILDSHAPE</UniqueID>
+      <FormsCompanionsOptions>beast and (cr &lt;= 1 or classlevel &gt;= 6 and cr &lt;= Floor(classlevel/3)) and (not flying or classlevel &gt;= 8) and (not swimming or classlevel &gt;= 4)</FormsCompanionsOptions>
+      <FormsCompanionsCount>-1</FormsCompanionsCount>
+    </FormsCompanionsFeature>
+    <Feature>
+      <Keywords />
+      <Name>Primal Strike</Name>
+      <Text>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <FormsCompanionsFeature>
+      <Keywords />
+      <Name>Elemental Wild Shape</Name>
+      <Text>At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <DisplayName>Elemental Wild Shape</DisplayName>
+      <UniqueID>DRUID_WILDSHAPE</UniqueID>
+      <FormsCompanionsOptions>Name = "Air Elemental" or Name = "Earth Elemental" or Name = "Fire Elemental" or Name = "Water Elemental"</FormsCompanionsOptions>
+      <FormsCompanionsCount>-1</FormsCompanionsCount>
+    </FormsCompanionsFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Thousand Forms</Name>
+      <Text>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Alter Self</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Circle of the Moon</Name>
+  <SheetName>Druid of the Moon</SheetName>
+  <Description>Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
+Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.</Description>
+  <ParentRace>Druid</ParentRace>
+</SubClass>

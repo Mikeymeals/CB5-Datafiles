@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Stout Resilience</Name>
+      <Text>You have advantage on saving throws against poison, and you have resistance against poison damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities>
+        <string>poison</string>
+      </Vulnerabilities>
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>poison</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Stout</Name>
+  <Description>As a stout halfling, you’re hardier than average and have some resistance to poison. Som e say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.</Description>
+  <ParentRace>Halfling</ParentRace>
+</SubRace>

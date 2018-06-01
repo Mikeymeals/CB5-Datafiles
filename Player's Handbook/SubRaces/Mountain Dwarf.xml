@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Dwarven Armor Training</Name>
+      <Text>You have proficiency with light and medium armor.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and (Light or Medium)</Condition>
+      <Description>all light and medium armor</Description>
+    </ToolKWProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Mountain Dwarf</Name>
+  <Description>As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerun, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.</Description>
+  <ParentRace>Dwarf</ParentRace>
+</SubRace>

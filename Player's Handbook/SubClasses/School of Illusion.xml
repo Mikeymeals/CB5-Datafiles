@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Illusion Savant</Name>
+      <Text>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an illusion spell into your spellbook is halved.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Improved Minor Illusion</Name>
+      <Text>When you choose this school at 2nd level, you learn the minor illusion cantrip. If you already know this cantrip, you learn a different w izard cantrip of your choice. The cantrip doesn’t count against your number of cantrips known.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WIZARD_CANTRIP</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Improved Minor Illusion</Name>
+      <Text>When you cast minor illusion, you can create both a sound and an image with a single casting of the spell.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>Name = "minor illusion"</Spells>
+    </SpellModifyFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Malleable Illusions</Name>
+      <Text>Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell’s norm al parameters for the illusion), provided that you can see the illusion.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spells>Illusion</Spells>
+    </SpellModifyFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Illusory Self</Name>
+      <Text>Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.
+Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SCHOOL_OF_ILLUSION_ILLUSIONARY_SELF</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Illusory Reality</Name>
+      <Text>By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semireality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.
+The object can’t deal damage or otherwise directly harm anyone.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>Illusion</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>School of Illusion</Name>
+  <SheetName>Illusionist</SheetName>
+  <Description>You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists—including many gnome w izards—are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.</Description>
+  <ParentRace>Wizard</ParentRace>
+</SubClass>

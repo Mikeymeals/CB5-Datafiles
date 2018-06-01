@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>War Domain Spells</Name>
+      <Text>divine favor, shield of faith</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Divine Favor</string>
+        <string>Shield of Faith</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>War Domain Spells</Name>
+      <Text>magic weapon, spiritual weapon</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Magic Weapon</string>
+        <string>Spiritual Weapon</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>War Domain Spells</Name>
+      <Text>crusader’s mantle, spirit guardians</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Crusader's Mantle</string>
+        <string>Spirit Guardians</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>War Domain Spells</Name>
+      <Text>freedom of movement, stoneskin</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Freedom of Movement</string>
+        <string>Stoneskin</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>War Domain Spells</Name>
+      <Text>flame strike, hold monster</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Flame Strike</string>
+        <string>Hold Monster</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Bonus Proficiency</Name>
+      <Text>At 1st level, you gain proficiency with martial weapons and heavy armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Heavy and Armor) or (Martial and Weapon)</Condition>
+      <Description>Martial Weapons, Heavy Armor</Description>
+    </ToolKWProficiencyFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>War Priest</Name>
+      <Text>From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>Max(WisMod, 1)</Value>
+      <ResourceID>WAR_CLERIC_WAR_PRIEST</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Guided Strike</Name>
+      <Text>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: War God’s Blessing</Name>
+      <Text>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Divine Strike</Name>
+      <Text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</Text>
+      <Level>8</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and ClassLevel &lt; 14</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d8 (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+2d8 (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Avatar of Battle</Name>
+      <Text>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>slashing damage from nonmagical attacks</string>
+        <string>piercing damage from nonmagical attacks</string>
+        <string>bludgeoning damage from nonmagical attacks</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>War Domain</Name>
+  <SheetName>Cleric of War</SheetName>
+  <Description>War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, prom oting war in all its manifestations and supporting warriors in any circumstance.</Description>
+  <ParentRace>Cleric</ParentRace>
+</SubClass>

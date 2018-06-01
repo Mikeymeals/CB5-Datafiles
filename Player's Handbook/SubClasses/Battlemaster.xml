@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>You learn three maneuvers of your choice, which are detailed under “Maneuvers” below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+You learn two additional maneuvers of your choice at 7th,  10th, and  15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>3</Amount>
+      <UniqueID>BATTLEMASTER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>Two additional maneuvers</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>BATTLEMASTER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>Two additional maneuvers</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>BATTLEMASTER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>Two additional maneuvers</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>BATTLEMASTER_MANEUVER</UniqueID>
+      <Collection>Category='Feats/Battlemaster Maneuvers'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Superiority Dice</Name>
+      <Text>You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest. 
+You gain another superiority die at 7th level and one more at 15th level.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:
+Maneuver save DC = 8+ your proficiency bonus + your Strength or Dexterity modifier (your choice)</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Student of War</Name>
+      <Text>At 3rd level, you gain proficiency with one type of artisan’s tools of your choice.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>BATTLEMASTER_TOOL</UniqueID>
+      <Condition>Tool and Artisan</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <Feature>
+      <Keywords />
+      <Name>Know your Enemy</Name>
+      <Text>Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard 
+to two of the following characteristics of your choice:
+•  Strength score
+•  Dexterity score
+•  Constitution score
+•  Armor Class
+•  Current hit points
+•  Total class levels (if any)
+•  Fighter class levels (if any)
+</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Improved Combat Superiority</Name>
+      <Text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Relentless</Name>
+      <Text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain  1 superiority die.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Combat Superiority</Name>
+      <Text>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Player's Handbook</Source>
+  <Name>Battlemaster</Name>
+  <SheetName>Battlemaster</SheetName>
+  <Description>Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.</Description>
+  <ParentRace>Fighter</ParentRace>
+</SubClass>

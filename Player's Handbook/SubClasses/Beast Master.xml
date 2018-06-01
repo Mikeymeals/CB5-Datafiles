@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <FormsCompanionsFeature>
+      <Keywords />
+      <Name>Ranger’s Companion</Name>
+      <Text>At 3rd level, you gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower (appendix D presents statistics for the hawk, mastiff, and panther as examples). Add your proficiency bonus to the beast’s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.
+The beast obeys your commands as best as it can. It takes its turn on your initiative, though it doesn’t take an action unless you command it to. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, Dodge, or Help action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action. 
+While traveling through your favored terrain with only the beast, you can move stealthily at a norm al pace.
+If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn’t hostile to you, either the same type of beast as before or a different one.
+If you are incapacitated or absent, your beast companion acts on its own, focusing on  protecting you and itself. It never requires your command to use its reaction, such as when making an opportunity attack.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <DisplayName>Ranger’s Companion</DisplayName>
+      <UniqueID>RANGER_COMPANION</UniqueID>
+      <FormsCompanionsOptions>(Size = 'Tiny' or Size = 'Small' or Size = 'Medium') and cr &lt;= 0.25</FormsCompanionsOptions>
+      <FormsCompanionsCount>1</FormsCompanionsCount>
+    </FormsCompanionsFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Ranger's Companion</Name>
+      <Text />
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_COMPANION</UniqueID>
+      <HPBonus>Max(value, ClassLevel * 4)</HPBonus>
+      <ACBonus>value  + ProficiencyBonus</ACBonus>
+      <SavesBonus>if(Proficient, value  + ProficiencyBonus, value)</SavesBonus>
+      <SkillsBonus>if(Proficient, value  + ProficiencyBonus, value)</SkillsBonus>
+      <AttackBonus>value + ProficiencyBonus</AttackBonus>
+      <DamageBonus>ProficiencyBonus</DamageBonus>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Ranger's Companion</TraitBonusName>
+      <TraitBonusText>Add your proficiency bonus to the beast’s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Exceptional Training</Name>
+      <Text>Beginning at 7th level, on any of your turns when your beast companion doesn’t attack, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on its turn.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Bestial Fury</Name>
+      <Text>Starting at 11th level, your beast companion can make two attacks when you command it to use the Attack action or take the Multiattack action if it has that action.
+</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_COMPANION</UniqueID>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Bestial Fury</TraitBonusName>
+      <TraitBonusText>Starting at 11th level, your beast companion can make two attacks when you command it to use the Attack action or take the Multiattack action if it has that action.
+</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Share Spells</Name>
+      <Text>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_COMPANION</UniqueID>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Share Spells</TraitBonusName>
+      <TraitBonusText>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Beast Master</Name>
+  <SheetName>Beast Master</SheetName>
+  <Description>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.</Description>
+  <ParentRace>Ranger</ParentRace>
+</SubClass>

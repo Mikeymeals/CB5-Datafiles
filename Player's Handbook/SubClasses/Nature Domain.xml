@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Nature Domain Spells</Name>
+      <Text>animal friendship, speak with animals</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Animal Friendship</string>
+        <string>Speak with Animals</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Nature Domain Spells</Name>
+      <Text>barkskin, spike growth</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Barkskin</string>
+        <string>Spike Growth</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Nature Domain Spells</Name>
+      <Text>plant growth, wind wall</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Plant Growth</string>
+        <string>Wind Wall</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Nature Domain Spells</Name>
+      <Text>dominate beast, grasping vine</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Dominate Beast</string>
+        <string>Grasping Vine</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Nature Domain Spells</Name>
+      <Text>insect plague, tree stride</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Insect Plague</string>
+        <string>Tree Stride</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Acolyte of Nature</Name>
+      <Text>At 1st level, you learn one druid cantrip of your choice. </Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Druid and Cantrip</Condition>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <UniqueID>NATURE_CLERIC_CANTRIP</UniqueID>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Acolyte of Nature</Name>
+      <Text>You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Animal Handling</string>
+        <string>Nature</string>
+        <string>Survival</string>
+      </Skills>
+      <Amount>1</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>NATURE_CLERIC_SKILL</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Bonus Proficiency</Name>
+      <Text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Heavy and Armor</Condition>
+      <Description>Heavy Armor</Description>
+    </ToolKWProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Charm Animals and Plants</Name>
+      <Text>Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.
+As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Dampen Elements</Name>
+      <Text>Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Divine Strike</Name>
+      <Text>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8.</Text>
+      <Level>8</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and ClassLevel &lt; 14</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d8 cold, fire, or lightning (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+2d8 cold, fire, or lightning (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Master of Nature</Name>
+      <Text>At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Nature Domain</Name>
+  <SheetName>Cleric of Nature</SheetName>
+  <Description>Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.</Description>
+  <ParentRace>Cleric</ParentRace>
+</SubClass>

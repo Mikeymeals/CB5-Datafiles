@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Trickery Domain Spells</Name>
+      <Text>charm person, disguise self</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Charm Person</string>
+        <string>Disguise Self</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Trickery Domain Spells</Name>
+      <Text>mirror image, pass without trace</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Mirror Image</string>
+        <string>Pass without Trace</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Trickery Domain Spells</Name>
+      <Text>blink, dispel magic</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Blink</string>
+        <string>Dispel Magic</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Trickery Domain Spells</Name>
+      <Text>dimension door, polymorph</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Dimension Door</string>
+        <string>Polymorph</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Trickery Domain Spells</Name>
+      <Text>dominate person, modify memory</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Dominate Person</string>
+        <string>Modify Memory</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <Feature>
+      <Keywords />
+      <Name>Blessing of the Trickster</Name>
+      <Text>Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Invoke Duplicity</Name>
+      <Text>Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself. 
+As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.
+For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Cloak of Shadows</Name>
+      <Text>Starting at 6th level, you can use your Channel Divinity to vanish.
+As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Divine Strike</Name>
+      <Text>At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8.</Text>
+      <Level>8</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and ClassLevel &lt; 14</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d8 poison (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+2d8 poison (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Improved Duplicity</Name>
+      <Text>At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.
+</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+  <Name>Trickery Domain</Name>
+  <SheetName>Cleric of Trickery</SheetName>
+  <Description>Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They’re patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.</Description>
+  <ParentRace>Cleric</ParentRace>
+</SubClass>

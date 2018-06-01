@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>You learn three cantrips: mage hand and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level. </Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard and Cantrip and not(Name = 'Mage Hand')</AvailableSpellChoices>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
+      <UniqueID>ARCANE_TRICKSTER_CANTRIP</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Mage Hand</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
+      <KeywordsToAdd />
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_CANTRIP</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+For example, if you know the 1st-level spell charm person and have a 1st-level and a 2nd-level spell slot available, you can cast charm person using either slot. </Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>LearnSpells</Preparation>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
+      <PrepareableSpells>false</PrepareableSpells>
+      <OverwrittenByMulticlassing>true</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>false</IgnoreMulticlassing>
+      <DisplayName>Arcane Trickster</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>Intelligence</SpellcastingAbility>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PrepareCount>ClassLevel</PrepareCount>
+      <PreparationChange>LongRest</PreparationChange>
+    </SpellcastingFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 2</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 3</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 2</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 2</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 3</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 3, 4th: 1</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>3</int>
+        <int>1</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+    </SpellSlotsFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spells Known of 1st-Level and Higher</Name>
+      <Text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list. 
+The Spells Known column of the Arcane Trickster Spellcasting table show s when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.
+The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you’re replacing the spell you gained at 8th, 14th, or 20th level.
+</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Level 1 Enchantment and Illusion Spells</Name>
+      <Text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list. </Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard and (Enchantment or Illusion) and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Level 1 Any spell</Name>
+      <Text>You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list. </Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
+      <UniqueID>ARCANE_TRICKSTER_ANY</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>1</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>4</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>5</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>6 (2 of any school)</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>7</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>8</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>9</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>10 (3 of any school)</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>11</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ENC_ILLU</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>12</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>13 (4 of any school)</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARCANE_TRICKSTER_ANY</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Ability</Name>
+      <Text>Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
+Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+Spell attack modifier = your proficiency bonus + your Intelligence modifier</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Mage Hand Legerdemain</Name>
+      <Text>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:
+• You can stow one object the hand is holding in a container worn or carried by another creature.
+• You can retrieve an object in a container worn or carried by another creature.
+• You can use thieves’ tools to pick locks and disarm traps at range.
+You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature’s Wisdom (Perception) check. 
+In addition, you can use the bonus action granted by your Cunning Action to control the hand.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Magical Ambush</Name>
+      <Text>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Versatile Trickster</Name>
+      <Text>At 13th level, you gain the ability to distract targets with your mage hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.</Text>
+      <Level>13</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Spell Thief</Name>
+      <Text>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster. 
+Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn’t need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can’t cast that spell until the 8 hours have passed.
+Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>ARCANE_TRICKSTER_SPELL_THIEF</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels>
+    <int>0</int>
+    <int>0</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>2</int>
+    <int>2</int>
+    <int>2</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>4</int>
+    <int>4</int>
+    <int>4</int>
+    <int>5</int>
+    <int>5</int>
+    <int>5</int>
+    <int>6</int>
+    <int>6</int>
+    <int>6</int>
+  </MulticlassingSpellLevels>
+  <Descriptions>
+    <Description>
+      <Name>Spellcasting</Name>
+      <Text>When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Player's Handbook</Source>
+  <Name>Arcane Trickster</Name>
+  <SheetName>Arcane Trickster</SheetName>
+  <Description>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.</Description>
+  <ParentRace>Rogue</ParentRace>
+</SubClass>
