@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Imix</Name>
+  <Descriptions />
+  <Source>Elemental Evil</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <HP>325</HP>
+  <HPRoll>26d12+156</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>fly 50 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>24</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>23</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Ignan</string>
+  </Languages>
+  <CR>19</CR>
+  <XP>22000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Empowered Attacks</Name>
+      <Text>Imix's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical weapons.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fire Aura</Name>
+      <Text>At the start of each of Imix's turns, each creature within 10 feet of him takes 17 (5d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 17 (5d6) fire damage if it touches Imix or hits him with a melee attack while within 10 feet of him, and a creature takes that damage the first time on a turn that Imix moves into its space. Nonmagical weapons that hit Imix are destroyed by fire immediately after dealing damage to him</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fire Form</Name>
+      <Text>Imix can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch without squeezing if fire could pass through that space.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Illumination</Name>
+      <Text>Imix sheds bright light in a 60-foot radius and dim light for an additional 60 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Imix fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Imix's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+
+• At will: fireball, wall of fire
+• 3/day each: fire storm, haste, teleport</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Imix has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Imix makes two slam attacks or two flame blast attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 18 (5d6) fire damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d10+7+5d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Flame Blast</Name>
+      <Text>Ranged Spell Attack: +12 to hit, range 250 ft., one target. Hit: 35 (10d6) fire damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>10d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Summon Elementals (1/Day)</Name>
+      <Text>Imix summons up to three fire elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Imix, and disappear if Imix is reduced to 0 hit points.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterAction>
+      <Name>Heat Wave</Name>
+      <Text>Imix creates a blast of heat within 300 feet of himself. Each creature in the area in physical contact with metal objects (for example, carrying metal weapons or wearing metal armor) takes 9 (2d8) fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a DC 21 Constitution saving throw or gain one level of exhaustion.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>2d8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Teleport (Costs 2 Actions)</Name>
+      <Text>Imix magically teleports up to 120 feet to an unoccupied space he can see. Anything Imix is wearing or carrying isn't teleported with him.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Combustion (Costs 3 Actions)</Name>
+      <Text>Imix causes one creature he can see within 30 feet of him to burst into flames. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes 70 (20d6) fire damage and catches fire. A target on fire takes 10 (3d6) fire damage when it starts its turn, and remains on fire until it or another creature takes an action to douse the flames. On a successful save, the target takes half as much damage and doesn't catch fire.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>20d6</Damage>
+    </MonsterAction>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>fireball</string>
+    <string>wall of fire</string>
+    <string>fire storm</string>
+    <string>haste</string>
+    <string>teleport</string>
+  </Spells>
+  <Slots />
+</Monster>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a handful of sand</Components>
+    </Material>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>line</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wall</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Wall of Sand</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>90 feet</Range>
+  <Duration>Concentration, up to 10 minutes</Duration>
+  <Level>3</Level>
+  <Description>You conjure up a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there.</Description>
+  <Descriptions />
+  <Source>Elemental Evil Player's Companion</Source>
+</Spell>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Yan-C-Bin</Name>
+  <Descriptions />
+  <Source>Elemental Evil</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>22</AC>
+  <ACText>natural armor</ACText>
+  <HP>283</HP>
+  <HPRoll>21d12+147</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>fly 150 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>24</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>21</Wisdom>
+  <Charisma>23</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire;  bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>poison</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Auran</string>
+  </Languages>
+  <CR>18</CR>
+  <XP>20000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Air Form</Name>
+      <Text>Yan-C-Bin can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch wide without squeezing if air could pass through that space.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Empowered Attacks</Name>
+      <Text>Yan-C-Bin's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical weapons.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Yan-C-Bin's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+
+• At will: gust of wind, invisibility, lightning bolt
+• 2/day each: chain lightning, cloudkill, haste</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Yan-C-Bin fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Yan-C-Bin has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Yan-C-Bin makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) force damage plus 10 (3d6) lightning damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>3d8+7+3d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Thundercrack (Recharges after a Short or Long Rest)</Name>
+      <Text>Yan-C-Bin unleashes a terrible thundercrack in a 100-foot- radius sphere centered on himself. All other creatures in the area must succeed on a DC 24 Constitution saving throw or take 31 (9d6) thunder damage and be deafened for 1 minute. On a successful save, a creature takes half as much damage and is deafened until the start of Yan-C-Bin's next turn.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>9d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Change Shape</Name>
+      <Text>Yan-C-Bin polymorphs into a Medium humanoid. While in polymorphed form, a swirling breeze surrounds him, his eyes are pale and cloudy, and he loses the Air Form trait. He can remain in polymorphed form for up to 1 hour. Reverting to his true form requires an action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Summon Elementals (1/Day)</Name>
+      <Text>Yan-C-Bin summons up to three air elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Yan-C-Bin, and disappear if Yan-C-Bin is reduced to 0 hit points.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterAction>
+      <Name>Peal of Thunder</Name>
+      <Text>Yan-C-Bin unleashes a peal of thunder that can be heard out to a range of 300 feet. Each creature within 30 feet of Yan-C-Bin takes 5 (1d10) thunder damage.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>1d10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Teleport (Costs 2 Actions)</Name>
+      <Text>Yan-C-Bin magically teleports up to 120 feet to an unoccupied space he can see. Anything Yan-C-Bin is wearing or carrying is teleported with him.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Suffocate (Costs 3 Actions)</Name>
+      <Text>Yan-C-Bin steals the air of one breathing creature he can see within 60 feet of him. The target must make a DC 21 Constitution saving throw. On a failed save, the target drops to 0 hit points and is dying. On a successful save, the target can't breathe or speak until the start of its next turn.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>gust of wind</string>
+    <string>invisibility</string>
+    <string>lightning bolt</string>
+    <string>chain lightning</string>
+    <string>cloudkill</string>
+    <string>haste</string>
+  </Spells>
+  <Slots />
+</Monster>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cold</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage>
+    <CantripDamage>
+      <Level>0</Level>
+      <Damage>1d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>5</Level>
+      <Damage>2d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>11</Level>
+      <Damage>3d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>17</Level>
+      <Damage>4d6</Damage>
+    </CantripDamage>
+  </CantripDamage>
+  <Name>Frostbite</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>0</Level>
+  <Description>You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.
+The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</Description>
+  <Descriptions />
+  <Source>Elemental Evil Player's Companion</Source>
+</Spell>

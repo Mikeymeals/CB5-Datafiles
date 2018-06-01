@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Svirfneblin Magic</Name>
+      <Text>You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: blindness/deafness, blur, and disguise self. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Gnome (deep gnome)</Prerequisite>
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Svirfneblin Magic</Name>
+          <Text>This ability allows you to cast nondetection on yourself at will, without needing a material component.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Nondetection</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Svirfneblin Magic</Name>
+          <Text>You can also cast blindness/deafness once with this ability. You regain the ability to cast this spell when you finish a long rest. Intelligence is your spellcasting ability for it.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Blindness/Deafness</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Svirfneblin Magic</Name>
+          <Text>You can also cast blur once with this ability. You regain the ability to cast this spell when you finish a long rest. Intelligence is your spellcasting ability for it.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Blur</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Svirfneblin Magic</Name>
+          <Text>You can also cast disguise self once with this ability. You regain the ability to cast this spell when you finish a long rest. Intelligence is your spellcasting ability for it.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Disguise Self</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Elemental Evil Player's Companion</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Elemental Evil Player's Companion</Source>
+</FeatureContainer>

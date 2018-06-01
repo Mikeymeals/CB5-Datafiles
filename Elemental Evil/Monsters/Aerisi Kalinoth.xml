@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Aerisi Kalinoth</Name>
+  <Descriptions />
+  <Source>Elemental Evil</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>elf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>16 with mage armor</ACText>
+  <HP>66</HP>
+  <HPRoll>12d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Auran</string>
+    <string>Common</string>
+    <string>Elvish</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fey Ancestry</Name>
+      <Text>Aerisi has advantage on saving throws against being charmed, and magic can't put her to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Howling Defeat</Name>
+      <Text>When Aerisi drops to 0 hit points, her body disappears in a howling whirlwind that disperses quickly and harmlessly. Anything she is wearing or carrying is left behind.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (2/Day)</Name>
+      <Text>If Aerisi fails a saving throw, she can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared:
+
+• Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp
+• 1st level (4 slots): charm person, feather fall, mage armor, thunderwave
+• 2nd level (3 slots): dust devil, gust of wind, invisibility
+• 3rd level (3 slots): fly, gaseous form, lightning bolt
+• 4th level (3 slots): ice storm, storm sphere
+• 5th level (2 slots): cloudkill, seeming (cast each day)
+• 6th level (1 slot): chain lightning</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Windvane</Name>
+      <Text>Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 9 (1d6 + 6) piercing damage, or 10 (1d8 + 6) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) lightning damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d6+6+1d6",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>gust (ee)</string>
+    <string>mage hand</string>
+    <string>message</string>
+    <string>prestidigitation</string>
+    <string>ray of frost</string>
+    <string>shocking grasp</string>
+    <string>charm person</string>
+    <string>feather fall</string>
+    <string>mage armor</string>
+    <string>thunderwave</string>
+    <string>dust devil (ee)</string>
+    <string>gust of wind</string>
+    <string>invisibility</string>
+    <string>fly</string>
+    <string>gaseous form</string>
+    <string>lightning bolt</string>
+    <string>ice storm</string>
+    <string>storm sphere (ee)</string>
+    <string>cloudkill</string>
+    <string>seeming</string>
+    <string>chain lightning</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

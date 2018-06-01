@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Gar Shatterkeel</Name>
+  <Descriptions />
+  <Source>Elemental Evil</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>30</HP>
+  <HPRoll>15d8+45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Aquan</string>
+    <string>Common</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>Gar can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (2/Day)</Name>
+      <Text>If Gar fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:
+
+• Cantrips (at will): mending, resistance, shape water
+
+• 1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave
+• 2nd level (3 slots): darkvision, hold person, protection from poison
+• 3rd level (3 slots): call lightning, sleet storm, tidal wave
+• 4th level (3 slots): control water, ice storm
+• 5th level (1 slot): scrying</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Walk</Name>
+      <Text>Gar can stand and move on liquid surfaces as if they were solid ground.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Watery Fall</Name>
+      <Text>When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Gar makes two melee attacks, one with his claw and one with Drown.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and the target is grappled (escape DC 13). Until the grapple ends, Gar can't attack other creatures with his claw.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Drown</Name>
+      <Text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6+3+1d8",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>mending</string>
+    <string>resistance</string>
+    <string>shape water (ee)</string>
+    <string>create or destroy water</string>
+    <string>cure wounds</string>
+    <string>fog cloud</string>
+    <string>thunderwave</string>
+    <string>darkvision</string>
+    <string>hold person</string>
+    <string>protection from poison</string>
+    <string>call lightning</string>
+    <string>sleet storm</string>
+    <string>tidal wave (ee)</string>
+    <string>control water</string>
+    <string>ice storm</string>
+    <string>scrying</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

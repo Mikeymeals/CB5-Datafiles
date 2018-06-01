@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Miraj Vizann</Name>
+  <Descriptions />
+  <Source>Elemental Evil</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>earth genasi</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>10</AC>
+  <ACText>13 with mage armor</ACText>
+  <HP>82</HP>
+  <HPRoll>11d8+33</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Earth Walk</Name>
+      <Text>Moving through difficult terrain made of earth or stone costs Miraj no extra movement.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components:
+
+• 1/day: pass without trace</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells:
+
+• Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth
+• 1st level (4 slots): chromatic orb, mage armor, magic missile
+• 2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion
+• 3rd level (3 slots): counterspell, erupting earth
+• 4th level (3 slots): polymorph, stoneskin
+• 5th level (2 slots): wall of stone
+• 6th level (1 slot): move earth</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Staff</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+1",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>pass without trace</string>
+    <string>acid splash</string>
+    <string>blade ward</string>
+    <string>friends</string>
+    <string>light</string>
+    <string>message</string>
+    <string>mold earth (ee)</string>
+    <string>chromatic orb</string>
+    <string>mage armor</string>
+    <string>magic missile</string>
+    <string>Maximilian's earthen grasp (ee)</string>
+    <string>shatter</string>
+    <string>suggestion</string>
+    <string>counterspell</string>
+    <string>erupting earth (ee)</string>
+    <string>polymorph</string>
+    <string>stoneskin</string>
+    <string>wall of stone</string>
+    <string>move earth</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>fire</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cube</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage>
+    <CantripDamage>
+      <Level>0</Level>
+      <Damage>1d8</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>5</Level>
+      <Damage>2d8</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>11</Level>
+      <Damage>3d8</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>17</Level>
+      <Damage>4d8</Damage>
+    </CantripDamage>
+  </CantripDamage>
+  <Name>Create Bonfire</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>0</Level>
+  <Description>You create a bonfire on ground that you can see within range. Until the spells ends, the bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire's space for the first time on a turn or ends its turn there.
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</Description>
+  <Descriptions />
+  <Source>Elemental Evil Player's Companion</Source>
+</Spell>

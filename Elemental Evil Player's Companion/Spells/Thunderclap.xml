@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>thunder</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage>
+    <CantripDamage>
+      <Level>0</Level>
+      <Damage>1d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>5</Level>
+      <Damage>2d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>11</Level>
+      <Damage>3d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>17</Level>
+      <Damage>4d6</Damage>
+    </CantripDamage>
+  </CantripDamage>
+  <Name>Thunderclap</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self (5-foot radius)</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>0</Level>
+  <Description>You create a burst of thunderous sound, which can be heard 100 feet away. Each creature other than you within 5 feet of you must make a Constitution saving throw. On a failed save, the creature takes 1d6 thunder damage.
+The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</Description>
+  <Descriptions />
+  <Source>Elemental Evil Player's Companion</Source>
+</Spell>
