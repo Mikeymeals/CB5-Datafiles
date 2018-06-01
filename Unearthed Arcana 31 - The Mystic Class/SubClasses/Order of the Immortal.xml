@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Bonus Disciplines</Name>
+      <Text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Immortal disciplines.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>MYSTIC_IMMORTAL_DISCIPLINES</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Immortal</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Immortal Durability</Name>
+      <Text>Starting at 1st level, your hit point maximum increases by 1 per mystic level. In addition, while you aren’t wearing armor or wielding a shield, your base AC equals 10 + your Dexterity modifier + your Constitution modifier. </Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <HitPoints>ClassLevel</HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+    <ACFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Expression>if(Unarmored and !Shield, 10+DexMod+ConMod, 0)</Expression>
+    </ACFeature>
+    <Feature>
+      <Keywords />
+      <Name>Psionic Resilience</Name>
+      <Text>Starting at 3rd level, your psionic energy grants you extraordinary fortitude. At the start of each of your turns, you gain temporary hit points equal to your Intelligence modifier (minimum of 0) if you have at least 1 hit point.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Surge of Health</Name>
+      <Text>Starting at 6th level, you can draw on your psychic focus to escape death’s grasp. As a reaction when you take damage, you can halve that damage against you. Your psychic focus immediately ends if it’s active, and you can’t use it until you finish a short or long rest.
+You can’t use this feature if you can’t use your psychic focus.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>MYSTIC_IMMORTAL_SURGE_HEALTH</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Spectral Form</Name>
+      <Text>At 14th level, you gain the ability to become a ghostly figure of psionic energy. As an action, you can transform into a transparent, ghostly version of yourself. While in this form, you have resistance to all damage, move at half speed, and can pass through objects and creatures while moving but can’t willingly end your movement in their spaces. The form lasts for 10 minutes or until you use an action to end it.
+Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>MYSTIC_AWAKENED_SPECTRAL_FORM</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Immortal Will</Name>
+      <Text>Starting at 14th level, you can draw on your reserves of psionic power to survive beyond death. At the end of your turn while at 0 hit points, you can spend 5 psi points to immediately regain a number of hit points equal to your mystic level + your Constitution modifier.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 31 - The Mystic Class</Source>
+  <Name>Order of the Immortal</Name>
+  <SheetName>Immortal</SheetName>
+  <Description>The Order of the Immortal uses psionic energy to augment and modify the physical form. Followers of this order are known as Immortals. They use psionic energy to modify their bodies, strengthening them against attack and turning themselves into living weapons.
+Their mastery of the physical form grants them their name, for Immortals are notoriously difficult to kill.</Description>
+  <ParentRace>Mystic</ParentRace>
+</SubClass>

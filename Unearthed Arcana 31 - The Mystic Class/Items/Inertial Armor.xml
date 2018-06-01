@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Armor">
+  <Keywords>
+    <Keyword>
+      <Name>light</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Inertial Armor</Name>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Unearthed Arcana 31 - The Mystic Class</Source>
+  <Weight>0</Weight>
+  <BaseAC>14</BaseAC>
+  <StealthDisadvantage>false</StealthDisadvantage>
+  <StrengthRequired>0</StrengthRequired>
+</Item>

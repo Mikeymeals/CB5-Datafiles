@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Frost Lance</Name>
+      <Text>You draw on the gifts of the Prince of Frost to trap your enemies in ice. When you hit a creature with your eldritch blast cantrip one or more times on your turn, you can reduce that creature’s speed by 10 feet until the end of your next turn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The Archfey patron, eldritch blast cantrip</Prerequisite>
+      <Spells>Name = 'eldritch blast'</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Unearthed Arcana 28 - Warlock and Wizard</Source>
+</FeatureContainer>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Chilling Hex</Name>
+      <Text>As a bonus action, you cause frost to swirl around a target cursed by your Hexblade’s Curse, dealing cold damage to each of your enemies within 5 feet of the target. The cold damage equals your Charisma modifier (minimum of 1).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite>The Hexblade patron</Prerequisite>
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 28 - Warlock and Wizard</Source>
+</FeatureContainer>

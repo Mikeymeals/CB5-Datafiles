@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>wujen</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Mastery of Air</Name>
+      <Text>You become one with the power of elemental air.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Wu Jen Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Air - Psychic Focus</Name>
+          <Text>While focused on this discipline, you take no falling damage, and you ignore difficult terrain when walking.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Air - Wind Step (1–7 psi)</Name>
+          <Text>As part of your move on your turn, you can fly up to 20 feet for each psi point spent. If you end this flight in the air, you fall unless something else holds you aloft.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Move</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Air - Wind Stream (1–7 psi)</Name>
+          <Text>As an action, you create a line of focused air that is 30 feet long and 5 feet wide. Each creature in that area must make a Strength saving throw, taking 1d8 bludgeoning damage per psi point spent and being knocked prone on a failed save, or half as much damage on a successful one.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Air - Cloak of Air (3 psi; conc., 10 min.)</Name>
+          <Text>As a bonus action, you seize control of the air around you to create a protective veil. Until your concentration ends, attack rolls against you have disadvantage, and when a creature you can see misses you with a melee attack, you can use your reaction to force the creature to repeat the attack roll against itself.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Air - Wind Form (5 psi; conc., 10 min.)</Name>
+          <Text>As a bonus action, you gain a flying speed of 60 feet, which lasts until your concentration ends.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Air - Misty Form (6 psi; conc., 1 min.)</Name>
+          <Text>As an action, your body becomes like a misty cloud until your concentration ends. In this form, you gain resistance to bludgeoning, piercing, and slashing damage, and you can’t take actions other than the Dash action. You can pass through openings that are no more than 1 inch wide without squeezing.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <FormsCompanionsFeature>
+          <Keywords />
+          <Name>Mastery of Air - Animate Air (7 psi; conc., 1 hr.)</Name>
+          <Text>As an action, you cause an air elemental to appear in an unoccupied space you can see within 120 feet of you. The elemental lasts until your concentration ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. See the Monster Manual for its stat block.
+
+</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <DisplayName>Wu Jen Summons</DisplayName>
+          <UniqueID>MYSTIC_WU_JEN_SUMMONS</UniqueID>
+          <FormsCompanionsOptions>Name = "Air Elemental"</FormsCompanionsOptions>
+          <FormsCompanionsCount>-1</FormsCompanionsCount>
+        </FormsCompanionsFeature>
+      </Features>
+      <Source>Unearthed Arcana 31 - The Mystic Class</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 31 - The Mystic Class</Source>
+</FeatureContainer>

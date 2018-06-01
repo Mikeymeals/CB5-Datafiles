@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Bonus Disciplines</Name>
+      <Text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Nomad disciplines.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>MYSTIC_NOMAD_DISCIPLINES</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Nomad</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Breadth of Knowledge</Name>
+      <Text>At 1st level, you gain the ability to extend your knowledge. When you finish a long rest, you gain two proficiencies of your choice: two tools, two skills, or one of each. You can replace one or both of these selections with languages. This benefit lasts until you finish a long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ToolProficiencyChoiceConditionFeature>
+          <Keywords />
+          <Name>Tool</Name>
+          <Text>Choose a tool proficiency</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>MYSTIC_NOMAD_BREADTH_OF_KNOWLEDGE_TOOL</UniqueID>
+          <Condition>Tool</Condition>
+        </ToolProficiencyChoiceConditionFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>Choose a skill proficiency</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>MYSTIC_NOMAD_BREADTH_OF_KNOWLEDGE_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name>Language</Name>
+          <Text>Choose a language </Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Amount>1</Amount>
+          <UniqueID>MYSTIC_NOMAD_BREADTH_OF_KNOWLEDGE_LANGUAGE</UniqueID>
+        </LanguageChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>MYSTIC_NOMAD_BREADTH_OF_KNOWLEDGE</UniqueID>
+      <AllowSameChoice>true</AllowSameChoice>
+    </ChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Memory of One Thousand Steps</Name>
+      <Text>At 3rd level, you gain the ability to use psionics to recall your steps. As a reaction when you are hit by an attack, you can teleport to an unoccupied space that you occupied since the start of your last turn, and the attack misses you.
+Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>MYSTIC_NOMAD_MEMORY_ONE_THOUSAND_STEPS</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Superior Teleportation</Name>
+      <Text>At 6th level, you gain a superior talent for teleportation. When you use a psionic discipline to teleport any distance, you can increase that distance by up to 10 feet.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Effortless Journey</Name>
+      <Text>Starting at 14th level, your mind can mystically move your body. Once on each of your turns, you can forfeit up to 30 feet of your movement to teleport the distance you forfeited. You must teleport to an unoccupied space you can see.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 31 - The Mystic Class</Source>
+  <Name>Order of the Nomad</Name>
+  <SheetName>Nomad</SheetName>
+  <Description>Mystics of the Order of the Nomad keep their minds in a strange, rarified state. They seek to accumulate as much knowledge as possible, as they quest to unravel the mysteries of the multiverse and seek the underlying structure of all things. At the same time, they perceive a bizarre, living web of knowledge they call the noosphere.
+Nomads, as their name indicates, delight in travel, exploration, and discovery. They desire to accumulate as much knowledge as possible, and the pursuit of secrets and hidden lore can become an obsession for them.</Description>
+  <ParentRace>Mystic</ParentRace>
+</SubClass>

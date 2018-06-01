@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Seeker’s Speech</Name>
+      <Text>Your quest for knowledge allows you to master any spoken language. When you complete a long rest, you can pick two languages. You gain the ability to speak, read, and write the chosen languages until you finish your next long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The Seeker patron</Prerequisite>
+      <Amount>2</Amount>
+      <UniqueID>WARLOCK_SEEKER_SPEECH_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Source>Unearthed Arcana 28 - Warlock and Wizard</Source>
+</FeatureContainer>

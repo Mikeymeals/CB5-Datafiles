@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Bonus Disciplines</Name>
+      <Text>At 1st level, you learn two additional psionic disciplines of your choice. They must be chosen from among the Wu Jen disciplines.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>MYSTIC_WU_JEN_DISCIPLINES</UniqueID>
+      <Collection>Category = 'Feats/Disciplines' and Wujen</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Hermit’s Study</Name>
+      <Text>At 1st level, you gain proficiency with two of the following skills of your choice: Animal Handling, Arcana, History, Insight, Medicine, Nature, Perception, Religion, or Survival.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Animal Handling</string>
+        <string>Arcana</string>
+        <string>History</string>
+        <string>Insight</string>
+        <string>Medicine</string>
+        <string>Nature</string>
+        <string>Perception</string>
+        <string>Religion</string>
+        <string>Survival</string>
+      </Skills>
+      <Amount>1</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>MYSTIC_WU_JEN_HERMIT_STUDY</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Elemental Attunement</Name>
+      <Text>Starting at 3rd level, when a creature’s resistance reduces the damage dealt by a psionic discipline of yours, you can spend 1 psi point to cause that use of the discipline to ignore the creature’s resistance. You can’t spend this point if doing so would increase the discipline’s cost above your psi limit.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Arcane Dabbler</Name>
+      <Text>At 6th level, you learn three wizard spells of your choice and always have them prepared. The spells must be of 1st through 3rd level.
+As a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below. 
+Spell Slot Level Psi Cost 
+1st: 2
+2nd: 3
+3rd: 5
+4th: 6
+5th: 7
+The spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.
+Whenever you gain a level in this class, you can replace one of the chosen wizard spells with a different wizard spell of 1st through 3rd level.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Wizard and Level &gt;= 1 and Level &lt;= 3</Condition>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <UniqueID>MYSTIC_WU_JEN_ARCANE_DABBLER</UniqueID>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <Amount>3</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Arcane Dabbler</Name>
+      <Text>As a bonus action, you can spend psi points to create spell slots that you can use to cast these spells, as well as other spells you are capable of casting. The psi-point cost of each spell slot is detailed on the table below. 
+Spell Slot Level Psi Cost,
+1st: 2, 
+2nd: 3,
+3rd: 5,
+4th: 6,
+5th: 7.
+The spell slot remains until you use it or finish a long rest. You must observe your psi limit when spending psi points to create a spell slot.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Elemental Mastery</Name>
+      <Text>Starting at 14th level, if you have resistance to a type of damage, you can spend 2 psi points as a reaction when you take damage of that type to ignore that damage; you gain immunity to that damage type until the end of your next turn.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 31 - The Mystic Class</Source>
+  <Name>Order of the Wu Jen</Name>
+  <SheetName>Wu Jen</SheetName>
+  <Description>The Order of the Wu Jen features some of the most devoted mystics. These mystics seek to lock themselves away from the world, denying the limits of the physical world and replacing it with a reality that they create for themselves. Known as wu jens, these mystics cast their minds into the world, seize control of its fundamental principles, and rebuild it.
+In practical terms, wu jens excel at controlling the forces of the natural world. They can hurl objects with their minds, control the four elements, and alter reality to fit their desires.</Description>
+  <ParentRace>Mystic</ParentRace>
+</SubClass>

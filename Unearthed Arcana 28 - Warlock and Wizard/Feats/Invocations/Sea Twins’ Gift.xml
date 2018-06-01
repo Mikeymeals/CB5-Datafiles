@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Sea Twins’ Gift</Name>
+      <Text>The Sea Twins rule seas in the Feywild. Their gift allows you to travel through water with ease. You can breathe underwater, and you gain a swimming speed equal to your walking speed.
+You can also cast water breathing using a warlock spell slot. Once you cast it using this invocation, you can’t do so again until you finish a long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite>The Archfey patron</Prerequisite>
+      <Spell>Water Breathing</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>LongRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <Source>Unearthed Arcana 28 - Warlock and Wizard</Source>
+</FeatureContainer>
