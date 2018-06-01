@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Guild Artisan</Name>
+  <Description>You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.</Description>
+  <Descriptions>
+    <TableDescription>
+      <Name>Guild Business</Name>
+      <Text>Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly.
+As a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan's tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together.</Text>
+      <Amount>1</Amount>
+      <UniqueID>GUILD_ARTISAN_BUISNESS</UniqueID>
+      <TableName>Guild Buisness</TableName>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Title />
+          <Text>Alchemists and apothecaries</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Title />
+          <Text>Armorers, locksmiths, and finesmiths</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Title />
+          <Text>Brewers, distillers, and vintners</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Title />
+          <Text>Calligraphers, scribes, and scriveners</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Title />
+          <Text>Carpenters, roofers, and plasterers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Title />
+          <Text>Cartographers, surveyors, and chart-makers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Title />
+          <Text>Cobblers and shoemakers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Title />
+          <Text>Cooks and bakers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Title />
+          <Text>Glassblowers and glaziers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Title />
+          <Text>Jewelers and gemcutters</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>11</MinRoll>
+          <MaxRoll>11</MaxRoll>
+          <Title />
+          <Text>Leatherworkers, skinners, and tanners</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>12</MinRoll>
+          <MaxRoll>12</MaxRoll>
+          <Title />
+          <Text>Masons and stonecutters</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>13</MinRoll>
+          <MaxRoll>13</MaxRoll>
+          <Title />
+          <Text>Painters, limners, and sign-makers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>14</MinRoll>
+          <MaxRoll>14</MaxRoll>
+          <Title />
+          <Text>Potters and tile-makers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>15</MinRoll>
+          <MaxRoll>15</MaxRoll>
+          <Title />
+          <Text>Shipwrights and sailmakers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>16</MinRoll>
+          <MaxRoll>16</MaxRoll>
+          <Title />
+          <Text>Smiths and metal-forgers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>17</MinRoll>
+          <MaxRoll>17</MaxRoll>
+          <Title />
+          <Text>Tinkers, pewterers, and casters</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>18</MinRoll>
+          <MaxRoll>18</MaxRoll>
+          <Title />
+          <Text>Wagon-makers and wheelwrights</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>19</MinRoll>
+          <MaxRoll>19</MaxRoll>
+          <Title />
+          <Text>Weavers and dyers</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>20</MinRoll>
+          <MaxRoll>20</MaxRoll>
+          <Title />
+          <Text>Woodcarvers, coopers, and bowyers</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <Description>
+      <Name>Suggested Characteristics</Name>
+      <Text>Guild artisans are among the most ordinary people in the world - until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.</Text>
+    </Description>
+  </Descriptions>
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Skill Proficiencies</Name>
+      <Text>Insight, Persuasion</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Insight</string>
+        <string>Persuasion</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>One of your choice</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>GUILD_ARTISAN_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>One type of artisan's tools</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>GUILD_ARTISAN_TOOLPROF</UniqueID>
+      <Condition>Tool and Artisan</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A set of artisan's (one of your choice)</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>GUILD_ARTISAN_TOOLS</UniqueID>
+      <Condition>Tool and Artisan</Condition>
+    </ItemChoiceConditionFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A letter of introduction from your guild, a set of traveler's clothes, and a belt pouch containing 15 gp</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Clothes, Traveler's</string>
+        <string>A letter of introduction from your guild</string>
+        <string>Pouch</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>15</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Guild Membership</Name>
+      <Text>As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild m em bers will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
+Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to pow erful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers.
+You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I believe that anything worth doing is worth doing right. I can't help it - I'm a perfectionist.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I'm a snob who looks down on those who can't appreciate fine art.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>I always want to know how things work and what makes people tick.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>I'm full of witty aphorisms and have a proverb for every occasion.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>I'm rude to people who lack my commitment to hard work and fair play.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I like to talk at length about my profession.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>7</MinRoll>
+      <MaxRoll>7</MaxRoll>
+      <Title />
+      <Text>I don't part with my money easily and will haggle tirelessly to get the best deal possible.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>8</MinRoll>
+      <MaxRoll>8</MaxRoll>
+      <Title />
+      <Text>I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me.</Text>
+    </TableEntry>
+  </PersonalityTrait>
+  <Ideal>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title>Community</Title>
+      <Text>It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title>Generosity</Title>
+      <Text>My talents were given to me so that I could use them to benefit the world. (Good)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title>Freedom</Title>
+      <Text>Everyone should be free to pursue his or her own livelihood. (Chaotic)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title>Greed</Title>
+      <Text>I'm only in it for the money. (Evil)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title>People</Title>
+      <Text>I'm committed to the people I care about, not to ideals. (Neutral)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title>Aspiration</Title>
+      <Text>I work hard to be the best there is at my craft.</Text>
+    </TableEntry>
+  </Ideal>
+  <Bond>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>The workshop where I learned my trade is the most important place in the world to me.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>I owe my guild a great debt for forging me into the person I am today.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>I pursue wealth to secure someone's love.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>One day I will return to my guild and prove that I am the greatest artisan of them all.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.</Text>
+    </TableEntry>
+  </Bond>
+  <Flaw>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I'll do anything to get my hands on something rare or priceless.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I'm quick to assume that someone is trying to cheat me.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>No one must ever learn that I once stole money from guild coffers.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>I'm never satisfied with what I have - I always want more.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>I would kill to acquire a noble title.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.</Text>
+    </TableEntry>
+  </Flaw>
+  <Source>Player's Handbook</Source>
+</Background>
