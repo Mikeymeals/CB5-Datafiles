@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Quadrone</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>construct</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>22</HP>
+  <HPRoll>4d8+4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Modron</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Axiomatic Mind</Name>
+      <Text>The quadrone can't be compelled to act in a manner contrary to its nature or its instructions.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Disintegration</Name>
+      <Text>If the quadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The quadrone makes two fist attacks or four shortbow attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4+1</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortbow</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

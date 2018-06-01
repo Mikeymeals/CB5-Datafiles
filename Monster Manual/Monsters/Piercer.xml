@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Piercer</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>22</HP>
+  <HPRoll>3d8+9</HPRoll>
+  <Speeds>
+    <string>5 ft.</string>
+    <string>climb 5 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 30 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The piercer can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Drop</Name>
+      <Text>Melee Weapon Attack: +3 to hit, one creature directly underneath the piercer. Hit: 3 (1d6) piercing damage per 10 feet fallen, up to 21 (6d6). Miss: The piercer takes half the normal falling damage for the distance fallen.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

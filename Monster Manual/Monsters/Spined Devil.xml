@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Spined Devil</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>22</HP>
+  <HPRoll>5d6+5</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil's Sight</Name>
+      <Text>Magical darkness doesn't impede the devil's darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The devil doesn't provoke an opportunity attack when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Limited Spines</Name>
+      <Text>The devil has twelve tail spines. Used spines regrow by the time the devil finishes a long rest.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes two attacks: one with its bite and one with its fork or two with its tail spines.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>2d4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Fork</Name>
+      <Text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail Spine</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 20/80 ft ., one target. Hit: 4 (1d4 + 2) piercing damage plus 3 (1d6) fire damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2+1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

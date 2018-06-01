@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Slaad Tadpole</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>12</AC>
+  <HP>10</HP>
+  <HPRoll>4d4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>5</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Slaad but can't speak</string>
+  </Languages>
+  <CR>0.125</CR>
+  <XP>25</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The slaad has advantage on saving throws against spells and other magical effects</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

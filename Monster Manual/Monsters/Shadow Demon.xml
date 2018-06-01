@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Shadow Demon</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <HP>66</HP>
+  <HPRoll>12d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire</string>
+    <string>necrotic</string>
+    <string>thunder</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>radiant</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Light Sensitivity</Name>
+      <Text>While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Stealth</Name>
+      <Text>While in dim light or darkness, the demon can take the Hide action as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3",
+  "with Advantage</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

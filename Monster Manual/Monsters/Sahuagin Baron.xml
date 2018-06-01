@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sahuagin Baron</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sahuagin</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>breastplate</ACText>
+  <HP>76</HP>
+  <HPRoll>9d10+27</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 50 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Sahuagin</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Blood Frenzy</Name>
+      <Text>The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Limited Amphibiousness</Name>
+      <Text>The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shark Telepathy</Name>
+      <Text>The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sahuagin makes three attacks: one with his bite and two with his claws or trident.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d4+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Trident</Name>
+      <Text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+4",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
