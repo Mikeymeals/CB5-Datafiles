@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Adamantine Armor</Name>
+      <Text>Any critical hit against you becomes a normal hit.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>critical hits</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </EquipFeatures>
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (medium or heavy, but not hide)</Requirement>
+  <Name>Adamantine Armor</Name>
+  <Description>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you’re wearing it, any critical hit against you becomes a normal hit.</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and (Medium or Heavy) and not(Hide)</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Adamantine</PrependName>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>
