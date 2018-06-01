@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sea Spawn</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>11</AC>
+  <ACText>natural armor</ACText>
+  <HP>32</HP>
+  <HPRoll>5d8+10</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Aquan and Common but can't speak</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Limited Amphibiousness</Name>
+      <Text>The sea spawn can breathe air and water, but needs to be submerged in the sea at least once a day for 1 minute to avoid suffocating.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sea spawn makes three attacks: two unarmed strikes and one with its Piscine Anatomy.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Unarmed Strike</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Piscine Anatomy</Name>
+      <Text>The sea spawn has one or more of the following attack options, provided it has the appropriate anatomy:
+
+Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage.
+
+Poison Quills. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+Tentacle. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d6+2) bludgeoning damage, and the target is grappled (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+2",
+  "Poison Quills</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

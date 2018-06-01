@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Hobgoblin Iron Shadow</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>goblinoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <HP>32</HP>
+  <HPRoll>5d8+10</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Goblin</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:
+
+Cantrips (at will): minor illusion, prestidigitation, true strike
+
+1st level (3 slots): charm person, disguise self, expeditious retreat, silent image</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Unarmored Defense</Name>
+      <Text>While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The hobgoblin makes four attacks, each of which can be an unarmed strike or a dart attack. It can also use Shadow Jaunt once, either before or after one of the attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Unarmed Strike</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 it, one target. Hit: 5 (1d4+3) bludgeoning damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dart</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 20/60 it, one target. Hit: 5 (1d4+3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Shadow Jaunt</Name>
+      <Text>The hobgoblin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it is leaving and its destination must be in dim light or darkness.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>true strike</string>
+    <string>charm person</string>
+    <string>disguise self</string>
+    <string>expeditious retreat</string>
+    <string>silent image</string>
+  </Spells>
+  <Slots>
+    <int>3</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Froghemoth</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>184</HP>
+  <HPRoll>16d12+80</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The froghemoth can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shock Suscptibility</Name>
+      <Text>If the froghemoth takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can’t use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The froghemoth makes two attacks with its tentacles. It can also use its tongue or bite.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 19 (3d8+6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can’t use this tentacle on another target. The froghemoth has four tentacles.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>3d8+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft, one target. Hit: 22 (3d10+6) piercing damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth’s turns.
+The froghemoth’s gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>3d10+6",
+  "Acid</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Tongue</Name>
+      <Text>The Froghemoth targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 18 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the froghemoth, and the froghemoth can make a bite attack against it as a bonus action.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Wood Woad</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor, shield</ACText>
+  <HP>75</HP>
+  <HPRoll>10d8+30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Club</Name>
+      <Text>In the wood woad’s hand, its club is magical and deals 7 (3d4) extra damage (included in its attacks).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Plant Camouflage</Name>
+      <Text>The wood woad has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The wood woad regains 10 hit points at the start of its turn if it is in contact with the ground. If the wood woad takes fire damage, this trait doesn’t function at the start of the wood woad’s next turn. The wood woad dies only if it starts its turn with 0 hit points and doesn’t regenerate.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tree Stride</Name>
+      <Text>Once on each of its turns, the wood woad can use 10 feet of its movement to step magically into one living tree within 5 feet of it and emerge from a second living tree within 60 feet of it that it can see, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The wood woad makes two attacks with its club.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Club</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (4d4+4) bludgeoning damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>4d4+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

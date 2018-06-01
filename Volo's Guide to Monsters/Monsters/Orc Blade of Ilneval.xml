@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Orc Blade of Ilneval</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>orc</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>chain mail, shield</ACText>
+  <HP>60</HP>
+  <HPRoll>8d8+24</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aggressive</Name>
+      <Text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Foe Smiter of Ilneval</Name>
+      <Text>The orc deals an extra die of damage when it hits with a longsword attack (included in the attack).</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The orc makes two melee attacks with its longsword or two ranged attacks with its javelins. If Ilneval’s Command is available to use, the orc can use it after these attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) slashing damage, or 14 (2d10+3) slashing damage when used with two hands.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8+3",
+  "Two Handed</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Javelin</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Ilneval's Command (Recharges 4-6)</Name>
+      <Text>Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

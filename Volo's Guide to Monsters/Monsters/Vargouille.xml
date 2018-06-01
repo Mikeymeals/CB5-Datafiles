@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Vargouille</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <HP>13</HP>
+  <HPRoll>3d4+6</HPRoll>
+  <Speeds>
+    <string>5 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>2</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Abyssal</string>
+    <string>Infernal</string>
+    <string>and any languages it knew before becoming a vargouille but can't speak</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage plus 10 (3d6) poison damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2+3d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Kiss</Name>
+      <Text>The vargouille kisses one incapacitated humanoid within 5 feet of it. The target must succeed on a DC 12 Charisma saving throw or become cursed. The cursed target loses 1 point of Charisma after each hour, as its head takes on fiendish aspects. The curse doesn’t advance while the target is in sunlight or the area of a daylight spell; don’t count that time. When the cursed target’s Charisma becomes 2, it dies, and its head tears from its body and becomes a new vargouille. Casting remove curse, greater restoration, or a similar spell on the target before the transformation is complete can end the curse. Doing so undoes the changes made to the target by the curse.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stunning Shriek</Name>
+      <Text>The vargouille shrieks. Each humanoid and beast within 30 feet of the vargouille and able to hear it must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the vargouille’s next turn. While frightened in this way, a target is stunned. If a target’s saving throw is successful or the effect ends for ft., the target is immune to the Stunning Shriek of all vargouilles for 1 hour.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

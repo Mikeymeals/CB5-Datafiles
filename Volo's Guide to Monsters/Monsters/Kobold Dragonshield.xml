@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Kobold Dragonshield</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>kobold</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>leather armor, shield</ACText>
+  <HP>44</HP>
+  <HPRoll>8d6+16</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>9</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dragon's Resistance</Name>
+      <Text>The kobold has resistance to a type of damage based on the color of dragon that invested it with power (choose or roll a d10): 1-2, acid (black); 3-4, cold (white); 5-6, fire (red); 7-8, lightning (blue); 9-10, poison (green).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Heart of the Dragon</Name>
+      <Text>If the kobold is frightened or paralyzed by an effect that allows a saving throw, it can repeat the save at the start of its turn to end the effect on itself and all kobolds within 30 feet of it. Any kobold that benefits from this trait (including the dragonshield) has advantage on its next attack roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 feet of the creature and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The kobold makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (ld6+l) piercing damage, or 5 (ld8+l) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>ld6+l",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Neothelid</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>325</HP>
+  <HPRoll>21d20+105</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>27</Strength>
+  <Dexterity>7</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>13</CR>
+  <XP>10000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Creature Sense</Name>
+      <Text>The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature’s Intelligence score, but can’t sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting (Psionics)</Name>
+      <Text>The neothelid’s innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:
+
+At will: levitate
+
+1/day each: confusion, feeblemind, telekinesis</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The neothelid has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Tentacles</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 21 (3d8+8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid’s turns.
+If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.</Text>
+      <AttackBonus>13</AttackBonus>
+      <Damage>3d8+8+3d8",
+  "Acid Damage</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Acid Breath (Recharges 5-6)</Name>
+      <Text>The neothelid exhales acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>10d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>levitate</string>
+    <string>confusion</string>
+    <string>feeblemind</string>
+    <string>telekinesis</string>
+  </Spells>
+  <Slots />
+</Monster>

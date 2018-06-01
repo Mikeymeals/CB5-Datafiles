@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Vegepygmy Chief</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>33</HP>
+  <HPRoll>6d6+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances>
+    <string>lightning</string>
+    <string>piercing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Vegepygmy</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The vegepygmy makes two attacks with its claws or two melee attacks with its spear.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6+2) piercing damage, or 6 (id8+2) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2",
+  "Two Handed</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spores (1/Day)</Name>
+      <Text>A 15-foot-radius cloud of toxic spores extends out from the vegepygmy. The spores spread around corners. Each creature in that area that isn’t a plant must succeed on a DC 12 Constitution saving throw or be poisoned. While poisoned in this way, a target takes 9 (2d8) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>2d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

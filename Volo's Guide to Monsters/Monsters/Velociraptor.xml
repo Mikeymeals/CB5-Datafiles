@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Velociraptor</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>10</HP>
+  <HPRoll>3d4+3</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The velociraptor has advantage on an attack roll against a creature if at least one of the velociraptor’s allies is within 5 feet of the creature and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The velociraptor makes two attacks: one with its bite and one with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

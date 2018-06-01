@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Neogi Hatchling</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>11</AC>
+  <HP>7</HP>
+  <HPRoll>3d4</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.125</CR>
+  <XP>25</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Mental Fortitude</Name>
+      <Text>The hatchling has advantage on saving throws against being charmed or frightened, and magic can’t put the hatchling to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The hatchling can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4+1+2d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

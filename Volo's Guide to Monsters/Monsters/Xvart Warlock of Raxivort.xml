@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Xvart Warlock of Raxivort</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>xvart</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <ACText>15 with mage armor</ACText>
+  <HP>22</HP>
+  <HPRoll>5d6+5</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The xvart's innate spellcasting ability is Charisma. it can innately cast the following spells, requiring no material components:
+
+At will: detect magic, mage armor (self only)</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC ll, +3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+Cantrips (at will): eldritch blast, mage hand, minor illusion, poison spray, prestidigitation
+
+1st-2nd level (2 2nd-level slots): burning hands, expeditious retreat, invisibility, scorching ray</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Low Cunning</Name>
+      <Text>The xvart can take the Disengage action as a bonus action on each of its turns.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Overbearing Pack</Name>
+      <Text>The xvart has advantage on Strength (Athletics) checks to shove a creature if at least one of the xvart’s allies is within 5 feet of the target and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Raxivort's Tongue</Name>
+      <Text>The xvart can communicate with ordinary bats and rats, as well as giant bats and giant rats.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>1</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>detect magic</string>
+    <string>mage armor</string>
+    <string>burning hands</string>
+    <string>expeditious retreat</string>
+    <string>invisibility</string>
+    <string>scorching ray</string>
+  </Spells>
+  <Slots>
+    <int>0</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

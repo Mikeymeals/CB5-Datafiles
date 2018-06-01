@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Quetzalcoatlus</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>30</HP>
+  <HPRoll>4d12+4</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 80 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dive Attack</Name>
+      <Text>If the quetzalcoatlus is flying and dives at least 30 feet toward a target and then hits with a bite attack, the attack deals an extra 10 (3d6) damage to the target.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The quetzalcoatlus doesn’t provoke an opportunity attack when it flies out of an enemy’s reach.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 12 (3d6+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>3d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

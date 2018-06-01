@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Yuan-ti Pit Master</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+    <Keyword>
+      <Name>yuan-ti</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>88</HP>
+  <HPRoll>16d8+16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft. (penetrates magical darkness)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It doesn't change form if it dies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting (Yuan-ti Form Only)</Name>
+      <Text>The yuan-ti’s innate spellcasting ability is Charisma (spell save DC 13). The yuan-ti can innately cast the following spells, requiring no material components:
+
+At will: animal friendship (snakes only) 3/day: suggestion</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The yuan-ti has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poison’s Disciple (2/Day)</Name>
+      <Text>The first time the yuan-ti hits with a melee attack on its turn, it can deal an extra 16 (3d10) poison damage to the target.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting (Yuan-ti Farm Only)</Name>
+      <Text>The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+Cantrips (at will): eldritch blast (range 300 ft., +3 bonus to each damage roll), friends, guidance, mage hand, message, poison spray
+
+1st-3rd level (2 3rd-level slots): command, counterspell, hellish rebuke, invisibility, misty step, unseen servant, vampiric touch</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Chameleon Skin</Name>
+      <Text>The yuan-ti has advantage on Dexterity (Stealth) checks made to hide.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Shed Skin (1/Day)</Name>
+      <Text>The yuan-ti can shed its skin as a bonus action to free itself from a grapple, shackles, or other restraints. If the yuan-ti spends 1 minute eating its shed skin, it regains hit points equal to half its hit point maximum.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack (Yuan-ti Form Only)</Name>
+      <Text>The yuan-ti makes two bite attacks using its snake arms.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 7 (2d6) poison damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3+2d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Merrshaulk's Slumber (1/Day)</Name>
+      <Text>The yuan-ti targets up to five creatures that it can see within 60 feet of it. Each target must succeed on a DC 13 Constitution saving throw or fall into a magical sleep and be unconscious for 10 minutes. A sleeping target awakens if it takes damage or if someone uses an action to shake or slap it awake. This magical sleep has no effect on a creature immune to being charmed.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>animal friendship</string>
+    <string>suggestion</string>
+    <string>eldritch blast</string>
+    <string>friends</string>
+    <string>guidance</string>
+    <string>mage hand</string>
+    <string>message</string>
+    <string>poison spray</string>
+    <string>command</string>
+    <string>counterspell</string>
+    <string>hellish rebuke</string>
+    <string>invisibility</string>
+    <string>misty step</string>
+    <string>unseen servant</string>
+    <string>vampiric touch</string>
+  </Spells>
+  <Slots />
+</Monster>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Frost Giant Everlasting One</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>frost giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>patchwork armor</ACText>
+  <HP>189</HP>
+  <HPRoll>14d12+98</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>25</Strength>
+  <Dexterity>9</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Giant</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Extra Heads</Name>
+      <Text>The giant has a 25 percent chance of having more than one head. If it has more than one, it has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The giant regains 10 hit points at the start of its turn. If the giant takes acid or fire damage, this trait doesn’t function at the start of its next turn. The giant dies only if it starts its turn with 0 hit points and doesn’t regenerate.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Vaprak's Rage (Recharges on a Short or Long Rest)</Name>
+      <Text>As a bonus action, the giant can enter a rage at the start of its turn. The rage lasts for 1 minute or until the giant is incapacitated. While raging, the giant gains the following benefits:
+
+- The giant has advantage on Strength checks and Strength saving throws
+
+- When it makes a melee weapon attack, the giant gains a +4 bonus to the damage roll.
+
+- The giant has resistance to bludgeoning, piercing, and slashing damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The giant makes two attacks with its greataxe.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greataxe</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 26 (3d12+7) slashing damage, or 30 (3d12+11) slashing damage while raging.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>3d12+7",
+  "Raging</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10+7) bludgeoning damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>4d10+7</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

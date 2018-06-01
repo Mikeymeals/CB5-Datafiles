@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Stone Giant Dreamwalker</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>stone giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>161</HP>
+  <HPRoll>14d12+70</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dreamwalker's Charm</Name>
+      <Text>An enemy that starts its turn within 30 feet of the giant must make a DC 13 Charisma saving throw, provided that the giant isn’t incapacitated. On a failed save, the creature is charmed by the giant. A creature charmed in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the saving throw, the creature is immune to this giant’s Dreamwalker's Charm for 24 hours.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The giant makes two attacks with its greatclub.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greatclub</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 15 ft, one target. Hit: 19 (3d8+6) bludgeoning damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>3d8+6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Petrifying Touch</Name>
+      <Text>The giant touches one Medium or smaller creature within 10 feet of it that is charmed by it. The target must make a DC 17 Constitution saving throw. On a failed save, the target becomes petrified, and the giant can adhere the target to its stony body. Greater restoration spells and other magic that can undo petrification have no effect on a petrified creature on the giant unless the giant is dead, in which case the magic works normally, freeing the petrified creature as well as ending the petrified condition on it.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +10 to hit, range 60/240 ft, one target. Hit: 28 (4d10+6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>4d10+6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

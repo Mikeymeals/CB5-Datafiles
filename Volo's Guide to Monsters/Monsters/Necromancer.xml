@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Necromancer</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>12</AC>
+  <ACText>15 with mage armor</ACText>
+  <HP>66</HP>
+  <HPRoll>12d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>9</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any four languages</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:
+
+Cantrips (at will): chill touch, dancing lights, mage hand, mending
+
+1st level (4 slots):false life*, mage armor, ray of sickness*
+
+2nd level (3 slots): blindness/deafness*, ray of enfeeblement*, web
+
+3rd level (3 slots): animate dead*, bestow curse*, vampiric touch*
+
+4th level (3 slots): blight*, dimension door, stoneskin
+
+5th level (2 slots): Bigby’s hand, cloudkill
+
+6th level (1 slot): circle of death*
+
+*Necromancy spell of 1st level or higher</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Grim Harvest (1/Turn)</Name>
+      <Text>When necromancer kills a creature that is neither a construct nor undead with a spell of 1st level or higher, the necromancer regains hit points equal to twice the spell's level, or three times if it is a necromancy spell.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Withering Touch</Name>
+      <Text>Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 5 (2d4) necrotic damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>chill touch</string>
+    <string>dancing lights</string>
+    <string>mage hand</string>
+    <string>mending</string>
+    <string>false life</string>
+    <string>mage armor</string>
+    <string>ray of sickness</string>
+    <string>blindness/deafness</string>
+    <string>ray of enfeeblement</string>
+    <string>web</string>
+    <string>animate dead</string>
+    <string>bestow curse</string>
+    <string>vampiric touch</string>
+    <string>blight</string>
+    <string>dimension door</string>
+    <string>stoneskin</string>
+    <string>Bigby's hand</string>
+    <string>cloudkill</string>
+    <string>circle of death</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

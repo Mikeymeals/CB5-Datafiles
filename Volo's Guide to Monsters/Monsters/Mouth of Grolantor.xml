@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Mouth of Grolantor</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>hill giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>105</HP>
+  <HPRoll>10d12+40</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Giant</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Mouth of Madness</Name>
+      <Text>The giant is immune to confusion spells and similar magic.
+On each of its turns, the giant uses all its movement to move toward the nearest creature or whatever else it might perceive as food. Roll a d10 at the start of each of the giant’s turns to determine its action for that turn:
+
+1-3. The giant makes three attacks with its fists against one random target within its reach. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.
+
+4-5. The giant makes one attack with its fist against every creature within its reach. If no other creatures are within its reach, the giant makes one fist attack against itself.
+
+6-7. The giant makes one attack with its bite against one random target within its reach. If no other creatures are within its reach, its eyes glaze over and it becomes stunned until the start of its next turn.
+
+8-10. The giant makes three attacks against one random target within its reach: one attack with its bite and two with its fists. If no other creatures are within its reach, the giant flies into a rage and gains advantage on all attack rolls until the end of its next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (3d6+5) piercing damage, and the giant magically regains hit points equal to the damage dealt.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d6+5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 18 (3d8+5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d8+5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

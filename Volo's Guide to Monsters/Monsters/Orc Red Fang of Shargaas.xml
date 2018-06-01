@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Orc Red Fang of Shargaas</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>orc</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>studded leather armor</ACText>
+  <HP>52</HP>
+  <HPRoll>8d8+16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Cunning Action</Name>
+      <Text>On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Hand of Shargaas</Name>
+      <Text>The orc deals an 2 extra dice of damage when it hits a target with a weapon attack (included in its attacks).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shargaas's Sight</Name>
+      <Text>Magical darkness doesn’t impede the orc’s darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Slayer</Name>
+      <Text>In the first round of a combat, the orc has advantage on attack rolls against any creature that hasn’t taken a turn yet. If the orc hits a creature that round who was surprised, the hit is automatically a critical hit.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The orc makes two scimitar or dart attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6+3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>3d6+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dart</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>3d4+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Veil of Shargaas (Recharges after a Short or Long Rest)</Name>
+      <Text>The orc casts darkness without any components. Wisdom is its spellcasting ability.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>darkness</string>
+  </Spells>
+  <Slots />
+</Monster>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Leucrotta</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>67</HP>
+  <HPRoll>9d10+18</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Gnoll</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The leucrotta has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Kicking Retreat</Name>
+      <Text>If the leucrotta attacks with its hooves, it can take the Disengage action as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mimicry</Name>
+      <Text>The leucrotta can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rampage</Name>
+      <Text>When the leucrotta reduces a creature to 0 hit points with a melee attack on its turn, it can take a bonus action to move up to half its speed and make an attack with its hooves.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The leucrotta makes two attacks: one with its bite and one with its hooves.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8+4",
+  "Critical</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hooves</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

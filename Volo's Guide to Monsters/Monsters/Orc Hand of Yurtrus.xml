@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Orc Hand of Yurtrus</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>orc</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <ACText>hide armor</ACText>
+  <HP>30</HP>
+  <HPRoll>4d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common and Orc but can't speak</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Volo's Guide to Monsters, p. 184</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Aggressive</Name>
+      <Text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:
+
+Cantrips (at-will): guidance, mending, resistance, thaumaturgy
+
+1st level (4 slots): bane, detect magic, inflict wounds, protection from evil and good
+
+2nd level (3 slots): blindness/deafness, silence</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Touch of the White Hand</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>2d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>guidance</string>
+    <string>mending</string>
+    <string>resistance</string>
+    <string>thaumaturgy</string>
+    <string>bane</string>
+    <string>detect magic</string>
+    <string>inflict wounds</string>
+    <string>protection from evil and good</string>
+    <string>blindness/deafness</string>
+    <string>silence</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

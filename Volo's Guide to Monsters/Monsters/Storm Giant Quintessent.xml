@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Storm Giant Quintessent</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>storm giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>12</AC>
+  <HP>230</HP>
+  <HPRoll>20d12+100</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>fly 50 ft. (hover)</string>
+    <string>swim 50 ft.</string>
+  </Speeds>
+  <Strength>29</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>30</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>truesight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>16</CR>
+  <XP>15000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The giant can breathe air and water.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The giant makes two Lightning Sword attacks or uses Wind Javelin twice.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Lightning Sword</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 40 (9d6+9) lightning damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>9d6+9</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Windjavelin</Name>
+      <Text>The giant coalesces wind into a javeIin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6+9) piercing damage to the target, striking unerringly. The javelin disappears after it hits.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>3d6+9</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Legendary Actions (3/Turn)</Name>
+      <Text>The giant can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The giant regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gust</Name>
+      <Text>The giant targets a creature it can see within 60 feet of it and creates a magical gust of wind around it. The target must succeed on a DC 18 Strength saving throw or be pushed up to 20 feet in any horizontal direction the giant chooses.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Thunderbolt (2 Actions)</Name>
+      <Text>The giant hurls a thunderbolt at a creature it can see within 600 feet of it. The target must make a DC 18 Dexterity saving throw, taking 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>4d10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>One with the Storm (3 Actions)</Name>
+      <Text>The giant vanishes, dispersing itself into the storm surrounding its lair. The giant can end this effect at the start of any of its turns, becoming a giant once more and appearing in any location it chooses within its lair. While dispersed, the giant can't take any actions other than lair actions, and it can’t be targeted by attacks, spells, or other effects. The giant can’t use this ability outside its lair, nor can it use this ability if another creature is using a control weather spell or similar magic to quell the storm.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>0</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>0</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

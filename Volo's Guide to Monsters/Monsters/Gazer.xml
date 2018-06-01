@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Gazer</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <HP>13</HP>
+  <HPRoll>3d4+6</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 30 ft. (hover)</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aggressive</Name>
+      <Text>As a bonus action, the gazer can move up to its speed toward a hostile creature that it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mimicry</Name>
+      <Text>The gazer can mimic simple sounds of speech it has heard, in any language. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Eye Rays</Name>
+      <Text>The gazer shoots two of the following magical eye rays at random (reroll duplicates), choosing one or two targets it can see within 60 feet of it:
+
+7. Dazing Ray: The targeted creature must succeed on a DC 12 Wisdom saving throw or be charmed until the start of the gazer's next turn. While the target is charmed in this way, its speed is halved, and it has disadvantage on attack rolls.
+
+2. Fear Ray: The targeted creature must succeed on a DC 12 Wisdom saving throw or be frightened until the start of the gazer's next turn.
+
+3. Frost Ray: The targeted creature must succeed on a DC 12 Dexterity saving throw or take 10 (3d6) cold damage.
+
+4. Telekinetic Ray: If the target is a creature that is Medium or smaller, it must succeed on a DC 12 Strength saving throw or be moved up to 30 feet directly away from the gazer.
+If the target is an object weighing 10 pounds or less that isn't being worn or carried, the gazer moves it up to 30 feet in any direction. The gazer can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a container.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>-1</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

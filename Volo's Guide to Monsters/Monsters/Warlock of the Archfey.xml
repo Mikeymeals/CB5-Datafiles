@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Warlock of the Archfey</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>11</AC>
+  <ACText>14 with mage armor</ACText>
+  <HP>49</HP>
+  <HPRoll>11d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>9</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+  </ConditionImmunities>
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any two languages (usually Sylvan)</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+At will: disguise self, mage armor (self only), silent image, speak with animals
+
+1/day: conjure fey</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The warlock is a 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+Cantrips (at will): dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery
+
+1st-5th level (3 5th-level slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Misty Escape (Recharges after a Short or Long Rest)</Name>
+      <Text>In response to taking damage, the warlock turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks, makes a damage roll, or casts a spell.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>disguise self</string>
+    <string>mage armor</string>
+    <string>silent image</string>
+    <string>speak with animals</string>
+    <string>conjure fey</string>
+    <string>dancing lights</string>
+    <string>eldritch blast</string>
+    <string>friends</string>
+    <string>mage hand</string>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>vicious mockery</string>
+    <string>blink</string>
+    <string>charm person</string>
+    <string>dimension door</string>
+    <string>dominate beast</string>
+    <string>faerie fire</string>
+    <string>fear</string>
+    <string>hold monster</string>
+    <string>misty step</string>
+    <string>phantasmal force</string>
+    <string>seeming</string>
+    <string>sleep</string>
+  </Spells>
+  <Slots>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>5</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

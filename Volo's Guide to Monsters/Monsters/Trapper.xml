@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Trapper</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>85</HP>
+  <HPRoll>10d10+30</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>climb 10 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>4</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 30 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fake Appearance</Name>
+      <Text>While the trapper is attached to a ceiling, floor, or wall and remains motionless, it is almost indistinguishable from an ordinary section of ceiling, floor, or wall. A creature that can see it and succeeds on a DC 20 Intelligence (investigation) or Intelligence (Nature) check can discern its presence.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The trapper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Smother</Name>
+      <Text>One Large or smaller creature within 5 feet of the trapper must succeed on a DC 14 Dexterity saving throw or be grappled (escape DC 14). Until the grapple ends, the target takes 17 (4d6+3) bludgeoning damage plus 3 (1d6) acid damage at the start of each of its turns. While grappled in this way, the target is restrained, blinded, and at risk of suffocating. The trapper can smother only one creature at a time.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>4d6+3+1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

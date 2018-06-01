@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Thorny</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>27</HP>
+  <HPRoll>5d8+5</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances>
+    <string>lightning</string>
+    <string>piercing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Plant Camouflage</Name>
+      <Text>The thorny has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The thorny regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the thorny’s next turn. The thorny dies only if it starts its turn with 0 hit points and doesn’t regenerate.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6+1) piercing damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>2d6+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

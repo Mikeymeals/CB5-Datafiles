@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Kraken Priest</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any evil alignment</Alignment>
+  <AC>10</AC>
+  <HP>75</HP>
+  <HPRoll>10d8+30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any two languages</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The priest can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The priest’s spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+
+At will: command, create or destroy water
+
+3/day each: control water, darkness, water breathing, water walk
+
+1/day each: call lightning, Evard’s black tentacles</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Thunderous Touch</Name>
+      <Text>Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: 27 (5d10) thunder damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>5d10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Voice of the Kraken (Recharges after a Short or Long Rest)</Name>
+      <Text>A kraken speaks through the priest with a thunderous voice audible within 300 feet. Creatures of the priest’s choice that can hear the kraken's words (which are spoken in Abyssal, Infernal, or Primordial) must succeed on a DC 14 Charisma saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>command</string>
+    <string>create or destroy water</string>
+    <string>control water</string>
+    <string>darkness</string>
+    <string>water breathing</string>
+    <string>water walk</string>
+    <string>call lightning</string>
+    <string>Evard's black tentacles</string>
+  </Spells>
+  <Slots />
+</Monster>

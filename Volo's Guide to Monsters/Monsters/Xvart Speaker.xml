@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Xvart Speaker</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>xvart</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <ACText>leather armor</ACText>
+  <HP>7</HP>
+  <HPRoll>2d6</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal plus one other language</string>
+    <string>usually Common or Goblin</string>
+  </Languages>
+  <CR>0.125</CR>
+  <XP>25</XP>
+  <Traits />
+  <Actions />
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

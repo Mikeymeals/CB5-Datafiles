@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Flind</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>gnoll</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>chain mail</ACText>
+  <HP>127</HP>
+  <HPRoll>15d8+60</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Gnoll</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aura of Blood Thirst</Name>
+      <Text>If the flind isn’t incapacitated, any creature with the Rampage trait can make a bite attack as a bonus action while within 10 feet of the flind.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The flind makes three attacks: one with each of its different flail attacks or three with its longbow.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Flail of Madness</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 10 (1d10+5) bludgeoning damage, and the target must make a DC 16 Wisdom saving throw. On a failed save, the target must make a melee attack against a random target within its reach on its next turn. If it has no targets within its reach even after moving, it loses its action on that turn.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d10+5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Flail of Pain</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 it, one target. Hit: 10 (1d10+5) bludgeoning damage plus 22 (4d10) psychic damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d10+5+4d10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Flail of Paralysis</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10+5) bludgeoning damage, and the target must succeed on a DC 16 Constitution saving throw or be paralyzed until the end of its next turn.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d10+5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longbow</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 4 (1d8) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

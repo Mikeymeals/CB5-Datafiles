@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Redcap</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>6d6+24</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Iron Boots</Name>
+      <Text>While moving, the redcap has disadvantage on Dexterity (Stealth) checks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Outsize Strength</Name>
+      <Text>While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The redcap makes three attacks with its wicked sickle.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Wicked Sickle</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d4+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Ironbound Pursuit</Name>
+      <Text>The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a DC 14 Dexterity saving throw or take 20 (3d10+4) bludgeoning damage and be knocked prone.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>3d10+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

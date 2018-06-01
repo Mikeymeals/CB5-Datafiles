@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Swashbuckler</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any non-lawful alignment</Alignment>
+  <AC>17</AC>
+  <ACText>leather armor</ACText>
+  <HP>66</HP>
+  <HPRoll>12d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any one language (usually Common)</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Lightfooted</Name>
+      <Text>The swashbuckler can take the Dash or Disengage action as a bonus action on each of its turns.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Suave Defense</Name>
+      <Text>While the swashbuckler is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The swashbuckler makes three attacks: one with a dagger and two with its rapier.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4+4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rapier</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

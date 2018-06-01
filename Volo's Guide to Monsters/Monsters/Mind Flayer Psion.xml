@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Mind Flayer Psion</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>breastplate</ACText>
+  <HP>71</HP>
+  <HPRoll>13d8+13</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>19</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Deep Speech</string>
+    <string>Undercommon</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The mind flayer has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting (Psionics)</Name>
+      <Text>The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:
+
+At will: guidance, mage hand, vicious mockery, true strike
+
+1st-level (4 slots): charm person, command, comprehend languages, sanctuary
+
+2nd level (3 slots): crown of madness, phantasmal force, see invisibility
+
+3rd level (3 slots): clairvoyance, fear, meld into stone
+
+4th level (3 slots): confusion, stone shape
+
+5th level (2 slots): scrying, telekinesis</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Tentacles</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2dl0+4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d10+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Extract Brain</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>10d10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Mind Blast (Recharge 5-6)</Name>
+      <Text>The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>4d8+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>guidance</string>
+    <string>mage hand</string>
+    <string>vicious mockery</string>
+    <string>true strike</string>
+    <string>charm person</string>
+    <string>command</string>
+    <string>comprehend languages</string>
+    <string>sanctuary</string>
+    <string>crown of madness</string>
+    <string>phantasmal force</string>
+    <string>see invisibility</string>
+    <string>clairvoyance</string>
+    <string>fear</string>
+    <string>meld into stone</string>
+    <string>confusion</string>
+    <string>stone shape</string>
+    <string>scrying</string>
+    <string>telekinesis</string>
+  </Spells>
+  <Slots />
+</Monster>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Shadow Mastiff</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>12</AC>
+  <HP>33</HP>
+  <HPRoll>6d8+6</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks while in dim light or darkness</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Ethereal Awareness</Name>
+      <Text>The shadow mastiff can see ethereal creatures and objects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Hearing and Smell</Name>
+      <Text>The shadow mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Blend</Name>
+      <Text>While in dim light or darkness, the shadow mastiff can use a bonus action to become invisible, along with anything it is wearing or carrying. The invisibility lasts until the shadow mastiff uses a bonus action to end it or until the shadow mastiff attacks, is in bright light, or is incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Weakness</Name>
+      <Text>While in bright light created by sunlight, the shadow mastiff has disadvantage on attack rolls, ability checks, and saving throws.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

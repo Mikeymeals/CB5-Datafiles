@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Orc Claw of Luthic</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>orc</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>hide armor</ACText>
+  <HP>45</HP>
+  <HPRoll>6d8+18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Volo's Guide to Monsters, p. 183</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Aggressive</Name>
+      <Text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:
+
+Cantrips (at will): guidance, mending, resistance, thaumaturgy
+
+1st level (4 slots): bane, cure wounds, guiding bolt
+
+2nd level (3 slots): augury, warding bond
+
+3rd level (2 slots): bestow curse, create food and water</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>guidance</string>
+    <string>mending</string>
+    <string>resistance</string>
+    <string>thaumaturgy</string>
+    <string>bane</string>
+    <string>cure wounds</string>
+    <string>guiding bolt</string>
+    <string>augury</string>
+    <string>warding bond</string>
+    <string>bestow curse</string>
+    <string>create food and water</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

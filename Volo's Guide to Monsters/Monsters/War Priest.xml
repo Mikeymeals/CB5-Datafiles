@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>War Priest</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>18</AC>
+  <ACText>plate</ACText>
+  <HP>117</HP>
+  <HPRoll>18d8+36</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any two languages</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:
+
+Cantrips (at will): light, mending, sacred flame, spare the dying
+
+1st level (4 slots): divine favor, guiding bolt, healing word, shield of faith
+
+2nd level (3 slots): lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon
+
+3rd level (3 slots): beacon of hope, crusader’s mantle, dispel magic, revivify, spirit guardians, water wall
+
+4th level (3 slots): banishment, freedom of movement, guardian of faith, stoneskin
+
+5th level (1 slot): flame strike, mass cure wounds, hold monster</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The priest makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Maul</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 +3) bludgeoning damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6 +3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Guided Strike (Recharges after a Short or Long Rest)</Name>
+      <Text>The priest grants a +10 bonus to an attack roll made by itself or another creature within 30 feet of it. The priest can make this choice after the roll is made but before it hits or misses.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>light</string>
+    <string>mending</string>
+    <string>sacred flame</string>
+    <string>spare the dying</string>
+    <string>divine favor</string>
+    <string>guiding bolt</string>
+    <string>healing word</string>
+    <string>shield of faith</string>
+    <string>lesser restoration</string>
+    <string>magic weapon</string>
+    <string>prayer of healing</string>
+    <string>silence</string>
+    <string>spiritual weapon</string>
+    <string>beacon of hope</string>
+    <string>crusader's mantle</string>
+    <string>dispel magic</string>
+    <string>revivify</string>
+    <string>spirit guardians</string>
+    <string>water wall</string>
+    <string>banishment</string>
+    <string>freedom of movement</string>
+    <string>guardian of faith</string>
+    <string>stoneskin</string>
+    <string>flame strike</string>
+    <string>mass cure wounds</string>
+    <string>hold monster</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

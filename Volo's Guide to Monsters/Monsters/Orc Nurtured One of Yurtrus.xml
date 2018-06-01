@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Orc Nurtured One of Yurtrus</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>orc</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>9</AC>
+  <HP>30</HP>
+  <HPRoll>4d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aggressive</Name>
+      <Text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Corrupted Carrier</Name>
+      <Text>When the orc is reduced to 0 hit points, it explodes, and any creature within 10 feet of it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 14 (4d6) poison damage and becomes poisoned. On a success, the creature takes half as much damage and isn‘t poisoned. A creature poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can’t regain hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Nurtured One of Yurtrus</Name>
+      <Text>The orc has advantage on saving throws against poison and disease.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage plus 2 (1d4) necrotic damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2+1d4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Corrupted Vengeance</Name>
+      <Text>The orc reduces itself to 0 hit points, triggering its Corrupted Carrier trait.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

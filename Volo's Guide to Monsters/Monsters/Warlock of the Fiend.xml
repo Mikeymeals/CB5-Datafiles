@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Warlock of the Fiend</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>12</AC>
+  <ACText>15 with mage armor</ACText>
+  <HP>78</HP>
+  <HPRoll>12d8+24</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>slashing damage from nonmagical attacks not made with silvered weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any two languages (usually Abyssal or Infernal)</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The warlock’s innate spellcasting ability is Charisma. It can innately cast the following spells (spell save DC 15), requiring no material components:
+
+At will: alter self, false life, levitate (self only), mage armor (self only), silent image
+
+1/day each: feeblemind, finger of death, plane shift</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The warlock is a l7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+
+Cantrips (at will): eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp
+
+1st-5th level (4 5th-level slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dark One's Own Luck (Recharges after a Short or Long Rest)</Name>
+      <Text>When the warlock makes an ability check or saving throw, it can add a d10 to the roll. It can do this after the roll is made but before any of the roll’s effects occur.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Mace</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6+3d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>alter self</string>
+    <string>false life</string>
+    <string>levitate</string>
+    <string>mage armor</string>
+    <string>silent image</string>
+    <string>feeblemind</string>
+    <string>finger of death</string>
+    <string>plane shift</string>
+    <string>eldritch blast</string>
+    <string>fire bolt</string>
+    <string>friends</string>
+    <string>mage hand</string>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>shocking grasp</string>
+    <string>banishment</string>
+    <string>burning hands</string>
+    <string>flame strike</string>
+    <string>hellish rebuke</string>
+    <string>magic circle</string>
+    <string>scorching ray</string>
+    <string>scrying</string>
+    <string>stinking cloud</string>
+    <string>suggestion</string>
+    <string>wall of fire</string>
+  </Spells>
+  <Slots>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>4</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>
