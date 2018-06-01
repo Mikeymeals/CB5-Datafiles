@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2, and your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Centaurs mature and age at about the same rate as humans.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Centaurs are inclined toward neutrality.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Your size is Medium, yet you tower over most other humanoids.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 40 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>40</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Charge</Name>
+      <Text>If you move at least 20 feet straight toward a target and then hit it with a melee weapon attack on the same turn, roll the weapon’s damage dice twice and add them together. Once you use this ability, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>CENTAUR_CHARGE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Hooves</Name>
+      <Text>Your hooves are natural melee weapons, with which you’re proficient. If you hit with a hoof, the target takes bludgeoning damage equal to 1d6 + your Strength modifier.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Hooves (Centaur)</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Hooves (Centaur)</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Equine Build</Name>
+      <Text>You count as one size larger when determining your carrying capacity and the weight you can push or drag.
+In addition, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot.
+Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>1</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Survivor</Name>
+      <Text>You have proficiency in the Survival skill.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Survival</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Hybrid Nature</Name>
+      <Text>You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Sylvan</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Sylvan</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Centaur</Name>
+  <Size>Medium</Size>
+  <Description>Roamers at heart Centaurs love open spaces and the freedom to travel. As much as they can, centaurs run. They race the wind, hooves thundering and tails streaming behind them.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Nature’s Cavalry</Name>
+      <Text>Centaurs have humanoid upper bodies, displaying all the human variety of skin tones and features. In size, they are comparable to a human rider mounted on a horse, and they fill similar roles—as cavalry, messengers, outriders, and scouts.
+Centaurs’ ears are slightly pointed, but their faces are more wide and square than those of elves. Below the waist, they have the bodies of horses, with coats tending toward brown shades (chestnut or bay) and darker tails.</Text>
+    </Description>
+    <Description>
+      <Name>Nature and Community</Name>
+      <Text>Centaurs have a strong sense of the interconnectedness of the natural world, and they celebrate family and community as microcosms of that greater connection.
+The birth of a foal is always cause for festivities. At the same time, centaurs revere the traditions of the past, preserving old ways and keeping alive the legends of ancestral heroes. They feel a close kinship with wild animals, perhaps because of their own hybrid nature, and delight in the feeling of running alongside herds and packs of beasts.</Text>
+    </Description>
+    <Description>
+      <Name>Centaur Names</Name>
+      <Text>Centaurs’ given names are passed down through family lines. The name given to a new foal is typically the name of the most recently deceased family member of the same gender, keeping alive the memory—and, the centaurs believe, some shard of the spirit—of the departed.
+Centaurs rarely use family names, but wear symbols that represent their family membership. These symbols might include graphical representations of plants or animals, printed mottos, braids and beads worn in the hair and tail, or even specific patterns of woven fabric.</Text>
+    </Description>
+    <Description>
+      <Name>Centaur Traits</Name>
+      <Text>The following traits are shared by player characters who are centaurs.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 48 - Centaurs and Minotaurs</Source>
+</Race>

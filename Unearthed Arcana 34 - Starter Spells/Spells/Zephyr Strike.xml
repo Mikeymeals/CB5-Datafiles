@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Zephyr Strike</Name>
+  <CastingTime>1 bonus action</CastingTime>
+  <Range>Self</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>1</Level>
+  <Description>For the duration, your movement doesn’t provoke opportunity attacks. In addition, the first time you make a weapon attack on your turn before the spell ends, you make the attack roll with advantage, and your speed increases by 30 feet until the end of that turn.</Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 34 - Starter Spells</Source>
+</Spell>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Armor">
+  <Keywords>
+    <Keyword>
+      <Name>light</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Arcanomechanical Armor</Name>
+  <Description>School of Invention Item: While you are attuned to it and wearing it, it grants you resistance to force damage. The armor is light armor and provides an AC of 12 + your Dexterity modifier. It weighs 8 pounds.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Unearthed Arcana 45 - Three Subclasses</Source>
+  <Weight>0</Weight>
+  <BaseAC>12</BaseAC>
+  <StealthDisadvantage>false</StealthDisadvantage>
+  <StrengthRequired>0</StrengthRequired>
+</Item>

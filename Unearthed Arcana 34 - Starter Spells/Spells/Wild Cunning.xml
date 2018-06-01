@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ritual</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Wild Cunning</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>120 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>1</Level>
+  <Description>You call out to the spirits of nature to aid you. When you cast this spell, choose one of the following effects:
+• If there are any tracks on the ground within range, you know where they are, and you make Wisdom (Survival) checks to follow these tracks with advantage for 1 hour or until you cast this spell again.
+• If there is edible forage within range, you know it and where to find it.
+• If there is clean drinking water within range, you know it and where to find it.
+• If there is suitable shelter for you and your companions with range, you know it and where to find. 
+• Send the spirits to bring back wood for a fire and to set up a campsite in the area using your supplies. The spirits build the fire in a circle of stones, put up tents, unroll bedrolls, and put out any rations and water for consumption.
+• Have the spirits instantly break down a campsite, which includes putting out a fire, taking down tents, packing up bags, and burying any rubbish.</Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 34 - Starter Spells</Source>
+</Spell>

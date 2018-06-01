@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Gift of the Depths</Name>
+      <Text>You can breathe underwater, and you gain a swimming speed equal to your walking speed. You can also cast water breathing without expending a spell slot.
+Once you cast it using this invocation, you can’t do so again until you finish a long rest.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite>5th level</Prerequisite>
+      <Spell>Water Breathing</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <Source>Unearthed Arcana 39 - Revised Class Options</Source>
+</FeatureContainer>

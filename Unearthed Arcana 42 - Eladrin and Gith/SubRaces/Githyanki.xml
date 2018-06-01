@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Githyanki tend toward lawful evil. They are self-centered, violent, and arrogant, yet they remain the faithful servants of their lichqueen, Vlaakith. Renegade githyanki tend toward chaos as they have forsaken her will.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Decadent Mastery</Name>
+      <Text>You learn one language of your choice. In the timeless city of Tu’narath, githyanki have bountiful time to master odd bits of knowledge.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>GITH_GITHYANKI_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Decadent Mastery</Name>
+      <Text>You are proficient with one skill or tool of your choice.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ToolProficiencyChoiceConditionFeature>
+          <Keywords />
+          <Name>Tool</Name>
+          <Text>You are proficient with one tool of your choice.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>GITH_GITHYANKI_TOOL</UniqueID>
+          <Condition>Tool and not weapon and not shield and not armor</Condition>
+        </ToolProficiencyChoiceConditionFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>You are proficient with one skill of your choice.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>GITH_GITHYANKI_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>GITH_GITHYANKI_DECANDANT_MASTERY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Martial Prodigy</Name>
+      <Text>You are proficient with light and medium armor. Your people are ever ready for war.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and (Light or Medium)</Condition>
+      <Description>light and medium armor</Description>
+    </ToolKWProficiencyFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Githyanki Psionics</Name>
+      <Text>You know the mage hand cantrip. When you reach 3rd level, you can cast jump once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest.
+Intelligence is your spellcasting ability for these spells. You can cast all of them without components.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Githyanki Psionics</Name>
+          <Text>You know the mage hand cantrip. Intelligence is your spellcasting ability for this spells and you can cast it without components.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Mage Hand</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Githyanki Psionics</Name>
+          <Text>You can cast jump once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for this spells and you can cast it without components.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Jump</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Githyanki Psionics</Name>
+          <Text>You can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for this spells and you can cast it without components.</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Misty Step</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Descriptions />
+  <Source>Unearthed Arcana 42 - Eladrin and Gith</Source>
+  <Name>Githyanki</Name>
+  <Description>The brutal githyanki are trained from birth as warriors.</Description>
+  <ParentRace>Gith</ParentRace>
+</SubRace>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Arcane Deflection</Name>
+      <Text>At 2nd level, you have learned to weave your magic to fortify yourself against harm. When you are hit by an attack or fail a Constitution saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.
+When you use this feature, you can’t cast spells other than cantrips until the end of your next turn.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Tactical Wit</Name>
+      <Text>Starting at 2nd level, your ability to quickly assess tactical situations allows you to act quickly in battle. You gain a bonus to your initiative rolls equal to your Intelligence modifier.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>IntMod</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Power Surge</Name>
+      <Text>Starting at 6th level, you can empower your spells that unleash harm on groups of foes. When you force multiple creatures to make saving throws against the damage of one of your spells, you can increase the spell’s damage by rolling two more of its damage dice. This increase occurs only on the turn you cast the spell.
+Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WIZARD_WAR_MAGE_POWER_SURGE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Durable Magic</Name>
+      <Text>Beginning at 10th level, the magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Deflecting Shroud</Name>
+      <Text>At 14th level, your Arcane Deflection becomes infused with deadly magic. When you use your Arcane Deflection feature, magical energy arcs from you; each creature of your choice within 10 feet of you takes force damage equal to half your wizard level.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 32 - Wizard Revisited</Source>
+  <Name>War Magic</Name>
+  <SheetName>War Mage</SheetName>
+  <Description>A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration. It teaches techniques that empower a caster’s spells, while also providing methods for a wizard to bolster their own defenses.
+Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any flimsy piece of steel. War mages strike fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents’ attempts to counterattack.</Description>
+  <ParentRace>Wizard</ParentRace>
+</SubClass>

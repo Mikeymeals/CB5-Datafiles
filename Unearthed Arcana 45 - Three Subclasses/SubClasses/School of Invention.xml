@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tools of the Inventor</Name>
+      <Text>At 2nd level, you gain proficiency with two tools of your choice.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>WIZARD_INVENTION_TOOLS_INVENTOR</UniqueID>
+      <Condition>Tool and not Armor and not Weapon and not Shield</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Arcanomechanical Armor</Name>
+      <Text>Innovation is a dangerous practice, at least as far as members of this school practice it. As a shield against this risk, you have developed a suit of arcane armor.
+Starting at 2nd level, you gain proficiency with light armor and gain a suit of arcanomechanical armor—a magic item that only you can attune to. While you are attuned to it and wearing it, it grants you resistance to force damage.
+The armor is light armor and provides an AC of 12 + your Dexterity modifier. It weighs 8 pounds.
+You can create a new suit of it at the end of a long rest by touching a nonmagical suit of studded leather armor, which magically transforms it. Doing so removes the magic from your previous arcanomechanical armor, turning it into nonmagical studded leather.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and Light</Condition>
+      <Description>Light armor</Description>
+    </ToolKWProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Arcanomechanical Armor</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting</Name>
+      <Text>Starting at 2nd level, you can attempt to cast a spell you don’t have prepared. When you use this ability, you use your action and choose one of the following options:
+• Roll (d10) on the Reckless Casting table for cantrips and cast the resulting spell as part of this action.
+• Expend a spell slot and roll (d10) twice on the Reckless Casting table for its level, or the 5th level table if the slot is 6th level or higher. Pick which of the two results you want to use and cast the resulting spell as part of this action.
+If the spell you cast isn’t a wizard spell, it is nonetheless a wizard spell for you when you cast it with this feature.
+</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 1</Name>
+      <Text>acid splash</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Acid Splash</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 2</Name>
+      <Text>chill touch</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Chill Touch</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 3</Name>
+      <Text>fire bolt</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Fire Bolt</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 4</Name>
+      <Text>light</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Light</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 5</Name>
+      <Text>poison spray</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Poison Spray</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 6</Name>
+      <Text>ray of frost</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Ray of Frost</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 7</Name>
+      <Text>shocking grasp</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Shocking Grasp</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 8</Name>
+      <Text>sacred flame</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Sacred Flame</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 9</Name>
+      <Text>thorn whip</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Thorn Whip</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting Cantrip 10</Name>
+      <Text>Roll twice and cast each cantrip, but if you roll another 10 on either die, you cast nothing, wasting your action.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 1</Name>
+      <Text>burning hands</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Burning Hands</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 2</Name>
+      <Text>chromatic orb</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Chromatic Orb</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 3</Name>
+      <Text>color spray</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Color Spray</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 4</Name>
+      <Text>faerie fire</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Faerie Fire</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 5</Name>
+      <Text>false life</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>False Life</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 6</Name>
+      <Text>fog cloud</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Fog Cloud</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 7</Name>
+      <Text>jump</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Jump</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 8</Name>
+      <Text>magic missile</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Magic Missile</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 9</Name>
+      <Text>thunderwave</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Thunderwave</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting 1st-Level Spell 10</Name>
+      <Text>Roll twice and cast each spell, but if you roll another 10 on either die, you cast nothing, wasting your action but not the spell slot.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 1</Name>
+      <Text>blur</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Blur</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 2</Name>
+      <Text>darkness</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Darkness</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 3</Name>
+      <Text>enlarge/reduce</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Enlarge/Reduce</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 4</Name>
+      <Text>gust of wind</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Gust of Wind</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 5</Name>
+      <Text>invisibility</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Invisibility</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 6</Name>
+      <Text>levitate</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Levitate</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 7</Name>
+      <Text>Melf’s acid arrow</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Melf's Acid Arrow</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 8</Name>
+      <Text>scorching ray</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Scorching Ray</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 9</Name>
+      <Text>shatter</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Shatter</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting 2nd-Level Spell 10</Name>
+      <Text>Roll twice and cast each spell, but if you roll another 10 on either die, you cast nothing, wasting your action but not the spell slot.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 1</Name>
+      <Text>blink</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Blink</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 2</Name>
+      <Text>fear</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Fear</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 3</Name>
+      <Text>feign death</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Feign Death</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 4</Name>
+      <Text>fireball</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Fireball</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 5</Name>
+      <Text>fly</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Fly</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 6</Name>
+      <Text>gaseous form</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Gaseous Form</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 7</Name>
+      <Text>lightning bolt</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>lightning bol</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 8</Name>
+      <Text>sleet storm</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Sleet Storm</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 9</Name>
+      <Text>stinking cloud</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Stinking Cloud</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting 3rd-Level Spell 10</Name>
+      <Text>Roll twice and cast each spell, but if you roll another 10 on either die, you cast nothing, wasting your action but not the spell slot.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 1</Name>
+      <Text>blight</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Blight</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 2</Name>
+      <Text>confusion</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Confusion</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 3</Name>
+      <Text>Evard’s black tentacles</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Evard's Black Tentacles</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 4</Name>
+      <Text>fire shield</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Fire Shield</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 5</Name>
+      <Text>greater invisibility</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Greater Invisibility</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 6</Name>
+      <Text>ice storm</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Ice Storm</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 7</Name>
+      <Text>phantasmal killer</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Phantasmal Killer</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 8</Name>
+      <Text>stoneskin</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Stoneskin</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 9</Name>
+      <Text>wall of fire</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Wall of Fire</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting 4th-Level Spell 10</Name>
+      <Text>Roll twice and cast each spell, but if you roll another 10 on either die, you cast nothing, wasting your action but not the spell slot.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 1</Name>
+      <Text>cloudkill</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Cloudkill</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 2</Name>
+      <Text>cone of cold</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Cone of Cold</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 3</Name>
+      <Text>destructive wave</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Destructive Wave</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 4</Name>
+      <Text>flame strike</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Flame Strike</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 5</Name>
+      <Text>hold monster</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Hold Monster</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 6</Name>
+      <Text>insect plague</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Insect Plague</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 7</Name>
+      <Text>mass cure wounds</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Mass Cure Wounds</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 8</Name>
+      <Text>wall of force</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Wall of Force</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 9</Name>
+      <Text>wall of stone</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Wall of Stone</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Special</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>wizard</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Reckless Casting 5th-Level Spell 10</Name>
+      <Text>Roll twice and cast each spell, but if you roll another 10 on either die, you cast nothing, wasting your action but not the spell slot.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alchemical Casting</Name>
+      <Text>At 6th level, you learn to channel magic through your arcanomechanical armor to augment spells in a variety of ways. When you cast a spell while wearing that armor and attuned to it, you can expend one additional spell slot of 1st or 2nd level to alter the spell. The effect depends on the spell slot you expend.
+A 1st-level slot allows you to manipulate the spell’s energy. When you cast a spell that deals acid, cold, fire, lightning, or thunder damage, you can substitute that damage type for another one from that list.
+A 2nd-level slot increases the spell’s raw force. If you roll damage for the spell when you cast it, increase that damage by 2d10 force damage against one of the spell’s targets (your choice) this turn. </Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Prodigious Inspiration</Name>
+      <Text>At 10th level, you have attained a greater mastery of spell preparation. As a bonus action, you can replace one spell you have prepared with another spell from your spellbook. You can’t use this ability again until you finish a short or long rest.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WIZARD_INVENTION_PRODIGIOUS_INSPIRATION</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Controlled Chaos</Name>
+      <Text>At 14th level, your ability to improvise magic grows stronger. Whenever you roll on a Reckless Casting table for a spell other than a cantrip, you can roll on the table that is one level higher than the expended spell slot.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 45 - Three Subclasses</Source>
+  <Name>School of Invention</Name>
+  <SheetName>Inventor</SheetName>
+  <Description>The School of Invention claims credit for inventing the other schools of magic—a claim other wizards find absurd. Wizards of this school push magic to its limits. They stretch the known laws of arcane power and strive to reveal important truths about the nature of the multiverse.
+Adherents of this school believe that innovation is best served through experimentation. They have a reputation for acting first, thinking second. Most wizards are scholars who have mastered their craft through careful study, rigorous practice, and endless hours of repetition. These wizards would rather throw spells together and see what happens.
+Many wizards of this tradition are gnomes, alchemists, or both, and they take pride in the magic-infused armor they don. The armor not only provides protection, but it is also designed to help the wizard channel magic in unpredictable ways.
+Wizards of this tradition are regarded as savants to their faces, but wizards of other traditions often think of them as lunatics.</Description>
+  <ParentRace>Wizard</ParentRace>
+</SubClass>

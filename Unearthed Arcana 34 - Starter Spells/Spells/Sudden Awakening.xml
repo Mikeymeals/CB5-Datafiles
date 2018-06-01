@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>enchantment</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Sudden Awakening</Name>
+  <CastingTime>1 bonus action</CastingTime>
+  <Range>10 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>1</Level>
+  <Description>Each sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.</Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 34 - Starter Spells</Source>
+</Spell>

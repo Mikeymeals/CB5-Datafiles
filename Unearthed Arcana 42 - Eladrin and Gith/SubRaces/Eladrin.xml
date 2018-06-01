@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence or Charisma score increases by 1 (your choice).</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>Increase your Intelligence by 1</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Charisma</Name>
+          <Text>Increase your Charisma by 1</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_SCORE</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Player's Handbook</Source>
+    </ChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Fey Step</Name>
+      <Text>As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can’t do so again until you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>ELF_ELADRIN_FEY_STEP</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Shifting Seasons</Name>
+      <Text>At the end of each short or long rest, you can align yourself with the magic of one season, regardless of the season that is dominating your personality. Doing so allows you to cast a certain cantrip, as shown in the Shifting Seasons Cantrips table. When you align yourself with a season’s magic, you lose the cantrip associated with the previous season and gain the cantrip associated with the new season.
+Your spellcasting ability for these cantrips is Intelligence or Charisma, whichever is higher.
+Shifting Seasons Cantrips:
+Autumn: Friends
+Winter: Chill touch
+Spring: Minor illusion
+Summer: Fire bolt</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Friends</Spell>
+      <SpellCastingAbility>Intelligence Charisma</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Chill Touch</Spell>
+      <SpellCastingAbility>Intelligence Charisma</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Minor Illusion</Spell>
+      <SpellCastingAbility>Intelligence Charisma</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Fire Bolt</Spell>
+      <SpellCastingAbility>Intelligence Charisma</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>The Four Seasons</Name>
+      <Text>Each eladrin has four distinct personality states—one for each season—that they shift between when they experience powerful emotion.
+Autumn is the season of peace and goodwill, when summer’s harvest is shared with all. Eladrin adopt this personality when overcome with contentment.
+Winter is the season of dolor, when the vibrant energy of the world slumbers. It is a time of sadness and regret, entered when eladrin are overcome with sorrow.
+Spring is the season of cheerfulness and unfettered celebration, marked by merriment as winter’s sorrow passes. Eladrin enter this state when overcome with joy.
+Summer is the season of boldness and aggression, a time of unfettered energy. Eladrin enter this state when overcome with fury.
+You may create personality traits and flaws for each of your seasons, reflecting an eladrin’s tempestuous personality. You can roll on the following tables or read them for inspiration. To add some chaos to your character, you may roll on these tables each time you change seasons.</Text>
+    </Description>
+    <TableDescription>
+      <Name>Autumn Personality Trait</Name>
+      <Text />
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_AUTUMN_TRAIT</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>If someone is in need, you never withhold aid.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You share what you have, with little regard to your own needs.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>There are no simple meals, only lavish feasts.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You stock up on fine food and drink. You hate going without such comforts.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Trait</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Autumn Flaw</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_AUTUMN_FLAW</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You trust others without thought.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You give to the point that you leave yourself without necessary supplies.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>Everyone is your friend, or a potential friend.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You spend excessively on creature comforts.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Flaw</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Winter Personality Trait</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_WINTER_TRAIT</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>The worst case is the most likely case. You preserve what you have.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>Better to hunger today and have food for tomorrow.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>The world is full of dangers. You never let your guard drop.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>A penny spent is a penny lost forever.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Trait</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Winter Flaw</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_WINTER_FLAW</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>Everything dies eventually. Why bother building anything that is meant to last?</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>Nothing matters to you, and you allow others to guide your actions.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>Your needs come first. In winter, all must watch out for themselves.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You speak only to point out the flaws in others’ plans.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Flaw</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Spring Personality Trait</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELADRIN_ELF_SPRING_TRAIT</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>Every day is the greatest day of your life.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You do everything with enthusiasm, even the most mundane chores.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You love music and song. You supply a tune yourself if no one else can.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You can’t stay still.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Trait</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Spring Flaw</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_SPRING_FLAW</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You overdrink.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>Toil is for drudges. Yours should be a life of leisure.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>A pretty face infatuates you in an instant, but your fancy passes with equal speed.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>Anything worth doing is worth overdoing.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Flaw</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Summer Personality Trait</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_SUMMER_TRAIT</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You believe that direct confrontation is the best way to solve problems.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>Overwhelming force can solve almost anything. The tougher the problem, the more force you apply.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You stand tall and strong so that others can lean on you.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You maintain an intimidating front. Better to prevent fights with a show of force than be led to harm others.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Trait</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Summer Flaw</Name>
+      <Amount>1</Amount>
+      <UniqueID>ELF_ELADRIN_SUMMER_FLAW</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You are stubborn. Let others change.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>The best option is one that is swift, unexpected, and overwhelming.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>Punch first. Talk later.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>Your fury can carry you through anything.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Flaw</BackgroundOption>
+    </TableDescription>
+    <Description>
+      <Name>Eladrin Traits</Name>
+      <Text>The chaotic eladrin are creatures of powerful emotions, infused with a power that can align with the magic of the seasons.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 42 - Eladrin and Gith</Source>
+  <Name>Eladrin</Name>
+  <Description>Eladrin are elves native to the Feywild, a realm of unpredictability and boundless magic. At your DM’s option, you can select eladrin as the subrace for an elf character, instead of one of the elf subraces in the Player’s Handbook.
+As creatures of the Feywild, eladrin can be wildly unpredictable. They tend toward an alignment of chaotic neutral, mixing a love of freedom with benign self-interest. Eladrin that embrace good or evil take their beliefs to an extreme, serving as great champions of justice or terrifying villains.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Bonus Proficiencies</Name>
+      <Text>When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion. Alternatively, you learn one language of your choice.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill Proficiency</Name>
+          <Text>You gain proficiency in one of the following skills of your choice: Animal Handling, History, Insight, Performance, or Persuasion.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Animal Handling</string>
+            <string>History</string>
+            <string>Insight</string>
+            <string>Performance</string>
+            <string>Persuasion</string>
+          </Skills>
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>FIGHTER_CAVALIER_BONUS_PROFICIENCY_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name>Language</Name>
+          <Text>Alternatively, you learn one language of your choice.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Amount>1</Amount>
+          <UniqueID>FIGHTER_CAVALIER_BONUS_PROFICIENCY_LANGUAGE</UniqueID>
+        </LanguageChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_CAVALIER_BONUS_PROFICIENCY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Born to the Saddle</Name>
+      <Text>Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you’re not incapacitated.
+Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Superiority Dice</Name>
+      <Text>You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all your expended superiority dice when you finish a short or long rest.
+You gain another superiority die at 7th level and one more at 15th level.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Maneuvers</Name>
+      <Text>You spend your superiority dice on your maneuvers. You can use more than one maneuver per turn, but no more than one maneuver per attack. You know the following maneuvers:</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Control Mount</Name>
+      <Text>When you make a Wisdom (Animal Handling) check to influence a creature that you or an ally is riding, you can expend one superiority die, roll it, and add the number rolled to the check. You can do this before or after rolling the d20, but before applying the results of the check.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Precision Attack</Name>
+      <Text>When you make a weapon attack against a creature, you can expend one superiority die, roll it, and add it to the attack roll. You can use this ability before or after rolling the d20, but before any of the effects of the attack are applied.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Trip Attack</Name>
+      <Text>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. Roll the die, and add it to the attack’s damage roll. If the target is Large or smaller, it must also succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Warding Maneuver</Name>
+      <Text>If you or a creature within 5 feet of you is hit by an attack, you can expend one superiority die as a reaction if you’re wielding a weapon or a shield. Roll the die, and add the number rolled to the target’s AC against that attack. If the attack still hits, the target has resistance against the attack’s damage.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Improved Combat Superiority</Name>
+      <Text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Ferocious Charger</Name>
+      <Text>At 7th level, you gain additional benefits when you use your Trip Attack maneuver. You can expend up to two superiority dice on it, adding both dice to the damage roll. When you spend two dice in this way, the target has disadvantage on its Strength saving throw to avoid being knocked prone.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Relentless</Name>
+      <Text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain one superiority die.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Combat Superiority</Name>
+      <Text>At 3rd level, you gain a set of combat abilities, referred to as maneuvers, which are fueled by special dice called superiority dice.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 39 - Revised Class Options</Source>
+  <Name>Cavalier</Name>
+  <SheetName>Cavalier</SheetName>
+  <Description>The archetypal Cavalier excels at mounted combat. Usually born among the nobility and raised at court, a Cavalier is equally at home leading a cavalry charge or exchanging repartee at a state dinner. Cavaliers also learn how to guard those in their charge from harm, often serving as the protectors of their superiors and of the weak. Drawn to right wrongs or earn prestige, many of these fighters leave their lives of comfort to embark on glorious adventure. </Description>
+  <ParentRace>Fighter</ParentRace>
+</SubClass>

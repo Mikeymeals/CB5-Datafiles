@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>1</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Grugach Weapon Training</Name>
+      <Text>You have proficiency with the spear, shortbow, longbow, and net.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Spear</string>
+        <string>Shortbow</string>
+        <string>Longbow</string>
+        <string>Net</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Cantrip</Name>
+      <Text>You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Durid and Cantrip</Condition>
+      <SpellCastingAbility>Wisdom</SpellCastingAbility>
+      <UniqueID>ELF_GRUGACH_CANTRIP</UniqueID>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>Unlike other elves, you don’t speak, read, or write Common. You instead speak, read, and write Sylvan.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Sylvan</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Unearthed Arcana 44 - Elf Subraces</Source>
+  <Name>Grugach</Name>
+  <Description>The grugach of the world of Greyhawk shun contact with other folk, preferring the solace of the deepest forests and the companionship of wild animals. Even other elves draw their suspicion.
+The grugach tend toward chaos and neutrality. They feel no special duty to anyone beyond their own folk and the forest that is their home. Troubles beyond their borders are best kept there. At the same time, they harbor little ambition beyond a peaceful coexistence with nature.
+If anyone is fool enough to disturb a grugach realm, these elves take to arms and fight in earnest. Grugach master the basic weapons needed to hunt and forage in the wood. Every copse of trees becomes a sniper’s nest, and each forest meadow is an ambush point. The grugach set pits filled with stakes, snares that leave an intruder helpless to grugach arrows, and other snares designed to kill rather than capture. The grugach fight to the death to preserve their realms.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

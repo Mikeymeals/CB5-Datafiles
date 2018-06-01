@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Artificer Specialist</Name>
+      <Text>At 1st level, you choose the type of Artificer Specialist you are: Alchemist or Gunsmith, both of which are detailed at the end of the class description. Your choice grants you features at 1st level and again at 3rd, 9th, 14th, and 17th level.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Artificer</ParentClass>
+    </SubClassFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Magic Item Analysis</Name>
+      <Text>Starting at 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the artificer spells detect magic and identify, and you can cast them as rituals. You don’t need to provide a material component when casting identify with this class feature.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Magic Item Analysis</Name>
+          <Text>You know the artificer spell detect magic and you can cast it as a ritual. </Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Ritual</SpellCastModifier>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>artificer</Name>
+            </Keyword>
+            <Keyword>
+              <Name>ritual</Name>
+            </Keyword>
+          </KeywordsToAdd>
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Magic Item Analysis</Name>
+          <Text>You know the artificer spell identify and you can cast it as a ritual. You don’t need to provide a material component when casting identify with this class feature.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Identify</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Ritual</SpellCastModifier>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>artificer</Name>
+            </Keyword>
+            <Keyword>
+              <Name>ritual</Name>
+            </Keyword>
+          </KeywordsToAdd>
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Tool Expertise</Name>
+      <Text>Starting at 2nd level, your proficiency bonus is doubled for any ability check you make that uses any of the tool proficiencies you gain from this class.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Wondrous Invention</Name>
+      <Text>At 2nd level, you gain the use of a magic item that you have crafted. Choose the item from the list of 2nd-level items below.
+Crafting an item is a difficult task. When you gain a magic item from this feature, it reflects long hours of study, tinkering, and experimentation that allowed you to finally complete the item. You are assumed to work on this item in your leisure time and to finish it when you level up.
+You complete another item of your choice when you reach certain levels in this class: 5th, 10th, 15th, and 20th level. The item you choose must be on the list for your current artificer level or a lower level.
+These magic items are detailed in the Dungeon Master’s Guide.
+2nd Level: bag of holding, cap of water breathing, driftglobe, goggles of night, sending stones
+5th Level: alchemy jug, helm of comprehending languages, lantern of revealing, ring of swimming, robe of useful items, rope of climbing, wand of magic detection, wand of secrets
+10th Level: bag of beans, chime of opening, decanter of endless water, eyes of minute seeing, folding boat, Heward’s handy haversack
+15th Level: boots of striding and springing, bracers of archery, brooch of shielding, broom of flying, hat of disguise, slippers of spider climbing
+20th Level: eyes of the eagle, gem of brightness, gloves of missile snaring, gloves of swimming and climbing, ring of jumping, ring of mind shielding, wings of flying</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Spellcasting</Name>
+      <Text>As part of your study of magic, you gain the ability to cast spells at 3rd level. The spells you learn are limited in scope, primarily concerned with modifying creatures and objects or creating items.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>LearnSpells</Preparation>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <OverwrittenByMulticlassing>true</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>false</IgnoreMulticlassing>
+      <DisplayName>Artificer</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>Intelligence</SpellcastingAbility>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PreparationChange>LongRest</PreparationChange>
+    </SpellcastingFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>The Artificer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+1st: 2</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>2</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 3</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>3</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 2</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>2</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 3</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 2</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>2</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 3</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>3</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 3, 4th: 1</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>3</int>
+        <int>1</int>
+      </Slots>
+      <SpellcastingID />
+    </SpellSlotsFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Spells Known of 1st Level and Higher</Name>
+      <Text>You know three 1st-level spells of your choice from the artificer spell list (which appears at the end of this document). 
+The Spells Known column of the Artificer table shows when you learn more artificer spells of your choice from this feature. Each of these spells must be of a level for which you have spell slots on the Artificer table.
+Additionally, when you gain a level in this class, you can choose one of the artificer spells you know from this feature and replace it with another spell from the artificer spell list. The new spell must also be of a level for which you have spell slots on the Artificer table.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Artificer and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>3</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>4</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>5</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>6</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>7</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>8</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>9</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>10</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>11</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>12</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>13</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTFICER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Ability</Name>
+      <Text>Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one.
+Spell save DC = 8 + your proficiency bonus + your Intelligence modifier
+Spell attack modifier = your proficiency bonus + your Intelligence modifier</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Focus</Name>
+      <Text>You can use an arcane focus as a spellcasting focus for your artificer spells. See chapter 5, “Equipment,” in the Player’s Handbook for various arcane focus options.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Infuse Magic</Name>
+      <Text>Starting at 4th level, you gain the ability to channel your artificer spells into objects for later use. When you cast an artificer spell with a casting time of 1 action, you can increase its casting time to 1 minute. If you do so and hold a nonmagical item throughout the casting, you expend a spell slot, but none of the spell’s effects occur. Instead, the spell transfers into that item for later use if the item doesn’t already contain a spell from this feature.
+Any creature holding the item thereafter can use an action to activate the spell if the creature has an Intelligence score of at least 6. The spell is cast using your spellcasting ability, targeting the creature that activates the item. If the spell targets more than one creature, the creature that activates the item selects the additional targets. If the spell has an area of effect, it is centered on the item. If the spell’s range is self, it targets the creature that activates the item.
+When you infuse a spell in this way, it must be used within 8 hours. After that time, its magic fades and is wasted.
+You can have a limited number of infused spells at the same time. The number equals your Intelligence modifier.</Text>
+      <Level>4</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>When you reach 4th, 8th, 12th, 16th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>18</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <Feature>
+      <Keywords />
+      <Name>Superior Attunement</Name>
+      <Text>At 5th level, your superior understanding of magic items allows you to master their use. You can now attune to up to four, rather than three, magic items at a time. At 15th level, this limit increases to five magic items.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Mechanical Servant</Name>
+      <Text>At 6th level, your research and mastery of your craft allow you to produce a mechanical servant. The servant is a construct that obeys your commands without hesitation and functions in combat to protect you. Though magic fuels its creation, the servant is not magical itself. You are assumed to have been working on the servant for quite some time, finally finishing it during a short or long rest after you reach 6th level.
+Select a Large beast with a challenge rating of 2 or less. The servant uses that beast’s game statistics, but it can look however you like, as long as its form is appropriate for its statistics. It has the following modifications:
+• It is a construct instead of a beast.
+• It can’t be charmed.
+• It is immune to poison damage and the poisoned condition.
+• It gains darkvision with a range of 60 feet if it doesn’t have it already.
+• It understands the languages you can speak when you create it, but it can’t speak.
+• If you are the target of a melee attack and the servant is within 5 feet of the attacker, you can use your reaction to command the servant to respond, using its reaction to make a melee attack against the attacker.
+The servant obeys your orders to the best of its ability. In combat, it rolls its own initiative and acts on its own.
+If the servant is killed, it can be returned to life via normal means, such as with the revivify spell. In addition, over the course of a long rest, you can repair a slain servant if you have access to its body. It returns to life with 1 hit point at the end of the rest. If the servant is beyond recovery, you can build a new one with one week of work (eight hours each day) and 1,000 gp of raw materials.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Soul of Artifice</Name>
+      <Text>At 20th level, your understanding of magic items is unmatched, allowing you to mingle your soul with items linked to you. You can attune to up to six magic items at once. In addition, you gain a +1 bonus to all saving throws per magic item you are currently attuned to.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures />
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>Light and medium armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Light and Armor</Condition>
+      <Description>Light armor, medium armor</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Simple and Weapon</Condition>
+      <Description>Simple weapons</Description>
+    </ToolKWProficiencyFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tools</Name>
+      <Text>Thieves’ tools, two other tools of your choice</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>ARTIFICER_TOOLS</UniqueID>
+      <Condition>Tool and not Thief</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Thieves' tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Constitution, Intelligence</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Constitution Intelligence</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose three from Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Arcana</string>
+        <string>Deception</string>
+        <string>History</string>
+        <string>Investigation</string>
+        <string>Medicine</string>
+        <string>Nature</string>
+        <string>Religion</string>
+        <string>Sleight of Hand</string>
+      </Skills>
+      <Amount>3</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>ARTIFICER_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>a handaxe and a light hammer or (b) any two simple weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A handaxe and a light hammer</Name>
+          <Text>a handaxe and a light hammer</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Handaxe</string>
+            <string>Light hammer</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <ItemChoiceConditionFeature>
+          <Keywords />
+          <Name>Any two simple weapons</Name>
+          <Text>any two simple weapons</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>2</Amount>
+          <UniqueID>ARTIFICER_EQIUP12</UniqueID>
+          <Condition>Simple and Weapon</Condition>
+        </ItemChoiceConditionFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>ARTIFICER_EQUIP1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>a light crossbow and 20 bolts</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Crossbow, Light</string>
+        <string>Crossbow Bolts</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) scale mail or (b) studded leather armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Scale Mail</string>
+        <string>Studded Leather</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>ARTIFICER_EQUIP3</UniqueID>
+    </ItemChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>thieves’ tools and a dungeoneer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Thieves' tools</string>
+        <string>Dungeoneer’s Pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo>
+    <string>Alarm</string>
+    <string>Cure Wounds</string>
+    <string>Disguise Self</string>
+    <string>Expeditious Retreat</string>
+    <string>False Life</string>
+    <string>Jump</string>
+    <string>Longstrider</string>
+    <string>Sanctuary</string>
+    <string>Shield of Faith</string>
+    <string>Aid</string>
+    <string>Alter Self</string>
+    <string>Arcane Lock</string>
+    <string>Blur</string>
+    <string>Continual Flame</string>
+    <string>Darkvision</string>
+    <string>Enhance Ability</string>
+    <string>Enlarge/Reduce</string>
+    <string>Invisibility</string>
+    <string>Lesser Restoration</string>
+    <string>Levitate</string>
+    <string>Magic Weapon</string>
+    <string>Protection from Poison</string>
+    <string>Rope Trick</string>
+    <string>See Invisibility</string>
+    <string>Spider Climb</string>
+    <string>Blink</string>
+    <string>Fly</string>
+    <string>Gaseous Form</string>
+    <string>Glyph of Warding</string>
+    <string>Haste</string>
+    <string>Protection from Energy</string>
+    <string>Revivify</string>
+    <string>Water Breathing</string>
+    <string>Water Walk</string>
+    <string>Arcane Eye</string>
+    <string>Death Ward</string>
+    <string>Fabricate</string>
+    <string>Freedom of Movement</string>
+    <string>Leomund's Secret Chest</string>
+    <string>Mordenkainen's Faithful Hound</string>
+    <string>Mordenkainen's Private Sanctum</string>
+    <string>Otiluke's Resilient Sphere</string>
+    <string>Stone Shape</string>
+    <string>Stoneskin</string>
+  </SpellsToAddClassKeywordTo>
+  <Name>Artificer</Name>
+  <Description>A gnome sits hunched over a workbench, carefully using needle and thread to wave runes into a leather satchel. The bag shudders as she completes her work, and a sudden, loud pop echoes through the room as a portal to an extradimensional space springs to being in the bag’s interior. She beams with pride at her newly crafted bag of holding.
+A troll growls in hunger as it looms over a dwarf, who slides a long, metal tube from a holster at his belt. With a thunderous roar, a gout of flame erupts from the tube, and the troll’s growls turn into shrieks of panic as it turns to flee.
+An elf scrambles up the castle’s wall, Baron von Hendriks’ men close behind her. As she clambers over the battlements, she reaches into her satchel, pulls out three vials, mixes their contents into a small leather bag, and flings it at her pursuers. The bag bursts at their feet, trapping them in a thick, black glue as she makes her escape.
+Makers of magic-infused objects, artificers are defined by their inventive nature. Like wizards, they see magic as a complex system waiting to be decoded and controlled through a combination of thorough study and investigation. Artificers, though, focus on creating marvelous new magical objects. Spells are often too ephemeral and temporary for their tastes. Instead, they seek to craft durable, useful items.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Cunning Inventors</Name>
+      <Text>Every artificer is defined by a specific craft. Artificers see mastering the basic methods of a craft as the first step to true progress, the invention of new methods and approaches. Some artificers are engineers, students of invention and warfare who craft deadly firearms that they can augment with magic. Other artificers are alchemists. Using their knowledge of magic and various exotic ingredients, they create potions and draughts to aid them on their adventures. Alchemy and engineering are the two most common areas of study for artificers, but others do exist.
+All artificers are united by their curiosity and inventive nature. To an artificer, magic is an evolving art with a leading edge of discovery and mastery that pushes further ahead with each passing year. Artificers value novelty and discovery. This penchant pushes them to seek a life of adventure. A hidden ruin might hold a forgotten magic item or a beautifully crafted mirror perfect for magical enhancement. Artificers win respect and renown among their kind by uncovering new lore or inventing new methods of creation.</Text>
+    </Description>
+    <Description>
+      <Name>Intense Rivalries</Name>
+      <Text>The artificers’ drive to invent and expand their knowledge creates an intense drive to uncover new magic discoveries. An artificer who hears news of a newly discovered magic item must act fast to get it before any rivals do. Good-aligned artificers recover items on adventures or offer gold or wondrous items to those who possess items they are keen to own. Evil ones have no problem committing crimes to claim what they want.
+Almost every artificer has at least one rival, someone whom they seek to outdo at every turn. By the same token, artificers with similar philosophies and theories band together into loose guilds. They share their discoveries and work together to verify their theories and keep ahead of their rivals. </Text>
+    </Description>
+    <Description>
+      <Name>Creating an Artificer</Name>
+      <Text>When creating an artificer character, think about your character’s background and drive for adventure. Does the character have a rival? What is the character’s relationship with the artisan or artificer who taught the basics of the craft? Talk to your DM about the role played by artificers in the campaign, and what sort of organizations and NPCs you might have ties to.</Text>
+    </Description>
+    <Description>
+      <Name>Quick Build</Name>
+      <Text>You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.</Text>
+    </Description>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As an artificer, you gain the following class features.</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>8</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>8</HPFirstLevel>
+  <AverageHPPerLevel>5</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Unearthed Arcana The Artificer Class</Source>
+  <MulticlassingCondition>false</MulticlassingCondition>
+</ClassDefinition>

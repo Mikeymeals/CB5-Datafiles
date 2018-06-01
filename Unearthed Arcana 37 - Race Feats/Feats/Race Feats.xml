@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Barbed Hide</Name>
+      <Text>One of your ancestors was a barbed devil or other spiky fiend. Barbs protrude from your head. You gain the following benefits:
+• Increase your Constitution or Charisma score by 1, up to a maximum of 20.
+• As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal 1d6 piercing damage to any creature grappling you or any creature grappled by you.
+• You gain proficiency in the Intimidation skill. If you’re already proficient in it, your proficiency bonus is doubled for any check you make with it.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Tiefling</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Constitution or Charisma score by 1, up to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>TIEFLING_BARBED_HIDE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Intimidation</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddRegardless</BonusType>
+        </SkillProficiencyFeature>
+        <Feature>
+          <Keywords />
+          <Name>Barbed Hide</Name>
+          <Text>As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal 1d6 piercing damage to any creature grappling you or any creature grappled by you.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Bountiful Luck</Name>
+      <Text>Whenever an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite>Halfling</Prerequisite>
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Critter Friend</Name>
+      <Text>Your friendship with animals mystically deepens. You gain the following benefits:
+• You gain proficiency in the Animal Handling skill. If you’re already proficient in it, your proficiency bonus is doubled for any check you make with it.
+• You learn the speak with animals spell and can cast it at will, without expending a spell slot. You also learn the animal friendship spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Intelligence is your spellcasting ability for these spells.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Gnome (forest)</Prerequisite>
+      <Features>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Animal Handling</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddRegardless</BonusType>
+        </SkillProficiencyFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Critter Friend</Name>
+          <Text>You learn the speak with animals spell and can cast it at will, without expending a spell slot. Intelligence is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Speak with Animals</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Critter Friend</Name>
+          <Text>You learn the animal friendship spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Intelligence is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Animal Friendship</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Dragon Fear</Name>
+      <Text>When angered, you radiate menace. You gain the following benefits:
+• Increase your Strength or Charisma score by 1, up to a maximum of 20.
+• Instead of exhaling destructive energy, you can roar and expend a use of your breath weapon to force each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can’t hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Dragonborn</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Charisma score by 1, up to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>DRAGONBORN_DRAGON_FEAR_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Dragon Fear</Name>
+          <Text>Instead of exhaling destructive energy, you can roar and expend a use of your breath weapon to force each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds if it can’t hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Dragon Hide</Name>
+      <Text>You inherited the might and majesty of your dragon ancestors. You gain the following benefits:
+• Increase your Strength or Charisma score by 1, up to a maximum of 20.
+• You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+• Your scales harden; you gain a +1 bonus to AC while you aren’t wearing armor.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Dragonborn</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Charisma score by 1, up to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>DRAGONBORN_DRAGON_HIDE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Unarmored</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <ACBonus>1</ACBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Claw (Dragon Hide)</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Dragon Wings</Name>
+      <Text>You sprout draconic wings. With your wings, you have a flying speed of 20 feet if you aren’t wearing heavy armor and aren’t exceeding your carrying capacity.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Dragonborn</Prerequisite>
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Drow High Magic</Name>
+      <Text>You learn more of the spells typical for your people. You learn detect magic and can cast it at will, without expending a spell slot. You also learn levitate and dispel magic, each of which you can cast once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for these spells.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Elf (drow)</Prerequisite>
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow High Magic</Name>
+          <Text>You learn detect magic and can cast it at will, without expending a spell slot. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow High Magic</Name>
+          <Text>You learn levitate and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Levitate</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Drow High Magic</Name>
+          <Text>You learn dispel magic and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Dispel Magic</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Dwarf Resilience</Name>
+      <Text>You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:
+• Increase your Constitution score by 1, to a maximum of 20.
+• Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Dwarf</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Dwarf</Prerequisite>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <Feature>
+          <Keywords />
+          <Name>Dwarf Resilience</Name>
+          <Text>Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Elven Accuracy</Name>
+      <Text>You have uncanny aim. You gain the following benefits:
+• Increase your Dexterity score by 1, to a maximum of 20.
+• Whenever you have advantage on an attack roll, you can reroll one of the dice once.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Elf or half-elf</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <Feature>
+          <Keywords />
+          <Name>Elven Accuracy</Name>
+          <Text>Whenever you have advantage on an attack roll, you can reroll one of the dice once.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Everybody’s Friend</Name>
+      <Text>You develop your magnetic personality to ease your way through the world. You gain the following benefits:
+• Increase your Charisma score by 1, up to a maximum of 20.
+• You gain proficiency in the Deception and Persuasion skills. If you’re already proficient in either skill, your proficiency bonus is doubled for any check you make with that skill.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Half-elf</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Deception</string>
+            <string>Persuasion</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddRegardless</BonusType>
+        </SkillProficiencyFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Fade Away</Name>
+      <Text>You can draw on your magical heritage to escape danger. You gain the following benefits:
+• Increase your Intelligence score by 1, up to a maximum of 20.
+• When you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Gnome</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Fade Away</Name>
+          <Text>When you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>GNOME_FADE_AWAT</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Fey Teleportation</Name>
+      <Text>Drawing on your fey ancestry, you have learned how to teleport. You gain the following benefits:
+• Increase your Intelligence score by 1, to a maximum of 20.
+• You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Elf (high)</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Fey Teleportation</Name>
+          <Text>You learn the misty step spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Misty Step</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>ShortRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Flames of Phlegethos</Name>
+      <Text>You learn to call on hellfire to serve your commands. You gain the following benefits:
+• Increase your Intelligence or Charisma score by 1, to a maximum of 20.
+• When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.
+• Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Tiefling</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>• Increase your Intelligence or Charisma score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>TIEFLING_FLAMES_PHLEGETHOS_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Flames of Phlegethos</Name>
+          <Text>When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.
+</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>Fire</Spells>
+        </SpellModifyFeature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Flames of Phlegethos</Name>
+          <Text>Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.
+</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>Fire</Spells>
+        </SpellModifyFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Grudge-Bearer</Name>
+      <Text>You have a deep hatred for a particular kind of creature. Choose your foes, a type of creature to bear the burden of your wrath: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can choose two races of humanoid (such as gnolls and orcs). You gain the following benefits:
+• Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.
+• During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage.
+• When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage.
+• Whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you’re not normally proficient.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Dwarf</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>• Increase your Strength, Constitution, or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>DWARF_GRUDGE_BEARER_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Grudge-Bearer</Name>
+          <Text>You have a deep hatred for a particular kind of creature. Choose your foes, a type of creature to bear the burden of your wrath: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can choose two races of humanoid (such as gnolls and orcs). You gain the following benefits:
+• During the first round of any combat against your chosen foes, your attack rolls against any of them have advantage.
+• When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with disadvantage.
+• Whenever you make an Intelligence (Arcana, History, Nature, or Religion) check to recall information about your chosen foes, you add double your proficiency bonus to the check, even if you’re not normally proficient.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>DWARF_GRUDGE_BEARER</UniqueID>
+          <Collection>Category = 'Feats/Favored Enemy'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Human Determination</Name>
+      <Text>You are filled with a determination that can draw the unreachable within your reach. You gain the following benefits:
+• Increase one ability score of your choice by 1, to a maximum of 20.
+• When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Human</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>• Increase one ability score of your choice by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>HUMAN_DETERMINATION_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Human Determination</Name>
+          <Text>When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. Once you use this ability, you can’t use it again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>HUMAN_DETERMINATION</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Infernal Constitution</Name>
+      <Text>Fiendish blood runs strong in you. You gain the following benefits:
+• Increase your Constitution score by 1, up to a maximum of 20.
+• You have resistance to cold and poison damage.
+• You have advantage on saving throws against being poisoned.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Tiefling</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>cold</string>
+            <string>poison</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities />
+          <SavingThrowAdvantages>
+            <string>poisoned</string>
+          </SavingThrowAdvantages>
+        </ResistanceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Orcish Aggression</Name>
+      <Text>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite>Half-orc</Prerequisite>
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Orcish Fury</Name>
+      <Text>Your fury burns tirelessly. You gain the following benefits:
+• Increase your Strength or Constitution score by 1, up to a maximum of 20.
+• When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type. Once you use this ability, you can’t use it again until you finish a short or long rest.
+• Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Half-orc</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Constitution score by 1, up to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>HALF_ORC_ORCISH_FURY_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Orcish Fury</Name>
+          <Text>Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Orcish Fury</Name>
+          <Text>When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type. Once you use this ability, you can’t use it again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>HALF_ORC_ORCISH_FURY</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Prodigy</Name>
+      <Text>You have a knack for learning new things. You gain the following benefits:
+• Increase one ability score of your choice by 1, to a maximum of 20.
+• You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Half-elf or human</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase one ability score of your choice by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>HUMAN_PRODIGY_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>You gain one skill proficiency of your choice</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>HUMAN_PRODIGY_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <ToolProficiencyChoiceConditionFeature>
+          <Keywords />
+          <Name>Tool</Name>
+          <Text>You gain one tool proficiency of your choice</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>HUMAN_PRODIGY_TOOL</UniqueID>
+          <Condition>Tool</Condition>
+        </ToolProficiencyChoiceConditionFeature>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name>Language</Name>
+          <Text>You gain fluency in one language of your choice.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Amount>1</Amount>
+          <UniqueID>HUMAN_PRODIGY_LANGUAGE</UniqueID>
+        </LanguageChoiceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Second Chance</Name>
+      <Text>Fortune favors you. You gain the following benefits:
+• Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.
+• When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can’t do so again until you finish a short or long rest. </Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Halfling</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>• Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>HALFLING_SECOND_CHANCE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Second Chance</Name>
+          <Text>When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>HALFLING_SECOND_CHANCE</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Squat Nimbleness</Name>
+      <Text>You are uncommonly nimble for your race. You gain the following benefits:
+• Increase your Strength or Dexterity score by 1, to a maximum of 20.
+• Increase your walking speed by 5 feet.
+• You gain proficiency in the Acrobatics or Athletics skill. If you’re already proficient in the skill, your proficiency bonus is doubled for any check you make with it.
+</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Dwarf, Gnome, or Halfling</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>• Increase your Strength or Dexterity score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, up to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>SQUAT_NIMBLENESS_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Unearthed Arcana 37 - Race Feats</Source>
+        </ChoiceFeature>
+        <SpeedFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <BaseSpeed>0</BaseSpeed>
+          <ExtraSpeed>5</ExtraSpeed>
+          <IgnoreArmor>false</IgnoreArmor>
+          <Condition>true</Condition>
+        </SpeedFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>• You gain proficiency in the Acrobatics or Athletics skill. If you’re already proficient in the skill, your proficiency bonus is doubled for any check you make with it.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Acrobatics</string>
+            <string>Athletics</string>
+          </Skills>
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddRegardless</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>SQUAT_NIMBLENESS_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Wonder Maker</Name>
+      <Text>You master the tinker techniques of your people. You gain the following benefits:
+• Increase your Dexterity or Intelligence score by 1, to a maximum of 20.
+• When you make a check using your proficiency with tinker’s tools, you add double your proficiency bonus to the check.
+• When you make a device with your Tinker trait, you have the following additional options for what you make:
+Alarm. This device senses when a creature moves to within 15 feet of it without speaking aloud a password chosen when you create it. One round after a creature moves into range, the alarm makes a shrill ringing that lasts for 1 minute and can be heard from up to 300 feet away.
+Calculator. This device makes doing sums easy.
+Lifter. This device can be used as a block and tackle, allowing its user to hoist five times the weight the user can normally lift.
+Timekeeper. This pocket watch keeps accurate time.
+Weather Sensor. When used as an action, this device predicts weather conditions in a 1-mile radius over the next 4 hours, showing one symbol (clouds, sun/moon, rain, or snow) for each hour.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Gnome (rock)</Prerequisite>
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Dexterity</Name>
+          <Text>Increase your Dexterity score by 1, up to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>Increase your Intelligence score by 1, up to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>GNOME_WONDER_MAKER_ABILITY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </ChoiceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Wood Elf Magic</Name>
+      <Text>You learn the magic of the primeval woods. You learn one druid cantrip of your choice. You also learn longstrider and pass without trace, each of which you can cast once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Elf (wood)</Prerequisite>
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Wood Elf Magic</Name>
+          <Text>You learn longstrider and can cast it once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Longstrider</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Wood Elf Magic</Name>
+          <Text>You learn pass without trace and can cast it once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Pass without Trace</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Cantrip</Name>
+          <Text>You learn one druid cantrip of your choice. Wisdom is your spellcasting abillity for it.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Druid and Cantrip</Condition>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <UniqueID>ELF_WOOD_ELF_MAGIC</UniqueID>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+      </Features>
+      <Source>Unearthed Arcana 37 - Race Feats</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 37 - Race Feats</Source>
+</FeatureContainer>

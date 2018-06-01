@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Ghostly Gaze</Name>
+      <Text>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts until the end of the current turn. During that time, you perceive objects as ghostly, transparent images.
+Once you use this invocation, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite>7th level</Prerequisite>
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_GHOSTLY_GAZE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <Source>Unearthed Arcana 39 - Revised Class Options</Source>
+</FeatureContainer>

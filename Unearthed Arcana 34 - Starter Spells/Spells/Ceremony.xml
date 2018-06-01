@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>touch</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>25 gp worth of powdered silver</Components>
+    </Material>
+    <Keyword>
+      <Name>ritual</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cleric</Name>
+    </Keyword>
+    <Keyword>
+      <Name>paladin</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Ceremony</Name>
+  <CastingTime>1 hour</CastingTime>
+  <Range>Touch</Range>
+  <Duration>Instantaneous (see text)</Duration>
+  <Level>1</Level>
+  <Description>You perform one of several religious ceremonies. When you cast the spell, choose one of the following ceremonies, the target of which must be within 10 feet of you throughout the casting.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Atonement</Name>
+      <Text>You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a success, you restore the target to its original alignment.</Text>
+    </Description>
+    <Description>
+      <Name>Bless Water</Name>
+      <Text>You touch one vial of water and cause it to become holy water.</Text>
+    </Description>
+    <Description>
+      <Name>Coming of Age</Name>
+      <Text>You touch one humanoid old enough to be a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this ceremony just once.</Text>
+    </Description>
+    <Description>
+      <Name>Dedication</Name>
+      <Text>You touch one humanoid who would willingly convert to your religion or who wishes to be dedicated to your god’s service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this ceremony just once.</Text>
+    </Description>
+    <Description>
+      <Name>Funeral Rite</Name>
+      <Text>You bless one corpse within 5 feet of you. For the next 24 hours, the target can’t become undead by any means short of a wish spell.</Text>
+    </Description>
+    <Description>
+      <Name>Investiture</Name>
+      <Text>You touch one willing humanoid. Choose one 1st-level spell you have prepared and expend a spell slot and any material components as if you were casting that spell. The spell has no effect. Instead, the target can cast this spell once without having to expend a spell slot or use material components. If the target doesn’t cast the spell within 1 hour, the invested spell is lost.</Text>
+    </Description>
+    <Description>
+      <Name>Marriage</Name>
+      <Text>You touch adult humanoids willing to be bonded together in marriage. For the next 24 hours, each target gains a +2 bonus to AC and saving throws while they are within 30 feet of each other. A creature can benefit from this ceremony just once.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 34 - Starter Spells</Source>
+</Spell>

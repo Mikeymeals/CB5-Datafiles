@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>touch</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>healing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cleric</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Virtue</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Touch</Range>
+  <Duration>1 round</Duration>
+  <Level>0</Level>
+  <Description>You touch one creature, imbuing it with vitality. If the target has at least 1 hit point, it gains a number of temporary hit points equal to 1d4 + your spellcasting ability modifier. The temporary hit points are lost when the spell ends.</Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 34 - Starter Spells</Source>
+</Spell>

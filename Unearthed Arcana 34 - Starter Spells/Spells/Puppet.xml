@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>enchantment</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>bard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Puppet</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>120 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>1</Level>
+  <Description>Your gesture forces one humanoid you can see within range to make a Constitution saving throw. On a failed save, the target must move up to its speed in a direction you choose. In addition, you can cause the target to drop whatever it is holding. This spell has no effect on a humanoid that is immune to being charmed.</Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 34 - Starter Spells</Source>
+</Spell>

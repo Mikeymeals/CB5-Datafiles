@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Improved Pact Weapon</Name>
+      <Text>You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.
+In addition, the weapon counts as a magic weapon with a +1 bonus to its attack and damage rolls, unless it is already a magic weapon that you transformed into your pact weapon.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Pact of the Blade feature</Prerequisite>
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 39 - Revised Class Options</Source>
+</FeatureContainer>

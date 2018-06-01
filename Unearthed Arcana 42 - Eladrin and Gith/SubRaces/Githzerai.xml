@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 2.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>2</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Monastic Training</Name>
+      <Text>You gain a +1 bonus to AC while you aren’t wearing medium or heavy armor and aren’t using a shield. All githzerai receive basic training from monks, and the monks among them are unmatched in their defensive abilities.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>not Medium and not Heavy and not Shield</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Githzerai Psionics</Name>
+      <Text>You know the mage hand cantrip. When you reach 3rd level, you can cast shield once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest.
+Wisdom is your spellcasting ability for these spells. You can cast all of them without components.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Githzerai Psionics</Name>
+          <Text>You know the mage hand cantrip. Wisdom is your spellcasting ability for these spells and you can cast it without components.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Mage Hand</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Githzerai Psionics</Name>
+          <Text>You can cast shield once with this trait, and you regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells and you can cast it without components.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Shield</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Githzerai Psionics</Name>
+          <Text>You can cast the detect thoughts spell once with this trait, and you regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells and you can cast it without components.</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Detect Thoughts</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Descriptions />
+  <Source>Unearthed Arcana 42 - Eladrin and Gith</Source>
+  <Name>Githzerai</Name>
+  <Description>In their fortresses within Limbo, the githzerai hone their minds to a razor’s edge.</Description>
+  <ParentRace>Gith</ParentRace>
+</SubRace>

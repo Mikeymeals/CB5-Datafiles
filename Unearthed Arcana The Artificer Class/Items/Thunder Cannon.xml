@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Range>
+      <Name>range</Name>
+      <Short>150</Short>
+      <Long>500</Long>
+    </Range>
+    <Keyword>
+      <Name>two-handed</Name>
+    </Keyword>
+    <Keyword>
+      <Name>loading</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>piercing</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Thunder Cannon</Name>
+  <Description>A ferocious weapon that fires leaden bullets that can punch through armor with ease</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Unearthed Arcana The Artificer Class</Source>
+  <Weight>0</Weight>
+  <Damage>2d6</Damage>
+  <DamageType>piercing</DamageType>
+</Item>

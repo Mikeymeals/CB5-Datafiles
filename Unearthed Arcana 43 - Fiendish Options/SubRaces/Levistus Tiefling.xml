@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 2, and your Constitution score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>2</Charisma>
+    </AbilityScoreFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Legacy of Stygia</Name>
+      <Text>You know the ray of frost cantrip. When you reach 3rd level, you can cast the armor of Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Legacy of Stygia</Name>
+          <Text>You know the ray of frost cantrip. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Ray of Frost</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Legacy of Stygia</Name>
+          <Text>You can cast the armor of Agathys spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Armor of Agathys</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Legacy of Stygia</Name>
+          <Text>You can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Darkness</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Descriptions />
+  <Source>Unearthed Arcana 43 - Fiendish Options</Source>
+  <Name>Levistus Tiefling</Name>
+  <Description>Frozen Stygia is ruled by Levistus, an archdevil known for offering bargains to those who face an inescapable doom.</Description>
+  <ParentRace>Tiefling</ParentRace>
+</SubRace>

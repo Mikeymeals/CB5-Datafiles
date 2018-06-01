@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Slayer’s Mysticism</Name>
+      <Text>You learn an additional spell when you reach certain levels in this class, as shown in the Slayer Spells table. The spell counts as a ranger spell for you but doesn’t count against the number of ranger spells you know.
+protection from evil and good</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Protection from Evil and Good</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Slayer’s Mysticism</Name>
+      <Text>zone of truth</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Zone of Truth</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Slayer’s Mysticism</Name>
+      <Text>magic circle</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Magic Circle</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Slayer’s Mysticism</Name>
+      <Text>banishment</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Banishment</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Slayer’s Mysticism</Name>
+      <Text>planar binding</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Planar Binding</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <Feature>
+      <Keywords />
+      <Name>Slayer’s Eye</Name>
+      <Text>Starting at 3rd level, you gain the ability to study and unravel a creature’s defenses. As a bonus action, choose one creature you can see within 120 feet of you. You immediately learn the target’s vulnerabilities, immunities, and resistances. You also learn any special effects triggered when the target takes damage, such as fire damage halting its regeneration.
+In addition, the first time each turn you hit the target with a weapon attack, the target takes an extra 1d6 damage from the weapon.
+This benefit lasts until you target a different creature with this feature or until you finish a short or long rest.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Extra Attack</Name>
+      <Text>If you’re playing the revised ranger introduced in Unearthed Arcana, you also gain the Extra Attack feature.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+    <Feature>
+      <Keywords />
+      <Name>Supernatural Defense</Name>
+      <Text>At 7th level, you gain extra resilience against your prey’s assaults on your mind and body. Whenever the target of your Slayer’s Eye forces you to make a saving throw, add 1d6 to your roll.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Relentless Slayer</Name>
+      <Text>At 11th level, you gain the ability to foil your foe’s ability to escape. Your study of folklore and arcane knowledge gives you a key insight to keep your prey cornered. If the target of your Slayer’s Eye attempts to teleport, change its shape, travel to another plane of existence, or turn gaseous, you can use your reaction to make a Wisdom check contested by a Wisdom check made by the target. To use this ability, you must be able to see the target and need to be within 30 feet of it. If you succeed, you foil its attempt, causing it to waste the action, bonus action, or reaction it used.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Slayer’s Counter</Name>
+      <Text>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Eye forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If the attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 33 - Three Subclasses</Source>
+  <Name>Monster Slayer</Name>
+  <SheetName>Slayer</SheetName>
+  <Description>Rangers of the Slayer Conclave seek out vampires, dragons, evil fey, fiends, and other powerful magical threats. Trained in a variety of arcane and divine techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty foes.</Description>
+  <ParentRace>Ranger</ParentRace>
+</SubClass>

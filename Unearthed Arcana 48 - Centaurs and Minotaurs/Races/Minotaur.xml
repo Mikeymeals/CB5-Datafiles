@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2, and your Constitution score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Most minotaurs lean toward lawful alignments.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Minotaurs average over 6 feet in height, and they have strong, stocky builds. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Horns</Name>
+      <Text>Your hooves are natural melee weapons, with which you’re proficient. If you hit with a hoof, the target takes bludgeoning damage equal to 1d6 + your Strength modifier.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Horns (Minotaur)</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Horns (Minotaur)</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Goring Rush</Name>
+      <Text>Immediately after you use the Dash action on your turn and move at least as far as your speed, you can make one melee attack with your horns as a bonus action.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Hammering Horns</Name>
+      <Text>Immediately after you hit a creature with a melee attack as part of the Attack action on your turn, you can attempt to shove that creature with your horns using your reaction. The creature must be no more than one size larger than you and within 5 feet of you. It must make a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier. If it fails, you push it up to 5 feet away from you.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Menacing</Name>
+      <Text>You have proficiency in the Intimidation skill.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Intimidation</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Hybrid Nature</Name>
+      <Text>You have two creature types: humanoid and monstrosity. You can be affected by a game effect if it works on either of your creature types.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Minotaur.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Minotaur</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Minotaur</Name>
+  <Size>Medium</Size>
+  <Description>In 2015, minotaurs appeared as a playtest option in Unearthed Arcana. Here is a revised set of traits for minotaur player characters. These traits are suitable for minotaurs on Krynn and in other D&amp;D worlds where these people have avoided the demonic influence of Baphomet.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Minotaur Traits</Name>
+      <Text>The following traits are shared by player characters who are minotaurs.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 48 - Centaurs and Minotaurs</Source>
+</Race>
