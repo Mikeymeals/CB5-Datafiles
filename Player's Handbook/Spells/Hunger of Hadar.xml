@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a pickled octopus tentacle</Components>
+    </Material>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>acid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cold</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sphere</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Hunger of Hadar</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>150 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>3</Level>
+  <Description>You open a gateway to the dark between the stars, a region infested with unknown horrors. A 20-foot-radius sphere of blackness and bitter cold appears, centered on a point with range and lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded.
+The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn in the area must succeed on a Dexterity saving throw or take 2d6 acid damage as milky, otherworldly tentacles rub against it.</Description>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+</Spell>
