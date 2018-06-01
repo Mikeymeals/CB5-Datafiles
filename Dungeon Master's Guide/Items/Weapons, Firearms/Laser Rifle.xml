@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>firearm</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>reload</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ammunition</Name>
+    </Keyword>
+    <Keyword>
+      <Name>future</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>100</Short>
+      <Long>300</Long>
+    </Range>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Laser Rifle</Name>
+  <Description>(30 shots)</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Dungeon Master's Guide</Source>
+  <Weight>7</Weight>
+  <Damage>3d8</Damage>
+  <DamageType>radiant</DamageType>
+</Item>

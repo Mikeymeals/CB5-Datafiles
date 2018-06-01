@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>firearm</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ammunition</Name>
+    </Keyword>
+    <Keyword>
+      <Name>modern</Name>
+    </Keyword>
+    <Keyword>
+      <Name>piercing</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>50</Short>
+      <Long>150</Long>
+    </Range>
+    <Keyword>
+      <Name>reload</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Pistol, automatic</Name>
+  <Description>(15 shots)</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Dungeon Master's Guide</Source>
+  <Weight>3</Weight>
+  <Damage>2d6</Damage>
+  <DamageType>piercing</DamageType>
+</Item>

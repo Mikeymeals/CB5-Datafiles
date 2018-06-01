@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords />
+  <StackSize>1</StackSize>
+  <Name>Bomb</Name>
+  <Description>As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take 3d6 fire damage.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>150</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Dungeon Master's Guide</Source>
+  <Weight>1</Weight>
+</Item>
