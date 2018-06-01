@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Polearm Master</Name>
+      <Text>You can keep your enemies at bay with reach weapons.
+You gain the following benefits:
+• When you take the Attack action and attack with only a glaive, halberd, or quarterstaff, you can use a bonus action to make a melee attack with the opposite end of the weapon. The bonus attack uses the same ability modifier as the main attack.
+The weapon’s damage die for this attack is a d4, and the attack deals bludgeoning damage.
+• While you are wielding a glaive, halberd, pike, or quarterstaff, other creatures provoke an opportunity attack from you when they enter your reach.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Polearm Master</Name>
+          <Text>When you take the Attack action and attack with only a glaive, halberd, or quarterstaff, you can use a bonus action to make a melee attack with the opposite end of the weapon. The bonus attack uses the same ability modifier as the main attack.
+The weapon’s damage die for this attack is a d4, and the attack deals bludgeoning damage.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

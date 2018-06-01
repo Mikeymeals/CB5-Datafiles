@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Charger</Name>
+      <Text>When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.
+If you move at least 10 feet in a straight line immediately before taking this bonus action you either gain a +5 bonus to the attack’s damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Charger</Name>
+          <Text>When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

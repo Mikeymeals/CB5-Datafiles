@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Magic Initiate</Name>
+      <Text>Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two cantrips of your choice from that class’s spell list.
+In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.
+Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid: or Intelligence for wizard.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>Magic Initiate (Bard)</Name>
+          <Text>Gain 2 Bard cantrips and a level 1 Bard spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again.
+Your spellcasting ability for these spells is Charisma.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Bard Cantrips</Name>
+              <Text>You learn two cantrips of your choice from that Bard’s spell list. Your spellcasting ability for these spells is Charisma.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Bard and Cantrip</Condition>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_BARD_CANTRIP</UniqueID>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <Amount>2</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Bard Spells</Name>
+              <Text>Choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again. Your spellcasting ability for this spell is Charisma.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Bard and Level = 1</Condition>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_BARD_CANTRIP</UniqueID>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <Amount>1</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+          </Features>
+          <Source>Player's Handbook</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Magic Initiate (Cleric)</Name>
+          <Text>Gain 2 Cleric cantrips and a level 1 Cleric spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again.
+Your spellcasting ability for these spells is Wisdom.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Cleric Cantrips</Name>
+              <Text>You learn two cantrips of your choice from the Cleric’s spell list. Your spellcasting ability for these spells is Wisdom.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Cleric and Cantrip</Condition>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_CLERIC_CANTRIP</UniqueID>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <Amount>2</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Cleric Spells</Name>
+              <Text>Choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again. Your spellcasting ability for this spell is Wisdom.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Cleric and Level = 1</Condition>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_CLERIC_SPELL</UniqueID>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <Amount>1</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+          </Features>
+          <Condition />
+          <Source>Player's Handbook</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Magic Initiate (Druid)</Name>
+          <Text>Gain 2 Druid cantrips and a level 1 Druid spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again.
+Your spellcasting ability for these spells is Wisdom.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Druid Cantrip</Name>
+              <Text>You learn two cantrips of your choice from the Druid’s spell list. Your spellcasting ability for these spells is Wisdom.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Druid and Cantrip</Condition>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_DRUID_CANTRIP</UniqueID>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <Amount>2</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Druid Spells</Name>
+              <Text>Choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again. Your spellcasting ability for this spell is Wisdom.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Druid and Level = 1</Condition>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_DRUID_SPELL</UniqueID>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <Amount>1</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+          </Features>
+          <Source>Player's Handbook</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Magic Initiate (Sorcerer)</Name>
+          <Text>Gain 2 Sorcerer cantrips and a level 1 Sorcerer spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again.
+Your spellcasting ability for these spells is Charisma.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Sorcerer Cantrips</Name>
+              <Text>You learn two cantrips of your choice from that Sorcerer’s spell list. Your spellcasting ability for these spells is Charisma.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Sorcerer and Cantrip</Condition>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_SORCERER_CANTRIP</UniqueID>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <Amount>2</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Sorcerer Spells</Name>
+              <Text>Choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again. Your spellcasting ability for this spell is Charisma.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Sorcerer and Level = 1</Condition>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_SORCERER_CANTRIP</UniqueID>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <Amount>1</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+          </Features>
+          <Source>Player's Handbook</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Magic Initiate (Warlock)</Name>
+          <Text>Gain 2 Warlock cantrips and a level 1 Warlock spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again.
+Your spellcasting ability for these spells is Charisma.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Warlock Cantrips</Name>
+              <Text>You learn two cantrips of your choice from that Warlock’s spell list. Your spellcasting ability for these spells is Charisma.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Warlock and Cantrip</Condition>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_WARLOCK_CANTRIP</UniqueID>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <Amount>2</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Warlock Spells</Name>
+              <Text>Gain 2 Warlock cantrips and a level 1 Warlock spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again. Your spellcasting ability for this spell is Charisma.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Warlock and Level = 1</Condition>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_WARLOCK_SPELL</UniqueID>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <Amount>1</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+          </Features>
+          <Source>Player's Handbook</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Magic Initiate (Wizard)</Name>
+          <Text>Gain 2 Wizard cantrips and a level 1 Wizard spell. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again.
+Your spellcasting ability for these spells is Intelligence.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Wizard Cantrips</Name>
+              <Text>You learn two cantrips of your choice from that Wizard’s spell list. Your spellcasting ability for these spells is Intelligence.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Wizard and Cantrip</Condition>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_WIZARD_CANTRIP</UniqueID>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <Amount>2</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+            <BonusSpellKeywordChoiceFeature>
+              <Keywords />
+              <Name>Wizard Spells</Name>
+              <Text>Choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it using this feat, you must finish a long rest before you can cast it using this feat again. Your spellcasting ability for this spell is Intelligence.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Condition>Wizard and Level = 1</Condition>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <UniqueID>MAGIC_INIATE_WIZARD_SPELL</UniqueID>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <Amount>1</Amount>
+              <KeywordsToAdd />
+            </BonusSpellKeywordChoiceFeature>
+          </Features>
+          <Source>Player's Handbook</Source>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>MAGIC_INIATE</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Player's Handbook</Source>
+    </ChoiceFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

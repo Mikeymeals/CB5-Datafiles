@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>War Caster</Name>
+      <Text>You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:
+• You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.
+• You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
+• When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Spells>Concentration or Somatic</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

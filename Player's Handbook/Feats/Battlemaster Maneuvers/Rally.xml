@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Rally</Name>
+      <Text>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your com panions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

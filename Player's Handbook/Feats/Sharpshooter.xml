@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Sharpshooter</Name>
+      <Text>You have mastered ranged weapons and can make shots that others find im possible. You gain the following benefits:
+• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.
+• Your ranged weapon attacks ignore half cover and three-quarters cover.
+• Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Sharpshooter</Name>
+          <Text>Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

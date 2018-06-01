@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Resilient (Strength)</Name>
+      <Text>You gain the following benefits:
+• Increase your strength score by 1, to a maximum of 20.
+• You gain proficiency with strength saving throws</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Strength</Ability>
+        </SaveProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Resilient (Constitution)</Name>
+      <Text>You gain the following benefits:
+• Increase your constitution score by 1, to a maximum of 20.
+• You gain proficiency with constitution saving throws</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Constitution</Ability>
+        </SaveProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Resilient (Dexterity)</Name>
+      <Text>You gain the following benefits:
+• Increase your dexterity score by 1, to a maximum of 20.
+• You gain proficiency with dexterity saving throws</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Dexterity</Ability>
+        </SaveProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Resilient (Intelligence)</Name>
+      <Text>You gain the following benefits:
+• Increase your intelligence score by 1, to a maximum of 20.
+• You gain proficiency with intelligence saving throws</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Intelligence</Ability>
+        </SaveProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Resilient (Wisdom)</Name>
+      <Text>You gain the following benefits:
+• Increase your wisdom score by 1, to a maximum of 20.
+• You gain proficiency with wisdom saving throws</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Wisdom</Ability>
+        </SaveProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Resilient (Charisma)</Name>
+      <Text>You gain the following benefits:
+• Increase your charisma score by 1, to a maximum of 20.
+• You gain proficiency with charisma saving throws</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Charisma</Ability>
+        </SaveProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

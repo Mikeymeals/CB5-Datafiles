@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Crossbow Expert</Name>
+      <Text>Thanks to extensive practice with the crossbow, you
+gain the following benefits:
+• You ignore the loading quality of crossbows with which you are proficient.
+• Being within 5 feet o f a hostile creature doesn’t impose disadvantage on your ranged attack rolls.
+• When you use the Attack action and attack with a onehanded weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Crossbow Expert</Name>
+          <Text>When you use the Attack action and attack with a onehanded weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

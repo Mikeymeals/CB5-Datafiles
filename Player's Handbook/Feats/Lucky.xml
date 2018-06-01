@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Lucky</Name>
+      <Text>You have inexplicable luck that seems to kick in at just the right moment.
+You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one o f your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.
+You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker’s roll or yours. If more than one creature spends a luck point to influence the outcome o f a roll, the points cancel each other out; no additional dice are rolled.
+You regain your expended luck points when you finish a long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>LUCKY</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

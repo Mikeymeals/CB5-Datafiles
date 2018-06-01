@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Skilled</Name>
+      <Text>You gain proficiency in any combination of three skills or tools of your choice.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Skilled</Name>
+          <Text>One tool or skill proficiency</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>Skill proficiency</Name>
+              <Text />
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+              <UniqueID>SKILLED1_SKILLS</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <ToolProficiencyChoiceConditionFeature>
+              <Keywords />
+              <Name>Tool proficiency</Name>
+              <Text />
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>SKILLED_TOOL1</UniqueID>
+              <Condition>Tool and not Weapon</Condition>
+            </ToolProficiencyChoiceConditionFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>SKILLED1</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Player's Handbook</Source>
+        </ChoiceFeature>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Skilled</Name>
+          <Text>One tool or skill proficiency</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>Skill proficiency</Name>
+              <Text />
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+              <UniqueID>SKILLED2_SKILLS</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <ToolProficiencyChoiceConditionFeature>
+              <Keywords />
+              <Name>Tool proficiency</Name>
+              <Text />
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>SKILLED_TOOL2</UniqueID>
+              <Condition>Tool and not Weapon</Condition>
+            </ToolProficiencyChoiceConditionFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>SKILLED2</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Player's Handbook</Source>
+        </ChoiceFeature>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Skilled</Name>
+          <Text>One tool or skill proficiency</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>Skill proficiency</Name>
+              <Text />
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+              <UniqueID>SKILLED3_SKILLS</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <ToolProficiencyChoiceConditionFeature>
+              <Keywords />
+              <Name>Tool proficiency</Name>
+              <Text />
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>SKILLED_TOOL3</UniqueID>
+              <Condition>Tool and not Weapon</Condition>
+            </ToolProficiencyChoiceConditionFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>SKILLED3</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Player's Handbook</Source>
+        </ChoiceFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

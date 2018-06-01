@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Linguist</Name>
+      <Text>You have studied languages and codes, gaining the following benefits:
+• Increase your Intelligence score by 1, to a maximum of 20.
+• You learn three languages of your choice.
+• You can ably create written ciphers. Others can’t decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Features>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name>Linguist</Name>
+          <Text>You learn three languages</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <Prerequisite />
+          <Amount>3</Amount>
+          <UniqueID>LINGUIST</UniqueID>
+        </LanguageChoiceFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+      </Features>
+      <Condition />
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

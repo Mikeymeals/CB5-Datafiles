@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusFeature>
+      <Keywords />
+      <Name>Dual Wielder</Name>
+      <Text>You master fighting with two weapons, gaining the following benefits:
+• You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.
+• You can use two-weapon fighting even when the onehanded melee weapons you are wielding aren’t light.
+• You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Mainhand and Offhand and not Shield</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

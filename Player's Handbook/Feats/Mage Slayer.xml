@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Mage Slayer</Name>
+      <Text>You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:
+• When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.
+• When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.
+• You have advantage on saving throws against spells cast by creatures within 5 feet of you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Mage Slayer</Name>
+          <Text>When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mage Slayer</Name>
+          <Text>When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances />
+          <Vulnerabilities />
+          <Immunities />
+          <SavingThrowAdvantages>
+            <string>spells cast by creatures within 5 feet of you</string>
+          </SavingThrowAdvantages>
+        </ResistanceFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

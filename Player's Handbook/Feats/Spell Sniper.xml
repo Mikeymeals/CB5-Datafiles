@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Spell Sniper</Name>
+      <Text>You have learned techniques to enhance your attacks with certain kinds o f spells, gaining the following benefits
+• When you cast a spell that requires you to make an attack roll, the spell’s range is doubled.
+• Your ranged spell attacks ignore half cover and three-quarters cover.
+• You learn one cantrip that requires an attack roll.
+Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The ability to cast at least one spell</Prerequisite>
+      <Choices>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Bard</Name>
+          <Text>You learn one bard cantrip that requires an attack roll. Your spellcasting ability for this spell is Charisma.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Bard and Cantrip</Condition>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <UniqueID>SPELL_SNIPER_BARD_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Cleric</Name>
+          <Text>You learn one cleric cantrip that requires an attack roll. Your spellcasting ability for this spell is Wisdom.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Cleric and Cantrip</Condition>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <UniqueID>SPELL_SNIPER_CLERIC_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Druid</Name>
+          <Text>You learn one druid cantrip that requires an attack roll. Your spellcasting ability for this spell is Wisdom.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Druid and Cantrip</Condition>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <UniqueID>SPELL_SNIPER_DRUID_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Sorcerer</Name>
+          <Text>You learn one sorcerer cantrip that requires an attack roll. Your spellcasting ability for this spell is Charisma.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Sorcerer and Cantrip</Condition>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <UniqueID>SPELL_SNIPER_SORCERER_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Warlock</Name>
+          <Text>You learn one warlock cantrip that requires an attack roll. Your spellcasting ability for this spell is Charisma.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Warlock and Cantrip</Condition>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <UniqueID>SPELL_SNIPER_WARLOCK_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Wizard</Name>
+          <Text>You learn one wizard cantrip that requires an attack roll. Your spellcasting ability for this spell is Intelligence.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Wizard and Cantrip</Condition>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <UniqueID>SPELL_SNIPER_WIZARD_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd />
+        </BonusSpellKeywordChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>SPELL_SNIPER</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Player's Handbook</Source>
+    </ChoiceFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

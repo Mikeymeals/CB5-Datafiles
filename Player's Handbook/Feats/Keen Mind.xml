@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Keen Mind</Name>
+      <Text>You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits.
+• Increase your Intelligence score by 1, to a maximum of 20.
+• You always know which way is north.
+• You always know the number of hours left before the next sunrise or sunset.
+• You can accurately recall anything you have seen or heard within the past month.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Heavily Armored</Name>
+      <Text>You have trained to master the use of heavy armor, gaining the following benefits:
+• Increase your Strength score by 1, to a maximum of 20.
+• You gain proficiency with heavy armor.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Proficiency with medium armor</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <ToolKWProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Armor and Heavy</Condition>
+          <Description>all heavy armor</Description>
+        </ToolKWProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Heavy Armor Master</Name>
+      <Text>You can use your armor to deflect strikes that would kill others. You gain the following benefits:
+• Increase your Strength score by 1, to a maximum o f 20.
+• While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from non magical weapons is reduced by 3.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Proficiency with heavy armor</Prerequisite>
+      <Modifier>AddScore</Modifier>
+      <Strength>1</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Actor</Name>
+      <Text>Skilled at mimicry and dramatics, you gain the following benefits:
+• Increase your Charisma score by 1, to a maximum of 20.
+• You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
+• You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature
+make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Tough</Name>
+      <Text>Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <HitPoints>2*PlayerLevel</HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

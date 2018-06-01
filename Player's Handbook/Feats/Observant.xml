@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Observant</Name>
+      <Text>Quick to notice details of your environment, you gain the following benefits:
+• Increase your Intelligence or Wisdom score by 1, to a maximum of 20.
+• If you can see a creature’s mouth while it is speaking a language you understand, you can interpret what it’s saying by reading its lips.
+• You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Intelligence or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence by 1</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom by 1</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>OBSERVANT</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Player's Handbook</Source>
+        </ChoiceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Perception</string>
+            <string>Investigation</string>
+          </Skills>
+          <SkillBonus>5</SkillBonus>
+          <SkillPassive>true</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

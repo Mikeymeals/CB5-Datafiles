@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Moderately Armored</Name>
+      <Text>You have trained to master the use of medium armor and shields, gaining the following benefits:
+• Increase your Strength or Dexterity score by 1, to a maximum of 20.
+• You gain proficiency with medium armor and shields.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Proficiency with light armor</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text>Increase your Strength or Dexterity score by 1</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength by 1</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity by 1</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>MODERATELY_ARMORED</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Player's Handbook</Source>
+        </ChoiceFeature>
+        <ToolKWProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>(Medium and Armor) or Shield</Condition>
+          <Description>all medium armor and shields</Description>
+        </ToolKWProficiencyFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

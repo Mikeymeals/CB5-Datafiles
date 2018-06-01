@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ACFeature>
+      <Keywords />
+      <Name>Medium Armor Master</Name>
+      <Text>You have practiced moving in medium armor to gain the following benefits:
+• Wearing medium armor doesn’t impose disadvantage on your Dexterity (Stealth) checks.
+• When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Proficiency with medium armor</Prerequisite>
+      <Expression>if(Medium and Dex &gt;= 16, BaseAC+Min(DexMod,3) + ShieldBonus, 0)</Expression>
+    </ACFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

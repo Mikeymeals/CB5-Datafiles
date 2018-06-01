@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Weapon Master</Name>
+      <Text>You have practiced extensively with a variety of weapons, gaining the following benefits:
+• Increase your Strength or Dexterity score by 1, to a maximum of 20.
+• You gain proficiency with four simple or martial weapons of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Weapon Master</Name>
+          <Text>Increase your Strength or Dexterity score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength by 1</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity by 1</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>WEAPON_MASTER_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Player's Handbook</Source>
+        </ChoiceFeature>
+        <ToolProficiencyChoiceConditionFeature>
+          <Keywords />
+          <Name>Weapon Master</Name>
+          <Text>You gain proficiency with four simple or martial weapons of your choice.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>4</Amount>
+          <UniqueID>WEAPON_MASTER_WEAPON</UniqueID>
+          <Condition>Weapon and (Simple or Martial)</Condition>
+        </ToolProficiencyChoiceConditionFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

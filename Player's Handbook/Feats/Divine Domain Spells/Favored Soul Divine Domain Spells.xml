@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Death Domain</Name>
+      <Text>Death Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>false life, ray of sickness</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>False Life</string>
+            <string>Ray of Sickness</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>blindness/deafness, ray of enfeeblement</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Blindness/Deafness</string>
+            <string>Ray of Enfeeblement</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>animate dead, vampiric touch</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Animate Dead</string>
+            <string>Vampiric Touch</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>freedom of movement, stoneskin</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Freedom of Movement</string>
+            <string>Stoneskin</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>blight, death ward</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Blight</string>
+            <string>Death Ward</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Knowledge Domain</Name>
+      <Text>Knowledge Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Knowledge Domain Spells</Name>
+          <Text>command, identify</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Command</string>
+            <string>Identify</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Knowledge Domain Spells</Name>
+          <Text>augury, suggestion</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Augury</string>
+            <string>Suggestion</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Knowledge Domain Spells</Name>
+          <Text>nondetection, speak with dead</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Nondetection</string>
+            <string>Speak with Dead</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Knowledge Domain Spells</Name>
+          <Text>arcane eye, confusion</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Arcane Eye</string>
+            <string>Confusion</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Knowledge Domain Spells</Name>
+          <Text>legend lore, scrying</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Legend Lore</string>
+            <string>Scrying</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Life Domain</Name>
+      <Text>Life Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Life Domain Spells</Name>
+          <Text>bless, cure wounds</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Bless</string>
+            <string>Cure Wounds</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Life Domain Spells</Name>
+          <Text>lesser restoration, spiritual weapon</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Lesser Restoration</string>
+            <string>Spiritual Weapon</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Life Domain Spells</Name>
+          <Text>beacon of hope, revivify</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Beacon of Hope</string>
+            <string>Revivify</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Life Domain Spells</Name>
+          <Text>death ward, guardian of faith</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Death Ward</string>
+            <string>Guardian of Faith</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Life Domain Spells</Name>
+          <Text>mass cure wounds, raise dead</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Mass Cure Wounds</string>
+            <string>Raise Dead</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Light Domain</Name>
+      <Text>Light Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Light Domain Spells</Name>
+          <Text>burning hands, faerie fire</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Burning Hands</string>
+            <string>Faerie Fire</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Light Domain Spells</Name>
+          <Text>flaming sphere, scorching ray</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Flaming Sphere</string>
+            <string>Scorching Ray</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Light Domain Spells</Name>
+          <Text>daylight, fireball</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Daylight</string>
+            <string>Fireball</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Light Domain Spells</Name>
+          <Text>guardian of faith, wall of fire</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Guardian of Faith</string>
+            <string>Wall of Fire</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Light Domain Spells</Name>
+          <Text>flame strike, scrying</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Flame Strike</string>
+            <string>Scrying</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Nature Domain</Name>
+      <Text>Nature Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Nature Domain Spells</Name>
+          <Text>animal friendship, speak with animals</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Animal Friendship</string>
+            <string>Speak with Animals</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Nature Domain Spells</Name>
+          <Text>barkskin, spike growth</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Barkskin</string>
+            <string>Spike Growth</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Nature Domain Spells</Name>
+          <Text>plant growth, wind wall</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Plant Growth</string>
+            <string>Wind Wall</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Nature Domain Spells</Name>
+          <Text>dominate beast, grasping vine</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Dominate Beast</string>
+            <string>Grasping Vine</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Nature Domain Spells</Name>
+          <Text>insect plague, tree stride</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Insect Plague</string>
+            <string>Tree Stride</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Tempest Domain</Name>
+      <Text>Tempest Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Tempest Domain Spells</Name>
+          <Text>fog cloud, thunderwave</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Fog Cloud</string>
+            <string>Thunderwave</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Tempest Domain Spells</Name>
+          <Text>gust of wind, shatter</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Gust of Wind</string>
+            <string>Shatter</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Tempest Domain Spells</Name>
+          <Text>call lightning, sleet storm</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Call Lightning</string>
+            <string>Sleet Storm</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Tempest Domain Spells</Name>
+          <Text>control water, ice storm</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Control Water</string>
+            <string>Ice Storm</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Tempest Domain Spells</Name>
+          <Text>destructive wave, insect plague</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Destructive Wave</string>
+            <string>Insect Plague</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Trickery Domain</Name>
+      <Text>Trickery Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Trickery Domain Spells</Name>
+          <Text>charm person, disguise self</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Charm Person</string>
+            <string>Disguise Self</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Trickery Domain Spells</Name>
+          <Text>mirror image, pass without trace</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Mirror Image</string>
+            <string>Pass without Trace</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Trickery Domain Spells</Name>
+          <Text>blink, dispel magic</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Blink</string>
+            <string>Dispel Magic</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Trickery Domain Spells</Name>
+          <Text>dimension door, polymorph</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Dimension Door</string>
+            <string>Polymorph</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Trickery Domain Spells</Name>
+          <Text>dominate person, modify memory</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Dominate Person</string>
+            <string>Modify Memory</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>War Domain</Name>
+      <Text>War Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>War Domain Spells</Name>
+          <Text>divine favor, shield of faith</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Divine Favor</string>
+            <string>Shield of Faith</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>War Domain Spells</Name>
+          <Text>magic weapon, spiritual weapon</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Magic Weapon</string>
+            <string>Spiritual Weapon</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>War Domain Spells</Name>
+          <Text>crusader's mantle, spirit guardians</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Crusader's Mantle</string>
+            <string>Spirit Guardians</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>War Domain Spells</Name>
+          <Text>freedom of movement, stoneskin</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Freedom of Movement</string>
+            <string>Stoneskin</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>War Domain Spells</Name>
+          <Text>flame strike, hold monster</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Flame Strike</string>
+            <string>Hold Monster</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

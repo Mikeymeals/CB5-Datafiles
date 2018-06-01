@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Elemental Adept (Acid)</Name>
+      <Text>Acid spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals acid damage, you can treat any 1 on a damage die as a 2.
+You can select this feat multiple times. Each time you do so, you must choose a different damage type.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The ability to cast at least one spell</Prerequisite>
+      <Features>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Elemental Adept (Acid)</Name>
+          <Text>Acid spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals acid damage, you can treat any 1 on a damage die as a 2.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spells>Acid</Spells>
+        </SpellModifyFeature>
+      </Features>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Elemental Adept (Cold)</Name>
+      <Text>Cold spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals cold damage, you can treat any 1 on a damage die as a 2.
+You can select this feat multiple times. Each time you do so, you must choose a different damage type.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The ability to cast at least one spell</Prerequisite>
+      <Features>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Elemental Adept (Cold)</Name>
+          <Text>Cold spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals cold damage, you can treat any 1 on a damage die as a 2.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spells>Cold</Spells>
+        </SpellModifyFeature>
+      </Features>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Elemental Adept (Fire)</Name>
+      <Text>Fire spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals fire damage, you can treat any 1 on a damage die as a 2.
+You can select this feat multiple times. Each time you do so, you must choose a different damage type.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The ability to cast at least one spell</Prerequisite>
+      <Features>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Elemental Adept (Fire)</Name>
+          <Text>Fire spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals fire damage, you can treat any 1 on a damage die as a 2.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spells>Fire</Spells>
+        </SpellModifyFeature>
+      </Features>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Elemental Adept (Lightning)</Name>
+      <Text>Lightning spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals lightning damage, you can treat any 1 on a damage die as a 2.
+You can select this feat multiple times. Each time you do so, you must choose a different damage type.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The ability to cast at least one spell</Prerequisite>
+      <Features>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Elemental Adept (Lightning)</Name>
+          <Text>Lightning spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals lightning damage, you can treat any 1 on a damage die as a 2.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spells>Lightning</Spells>
+        </SpellModifyFeature>
+      </Features>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Elemental Adept (Thunder)</Name>
+      <Text>Thunder spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals thunder damage, you can treat any 1 on a damage die as a 2.
+You can select this feat multiple times. Each time you do so, you must choose a different damage type.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>The ability to cast at least one spell</Prerequisite>
+      <Features>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Elemental Adept (Thunder)</Name>
+          <Text>Thunder spells you cast ignore resistance. In addition, when you roll damage for a spell you cast that deals thunder damage, you can treat any 1 on a damage die as a 2.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spells>Thunder</Spells>
+        </SpellModifyFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

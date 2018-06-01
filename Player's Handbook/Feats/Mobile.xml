@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Mobile</Name>
+      <Text>You are exceptionally speedy and agile. You gain thefollowing benefits:
+• Your speed increases by 10 feet.
+• When you use the Dash action, difficult terrain doesn’t cost you extra movement on that turn.
+• When you make a melee attack against a creature, you don’t provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>10</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>
