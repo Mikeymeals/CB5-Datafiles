@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Candle of the Deep</Name>
+      <Text>The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Candle of the Deep</Name>
+  <Description>The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

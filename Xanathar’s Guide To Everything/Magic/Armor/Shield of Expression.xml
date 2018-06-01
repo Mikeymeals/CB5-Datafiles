@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Shield of Expression</Name>
+      <Text>The front of this shield is shaped in the likeness of a face. While bearing the shield, you can use a bonus action to alter the face’s expression.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (shield)</Requirement>
+  <Name>Shield of Expression</Name>
+  <Description>The front of this shield is shaped in the likeness of a face. While bearing the shield, you can use a bonus action to alter the face’s expression.</Description>
+  <Slot>Armor</Slot>
+  <Base>Shield</Base>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <PostName>of Expression</PostName>
+  <Rarity>Common</Rarity>
+</MagicProperty>

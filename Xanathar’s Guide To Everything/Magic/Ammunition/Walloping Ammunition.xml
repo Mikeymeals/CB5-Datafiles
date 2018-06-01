@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Walloping Ammunition</Name>
+      <Text>A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures />
+  <Requirement>Weapon (arrow)</Requirement>
+  <Name>Walloping Ammunition</Name>
+  <Description>This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked prone.</Description>
+  <Slot>None</Slot>
+  <Base>Ammunition and Consumable</Base>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <PrependName>Walloping</PrependName>
+  <PostName />
+  <Rarity>Common</Rarity>
+</MagicProperty>

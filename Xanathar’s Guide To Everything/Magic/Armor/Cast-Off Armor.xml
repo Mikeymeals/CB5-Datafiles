@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Cast-Off Armor</Name>
+      <Text>You can doff this armor as an action.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (light, medium, or heavy)</Requirement>
+  <Name>Cast-Off Armor</Name>
+  <Description>You can doff this armor as an action.</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and (Medium or Heavy or Light)</Base>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <PrependName>Cast-Off</PrependName>
+  <PostName />
+  <Rarity>Common</Rarity>
+</MagicProperty>

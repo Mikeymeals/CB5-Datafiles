@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Wand of Conducting</Name>
+      <Text>This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.
+The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>WAND_OF_CONDUCTING</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wand</Requirement>
+  <Name>Wand of Conducting</Name>
+  <Description>This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.
+The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Wand</Base>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <PostName>of Conducting</PostName>
+  <Rarity>Common</Rarity>
+</MagicProperty>

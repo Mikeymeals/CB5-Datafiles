@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Ersatz Eye</Name>
+      <Text>This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can’t be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Ersatz Eye</Name>
+  <Description>This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can’t be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>
