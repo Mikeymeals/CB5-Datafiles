@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a piece of ice or a small white rock chip</Components>
+    </Material>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cold</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>sphere</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Snilloc's Snowball Swarm</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>90 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>2</Level>
+  <Description>A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5- foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

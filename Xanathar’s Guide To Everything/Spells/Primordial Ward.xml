@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Primordial Ward</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>6</Level>
+  <Description>You have resistance to acid, cold, fire, lightning, and thunder damage for the spell’s duration.
+When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.
+</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

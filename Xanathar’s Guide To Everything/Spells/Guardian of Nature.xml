@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Guardian of Nature</Name>
+  <CastingTime>1 bonus action</CastingTime>
+  <Range>Self</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>4</Level>
+  <Description>A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree</Description>
+  <Descriptions>
+    <Description>
+      <Name>Primal Beast</Name>
+      <Text>Bestial fur covers your body, your facial features become feral, and you gain the following benefits:
+• Your walking speed increases by 10 feet.
+• You gain darkvision with a range of 120 feet.
+• You make Strength-based attack rolls with advantage.
+• Your melee weapon attacks deal an extra 1d6 force damage on a hit.</Text>
+    </Description>
+    <Description>
+      <Name>Great Tree</Name>
+      <Text>Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:
+• You gain 10 temporary hit points.
+• You make Constitution saving throws with advantage.
+• You make Dexterity- and Wisdom-based attack rolls with advantage.
+• While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

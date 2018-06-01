@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+    <Keyword>
+      <Name>force</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Zephyr Strike</Name>
+  <CastingTime>1 bonus action</CastingTime>
+  <Range>Self</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>1</Level>
+  <Description>You move like the wind. Until the spell ends, your movement doesn’t provoke opportunity attacks.
+Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>necromancy</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>necrotic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>healing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Enervation</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>5</Level>
+  <Description>A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell’s range, or if the target has total cover from you.
+Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

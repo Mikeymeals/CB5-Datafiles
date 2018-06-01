@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>touch</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Skill Empowerment</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Touch</Range>
+  <Duration>Concentration, up to 1 hour</Duration>
+  <Level>5</Level>
+  <Description>Your magic deepens a creature’s understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.
+You must choose a skill in which the target is proficient and that isn’t already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

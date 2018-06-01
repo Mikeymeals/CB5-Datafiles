@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a holy symbol</Components>
+    </Material>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cleric</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>radiant</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage>
+    <CantripDamage>
+      <Level>1</Level>
+      <Damage>1d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>5</Level>
+      <Damage>2d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>11</Level>
+      <Damage>3d6</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>17</Level>
+      <Damage>4d6</Damage>
+    </CantripDamage>
+  </CantripDamage>
+  <Name>Word of Radiance</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>5 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>0</Level>
+  <Description>You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.
+The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>enchantment</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Enemies Abound</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>120 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>3</Level>
+  <Description>You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
+Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it’s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

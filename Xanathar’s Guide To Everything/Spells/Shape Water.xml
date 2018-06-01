@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cube</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Shape Water</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>30 feet</Range>
+  <Duration>Instantaneous or 1 hour (see below)</Duration>
+  <Level>0</Level>
+  <Description>You choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:
+• You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn’t have enough force to cause damage.
+• You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.
+• You change the water’s color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.
+• You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour.
+If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

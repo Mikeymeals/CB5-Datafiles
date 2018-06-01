@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a piece of obsidian</Components>
+    </Material>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>cube</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Erupting Earth</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>120 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>3</Level>
+  <Description>Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cold</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>cone</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Investiture of Ice</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self</Range>
+  <Duration>Concentration, up to 10 minutes</Duration>
+  <Level>6</Level>
+  <Description>Until the spell ends, ice rimes your body, and you gain the following benefits:
+• You are immune to cold damage and have resistance to fire damage.
+• You can move across difficult terrain created by ice or snow without spending extra movement.
+• The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.
+• You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

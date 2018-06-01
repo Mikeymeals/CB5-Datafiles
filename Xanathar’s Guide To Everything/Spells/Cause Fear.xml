@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>necromancy</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Wisdom</Throw>
+    </Save>
+  </Keywords>
+  <CantripDamage />
+  <Name>Cause Fear</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>1</Level>
+  <Description>You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

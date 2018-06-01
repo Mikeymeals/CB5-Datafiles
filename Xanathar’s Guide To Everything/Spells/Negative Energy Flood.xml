@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>necromancy</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a broken bone and a square of black silk</Components>
+    </Material>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>necrotic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>healing</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Negative Energy Flood</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>5</Level>
+  <Description>You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual.
+If you target an undead with this spell, the target doesn’t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

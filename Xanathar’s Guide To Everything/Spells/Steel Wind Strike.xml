@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a melee weapon worth at least 1 sp</Components>
+    </Material>
+    <Keyword>
+      <Name>attack</Name>
+    </Keyword>
+    <Keyword>
+      <Name>force</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Steel Wind Strike</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>30 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>5</Level>
+  <Description>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 force damage.
+You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>evocation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a sunburst pendant worth at least 100 gp</Components>
+    </Material>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Constitution</Throw>
+    </Save>
+    <Keyword>
+      <Name>radiant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cylinder</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cleric</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Dawn</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>5</Level>
+  <Description>The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight. 
+When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.
+If you’re within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.
+</Description>
+  <Descriptions />
+  <Source>Xanathar’s Guide To Everything</Source>
+</Spell>
