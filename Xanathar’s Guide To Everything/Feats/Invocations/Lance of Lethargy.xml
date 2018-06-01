@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Lance of Lethargy</Name>
+      <Text>Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature’s speed by 10 feet until the end of your next turn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite>eldritch blast cantrip</Prerequisite>
+      <Spells>Name = 'eldritch blast'</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Xanathar’s Guide To Everything</Source>
+</FeatureContainer>

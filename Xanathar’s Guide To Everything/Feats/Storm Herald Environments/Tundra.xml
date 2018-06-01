@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Tundra</Name>
+      <Text>When this effect is activated, each creature of your choice in your aura gains 2 temporary hit points, as icy spirits inure it to suffering. The temporary hit points increase when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Features>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Storm Soul</Name>
+          <Text>You gain resistance to cold damage and don’t suffer the effects of extreme cold.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>cold</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities>
+            <string>effects of extreme cold</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Raging Storm</Name>
+          <Text>Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Strength saving throw, or its speed is reduced to 0 until the start of your next turn, as magical frost covers it.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Xanathar’s Guide To Everything</Source>
+</FeatureContainer>

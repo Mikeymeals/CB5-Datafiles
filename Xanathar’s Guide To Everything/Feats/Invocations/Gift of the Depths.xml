@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Gift of the Depths</Name>
+      <Text>You can breathe underwater, and you gain a swimming speed equal to your walking speed.
+You can also cast water breathing once without expending a spell slot. You regain the ability to do so when you finish a long rest.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Water Breathing</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>LongRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <Source>Xanathar’s Guide To Everything</Source>
+</FeatureContainer>

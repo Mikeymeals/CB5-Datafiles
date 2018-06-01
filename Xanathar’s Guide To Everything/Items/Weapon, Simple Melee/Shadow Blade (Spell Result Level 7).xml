@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>simple</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>finesse</Name>
+    </Keyword>
+    <Keyword>
+      <Name>thrown</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>20</Short>
+      <Long>60</Long>
+    </Range>
+    <Keyword>
+      <Name>light</Name>
+    </Keyword>
+    <Keyword>
+      <Name>psychic</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Shadow Blade (Spell Result Level 7)</Name>
+  <Description>This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals 2d8 psychic damage on a hit and has the finesse, light, and thrown properties
+(range 20/60).</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Xanathar’s Guide To Everything</Source>
+  <Weight>0</Weight>
+  <Damage>5d8</Damage>
+  <DamageType>psychic</DamageType>
+</Item>

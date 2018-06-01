@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Shadow Blade (Spell Result)</Name>
+      <Text>This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals 2d8 psychic damage on a hit and has the finesse, light, and thrown properties (range 20/60).</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Shadow Blade (Spell Result Level 2)</string>
+        <string>Shadow Blade (Spell Result Level 3)</string>
+        <string>Shadow Blade (Spell Result Level 5)</string>
+        <string>Shadow Blade (Spell Result Level 7)</string>
+      </Tools>
+    </ToolProficiencyFeature>
+  </Features>
+  <Source>Xanathar’s Guide To Everything</Source>
+</FeatureContainer>
