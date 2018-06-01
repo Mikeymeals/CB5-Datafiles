@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Thayan Warrior</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any non-good alignment</Alignment>
+  <AC>16</AC>
+  <ACText>chain shirt, shield</ACText>
+  <HP>52</HP>
+  <HPRoll>8d8+16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Thayan</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 246</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Doomvault Devotion</Name>
+      <Text>Within the Doomvault, the warrior has advantage on saving throws against being charmed or frightened .</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The warrior makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1dlO + 3) slashing damage if used with two hands.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+3",
+  "Two Handed</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Javelin</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

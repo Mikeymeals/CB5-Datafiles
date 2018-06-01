@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Druidic Sorcery</Name>
+      <Text>At 1st level, your link to the natural world allows you to learn spells normally associated with the druid class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells />
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>sorcerer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>Druid and Level &lt;= ClassSpellLevel and !Cantrip</AdditionalSpellChoices>
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells />
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>sorcerer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>Druid and Cantrip</AdditionalSpellChoices>
+      <UniqueID>SORCERER_CANTRIPS</UniqueID>
+    </ModifySpellChoiceFeature>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Verdant Soul</Name>
+      <Text>Starting at 1st level, your hit point maximum increases by 2 and increases by 2 again whenever you gain a level in this class. Whenever you spend one or more sorcery points you heal 1 hit point for every sorcery point you spent.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <HitPoints>ClassLevel</HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Land’s Stride</Name>
+      <Text>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>plants that are magically created or manipulated to impede movement</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Virile Vitality</Name>
+      <Text>Starting at 14th level, you are immune to poison and disease. Additionally, the primal magic coursing through your veins causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>poison</string>
+        <string>disease</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Greenheart, Greenblood</Name>
+      <Text>Starting at 18th level, you can use a bonus action on your turn to convert vitality into sorcery points. Reduce your current and maximum hit points by 4 and regain 1 sorcery point. This reduction lasts until you complete a long rest.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Sorcerer Revisited</Source>
+  <Name>Greenheart</Name>
+  <SheetName>Greenheart</SheetName>
+  <Description>Born to a dryad parent, infused with the eldritch power of an enchanted forest you were raised in, or influenced by a primal enchantment in your mother’s womb, the magic of the natural world runs through you. Unlike druids you did not choose your connection to the natural world, the natural world chose its connection to you. Greenheart sorcerers often have dark brown and bright green features and smell of the native flora of their homelands. Sorcerers of this origin are exceptionally resilient and observant of their surroundings.</Description>
+  <ParentRace>Sorcerer</ParentRace>
+</SubClass>

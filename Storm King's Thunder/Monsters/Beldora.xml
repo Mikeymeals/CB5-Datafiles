@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Beldora</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>illuskan human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>12</AC>
+  <HP>18</HP>
+  <HPRoll>4d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>-2</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Dwarvish</string>
+    <string>Halfling</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>Beldora is a member of the harpers who survives using her wits and wiles. She looks like a homeless waif, but she's a survivor who shies away from material wealth.
+
+Ideal: "We should all strive to help one another"
+Bond: "I'll risk my life to protect the powerless."
+Flaw: "I like lying to people. Makes life more interesting, no?"</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage, .</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hand Crossbow</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage. Beldora carries ten crossbow bolts.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d10+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Duck and Cover</Name>
+      <Text>Beldora adds 2 to her AC against on melee attack that would hit her. To do so, Duvessa must see the attacker and can't be grappled or restrained.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Investigation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

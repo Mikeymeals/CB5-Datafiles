@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Augrek Brighthelm</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shield dwarf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>15</AC>
+  <ACText>chain shirt, shield</ACText>
+  <HP>13</HP>
+  <HPRoll>2d8+4</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Dwarvish</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dwarven Resilience</Name>
+      <Text>Augrek has advantage on saving throws against poison.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>Sheriff's Ddeputy Augrek guards the southwest gate of BRyn Shander and welcomes visitors to town. She has a good heart.
+
+Ideal: "You'll get farther in life with a kind word than an axe"
+Bond: "Bryn Shander is my home. It's my job to protect her."
+Flaw: "I'm head over heels in love with Sheriff Southwell. One day I hope to marry him."</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Warhammer</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) bludgeoning damage, or 7 (1d10+2) bludgeoning damage if used with two hands.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Heavy Crossbow</Name>
+      <Text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Augrek carries ten crossbow bolts.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d10</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Maegera the Dawn Titan</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <HP>341</HP>
+  <HPRoll>22d20+110</HPRoll>
+  <Speeds>
+    <string>50 ft..</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ignan</string>
+  </Languages>
+  <CR>23</CR>
+  <XP>50000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Empowered Attacks</Name>
+      <Text>Maegera's slam attacks are treated as magical for the purpose of overcoming resistance and immunity to damage from nonmagical attacks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fire Aura</Name>
+      <Text>At the start of each of Maegera's turns, each creature within 30 feet of it takes 35 (10d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 35 (10d6) fire damage from touching Maegera or from hitting it with a melee attack while within 10 feet of it, and a creature takes that damage the first time on a turn that Maegera moves into its space. Nonmagical weapons that hit Maegera are destroyed by fire immediately after dealing damage to it.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fire Form</Name>
+      <Text>Maegera can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing if fire could pass through that space.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Illumination</Name>
+      <Text>Maegera sheds bright light in a 120-foot radius and dim light in an additional 120 ft..</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Maegera's can innately cast fireball (spell save DC 19) at will, requiring no material components. Maegera's spell casting ability is Charisma.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Maegera has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Maegera makes three slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage plus 35 (10d6) fire damage</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>3d6+5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Quench Magic</Name>
+      <Text>Maegera targets one creature that it can see within 60 feet of it. Any resistence or immunity to fire damage that the target gains from a spell or magic item is suppressed.  The effect lasts until the end of Maegera's next turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Smoke Cloud (Costs 2 Actions)</Name>
+      <Text>Maegera exhales a billowing cloud of hot smoke and embers that fills a 60 feet cube. Each creature in the area takes 11 (2d10) fire damage. The cloud lasts until the end of Maegera's next turn. Creatures completely in the cloud are blinded and can't be seen.</Text>
+      <AttackBonus>0</AttackBonus>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Create Fire Elemental (Costs 3 Actions)</Name>
+      <Text>Maegera's hit points are reduced by 50 as part of it separates and becomes a fire elemental with 102 hit points. The fire element appears in an unoccupied space within 15 feet of Maegera and acts on Maegera's initiative count. Maegera can't use this action if it has 50 hit points or fewer. The fire element obeys Maegera's commands and fights until destroyed.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

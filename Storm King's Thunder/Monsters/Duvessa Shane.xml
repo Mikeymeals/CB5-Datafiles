@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Duvessa Shane</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>illuskan human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>10</AC>
+  <HP>9</HP>
+  <HPRoll>2d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Dwarvish</string>
+    <string>Giant</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>The daughter of a Waterdhavian trader and a tavern server, Duvessa has her mother's talent for negotiation and her father's charm. As the first woman to serve as Town Speaker of BRyn Shander, and a young one at that, she has much to prove.
+
+Ideal: "The people of Icewind Dale are survivors. They can weather any storm."
+Bond: "My mother taught me what it means to be a good leader. I won't disappoint her."
+Flaw: "I don't give an inch in any argument of conflict."</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 2 (1d4) piercing damage. Duvessa carries only one dagger.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Parry</Name>
+      <Text>Duvessa adds 2 to her AC against on melee attack that would hit him. To do so, Duvessa must see the attacker and be wielding a melee weapon.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>1</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>0</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

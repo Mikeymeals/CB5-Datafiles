@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Potion of Frost Giant Strength</Name>
+      <Text>When you drink the potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than 23. 
+This potion’s transparent liquid has a piece of a gigantic fingernail from a frost giant floating in it.
+</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures />
+  <Requirement>Potion</Requirement>
+  <Name>Potion of Frost Giant Strength</Name>
+  <Description>When you drink the potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than 23. 
+This potion’s transparent liquid has a piece of a gigantic fingernail from a frost giant floating in it.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>The Rise of Tiamat Online Supplement</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

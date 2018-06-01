@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Arrow of Dragon Slaying</Name>
+      <Text>If a dragon takes damage from this arrow, it must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.
+Once an arrow of dragon slaying deals its extra damage to a dragon, it becomes a nonmagical arrow.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures />
+  <Requirement>Weapon (arrow)</Requirement>
+  <Name>Arrow of Dragon Slaying</Name>
+  <Description>If a dragon takes damage from this arrow, it must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.
+Once an arrow of dragon slaying deals its extra damage to a dragon, it becomes a nonmagical arrow.</Description>
+  <Slot>None</Slot>
+  <Base>Arrow</Base>
+  <Source>The Rise of Tiamat Online Supplement</Source>
+  <PrependName />
+  <PostName>of Slaying</PostName>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>

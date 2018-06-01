@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Thorn Slinger</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>11</AC>
+  <HP>32</HP>
+  <HPRoll>5d10+5</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 246</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Adhesive Blossoms</Name>
+      <Text>The thorn slinger adheres to anything that touches it. A Medium or smaller creature adhered to the thorn slinger is also grappled by it (escape DC 11). Ability checks made to escape this grapple have disadvantage.
+At the end of each of the thorn slinger's turns, anything grappled by it takes 3 (1d6) acid damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the thorn slinger remains motionless, it is indistinguishable from an inanimate bush.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Thorns</Name>
+      <Text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30 ft., one target. Hit: 8 (2d6 + 1) piercing damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>2d6+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

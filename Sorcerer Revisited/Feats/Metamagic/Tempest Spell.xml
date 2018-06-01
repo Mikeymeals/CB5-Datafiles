@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Tempest Spell</Name>
+      <Text>When you cast a spell that requires an attack roll and deals lightning or thunder damage, you may spend 1 sorcery point when you deal damage to a creature to push the creature up to 15 feet.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite>You must have the Storm Sorcery sorcerous origin to take this option.</Prerequisite>
+      <Spells>Attack and (Lightning or Thunder)</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Sorcerer Revisited</Source>
+</FeatureContainer>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Spellbook</Name>
+      <Text>Starting at 1st level, you have a spellbook that contains your own idiosyncratic translation of spells you once learned at an arcane university or under a wizard mentor. Your spellbook begins with three first-level spells chosen from the wizard spell list. Spells in this spellbook count as sorcerer spells for you. You can cast spells that you don’t know but which are in your spellbook by spending an additional 1 sorcery point when you cast the spell.
+Whenever you gain an even numbered level in this class you can choose an additional spell from the wizard spell list and add it to your spellcasting notebook. Spells added in this way may not be of a higher level than spell slot you can create using your sorcery points.
+When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a level which you could cast by spending sorcery points and if you can spare the time and money to decipher and copy it. For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>Spellbook</Preparation>
+      <SpellcastingID>SORCERER_ARCANE_PRODIGY</SpellcastingID>
+      <PrepareableSpells>Wizard</PrepareableSpells>
+      <OverwrittenByMulticlassing>false</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>true</IgnoreMulticlassing>
+      <DisplayName>Arcane Prodigy - Spellbook</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>Charisma</SpellcastingAbility>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PrepareCount>0</PrepareCount>
+      <PreparationChange>Special</PreparationChange>
+    </SpellcastingFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Wizard</AvailableSpellChoices>
+      <SpellcastingID>SORCERER_ARCANE_PRODIGY</SpellcastingID>
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <AddTo>Spellbook</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>18</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ARCANE_PRODIGY_SPELLBOOK</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Arcana Expertise</Name>
+      <Text>Starting at 1st level, if you are proficient in the Arcana skill your proficiency bonus is doubled for any ability check you make that uses your Arcana proficiency</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Arcana</string>
+      </Skills>
+      <ProficiencyMultiplier>2</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Rare Genius</Name>
+      <Text>At 6th level, you have proficiency in Intelligence saving throws.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Intelligence</Ability>
+    </SaveProficiencyFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Additional Metamagic</Name>
+      <Text>At 14th level, you gain an additional Metamagic option of your choice.</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_METAMAGIC</UniqueID>
+      <Collection>Category = 'Feats/Metamagic'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spell Mastery</Name>
+      <Text>At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level sorcerer spell and a 2nd-level sorcerer spell that you know or that are in your spellbook. You can cast those spells at their lowest level without spending a sorcery point. If you want to cast either spell at a higher level, you must spend sorcery points as normal. By spending 8 hours in study and reflection, you can exchange one or both of the spells you chose for different spells of the same levels.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Sorcerer Revisited</Source>
+  <Name>Arcane Prodigy</Name>
+  <SheetName>Arcane Prodigy</SheetName>
+  <Description>You displayed a natural aptitude for magic from the first moment you fumbled through the gestures and words to conjure up a spell. Since that time you found that the more you tried to learn magic through rote memorization and practiced study the less your innate talent shone through. Sorcerers who are arcane prodigies eventually discover it’s better to let their own instincts and idiosyncrasies guide their use of magic. While arcane prodigies never truly abandon the attempt to understand magic on a rational or methodical level their prodigious talent for spellcasting relies on their intuitive understanding rather than their intellectual understanding of it.</Description>
+  <ParentRace>Sorcerer</ParentRace>
+</SubClass>

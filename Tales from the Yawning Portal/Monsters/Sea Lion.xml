@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Sea Lion</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>90</HP>
+  <HPRoll>12d10+24</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 242</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The sea lion can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The sea lion has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The sea lion has advantage on an attack roll against a creature if at least one of the sea lion's allies is within 5 feet of the creature and the ally isn't incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swimming Leap</Name>
+      <Text>With a 10-foot swimming start, the sea lion can long jump out of or across the water up to 25 feet.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sea lion makes three attacks: one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

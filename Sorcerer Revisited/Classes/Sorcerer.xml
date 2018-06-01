@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Spellcasting</Name>
+      <Text>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>LearnSpells</Preparation>
+      <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+      <OverwrittenByMulticlassing>false</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>true</IgnoreMulticlassing>
+      <DisplayName>Sorcerer</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>Charisma</SpellcastingAbility>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PreparationChange>LongRest</PreparationChange>
+    </SpellcastingFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Sorcerer and Cantrip</AvailableSpellChoices>
+      <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+      <UniqueID>SORCERER_CANTRIPS</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>4</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>One additional Cantrip</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_CANTRIPS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>One additional Cantrip</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_CANTRIPS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>You gain a pool of 4 sorcery points that you can use to cast spells (and later manipulate their properties through your Metamagic feature). When you wish to cast a spell you expend a number of sorcery points to create a spell slot of a given level as indicated on the sorcery point cost chart, and then use that slot to cast a spell. You can’t reduce your sorcery point total to less than 0, and you regain all spent sorcery points when you finish a long rest.
+The number of sorcery points you have to spend increases as you gain levels in this class, as shown in the Sorcery Points column on the sorcerer class table. Your sorcerer level also determines the maximum-level spell slot you can create. Even though you might have enough points to create a slot above this maximum, you can’t do so.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>8</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>9</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>13</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>17</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>19</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>21</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>23</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>25</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>27</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>29</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>31</Text>
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>33</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>35</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>37</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>39</Text>
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>43</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>45</Text>
+      <Level>18</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>47</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Sorcery Points</Name>
+      <Text>49</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>2</Value>
+      <ResourceID>SORCERER_POINTS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Casting Spells of 6th level and Higher</Name>
+      <Text>Spells of 6th level and higher are particularly taxing to cast. You can use sorcery points to create one slot of each level of 6th level or higher. You can’t create another slot of the same level until you finish a long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Max Spell Slot</Name>
+      <Text>1st</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Max Spell Slot</Name>
+      <Text>2nd</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Max Spell Slot</Name>
+      <Text>3rd</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Max Spell Slot</Name>
+      <Text>4th</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Max Spell Slot</Name>
+      <Text>5th</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>6th-Level Spell</Name>
+      <Text>Created 6th-Level spell slot</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_SPELL6</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>7th-Level Spell</Name>
+      <Text>Created 7th-Level spell slot</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_SPELL7</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>8th-Level Spell</Name>
+      <Text>Created 8th-Level spell slot</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_SPELL8</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>9th-Level Spell</Name>
+      <Text>Created 9th-Level spell slot</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_SPELL9</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Spells Known of 1st Level and Higher </Name>
+      <Text>You know two 1st-level spells of your choice from the sorcerer spell list.
+The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.
+Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Sorcerer and Level &lt;= ClassSpellLevel and !Cantrip</AvailableSpellChoices>
+      <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>2</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>5</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>2</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>6</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>8</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>2</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>9</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>11</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>2</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>12</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>14</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>2</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>15</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>16</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>17</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>18</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells Known</Name>
+      <Text>19</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_SPELLS</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Ability</Name>
+      <Text>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
+Spell save DC = 8 + your proficiency bonus + your Charisma modifier 
+Spell attack modifier = your proficiency bonus + your Charisma modifier</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Focus</Name>
+      <Text>You can use an arcane focus as a spellcasting focus for your sorcerer spells.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+Any spell slot you create with this feature vanishes when you finish a long rest.
+1st level: 2 points
+2nd level: 3 points
+3rd level: 5 points
+4th level: 6 points
+5th level: 7 points
+6th level: 9 points
+7th level: 10 points
+8th level: 11 points
+9th level: 13 points</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Sorcerous Origin</Name>
+      <Text>Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.
+Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Sorcerer</ParentClass>
+    </SubClassFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Metamagic</Name>
+      <Text>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 5th, 10th and 17th level.
+You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>SORCERER_METAMAGIC</UniqueID>
+      <Collection>Category = 'Feats/Metamagic'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Metamagic</Name>
+      <Text>Another choice of Metamagic</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_METAMAGIC</UniqueID>
+      <Collection>Category = 'Feats/Metamagic'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Metamagic</Name>
+      <Text>Another choice of Metamagic</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_METAMAGIC</UniqueID>
+      <Collection>Category = 'Feats/Metamagic'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Metamagic</Name>
+      <Text>Another choice of Metamagic</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_METAMAGIC</UniqueID>
+      <Collection>Category = 'Feats/Metamagic'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Font of Magic</Name>
+      <Text>At 3rd level, you can use an action to regain all of your spent sorcery points. You can use this feature again after  you complete a long rest. Starting at 9th level, you can use this feature twice between long rests.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_FONT_OF_MAGIC</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SORCERER_FONT_OF_MAGIC</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. </Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>SORCERER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <Feature>
+      <Keywords />
+      <Name>Sorcerous Restoration</Name>
+      <Text>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures />
+  <FirstClassFeatures>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Daggers, darts, slings, quarterstaffs, light crossbows</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Dagger</string>
+        <string>Dart</string>
+        <string>Sling</string>
+        <string>Quarterstaff</string>
+        <string>Crossbow, light</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Constitution, Charisma</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Constitution Charisma</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Arcana</string>
+        <string>Deception</string>
+        <string>Insight</string>
+        <string>Intimidation</string>
+        <string>Persuasion</string>
+        <string>Religion</string>
+      </Skills>
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>SORCERER_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a dungeoneer’s pack or (b) an explorer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>dungeoneer’s pack</string>
+        <string>explorer’s pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_EQUIP3</UniqueID>
+    </ItemChoiceFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a component pouch or (b) an arcane focus</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_EQUIP2</UniqueID>
+      <Condition>Name = 'component pouch' or (Arcane and Focus)</Condition>
+    </ItemChoiceConditionFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a light crossbow and 20 bolts or (b) any simple weapon</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A light crossbow and 20 bolts</Name>
+          <Text>a light crossbow and 20 bolts</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Crossbow, light</string>
+            <string>Crossbow Bolts</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <ItemChoiceConditionFeature>
+          <Keywords />
+          <Name>Any simple weapon</Name>
+          <Text>any simple weapon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>SORCERER_EQUIP1A</UniqueID>
+          <Condition>Weapon and Simple</Condition>
+        </ItemChoiceConditionFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_EQUIP1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Two daggers</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Dagger</string>
+        <string>Dagger</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>Charisma</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Sorcerer</Name>
+  <Description>Presented here is the first draft of a Sterling Vermin Adventuring Co. revision to the Sorcerer class presented in the Player’s Handbook. While the sorcerer class is not nearly as widely critiqued as the ranger, my  personal feeling is that the sorcerer class does not carve  out enough unique design space to justify being its own class.
+This sorcerer class revisited was created as a simple fix to that critique. In the sorcerer class revisited the role of sorcery points is expanded and incorporates the alternative spell points system presented in the Dungeon Master’s Guide. As a result of this change the original Font of Magic feature became irrelevant and the Metamagic feature was moved from 3rd level to 2nd level to fill in the gap. A new Font of Magic feature is added at 3rd level. This reimagined Font of Magic allows sorcerers to regain all expended sorcery points once per day and twice per day at 9th level. Finally, the sorcerer class revisited gets additional spells known, to get some degree of parity with other full spellcasters, and one additional metamagic option at 5th level to further emphasize their theme as the most flexible full spellcasters.
+The goal with this revision to the class was to improve the class’ identity with minimal changes to the class as written. We hope we’ve achieved that but are looking for more feedback from our readers before we declare this our final iteration.</Description>
+  <Flavour />
+  <Descriptions>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a sorcerer, you gain the following class features.</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>6</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>6</HPFirstLevel>
+  <AverageHPPerLevel>4</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Sorcerer Revisited</Source>
+  <MulticlassingCondition>Charisma &gt;= 13</MulticlassingCondition>
+</ClassDefinition>

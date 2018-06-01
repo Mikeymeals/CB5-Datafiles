@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Belt of Hill Giant Strength</Name>
+      <Text>While wearing this belt, your Strength changes to 21. If your Strength is already equal to or greater than 21, the item has no effect on you.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>Set</Modifier>
+      <Strength>21</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Belt of Hill Giant Strength</Name>
+  <Description>While wearing this belt, your Strength changes to 21. If your Strength is already equal to or greater than 21, the item has no effect on you.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>The Rise of Tiamat Online Supplement</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

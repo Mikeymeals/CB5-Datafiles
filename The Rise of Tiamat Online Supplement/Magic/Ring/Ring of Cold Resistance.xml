@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Ring of Cold Resistance</Name>
+      <Text>You have resistance to cold damage while wearing this ring, which is set with a tourmaline.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>cold</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Ring</Requirement>
+  <Name>Ring of Cold Resistance</Name>
+  <Description>You have resistance to cold damage while wearing this ring, which is set with a tourmaline.</Description>
+  <Slot>Ring</Slot>
+  <Source>The Rise of Tiamat Online Supplement</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

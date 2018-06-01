@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Miros Xelbrin</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>damaran human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral good</Alignment>
+  <AC>10</AC>
+  <HP>22</HP>
+  <HPRoll>4d8+4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>Innkeeper Miros is a retired carnival attraction, dubbed "the Yeti" because of his barrel-shaped body and the thick, white hair covering his arms, chest, back, and head. When Goldenfields suffers, so does his business, so he takes strides to protect the compound.
+
+Ideal: "As does the Emerald Enclave, I believe that civilization and the wilderness need to learn to coexist."
+Bond: "Make fun of me all you like, but don't speak ill of my inn or my employees."
+Flaw: "When something upsets me, I have a tendency to fly into a rage."</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bear Hug</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4+3) bludgeoning damage, and the target grappled (escape DC 13) and takes 5 (1d4 + 3) bludgeoning damage at the start of each of Miros's turns until the grapple ends. Miros cannot make attacks while grappling a creature.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Club</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+1) bludgeoning damage</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Heavy Crossbow</Name>
+      <Text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Miros carries ten crossbow bolts.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d10</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

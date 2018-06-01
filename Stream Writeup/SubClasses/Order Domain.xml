@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Order Domain Spells</Name>
+      <Text>bless, command</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Bless</string>
+        <string>Command</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Order Domain Spells</Name>
+      <Text>hold person, spiritual weapon</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Hold Person</string>
+        <string>Spiritual Weapon</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Order Domain Spells</Name>
+      <Text>mass healing word, slow</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Mass Healing Word</string>
+        <string>Slow</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Order Domain Spells</Name>
+      <Text>dominate beast, guardian of faith</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Dominate Beast</string>
+        <string>Guardian of Faith</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Order Domain Spells</Name>
+      <Text>commune, dominate person</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Commune</string>
+        <string>Dominate Person</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>CLERIC</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>cleric</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Bonus Proficiency</Name>
+      <Text>When you choose this domain at 1st level, you gain proficiency with heavy armor.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Heavy and Armor</Condition>
+      <Description>Heavy Armor</Description>
+    </ToolKWProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Voice of Authority</Name>
+      <Text>You can invoke the power of law to claim authority over others. Once per turn when you target an ally with a 1st level or higher spell, that ally can use their reaction to make a single melee or ranged weapon attack against a target of your choice. If a single spell targets multiple allies, only one ally gains this benefit.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Order's Demand</Name>
+      <Text>You can exhort an intimidating presence over chaotic mobs. As an action you present your holy symbol and roll 6d10. The total is the hit points of creatures this spell can affect. Creatures within 60 feet of you that can see or hear you are affected in ascending order of their current hit points (ignoring unconscious creatures).
+Starting with the creature that has the lowest current hit points, each creature is affected as if it failed its saving throw against a command spell cast by you. You must obey the restrictions of that spell except the creature does not have to share a language with you. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected. Creatures immune to being charmed are not affected by this ability.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity: Order's Judgement</Name>
+      <Text>You can use your channel divinity to mark an enemy for destruction. As a bonus action, you present your holy symbol and select a creature you can see within 30ft of you. Until the start of your next turn, you and your allies gain a +5 bonus to all damage rolls against that creature. If damage applies to multiple creatures including the chosen one, the damage applies only to that creature.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Divine Strike</Name>
+      <Text>You gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an additional 1d8 force damage to the target. When you reach 14th level the damage increases to 2d8.</Text>
+      <Level>8</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and ClassLevel &lt; 14</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d8 force (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+2d8 force (Divine Strike, once per turn)</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Order's Wrath</Name>
+      <Text>When you apply your divine strike damage to a creature, your allies also benefits of your divine strike feature against that creature until the start of your next turn. </Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Stream Writeup</Source>
+  <Name>Order Domain</Name>
+  <SheetName>Cleric of Order</SheetName>
+  <Description />
+  <ParentRace>Cleric</ParentRace>
+</SubClass>

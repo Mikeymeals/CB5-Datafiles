@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Duergar Spy</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>dwarf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>studded leather</ACText>
+  <HP>33</HP>
+  <HPRoll>6d8+6</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Dwarvish</string>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 234</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cunning Action</Name>
+      <Text>On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Duergar Resilience</Name>
+      <Text>The spy has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sneak Attack</Name>
+      <Text>Once per turn, the spy can deal an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the spy has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The spy makes two shortsword attacks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Eniarge (Recharges after a Short or Long Rest)</Name>
+      <Text>For 1 minute, the spy magically increases in size, along with anything it is wearing or carrying. While enlarged, the spy is Large, doubles her damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the spy lacks the room to become Large, it attains the maximum size possible in the space available.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 10 (2d6 + 3) piercing damage while enlarged.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hand Crossbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 30/120 ft ., one target. Hit: 6 (1d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Invisibility (Recharges after a Short or Long Rest)</Name>
+      <Text>The spy magically turns invisible until it attacks, deals damage, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the spy wears or carries is invisible with it.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Investigation</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

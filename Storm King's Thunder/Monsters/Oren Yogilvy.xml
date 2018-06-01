@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Oren Yogilvy</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>strongheart halfling</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>11</AC>
+  <HP>9</HP>
+  <HPRoll>2d6+2</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Halfling</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Halfling Nimbleness</Name>
+      <Text>Oren can move through the space of any creature that is of a size large than his.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Lucky</Name>
+      <Text>When Oren rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stout Resilience</Name>
+      <Text>Oren has advantage on saving throws against poison</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>Oren came to Nurthfurrow's End looking for easy work and found it. He sings for his supper, drinks like a fish, and wanders the fields at night dreaming up new lyrics to entertain the inn's other guests. Oren likes to stir up trouble from time to time, but he doesn't  have a mean bone in his body.
+
+Ideal: "Music is food for the soul."
+Bond: "You had me at "Can I buy you a drink."
+Flaw: "I have a knack for putting myself in harm's way. Good thing I'm lucky!"</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60ft., one target. Hit: 3 (1d4+1) piercing damage. Duvessa carries only one dagger.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

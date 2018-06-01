@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Savant Spell</Name>
+      <Text>When you cast a spell, you can spend 1 sorcery point to use two additional Metamagic options on this spell. You can only use this Metamagic option once per spell.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite>You must have the Arcane Prodigy sorcerous origin to take this option.</Prerequisite>
+      <Spells>Spell</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Sorcerer Revisited</Source>
+</FeatureContainer>

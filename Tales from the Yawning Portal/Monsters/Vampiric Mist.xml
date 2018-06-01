@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vampiric Mist</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <HP>45</HP>
+  <HPRoll>6d8+18</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 30 ft. (hover)</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>necrotic</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 247</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Undead Nature</Name>
+      <Text>A vampiric mist doesn't require air or sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Blood Sense</Name>
+      <Text>The vampiric mist can sense living creatures that have blood or similar vital fluids in a radius of 60 feet .</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Forbiddance</Name>
+      <Text>The vampiric mist can 't enter a residence without an invitation from one of the occupants.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Misty Form</Name>
+      <Text>The vampiric mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than l extra foot. The mist can 't manipulate objects in any way that requires hands; it can apply simple force only.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Hypersensitivity</Name>
+      <Text>The vampiric mist takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Blood Drain</Name>
+      <Text>One creature in the vampiric mist's space must make a DC 13 Constitution saving throw (undead and constructs automatically succeed). On a failed save, the target takes 10 (2d6 + 3) necrotic damage, its hit point maximum is reduced by an amount equal to the necrotic damage taken, and the mist regains hit points equal to that amount.
+This reduction to the target's hit point maximum lasts until the target finishes a long rest. It dies if this effect reduces its hit point maximum to 0.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Kalka-Kylla</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>85</HP>
+  <HPRoll>10d10+30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Olman</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 238</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>Kalka-Kylla can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While Kalka-Kylla remains motionless and hidden in its shell, it is indistinguishable from a polished boulder.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shell</Name>
+      <Text>Kalka-Kylla can use a bonus action to retract into or emerge from its shell. While retracted, Kalka-Kylla gains a +4 bonus to AC, and it has a speed of 0 and can't benefit from bonuses to speed.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Kalka-Kylla makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and if the target is a Medium or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target is restrained. Kalka-Kylla has two claws, each of which can grapple only one target.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

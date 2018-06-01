@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Wild Spell</Name>
+      <Text>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 1 sorcery point to roll randomly on the wild saving throw chart below to determine what kind of saving throw the spell requires. This saving throw replaces the normal saving throw required to resist the spell.
+1d6: Wild Saving Throw
+1: Strength
+2: Dexterity
+3: Constitution
+4: Intelligence
+5: Wisdom
+6: Charisma</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite>You must have the Wild Magic sorcerous origin to take this option.</Prerequisite>
+      <Spells>Save</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Sorcerer Revisited</Source>
+</FeatureContainer>

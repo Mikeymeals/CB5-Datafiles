@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sharwyn Hucrele</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>Barkskin trait</ACText>
+  <HP>13</HP>
+  <HPRoll>2d8+4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Goblin</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 242</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Barkskin</Name>
+      <Text>Sharwyn's AC can't be lower than 16.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>Sharwyn has a spell book that contains the spells listed in her Spellcasting trait, plus detect magic and silent image.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Sharwyn is a 1st-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). She has the following wizard spells prepared:
+
+Cantrips (at will): light, prestidigitation, ray of frost
+
+1st level (2 slots): color spray, magic missile, shield, sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tree Thrall</Name>
+      <Text>If the Gulthias Tree dies, Sharwyn dies 24 hours later.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>light</string>
+    <string>prestidigitation</string>
+    <string>ray of frost</string>
+    <string>color spray</string>
+    <string>magic missile</string>
+    <string>shield</string>
+    <string>sleep</string>
+  </Spells>
+  <Slots>
+    <int>2</int>
+  </Slots>
+</Monster>

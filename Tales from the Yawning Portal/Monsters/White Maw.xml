@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>White Maw</Name>
+  <Descriptions />
+  <Source>No Source</Source>
+  <Keywords>
+    <Keyword>
+      <Name>ooze</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>5</AC>
+  <HP>217</HP>
+  <HPRoll>14d20+70</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>1</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>telepathy 50 ft.</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Tales from the Yawning Portal,  page 248</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ooze Nature</Name>
+      <Text>White Maw doesn't require sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Amorphous Form</Name>
+      <Text>White Maw can occupy another creature's space and vice versa.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Corrode Metal</Name>
+      <Text>Any nonmagical weapon made of metal that hits White Maw corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits White Maw is destroyed after dealing damage.
+White Maw can eat through 2-inch-thick, nonmagical metal in 1 round.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While White Maw remains motionless, it is indistinguishable from white stone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Killer Response</Name>
+      <Text>Any creature that starts its turn in White Maw's space is targeted by a pseudopod attack if White Maw isn't incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Pseudopod</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 22 (4d8 + 4) bludgeoning damage plus 9 (2d8) acid damage. If the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>4d8+4+2d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

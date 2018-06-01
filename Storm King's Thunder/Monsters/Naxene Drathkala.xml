@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Naxene Drathkala</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>turami human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral good</Alignment>
+  <AC>10</AC>
+  <ACText>13 with mage armor</ACText>
+  <HP>27</HP>
+  <HPRoll>6d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Dwarvish</string>
+    <string>Elvish</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Naxene is a 6th level spellcaster. Her spellcasting ability is Intelligence (spell save DC 13; +5 to hit with spell attacks). She has the following wizard spells prepared:
+
+Cantrips (at will): fire bolt, light, mage hand, prestidigitation
+1st level (4 slots): mage armor, magic missile, shield
+2nd level (3 slots): misty step, suggestion
+3rd level (3 slots): fly, lightning bolt</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>Goldenfields' crops are vital Waterdeep's survival, which is why the Watchful Order of Magists and Protectors sent Naxene to make sure the temple-farm is adeuately defended. At first she regarded the task as a punishment, but now she appreciates the peace and quiet.
+
+Ideal: "There's no problem that can't be solved with magic."
+Bond: "I have great respect for Lady Laeral Silverhand of Waterdeep. She and the Lords' Alliance are going to bring some much-needed order to this lawless land."
+Flaw: "I'm too smart to be wrong about anything."</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Staff</Name>
+      <Text>Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</Text>
+      <AttackBonus>1</AttackBonus>
+      <Damage>1d6-1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>fire bolt</string>
+    <string>light</string>
+    <string>mage hand</string>
+    <string>prestidigitation</string>
+    <string>mage armor</string>
+    <string>magic missile</string>
+    <string>shield</string>
+    <string>misty step</string>
+    <string>suggestion</string>
+    <string>fly</string>
+    <string>lightning bolt</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

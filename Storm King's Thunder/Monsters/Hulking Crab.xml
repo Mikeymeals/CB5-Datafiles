@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Hulking Crab</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>8d12+24</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>--</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The crab can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shell Camouflage</Name>
+      <Text>While the crab remains motionless with it's eyestalks and pincers tucked close to it's body, it resembles a natural formation or a pile of detritus. A creature within 30 feet of it can discren its true nature with a successful DC 15 intelligence (Nature) check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The aboleth makes three tentacle attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (3d10+4) bludgeoning damage, and the target is grappled (escape DC 15). The crab has two claws, each of which can grapple only one target</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d10+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

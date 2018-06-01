@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sir Baric Nylef</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>illuskan human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>18</AC>
+  <ACText>plate</ACText>
+  <HP>52</HP>
+  <HPRoll>8d8+16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Brave</Name>
+      <Text>Baric has advantage on saving throws against being frightened.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Roleplaying Information</Name>
+      <Text>As a knight of the Order of the Gauntlet, Sir Baric has sworn oaths to catch evildoers and bring them to justice. His current quarry is a dwarf brigand, Worvil "the Weezil" Forkbeard, who is rumored to be hiding in Iceland Dale. In addition to his gear, Sir Baric has an unarmored warhorse, Henry.
+
+Ideal: "Evil must not be allowed to thrive in this world."
+Bond: "Tyr is my lord; the order, my family. Through my actions, I shall honor both."
+Flaw: "I'm not afraid to die. When Tyr finally calls me, I'll go to him happily."</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Maul</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Heavy Crossbow</Name>
+      <Text>Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage. Baric carries twenty crossbow bolts.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d10</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Investigation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

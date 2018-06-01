@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Tressym</Name>
+  <Descriptions />
+  <Source>Storm King's Thunder</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>12</AC>
+  <HP>5</HP>
+  <HPRoll>2d4</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 30 ft.</string>
+    <string>fly 40' ft.</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Detect Invisibility</Name>
+      <Text>Within 50 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The tressym has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poison Sense</Name>
+      <Text>The tressym can detect whether a substance is poisonous by taste, touch, or smell.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

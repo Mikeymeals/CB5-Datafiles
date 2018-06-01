@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Draconic Spell</Name>
+      <Text>When you cast a spell that deals damage you can spend 1 sorcery point to change the damage type dealt by the spell to the type indicated by your draconic ancestry.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite>You must have the Draconic Bloodline sorcerous origin to take this option.</Prerequisite>
+      <Spells>Fire or Cold or Lightning or Thunder or Poison or Necrotic or Radiant or Acid or Force</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Sorcerer Revisited</Source>
+</FeatureContainer>
