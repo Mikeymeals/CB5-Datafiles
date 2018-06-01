@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Harborfolk</Name>
+  <Description>You are one of the hundreds of small-time fishermen and women who haul the bounty of Mulmaster's freshwater harbor to the city's markets each morning. You have spent countless days rowing in the waters in and around Mulmaster and know them and the other fisherfolk, dockworkers, and port inhabitants better than anyone. Though you have left that life behind, you still visit once in a while.</Description>
+  <Descriptions />
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Skill Proficiencies</Name>
+      <Text>Athletics, Sleight of Hand</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Athletics</string>
+        <string>Sleight of Hand</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>Vehicles (water)</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Vehicle, water</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>One type of gaming set</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>HARBORFOLK_GAMING_PROFICIENCY</UniqueID>
+      <Condition>Tool and Gaming</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Dice set, playing card set, or Three Dragon Ante set</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Dice set</string>
+        <string>Playing card set</string>
+        <string>Three-Dragon Ante set</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>HARBORFOLK_GAME_EQUIPMENT</UniqueID>
+    </ItemChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Fishing tackle, a set of common clothes, rowboat, and a belt containing 5 gp</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Fishing Tackle</string>
+        <string>Clothes, Common</string>
+        <string>Rowboat</string>
+        <string>Pouch</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>5</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Lifestyle</Name>
+      <Text>Poor</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Harborfolk</Name>
+      <Text>You grew up on the docks and waters of Mulmaster Harbor. The harborfolk remember you and still treat you as one of them. They welcome you and your companions. While they might charge you for it, they'll always offer what food and shelter they have; they'll even hide you if the City Watch is after you (but not if the Hawks are).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I am curious. I want to know why things are the way they are and why people do the things that they do.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I can't sing, but that never stops me from doing it, loudly. Everyone loves a good sea chanty!</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>I think the High Blade is doing a terrific job, don't you?</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>I'm very excited that the House Built on Gold is being restored. I am a zealous worshipper of Waukeen.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>I am quite superstitious. I see portents in everyday occurances.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I resent the rich and enjoy thwarting their plans and spoiling their fun in small ways.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>7</MinRoll>
+      <MaxRoll>7</MaxRoll>
+      <Title />
+      <Text>I have a sea story to fit every occasion.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>8</MinRoll>
+      <MaxRoll>8</MaxRoll>
+      <Title />
+      <Text>I'm a fisher, but I secretly detest eating fish. I will do anything to avoid it.</Text>
+    </TableEntry>
+  </PersonalityTrait>
+  <Ideal>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title>Calm</Title>
+      <Text>For all things, there is a tide. I set sail when it is right, and mend my nets when it is not. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title>Windblown</Title>
+      <Text>I go where the winds blow. No man or woman tells me where or when to sail. (Chaotic)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title>Aspiring</Title>
+      <Text>I will gain the favor of a Zor or Zora patron, maybe even one of the Blades! (Any)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title>Salty</Title>
+      <Text>I want people to look to me as an expert on plying Mulmaster Harbor. (Any)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title>Selfless</Title>
+      <Text>We are all children of the sea. I help everyone in peril afloat and ashore. (Good)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title>Let them Drown</Title>
+      <Text>I refuse to risk my hide to help others. They wouldn't help me if roles were reversed. (Evil)</Text>
+    </TableEntry>
+  </Ideal>
+  <Bond>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I once lost everything but my rowboat. I'll do anything to protect it.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>My brother was in the Soldiery, but he was killed. I really look up to the men and women who serve.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>The Cloaks killed my friend for spellcasting. I'll get them back somehow, someday.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>The High House of Hurting helped me when I was hurt and asked nothing in return. I owe them my life.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>I was robbed in the Zhent ghetto once. It will not happen again.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I would do anything to protect the other harborfolk. They are my family.</Text>
+    </TableEntry>
+  </Bond>
+  <Flaw>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I drink too much, which causes me to miss the tide.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I killed a drunk member of the City Watch in a brawl. I am terrified that they might find out.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>I oversell myself and make promises I can't keep when I want to impress someone.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>Book learning is a waste of time. I have no patience for people who don't speak from experience.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>I almost always cheat. I can't help myself.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I am a secret informant for the Hawks. I send them reports about everything I see and hear, even what my friends and allies are up to.</Text>
+    </TableEntry>
+  </Flaw>
+  <Source>Mulmaster Bonds and Backgrounds</Source>
+</Background>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Modifier>AddScore</Modifier>
+      <Strength>1</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Superior Darkvision</Name>
+      <Text>Your darkvision has a radius of 120 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>120</Range>
+    </VisionFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write Undercommon.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Undercommon</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Duergar Resilience</Name>
+      <Text>You have advantage on saving throws against illusions and against being charmed or paralyzed.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>illusions</string>
+        <string>charmed</string>
+        <string>paralyzed</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Duergar Magic</Name>
+      <Text>When you reach 3rd level, you can cast the enlarge/reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells. </Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Duergar Magic</Name>
+          <Text>You can cast the enlarge/reduce spell on yourself once with this trait, using only the spell's enlarge option. You don't need material components for it, and you can't cast the spell while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast this spell with this trait when you finish a long rest. Intelligence is your spellcasting ability for this spell.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Enlarge/Reduce</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Duergar Magic</Name>
+          <Text>You can cast the invisibility spell on yourself once with this trait. You don't need material components for it, and you can't cast the spell while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast this spell with this trait when you finish a long rest. Intelligence is your spellcasting ability for this spell.</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Invisibility</Spell>
+          <SpellCastingAbility>Intelligence</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Sunlight Sensitivity</Name>
+      <Text>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>Duerger Traits</Name>
+      <Text>Duergar have the dwarf traits in the Player's Handbook, plus the traits below.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Name>Duergar</Name>
+  <Description>Those duergar who become adventurers are almost invariably exiles from their society. The duergar have no patience for those who fail to conduct themselves with an appropriate amount of ambition and cruelty.
+Any gray dwarves who leave the Underdark and take up adventuring, after having been raised among their own kind, are paranoid about possible treachery from within the party. One might insist on sleeping separately from the rest of the group, never displaying or sharing treasure, and trying to hoard treasures that can help survival, such as potions and items or spells that can allow the user to teleport to safety.
+At the DM's discretion, you can play a duergar character. When you choose the subrace of your dwarf, you can choose duergar, using the following rules to create your character.</Description>
+  <ParentRace>Dwarf</ParentRace>
+</SubRace>

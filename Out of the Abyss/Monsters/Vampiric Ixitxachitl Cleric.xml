@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vampiric Ixitxachitl Cleric</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>44</HP>
+  <HPRoll>8d8+8</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Ixitxachitl</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The ixtachitl is a 5th-level spellcaster that uses Wisdom as its spellcasting ability (Spell save DC 11, +3 to hit with spell attacks). The ixitxachil has the following cleric spells prepared:
+
+Cantrips (at will): guidance, thaumaturgy
+1st level (4 slots): charm person, create or destroy water
+2nd level (3 slots): hold person, silence
+3rd level (2 slots): dispel magic, tongues</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Vampiric Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterAction>
+      <Name>Barbed Tail</Name>
+      <Text>When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.
+Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d10+4</Damage>
+    </MonsterAction>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells>
+    <string>guidance</string>
+    <string>thaumaturgy</string>
+    <string>charm person</string>
+    <string>create or destroy water</string>
+    <string>hold person</string>
+    <string>silence</string>
+    <string>dispel magic</string>
+    <string>tongues</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

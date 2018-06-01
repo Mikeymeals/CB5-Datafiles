@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Duergar Spore Servant</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>16</AC>
+  <ACText>scale armor, shield</ACText>
+  <HP>26</HP>
+  <HPRoll>4d8+8</HPRoll>
+  <Speeds>
+    <string>15 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>6</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>War Pick</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

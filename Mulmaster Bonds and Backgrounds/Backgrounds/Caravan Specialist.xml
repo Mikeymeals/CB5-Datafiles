@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Caravan Specialist</Name>
+  <Description>You are used to life on the road. You pride yourself at having traveled every major tradeway in the Moonsea region, including the best backroads and shortcuts. When traveling these roads, you know where the best inns, campsites, and water sources are located, as well as potential locations of danger such as ambush. Having worked the roads as long as you have, you have made many aquaintences and find it easy to pick up information and rumors floating from town to town. You are skilled with beasts of burden and handling and repairing wagons of all kinds.</Description>
+  <Descriptions />
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Skill Proficiencies</Name>
+      <Text>Animal Handling, Survival</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Animal Handling</string>
+        <string>Survival</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>Land Vehicles</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Vehicle, land</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>One of your choice</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>CARAVAN_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A whip, a tent, a regional map, a set of traveling clothes, and a belt pouch containing 10 gp.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Whip</string>
+        <string>Tent, Two-person</string>
+        <string>Regional Map</string>
+        <string>Clothes, Traveler's</string>
+        <string>Pouch</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>10</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Lifestyle</Name>
+      <Text>Poor</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Wagonmaster</Name>
+      <Text>You are used to being in charge of the operation and your reputation for reliability has you on a short list when the job is critical. Experience has taught you to rely on your gut. Others recognize this and look to you for direction when a situation gets serious. You are able to identify the most defensible locations for camping. If you are part of a caravan outfit, you are able to attract two additional workers that are loyal to you based on your reputation. You have an excellent memory for maps and geography and can always determine your cardinal directions while traveling.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>Any group is only as strong as its weakest link. Everyone has to pull their own weight.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>There's always someone out there trying to take what I've got. Always be vigilent.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>Anything can be learned if you have the right teacher. Most folks just need a chance.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>Early to bed and early to rise; this much at least is under my control.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>You can listen to me or don't and wish you had. Everyone ends up on one side of that fence.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>Eventually my hard work will be rewarded. Maybe that time has finally come.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>7</MinRoll>
+      <MaxRoll>7</MaxRoll>
+      <Title />
+      <Text>A strong ox or horse is more reliable than most people I've met.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>8</MinRoll>
+      <MaxRoll>8</MaxRoll>
+      <Title />
+      <Text>I never had time for books, but wish I had. I admire folks who have taken the time to learn.</Text>
+    </TableEntry>
+  </PersonalityTrait>
+  <Ideal>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title>Service</Title>
+      <Text>Using my talents to help others is the best way of helping myself. (Good)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title>Selfish</Title>
+      <Text>What people don't know WILL hurt them, but why is that my problem? (Evil)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title>Wanderer</Title>
+      <Text>I go where the road takes me. Sometimes that's a good thing… (Chaotic)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title>Fittest</Title>
+      <Text>On the open road, the law of nature wins. Victims are the unprepared. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title>Focused</Title>
+      <Text>I simply have a job to do, and I'm going to do it. (Neutral)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title>Motivated</Title>
+      <Text>There's a reason I'm good at what I do, I pay attention to the details. (Any)</Text>
+    </TableEntry>
+  </Ideal>
+  <Bond>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>My brother has a farm In Elmwood and I've helped him and his neigbors move their goods to</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>A caravan I lead was attacked by bandits and many innocents died. I swear that I will avenge them by killing any bandits I encounter.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>The Soldiery are mostly good guys who understand the importance of protecting the roads. The City Watch is who you have to look out for. If they are inspecting your goods, get ready to pay a fine.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>The new commander of Southroad Tower, Capt. Holke, understands the importance of safe roads. He's hired me for several jobs and I'm grateful.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>There's always a road I haven't traveled before. I'm always looking for new places to explore.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>Wealth and power mean little without the freedom to go where and when you want.</Text>
+    </TableEntry>
+  </Bond>
+  <Flaw>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I have trouble trusting people I've just met.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I enjoy the open road. Underground and tight spaces make me very nervous.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>I expect others to heed my orders and have little respect or sympathy if they don't.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>I am very prideful and have trouble admitting when I'm wrong.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>Once I decide on a course of action, I do not waiver.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I like to explore, and my curiosity will sometimes get me into trouble.</Text>
+    </TableEntry>
+  </Flaw>
+  <Source>Mulmaster Bonds and Backgrounds</Source>
+</Background>

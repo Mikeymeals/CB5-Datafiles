@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Mulmaster Aristocrat</Name>
+  <Description>From your hilltop home, you have looked down (literally and perhaps figuratively) on the unwashed masses of Mulmaster for your entire life. Your fur-trimmed robes and training in the visual and performing arts mark you as wealthy and perhaps well-born; you are a member of the City of Danger's aristocracy.
+None of your immediate family members sits on the Council of Blades or is even a Zor or Zora…yet. Nevertheless, you are one of Mulmaster's elite, and whether you personally covet a higher standing or not, you are at home in the dance halls where the aristocracy gathers to plot, to scheme, to do business, to discuss the arts, and, above all, to see, and to be seen.</Description>
+  <Descriptions />
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Skill Proficiencies</Name>
+      <Text>Deception, Performance</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Deception</string>
+        <string>Performance</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>One type of artistic artisan's tools</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MULMASTER_ARISTOCRAT_ARTISAN_TOOL</UniqueID>
+      <Condition>Tool and Artisan</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>One musical instrument</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MULMASTER_ARISTOCRAT_INSTRUMENT</UniqueID>
+      <Condition>Instrument</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>One set of artisan's tools or musical instrument</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MULMASTER_ARISTOCRAT_EQUIPMENT</UniqueID>
+      <Condition>(Tool and Artisan) or Instrument</Condition>
+    </ItemChoiceConditionFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A set of fine clothes, and a purse containing 10 gp.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Clothes, Fine</string>
+        <string>Pouch</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>10</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Lifestyle</Name>
+      <Text>Wealthy</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Highborn</Name>
+      <Text>Mulmaster is run by and for its aristocracy. Every other class of citizen in the city defers to you, and even the priesthood, Soldiery, Hawks, and Cloaks treat you with deference. Other aristocrats and nobles accept you in their circles and likely know you or of you. Your connections can get you the ear of a Zor or Zora under the right circumstances.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>My ambitions are boundless. I will be a Zor or Zora one day!</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>I must always look my best.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>Beauty is everywhere. I can find it in even the homeliest person and the most horrible tragedy.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>Decorum must be preserved at all costs.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>I will not admit I am wrong if I can avoid it.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I am extremely well-educated and frequently remind others of that fact.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>7</MinRoll>
+      <MaxRoll>7</MaxRoll>
+      <Title />
+      <Text>I take what I can today, because I do not know what tomorrow holds.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>8</MinRoll>
+      <MaxRoll>8</MaxRoll>
+      <Title />
+      <Text>My life is full of dance, song, drink, and love.</Text>
+    </TableEntry>
+  </PersonalityTrait>
+  <Ideal>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title>Generous</Title>
+      <Text>I have a responsibility to help and protect the less fortunate. (Good)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title>Loyal</Title>
+      <Text>My word, once given, is my bond. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title>Callous</Title>
+      <Text>I am unconcerned with any negative effects my actions may have on the lives and fortunes of others. (Evil)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title>Impulsive</Title>
+      <Text>I follow my heart. (Chaotic)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title>Ignorant</Title>
+      <Text>Explanations bore me. (Neutral)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title>Isolationist</Title>
+      <Text>I am concerned with the fortunes of my friends and family. Others must see to themselves. (Any)</Text>
+    </TableEntry>
+  </Ideal>
+  <Bond>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I have dedicated my wealth and my talents to the service of one of the city's many temples.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>My family and I are loyal supporters of High Blade Jaseen Drakehorn. Our fortunes are inexorably tied to hers. I would do anything to support her.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>Like many families who were close to High Blade Selfaril Uoumdolphin, mine has suffered greatly since his fall. We honor his memory in secret.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>My family plotted with Rassendyll Uoumdolphin brother usurped brother as High Blade. Betrayal is the quickest route to power.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>Wealth and power are nothing. Fulfillment can only be found in artistic expression.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>It's not how you feel, who you know, or what you can do - it's how you look, and I look fabulous.</Text>
+    </TableEntry>
+  </Bond>
+  <Flaw>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title />
+      <Text>I have difficulty caring about anyone or anything other than myself.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title />
+      <Text>Having grown up with wealth, I am careless with my finances. I overspend and am overly generous.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title />
+      <Text>The ends (my advancement) justify any means.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title />
+      <Text>I must have what I want and will brook no delay.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title />
+      <Text>My family has lost everything. I must keep up appearances, lest we become a laughingstock.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title />
+      <Text>I have no artistic sense. I hide that fact behind extreme opinions and have become a trendsetter.</Text>
+    </TableEntry>
+  </Flaw>
+  <Source>Mulmaster Bonds and Backgrounds</Source>
+</Background>

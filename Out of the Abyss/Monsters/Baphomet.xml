@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Baphomet</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>22</AC>
+  <ACText>natural armor</ACText>
+  <HP>333</HP>
+  <HPRoll>23d12+184</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>30</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>26</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>24</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing that is nonmagical</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>23</CR>
+  <XP>50000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Charge</Name>
+      <Text>If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 22 (4d10) piercing damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked prone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:
+
+At will: detect magic
+3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone
+1/day each: teleport</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Labyrinthine Recall</Name>
+      <Text>Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Baphomet fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Baphomet has advantage on saving throws against spell and other magic effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapon</Name>
+      <Text>Baphomet's weapon attacks are magical</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Reckless</Name>
+      <Text>At the start of his turn, Baphomet can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Baphomet makes three attacks: one with Heartcleaver, one with his bite, and one with his gore attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Heartcleaver</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 24 (4d6 + 10) slashing damage</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>4d6+10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 19 (2d8+10) piercing damage.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>2d8+10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Gore</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10 + 10) piercing damage.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>2d10+10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Frightful Presence</Name>
+      <Text>Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.
+If a creature succeeds on any of these saves or the effect ends on it, the creature is immune is Baphomet's Frightful Presence for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>Baphomet can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. Baphomet regains spent legendary actions at the start of his turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Heartcleaver attack</Name>
+      <Text>Baphomet makes a melee attack with Heartcleaver.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>4d6+10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Charge (Costs 2 actions)</Name>
+      <Text>Baphomet moves up to his speed, then makes a gore attack.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>2d10+10</Damage>
+    </MonsterAction>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>14</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>detect magic</string>
+    <string>dispel magic</string>
+    <string>dominate beast</string>
+    <string>hunter's mark</string>
+    <string>maze</string>
+    <string>wall of stone</string>
+    <string>teleport</string>
+  </Spells>
+  <Slots />
+</Monster>

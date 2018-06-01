@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Fraz-Urb'luu</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>350</HP>
+  <HPRoll>28d10+196</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>29</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>25</Constitution>
+  <Intelligence>26</Intelligence>
+  <Wisdom>24</Wisdom>
+  <Charisma>26</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing that is nonmagical</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>23</CR>
+  <XP>50000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:
+
+At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasamal force
+3/day each: confusion, dream, mislead, programmed illusion, seeming
+1/day each: mirage arcane, modify memory, project image</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Fraz-Urb'luu fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Fraz-Urb'luu has advantage on saving throws against spell and other magic effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapon</Name>
+      <Text>Fraz-Urb'luu's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Undetectable</Name>
+      <Text>Fraz-Urb'luu can't be targeted by divination magic, perceived through magical scrying sensors, or detected by abilities that sense demons or fiends.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Fraz-Urb'luu makes three attacks: one with his bite and two with his fists.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) piercing damage.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>4d6+9</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) bludgeoning damage.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>4d8+9</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>Fraz-Urb'luu can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Fraz-Urb'luu regains spent legendary actions at the start of his turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb'luu can grapple only one creature with his tail at a time.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>4d10+9</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Phantasmal Killer (Costs 2 Actions)</Name>
+      <Text>Fraz-Urb'luu casts phantasmal killer, no concentration required.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>alter self</string>
+    <string>detect magic</string>
+    <string>dispel magic</string>
+    <string>phantasamal force</string>
+    <string>confusion</string>
+    <string>dream</string>
+    <string>mislead</string>
+    <string>programmed illusion</string>
+    <string>seeming</string>
+    <string>mirage arcane</string>
+    <string>modify memory</string>
+    <string>project image</string>
+  </Spells>
+  <Slots />
+</Monster>

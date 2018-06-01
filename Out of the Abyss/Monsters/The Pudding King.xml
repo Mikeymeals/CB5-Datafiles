@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>The Pudding King</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>gnome</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <ACText>16 with mage armor</ACText>
+  <HP>49</HP>
+  <HPRoll>9d6+18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Gnomish</string>
+    <string>Terran</string>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Stone Camouflage</Name>
+      <Text>The Pudding King has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gnome Cunning</Name>
+      <Text>The Pudding King has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The Pudding King's innate spellcasting ability is Intelligence (spell save DC 12). He can innately cast the following spells, requiring no material components:
+
+At will: nondetection (self only)
+1/day each: blindness/deafness, blur, disguise self</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Insanity</Name>
+      <Text>The Pudding King has advantage on saving throws against being charmed or frightened.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The Pudding King is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The Pudding King knows the following sorcerer spells:
+
+Cantrips (at will): acid splash, light, mage hand, poison spray, prestidigitation
+1st level (4 slots): false life, mage armor, ray of sickness, shield
+2nd level (3 slots): crown of madness, misty step
+3rd level (3 slots): gaseous form, stinking cloud
+4th level (3 slots): blight, confusion
+5th level (1 slot): cloudkill</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>War Pick</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit 4 (1d8) piercing damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Change Shape</Name>
+      <Text>The Pudding King magically transforms into an ooze, or back into his true form. He reverts to his true form if he dies. Any equipment he is wearing or carrying is absorbed by the new form. In ooze form, the Pudding King retains his alignment, hit points, Hit Dice, and Intelligence, Wisdom, and Charisma scores, as well as this action. His statistics and capabilities are otherwise replaced by those of the new form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Create Green Slime (Recharges after a Long Rest)</Name>
+      <Text>The Pudding King creates a patch of green slime (see "Dungeon Hazards" in chapter 5 of the Dungeon Master's Guide). The slime appears on a section of wall, ceiling, or floor within 30 feet of the Pudding King.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>acid splash</string>
+    <string>light</string>
+    <string>mage hand</string>
+    <string>poison spray</string>
+    <string>prestidigitation</string>
+    <string>false life</string>
+    <string>mage armor</string>
+    <string>ray of sickness</string>
+    <string>shield</string>
+    <string>crown of madness</string>
+    <string>misty step</string>
+    <string>gaseous form</string>
+    <string>stinking cloud</string>
+    <string>blight</string>
+    <string>confusion</string>
+    <string>cloudkill</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

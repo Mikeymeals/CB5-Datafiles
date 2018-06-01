@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Yeenoghu</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>22</AC>
+  <ACText>natural armor</ACText>
+  <HP>348</HP>
+  <HPRoll>24d12+192</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>29</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>23</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>24</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing that is nonmagical</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>24</CR>
+  <XP>62000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+
+At will: detect magic, spiritual weapon (8th-level spell, 4d8 + 2 force damage on a hit, appears as a flail)
+3/day each: dispel magic, fear, invisibility
+1/day: teleport</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Yeenoghu fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Yeenoghu has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapon</Name>
+      <Text>Yeenoghu's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rampage</Name>
+      <Text>When Yeenoghu reduces a creature to 0 hit points with a melee attack on his turn, Yeenoghu can take a bonus action to move up to half his speed and make a bite attack.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Yeenoghu makes three flail attacks. If an attack hits, he can cause it to create an additional effect of his choice or at random (each effect can be used only once per Multi attack):
+1. The attack deals an extra 13 (2d12) bludgeoning damage.
+2. The target must succeed on a DC 17 Constitution saving throw or be paralyzed until the start of Yeenoghu's next turn.
+3. The target must succeed on a DC 17 Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Flail</Name>
+      <Text>Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (2d12 + 9) bludgeoning damage.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>2d12+9</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) piercing damage.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>4d10+9</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>Yeenoghu can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Yeenoghu regains spent legendary actions at the start of his turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Charge</Name>
+      <Text>Yeenoghu moves up to his speed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swat Away</Name>
+      <Text>Yeenoghu makes a flail attack. If the attack hits, the target must succeed on a DC 24 Strength saving throw or be pushed 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target falls prone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Savage (Costs 2 Actions)</Name>
+      <Text>Yeenoghu makes a bite attack against each creature within 10 feet of him.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>9</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>detect magic</string>
+    <string>spiritual weapon</string>
+    <string>dispel magic</string>
+    <string>fear</string>
+    <string>invisibility</string>
+    <string>teleport</string>
+  </Spells>
+  <Slots />
+</Monster>

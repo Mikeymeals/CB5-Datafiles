@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 1.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Sea Elf Weapon Training</Name>
+      <Text>You have proficiency with the spear, trident, light crossbow, and net.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Spear</string>
+        <string>Trident</string>
+        <string>Crossbow, light</string>
+        <string>Net</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Child of the Sea</Name>
+      <Text>You have a swimming speed of 30 feet, and you can breathe air and water.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Friend of the Sea</Name>
+      <Text>Using gestures and sounds, you can communicate simple ideas with Small or smaller beasts that have an innate swimming speed.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Aquan.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Primordial</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>Sea Elf Traits</Name>
+      <Text>Sea elves have the following traits in common, in addition to the traits they share with other elves.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Name>Sea Elf</Name>
+  <Description>The sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. While other elves traveled from realm to realm, the sea elves navigated the deepest currents and explored the waters across a hundred worlds. Today, they form small, hidden communities in the ocean shallows and the Elemental Plane of Water.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

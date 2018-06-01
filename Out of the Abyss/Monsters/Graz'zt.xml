@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Graz'zt</Name>
+  <Descriptions />
+  <Source>Out of the Abyss</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>20</AC>
+  <ACText>natural armor</ACText>
+  <HP>378</HP>
+  <HPRoll>36d10+180</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>23</Intelligence>
+  <Wisdom>21</Wisdom>
+  <Charisma>26</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing that is nonmagical</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>24</CR>
+  <XP>62000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>Graz'zt can use his action to polymorph into a form that resembles a Medium humanoid, or back into his true form. Aside from his size, his statistics are the same in each form, Any equipment he is wearing or carrying isn't transformed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:
+
+At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers
+3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport
+1/day each: dominate monster, greater invisibility</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Graz'zt fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Graz'zt has advantage on saving throws against spell and other magic effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapon</Name>
+      <Text>Graz'zt's weapon attacks are magical.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Graz'zt attacks twice with the Wave of Sorrow.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Wave of Sorrow (Greatsword)</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target, Hit; 20 (4d6 + 6) slashing damage plus 14 (4d6) acid damage.</Text>
+      <AttackBonus>13</AttackBonus>
+      <Damage>4d6+6+4d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Teleport</Name>
+      <Text>Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>Graz'zt can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creautre's turn. Graz'zt regains spent legendary actions at the start of his turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Attack</Name>
+      <Text>Graz'zt attacks once with the Wave of Sorrow.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dance, My Puppet!</Name>
+      <Text>One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sow Discord</Name>
+      <Text>Graz'zt casts crown of madness or dissonant whispers.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Teleport</Name>
+      <Text>Graz'zt uses his Teleport action.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>charm person</string>
+    <string>crown of madness</string>
+    <string>detect magic</string>
+    <string>dispel magic</string>
+    <string>dissonant whispers</string>
+    <string>counterspell</string>
+    <string>darkness</string>
+    <string>dominate person</string>
+    <string>sanctuary</string>
+    <string>telekinesis</string>
+    <string>teleport</string>
+    <string>dominate monster</string>
+    <string>greater invisibility</string>
+  </Spells>
+  <Slots />
+</Monster>

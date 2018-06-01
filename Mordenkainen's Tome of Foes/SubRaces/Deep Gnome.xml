@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>1</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Superior Darkvision</Name>
+      <Text>Your darkvision has a radius of 120 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>120</Range>
+    </VisionFeature>
+    <Feature>
+      <Keywords />
+      <Name>Stone Camouflage</Name>
+      <Text>You have advantage on Dexterity (Stealth) checks to hide in rocky terrain and underground.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write Undercommon.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Undercommon</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>Deep Gnome Traits</Name>
+      <Text>Deep gnomes have the gnome traits in the Player's Handbook, plus the subrace traits below. Unlike other gnomes, svirfneblin tend to weigh 80 to 120 pounds. Short-lived compared to other gnomes, deep gnomes mature at the same rate humans do and are considered full-grown adults by age 25. They live 200 to 250 years, although toil and the dangers of the Underdark often claim them before their time.
+Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others, except those dearest to them.</Text>
+    </Description>
+  </Descriptions>
+  <Flavour>Deep Gnome</Flavour>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Name>Deep Gnome</Name>
+  <Description>At the DM's discretion, you can play a deep gnome character. When you choose the subrace of your gnome, you can choose deep gnome, using the following rules to create your character.</Description>
+  <ParentRace>Gnome</ParentRace>
+</SubRace>
