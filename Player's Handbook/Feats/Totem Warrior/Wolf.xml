@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+        <Keyword>
+          <Name>spirit</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Wolf</Name>
+      <Text>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>aspect</Name>
+        </Keyword>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Wolf</Name>
+      <Text>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>attunement</Name>
+        </Keyword>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Wolf</Name>
+      <Text>While you’re raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

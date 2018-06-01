@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellFeature>
+      <Keywords>
+        <Keyword>
+          <Name>monk</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Fist of Four Thunders</Name>
+      <Text>You can spend 2 ki points to cast thunderwave.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Thunderwave</Spell>
+      <SpellCastingAbility>Wisdom</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>monk</Name>
+        </Keyword>
+        <Keyword>
+          <Name>elemental</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

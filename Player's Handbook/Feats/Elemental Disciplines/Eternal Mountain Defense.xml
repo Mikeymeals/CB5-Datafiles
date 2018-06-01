@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellFeature>
+      <Keywords>
+        <Keyword>
+          <Name>monk</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Eternal Mountain Defense</Name>
+      <Text>You can spend 5 ki points to cast stoneskin, targeting yourself.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Stoneskin</Spell>
+      <SpellCastingAbility>Wisdom</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>monk</Name>
+        </Keyword>
+        <Keyword>
+          <Name>elemental</Name>
+        </Keyword>
+        <Keyword>
+          <Name>self</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>

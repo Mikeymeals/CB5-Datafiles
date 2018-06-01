@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+        <Keyword>
+          <Name>spirit</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Eagle</Name>
+      <Text>While you're raging and aren’t wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>aspect</Name>
+        </Keyword>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Eagle</Name>
+      <Text>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>attunement</Name>
+        </Keyword>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Eagle</Name>
+      <Text>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Player's Handbook</Source>
+</FeatureContainer>
