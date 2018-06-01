@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Elf Weapon Training</Name>
+      <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>longsword</string>
+        <string>shortsword</string>
+        <string>shortbow</string>
+        <string>longbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Cantrip</Name>
+      <Text>You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Druid and Cantrip</Condition>
+      <SpellCastingAbility>Wisdom</SpellCastingAbility>
+      <UniqueID>VAHADAR_CANTRIP</UniqueID>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write one extra language of your choice</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>HIGH_ELF_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Plane Shift Kaladesh</Source>
+  <Name>Vahadar</Name>
+  <Description>The Vahadar are elves who dwell in the cities of Kaladesh. They are comfortable with technology, and work as planners, architects, aether-seers, or inventors. Some of them use the techniques of Bishtahar cultivators to grow food on rooftops, towers, and greenways. The Vahadar are generally integrated into the rest of society on Kaladesh, living in cities dominated by the other races (though, as in Ghirapur, many of them live in specifc garden-like neighborhoods) and engaging in trade.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

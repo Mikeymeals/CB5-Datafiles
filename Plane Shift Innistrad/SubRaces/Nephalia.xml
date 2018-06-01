@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence and Charisma scores each increase by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Breadth of Knowledge</Name>
+      <Text>You gain proficiency in any combination of four skills or with four tools of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>You gain proficiency in a skill</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>NEPHALIA_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <ToolProficiencyChoiceConditionFeature>
+          <Keywords />
+          <Name>Tool</Name>
+          <Text>You gain proficiency in a tool</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>NEPHALIA_TOOL</UniqueID>
+          <Condition>Tool and not Weapon and not Armor and not Shield</Condition>
+        </ToolProficiencyChoiceConditionFeature>
+      </Choices>
+      <Amount>4</Amount>
+      <UniqueID>NEPHALIA_PROFICIENCY</UniqueID>
+      <AllowSameChoice>true</AllowSameChoice>
+    </ChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Plane Shift Innistrad</Source>
+  <Name>Nephalia</Name>
+  <Description>Beneath an ever-present shroud of fog billowing in from the sea, the people of Nephalia maintain a semblance of normalcy, buying and selling goods from across Innistrad in their bustling markets, setting out to sea in tiny fishing boats, or tilling the soggy earth in waterlogged fields.</Description>
+  <ParentRace>Human</ParentRace>
+</SubRace>

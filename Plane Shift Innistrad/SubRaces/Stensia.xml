@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength and Constitution scores each increase by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>1</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Daunting</Name>
+      <Text>You have proficiency in the Intimidation skill.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Intimidation</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Tough</Name>
+      <Text>Your hit point maximum increases by 2, and it increases by 2 every time you gain a level.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <HitPoints>2*PlayerLevel</HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+  </Features>
+  <Descriptions />
+  <Source>Plane Shift Innistrad</Source>
+  <Name>Stensia</Name>
+  <Description>Countless generations of hardship and proximity to the vampire strongholds—leading to lost children and neighbors—have taught Stensians to guard their hearts. They are proud and fervent in their beliefs but seem brusque or even cold to the people of other provinces.</Description>
+  <ParentRace>Human</ParentRace>
+</SubRace>

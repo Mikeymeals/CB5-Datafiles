@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tuktuk Cunning</Name>
+      <Text>You have profciency with thieves’ tools</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Thieves' tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Plane Shift Zendikar</Source>
+  <Name>Tuktuk Goblin</Name>
+  <Description>Among the goblins, the Tuktuk are most likely to hire themselves out as ruin guides to other races. Of course, their usual plan is to help fnd something of value, steal it, trigger a trap intentionally, and then run. </Description>
+  <ParentRace>Goblin</ParentRace>
+</SubRace>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Grotag Tamer</Name>
+      <Text>You have profciency in the Animal Handling skill.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Animal Handling</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Plane Shift Zendikar</Source>
+  <Name>Grotag Goblin</Name>
+  <Description>Smaller and weaker than their cousins, and with larger hands and feet, goblins of the Grotag tribe attempt to live by their wits—though seldom with much success. When a Grotag goblin has the bright idea of trying to tame ﬂeshpiercer mites, at least a few others will be willing to follow that goblin into a nest—usually to predictably horrible results. But though the Grotag seem to have a never-ending supply of bad ideas, and a horrible ratio of bad ideas to good, the Grotag likewise seem to have a never-ending supply of Grotag. As such, by trial and error (and more error), these goblins have stumbled across a great deal of knowledge useful for surviving the deep places of Zendikar, and for dealing with the creatures that live there. The Grotag imagine themselves to have a sort of empathy with beasts, and they lose hundreds of goblins each year to ill-advised attempts at monster taming. But, every now and again, one of these efforts is successful.</Description>
+  <ParentRace>Goblin</ParentRace>
+</SubRace>

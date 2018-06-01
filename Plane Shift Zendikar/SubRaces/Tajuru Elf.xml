@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Skill Versatility</Name>
+      <Text>You gain proficiency in any combination of two skills or tools of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>You gain proficiency in a skill</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>NEPHALIA_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <ToolProficiencyChoiceConditionFeature>
+          <Keywords />
+          <Name>Tool</Name>
+          <Text>You gain proficiency in a tool</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>NEPHALIA_TOOL</UniqueID>
+          <Condition>Tool and not Weapon and not Armor and not Shield</Condition>
+        </ToolProficiencyChoiceConditionFeature>
+      </Choices>
+      <Amount>2</Amount>
+      <UniqueID>TAJURU_SKILL_VERSATILITY</UniqueID>
+      <AllowSameChoice>true</AllowSameChoice>
+    </ChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Plane Shift Zendikar</Source>
+  <Name>Tajuru Elf</Name>
+  <Description>The Tajuru nation is the largest of the three main elven nations, concentrated in Murasa and spread across other parts of Zendikar as hundreds of far-ﬂung clans. Tajuru elves are the most open to people of other races, seeing their skills and perspectives as valuable new tools for survival. The Tajuru are also more open to new lifestyles, be it living in a mountaintop citadel or roaming grassy plains.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>
