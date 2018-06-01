@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Angelic Protection</Name>
+      <Text>The innate resistance to magic that angels possess extends to you. You have advantage on saving throws against spells and other magical effects.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>spells and other magical effects</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Dao Heritage</Name>
+      <Text>You manifest more of the magical power of your dao heritage. You gain the following benefits:
+• Increase your Strength or Constitution score by 1, to a maximum of 20.
+• You learn the detect magic spell and can cast it at will, without expending a spell slot.
+• You gain natural armor. While you aren’t wearing armor, you can calculate your AC as  13 + your Dexterity modifier. You can use a shield and still gain this benefit.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Genasi (earth)</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Constitution score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>GENASI_DAO_HERITAGE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Dao Heritage</Name>
+          <Text>You learn the detect magic spell and can cast it at will, without expending a spell slot.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <ACFeature>
+          <Keywords />
+          <Name>Dao Heritage</Name>
+          <Text>You gain natural armor. While you aren’t wearing armor, you can calculate your AC as  13 + your Dexterity modifier. You can use a shield and still gain this benefit.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Expression>if(Armor, 0, 13 + DexMod + ShieldBonus)</Expression>
+        </ACFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Djinn Heritage</Name>
+      <Text>You manifest more of the magical power of your djinn heritage. You gain the following benefits:
+• Increase your Dexterity or Constitution score by 1, to a maximum of 20.
+• You learn the detect magic spell and can cast it at will, without expending a spell slot.
+• You have resistance to lightning and thunder damage.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Genasi (air)</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Dexterity or Constitution score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>GENASI_DJINN_HERITAGE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Djinn Heritage</Name>
+          <Text>You learn the detect magic spell and can cast it at will, without expending a spell slot.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Djinn Heritage</Name>
+          <Text>You have resistance to lightning and thunder damage.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>lightning</string>
+            <string>thunder</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities />
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Efreet Heritage</Name>
+      <Text>You manifest more of the magical power of your efreet heritage. You gain the following benefits:
+• Increase your Constitution or Intelligence score by 1, to a maximum of 20.
+• You learn the detect magic spell and can cast it at will, without expending a spell slot.
+• Your darkvision has a radius of 120 feet.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Genasi (fire)</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Constitution or Intelligence score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>GENASI_EFREET_HERITAGE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Efreet Heritage</Name>
+          <Text>You learn the detect magic spell and can cast it at will, without expending a spell slot.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <VisionFeature>
+          <Keywords />
+          <Name>Efreet Heritage</Name>
+          <Text>Your darkvision has a radius of 120 feet.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Range>120</Range>
+        </VisionFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Feline Grace</Name>
+      <Text>Your incredible reflexes and agility further improve. You gain the following benefits:
+• Increase your Dexterity score by 1, to a maximum of 20.
+• You can use your Feline Agility trait twice before you must move 0 feet on one of your turns to use the trait again. You can still only use this ability once per turn when you move.
+• You don’t take damage from falling 20 feet or less if you aren’t incapacitated.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Tabaxi</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Feline Grace</Name>
+          <Text>You can use your Feline Agility trait twice before you must move 0 feet on one of your turns to use the trait again. You can still only use this ability once per turn when you move.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>TABAXI_FELINE_AGILITY</ResourceID>
+          <Recharge>Special</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Feline Grace</Name>
+          <Text>You don’t take damage from falling 20 feet or less if you aren’t incapacitated.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Firbolg Beast Magic</Name>
+      <Text>Your connection to animals deepens. You learn the speak with animals spell and can cast it at will, without expending a spell slot. You also learn the animal friendship and beast sense spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Firbolg</Prerequisite>
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Firbolg Beast Magic</Name>
+          <Text>You learn the speak with animals spell and can cast it at will, without expending a spell slot. Wisdom is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Speak with Animals</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Firbolg Beast Magic</Name>
+          <Text>You learn the animal friendship spell and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Animal Friendship</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Firbolg Beast Magic</Name>
+          <Text>You learn the beast sense spell and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Beast Sense</Spell>
+          <SpellCastingAbility>Wisdom</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Like a Boss</Name>
+      <Text>You are accustomed to using others to avoid being attacked. You gain the following benefits:
+• Increase your Dexterity score by 1, to a maximum of 20.
+• When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Goblin</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Like a Boss</Name>
+          <Text>When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>GOBLIN_LIKE_A_BOSS</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Marid Heritage</Name>
+      <Text>You manifest more of the magical power of your marid heritage. You gain the following benefits:
+• Increase your Constitution or Wisdom score by 1, to a maximum of 20.
+• You learn the detect magic spell and can cast it at will, without expending a spell slot.
+• You have resistance to cold damage. </Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Genasi (water)</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Constitution or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>GENASI_MARID_HERITAGE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Marid Heritage</Name>
+          <Text>You learn the detect magic spell and can cast it at will, without expending a spell slot.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Marid Heritage</Name>
+          <Text>You have resistance to cold damage.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>cold</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities />
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Master of Mimicry</Name>
+      <Text>You have learned to temporarily mimic even the training of others. You gain the following benefits:
+• Increase your Dexterity or Wisdom score by 1, to a maximum of 20.
+• Whenever another creature you can see uses a skill or tool, you can use your reaction to gain proficiency in that skill or tool. Proficiencies gained in this way last for 1 hour, and you can only mimic one proficiency at a time. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Kenku</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>KENKU_MASTER_OF_MIMICRY_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Master of Mimicry</Name>
+          <Text>Whenever another creature you can see uses a skill or tool, you can use your reaction to gain proficiency in that skill or tool. Proficiencies gained in this way last for 1 hour, and you can only mimic one proficiency at a time. Once you use this ability, you can’t do so again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>KENKU_MASTER_OF_MIMICRY</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Mountain's Endurance</Name>
+      <Text>Your ability to shrug off some injuries is legendary, even for your race. You gain the following benefits:
+• Increase your Strength or Constitution score by 1, to a maximum of 20.
+• When you use your Stone’s Endurance trait as a reaction to reduce damage, instead of rolling a d12 and adding your Constitution modifier, you can choose to gain resistance to the triggering attack’s damage type until the start of your next turn. If the triggering attack deals more than one type of damage, choose one. As normal, after you use this trait, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Goliath</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Constitution score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>GOLIATH_MOUNTAIN_ENDURANCE_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Mountain's Endurance</Name>
+          <Text>When you use your Stone’s Endurance trait as a reaction to reduce damage, instead of rolling a d12 and adding your Constitution modifier, you can choose to gain resistance to the triggering attack’s damage type until the start of your next turn. If the triggering attack deals more than one type of damage, choose one. As normal, after you use this trait, you can’t use it again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>0</Value>
+          <ResourceID>GOLIATH_STONE_ENDURANCE</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Serpent Form</Name>
+      <Text>You have unlocked more of your serpentfolk heritage. You gain the following benefits:
+• Increase your Intelligence or Charisma score by 1, to a maximum of 20.
+• You can use an action to polymorph into a Medium snake or back into your true form. Your statistics are the same in each form. Any equipment you are wearing or carrying isn’t transformed. If you die, you stay in your current form.
+• While in snake form, you gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. When you hit with a bite attack, you can choose to deal 2d6 additional poison damage to the target. Once you deal this poison damage, you can’t do so again until you finish a long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Yuan-Ti Pureblood</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Intelligence or Charisma score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Charisma</Name>
+              <Text>Increase your Charisma score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>YUAN_TI_SERPENT_FORM_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Serpent Form</Name>
+          <Text>You can use an action to polymorph into a Medium snake or back into your true form. Your statistics are the same in each form. Any equipment you are wearing or carrying isn’t transformed. If you die, you stay in your current form.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Serpent Form</Name>
+          <Text>While in snake form, you gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. When you hit with a bite attack, you can choose to deal 2d6 additional poison damage to the target. Once you deal this poison damage, you can’t do so again until you finish a long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>YUAN_TI_SERPENT_FORM_POISON_BITE</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Unarmed</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <BaseItemChange>Bite (Yuan-Ti Serpent Form)</BaseItemChange>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions>
+            <string>Unarmed strike</string>
+          </ProficiencyOptions>
+        </BonusFeature>
+        <ToolProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Tools>
+            <string>Bite (Yuan-Ti Serpent Form)</string>
+          </Tools>
+        </ToolProficiencyFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Sky Warden</Name>
+      <Text>You are trained for both scouting the skies and aerial combat. You gain the following benefits:
+• Increase your Dexterity or Wisdom score by 1, to a maximum of 20.
+• You gain proficiency in the Perception skill if you don’t already have it. You add double your proficiency bonus to Perception checks that rely on sight.
+• Once per turn, if you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Aarakocra</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Dexterity or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>AARAKOCRA_SKY_WARDEN_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name>Sky Warden</Name>
+          <Text>You gain proficiency in the Perception skill if you don’t already have it. You add double your proficiency bonus to Perception checks that rely on sight.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Perception</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+        </SkillProficiencyFeature>
+        <Feature>
+          <Keywords />
+          <Name>Sky Warden</Name>
+          <Text>Once per turn, if you are flying and dive at least 30 feet straight toward a target and then hit it with a melee weapon attack, the attack deals an extra 1d6 damage to the target.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Tanarukk Blood</Name>
+      <Text>Through fell magic or an ancestor, you are touched by the corruptive power of Baphomet. You gain the following benefits:
+• Increase your Strength or Constitution score by 1, to a maximum of 20.
+• You have resistance to fire and poison damage.
+• You gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Orc</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Constitution score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>ORC_TANARUKK_BLOOD_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Tanarukk Blood</Name>
+          <Text>You have resistance to fire and poison damage.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>fire</string>
+            <string>poison</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities />
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name>Tanarukk Blood</Name>
+          <Text>You gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Unarmed</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <BaseItemChange>Bite (Orc Tanarukk Blood)</BaseItemChange>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions>
+            <string>Unarmed strike</string>
+          </ProficiencyOptions>
+        </BonusFeature>
+        <ToolProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Tools>
+            <string>Bite (Orc Tanarukk Blood)</string>
+          </Tools>
+        </ToolProficiencyFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Tortle Protector</Name>
+      <Text>You have mastered using your shell to better protect yourself and others. You gain the following benefits:
+• Increase your Strength or Wisdom score by 1, to a maximum of 20.
+• Your natural armor trait now provides a base AC of 18. As normal, your Dexterity modifier doesn’t affect this number.
+• As a reaction when you are forced to make a Dexterity saving throw, choose any number of creatures within 5 feet of you. Each chosen creature is considered to have half-cover against any harmful attacks or effects while within 5 feet of you until the start of your next turn. Once you use this ability, you can’t do so again until you’ve finished a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Tortle</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>TORTLE_PROTECTOR_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <ACFeature>
+          <Keywords />
+          <Name />
+          <Text>Your natural armor trait now provides a base AC of 18. As normal, your Dexterity modifier doesn’t affect this number.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Expression>18 + ShieldBonus</Expression>
+        </ACFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Tortle Protector</Name>
+          <Text>As a reaction when you are forced to make a Dexterity saving throw, choose any number of creatures within 5 feet of you. Each chosen creature is considered to have half-cover against any harmful attacks or effects while within 5 feet of you until the start of your next turn. Once you use this ability, you can’t do so again until you’ve finished a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>TORTLE_PROTECTOR</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Touch of Sess'inek</Name>
+      <Text>You embody the demonic bearing of a lizard king or queen. You gain the following benefits:
+• Increase your Constitution or Wisdom score by 1, to a maximum of 20.
+• You learn to speak, read, and write Abyssal.
+• You are immune to being frightened.
+</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Lizardfolk</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Constitution or Wisdom score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Wisdom</Name>
+              <Text>Increase your Wisdom score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>LIZARDFOLK_TOUCH_OF_SESS_INEK_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <LanguageProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Languages>
+            <string>Abyssal</string>
+          </Languages>
+        </LanguageProficiencyFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Touch of Sess'inek</Name>
+          <Text>You are immune to being frightened.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances />
+          <Vulnerabilities />
+          <Immunities>
+            <string>frightened</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Triton Deep Magic</Name>
+      <Text>You master more of the magic of elemental air and water. You learn the create or destroy water spell and can cast it as a 1st level spell at will, without expending a spell slot. You also learn warding wind and water breathing, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Triton</Prerequisite>
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Triton Deep Magic</Name>
+          <Text>You learn the create or destroy water spell and can cast it as a 1st level spell at will, without expending a spell slot. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Create or Destroy Water</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Triton Deep Magic</Name>
+          <Text>You learn warding wind and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Warding Wind</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Triton Deep Magic</Name>
+          <Text>You learn water breathing and can cast it once without expending a spell slot. You regain the ability to cast this spell in this way when you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Water Breathing</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Uphold the Legion</Name>
+      <Text>You were born for life in the legion. You gain the following benefits:
+• Increase your Constitution or Intelligence score by 1, to a maximum of 20.
+• You can deal an extra 2d6 damage to a creature you hit with a weapon attack if that creature is within 5 feet of an ally that isn’t incapacitated. You can use this trait only once per combat.
+• You can extend the benefit of your Saving Face trait to an ally. As a reaction, if an ally misses with an attack roll or fails an ability check or a saving throw, you can grant a bonus to the roll equal to the number of allies your ally can see within 30 feet (including you, maximum bonus of +5). As normal, once you use this trait, you can’t use it again until you finish a short or long rest. </Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Hobgoblin</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Constitution or Intelligence score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Constitution</Name>
+              <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>1</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Intelligence</Name>
+              <Text>Increase your Intelligence score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>HOBGOBLIN_UPHOLD_THE_LEGION_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Uphold the Legion</Name>
+          <Text>You can deal an extra 2d6 damage to a creature you hit with a weapon attack if that creature is within 5 feet of an ally that isn’t incapacitated. You can use this trait only once per combat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Uphold the Legion</Name>
+          <Text>You can extend the benefit of your Saving Face trait to an ally. As a reaction, if an ally misses with an attack roll or fails an ability check or a saving throw, you can grant a bonus to the roll equal to the number of allies your ally can see within 30 feet (including you, maximum bonus of +5). As normal, once you use this trait, you can’t use it again until you finish a short or long rest.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>0</Value>
+          <ResourceID>HOBGOBLIN_FACE</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Urd Wings</Name>
+      <Text>You manifest leathery wings, transforming into an urd. You gain the following benefits:
+• Increase your Dexterity score by 1, to a maximum of 20. 
+• You gain a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Kobold</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <Feature>
+          <Keywords />
+          <Name>Urd Wings</Name>
+          <Text>You gain a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Well Rested</Name>
+      <Text>Your practiced napping leaves you invigorated when you are awake. You gain the following benefits:
+• Increase your Strength or Dexterity score by 1, to a maximum of 20.
+• Whenever you spend one or more hit dice during a short rest, you can regain an extra 1d6 hit points.
+• At the end of a long rest, you gain inspiration (described in chapter 4 of the Player’s Handbook).</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Bugbear</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Strength or Dexterity score by 1, to a maximum of 20.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, to a maximum of 20.</Text>
+              <Level>0</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>HOBGOBLIN_WELL_RESTED_ABILITY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+        </ChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Well Rested</Name>
+          <Text>Whenever you spend one or more hit dice during a short rest, you can regain an extra 1d6 hit points.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Well Rested</Name>
+          <Text>At the end of a long rest, you gain inspiration.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Xanathar’s Guide To Everything Bonus Expanded Racial Feats</Source>
+</FeatureContainer>

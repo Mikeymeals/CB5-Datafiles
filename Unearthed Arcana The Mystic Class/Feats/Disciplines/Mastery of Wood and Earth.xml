@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>wujen</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Mastery of Wood and Earth</Name>
+      <Text>You attune your mind to seize control of wood and earth.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Wu Jen Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Psychic Focus</Name>
+          <Text>While focused on this discipline, you have a +1 bonus to AC.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Animate Weapon (1–7 psi)</Name>
+          <Text>As an action, your mind seizes control of a one-handed melee weapon you’re holding. The weapon flies toward one creature you can see within 30 feet of you and makes a one-handed melee weapon attack against it, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra 1d10 force damage per psi point spent on this ability. The weapon returns to your grasp after it attacks.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Warp Weapon (2 psi)</Name>
+          <Text>As an action, choose one nonmagical weapon held by one creature you can see within 60 feet of you. That creature must succeed on a Strength saving throw, or the chosen weapon can’t be used to attack until the end of your next turn.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Warp Armor (3 psi)</Name>
+          <Text>As an action, choose a nonmagical suit of armor worn by one creature you can see within 60 feet of you. That creature must succeed on a Constitution saving throw, or the creature’s AC becomes 10 + its Dexterity modifier until the end of your next turn.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Wall of Wood (3 psi; conc., 1 hr.)</Name>
+          <Text>As an action, you create a wall of wood at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your concentration ends. Each 5-foot wide section of the wall has AC 12 and 100 hit points. Breaking one section creates a 5-foot by 5-foot hole in it, but the wall otherwise remains intact.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Armored Form (6 psi; conc., 1 min.)</Name>
+          <Text>As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage, which lasts until your concentration ends.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <FormsCompanionsFeature>
+          <Keywords />
+          <Name>Mastery of Wood and Earth - Animate Earth (7 psi; conc., 1 hr.)</Name>
+          <Text>As an action, you cause an earth elemental to appear in an unoccupied space you can see within 120 feet of you. The elemental lasts until your concentration ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. See the Monster Manual for its stat block.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <DisplayName>Wu Jen Summons</DisplayName>
+          <UniqueID>MYSTIC_WU_JEN_SUMMONS</UniqueID>
+          <FormsCompanionsOptions>Name = "Earth Elemental"</FormsCompanionsOptions>
+          <FormsCompanionsCount>-1</FormsCompanionsCount>
+        </FormsCompanionsFeature>
+      </Features>
+      <Source>Unearthed Arcana The Mystic Class</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana The Mystic Class</Source>
+</FeatureContainer>

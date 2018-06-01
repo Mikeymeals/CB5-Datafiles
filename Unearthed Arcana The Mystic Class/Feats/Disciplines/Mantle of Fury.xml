@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>avatar</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Mantle of Fury</Name>
+      <Text>You allow the primal fury lurking deep within your mind to burst forth, catching you and your allies in an implacable bloodthirst.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Avatar Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Mantle of Fury - Psychic Focus</Name>
+          <Text>While focused on this discipline in combat, you and any ally who starts their turn within 10 feet of you gains a 5-foot increase to their walking speed during that turn.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mantle of Fury - Incite Fury (2 psi; conc., 1 min.)</Name>
+          <Text>As a bonus action, choose up to three allies you can see within 60 feet of you (you can choose yourself in place of one of the allies). Until your concentration ends, each target can roll a d4 when rolling damage for a melee weapon attack and add the number rolled to the damage roll.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mantle of Fury - Mindless Charge (2 psi)</Name>
+          <Text>As a bonus action, choose up to three creatures you can see within 60 feet of you. Each target can immediately use its reaction to move up to its speed in a straight line toward its nearest enemy.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mantle of Fury - Aura of Bloodletting (3 psi; conc., 1 min.)</Name>
+          <Text>As a bonus action, you unleash an aura of rage. Until your concentration ends, you and any creature within 60 feet of you has advantage on melee attack rolls.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Mantle of Fury - Overwhelming Fury (5 psi; conc., 1 min.)</Name>
+          <Text>As an action, you flood rage into one creature you can see within 60 feet of you. The target must succeed on a Charisma saving throw, or it can use its actions only to make melee attacks until your concentration ends. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana The Mystic Class</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana The Mystic Class</Source>
+</FeatureContainer>

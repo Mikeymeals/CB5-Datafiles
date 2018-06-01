@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>nomad</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Nomadic Arrow</Name>
+      <Text>You imbue a ranged weapon with a strange semblance of sentience, allowing it to unerringly find its mark.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Nomad Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Nomadic Arrow - Psychic Focus</Name>
+          <Text>While you are focused on this discipline, any attack roll you make for a ranged weapon attack ignores disadvantage. If disadvantage would normally apply to the roll, that roll also can’t benefit from advantage.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Nomadic Arrow - Speed Dart (1–7 psi)</Name>
+          <Text>As a bonus action, you imbue one ranged weapon you hold with psionic power. The next attack you make with it that hits before the end of the current turn deals an extra 1d10 psychic damage per psi point spent.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Nomadic Arrow - Seeking Missile (2 psi)</Name>
+          <Text>As a reaction when you miss with a ranged weapon attack, you can repeat the attack roll against the same target.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Nomadic Arrow - Faithful Archer (5 psi; conc., 1 min.)</Name>
+          <Text>As a bonus action, you imbue a ranged weapon with a limited sentience. Until your concentration ends, you can make an extra attack with the weapon at the start of each of your turns (no action required). If it is a thrown weapon, it returns to your grasp each time you make any attack with it. </Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana The Mystic Class</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana The Mystic Class</Source>
+</FeatureContainer>

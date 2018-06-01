@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>awakened</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Precognition</Name>
+      <Text>By analyzing information around you, from subtle hints to seemingly disconnected facts, you learn to weave a string of probabilities in an instant that gives you extraordinary insights.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Awakened Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Precognition -  Psychic Focus</Name>
+          <Text>While focused on this discipline, you have advantage on initiative rolls.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Precognition -  Precognitive Hunch (2 psi; conc., 1 min.)</Name>
+          <Text>As a bonus action, you open yourself to receive momentary insights that improve your odds of success; until your concentration ends, whenever you make an attack roll, a saving throw, or an ability check, you roll a d4 and add it to the total.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Precognition -  All-Around Sight (3 psi)</Name>
+          <Text>In response to an attack hitting you, you use your reaction to impose disadvantage on that attack roll, possibly causing it to miss.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Precognition -  Danger Sense (5 psi; conc., 8 hr.)</Name>
+          <Text>As an action, you create a psychic model of reality in your mind and set it to show you a few seconds into the future. Until your concentration ends, you can’t be surprised, attack rolls against you can’t gain advantage, and you gain a +10 bonus to initiative.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Precognition -  Victory Before Battle (7 psi)</Name>
+          <Text>When you roll initiative, you can use this ability to grant yourself and up to five creatures of your choice within 60 feet of you a +10 bonus to initiative.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana The Mystic Class</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana The Mystic Class</Source>
+</FeatureContainer>

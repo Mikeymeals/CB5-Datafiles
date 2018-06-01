@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Martial Training</Name>
+      <Text>At 1st level, you gain proficiency with medium armor and martial weapons.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Armor and Medium) or (Weapon and Martial)</Condition>
+      <Description>medium armor, martial weapons</Description>
+    </ToolKWProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Soul Knife</Name>
+      <Text>Starting at 1st level, you gain the ability to manifest a blade of psychic energy. As a bonus action, you create scintillating knives of energy that project from both of your fists. You can’t hold anything in your hands while manifesting these blades. You can dismiss them as a bonus action.
+For you, a soul knife is a martial melee weapon with the light and finesse properties. It deals 1d8 psychic damage on a hit.
+As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are incapacitated.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Soul Knife</string>
+        <string>Soul Knife</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Soul Knife</Name>
+      <Text>As a bonus action, you create scintillating knives of energy that project from both of your fists. You can’t hold anything in your hands while manifesting these blades. You can dismiss them as a bonus action.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Soul Knife</Name>
+      <Text>As a bonus action, you can prepare to use the blades to parry; you gain a +2 bonus to AC until the start of your next turn or until you are incapacitated.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Hone the Blade</Name>
+      <Text>Starting at 3rd level, you can spend psi points to augment your soul knife’s attack rolls and damage. You gain a bonus to attack and damage rolls with your soul knives depending on the number of psi points spent, as shown on the table below. This bonus lasts for 10 minutes.
+Psi Points: Attack and Damage Bonus 
+2: +1
+5: +2
+7: +4
+</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Consumptive Knife</Name>
+      <Text>Starting at 6th level, whenever you slay an enemy creature with a soul knife attack, you immediately regain 2 psi points.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Phantom Knife</Name>
+      <Text>Starting at 14th level, you can make an attack that phases through most defenses. As an action, you can make one attack with your soul knife. Treat the target’s AC as 10 against this attack, regardless of the target’s actual AC.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana The Mystic Class</Source>
+  <Name>Order of the Soul Knife</Name>
+  <SheetName>Soul Knife</SheetName>
+  <Description>The Order of the Soul Knife sacrifices the breadth of knowledge other mystics gain to focus on a specific psionic technique. These mystics learn to manifest a deadly weapon of pure psychic energy that they can use to cleave through foes.
+Soul knives vary widely in their approach to this path. Some follow it out of a desire to achieve martial perfection. Others are ruthless assassins who seek to become the perfect killer.</Description>
+  <ParentRace>Mystic</ParentRace>
+</SubClass>

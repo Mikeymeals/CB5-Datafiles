@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>mystic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>discipline</Name>
+        </Keyword>
+        <Keyword>
+          <Name>immortal</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Bestial Form</Name>
+      <Text>You transform your body, gaining traits of different beasts.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Immortal Discipline</Prerequisite>
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Bestial Form - Psychic Focus</Name>
+          <Text>While focused on this discipline, you have advantage on Wisdom (Animal Handling) checks.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Bestial Form - Bestial Claws (1–7 psi)</Name>
+          <Text>You manifest long claws for an instant and make a melee weapon attack against one creature within 5 feet of you. On a hit, this attack deals 1d10 slashing damage per psi point spent.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Bestial Form - Bestial Transformation</Name>
+          <Text>As a bonus action, you alter your physical form to gain different characteristics. When you use this ability, you can choose one or more of the following effects. Each effect has its own psi point cost. Add them together to determine the total cost. This transformation lasts for 1 hour, until you die, or until you end it as a bonus action.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Amphibious (2 psi)</Name>
+              <Text>You gain gills; you can breathe air and water. </Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Climbing (2 psi)</Name>
+              <Text>You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed.</Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Flight (5 psi)</Name>
+              <Text>Wings sprout from your back. You gain a flying speed equal to your walking speed.</Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Keen Senses (2 psi)</Name>
+              <Text>Your eyes and ears become more sensitive. You gain advantage on Wisdom (Perception) checks. </Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Perfect Senses (3 psi)</Name>
+              <Text>You gain a keen sense of smell and an instinct to detect prey. You can see invisible creatures and objects within 10 feet of you, even if you are blinded.</Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Swimming (2 psi)</Name>
+              <Text>You gain fins and webbing between your fingers and toes; you gain a swimming speed equal to your walking speed.</Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <Feature>
+              <Keywords />
+              <Name>Bestial Form - Bestial Transformation - Tough Hide (2 psi)</Name>
+              <Text>Your skin becomes as tough as leather; you gain a +2 bonus to AC.</Text>
+              <Level>0</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Unearthed Arcana The Mystic Class</Source>
+        </MultiFeature>
+      </Features>
+      <Source>Unearthed Arcana The Mystic Class</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana The Mystic Class</Source>
+</FeatureContainer>
