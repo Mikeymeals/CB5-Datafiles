@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Diviner</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>12</AC>
+  <ACText>15 with mage armor</ACText>
+  <HP>67</HP>
+  <HPRoll>15d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>9</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any four languages</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:
+
+Cantrips (at will): fire bolt, light, mage hand, message, true strike
+
+1st level (4 slots): detect magic*, feather fall, mage armor
+
+2nd level (3 slots): detect thoughts*, locate object*, scorching ray
+
+3rd level (3 slots): clairvoyance*, fly, fireball
+
+4th level (3 slots): arcane eye*, ice storm, stoneskin
+
+5th level (2 slots): Rary’s telepathic bond*, seeming*
+
+6th level (1 slot): mass suggestion, true seeing*
+
+7th level (1 slot): delayed blast fireball, teleport
+
+8th level (1 slot): maze
+
+* Divination spell of 1st level or higher</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Portent (Recharges after the Diviner Casts a Divination Spell of 1st Level or Higher)</Name>
+      <Text>When the diviner or a creature it can see makes an attack roll, a saving throw, or an ability check, the diviner can roll a d20 and choose to use this roll in place of the attack roll, saving throw, or ability check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Quarterstaff</Name>
+      <Text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d6-1",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>fire bolt</string>
+    <string>light</string>
+    <string>mage hand</string>
+    <string>message</string>
+    <string>true strike</string>
+    <string>detect magic</string>
+    <string>feather fall</string>
+    <string>mage armor</string>
+    <string>detect thoughts</string>
+    <string>locate object</string>
+    <string>scorching ray</string>
+    <string>clairvoyance</string>
+    <string>fly</string>
+    <string>fireball</string>
+    <string>arcane eye</string>
+    <string>ice storm</string>
+    <string>stoneskin</string>
+    <string>Rary's telepathic bond</string>
+    <string>seeming</string>
+    <string>mass suggestion</string>
+    <string>true seeing</string>
+    <string>delayed blast fireball</string>
+    <string>teleport</string>
+    <string>maze</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>0</int>
+  </Slots>
+</Monster>

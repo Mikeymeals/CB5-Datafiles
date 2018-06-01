@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Archdruid</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>16</AC>
+  <ACText>hide armor, shield</ACText>
+  <HP>132</HP>
+  <HPRoll>24d8+24</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>20</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Druidic plus any two languages</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:
+
+Cantrips (at will): druidcraft, mending, poison spray, produce flame
+
+1st level (4 slots): cure wounds, entangle, faerie fire, speak with animals
+
+2nd level (3 slots): animal messenger, beast sense, hold person
+
+3rd level (3 slots): conjure animals, meld into stone, water breathing
+
+4th level (3 slots): dominate beast, locate creature, stoneskin, wall of fire
+
+5th level (3 slots): commune with nature, mass cure wounds, tree stride
+
+6th level (1 slot): heal, heroes’ feast, sunbeam
+
+7th level (1 slot): fire storm
+
+8th level (1 slot): animal shapes
+
+9th level (1 slot): foresight</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Change Shape (2/Day)</Name>
+      <Text>The archdruid magically polymorphs into a beast or elemental with a challenge rating of 6 or less, and can remain in this form for up to 9 hours. The archdruid can choose whether its equipment falls to the ground, melds with its new form, or is worn by the new form. The archdruid reverts to its true form if it dies or falls unconscious. The archdruid can revert to its true form using a bonus action on its turn.
+While in a new form, the archdruid retains its game statistics and ability to speak, but its AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and it gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that it lacks. It can cast its spells with verbal or somatic components in its new form.
+The new form’s attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>druidcraft</string>
+    <string>mending</string>
+    <string>poison spray</string>
+    <string>produce flame</string>
+    <string>cure wounds</string>
+    <string>entangle</string>
+    <string>faerie fire</string>
+    <string>speak with animals</string>
+    <string>animal messenger</string>
+    <string>beast sense</string>
+    <string>hold person</string>
+    <string>conjure animals</string>
+    <string>meld into stone</string>
+    <string>water breathing</string>
+    <string>dominate beast</string>
+    <string>locate creature</string>
+    <string>stoneskin</string>
+    <string>wall of fire</string>
+    <string>commune with nature</string>
+    <string>mass cure wounds</string>
+    <string>tree stride</string>
+    <string>heal</string>
+    <string>heroes' feast</string>
+    <string>sunbeam</string>
+    <string>fire storm</string>
+    <string>animal shapes</string>
+    <string>foresight</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+  </Slots>
+</Monster>

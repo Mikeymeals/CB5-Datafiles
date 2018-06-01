@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Cloud Giant Smiling One</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cloud giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>262</HP>
+  <HPRoll>21d12+128</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The giant's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
+
+At will: detect magic, fog cloud, light
+
+3/day each: featherfall, fly, misty step, telekinesis
+
+1/day each: control weather, gaseous form</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:
+
+Cantrips (at will): minor illusion, prestidigitation, vicious mockery
+
+1st level (4 slots): cure wounds, disguise self, silent image, Tasha’s hideous laughter
+
+2nd level (3 slots): invisibility, suggestion
+
+3rd level (2 slots): major image, tongues</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The giant has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The giant makes two attacks with its morningstar.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Morningstar</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8+8) bludgeoning damage. The attack deals an extra 14 (4d6) damage if the giant has advantage on the attack roll.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>3d8+8",
+  "With Advantage</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10+8) bludgeoning damage. The attack deals an extra 14 (4d6) damage if the giant has advantage on the attack roll.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>4d10+8",
+  "With Advantage</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Change Shape</Name>
+      <Text>The giant magically polymorphs into a beast or humanoid it has seen, or back into its true form. Any equipment the giant is wearing or carrying is absorbed by the new form. Its statistics, other than its size, are the same in each form. It reverts to its true form if it dies.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>detect magic</string>
+    <string>fog cloud</string>
+    <string>light</string>
+    <string>featherfall</string>
+    <string>fly</string>
+    <string>misty step</string>
+    <string>telekinesis</string>
+    <string>control weather</string>
+    <string>gaseous form</string>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>vicious mockery</string>
+    <string>cure wounds</string>
+    <string>disguise self</string>
+    <string>silent image</string>
+    <string>Tasha's hideous laughter</string>
+    <string>invisibility</string>
+    <string>suggestion</string>
+    <string>major image</string>
+    <string>tongues</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 2, and your Intelligence score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>2</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Purebloods mature at the same rate as humans and have lifespans similar in length to theirs.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Purebloods are devoid of emotion and see others as tools to manipulate. They care little for law or chaos and are typically neutral evil.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Purebloods match humans in average size and weight. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Innate Spellcasting</Name>
+      <Text>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Innate Spellcasting</Name>
+          <Text>You know the poison spray cantrip. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Poison Spray</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Innate Spellcasting</Name>
+          <Text>You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Animal Friendship</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Innate Spellcasting</Name>
+          <Text>You can cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for this spell.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Suggestion</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Magic Resistance</Name>
+      <Text>You have advantage on saving throws against spells and other magical effects.
+</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>spells and other magical effects</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Poison Immunity</Name>
+      <Text>You are immune to poison damage and the poisoned condition.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>poison</string>
+        <string>poisoned</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common, Abyssal, and Draconic.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Abyssal</string>
+        <string>Draconic</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Yuan-ti Pureblood</Name>
+  <Size>Medium</Size>
+  <Description>In some campaigns, humanoids normally regarded as sinister threats can emerge to adventure alongside humans and the other standard races. This section is aimed at DMs who wish to expand the race selections for their campaigns beyond the typical folk of D&amp;D.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Why a Monstrous Character?</Name>
+      <Text>Creating characters as creatures normally cast as villains offers up some interesting roleplaying possibilities. Whether played for comedy, as a tragic story of betrayal and loss, or as an antihero, a monstrous character gives a player a chance to take on an unusual challenge in the campaign. Before allowing monstrous characters in your campaign, consider the following three questions.</Text>
+    </Description>
+    <Description>
+      <Name>Rare or Mundane?</Name>
+      <Text>Consider how common orc, goblin, and similar adventurers are in your setting. Are they regarded as no stranger than elves or dwarves? Are they met with suspicion? The role these races play in your setting should determine the kinds of reactions that such characters meet. 
+Don't be afraid to push things to an extreme. An orc character might have to venture into town in disguise or remain in the wilderness, for fear of imprisonment or mob violence. Be sure to talk to the group about how such characters can expect the world to treat them. Some players like the challenge of taking on an outcast, but don't set up one expectation and deliver another.
+You can establish a monstrous creature as just another culture in your campaign, one that has alliances and rivalries with humans, elves, and dwarves. A hobgoblin kingdom might serve as a buffer between a human kingdom and a blighted region overrun by the spawn of Kyuss. Kobolds might be city builders, the architects of grand, heavily fortified edifices, which other folk dwell in for a price. The cultural notes in chapter 1 are the standard D&amp;D depiction of these creatures, but by no means do they define them for your campaign. Use them as a starting point for your own ideas.</Text>
+    </Description>
+    <Description>
+      <Name>Outcast or Ambassador?</Name>
+      <Text>Consider how a monstrous character's native culture views the character. Is the character an outcast, a spy, an ambassador, or something else? Work with the player to determine how the character ended up as an adventurer.
+The character's bond is a great starting point to consider for this question. How did the bond drive the character to adventure? The character's trait, flaw, and ideal can also play a role in fleshing out the story.</Text>
+    </Description>
+    <TableDescription>
+      <Name>Friends or Enemies?</Name>
+      <Text>Figure out what special ties the character has to other members of the adventuring party. An orc warlock might be the dwarf ranger's sworn enemy, but the two are forced to work together to defeat a mutual foe. Perhaps the kobold sorcerer was the tiefling wizard's familiar, transformed by an irate archmage in return for some petty insult. The hobgoblin paladin might have been human once, but crossed the wrong hag and was cursed to take on an evil guise. A creative tie between a monstrous character and the rest of the party helps make for a memorable campaign.
+The Monstrous Origin table gives a number of ideas for adding a monstrous character to the campaign.</Text>
+      <Amount>1</Amount>
+      <UniqueID>MONSTEROUS_ORIIGN</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You are a spy sent to undermine your enemies from within.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You are the victim of a curse or polymorph spell.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You were raised by humans, elves, or dwarves and have adopted their culture.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>At a young age, you adopted a human religion and now serve it faithfully.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You received divine insight that sent you on your path, and occasionally receive new visions that guide you.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>Your sworn enemy is an ally of your people, forcing you to leave your tribe to gain vengeance.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Text>An evil entity corrupted your people's society.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Text>An injury or strange event caused you to lose all memory of your past, but occasional flashes of it return to you.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <Description>
+      <Name>Yuan-ti Pureblood Traits</Name>
+      <Text>Your yuan-ti pureblood character—called a pureblood for short—has the following racial traits.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Volo's Guide to Monsters</Source>
+</Race>

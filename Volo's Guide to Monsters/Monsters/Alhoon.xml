@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Alhoon</Name>
+  <Descriptions />
+  <Source>Volo's Guide to Monsters</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any evil alignment</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>120</HP>
+  <HPRoll>16d8+48</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>19</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Deep Speech</string>
+    <string>Undercommon</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The alhoon has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting (Psionics)</Name>
+      <Text>The alhoon’s innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:
+
+At will: detect thoughts, levitate
+
+1/day each: dominate monster, plane shift (self only)</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:
+
+Cantrips (at will): chill touch, dancing lights, mage hand, prestidigitation, shocking grasp
+
+1st level (4 slots): detect magic, disguise self, magic missile, shield
+
+2nd level (3 slots): invisibility, mirror image, scorching ray
+
+3rd level (3 slots): counterspell, fly, lightning bolt
+
+4th level (3 slots): confusion, Evard’s black tentacles, phantasmal killer
+
+5th level (2 slots): modify memory, wall of force
+
+6th level (1 slot): disintegrate, globe of invulnerability</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance</Name>
+      <Text>The alhoon has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Chilling Grasp</Name>
+      <Text>Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (3d6) cold damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Mind Blast (Recharge 5-6)</Name>
+      <Text>The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8+4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>4d8+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>detect thoughts</string>
+    <string>levitate</string>
+    <string>dominate monster</string>
+    <string>plane shift</string>
+    <string>chill touch</string>
+    <string>dancing lights</string>
+    <string>mage hand</string>
+    <string>prestidigitation</string>
+    <string>shocking grasp</string>
+    <string>detect magic</string>
+    <string>disguise self</string>
+    <string>magic missile</string>
+    <string>shield</string>
+    <string>invisibility</string>
+    <string>mirror image</string>
+    <string>scorching ray</string>
+    <string>counterspell</string>
+    <string>fly</string>
+    <string>lightning bolt</string>
+    <string>confusion</string>
+    <string>Evard’s black tentacles</string>
+    <string>phantasmal killer</string>
+    <string>modify memory</string>
+    <string>wall of force</string>
+    <string>disintegrate</string>
+    <string>globe of invulnerability</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Radiant Soul</Name>
+      <Text>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.
+Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. 
+Once you use this trait, you can't use it again until you finish a long rest.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>AASIMAR_PROTECTOR_RADIANT_SOUL</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>Falling from Grace or Rising to It</Name>
+      <Text>With your DM's consent, you can change your character's subrace to fallen aasimar if your protector/scourge aasimar turns to evil. To do so, replace your subrace benefits, including the ability score increase, with those of a fallen aasimar.
+Similarly, if your fallen aasimar turns to good, your DM might allow you to become a protector or scourge aasimar.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Volo's Guide to Monsters</Source>
+  <Name>Protector Aasimar</Name>
+  <Description>Protector aasimar are charged by the powers of good to guard the weak, to strike at evil wherever it arises, and to stand vigilant against the darkness. From a young age, a protector aasimar receives advice and directives that urge to stand against evil. </Description>
+  <ParentRace>Aasimar</ParentRace>
+</SubRace>
