@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Death Domain</Name>
+      <Text>Death Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>false life, ray of sickness</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>False Life</string>
+            <string>Ray of Sickness</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>blindness/deafness, ray of enfeeblement</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Blindness/Deafness</string>
+            <string>Ray of Enfeeblement</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>animate dead, vampiric touch</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Animate Dead</string>
+            <string>Vampiric Touch</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>freedom of movement, stoneskin</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Freedom of Movement</string>
+            <string>Stoneskin</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Death Domain Spells</Name>
+          <Text>blight, death ward</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Blight</string>
+            <string>Death Ward</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>

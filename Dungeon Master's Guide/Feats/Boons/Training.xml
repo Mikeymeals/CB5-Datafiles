@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 1</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING1_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING1_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING1_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 2</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING2_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING2_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING2_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING2</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 3</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING3_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING3_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING3_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING3</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 4</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING4_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING4_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING4_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 5</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING5_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING5_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING5_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING5</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 6</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING6_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING6_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING6_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING6</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 7</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING7_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING7_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING7_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING7</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 8</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING8_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING8_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING8_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING8</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 9</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING9_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING9_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING9_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING9</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Training 10</Name>
+      <Text>A character might be offered special training in lieu of a financial reward. This kind of training isn't widely available and thus is highly desirable. It presumes the existence of a skilled trainer-perhaps a retired adventurer or champion who is willing to serve as a mentor. The trainer might be a reclusive wizard or haughty sorcerer who owes the queen a favor, the knight-commander of the King's Guard, the leader of a powerful druid circle, a quirky monk who lives in a remote mountaintop pagoda, a barbarian chieftain, a warlock living among nomads as a fortune-teller, or an absentminded bard whose plays and poetry are known throughout the land.
+A character who agrees to training as a reward must spend downtime with the trainer (see chapter 6 for more information on downtime activities). In exchange, the character is guaranteed to receive a special benefit. Possible training benefits include the following: 
+• The character gains inspiration daily at dawn for ld4 + 6 days.
+• The character gains proficiency in a skill.
+• The character gains a feat.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Inspiration</Name>
+          <Text>The character gains inspiration daily at dawn for ld4 + 6 days.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>10</Value>
+          <ResourceID>TRAINING10_INSPIRATION</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>The character gains proficiency in a skill.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>TRAINING10_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <CollectionChoiceFeature>
+          <Keywords />
+          <Name>Feat</Name>
+          <Text>The character gains a feat.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>TRAINING10_FEAT</UniqueID>
+          <Collection>Category = 'Feats'</Collection>
+          <AllowSameChoice>false</AllowSameChoice>
+        </CollectionChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>TRAINING10</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Dungeon Master's Guide</Source>
+    </ChoiceFeature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>

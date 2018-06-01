@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Charm of Animal Conjuring</Name>
+      <Text>This charm allows you to cast the conjure animals spell (3rd-level version as an action. Once used three times, the charm vanishes from you.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Charm of Animal Conjuring</Name>
+          <Text>This charm allows you to cast the conjure animals spell (3rd-level version as an action. Once used three times, the charm vanishes from you.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>3</Value>
+          <ResourceID>CHARM_OF_ANIMAL_CONJURING</ResourceID>
+          <Recharge>NoRecharge</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Charm of Animal Conjuring</Name>
+          <Text>This charm allows you to cast the conjure animals spell (3rd-level version as an action. Once used three times, the charm vanishes from you.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Conjure Animals</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Charges</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Charm of Darkvision</Name>
+      <Text>This charm allows you to cast the darkvision spell as an action, no components required. Once used three times, the charm goes away.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Charm of Darkvision</Name>
+          <Text>This charm allows you to cast the darkvision spell as an action, no components required. Once used three times, the charm goes away.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>3</Value>
+          <ResourceID>CHARM_OF_DARKVISION</ResourceID>
+          <Recharge>NoRecharge</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Charm of Darkvision</Name>
+          <Text>This charm allows you to cast the darkvision spell as an action, no components required. Once used three times, the charm goes away.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Darkvision</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Charges</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Charm of Feather Falling</Name>
+      <Text>This charm grants you the benefits of a ring of feather falling. These benefits last for 10 days, after which the charm vanishes from you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>10</Value>
+      <ResourceID>CHARM_OF_FEATHER_FALLING</ResourceID>
+      <Recharge>NoRecharge</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Charm of Heroism</Name>
+      <Text>This charm allows you to give yourself the benefit of a potion of heroism as an action. Once you do so, the charm vanishes from you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Charm of Restoration</Name>
+      <Text>This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: greater restoration (4 charges) or lesser restoration (2 charges). Once all its charges have been expended, the charm vanishes from you.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Charm of Restoration</Name>
+          <Text>This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: greater restoration (4 charges) or lesser restoration (2 charges). Once all its charges have been expended, the charm vanishes from you.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>6</Value>
+          <ResourceID>CHARM_OF_RESTORATION</ResourceID>
+          <Recharge>NoRecharge</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Charm of Restoration</Name>
+          <Text>This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: greater restoration (4 charges) or lesser restoration (2 charges). Once all its charges have been expended, the charm vanishes from you.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Greater Restoration</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Charges</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Charm of Restoration</Name>
+          <Text>This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: greater restoration (4 charges) or lesser restoration (2 charges). Once all its charges have been expended, the charm vanishes from you.</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Lesser Restoration</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Charges</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Charm of the Slayer</Name>
+      <Text>One sword in your possession becomes a dragon slayer or giant slayer (DM's choice) for the next 9 days. The charm then vanishes from you and the weapon returns to normal.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>9</Value>
+      <ResourceID>CHARM_OF_THE_SLAYER</ResourceID>
+      <Recharge>NoRecharge</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Charm of Vitality</Name>
+      <Text>This charm allows you to give yourself the benefit of a potion of vitality as an action. Once you do so, the charm vanishes from you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>

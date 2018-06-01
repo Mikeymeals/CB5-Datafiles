@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 1</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 2</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 3</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 4</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 5</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 6</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 7</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 8</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 9</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 10</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 11</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 12</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 13</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 14</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 15</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 16</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 17</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 18</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 19</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Epic Ability Score Improvement 20</Name>
+      <Text>You might decide to grant one of the following rewards to a 20th-level character, instead of awarding an epic boon. These two options can be awarded to a character more than once.
+Ability Score Improvement. The character can increase one ability score by 2 or increase two ability scores by 1 each. The ability score can now be increased above 20, up to a maximum of 30.
+New Feat. The character gains a new feat chosen by the player, but subject to your approval.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>30</Strength>
+          <Constitution>30</Constitution>
+          <Dexterity>30</Dexterity>
+          <Intelligence>30</Intelligence>
+          <Wisdom>30</Wisdom>
+          <Charisma>30</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeatFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>20</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <UniqueID>EPIC_ABILITY</UniqueID>
+        </AbilityScoreFeatFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>

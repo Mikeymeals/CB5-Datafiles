@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Death Domain</Name>
+      <Text>Domain Spells:
+1st: false life, ray of sickness
+2nd: blindness/deafness, ray of enfeeblement
+3rd: animate dead, vampiric touch
+4th: freedom of movement, stoneskin
+5th: blight, death ward</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Channel Divinity: Touch of Death</Name>
+          <Text>Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch. 
+When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level.</Text>
+          <Level>2</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <SpellChoiceFeature>
+          <Keywords />
+          <Name>Reaper</Name>
+          <Text>At 1st level, the cleric learns one necromancy cantrip of his or her choice from any spell list. </Text>
+          <Level>6</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AvailableSpellChoices>Necromancy and Cantrip</AvailableSpellChoices>
+          <SpellcastingID>WIZARD</SpellcastingID>
+          <UniqueID>WIZARD_THEURGY_DEATH_DOMAIN_REAPER</UniqueID>
+          <AddTo>LearnSpells</AddTo>
+          <Amount>1</Amount>
+        </SpellChoiceFeature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Reaper</Name>
+          <Text>When the cleric casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>Cantrip and Necromancy</Spells>
+        </SpellModifyFeature>
+        <Feature>
+          <Keywords />
+          <Name>Inescapable Destruction</Name>
+          <Text>Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Improved Reaper</Name>
+          <Text>Starting at 17th level, when the cleric casts a necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the cleric must provide them for each target.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>Necromancy and Level &gt;= 1 and Level &lt;= 5</Spells>
+        </SpellModifyFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>

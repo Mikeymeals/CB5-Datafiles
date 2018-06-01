@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Combat Prowess</Name>
+      <Text>When you miss with a melee weapon attack, you can choose to hit instead. Once you use this boon, you can't use it again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_COMBAT_PROWESS</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Boon of Dimensional Travel</Name>
+      <Text>As an action, you can cast the misty step spell, without using a spell slot or any components. Once you do so, you can't use this boon again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Misty Step</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>ShortRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Fate</Name>
+      <Text>When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw, you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_FATE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Boon of Fortitude</Name>
+      <Text>Your hit point maximum increases by 40.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <HitPoints>40</HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of High Magic</Name>
+      <Text>You gain one 9th-level spell slot, provided that you already have one.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_HIGH_MAGIC</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Boon if Immortality</Name>
+      <Text>You stop aging. You are immune to any effect that would age you, and you can't die from old age.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Invincibility</Name>
+      <Text>When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_INVINCIBILITY</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Boon of Irresistible Offense</Name>
+      <Text>You can bypass the damage resistances of any creature.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Luck</Name>
+      <Text>You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_LUCK</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Boon of Magic Resistance</Name>
+      <Text>You have advantage on saving throws against spells and other magical effects.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>spells and other magical effects</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Peerless Aim</Name>
+      <Text>You can give yourself a +20 bonus to a ranged attack roll you make. Once you use this boon, you can't use it again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_PEERLESS_AIM</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Boon of Perfect Health</Name>
+      <Text>You are immune to all diseases and poisons, and you have advantage on Constitution saving throws.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>all diseases and poisons</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Planar Travel</Name>
+      <Text>When you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the plane shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_PLANAR_TRAVEL</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Boon of Quick Casting</Name>
+      <Text>Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <Spells>Level = 1 or Level = 2 or Level = 3</Spells>
+    </SpellModifyFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Recovery</Name>
+      <Text>You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_RECOVERY</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Boon of Resilience</Name>
+      <Text>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>slashing damage from nonmagical weapons</string>
+        <string>piercing damage from nonmagical weapons</string>
+        <string>bludgeoning damage from nonmagical weapons</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Boon of Skill Proficiency</Name>
+      <Text>You gain proficiency in all skills.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Boon of Speed</Name>
+      <Text>Your walking speed increases by 30 feet. 
+In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>30</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Boon of Spell Mastery</Name>
+      <Text>Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Level = 1 and (Warlock or Wizard or Sorcerer)</Condition>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <UniqueID>BOON_OF_SPELL_MASTERY</UniqueID>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Boon of Spell Recall</Name>
+      <Text>You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you can’t use this boon again until you finish a long rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BOON_OF_SPELL_RECALL</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Boon of the Fire Soul</Name>
+      <Text>You have immunity to fire damage. You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Boon of the Fire Soul</Name>
+          <Text>You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.</Text>
+          <Level>20</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Burning Hands</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances />
+          <Vulnerabilities />
+          <Immunities>
+            <string>fire</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+      </Features>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Boon of the Night Spirit</Name>
+      <Text>While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Boon of the Stormborn</Name>
+      <Text>You have immunity to lightning and thunder damage. You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.
+</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Boon of the Stormborn</Name>
+          <Text>You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.
+</Text>
+          <Level>20</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>Thunderwave</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances />
+          <Vulnerabilities />
+          <Immunities>
+            <string>lightning</string>
+            <string>thunder</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+      </Features>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Boon of the Unfettered</Name>
+      <Text>You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Boon of Truesight</Name>
+      <Text>You have truesight out to a range of 60 feet.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Boon of Undetectability</Name>
+      <Text>You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills>
+        <string>Stealth</string>
+      </Skills>
+      <SkillBonus>10</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>

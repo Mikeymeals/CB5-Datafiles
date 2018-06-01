@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Blessing of Health</Name>
+      <Text>Your Constitution score increases by 2, up to a maximum of 22.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>0</Strength>
+          <Constitution>22</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>2</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Blessing of Protection</Name>
+      <Text>You gain a +1 bonus to AC and saving throws.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>1</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>Strength Constitution Dexterity Intelligence Wisdom Charisma</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Blessing of Magic Resistance</Name>
+      <Text>You have advantage on saving throws against spells and other magical effects.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>spells and other magical effects</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Blessing of Understanding</Name>
+      <Text>Your Wisdom score increases by 2, up to a maximum of 22.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>Set Maximum</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>22</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>2</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Blessing of Valhalla</Name>
+      <Text>This blessing grants you the power to summon spirit warriors, as if you had blown a silver horn of Valhalla. Once you use this blessing, you can't use it again until 7 days have passed.
+2d4 + 2 warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>BLESSING_OF_VALHALLA</ResourceID>
+      <Recharge>Special</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Blessing of Weapon Enhancement</Name>
+      <Text>One nonmagical weapon in your possession becomes a +1 weapon whenever you wield it.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Blessing of Wound Closure</Name>
+      <Text>This blessing grants you the benefits of a periapt of wound closure.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <Feature>
+          <Keywords />
+          <Name>Periapt of Wound Closure</Name>
+          <Text>While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Dungeon Master's Guide</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Dungeon Master's Guide</Source>
+</FeatureContainer>
