@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <FormsCompanionsFeature>
+      <Keywords />
+      <Name>Animal Companion</Name>
+      <Text>At 3rd level, you learn to use your magic to create a powerful bond with a creature of the natural world.
+With 8 hours of work and the expenditure of 50 gp worth of rare herbs and fine food, you call forth an animal from the wilderness to serve as your faithful companion. You normally select your companion from among the following animals: an ape, a black bear, a boar, a giant badger, a giant weasel, a mule, a panther, or a wolf.
+However, your DM might pick one of these animals for you, based on the surrounding terrain and on what types of creatures would logically be present in the area.
+At the end of the 8 hours, your animal companion appears and gains all the benefits of your Companion’s Bond ability. You can have only one animal companion at a time.
+If your animal companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your companion’s spirit and use your magic to create a new body for it. You can return an animal companion to life in this manner even if you do not possess any part of its body.
+If you use this ability to return a former animal companion to life while you have a current animal companion, your current companion leaves you and is replaced by the restored companion.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <DisplayName>Ranger’s Companion</DisplayName>
+      <UniqueID>RANGER_ANIMAL_COMPANION</UniqueID>
+      <FormsCompanionsOptions>Name = "Ape" or Name = "Black Bear" or Name = "Boar" or Name = "Giant Badger" or Name = "Giant Weasel" or Name = "Mule" or Name = "Panther" or Name = "Wolf"</FormsCompanionsOptions>
+      <FormsCompanionsCount>1</FormsCompanionsCount>
+    </FormsCompanionsFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Companion’s Bond</Name>
+      <Text>Your animal companion gains a variety of benefits while it is linked to you.
+The animal companion loses its Multiattack action, if it has one.
+The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.
+When using your Natural Explorer feature, you and your animal companion can both move stealthily at a normal pace.
+Your animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, an animal companion also adds its proficiency bonus to its AC and to its damage rolls.
+Your animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.
+For each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.
+Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can’t increase an ability score above 20 using this feature unless its description specifies otherwise.
+Your companion shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your companion shares your ideal, and its bond is always, “The ranger who travels with me is a beloved companion for whom I would gladly give my life.”
+Your animal companion gains the benefits of your Favored Enemy feature, and of your Greater Favored Enemy feature when you gain that feature at 6th level. It uses the favored enemies you selected for those features.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_ANIMAL_COMPANION</UniqueID>
+      <HPBonus />
+      <ACBonus />
+      <SavesBonus />
+      <SkillsBonus />
+      <AttackBonus />
+      <DamageBonus />
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Companion’s Bond</TraitBonusName>
+      <TraitBonusText>Your animal companion gains a variety of benefits while it is linked to you.
+The animal companion loses its Multiattack action, if it has one.
+The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.
+When using your Natural Explorer feature, you and your animal companion can both move stealthily at a normal pace.
+Your animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, an animal companion also adds its proficiency bonus to its AC and to its damage rolls.
+Your animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws.
+For each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.
+Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can’t increase an ability score above 20 using this feature unless its description specifies otherwise.
+Your companion shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your companion shares your ideal, and its bond is always, “The ranger who travels with me is a beloved companion for whom I would gladly give my life.”
+Your animal companion gains the benefits of your Favored Enemy feature, and of your Greater Favored Enemy feature when you gain that feature at 6th level. It uses the favored enemies you selected for those features.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Coordinated Attack</Name>
+      <Text>Beginning at 5th level, you and your animal companion form a more potent fighting team. When you use the Attack action on your turn, if your companion can see you, it can use its reaction to make a melee attack.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Beast’s Defense</Name>
+      <Text>At 7th level, while your companion can see you, it has advantage on all saving throws.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_ANIMAL_COMPANION</UniqueID>
+      <HPBonus />
+      <ACBonus />
+      <SavesBonus />
+      <SkillsBonus />
+      <AttackBonus />
+      <DamageBonus />
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Beast’s Defense</TraitBonusName>
+      <TraitBonusText>At 7th level, while your companion can see you, it has advantage on all saving throws.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Storm of Claws and Fangs</Name>
+      <Text>At 11th level, your companion can use its action to make a melee attack against each creature of its choice within 5 feet of it, with a separate attack roll for each target.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_ANIMAL_COMPANION</UniqueID>
+      <HPBonus />
+      <ACBonus />
+      <SavesBonus />
+      <SkillsBonus />
+      <AttackBonus />
+      <DamageBonus />
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Storm of Claws and Fangs</TraitBonusName>
+      <TraitBonusText>At 11th level, your companion can use its action to make a melee attack against each creature of its choice within 5 feet of it, with a separate attack roll for each target.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Superior Beast’s Defense</Name>
+      <Text>At 15th level, whenever an attacker that your companion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RANGER_ANIMAL_COMPANION</UniqueID>
+      <HPBonus />
+      <ACBonus />
+      <SavesBonus />
+      <SkillsBonus />
+      <AttackBonus />
+      <DamageBonus />
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Superior Beast’s Defense</TraitBonusName>
+      <TraitBonusText>At 15th level, whenever an attacker that your companion can see hits it with an attack, it can use its reaction to halve the attack’s damage against it.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Keeping Track of Proficiency</Name>
+      <Text>When you gain your animal companion at 3rd level, its proficiency bonus matches yours at +2. As you gain levels and increase your proficiency bonus, remember that your companion’s proficiency bonus improves as well, and is applied to the following areas: Armor Class, skills, saving throws, attack bonus, and damage rolls.</Text>
+    </Description>
+    <Description>
+      <Name>Why No Multiattack?</Name>
+      <Text>Multiattack is a useful design tool that keeps monsters simple for the DM. It provides a boost in offense, but that boost is meant to make a beast threatening for one battle—a notion that doesn’t mesh well with a beast intended to fight with the party, rather than against it. Project Multiattack across an entire adventure, and an animal companion runs the risk of outclassing the fighters and barbarians in the party.
+So in story terms, your animal companion has traded in some of its ferocity (in the form of Multiattack) for better awareness and the ability to fight more effectively in concert with you.</Text>
+    </Description>
+    <Description>
+      <Name>Expanding Companion Options</Name>
+      <Text>Depending on the nature of your campaign, the DM might choose to expand the options for your animal companion. As a rule of thumb, a beast can serve as an animal companion if it is Medium or smaller, has 15 or fewer hit points, and cannot deal more than 8 damage with a single attack. In general, that applies to creatures with a challenge rating of 1/4 or less, but there are exceptions.</Text>
+    </Description>
+    <TableDescription>
+      <Name>Companion</Name>
+      <Amount>1</Amount>
+      <UniqueID>RANGER_BEAST_CONCLAVE_COMPANION</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Ape</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Black Bear</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Boar</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Giant Badger</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Giant Weasel</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Mule</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Panther</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>-1</MinRoll>
+          <MaxRoll>-1</MaxRoll>
+          <Text>Wolf</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Compainion Trait</Name>
+      <Text />
+      <Amount>1</Amount>
+      <UniqueID>RANGER_BEAST_CONCLAVE_COMPANION_TRAIT</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>I’m dauntless in the face of adversity.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>Threaten my friends, threaten me.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>I stay on alert so others can rest.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>People see an animal and underestimate me. I use that to my advantage.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>I have a knack for showing up in the nick of time.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>I put my friends’ needs before my own in all things</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Compainion Flaw</Name>
+      <Text />
+      <Amount>1</Amount>
+      <UniqueID>RANGER_BEAST_CONCLAVE_COMPANION_FLAW</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>If there’s food left unattended, I’ll eat it.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>I growl at strangers, and all people except my ranger are strangers to me.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>Any time is a good time for a belly rub.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>I’m deathly afraid of water.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>My idea of hello is a flurry of licks to the face.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>I jump on creatures to tell them how much I love them.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+  </Descriptions>
+  <Source>Unearthed Arcana 17 - The Ranger, Revised</Source>
+  <Name>Beast Conclave</Name>
+  <SheetName>Beast Master</SheetName>
+  <Description>Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.</Description>
+  <ParentRace>Ranger</ParentRace>
+</SubClass>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Forge Domain</Name>
+      <Text>Forge Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Forge Domain Spells</Name>
+          <Text>searing smite, shield</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Searing Smite</string>
+            <string>Shield</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Forge Domain Spells</Name>
+          <Text>heat metal, magic weapon</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Heat Metal</string>
+            <string>Magic Weapon</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Forge Domain Spells</Name>
+          <Text>elemental weapon, protection from energy</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Elemental Weapon</string>
+            <string>Protection from Energy</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Forge Domain Spells</Name>
+          <Text>fabricate, wall of fire</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Fabricate</string>
+            <string>Wall of Fire</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Forge Domain Spells</Name>
+          <Text>animate objects, creation</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Animate Objects</string>
+            <string>Creation</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Grave Domain</Name>
+      <Text>Grave Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Grave Domain Spells</Name>
+          <Text>bane, false life</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Bane</string>
+            <string>False Life</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Grave Domain Spells</Name>
+          <Text>gentle repose, ray of enfeeblement</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Gentle Repose</string>
+            <string>Ray of Enfeeblement</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Grave Domain Spells</Name>
+          <Text>revivify, vampiric touch</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Revivify</string>
+            <string>Vampiric Touch</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Grave Domain Spells</Name>
+          <Text>blight, death ward</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Blight</string>
+            <string>Death Ward</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Grave Domain Spells</Name>
+          <Text>antilife shell, raise dead</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Antilife Shell</string>
+            <string>Raise Dead</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>favored</Name>
+        </Keyword>
+        <Keyword>
+          <Name>soul</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Protection Domain</Name>
+      <Text>Protection Domain Spells</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Protection Domain Spells</Name>
+          <Text>compelled duel, protection from evil and good</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Compelled Duel</string>
+            <string>Protection from Evil and Good</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Protection Domain Spells</Name>
+          <Text>aid, protection from poison</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Aid</string>
+            <string>Protection from Poison</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Protection Domain Spells</Name>
+          <Text>protection from energy, slow</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Protection from Energy</string>
+            <string>Slow</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Protection Domain Spells</Name>
+          <Text>guardian of faith, Otiluke’s resilient sphere</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Guardian of Faith</string>
+            <string>Otiluke's Resilient Sphere</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Protection Domain Spells</Name>
+          <Text>antilife shell, wall of force</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>Antilife Shell</string>
+            <string>Wall of Force</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>SORCERER_SPELLCASTING</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>cleric</Name>
+            </Keyword>
+            <Keyword>
+              <Name>sorcerer</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+</FeatureContainer>

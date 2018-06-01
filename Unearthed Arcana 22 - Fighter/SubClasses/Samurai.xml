@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Fighting Spirit</Name>
+      <Text>Starting at 3rd level, the might of your willpower can shield you and help you strike true. As a bonus action on your turn, you can give yourself two benefits: advantage on all attack rolls and resistance to bludgeoning, piercing, and slashing damage. These benefits last until the end of your next turn.
+You can use this feature three times. You regain all expended uses of it when you finish a short or long rest.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>FIGHTER_SAMURAI_FIGHTING_SPIRIT</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Elegant Courtier</Name>
+      <Text>Starting at 7th level, your discipline and attention to detail allow you to excel in social situations that require strict adherence to etiquette. You can add your Wisdom modifier to any Charisma check you make to persuade or please a noble or anyone else of high social station.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Elegant Courtier</Name>
+      <Text>You also gain proficiency in the History, Insight, or Persuasion skill (choose one). Alternatively, you learn one language of your choice.</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>You also gain proficiency in the History, Insight, or Persuasion skill (choose one).</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>History</string>
+            <string>Insight</string>
+            <string>Persuasion</string>
+          </Skills>
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>FIGHTER_SAMURAI_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name>Language</Name>
+          <Text>Alternatively, you learn one language of your choice.</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Amount>1</Amount>
+          <UniqueID>FIGHTER_SAMURAI_LANGUAGE</UniqueID>
+        </LanguageChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_SAMURAI_PROFICIENCY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Unbreakable Will</Name>
+      <Text>At 10th level, your superior willpower allows you to shrug off mind-assaulting effects. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you gain proficiency in Intelligence or Charisma saving throws (choose one).</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name>Wisdom</Name>
+          <Text>You gain proficiency in Wisdom saving throws.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Wisdom</Ability>
+        </SaveProficiencyFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>You gain proficiency in Intelligence saving throws.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Intelligence</Ability>
+        </SaveProficiencyFeature>
+        <SaveProficiencyFeature>
+          <Keywords />
+          <Name>Charisma</Name>
+          <Text>You gain proficiency in Charisma saving throws.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Ability>Charisma</Ability>
+        </SaveProficiencyFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_SAMURAI_UNBREAKABLE_WILL</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Rapid Strike</Name>
+      <Text>Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Strength Before Death</Name>
+      <Text>Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that would reduce you to 0 hit points, you can delay that damage and immediately take a bonus turn, interrupting the current turn. You don’t take the damage until the bonus turn ends. It is possible to do things, such as gaining resistance, that change how much of that damage you take. Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIgHTER_SAMURAI_STRENGTH_BEFORE_DEATH</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Samurai, Knights, and History</Name>
+      <Text>While both samurai and medieval knights existed in the real world, our inspiration for both fighter archetypes is taken from popular culture (movies and comic books), not history. Our intent is to capture the cinematic, heroic element of both archetypes in the game rather than an accurate historical representation of either.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 22 - Fighter</Source>
+  <Name>Samurai</Name>
+  <SheetName>Samurai</SheetName>
+  <Description>The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai’s willpower is nearly unbreakable, and the enemies in a Samurai’s path have two choices: yield or die fighting.</Description>
+  <ParentRace>Fighter</ParentRace>
+</SubClass>

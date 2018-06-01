@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Underdark Scout</Name>
+      <Text>At 3rd level, you master the art of the ambush. On your first turn during combat, you gain a +10 bonus to your speed. If you use the attack action on that turn, you can make one additional attack. 
+You gain an additional benefit on all turns after your first turn. At the end of each such turn, you can attempt to hide as a bonus action if you meet the normal requirements for hiding. Deep Stalkers often use this ability to make ranged attacks, move beyond the scope of their foes’ darkvision, and then hide.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Deep Stalker Magic</Name>
+      <Text>From 3rd level, you have darkvision with a range of 90 feet. You also gain access to additional spells at 3rd, 5th, 9th, 13th, and 15th level. You are always able to cast these spells, and they do not count against your number of ranger spells known. </Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>90</Range>
+    </VisionFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Deep Stalker Magic</Name>
+      <Text>Disguise self</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Disguise Self</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Deep Stalker Magic</Name>
+      <Text>Rope trick</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Rope Trick</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Deep Stalker Magic</Name>
+      <Text>Glyph of warding</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Glyph of Warding</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Deep Stalker Magic</Name>
+      <Text>Greater invisibility</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Greater Invisibility</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Deep Stalker Magic</Name>
+      <Text>Seeming</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Seeming</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Extra Attack</Name>
+      <Text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Iron Mind</Name>
+      <Text>At 7th level, you gain proficiency in Wisdom saving throws.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Wisdom</Ability>
+    </SaveProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Stalker’s Flurry</Name>
+      <Text>Starting at 11th level, you have the ability to ensure that your attacks count. If you miss with an attack during your turn, you can immediately make an additional attack. You can gain one additional attack during your turn with this ability.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Stalker’s Dodge</Name>
+      <Text>At 15th level, you master the ability to disrupt an opponent’s attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 17 - The Ranger, Revised</Source>
+  <Name>Deep Stalker Conclave</Name>
+  <SheetName>Deep Stalker</SheetName>
+  <Description>Most folk descend into the depths of the Underdark only under the most pressing conditions, undertaking some desperate quest or following the promise of vast riches. All too often, evil festers beneath the earth unnoticed, and rangers of the Deep Stalker Conclave strive to uncover and defeat such threats before they can reach the surface.</Description>
+  <ParentRace>Ranger</ParentRace>
+</SubClass>

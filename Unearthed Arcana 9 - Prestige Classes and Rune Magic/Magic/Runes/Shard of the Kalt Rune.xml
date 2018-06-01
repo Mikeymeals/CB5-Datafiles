@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Frigid Touch (Simple Property)</Name>
+      <Text>As an action, you scribe the kalt rune on the surface of any volume of water. The water freezes in a 10-foot radius around the spot where you scribed the rune.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Frost Friend (Simple Property)</Name>
+      <Text>While you are attuned to this rune, you have resistance to fire damage.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Icy Mantle (Simple Property)</Name>
+      <Text>As an action, you scribe the kalt rune using water onto yourself or another creature. The water instantly freezes into a mantle of protective ice that does not hinder movement or action. The next time the creature takes bludgeoning, slashing, or piercing damage, that damage is reduced to zero and the icy mantle is destroyed.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Freezing Bolt (Complex Property)</Name>
+      <Text>As an action, you scribe this rune using water onto a creature within your reach as you expend a spell slot. The rune freezes in place, and the creature must make a Constitution saving throw (DC 12 + the level of the expended spell slot). On a failure, the creature takes 2d8 cold damage plus 1d8 cold damage per level of the expended spell slot, and its speed is reduced to 0 until the end of your next turn. On a successful saving throw, the creature takes half as much damage and its speed is not affected.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Ice Brand (Complex Property)</Name>
+      <Text>Over the course of a short rest, you inscribe this rune using water onto a melee or ranged weapon, or onto up to 20 pieces of ammunition. The weapon or ammunition gains a ghostly white aura and deals cold damage instead of piercing, slashing, or bludgeoning damage.
+In addition, you can expend a spell slot while using this property to grant the weapon or ammunition a bonus to attack rolls and damage rolls equal to the spell slot’s level divided by three.
+These effects last for 24 hours or until you use this property again.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Winter’s Howl (Complex Property)</Name>
+      <Text>While you are attuned to this rune, you can cast sleet storm as an action. You regain this ability after a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Sleet Storm</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>ShortRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Master rune</Requirement>
+  <Name>Shard of the Kalt Rune</Name>
+  <Description>This long, slender shard of ice is roughly the size of a dagger. The kalt rune—the rune of ice—glows within the shard. When first grasped, the shard emits a painful cold that leaves your hand and arm numb. That feeling passes after a moment, allowing the shard to be handled normally.</Description>
+  <Slot>None</Slot>
+  <Source>Unearthed Arcana 9 - Prestige Classes and Rune Magic</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

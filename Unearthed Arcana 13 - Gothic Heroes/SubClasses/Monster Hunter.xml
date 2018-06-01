@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Bonus Proficiencies</Name>
+      <Text>When you choose this archetype at 3rd level, you gain proficiency in two of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception. You can gain proficiency with a tool of your choice in place of one skill choice.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Two Skill Proficiencies</Name>
+          <Text>You gain proficiency in two of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Arcana</string>
+            <string>History</string>
+            <string>Insight</string>
+            <string>Investigation</string>
+            <string>Nature</string>
+            <string>Perception</string>
+          </Skills>
+          <Amount>2</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>FIGHTER_MONSTER_HUNTER_PROFICIENCY_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Skill and Tool Proficiency</Name>
+          <Text>You can gain proficiency with a tool of your choice in place of one skill choice.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>Skill Proficiency</Name>
+              <Text>You gain proficiency in one of the following skills of your choice: Arcana, History, Insight, Investigation, Nature, or Perception.</Text>
+              <Level>3</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills>
+                <string>Arcana</string>
+                <string>History</string>
+                <string>Insight</string>
+                <string>Investigation</string>
+                <string>Nature</string>
+                <string>Perception</string>
+              </Skills>
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+              <UniqueID>FIGHTER_MONSTER_HUNTER_PROFICIENCY_SKILL</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <ToolProficiencyChoiceConditionFeature>
+              <Keywords />
+              <Name>Tool Proficiency</Name>
+              <Text>You can gain proficiency with a tool of your choice in place of one skill choice.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>FIGHTER_CAVALIER_PROFICIENCY_TOOL</UniqueID>
+              <Condition>Tool</Condition>
+            </ToolProficiencyChoiceConditionFeature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_MONSTER_HUNTER_PROFICIENCY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Superiority Dice</Name>
+      <Text>You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest. 
+You gain another superiority die at 7th level and one more at 15th level.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SUPERIORITY_DICE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Using Superiority Dice</Name>
+      <Text>You can expend superiority dice to gain a number of different benefits:
+• When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.
+• When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain concentration, it has disadvantage on that save.
+• When you make an Intelligence, a Wisdom, or a Charisma saving throw, you can expend one superiority die to add it to the roll. You can use this feature only before you learn if the save succeeded or failed.
+• When you make a Wisdom (Perception) check to detect a hidden creature or object, or a Wisdom (Insight) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Using Superiority Dice</Name>
+      <Text>When you make a weapon attack against a creature, you can expend one superiority die to add it to the attack roll. You can use this ability before or after making the attack roll, but before any of the effects of the attack are applied.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Using Superiority Dice</Name>
+      <Text>When you damage a creature with a weapon attack, you can expend one superiority die to add it to the damage roll. You can use this ability after rolling damage. If the attack causes the target to make a Constitution saving throw to maintain concentration, it has disadvantage on that save.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Using Superiority Dice</Name>
+      <Text>When you make a Wisdom (Perception) check to detect a hidden creature or object, or a Wisdom (Insight) check to determine if someone is lying to you, you can expend one superiority die to add it to the roll. You can use this feature after seeing the total but before learning if you succeeded or failed.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Hunter’s Mysticism</Name>
+      <Text>At 3rd level, your study of the supernatural gives you a limited ability to use magic. You can cast detect magic as a ritual. You can cast protection from evil and good, but you cannot cast it again with this feature until you finish a long rest. Wisdom is your spellcasting ability for these spells. In addition, you gain the ability to speak one of the following languages of your choice: Abyssal, Celestial, or Infernal.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages />
+    </LanguageProficiencyFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Hunter’s Mysticism</Name>
+      <Text>You can cast detect magic as a ritual. Wisdom is your spellcasting ability for this spell.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Detect Magic</Spell>
+      <SpellCastingAbility>Wisdom</SpellCastingAbility>
+      <SpellCastModifier>Ritual</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Hunter’s Mysticism</Name>
+      <Text>You can cast protection from evil and good, but you cannot cast it again with this feature until you finish a long rest. Wisdom is your spellcasting ability for this spell.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Protection from Evil and Good</Spell>
+      <SpellCastingAbility>Wisdom</SpellCastingAbility>
+      <SpellCastModifier>LongRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Monster Slayer</Name>
+      <Text>At 7th level, whenever you expend superiority dice to add to a damage roll, you can expend up to two dice instead of just one, adding both to the roll. Both dice are expended as normal. If the target of your attack is an aberration, a fey, a fiend, or an undead, you deal maximum damage with both dice, instead of rolling them.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Improved Combat Superiority</Name>
+      <Text>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Relentless</Name>
+      <Text>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain  1 superiority die.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Combat Superiority</Name>
+      <Text>At 3rd level, you gain a set of abilities that are fueled by special dice called superiority dice. </Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 13 - Gothic Heroes</Source>
+  <Name>Monster Hunter</Name>
+  <SheetName>Monster Hunter</SheetName>
+  <Description>As an archetypal Monster Hunter, you are an expert at defeating supernatural threats. Typically mentored by an older, experienced Monster Hunter, you learn to overcome a variety of unnatural defenses and attacks, including those of undead, lycanthropes, and other creatures of horror. </Description>
+  <ParentRace>Fighter</ParentRace>
+</SubClass>

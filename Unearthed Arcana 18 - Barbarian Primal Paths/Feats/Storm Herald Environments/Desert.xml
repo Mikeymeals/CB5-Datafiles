@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Desert</Name>
+      <Text>Any enemy that ends its turn in your aura takes fire damage equal to 2 + your barbarian level divided by 4.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Features>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Storm Soul</Name>
+          <Text>You gain resistance to fire damage and don’t suffer the effects of extreme heat.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>fire</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities>
+            <string>effects of extreme heat</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Raging Soul</Name>
+          <Text>The ground around you becomes like shifting sand. Any enemy that attempts to move more than 5 feet per turn on the ground while in your aura must make a Strength saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the creature’s speed drops to 0 until the start of its next turn.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 18 - Barbarian Primal Paths</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 18 - Barbarian Primal Paths</Source>
+</FeatureContainer>

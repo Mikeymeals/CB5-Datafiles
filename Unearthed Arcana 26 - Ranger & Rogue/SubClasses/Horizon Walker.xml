@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Planar Magic</Name>
+      <Text>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
+protection from evil and good</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Protection from Evil and Good</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Planar Magic</Name>
+      <Text>alter self</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Alter Self</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Planar Magic</Name>
+      <Text>protection from energy</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Protection from Energy</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Planar Magic</Name>
+      <Text>banishment</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Banishment</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Planar Magic</Name>
+      <Text>teleportation circle</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Teleportation Circle</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>RANGER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <Feature>
+      <Keywords />
+      <Name>Planar Warrior</Name>
+      <Text>At 3rd level, you learn to draw on the energy of the planes to augment your attacks.
+As a bonus action, choose one creature you can see within 30 feet of you. Until the end of this turn, your attacks against that creature ignore its damage resistances, and the next time you hit it on this turn, it takes an additional 1d6 force damage.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Portal Lore</Name>
+      <Text>At 3rd level, you gain the ability to detect the presence of planar portals. As an action, you detect the distance and direction to any planar portals within 1,000 feet of you. You also sense which plane of existence each portal leads to. However, if magic obscures any details of a portal, this feature doesn’t reveal them.
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+Alternatively, you can use the feature again if you expend a spell slot of 2nd level or higher.
+See the “Planar Travel” section in chapter 2 of the Dungeon Master’s Guide for examples of planar portals.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>RANGER_HORIZON_WALKER_PORTAL_LORE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Extra Attack</Name>
+      <Text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Ethereal Step</Name>
+      <Text>At 7th level, you learn to step through the Ethereal Plane. As a bonus action on your turn, you can cast the etherealness spell with this feature, but the spell ends at the end of the current turn. Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Etherealness</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>ShortRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Distant Strike</Name>
+      <Text>At 11th level, you gain the ability to step between the planes in a blink of an eye. When you use the Attack action, you can teleport up to 10 feet before each attack. You must be able to see the destination of the teleportation.
+If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Spectral Defense</Name>
+      <Text>At 15th level, your ability to move between planes becomes even more finely tuned. As a reaction when you take damage, you can halve that damage against you. For a moment, you slip into the planar boundary to lessen the harm.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>The UA Ranger</Name>
+      <Text>If you’re playtesting the Unearthed Arcana ranger, you can use these subclasses with it if you make one addition: give each subclass the Extra Attack feature.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 26 - Ranger &amp; Rogue</Source>
+  <Name>Horizon Walker</Name>
+  <SheetName>Horizon Walker</SheetName>
+  <Description>Rangers of the Horizon Conclave guard the world against threats that originate from other planes. They seek out planar portals and keep watch over them, venturing to the outer and inner planes as needed to defeat threats.</Description>
+  <ParentRace>Ranger</ParentRace>
+</SubClass>

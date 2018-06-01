@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tools</Name>
+      <Text>Calligrapher’s supplies, mason’s tools, woodcarver’s tools </Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Calligrapher's supplies</string>
+        <string>Mason’s tools</string>
+        <string>Woodcarver's tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Rune Lore</Name>
+      <Text>At 1st level, you learn the basics of scribing runes, and are able to activate a master rune’s full range of properties when you are properly attuned to it. The “Rune Magic” section below contains information on master runes and descriptions of runes and their properties.
+The first rune you master is the rune you found and presented to your tutor to qualify for this prestige class. Your entrance to the class includes the process of mastering that rune’s secrets. </Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Runic Magic</Name>
+      <Text>Runes can make use of your own magical power to augment some of their effects. You gain a number of spell slots as specified on the Rune Scribe table, but this prestige class does not grant spells known. Instead, as a rune scribe, you can expend your spell slots to empower runes, as described in the “Rune Magic” section below. 
+For the purpose of multiclassing, to determine your total spell slots, add your levels in rune scribe to your levels in classes that grant you the Spellcasting feature. For example, if you are a rune scribe 4/wizard 6, you would have the spell slots of a 10th-level character, in addition to having the cantrips and spellbook of a 6th-level wizard.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>LearnSpells</Preparation>
+      <SpellcastingID>RUNE_MAGIC</SpellcastingID>
+      <PrepareableSpells>false</PrepareableSpells>
+      <OverwrittenByMulticlassing>true</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>false</IgnoreMulticlassing>
+      <DisplayName>Runic Magic</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>None</SpellcastingAbility>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PrepareCount>0</PrepareCount>
+      <PreparationChange>LongRest</PreparationChange>
+    </SpellcastingFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 2</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>2</int>
+      </Slots>
+      <SpellcastingID>RUNE_MAGIC</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 3</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>3</int>
+      </Slots>
+      <SpellcastingID>RUNE_MAGIC</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 2</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>2</int>
+      </Slots>
+      <SpellcastingID>RUNE_MAGIC</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 3</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+      </Slots>
+      <SpellcastingID>RUNE_MAGIC</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 4, 2nd: 3, 3rd: 2</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>4</int>
+        <int>3</int>
+        <int>2</int>
+      </Slots>
+      <SpellcastingID>RUNE_MAGIC</SpellcastingID>
+    </SpellSlotsFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Living Rune</Name>
+      <Text>Runes are a part of the living world, and your studies allow you to connect to their magic in increasingly powerful ways. At 4th level, you learn to incorporate rune magic into your identity, allowing you to augment your body and mind.
+At the end of a long rest, you can choose to increase one ability score of your choice by 2 or increase two ability scores of your choice by 1. At the end of each subsequent long rest, you can alter this choice, reducing the scores you previously increased and improving different scores. (If you chose to increase two abilities, you can opt to alter only one of those choices.)</Text>
+      <Level>4</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>RUNE_SCRIBE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <Feature>
+      <Keywords />
+      <Name>Rune Mastery</Name>
+      <Text>At 5th level, you attain the ability to master an ever-greater range of runic magic. When you attune to a rune, you can choose to have it not count toward your limit of attuned magic items. You can be attuned to only one such rune in this manner at a time. You can use this ability again after you end your attunement to a rune.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingSpellLevels>
+    <int>1</int>
+    <int>2</int>
+    <int>3</int>
+    <int>4</int>
+    <int>5</int>
+    <int>6</int>
+    <int>7</int>
+    <int>8</int>
+    <int>9</int>
+    <int>10</int>
+    <int>11</int>
+    <int>12</int>
+    <int>13</int>
+    <int>14</int>
+    <int>15</int>
+    <int>16</int>
+    <int>17</int>
+    <int>18</int>
+    <int>19</int>
+    <int>20</int>
+  </MulticlassingSpellLevels>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Rune Scribe</Name>
+  <Description>A rune scribe masters the secrets of the runes of power—ancient sigils that embody the fundamental magic of creation. The giants were the first to master rune magic, though many other races eventually stole away or traded for that power.
+Rune magic is exceedingly rare. Some of its secrets have been lost, and what lore remains is jealously guarded. Few rune scribes share their lore with others. Indeed, most rune scribes take on new students only if doing so allows them to gain access to a forgotten or missing rune.
+The rune scribe prestige class uses the rules for rune magic presented at the end of this article.
+</Description>
+  <Descriptions>
+    <Description>
+      <Name>Prerequisites</Name>
+      <Text>In order to advance as a rune scribe, you must meet the following prerequisites (in addition to the multiclassing prerequisites for your existing class):
+• Dexterity 13. Rune scribes need agile fingers to master the intricate patterns of a rune.
+• Intelligence 13. Rune lore requires intense study and knowledge.
+• Proficiency in the Arcana skill. Rune mastery requires an understanding of arcane lore.
+• Character level 5th. Rune magic awakens only for powerful souls, and you must be a 5th-level character before you can gain levels in the rune scribe prestige class.
+• Complete a special task. You must find a rune and present it to an NPC rune scribe who accepts it in return for tutoring you in the ways of rune magic. You cannot gain more levels in this prestige class than your tutor has. You might need to seek out additional runes and present them to more skilled rune scribes in order to reach 5th level in this prestige class.</Text>
+    </Description>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a rune scribe, you gain the following class features. </Text>
+    </Description>
+  </Descriptions>
+  <HitDie>8</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>8</HPFirstLevel>
+  <AverageHPPerLevel>5</AverageHPPerLevel>
+  <AvailableAtFirstLevel>false</AvailableAtFirstLevel>
+  <Source>Unearthed Arcana 9 - Prestige Classes and Rune Magic</Source>
+  <MulticlassingCondition>Playerlevel &gt;= 5 and Dex &gt;=13 and Int &gt;= 13 and Arcana</MulticlassingCondition>
+</ClassDefinition>

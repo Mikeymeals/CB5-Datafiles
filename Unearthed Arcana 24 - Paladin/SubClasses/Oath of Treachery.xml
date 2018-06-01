@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Oath of Treachery Spells</Name>
+      <Text>charm person, expeditious retreat</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Charm Person</string>
+        <string>Expeditious Retreat</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>PALADIN</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>paladin</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Oath of Treachery Spells</Name>
+      <Text>invisibility, mirror image</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Invisibility</string>
+        <string>Mirror Image</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>PALADIN</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>paladin</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Oath of Treachery Spells</Name>
+      <Text>gaseous form, haste</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Gaseous Form</string>
+        <string>Haste</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>PALADIN</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>paladin</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Oath of Treachery Spells</Name>
+      <Text>confusion, greater invisibility</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Confusion</string>
+        <string>Greater Invisibility</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>PALADIN</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>paladin</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Oath of Treachery Spells</Name>
+      <Text>dominate person, passwall</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Dominate Person</string>
+        <string>Passwall</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>PALADIN</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>paladin</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <Feature>
+      <Keywords />
+      <Name>Channel Divinity</Name>
+      <Text>When you take this oath at 3rd level, you gain the following two Channel Divinity options.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Conjure Duplicate</Name>
+      <Text>As an action, you create a visual illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space of your choice that you can see within 30 feet of you. The illusion looks exactly like you; it is silent; it is your size, is insubstantial, and doesn’t occupy its space; and it is unaffected by attacks and damage. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but the illusion must remain within 120 feet of you.
+For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how uncanny the illusion is.
+</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Poison Strike</Name>
+      <Text>You can use your Channel Divinity to make a weapon deadlier. As a bonus action, you touch one weapon or piece of ammunition and conjure a special poison on it. The poison lasts for 1 minute. The next time you hit a target with an attack using that weapon or ammunition, the target takes poison damage immediately after the attack. The poison damage equals 2d10 + your paladin level, or 20 + your paladin level if you had advantage on the attack roll.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Aura of Treachery</Name>
+      <Text>Starting at 7th level, you emanate an aura of discord, which gives you the following benefits.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Cull the Herd</Name>
+      <Text>You have advantage on melee attack rolls against any creature that has one or more of its allies within 5 feet of it.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Treacherous Strike</Name>
+      <Text>If a creature within 5 feet of you misses you with a melee attack, you can use your reaction to force the attacker to reroll that attack against a creature of your choice that is also within 5 feet of the attacker. The ability fails and is wasted if the attacker is immune to being charmed.
+You can use this ability three times. You regain expended uses of it when you finish a short or long rest.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>PALADIN_TREACHERY_TREACHEROUS_STRIKE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Blackguard’s Escape</Name>
+      <Text>At 15th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Icon of Deceit</Name>
+      <Text>At 20th level, you gain the ability to emanate feelings of treachery. As an action, you can magically become an avatar of deceit, gaining the following benefits for 1 minute:
+• You are invisible.
+• If a creature damages you on its turn, it must succeed on a Wisdom saving throw (DC equal to your spell save DC) or you control its next action, provided that you aren’t incapacitated when it takes the action. A creature automatically succeeds on the save if the creature is immune to being charmed.
+• If you have advantage on an attack roll, you gain a bonus to its damage roll equal to your paladin level.
+Once you use this feature, you can’t use it again until you finish a long rest.
+</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>PALADIN_TREACHERY_ICON_DECEIT</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Fallen Paladins</Name>
+      <Text>The Oath of Treachery is an option for the paladin who has strayed from another Sacred Oath or who has rejected the traditional paladin life. This option exists alongside the Oathbreaker in the Dungeon Master’s Guide. DMs are free to use either option to model villainous or fallen paladins. If you switch to this oath from another one, replace all of the previous oath’s features with the features of this one, and if you renounce this oath, replace its features with the features of the new one.</Text>
+    </Description>
+    <Description>
+      <Name>Tenets of Treachery</Name>
+      <Text>A paladin who embraces the Oath of Treachery owes allegiance to no one. There are no tenets of this oath, for it lacks any substance. Those who are unfortunate enough to have close contact with blackguards have observed that a blackguard’s overwhelming concern is power and safety, especially if both can be obtained at the expense of others.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 24 - Paladin</Source>
+  <Name>Oath of Treachery</Name>
+  <SheetName>Blackguard</SheetName>
+  <Description>The Oath of Treachery is the path followed by paladins who have forsworn other oaths or who care only for their own power and survival. Commonly known as blackguards, these profane warriors are faithful only to themselves. Anyone desperate enough to follow one of these paladins does so because, while deceitful, these paladins command great power. Those who follow them without falling prey to their treachery hope to indulge in wanton violence and accumulate great treasure. 
+Many of these paladins pay homage to demon lords, especially Grazz’t and Orcus. Even the Lords of Hell are loath to ally with these champions of chaos, but sometimes Baalzebul and Glasya find a kindred spirit in a blackguard’s penchant for double dealing and treachery. </Description>
+  <ParentRace>Paladin</ParentRace>
+</SubClass>

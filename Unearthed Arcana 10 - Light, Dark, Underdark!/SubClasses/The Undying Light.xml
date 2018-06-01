@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. 
+burning hands</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Burning Hands</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>flaming sphere</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Flaming Sphere</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>daylight</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Daylight</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>fire shield</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Fire Shield</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>flame strike</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Flame Strike</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Radiant Soul</Name>
+      <Text>Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the sacred flame and light cantrips and can cast them at will. They don’t count against your number of cantrips known.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>Radiant or Fire</Spells>
+    </SpellModifyFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Sacred Flame</string>
+        <string>Light</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <KeywordsToAdd />
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Spell and (Fire or Radiant)</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>ChaMod</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>radiant</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Searing Vengeance</Name>
+      <Text>Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are blinded until the end of your turn.
+Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_UNDYING_LIGHT_SEARING_VENGEANCE</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Radiant Resilience</Name>
+      <Text>Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Healing Light</Name>
+      <Text>At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total. You regain all expended dice from your pool when you finish a long rest.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>15</Value>
+      <ResourceID>WARLOCK_UNDYING_LIGHT_HEALING_LIGHT</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <TableDescription>
+      <Name>Undying Light Flaws</Name>
+      <Text>As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.</Text>
+      <Amount>0</Amount>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You are afraid of the dark, and must always have a light source at hand.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You have a nervous compulsion to keep a bright light in even the barest shadow.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You have a compulsion to enter and illuminate dark areas.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You have an overwhelming hatred of undead creatures.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You fidget and are irritable when you can’t see the sun.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought. </Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>Flaw</BackgroundOption>
+    </TableDescription>
+  </Descriptions>
+  <Source>Unearthed Arcana 10 - Light, Dark, Underdark!</Source>
+  <Name>The Undying Light</Name>
+  <SheetName>Undying Light Warlock</SheetName>
+  <Description>Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.
+Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.</Description>
+  <ParentRace>Warlock</ParentRace>
+</SubClass>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Forge Domain</Name>
+      <Text>Domain Spells:
+1st: searing smite, shield
+2nd: heat metal, magic weapon
+3rd: elemental weapon, protection from energy
+4th: fabricate, wall of fire
+5th: animate objects, creation</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>2</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Searing Smite</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Heat Metal</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Elemental Weapon</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Channel Divinity: Artisan’s Blessing</Name>
+          <Text>Starting at 2nd level, you can use your Channel Divinity to create simple items.
+Starting at the beginning of a short rest, you conduct a ritual to your deity that grants you the ability to craft a finished item that is at least part metal. The item is completed at the end of the rest.
+The object can be worth no more than 100 gp, and as part of this ritual you must expend metals, such as coins or other finished items, with a value equal to the item you want to make. The item can be an exact duplicate of a nonmagical item, such as a copy of a key, if you possess the original during your short rest.</Text>
+          <Level>2</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Blessing of the Forge</Name>
+          <Text>At 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest, the object becomes a magic item, granting a +1 bonus to AC if it’s armor or a +1 bonus to attack and damage rolls if it’s a weapon.
+Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>WIZARD_THEURGY_FORGE_BLESSING</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name>Soul of the Forge</Name>
+          <Text>Starting at 6th level, your mastery of the forge grants you a number of special abilities:
+• You gain a +1 bonus to AC while you are wearing medium or heavy armor.
+• You gain resistance to fire damage.
+• When you hit a construct with an attack, you deal additional force damage to it equal to your cleric level.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Armor and (Medium or Heavy)</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <ACBonus>1</ACBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>10</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Weapon or Spell</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <ACBonus>0</ACBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusText>(+Cleric Level vs. Constructs)</DamageBonusText>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Saint of Forge and Fire</Name>
+          <Text>At 17th level, your blessed affinity with fire and metal becomes more powerful:
+• You gain immunity to fire damage.
+• While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>bludgeoning, piercing, and slashing damage from nonmagical attacks while wearing heavy armor</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities>
+            <string>fire</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+      </Features>
+      <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Grave Domain</Name>
+      <Text>Domain Spells:
+1st: bane, false life
+2nd: gentle repose, ray of enfeeblement
+3rd: revivify, vampiric touch
+4th: blight, death ward
+5th: antilife shell, raise dead</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Antilife Shell</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Channel Divinity: Path to the Grave</Name>
+          <Text>Starting at 2nd level, you can use your Channel Divinity to mark another creature’s life force for termination.
+As an action, you touch a creature. The next time that creature takes damage from a spell or an attack from you or an ally, it is vulnerable to that spell or attack’s damage. If the source of damage has multiple damage types, the creature is vulnerable to all of them. The vulnerability applies only to the first time that source inflicts damage, and then ends.
+If the creature has resistance or is immune to the damage, it instead loses its resistance or immunity against that spell or attack when it first applies damage.</Text>
+          <Level>2</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Eyes of the Grave</Name>
+          <Text>Starting at 1st level, you gain an innate sense of creatures whose existence is an insult to the natural cycle of life. If you spend 1 minute in uninterrupted contemplation, you can determine the presence and nature of undead creatures in the area. This detection extends up to 1 mile in all directions. You learn the number of undead and their distance and direction from you. In addition, you learn the creature type of the undead in that area that has the highest challenge rating.
+Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>WIZARD_THEURGY_GRAVE_EYES</ResourceID>
+          <Recharge>LongRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <ResourceFeature>
+          <Keywords />
+          <Name>Sentinel at Death’s Door</Name>
+          <Text>Starting at 6th level, you gain the ability to impede death’s progress. As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled.
+Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+          <ValueBonus>None</ValueBonus>
+          <Value>1</Value>
+          <ResourceID>WIZARD_THEURGY_GRAVE_SENTINEL_DEATH_DOOR</ResourceID>
+          <Recharge>ShortRest</Recharge>
+          <ExclusionID />
+        </ResourceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Keeper of Souls</Name>
+          <Text>At 17th level, you gain the ability to manipulate the boundary between life and death. When an enemy you can see dies within 30 feet of you, you or one ally of your choice that is within 30 feet of you regains hit points equal to the enemy’s number of Hit Dice. You can use this feature as long as you aren’t incapacitated, but no more than once per round.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+    </MultiFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Protection Domain</Name>
+      <Text>Domain Spells:
+1st: compelled duel, protection from evil and good
+2nd: aid, protection from poison
+3rd: protection from energy, slow
+4th: guardian of faith, Otiluke’s resilient sphere
+5th: antilife shell, wall of force</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>2</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Compelled Duel</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <ModifySpellChoiceFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <AdditionalSpells>
+            <string>Antilife Shell</string>
+          </AdditionalSpells>
+          <KeywordsToAdd />
+          <AdditionalSpellChoices>false</AdditionalSpellChoices>
+          <UniqueID>WIZARD_SPELLBOOK</UniqueID>
+        </ModifySpellChoiceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Channel Divinity: Radiant Defense</Name>
+          <Text>Starting at 2nd level, you can use your Channel Divinity to cloak your allies in radiant armor.
+As an action, you channel blessed energy into an ally that you can see within 30 feet of you. The first time that ally is hit by an attack within the next minute, the attacker takes radiant damage equal to 2d10 + your cleric level.</Text>
+          <Level>2</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Shield of the Faithful</Name>
+          <Text>Starting at 1st level, you gain the ability to hinder attacks intended for others. When a creature attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. To do so, you must be able to see both the attacker and the target. You interpose an arm, a shield, or some other part of yourself to try to throw the attack off target.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Reaction</Action>
+          <Prerequisite />
+        </Feature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Blessed Healer</Name>
+          <Text>Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to  2 + the spell’s level.</Text>
+          <Level>10</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>Healing and Level &gt; 0</Spells>
+        </SpellModifyFeature>
+        <Feature>
+          <Keywords />
+          <Name>Indomitable Defense</Name>
+          <Text>At 17th level, you gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing. Whenever you finish a short or long rest, you can change the damage types you chose. As an action, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until the end of your next short or long rest or until you transfer it back to yourself as a bonus action.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Action</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 20 - Cleric Divine Domains</Source>
+</FeatureContainer>

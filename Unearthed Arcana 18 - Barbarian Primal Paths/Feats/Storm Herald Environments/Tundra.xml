@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Tundra</Name>
+      <Text>Any enemy that ends its turn in your aura takes cold damage equal to 2 + your barbarian level divided by 4.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Features>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Storm Soul</Name>
+          <Text>You gain resistance to cold damage and don’t suffer the effects of extreme cold.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>cold</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities>
+            <string>effects of extreme cold</string>
+          </Immunities>
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Raging Soul</Name>
+          <Text>The air around you coldly slows your foes. The area within your aura is difficult terrain for your enemies.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 18 - Barbarian Primal Paths</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 18 - Barbarian Primal Paths</Source>
+</FeatureContainer>

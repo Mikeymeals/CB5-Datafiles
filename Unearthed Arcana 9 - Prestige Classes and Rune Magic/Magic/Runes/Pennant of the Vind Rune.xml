@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Comforting Wind (Simple Property)</Name>
+      <Text>While you are attuned to this rune, you cannot suffocate or drown, and you gain advantage on saving throws against poisonous gases, inhaled poisons, and similar effects.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Wind Step (Simple Property)</Name>
+      <Text>As an action, you scribe the vind rune in the air around you and immediately fly 20 feet. If you do not land at the end of this flight, you fall.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Wind’s Grasp (Simple Property)</Name>
+      <Text>As a reaction when you fall, you can scribe this rune in the air around you to take no damage from the fall.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Howling Brand (Complex Property)</Name>
+      <Text>Over the course of a short rest, you inscribe this rune in the air above one ranged weapon. The weapon gains a ghostly blue aura and has its normal and maximum range doubled. The weapon’s attacks do not suffer disadvantage due to range.
+In addition, you can expend a spell slot while using this property to grant the weapon a bonus to attack rolls and damage rolls equal to the spell slot’s level divided by three.
+These effects last for 24 hours or until you use this property again.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Shrieking Bolt (Complex Property)</Name>
+      <Text>As an action, you scribe this rune in the air between you and a creature you can see while you expend a spell slot. The creature must make a Strength saving throw (DC 12 + the spell slot’s level). On a failure, it takes 2d8 bludgeoning damage plus 1d8 bludgeoning damage per level of the expended spell slot, and is pushed in a straight line directly away from you for 10 feet per level of the expended spell slot. On a successful saving throw, the creature takes half as much damage and is not pushed away from you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Wind Walker (Complex Property)</Name>
+      <Text>While you are attuned to this rune, you can cast levitate as a bonus action. You regain this ability after a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <Spell>Levitate</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>ShortRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Master rune</Requirement>
+  <Name>Pennant of the Vind Rune</Name>
+  <Description>This five-foot-long blue pennant is crafted from silk and whips about as if buffeted by a strong breeze. The vind rune—the rune of wind—flickers across its surface like a shimmering cloud. Grasping the pennant causes you to feel a powerful gust of wind wash over you, tearing at your clothes and gear. Anyone watching you sees nothing out of the ordinary, and the sensation passes after a moment.</Description>
+  <Slot>None</Slot>
+  <Source>Unearthed Arcana 9 - Prestige Classes and Rune Magic</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Sea</Name>
+      <Text>At the end of each of your turns, you can choose a creature in your aura, other than yourself. The target must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier. The target takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. This damage increases to 3d6 at 10th level and to 4d6 at 15th level.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Features>
+        <ResistanceFeature>
+          <Keywords />
+          <Name>Storm Soul</Name>
+          <Text>You gain resistance to lightning damage and can breathe underwater.</Text>
+          <Level>6</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Resistances>
+            <string>lightning</string>
+          </Resistances>
+          <Vulnerabilities />
+          <Immunities />
+          <SavingThrowAdvantages />
+        </ResistanceFeature>
+        <Feature>
+          <Keywords />
+          <Name>Raging Soul</Name>
+          <Text>Roaring winds tear through the area around you. Any creature in your aura that you hit with an attack must make a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.</Text>
+          <Level>14</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Unearthed Arcana 18 - Barbarian Primal Paths</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Unearthed Arcana 18 - Barbarian Primal Paths</Source>
+</FeatureContainer>

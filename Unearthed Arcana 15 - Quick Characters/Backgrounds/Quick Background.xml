@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Quick Background</Name>
+  <Description>For players who are comfortable defining a character’s personality traits, ideals, bonds, and flaws through roleplaying, the quick character generation process can be made even quicker by foregoing a background, instead rolling for the skill and tool proficiencies normally provided by a background. Roll four times on the following table, rerolling any duplicate results. </Description>
+  <Descriptions />
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Proficiency</Name>
+      <Text>Choose four of any skill, Thieves' tools, or Carpenter's tools</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill</Name>
+          <Text>Any skill</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>QUICK_BACKGROUND_SKILL1</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill 2</Name>
+          <Text>Any skill</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>QUICK_BACKGROUND_SKILL2</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill 3</Name>
+          <Text>Any skill</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>QUICK_BACKGROUND_SKILL3</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Skill 4</Name>
+          <Text>Any skill</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>QUICK_BACKGROUND_SKILL4</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <ToolProficiencyFeature>
+          <Keywords />
+          <Name>Carpenter’s tools</Name>
+          <Text>Carpenter’s tools</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Tools>
+            <string>Carpenter’s tools</string>
+          </Tools>
+        </ToolProficiencyFeature>
+        <ToolProficiencyFeature>
+          <Keywords />
+          <Name>Thieves' tools</Name>
+          <Text>Thieves' tools</Text>
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Tools>
+            <string>Thieves' tools</string>
+          </Tools>
+        </ToolProficiencyFeature>
+      </Choices>
+      <Amount>4</Amount>
+      <UniqueID>QUICK_BACKGROUND_PROF</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Unearthed Arcana 15 - Quick Characters</Source>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Background Feature</Name>
+      <Text>In place of a background feature, once during any game session, you can pick a nonplayer character you meet and declare that your character knows that NPC. The relationship is respectful but not necessarily friendly. The DM determines the exact nature of your relationship.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait />
+  <Ideal />
+  <Bond />
+  <Flaw />
+  <Source>Unearthed Arcana 15 - Quick Characters</Source>
+</Background>
