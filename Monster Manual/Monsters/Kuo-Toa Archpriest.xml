@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Kuo-Toa Archpriest</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>kuo-toa</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>97</HP>
+  <HPRoll>13d8+39</HPRoll>
+  <Speeds>
+    <string>31 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The kuo-toa can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Otherwordly Perception</Name>
+      <Text>The kuo-toa can sense the presence of any creature within 30 feet of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Slippery</Name>
+      <Text>The kuo-toa has advantage on ability checks and saving throws made to escape a grapple.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following cleric spells prepared:
+
+• Cantrips (at will): guidance, sacred flame, thaumaturgy
+• 1st level (4 slots): detect magic, sanctuary, shield of faith
+• 2nd level (3 slots): hold person, spiritual weapon
+• 3rd level (3 slots): spirit guardians, tongues
+• 4th level (3 slots): control water, divination
+• 5th level (2 slots): mass cure wounds, scrying</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The kuo-toa makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Scepter</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d6+3+4d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Unarmed Strike</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>guidance</string>
+    <string>sacred flame</string>
+    <string>thaumaturgy</string>
+    <string>detect magic</string>
+    <string>sanctuary</string>
+    <string>shield of faith</string>
+    <string>hold person</string>
+    <string>spiritual weapon</string>
+    <string>spirit guardians</string>
+    <string>tongues</string>
+    <string>control water</string>
+    <string>divination</string>
+    <string>mass cure wounds</string>
+    <string>scrying</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>
