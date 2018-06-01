@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Hungry</Name>
+      <Text>This item's magical properties function only if fresh blood from a humanoid has been applied to it within the past 24 hours. It needs only a drop to activate.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Quirk - Hungry</Name>
+  <Description>This item's magical properties function only if fresh blood from a humanoid has been applied to it within the past 24 hours. It needs only a drop to activate.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Hungry</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>

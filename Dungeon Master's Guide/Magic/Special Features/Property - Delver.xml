@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Delver</Name>
+      <Text>While underground, the bearer of this item always knows the item's depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Property - Delver</Name>
+  <Description>While underground, the bearer of this item always knows the item's depth below the surface and the direction to the nearest staircase, ramp, or other path leading upward.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Delving</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>

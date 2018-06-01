@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Conscientious</Name>
+      <Text>When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Property - Conscientious</Name>
+  <Description>When the bearer of this item contemplates or undertakes a malevolent act, the item enhances pangs of conscience.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Conscientious</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>

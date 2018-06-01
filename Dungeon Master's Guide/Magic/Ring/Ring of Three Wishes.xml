@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Ring of Three Wishes</Name>
+      <Text>While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>RING_OF_THREE_WISHES</ResourceID>
+      <Recharge>NoRecharge</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Wish</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Ring</Requirement>
+  <Name>Ring of Three Wishes</Name>
+  <Description>While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.</Description>
+  <Slot>Ring</Slot>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Language</Name>
+      <Text>The bearer can speak and understand a language of the DM's choice while the item is on the bearer's person.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>SPECIAL_PROPERTY_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Property - Language</Name>
+  <Description>The bearer can speak and understand a language of the DM's choice while the item is on the bearer's person.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Translating</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>

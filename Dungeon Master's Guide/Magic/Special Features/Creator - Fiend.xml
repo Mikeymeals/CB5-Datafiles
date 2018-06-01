@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Fiend</Name>
+      <Text>The item is made of black iron or horn inscribed with runes, and any cloth or leather components are crafted from the hide of fiends It is warm to the touch and features leering faces or vile runes engraved on its surface. Celestials find the item's presence repulsive.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Creator - Fiend</Name>
+  <Description>The item is made of black iron or horn inscribed with runes, and any cloth or leather components are crafted from the hide of fiends It is warm to the touch and features leering faces or vile runes engraved on its surface. Celestials find the item's presence repulsive.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Fiendish</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Human</Name>
+      <Text>The item was created during the heyday of a fallen human kingdom, or it is tied to a human of legend. It might hold writing in a forgotten tongue or symbols whose significance is lost to the ages.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Creator - Human</Name>
+  <Description>The item was created during the heyday of a fallen human kingdom, or it is tied to a human of legend. It might hold writing in a forgotten tongue or symbols whose significance is lost to the ages.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Human</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>

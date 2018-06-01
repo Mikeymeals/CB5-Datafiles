@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Gnome</Name>
+      <Text>The item is crafted to appear ordinary, and it might look worn. It could also incorporate gears and mechanical components, even if these aren’t essential to the item's function.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Creator - Gnome</Name>
+  <Description>The item is crafted to appear ordinary, and it might look worn. It could also incorporate gears and mechanical components, even if these aren’t essential to the item's function.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PrependName>Gnomish</PrependName>
+  <Rarity>None</Rarity>
+</MagicProperty>
