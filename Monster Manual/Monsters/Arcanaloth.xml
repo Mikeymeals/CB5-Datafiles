@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Arcanaloth</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>yugoloth</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>104</HP>
+  <HPRoll>16d8+32</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>20</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The arcanaloth's innate spellcasting ability is Charisma (spell save DC 15). The arcanaloth can innately cast the following spells, requiring no material components:
+
+At will: alter self, darkness, heat metal, invisibility (self only), magic missile</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The arcanaloth has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The arcanaloth's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The arcanaloth is a 16th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The arcanaloth has the following wizard spells prepared:
+
+• Cantrips (at will): fire bolt, mage hand, minor illusion, prestidigitation
+• 1st level (4 slots): detect magic, identify, shield, Tenser's floating disk
+• 2nd level (3 slots): detect thoughts, mirror image, phantasmal force, suggestion
+• 3rd level (3 slots): counterspell, fear, fireball
+• 4th level (3 slots): banishment, dimension door
+• 5th level (2 slots): contact other plane, hold monster
+• 6th level (1 slot): chain lightning
+• 7th level (1 slot): finger of death
+• 8th level (1 slot): mind blank</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage. The target must make a DC 14 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d4+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Teleport</Name>
+      <Text>The arcanaloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Summon Yugoloth (1/Day)</Name>
+      <Text>The yugoloth attempts a magical summoning.
+An arcanaloth has a 40 percent chance of summoning one arcanaloth.
+A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases, and can't summon other yugoloths. The summoned yugoloth remains for 1 minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>alter self</string>
+    <string>darkness</string>
+    <string>heat metal</string>
+    <string>invisibility</string>
+    <string>magic missile</string>
+    <string>fire bolt</string>
+    <string>mage hand</string>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>detect magic</string>
+    <string>identify</string>
+    <string>shield</string>
+    <string>Tenser's floating disk</string>
+    <string>detect thoughts</string>
+    <string>mirror image</string>
+    <string>phantasmal force</string>
+    <string>suggestion</string>
+    <string>counterspell</string>
+    <string>fear</string>
+    <string>fireball</string>
+    <string>banishment</string>
+    <string>dimension door</string>
+    <string>contact other plane</string>
+    <string>hold monster</string>
+    <string>chain lightning</string>
+    <string>finger of death</string>
+    <string>mind blank</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>0</int>
+  </Slots>
+</Monster>

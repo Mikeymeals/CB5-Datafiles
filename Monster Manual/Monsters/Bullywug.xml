@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Bullywug</Name>
+  <Descriptions />
+  <Source>Monster Manual</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bullywug</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>hide armor, shield</ACText>
+  <HP>11</HP>
+  <HPRoll>2d8+2</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Bullywug</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The bullywug can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Speak with Frogs and Toads</Name>
+      <Text>The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swamp Camouflage</Name>
+      <Text>The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Standing Leap</Name>
+      <Text>The bullywug's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The bullywug makes two melee attacks: one with its bite and one with its spear.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4+1</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
