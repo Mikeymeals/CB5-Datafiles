@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Ezmerelda d'Avenir</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>17</AC>
+  <ACText>studded leather armor +1</ACText>
+  <HP>82</HP>
+  <HPRoll>11d8+33</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>In addition to her magic armor and weapons, Ezmerelda has two potions of greater healing, six vials of holy water, and three wooden stakes.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Ezmerelda is a 7th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Ezmerelda has the following wizard spells prepared:
+
+• Cantrips (at will): fire bolt, light, mage hand, prestidigitation
+
+•1st level (4 slots): protection from good and evil, magic missile, shield
+
+•2nd level (3 slots): darkvision, knock, mirror image
+
+•3rd level (3 slots): clairvoyance, lightning bolt, magic circle
+
+•4th level (1 slot): greater invisibility</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Ezmerelda makes three attacks: two with her +1 rapier and one with her +1 handaxe or her silvered shortsword.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Rapier +1</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d8+5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Handaxe +1</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 6 (1d6+3) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Silvered Shortsword</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Curse (Recharges after a Long Rest)</Name>
+      <Text>Ezmerelda targets one creature that she can see within 30 feet of her. The target must succeed on a DC 14 Wisdom saving throw or be cursed. While cursed, the target has vulnerability to one type of damage of Ezmerelda's choice. The curse lasts until ended with a greater restoration spell, a remove curse spell, or similar magic. When the curse ends, Ezmerelda takes 3d6 psychic damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Evil Eye (Recharges after a Short or Long Rest)</Name>
+      <Text>Ezmerelda targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 14), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Ezmerelda is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>fire bolt</string>
+    <string>light</string>
+    <string>mage hand</string>
+    <string>prestidigitation</string>
+    <string>protection from evil and good</string>
+    <string>magic missile</string>
+    <string>shield</string>
+    <string>darkvision</string>
+    <string>knock</string>
+    <string>mirror image</string>
+    <string>clairvoyance</string>
+    <string>lightning bolt</string>
+    <string>magic circle</string>
+    <string>greater invisibility</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

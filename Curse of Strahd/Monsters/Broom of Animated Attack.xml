@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Broom of Animated Attack</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>17</HP>
+  <HPRoll>5d6</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 50 ft. (hover)</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>5</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Constructed Nature</Name>
+      <Text>An animated object doesn't require air, food, drink, or sleep.
+The magic that animates an object is dispelled when the construct drops to 0 hit points. An animated object reduced to 0 hit points becomes inanimate and is too damaged to be of much use or value to anyone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Antimagic Susceptibility</Name>
+      <Text>The broom is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the broom must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the broom remains motionless and isn't flying, it is indistinguishable from a normal broom.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The broom makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Broomstick</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) bludgeoning damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Animated Attack</Name>
+      <Text>If the broom is motionless and a creature grabs hold of it, the broom makes a Dexterity check contested by the creature's Strength check. If the broom wins the contest, it flies out of the creature's grasp and makes a melee attack against it with advantage on the attack roll.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

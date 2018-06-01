@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Wereraven</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>12</AC>
+  <HP>31</HP>
+  <HPRoll>7d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 50 ft. in raven and hybrid forms</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks not made with silvered weapons</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common (can't speak in raven form)</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The wereraven can use its action to polymorph into a raven-humanoid hybrid or into a raven, or back into its human form. Any equipment it is wearing or carrying isn't transformed. It reverts to its human form if it dies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mimicry</Name>
+      <Text>The wereraven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack (Human or Hybrid Form Only)</Name>
+      <Text>The wereraven makes two weapon attacks, one of which can be with its hand crossbow.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Beak (Raven or Hybrid Form Only)</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage in raven form, or 4 (1d4+2) piercing damage in hybrid form. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with wereraven lycanthropy.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1",
+  "Beak (Hybrid Form)</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortsword (Humanoid or Hybrid Form Only)</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hand Crossbow (Humanoid or Hybrid Form Only)</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

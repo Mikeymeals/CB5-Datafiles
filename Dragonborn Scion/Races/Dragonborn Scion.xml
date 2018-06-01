@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Draconic Ancestry</Name>
+      <Text>You have draconic ancestry. Choose one type of metallic dragon from the Draconic Ancestry table. Your ability score increases and damage resistance are determined by the dragon type, as shown on the table.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>Brass</Name>
+          <Text>Your ancestor was a brass dragon.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>Your charisma score increases by 2 and your intelligence score increases by 1.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>1</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>2</Charisma>
+            </AbilityScoreFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Brass Dragon Ancestor</Name>
+              <Text>You are resistant to fire damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>fire</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Bronze</Name>
+          <Text>Your ancestor was a bronze dragon.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>Your charisma score increases by 2 and your strength score increases by 1.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>2</Charisma>
+            </AbilityScoreFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Bronze Dragon Ancestor</Name>
+              <Text>You are resistant to lightning damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>lightning</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Copper</Name>
+          <Text>Your ancestor was a copper dragon.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>Your intelligence score increases by 2 and your charisma score increases by 1.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>2</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Copper Dragon Ancestor</Name>
+              <Text>You are resistant to acid damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>acid</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Gold</Name>
+          <Text>Your ancestor was a gold dragon.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>Your wisdom score increases by 2 and your charisma score increases by 1.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>2</Wisdom>
+              <Charisma>1</Charisma>
+            </AbilityScoreFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Gold Dragon Ancestor</Name>
+              <Text>You are resistant to fire damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>fire</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Silver</Name>
+          <Text>Your ancestor was a silver dragon.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>Your charisma score increases by 2 and your wisdom score increases by 1.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>1</Wisdom>
+              <Charisma>2</Charisma>
+            </AbilityScoreFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Silver Dragon Ancestor</Name>
+              <Text>You are resistant to cold damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>cold</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>DRAGONBORN_SCION_ANCESTRY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ancestral Trait</Name>
+      <Text>You inherit an draconic trait in accordance to your ancestral draconic type. Some traits are expressed in any bloodline, but most are specific to only a few.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name>Alpine Heritage</Name>
+          <Text>You are built for living on rugged mountains and are completely at home in the cold remote regions of the world.
+• You are Mountain Born. You are acclimated to high altitude, including elevations over 20,000 feet. You're also naturally adapted to cold climates.
+• You gain proficiency in the Athletics and Acrobatics skills.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Copper, Silver</Prerequisite>
+          <Skills>
+            <string>Athletics</string>
+            <string>Acrobatics</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+        </SkillProficiencyFeature>
+        <Feature>
+          <Keywords />
+          <Name>Aquatic Heritage</Name>
+          <Text>The coasts, islands, and deepest ocean trenches are as home to you as the metropolitan cities of the dry lands.
+• You are Ocean Born. You are acclimated to life underwater, including depths over thousands of feet. You're also naturally adapted to cold climates.
+• You can breathe both air and water.
+• You have a swim speed of 30 feet.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Bronze or Gold</Prerequisite>
+        </Feature>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name>Desert Heritage</Name>
+          <Text>Your anatomy and instincts are that of a desert ambush predator. You burrow beneath the hot sands, lying in wait for your quarry.
+• You gain proficiency in the Stealth and Survival skills.
+• You have a burrow speed of 10 feet.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Brass</Prerequisite>
+          <Skills>
+            <string>Stealth</string>
+            <string>Survival</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+        </SkillProficiencyFeature>
+        <SkillProficiencyFeature>
+          <Keywords />
+          <Name>Draconic Senses</Name>
+          <Text>You have inherited the heightened awareness and refined senses of your draconic ancestors.
+• You gain proficiency in the Perception skill.
+• You have Blindsight with a radius of 10 feet and Darkvision with a radius of 60 feet.
+</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Any Draconic Ancestry</Prerequisite>
+          <Skills>
+            <string>Perception</string>
+          </Skills>
+          <ProficiencyMultiplier>1</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+        </SkillProficiencyFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Regal</Name>
+          <Text>You are gifted with the dragon's nobility and powerful bearing.
+• You gain proficiency in the History and Intimidate skills.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Gold, Silver</Prerequisite>
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Draconic Demeanor</Name>
+              <Text>As an action, you can draw on your ancestry to exude an aura of fear. You cause each creatures in a 20 foot radius centered on yourself to make a Wisdom saving throw or be frightened until the start of our next turn. The DC for this saving throw is 8 + your proficiency bonus + your Charisma modifier. You must finish a short or long rest before using this feature again.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_SCION_REGAL_DRACONIC_DEMEANOR</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID />
+            </ResourceFeature>
+            <SkillProficiencyFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills>
+                <string>History</string>
+                <string>Intimidation</string>
+              </Skills>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+            </SkillProficiencyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Shifter</Name>
+          <Text>You possess the polymorphic abilities of dragons and can easily change your appearance to blend in.
+• Double Down. When using deception to maintain a disguise, use double your proficiency score.
+• You may cast disguise self once per long rest. 
+• Once you reach 5th level, you can cast alter self once per long rest.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Any Draconic Ancestry</Prerequisite>
+          <Features>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Shifter</Name>
+              <Text>You may cast disguise self once per long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Disguise Self</Spell>
+              <SpellCastingAbility>None</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Shifter</Name>
+              <Text>You can cast alter self once per long rest.</Text>
+              <Level>5</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spell>Alter Self</Spell>
+              <SpellCastingAbility>None</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Socialite</Name>
+          <Text>You were born with the metallic dragons’ kindness, compassion, and love of conversation.
+You gain proficiency in the Insight and Persuasion skills.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Brass, Gold</Prerequisite>
+          <Features>
+            <SkillProficiencyFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills>
+                <string>Insight</string>
+                <string>Persuasion</string>
+              </Skills>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+            </SkillProficiencyFeature>
+            <LanguageChoiceFeature>
+              <Keywords />
+              <Name>Socialite</Name>
+              <Text>Choose two additional common languages that you know.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Amount>1</Amount>
+              <UniqueID>DRAGONBORN_SCION_SOCIALITE_LANGUAGES</UniqueID>
+            </LanguageChoiceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Trickster</Name>
+          <Text>The devilish streak of the copper dragon courses through your veins. Not actually related to devils.
+• You gain proficiency in the Deception and Slight of Hand skills.
+• You know the minor illusion cantrip. Your spellcasting attribute for this spell is charisma.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Copper</Prerequisite>
+          <Features>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Trickster</Name>
+              <Text>You know the minor illusion cantrip. Your spellcasting attribute for this spell is charisma.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Minor Illusion</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>Unmodified</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <SkillProficiencyFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills>
+                <string>Deception</string>
+                <string>Sleight of Hand</string>
+              </Skills>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+            </SkillProficiencyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Wildling</Name>
+          <Text>You have a deep profound connection to the natural world.
+• Speak with Small Beasts. Through sounds and gestures, you can convey simple ideas with Small or smaller beasts.
+• Starting at 3rd level, you can cast animal friendship once per long rest.
+• Starting at 5th level, you can cast pass without trace once per long rest.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Brass, Bronze</Prerequisite>
+          <Features>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Wildling</Name>
+              <Text>You can cast animal friendship once per long rest.</Text>
+              <Level>3</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Animal Friendship</Spell>
+              <SpellCastingAbility>None</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Wildling</Name>
+              <Text>You can cast pass without trace once per long rest.</Text>
+              <Level>5</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Pass without Trace</Spell>
+              <SpellCastingAbility>None</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+          </Features>
+        </MultiFeature>
+        <Feature>
+          <Keywords />
+          <Name>Winged</Name>
+          <Text>You are blessed among dragonkin, gifted with flight.
+• You have broad leathery wings that grant you a fly speed of 30 feet in a space that accommodates your wingspan. Your wingspan is twice your height.
+• You cannot fly if you are wearing armor you are not proficient in, or if your clothes, armor, or backpack are not tailored to accommodate your wings.
+</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Any Draconic Ancestry</Prerequisite>
+        </Feature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>DRAGONBORN_SCION_ANCESTRAL_TRAIT</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Scions' lifespans are roughly between that of dragonborn and half-dragons with similar maturation rates. Adulthood starts around 15, and they live nearly ten times that amount.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Scions were created by the metallic dragons to be emissaries of good to the rest of the world, and all feel that pull. However, some scions resent this calling and spend their lives trying to throw off their mantle and forge their own destiny. Scions are rarely neutral, usually bearing strong leanings towards lawful or chaotic good.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Scions are about 6 feet tall and 200 pounds on average. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+  </Features>
+  <Name>Dragonborn Scion</Name>
+  <Flavour>Vellath burst through the line of trees and found herself facing a sheer rock face. She spun around from this sudden dead end as her pursuer charged into the clearing. The orc snarled in glee and pointed his blade at her.
+"Nowhere else to run, you scaly runt." laughed Garush. "No magic, no weapon, no fire. Nothing left to do but die."
+Vellath, transfixed on sword, faintly heard leaves rustling against the wind. She flashed a grin. "Actually, I think I'll try something clever instead." she said, and threw herself flat on the ground, distracting Garush from the sound of her clanmates drawing their bows from the trees.</Flavour>
+  <Size>Medium</Size>
+  <Descriptions>
+    <Description>
+      <Name>Noble and Contemplative</Name>
+      <Text>A scion is unmistakably related to their older brethren, the dragonborn, and yet are undeniably different. These dragonkin share their humanoid form and upright stance as well as their hardened scales, sharp claws and teeth, but physically they can differ greatly. Scions are smaller in stature, roughly on par with humans, averaging around 6 feet tall, weighing around 200 pounds or more. Where a dragonborn is large and physically imposing, a scion is wiry and holds an almost royal bearing about them. 
+Created from the rituals and sorcery of ancient metallic dragons, scions were formed to possess not the physical might of dragons, but their mental prowess, their wisdom, and imposing strength of spirit. These ancient dragons saw fit to create a new generation of dragonborn, one that could champion good through character, not feats of strength. Being more recently added to the world, a scion's original draconic heritage runs more strongly, expressed through distinct metallic scales ranging from brass to gold, crests and horns and tails. A scion holds themself with poise and dignity, but is always susceptible to moments of pride or greed. Despite their good tendencies and noble pursuits, it is not unusual for a scion to keep a small collection of shiny baubles from their travels.
+</Text>
+    </Description>
+    <Description>
+      <Name>Inherited Mantles</Name>
+      <Text>Born with strength of mind and spirit, scions were given a share of metallic purpose. The progeny of the Good Dragons are forged out of the drive to better serve the world. They were sent into the world with a duty to serve the greater good, and many find deep fulfillment in achieving this in their own way, be it protecting the weak as a righteous paladin, performing government duties as an ambassador, or tending to a long forgotten forest.
+This sense of duty extends to a scion's clan as well. A scion's clan is a tightly woven community, composed of strong family units that often share duties amongst themselves. A clan may live in a self-sufficient settlement on the frontier, or they may be citizens of a bustling city. No matter where they planted their roots, the clan does its best to remain in sync with its environment. It is not out of the ordinary for the area around a homestead to prosper alongside them.
+All the same, it is common for a scion to leave the clan once reaching adulthood, driven by wanderlust and a desire to experience the world. Some will strike out alone, but many will also enlist in military service, join an adventurer's guild, or even take up mercenary work when it suits their abilities.</Text>
+    </Description>
+    <Description>
+      <Name>Distinct and Overshadowed</Name>
+      <Text>Despite their differences, scions are often mistaken for dragonborn. This can be further perpetuated due to their significantly smaller population. Scions are the newer generation by several millennia have never held major territories by themselves and have not spent much time intentionally making names for themselves. Instead their communities are found spread out across the land, from small tribes in the wilderness to appointed positions on city councils. In fact, many scions even consider themselves dragonborn outright, and posit that distinguishing themselves as a wholly separate race misses the purpose to which they are called.
+Still, many scions resent being considered the same as their older siblings and will take great strides in countering this. This drive can be known to override their creator's intended sense of purpose and can lead to acts of heroism made for selfish pursuits, or even acts of great evil.</Text>
+    </Description>
+    <ListDescription>
+      <Name>Scion Names</Name>
+      <Text>Scions follow similar traditions as their dragonborn brethren for their chosen names. They are given personal names at birth, but place the name of their clan first, as is honorable. Additionally, some scions will be given additional names by their elders or clutchmates, to commemorate a great deed or notable trait. A scion never chooses these given names, but will wear them proudly.</Text>
+      <Names>
+        <Names>
+          <ListOfNames>
+            <string>Arjhan</string>
+            <string>Balasar</string>
+            <string>Bharash</string>
+            <string>Donaar</string>
+            <string>Ghesh</string>
+            <string>Heskan</string>
+            <string>Kriv</string>
+            <string>Medrash</string>
+            <string>Mehen</string>
+            <string>Nadarr</string>
+            <string>Panjed</string>
+            <string>Patrin</string>
+            <string>Rhogar</string>
+            <string>Shamash</string>
+            <string>Shedinn</string>
+            <string>Tarhun</string>
+            <string>Torinn</string>
+          </ListOfNames>
+          <Title>Male Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Akra</string>
+            <string>Biri</string>
+            <string>Daar</string>
+            <string>Farideh</string>
+            <string>Harann</string>
+            <string>Havilar</string>
+            <string>Jheri</string>
+            <string>Kava</string>
+            <string>Korinn</string>
+            <string>Mishann</string>
+            <string>Nala</string>
+            <string>Perra</string>
+            <string>Raiann</string>
+            <string>Sora</string>
+            <string>Surina</string>
+            <string>Thava</string>
+            <string>Uadjit</string>
+          </ListOfNames>
+          <Title>Female Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Bronzeguard</string>
+            <string>Fidelity</string>
+            <string>Orcrender</string>
+            <string>Reliance</string>
+            <string>Silvertongue</string>
+            <string>Steadfast</string>
+            <string>Wiseheart</string>
+            <string>Zealous</string>
+          </ListOfNames>
+          <Title>Given Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Athear</string>
+            <string>Bensvelk</string>
+            <string>Caesin</string>
+            <string>Earenk</string>
+            <string>Haurach</string>
+            <string>Kear</string>
+            <string>Majak</string>
+            <string>Martivir</string>
+            <string>Orn</string>
+            <string>Sjir</string>
+            <string>Sveargith</string>
+            <string>Thurkear</string>
+            <string>Verthicha</string>
+            <string>Ux</string>
+          </ListOfNames>
+          <Title>Clan Names</Title>
+        </Names>
+      </Names>
+    </ListDescription>
+    <Description>
+      <Name>Scion Classes</Name>
+      <Text>Scions are not usually found in the thick of physical combat. Instead, they find their calling in thoughtful pursuits, often as sorcerers, bards, or occasionally wizards.
+Scion paladins are often of the bronze variety, strongly lead to fight evil whenever possible, and scion clerics pray to Bahamut for wisdom and guidance.
+Scion druids and rangers are known to scout the wilderness, seeking bandits or those that would corrupt otherwise forgotten corners of the world.</Text>
+    </Description>
+    <Description>
+      <Name>Draconic Ancestry</Name>
+      <Text>Dragon - Ability Score Increase -  Damage Type
+Brass - CHA +2, INT +1 - Fire
+Bronze - CHA +2, STR +1 - Lightning
+Copper - INT +2, CHA +1 - Acid
+Gold - WIS +2, CHA +1 - Fire
+Silver - CHA +2, WIS +1 - Cold</Text>
+    </Description>
+    <Description>
+      <Name>Scion Traits</Name>
+      <Text>Your draconic heritage has much in common with the older dragonborn, but many distinctions as well.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Dragonborn Scion</Source>
+</Race>

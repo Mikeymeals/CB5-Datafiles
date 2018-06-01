@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Guardian Portrait</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>5</AC>
+  <ACText>natural armor</ACText>
+  <HP>22</HP>
+  <HPRoll>5d8</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>1</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>plus up to two other languages</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Constructed Nature</Name>
+      <Text>An animated object doesn't require air, food, drink, or sleep.
+The magic that animates an object is dispelled when the construct drops to 0 hit points. An animated object reduced to 0 hit points becomes inanimate and is too damaged to be of much use or value to anyone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Antimagic Susceptibility</Name>
+      <Text>The portrait is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the portrait must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The portrait's innate spellcasting ability os Intelligence (spell save DC 12). The portrait can innately cast the following spells, requiring no material components:
+
+3/day each: counterspell, crown of madness, hypnotic pattern, telekinesis</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the figure in the portrait remains motionless, it is indistinguishable from a normal painting.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions />
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells>
+    <string>counterspell</string>
+    <string>crown of madness</string>
+    <string>hypnotic pattern</string>
+    <string>telekinesis</string>
+  </Spells>
+  <Slots />
+</Monster>

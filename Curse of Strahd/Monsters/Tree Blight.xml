@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Tree Blight</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>149</HP>
+  <HPRoll>13d12+65</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common and Druidic but doesn't speak</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the blight remains motionless, it is indistinguishable from a dead tree.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The blight deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The blight makes four attacks: two with its branches and two with its grasping roots, If it has a target grappled, the blight can also make a bite attack against the target as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (3d8+6) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>3d8+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Branch</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit (3d6+6) bludgeoning damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>3d6+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Grasping Root</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 15 ft., one creature not grappled by the blight. Hit: the target is grappled (escape DC 15). Until the grapple ends, the target takes 9 (1d6+6) bludgeoning damage at the start of each of its turns. The root has AC 15 and can be severed by dealing 6 slashing damage or more to it at once. Cutting the root doesn't hurt the blight but ends the grapple.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d6+6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

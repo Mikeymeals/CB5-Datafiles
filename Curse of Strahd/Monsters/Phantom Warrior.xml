@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Phantom Warrior</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any alignment</Alignment>
+  <AC>16</AC>
+  <HP>45</HP>
+  <HPRoll>6d8+18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any languages it knew in life</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Ethereal Sight</Name>
+      <Text>The phantom warrior can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The phantom warrior can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spectral Armor and Shield</Name>
+      <Text>The phantom warrior's AC accounts for its spectral armor and shield.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The phantom warrior makes two attacks with its spectral longsword.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Spectral Longsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) force damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Etherealness</Name>
+      <Text>The phantom warrior enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

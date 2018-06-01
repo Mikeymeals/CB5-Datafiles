@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Pack">
+  <Keywords>
+    <Keyword>
+      <Name>monster</Name>
+    </Keyword>
+    <Keyword>
+      <Name>hunter</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Monster Hunter's Pack</Name>
+  <Description>A monster hunter’s pack includes a chest, a crowbar, a hammer, three wooden stakes, a holy symbol, a ﬂask of holy water, a set of manacles, a steel mirror, a ﬂask of oil, a tinderbox, and three torches. Purchasing the pack costs 33 gp, which is cheaper than buying its contents individually.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>33</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Curse of Strahd Character Options</Source>
+  <Weight>47.5</Weight>
+  <Contents>
+    <string>Chest</string>
+    <string>Crowbar</string>
+    <string>Hammer</string>
+    <string>Wooden Stake</string>
+    <string>Wooden Stake</string>
+    <string>Wooden Stake</string>
+    <string>Reliquary</string>
+    <string>Holy Water</string>
+    <string>Manacles</string>
+    <string>Mirror, Steel</string>
+    <string>Oil</string>
+    <string>Tinderbox</string>
+    <string>Torch</string>
+    <string>Torch</string>
+    <string>Torch</string>
+  </Contents>
+</Item>

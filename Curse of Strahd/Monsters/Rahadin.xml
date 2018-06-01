@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Rahadin</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>elf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>18</AC>
+  <ACText>studded leather</ACText>
+  <HP>135</HP>
+  <HPRoll>18d8+54</HPRoll>
+  <Speeds>
+    <string>35 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Deathly Choir</Name>
+      <Text>Any creature within 10 feet of Rahadin that isn't protected by a mind blank spell hears in its mind the screams of the thousands of people Rahadin has killed. As a bonus action, Rahadin can force all creatures that can hear the screams to make a DC 16 Wisdom saving throw. Each creature takes 16 (3d10) psychic damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fey Ancestry</Name>
+      <Text>Rahadin has advantage on saving throws against being charmed, and magic can't put him to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Rahadin's innate spellcasting ability is Intelligence. He can innately cast the following spells, requiring no components:
+
+3/day: misty step, phantom steed
+
+1/day: magic weapon, nondetection</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mask of the Wild</Name>
+      <Text>Rahadin can attempt to hide even when he is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Rahadin attacks three times with his scimitar, or twice with his poisoned darts.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 9 (1d6+6) slashing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>1d6+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Poisoned Dart</Name>
+      <Text>Ranged Weapon Attack: +10 to hit, range 20/60 ft., one target. Hit: 8 (1d4+6) piercing damage plus 5 (2d4) poison damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>1d4+6+2d4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>misty step</string>
+    <string>phantom steed</string>
+    <string>magic weapon</string>
+    <string>nondetection</string>
+  </Spells>
+  <Slots />
+</Monster>

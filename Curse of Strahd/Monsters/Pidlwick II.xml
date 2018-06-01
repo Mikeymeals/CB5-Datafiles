@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Pidlwick II</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>10</HP>
+  <HPRoll>3d6</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common but doesn't speak and can't read or write</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Ambusher</Name>
+      <Text>During the first round of combat, Pidlwick II has advantage on attack rolls against any creature that hasn't had a turn yet.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Club</Name>
+      <Text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dart</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

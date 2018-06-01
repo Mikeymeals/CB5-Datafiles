@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>trinket</Name>
+    </Keyword>
+    <Keyword>
+      <Name>gothic</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>A black executioner’s hood</Name>
+  <Description>A black executioner’s hood</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Curse of Strahd Character Options</Source>
+  <Weight>0</Weight>
+</Item>

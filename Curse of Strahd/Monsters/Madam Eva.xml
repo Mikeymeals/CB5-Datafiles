@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Madam Eva</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>10</AC>
+  <HP>88</HP>
+  <HPRoll>16d8+16</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>20</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Madam Eva is a 16th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). Madam Eva has the following cleric spells prepared:
+
+• Cantrips (at will): light, mending, sacred flame, thaumaturgy
+
+•1st level (4 slots): bane, command, detect evil and good, protection from evil and good
+
+•2nd level (3 slots): lesser restoration, protection from poison, spiritual weapon
+
+•3rd level (3 slots): create food and water, speak with dead, spirit guardians
+
+•4th level (3 slots): divination, freedom of movement, guardians of faith
+
+•5th level (2 slots): greater restoration, raise dead
+
+•6th level (1 slot): find the path, harm, true seeing
+
+•7th level (1 slot): fire storm, regenerate
+
+•8th level (1 slot): earthquake</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Curse (Recharges after a Long Rest)</Name>
+      <Text>Madam Eva targets one creature that she can see within 30 feet of her. The target must succeed on a DC 17 Wisdom saving throw or be cursed. While cursed, the target is blinded and deafened. The curse lasts until ended with a greater restoration spell, a remove curse spell, or similar magic. When the curse ends, Madam Eva takes 5d6 psychic damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Evil Eye (Recharges after a Short or Long Rest)</Name>
+      <Text>Madam Eva targets one creature that she can see within 10 feet of her and casts one of the following spells on the target (save DC 17), requiring neither somatic nor material components to do so: animal friendship, charm person, or hold person. If the target succeeds on the initial saving throw, Madam Eva is blinded until the end of her next turn. Once a target succeeds on a saving throw against this effect, it is immune to the Evil Eye power of all Vistani for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>light</string>
+    <string>mending</string>
+    <string>sacred flame</string>
+    <string>thaumaturgy</string>
+    <string>bane</string>
+    <string>command</string>
+    <string>detect evil and good</string>
+    <string>protection from evil and good</string>
+    <string>lesser restoration</string>
+    <string>protection from poison</string>
+    <string>spiritual weapon</string>
+    <string>create food and water</string>
+    <string>speak with dead</string>
+    <string>spirit guardians</string>
+    <string>divination</string>
+    <string>freedom of movement</string>
+    <string>guardians of faith</string>
+    <string>greater restoration</string>
+    <string>raise dead</string>
+    <string>find the path</string>
+    <string>harm</string>
+    <string>true seeing</string>
+    <string>fire storm</string>
+    <string>regenerate</string>
+    <string>earthquake</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>0</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Baba Lysaga's Creeping Hut</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>263</HP>
+  <HPRoll>17d10+85</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>7</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>3</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Constructed Nature</Name>
+      <Text>An animated object doesn't require air, food, drink, or sleep.
+The magic that animates an object is dispelled when the construct drops to 0 hit points. An animated object reduced to 0 hit points becomes inanimate and is too damaged to be of much use or value to anyone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Antimagic Susceptibility</Name>
+      <Text>The hut is incapacitated while the magic gem that animates it is in the area of an antimagic field. If targeted by dispel magic, the hut must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The hut deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The hut makes three attacks with its roots. It can replace one of these attacks with a rock attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Root</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 60 ft., one target. Hit: 30 (4d10+8) bludgeoning damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>4d10+8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +12 to hit, range 120 ft., one target. Hit: 21 (3d8+8) bludegoning damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>3d8+8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

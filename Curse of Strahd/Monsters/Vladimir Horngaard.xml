@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vladimir Horngaard</Name>
+  <Descriptions />
+  <Source>Curse of Strahd</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>17</AC>
+  <ACText>half plate</ACText>
+  <HP>192</HP>
+  <HPRoll>16d8+64</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>necrotic</string>
+    <string>psychic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>Vladimir regains 10 hit points at the start of his turn. If he takes fire or radiant damage, this trait doesn't function at the start of his next turn. Vladimir's body is destroyed only if he starts his turn with 0 hit points and doesn't regenerate.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rejuvenation</Name>
+      <Text>When Vladimir's body is destroyed, his soul lingers. After 24 hours, the soul inhabits and animates another corpse on the same plane of existence and regains all its hit points. While the soul is bodiless, a wish spell can be used to force the soul to go to the afterlife and not return.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Immunity</Name>
+      <Text>Vladimir is immune to effects that turn undead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Vengeful Tracker</Name>
+      <Text>Vladimir knows the distance to and direction of any creature against which it seeks revenge, even if the creature and Vladimir are on different planes of existence. If the creature being tracked by Vladimir dies, Vladimir knows.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Vladimir makes two fist attacks or two attacks with his +2 Greatsword.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage. If the target is a creature against which Vladimir has sworn vengeance, the target takes an extra 14 (4d6) bludgeoning damage. Instead of dealing damage, Vladimir can grapple the target (escape DC 14) provided the target is Large or smaller.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Greatsword +2</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20 (4d6+4) slashing damage. Against Strahd, Vladimir deals an extra 14 (4d6) slashing damage with this weapon.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>4d6+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Vengeful Glare</Name>
+      <Text>Vladimir targets one creature he can see within 30 feet of him and against which he has sworn vengeance. The target must make a DC 15 Wisdom saving throw. On a failure, the target is paralyzed until Vladimir deals damage to it, or until the end of Vladimir's next turn. When the paralysis ends, the target is frightened of Vladimir for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see Vladimir, ending the frightened condition on itself on a success.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>
