@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Strength</Throw>
+    </Save>
+    <Keyword>
+      <Name>necrotic</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Arms of Hadar</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self (10-foot radius)</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>1</Level>
+  <Description>You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Player's Handbook</Source>
+</Spell>

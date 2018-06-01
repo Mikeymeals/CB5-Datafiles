@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a cup of water</Components>
+    </Material>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cold</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Armor of Agathys</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self</Range>
+  <Duration>1 hour</Duration>
+  <Level>1</Level>
+  <Description>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Player's Handbook</Source>
+</Spell>

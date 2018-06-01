@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>paladin</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>necrotic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>healing</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Aura of Life</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self (30-foot radius)</Range>
+  <Duration>Concentration, up to 10 minutes</Duration>
+  <Level>4</Level>
+  <Description>Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.</Description>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+</Spell>

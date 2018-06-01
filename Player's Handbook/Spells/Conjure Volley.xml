@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>one piece of ammunition or one thrown weapon</Components>
+    </Material>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>cylinder</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Conjure Volley</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>150 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>5</Level>
+  <Description>You fire a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius. 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes 8d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon.</Description>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+</Spell>

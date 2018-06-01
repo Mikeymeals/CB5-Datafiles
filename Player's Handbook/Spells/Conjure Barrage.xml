@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>one piece of ammunition or a thrown weapon</Components>
+    </Material>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Dexterity</Throw>
+    </Save>
+    <Keyword>
+      <Name>cone</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Conjure Barrage</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self (60-foot cone)</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>3</Level>
+  <Description>You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.</Description>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+</Spell>

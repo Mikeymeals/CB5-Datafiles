@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ritual</Name>
+    </Keyword>
+    <Keyword>
+      <Name>divination</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranger</Name>
+    </Keyword>
+    <Keyword>
+      <Name>touch</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Beast Sense</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Touch</Range>
+  <Duration>Concentration, up to 1 hour</Duration>
+  <Level>2</Level>
+  <Description>You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast’s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.</Description>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+</Spell>

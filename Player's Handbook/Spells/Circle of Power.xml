@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>paladin</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sphere</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Circle of Power</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self (30-foot radius)</Range>
+  <Duration>Concentration, up to 10 minutes</Duration>
+  <Level>5</Level>
+  <Description>Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.</Description>
+  <Descriptions />
+  <Source>Player's Handbook</Source>
+</Spell>

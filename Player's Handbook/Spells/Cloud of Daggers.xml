@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>a sliver of glass</Components>
+    </Material>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bard</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cube</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Cloud of Daggers</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>2</Level>
+  <Description>You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell's area for the first time on a turn or starts its turn there.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Player's Handbook</Source>
+</Spell>
