@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Minor Property</Name>
+      <Text>While attuned to the artifact, you are immune to disease.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>disease</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Minor Benefit - Immunity</Name>
+  <Description>While attuned to the artifact, you are immune to disease.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>None</Rarity>
+</MagicProperty>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Rod of the Pact Keeper</Name>
+      <Text>While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.
+In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>ROD_OF_THE_PACT_KEEPER3</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Spell and Warlock</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>3</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>3</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedEquipFeatures>
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Rod, very rare (requires attunement by a warlock)</Requirement>
+  <Name>Rod of the Pact Keeper +3</Name>
+  <Description>While holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your warlock spells. The bonus is determined by the rod's rarity.
+In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.
+</Description>
+  <Slot>Focus</Slot>
+  <Base>Rod</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PostName>of the Pact Keeper +2</PostName>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>

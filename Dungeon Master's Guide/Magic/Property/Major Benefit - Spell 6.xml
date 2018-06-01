@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Major Property</Name>
+      <Text>While attuned to the artifact, you can use an action to cast one 6th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Condition>Level = 6</Condition>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <UniqueID>ARTIFACT_MAJOR_PROPERTY_SPELL6</UniqueID>
+      <SpellCastModifier>Dawn</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Major Benefit - Spell 6</Name>
+  <Description>While attuned to the artifact, you can use an action to cast one 6th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>None</Rarity>
+</MagicProperty>

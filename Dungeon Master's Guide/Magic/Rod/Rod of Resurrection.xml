@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Rod of Resurrection</Name>
+      <Text>The rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: heal (expends 1 charge) or resurrection (expends 5 charges).
+The rod regains 1 expended charge daily at dawn. If the rod is reduced to 0 charges, roll a d20. On a 1, the rod disappears in a burst of radiance.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>5</Value>
+      <ResourceID>ROD_OF_RESURRECTION</ResourceID>
+      <Recharge>Special</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Rod of Resurrection</Name>
+      <Text>1 charge</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Heal</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Rod of Resurrection</Name>
+      <Text>5 charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Resurrection</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Rod, legendary (requires attunement by a cleric, druid, or paladin)</Requirement>
+  <Name>Rod of Resurrection</Name>
+  <Description>The rod has 5 charges. While you hold it, you can use an action to cast one of the following spells from it: heal (expends 1 charge) or resurrection (expends 5 charges).
+The rod regains 1 expended charge daily at dawn. If the rod is reduced to 0 charges, roll a d20. On a 1, the rod disappears in a burst of radiance..</Description>
+  <Slot>Focus</Slot>
+  <Base>Rod</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <PostName>of Resurrection</PostName>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

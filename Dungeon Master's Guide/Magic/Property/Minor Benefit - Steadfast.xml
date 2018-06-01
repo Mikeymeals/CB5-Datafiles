@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Minor Property</Name>
+      <Text>While attuned to the artifact, you can't be charmed or frightened.
+</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>charmed</string>
+        <string>frightened</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Minor Benefit - Steadfast</Name>
+  <Description>While attuned to the artifact, you can't be charmed or frightened.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>None</Rarity>
+</MagicProperty>

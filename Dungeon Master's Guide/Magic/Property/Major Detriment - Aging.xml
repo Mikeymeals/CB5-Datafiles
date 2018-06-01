@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Major Property</Name>
+      <Text>Each time you become attuned to the artifact, you age 3d10 years. You must succeed on a DC 10 Constitution saving throw or die from the shock. If you die, you are instantly transformed into a wight (see the Monster Manual) under the DM 's control that is sworn to protect the artifact.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Name>Major Detriment - Aging</Name>
+  <Description>Each time you become attuned to the artifact, you age 3d10 years. You must succeed on a DC 10 Constitution saving throw or die from the shock. If you die, you are instantly transformed into a wight (see the Monster Manual) under the DM 's control that is sworn to protect the artifact.</Description>
+  <Slot>None</Slot>
+  <Base>true</Base>
+  <Source>Dungeon Master's Guide</Source>
+  <Rarity>None</Rarity>
+</MagicProperty>
