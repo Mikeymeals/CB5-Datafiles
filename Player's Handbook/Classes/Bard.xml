@@ -918,7 +918,7 @@ You learn two additional spells from any class at 14th level and again at 18th l
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Items>
-            <string>leather armor</string>
+            <string>leather</string>
             <string>dagger</string>
           </Items>
           <CP>0</CP>
