@@ -737,7 +737,7 @@ You are also aware of the location of any invisible creature within 30 feet of y
       <Action>Hidden</Action>
       <Items>
         <string>Scale mail</string>
-        <string>Leather Armor</string>
+        <string>Leather</string>
       </Items>
       <CP>0</CP>
       <SP>0</SP>
