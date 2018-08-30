@@ -21,6 +21,6 @@
   <Source>Player's Handbook</Source>
   <Weight>20</Weight>
   <BaseAC>14</BaseAC>
-  <StealthDisadvantage>true</StealthDisadvantage>
+  <StealthDisadvantage>false</StealthDisadvantage>
   <StrengthRequired>0</StrengthRequired>
 </Item>
