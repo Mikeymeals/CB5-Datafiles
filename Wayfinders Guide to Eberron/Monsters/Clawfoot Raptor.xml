@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Clawfoot Raptor</Name>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>nartural armor</ACText>
+  <HP>16</HP>
+  <HPRoll>3d8+3</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Pounce</Name>
+      <Text>If the clawfoot moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the clawfoot can make one bite attack against it as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack +5 to hit, reach 5 ft. one target. Hit 10 (2d6+3) slashing damage</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3 slashing</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack +5 to hit, reach 5 ft. one target. Hit 8 (2d4+3) piercing damage</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d4+3 piercing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

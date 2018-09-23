@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Shiftweave</Name>
+      <Text>When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. By taking an action and uttering a command word, you can transform your shiftweave outfit into one the other designs contained within it.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Shiftweave</Name>
+  <Description>Transmutation magic is woven into the fabric of shiftweave clothing. When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. By taking an action and uttering a command word, you can transform your shiftweave outfit into one the other designs contained within it. To determine the price of a suit of shiftweave, combine the value of all the outfits it contains and add 25 gp to that amount.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

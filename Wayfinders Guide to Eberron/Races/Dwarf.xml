@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>2</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50.
+On average, they live about 350 years.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>25</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>true</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Dwarven Resilience</Name>
+      <Text>You have advantage on saving throws against poison, and you have resistance against poison damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>poison</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>poison</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Dwarven Combat Training</Name>
+      <Text>You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>battleaxe</string>
+        <string>handaxe</string>
+        <string>light hammer</string>
+        <string>warhammer</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tool Proficiency</Name>
+      <Text>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>DWARF_TOOLS</UniqueID>
+      <Condition>Artisan and (Smith or Brewer or Mason)</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <Feature>
+      <Keywords />
+      <Name>Stonecunning</Name>
+      <Text>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Dwarvish</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Dwarven Subrace</Name>
+      <Text>Two main subraces of dwarves populate the worlds of D&amp;D: hill dwarves and mountain dwarves. Choose one of these subraces.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Dwarf</string>
+      </Races>
+    </SubRaceFeature>
+  </Features>
+  <Name>Dwarf</Name>
+  <Flavour>“Gold is the gift of the mountains, but iron comes from blood and bone”
+—Mror Proverb</Flavour>
+  <Size>Medium</Size>
+  <Description>The origin of the dwarves is shrouded in mystery. Their legends say that they came to Khorvaire from a land of endless ice; some believe this to mean the arctic Frostfell, while others assert that the first dwarves must have come from the plane of Risia itself. Wherever they began, the dwarves established a mighty nation beneath the surface of Khorvaire. Tales speak of mighty artifacts and vast treasures crafted in the deeps, and of wars fought against the goblin Empire of Dhakaan. No one knows where the line lies between truth and story. The ancestors of the modern dwarves were exiles from this ancient kingdom, and the realm below was destroyed by the daelkyr. Bold adventurers can delve into the haunted darkness of the fallen kingdom… but legends are the only legacy modern dwarves have of this age of glory.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Dwarves of the Five Nations</Name>
+      <Text>Dwarves are spread across Khorvaire. Dwarf soldiers and engineers were part of the armies that united the Five Nations, and dwarf masons laid the foundations of the greatest cities of Galifar. While many of the dwarves of the Five Nations still speak the language of their ancestors, they feel a bond to the lands of their birth. A Brelish dwarf feels a deep, personal connection to the towers of Sharn or the great walls of Wroat; the typical dwarf is actually more patriotic than the average human of the Five Nations. This passion caused most dwarves to serve their nation in the Last War, at least for a time; this is the general basis of dwarven weapon training. Most dwarves also have a strong bond to their families, so to a dwarf, family and nation are two edges of the same blade.
+As a dwarf of the Five Nations, consider how widespread your family is and where their roots lie. Are they soldiers? Priests or politicians? Architects or stonemasons? Are you close to your relatives or have you had a falling out—or potentially lost your kin in the Last War? Likewise, consider what you did in the war and how that reflects on your current actions. Were you a soldier, and if so, how did that service end? If not, did you serve your nation in another way, or did you turn your back on it?</Text>
+    </Description>
+    <TableDescription>
+      <Name>Dwarves of the Mror Holds</Name>
+      <Text>The Mror Holds are discussed in chapter 2. One question to consider is why you’ve left the Holds. Whether you’re an heir of a noble clan or a simple guild artisan, what has drawn you away from your homeland? The Mror Past table provides a few ideas.</Text>
+      <Amount>1</Amount>
+      <UniqueID>DWARF_MROR_PAST</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>A feud with a rivial clan has gotten out of hand, and it’s best that you leave the Holds for a few decades.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You’re in a large family and there’s no room for you to shine in your hold; you hope to prove yourself in the wider world.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>Your clan has arranged your marriage and your future; you’ve decided to have a few adventures before you settle down.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You’re pursuing a vendetta with a personal rival. Are you seeking to defeat them in battle or in business?</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You’re searching for a legendary dwarven artifact, removed from the Mro Holds centuries ago by a Karrnathi noble.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>You want to assemble a band of champions who can help you explore the ancient ruins beneath your ancestral home.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <Description>
+      <Name>Dwarves and Dragonmarks</Name>
+      <Text>House Kundarak carries the Mark of Warding. In addition to providing all manner of security, House Kundarak dominates the banking industry.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>

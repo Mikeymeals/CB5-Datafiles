@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Keycharm</Name>
+  <Description>This simple object plays a vital role in the work of House Kundarak. If you possess the Mark of Warding, when you cast alarm, arcane lock, glyph of warding, or similar abjuration effects, you can tie the effect to the keycharm. Whoever holds the keycharm is considered to the owner of this enchantment; they receive the notification from alarm, they can safely avoid a glyph, and they can deactivate any associated effect.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

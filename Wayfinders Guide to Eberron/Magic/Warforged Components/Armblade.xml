@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Armblade</Name>
+      <Text>An armblade is a weapon designed to integrate with the forearm of a warforged. If you’re a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Weapon (any one-handed melee weapon)</Requirement>
+  <Name>Armblade</Name>
+  <Description>An armblade is a weapon designed to integrate with the forearm of a warforged. If you’re a warforged, you can attach an armblade by attuning to it. An attached armblade cannot be disarmed or removed from you against your will, but while the weapon is attached you cannot use that hand for other actions. You can spend one minute to end the attunement and remove the armblade.
+An armblade isn’t inherently considered to be a magic weapon for purposes of overcoming damage resistance. However, any sort of magical melee weapon could be created as an armblade, so you could acquire a vicious armblade or a vorpal armblade.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Weapon and not Two_Handed and not Unarmed and Melee</Base>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

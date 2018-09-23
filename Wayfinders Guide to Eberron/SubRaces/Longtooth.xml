@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Fierce</Name>
+      <Text>You have proficiency with the Intimidation skill.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Intimidation</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Shifting Feature</Name>
+      <Text>While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Longtooth</Name>
+  <Description>Longtooth shifters are fierce and aggressive, but they form deep bonds with their friends. Many longtooth shifters have canine traits that become more pronounced as they shift, but they might instead draw on tigers, hyenas, or other predators.</Description>
+  <ParentRace>Shifter</ParentRace>
+</SubRace>

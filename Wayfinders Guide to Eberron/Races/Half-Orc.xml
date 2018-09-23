@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+  </Features>
+  <Name>Half-Orc</Name>
+  <Flavour>“We’re hunters in a world of sheep”
+—Kalaash’arrna, Tharashk Inquisitive</Flavour>
+  <Size>Medium</Size>
+  <Description>Half-orcs can be found anywhere orcs and humans meet. The Ghaash’kala orcs of the Demon Wastes are devout servants of the Silver Flame who devote their lives to containing the evils of the Wastes; as a half-orc paladin, you might have been sent south on a divine mission, hoping your human blood will help you deal with these soft creatures. You could be the orphan child of an unusual pairing, forced to find your own way in the world. But the greatest concentration of half-orcs is in the Shadow Marches, where humans and orcs have coexisted for centuries. With the rise of the dragonmarked House Tharashk, orcs and halforcs have spread out through the Five Nations and beyond.
+Overall, the people of the Five Nations know little about half-orcs. The archetype of the Tharashk half-orc is that of a bounty hunter or inquisitive, though there’s also a touch of “simpleton from the swamps.” People may be uneasy around you or assume that you know little about the ways of civilization. With that said, while orcs are typically seen as primitives who live on the fringes of civilization, in Eberron orcs aren’t inherently EVIL. People may be afraid of you because they think you’re a dangerous bounty hunter, but there’s no immediate assumption that you’re cruel or bloodthirsty... Most of the time.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Half-Orcs of the Shadow Marches</Name>
+      <Text>Where the people of the Five Nations know little of your kind, in the swamps of the Shadow Marches half-orcs are celebrated. Human refugees settled in the Shadow Marches centuries ago, and the first half-orcs helped to cement the bond between these outsiders and the native orcs. Many Marchers feel that the half-orc carries the best traits of both races, with the strength of the orc and the cunning of the human.
+The rise of House Tharashk has brought prosperity to the Marches. Many of the Marcher clans work for the house in some capacity, and you could be an agent of the house even if you don’t carry the Mark of Finding, working as a bounty hunter or a clever investigator. But there are other paths you could follow.
+• The Gatekeeper druids of the Shadow Marches have defended Eberron from aberrations and the daelkyr for thousands of years. As a druid, ranger, or barbarian, you could be a Gatekeeper initiate pursuing a quest in the wider world.
+• The Cults of the Dragon Below also have deep roots in Shadow Marches. While cultists are often evil, the main thing about the Cults is that their beliefs generally seem like madness to others. You could be a halforc barbarian who’s ventured beyond the Marches so you can find worthy enemies; slaying powerful foes is the only way to earn your passage to the paradise that lies within the heart of the hollow world. This is also a logical path for a warlock using the Great Old One pact.
+• You could be a simple hunter from the Shadow Marches. You might have fought as a mercenary in the Last War, or you could be seeking your fortune or a real challenge in the world that lies beyond.</Text>
+    </Description>
+    <Description>
+      <Name>Half-Orcs and Dragonmarks</Name>
+      <Text>The half-orcs of House Tharashk carry the Mark of Finding. House Tharashk licenses bounty hunters, inquisitives, and prospectors; if you want something found, turn to Tharashk.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>

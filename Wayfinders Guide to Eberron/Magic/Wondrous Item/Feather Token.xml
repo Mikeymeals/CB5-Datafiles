@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Feather Token</Name>
+      <Text>While the token is in your possession, you can cast feather fall as a bonus action. A feather token holds sufficient charge for a single use, after which it loses its power.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <Spell>Feather Fall</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Feather Token</Name>
+  <Description>This small metal disk is inscribed with the image of a feather. While the token is in your possession, you can cast feather fall as a bonus action. A feather token holds sufficient charge for a single use, after which it loses its power. While it’s an expensive form of insurance, frequent airship travelers and citizens of Sharn often appreciate the security it provides.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

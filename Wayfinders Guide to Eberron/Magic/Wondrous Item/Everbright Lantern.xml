@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Everbright Lantern</Name>
+      <Text>An everbright lantern provides clear illumination in a 60-foot cone and shadowy illumination in a 120-foot cone, just like a mundane bullseye lantern, but its flame never goes out.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Everbright Lantern</Name>
+  <Description>An erverbright lantern contains an Eberron dragonshard imbued witht eh effect of a continual light spell. This bright light is mounted inside a normal bullseye lantern, allowing the light to be shuttered off. An everbright lantern provides clear illumination in a 60-foot cone and shadowy illumination in a 120-foot cone, just like a mundane bullseye lantern, but its flame never goes out.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

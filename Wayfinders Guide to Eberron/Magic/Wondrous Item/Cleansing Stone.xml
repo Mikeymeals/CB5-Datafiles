@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Cleansing Stone</Name>
+      <Text>When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Cleansing Stone</Name>
+  <Description>A cleansing stone is a stone sphere one foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person. Cleansing stone are often embedded into pedestals in public squares in Aundair or found in high-end Ghallanda inns.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

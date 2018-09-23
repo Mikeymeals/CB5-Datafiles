@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>2</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 25 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>25</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Lucky</Name>
+      <Text>When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Brave</Name>
+      <Text>You have advantage on saving throws against being frightened.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>frightened</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Halfling Nimbleness</Name>
+      <Text>You can move through the space of any creature that is of a size larger than yours.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Halfling</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Halfling Subrace</Name>
+      <Text>The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Halfling</string>
+      </Races>
+    </SubRaceFeature>
+  </Features>
+  <Name>Halfling</Name>
+  <Flavour>“Zombies? Minotaurs? Those things don’t scare me at all. But a howling halfling warrior charging at you on a clawfoot raptor? Most terrifying thing I’ve ever seen.”
+—Sir Danton ir’Lain, Brelish knight</Flavour>
+  <Size>Small</Size>
+  <Description>The halflings of Eberron began in the east of Khorvaire, and nomadic tribes still wander the Talenta Plains. However, many halflings followed their dragonmarked houses into the lands to the west, and they’ve been a part of the Five Nations since before the rise of Galifar.
+In Eberron, halfling subraces represent personal aptitude as opposed to genetics. Most halflings are lightfoot, especially in the Talenta Plains, but stout halflings can be found in any community. Ghostwise halflings are extremely rare; in the Talenta Plains they are considered to be touched by the spirits and often become respected druids, while in the Five Nations they are generally seen as oddities.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Halflings and Dragonmarks</Name>
+      <Text>Halflings carry two dragonmarks. House Jorasco carries the Mark of Healing and dominates the business of medicine. House Ghallanda holds the Mark of Hospitality and runs inns, hostels, and taverns across Khorvaire.</Text>
+    </Description>
+    <Description>
+      <Name>Halflings of the Five Nations</Name>
+      <Text>Halflings can be found in every city in Khorvaire. Quick and charming, halflings are often found as merchants, politicians, barristers, and bards. Of course, these same talents are useful for grifters and other criminals.
+Most notably, the halflings of the Boromar Clan are the most powerful criminal organization in Breland. They are based in Sharn, but their influence can be felt across the nation and even in the distant city of Stormreach. If you decide to play a halfling rouge—or any character with a criminal or charlatan background—you should decide if you have a connection to the Boromar Clan, and discuss this with your DM. You could be a freelance operative who occasionally gets jobs from a Boromar underboss. You could have a cousin in the Boromar Clan, who occasionally pulls you into their problems. Or you could even be the reluctant heir of a powerful Boromar leader; you’ve gone on the run rather than taking your place in this criminal empire, but someday your past may catch up with you.</Text>
+    </Description>
+    <TableDescription>
+      <Name>Talenta Halflings</Name>
+      <Text>The Talenta Plains and its people are described in chapter 2. As a Talenta halfling, a critical question is why you’ve left the Plains. Perhaps you served as a mercenary scout in the Last War and you’ve remained with the comrades you met in the conflict. Maybe your tribe was wiped out by a foreign enemy—the Aurum, the Emerald Claw—and you are traveling the wider world in search of information and revenge. Perhaps you’re guided by the spirits, who send you whispers and visions driving you on your adventures. You could be an official envoy of your tribe seeking allies in the world, or simply sent to learn more about the lands beyond the plains. Are you amazed by the wonders of the Five Nations and their everyday magic, or do you take the world of the big folk in stride? The Talentan Halfling Quirk table provides ways to reflect your outsider perspective.
+Dinosaurs play an important role in Talentan culture. How does this affect you? Do you have a clawfoot companion? As a druid you can assume dinosaur forms; as a monk you could use fighting styles based on different dinosaurs. Likewise, in playing a Beast Totem barbarian or Circle of the Shepherd druid, consider replacing the traditional totems with the following.
+Bear: Hammertail (ankylosaurus)
+Eagle: Glidewing (pteranodon)
+Wolf: Clawfoot raptor</Text>
+      <Amount>1</Amount>
+      <UniqueID>HALFLING_TALENTA_QUIRK</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You are constantly amazed by the things the people of the Five Nations take for granted.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You pattern your behavior on a particular species of dinosaur.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You are extremely curious, and you’re searching for new experiences.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You love to boast, and always telling exaggerated stories of your amazing adventures.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You wear a mask that you believe holds the spirit of your former mount, and you talk to it when you are troubled.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>You don’t understand the concept of “truth.” To you, everything is a story and it’s all about how you tell it.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Text>You are annoyed by buildings and tools designed without consideration for small creatures.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Text>You seek vengeance for a wrong done to your tribe or family.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Text>You never forget an insult or injury.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Text>You see the hand of the spirits in everything that occurs around you</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>

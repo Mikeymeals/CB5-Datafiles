@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Strength</Throw>
+    </Save>
+  </Keywords>
+  <CantripDamage />
+  <Name>Gust</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>30 feet</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>0</Level>
+  <Description>You seize the air and compel it to create one of the following effects at a point you can see within range:
+• One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.
+• You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn’t pushed with enough force to cause damage.
+• You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze.</Description>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <FormsCompanionsCount>0</FormsCompanionsCount>
+</Spell>

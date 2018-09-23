@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>2</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Natural Tracker</Name>
+      <Text>You have proficiency with the Survival skill.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Survival</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Mark the Scent</Name>
+      <Text>As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked creature, and you always know the location of that creature if it is within 60 feet of you. You can’t use this trait again until you finish a short or long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>SHIFTER_WILDHUNT_MARK_THE_SCENT</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Shifting Feature</Name>
+      <Text>While shifted, you have advantage on Wisdom checks.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Wildhunt</Name>
+  <Description>Wildhunt shifters are sharp and insightful. Some are constantly alert, ever wary for possible threats. Others focus on their intuition, searching within. Wildhunt shifters are excellent hunters, and they also tend to become the spiritual leaders of shifter communities.</Description>
+  <ParentRace>Shifter</ParentRace>
+</SubRace>

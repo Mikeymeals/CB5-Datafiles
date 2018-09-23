@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Eldritch machine</Requirement>
+  <Name>Dimensional Seal</Name>
+  <Description>A dimensional seal a massive stone slab covered with a complex pattern of runes and sigils.
+The seal projects an invisible field with a radius of two miles. This field blocks all forms of conjuration magic and any other effect that involves teleportation or planar travel. It also negates the effects of any manifest zone with the field.
+Dimensional seals are usually found in the Eldeen Reaches and the Shadow Marches, as relics of the conflict between the Gatekeeper druids and the daelkyr. The techniques used to create these seals have been long lost. It’s said that as a whole, the dimensional seals keep the daelkyr bound in Khyber and prevent Xoriat from becoming coterminous with Eberron. If enough of these seals are destroyed, there could be serious consequences for the world.</Description>
+  <Slot>None</Slot>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

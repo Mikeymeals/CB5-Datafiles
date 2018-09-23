@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Wand Sheath</Name>
+      <Text>You can insert a wand into the sheath as an action.
+If the sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand only count as a single item for purposes of the maximum number of items you can be attuned to. If you remove the wand from the sheath, you immediately lose your attunement to the wand.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Wand Sheath</Name>
+      <Text>You can retract the wand into your forearm or extend it from your forearm as a bonus action. While it is retracted, it cannot be damaged or removed.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Wand Sheath</Name>
+      <Text>While the wand is extended, you can use it as if you were holding it, but your hand remains free for other actions.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrus Item</Requirement>
+  <Name>Wand Sheath</Name>
+  <Description>An wand sheath is designed to integrate with the forearm of a warforged. If you’re a warforged, you can attach an wand sheath by attuning to it. While the wand sheath is attached, it cannot be removed from you against your will. You can spend one minute to end the attunement and remove the wand sheath.
+You can insert a wand into the sheath as an action. While the wand is sheathed, you gain the following benefits
+• You can retract the wand into your forearm or extend it from your forearm as a bonus action. While it is retracted, it cannot be damaged or removed.
+• While the wand is extended, you can use it as if you were holding it, but your hand remains free for other actions.
+• If the sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand only count as a single item for purposes of the maximum number of items you can be attuned to. If you remove the wand from the sheath, you immediately lose your attunement to the wand.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Common</Rarity>
+</MagicProperty>

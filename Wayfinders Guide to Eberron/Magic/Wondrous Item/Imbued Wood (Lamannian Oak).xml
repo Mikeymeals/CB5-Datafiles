@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Imbued Wood</Name>
+      <Text>This arcane focus provides a +1 bonus when you roll damage for a spell that inflicts lightning or thunder damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>Lightning or Thunder</Spells>
+    </SpellModifyFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Lightning or Thunder</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>1</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedEquipFeatures>
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Imbued Wood (Lamannian Oak)</Name>
+  <Description>Powerful manifest zones can infuse local trees with planar energies. A gifted artificer can tap into this to create a wand, staff, or rod that is especially effective at channeling a particular type of energy.
+An arcane focus provides a +1 bonus when you roll damage for a spell that inflicts a specific type of damage, as shown below.
+• Fernian Ash: Fire damage.
+• Irian Rosewood: Radiant damage.
+• Kythrian Manchineel: Acid or poison damage.
+• Lamannian Oak: Lightning or thunder damage.
+• Mabaran Ebony: Necrotic damage.
+• Quori Beech, Xorian Wenge: Psychic damage.
+• Risian Pine: Cold damage.
+• Shavarran Birch: Force damage.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Rod or Staff or Wand</Base>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <PrependName>Lamannian Oak</PrependName>
+  <Rarity>Common</Rarity>
+</MagicProperty>

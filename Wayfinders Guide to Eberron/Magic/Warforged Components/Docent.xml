@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Docent</Name>
+      <Text>In addition, a docent possesses up to three of the following traits.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Detect Magic</Name>
+          <Text>Can cast Detect magic at will.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+          <Spell>Detect Magic</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Detect Evil and Good</Name>
+          <Text>Can cast Detect evil and good at will</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+          <Spell>Detect Evil and Good</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>AtWill</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <Feature>
+          <Keywords />
+          <Name>Detect Divination</Name>
+          <Text>Can detect any form of divination or scrying targeting the warforged host.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intelligence (Arcana) +7</Name>
+          <Text>This uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intelligence (History) +7</Name>
+          <Text>This uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intelligence (Investigation) +7</Name>
+          <Text>This uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intelligence (Nature) +7</Name>
+          <Text>This uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Wisdom (Insight) +6</Name>
+          <Text>This uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Wisdom (Perception) +6</Name>
+          <Text>This uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Medicine</Name>
+          <Text>The docent can make Wisdom (Medicine) checks targeting its warforged host, with a +7 bonus. If the host is rendered unconscious, the docent will automatically attempt to stabilize them once each turn.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Choices>
+      <Amount>3</Amount>
+      <UniqueID>WARFOPRGED_DOCENT_TRAITS</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrus Item</Requirement>
+  <Name>Docent</Name>
+  <Description>A docent is a small metal sphere, approximately 2 inches across, studded with dragonshards. Despite a strong magical aura, it has no obvious abilities. If you’re a warforged, you can attune to the docent, at which point the sphere becomes embedded in your chest and comes to life—literally.
+A docent is an intelligent magic item designed to advise and assist the warforged it’s attached to. A typical docent has an Intelligence score of 16 and Wisdom and Charisma scores of 14. Once you’re attuned to the docent, it can communicate with you telepathically and can perceive the world through your senses. One of the simple functions of a docent is to serve as a translator. All docents understand Common and Giant, but a docent knows up to four additional languages. Elven and Draconic are common options. If a docent knows less than six languages in total, it can add new languages to its repertoire after encountering them. So a docent found in Xen’drik may have never encountered a dwarf before… but after spending some time in Khorvaire studying dwarves, it could pick up the Dwarven language. 
+In addition, a docent possesses up to three of the following traits.
+• Can cast Detect magic at will
+• Can cast Detect evil and good at will
+• Can detect any form of divination or scrying targeting the warforged host.
+• Intelligence (Arcana) +7
+• Intelligence (History) +7
+• Intelligence (Investigation) +7
+• Intelligence (Nature) +7
+• Wisdom (Insight) +6
+• Wisdom (Perception) +6
+• The docent can make Wisdom (Medicine) checks targeting its warforged host, with a +7 bonus. If the host is rendered unconscious, the docent will automatically attempt to stabilize them once each turn.
+You can use a bonus action on your turn to request that the docent use one of its traits on your behalf. In the case of skills, this uses the docent’s bonus; your abilities and proficiencies have no effect on the outcome. These traits are under the control of the docent, and if you have a bad relationship with your docent it may refuse to assist you… or simply lie about the information it obtains. However, if you treat your docent well it could serve as a useful ally.
+The origin of docents is a great mystery. House Cannith created the first warflorged thirty years ago. But the docents come from the distant land of Xen’drik and appear to be thousands of years old. Were they created to interface with some other form of construct? Or are the modern warforged a new interpretation of an ancient design? The docents claim to have forgotten their creators… but this is a mystery waiting to be unraveled. While all docents come from Xen’drik, some have been brought to Khorvaire by explorers and it’s possible to encounter them in the Five Nations.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Bag of Bounty</Name>
+      <Text>A bag of bounty be used up to three times over the course of a day. After that, the bag can’t be used again until the next dawn.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>EBERRON_BAG_OF_BOUNTY</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bag of Bounty</Name>
+      <Text>If you have the Mark of Hospitality you can use an action to cast create food and water, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you’re proficient with cook’s utensils, add your bonus to this check. A failed check results in a sour and squalid meal.
+Food Quality and Difficulty
+Poor: No roll required
+Modest: 10
+Comfortable: 13
+Wealthy: 15
+Aristocratic: 18
+A bag of bounty be used up to three times over the course of a day. After that, the bag can’t be used again until the next dawn.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Create Food and Water</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Bag of Bounty</Name>
+  <Description>This is a sturdy leather sack with tiny Siberys shards embedded into the lining. If you have the Mark of Hospitality you can use an action to cast create food and water, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you’re proficient with cook’s utensils, add your bonus to this check. A failed check results in a sour and squalid meal.
+Food Quality and Difficulty
+Poor: No roll required
+Modest: 10
+Comfortable: 13
+Wealthy: 15
+Aristocratic: 18
+A bag of bounty be used up to three times over the course of a day. After that, the bag can’t be used again until the next dawn.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

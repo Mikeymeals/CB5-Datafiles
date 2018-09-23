@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>2</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience.  An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Elves love freedom, variety, and selfexpression, so they lean strongly toward the gentler aspects of chaos.  They value and protect others’ freedom as well as their own, and they are more often good than not.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text> Elves range from under 5 to over 6 feet tall and have slender builds.  Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Keen Senses</Name>
+      <Text>You have proficiency in the Perception skill.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Perception</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Fey Ancestry</Name>
+      <Text>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>charmed</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Trance</Name>
+      <Text>Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Elvish</string>
+        <string>Common</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Elven Subrace</Name>
+      <Text>Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of these subraces. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Elf</string>
+      </Races>
+    </SubRaceFeature>
+  </Features>
+  <Name>Elf</Name>
+  <Flavour>Caerys held her double blade in the falcon guard, level with her shoulders and spreading out like wings. “I came in search of legends. Ten thousand years ago Daealyth of Taeri stood this ground and faced your ancestors, and twenty fell before his singing blades. You are no Dhakaani of old, and a mere twenty of you will bring no honor to the Taeri.”
+The warlord hissed in fury, and his flail flashed in the firelight. The chain wrapped around Caerys’ blade but she twisted away. The flail flew into the darkness. She spun forward, her double blade weaving a circle of fire as she danced toward the chieftain. In a memento the song of steel was over.
+Caerys watched as the warlord fell to the ground. With a contemptuous snap of her wrist, she flicked the blood from her blade into the eyes of the stunned onlookers. She smiled behind her spirit veil, counting the blades arrayed against her.
+“But forty will.”</Flavour>
+  <Size>Medium</Size>
+  <Description>Elven culture began on the distant continent of Xen’drik. Tens of thousands of years ago, the elves rose up against the giants who ruled that land. Ultimately, the elves fled from Xen’drik and settled the island nation of Aerenal. There they split into two distinct cultures: the introspective Aereni and the warlike Tairnadal. While neither of these cultures have much interest in human activities, a small number of elves have immigrated to Khorvaire over the years and have integrated with the cultures of the Five Nations.
+As a whole, elves are driven by tradition and respect for the past. Where humans value innovation, elves strive to perfect the techniques of their ancestors. With centuries to devote to their studies, the elves are masters of their chosen crafts; at the same time, their society has changed very little over the last five thousand years, while Khorvaire is constantly evolving. As an elf, consider your relationship with the past. Do you value the traditions of your ancestors? Or do you fear that your people are too mired in the past, and need to find a way forward?</Description>
+  <Descriptions>
+    <Description>
+      <Name>Elves of Aerenal</Name>
+      <Text>Aerenal is ruled by the Undying Court, a council of undead elves sustained by positive energy. The Undying Court wields godlike power and has protected your island home for thousands of years. The greatest heroes of your people join the Undying Court after death; if you achieve great things in your life, you too could achieve this immortality.
+The Aereni are isolationists who have little interest in the world beyond their island. The Five Nations are a place of chaos and war. With this in mind, what has caused you to leave your island and wander the world? Are you in search of a power that could earn you your place in the Undying Court? Have you been given a quest by one of your own deathless ancestors? Or are you an exile, banished from your homeland for some crime against the Undying Court?
+As one of the Aereni, think about your history. What is your family known for, and how can you prove yourself to be a master of these skills? Do you have ancestors in the Undying Court, and if so, what’s your relationship with them? Do you find dealing with the short-lived races to be a challenge, or are you patient with them?</Text>
+    </Description>
+    <Description>
+      <Name>Elves of Valenar</Name>
+      <Text>Your people are dedicated to the arts of war. Millenia ago, your ancestors fought an epic war against mighty giants. When they came to Khorvaire, they battled the champions of the goblin empire. The greatest heroes of those struggles live on after death, known as the patron ancestors. When you became an adult, one of the patron ancestors formed a bond with you. Now it is your duty to follow in the footsteps of your patron, living your life as they lived theirs, allowing this champion to live on through you. This is why your people constantly seek out conflict; you need to find challenges worthy of a hero.
+In creating a Valenar, think about your patron ancestor. Your class should reflect their class; if you’re a wizard, your ancestor was likely a legendary archmage. If you’re a ranger, was your ancestor a famous blademaster, or a stealthy hunter? Was your ancestor chivalrous or merciless? Bold or clever? Whatever their nature, it’s your duty to follow their example. Is this something you proudly embrace, or do you resist it? Each patron ancestor is tied to many Valenar: do you have a particular rival who channels the same ancestor, or one who channels a rival of your ancestor?
+It’s also important to think about why you are traveling with a group of player characters instead of serving in a Valenar warband. Are you driven by visions from your patron ancestor? Are you pursuing an epic quest that mirrors their legendary deeds? Do you seek vengeance for the death of a friend or ally? Or have you turned away from your people, either by choice or because of the actions of a rival?</Text>
+    </Description>
+    <Description>
+      <Name>Valenar Double Scimitar</Name>
+      <Text>The double scimitar is the signature weapon of Valenar elves. A haft of fine wood supports a long blade on either end. Forged with techniques honed over tens of thousands of years, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double scimitar is an expensive weapon, but few people ever have an opportunity to purchase one. If you’re an elf, your blade could have a long and storied history. If you’re not an elf, you might have stolen the weapon from a fallen foe or received it from a dying Valenar ally. If you work with your DM to create the story behind your double scimitar, you can start with the weapon at 1st level in place of a martial weapon normally granted by your class. However, it can be dangerous for a non-elf to carry a double scimitar. Valenar may demand its return or challenge you to prove that you’re worthy to wield it.
+Special. When you take the attack action and make a two-handed attack with a double-bladed scimitar, you can use a bonus action to make a melee attack with the blade at the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon’s damage die for this attack is a d4, and it deals slashing damage.</Text>
+    </Description>
+    <Description>
+      <Name>Elves of Khorvaire</Name>
+      <Text>Throughout history, elves have occasionally immigrated to Khorvaire—some by choice, some through exile. Many of the finest wizards in the Five Nations are high elves, along with renowned artisans. Wood elves are found among the rangers and druids of the Eldeen Reaches, though you could just as easily be a wood elf who hunts in the darkest alleys of Sharn. Subrace is a matter of aptitude as opposed to genetics, and the people of Khorvaire will see you only as an elf. 
+As an elf in Khorvaire, you have grown up among short-lived races. You may not be as concerned with history and tradition as the Aereni and Valenar; you could even live your life entirely in the moment, with no care for your family or your legacy. Nonetheless, you may have outlived many human friends; how does that affect you? Did you know the parents or grandparents of another member of the party… and if so, might you be trying to repay a debt to that long-dead friend? Do you remember a time before the Last War? Did you fight in the war, and if so, for which side?</Text>
+    </Description>
+    <Description>
+      <Name>The Drow of Eberron</Name>
+      <Text>During the ancient war between giants of Xen’drik and their elf slaves, the magebreeders of the giants bound the essence of shadows into the loyal elves. These where the first drow, assassin bred to fight prey on their sunlit kin. The drow were made to kill elves, and while thousands of years have passed, a deep enmity remains between them.
+The drow remained on Xen’drik and were caught in the collapse of its civilizations. Today they linger in the shadows of Xen’drik and are all but unknown on Khorvaire. There are three distinct drow cultures. The Vulkoori are tribal hunters who worship totem spirits, especially the scorpion Vulkoor. They hunt giants and may threaten anyone who travels in the shattered land. The Sulatar live in obsidian cities and wield powerful fire magic; they seek to one day unleash fire across the world. And the Umbragen live in the underworld below Xen’drik, wielding sophisticated shadow magics as they battle against aberrations and the daelkyr.
+Most of the people of Khorvaire have never seen a drow, and you likely know little about the Five Nations. As a drow PC, are you a Vulkoori hunter who somehow made your way to Khorvarire—a primitive warrior finding your way in this strange new world? Are you an Umbragen shadow-wielder seeking powers that can help your people in their endless war? Or a Sulatar fire-binder pursuing a personal path to glory? Do you despise elves you encounter and seek out conflict, or are you willing to forget the ancient war between your people?</Text>
+    </Description>
+    <Description>
+      <Name>Corellon and Lolth</Name>
+      <Text>The elves of Eberron weren’t created by the gods you may know from other settings. In Eberron, the Sulat Giants created the drow as a weapon to fight the rebellious elves: there is a lingering enmity between drow and elf, but it’s not driven by the influence of Lolth. Meanwhile, the elves revere their ancestors—many of whom still linger and guide them—as opposed to distant gods.
+This is an opportunity to explore these traditional races in a new light. However, if you want to incorporate Corellon and Lolth, there’s a few ways to do it. One possibility is that Eberron was created as a copy of the distant realms of the multiverse, hidden away to prevent the gods from influencing it. As such, while the drow of Eberron have no knowledge of Lolth, if she found her way through the Ring of Siberys and into Eberron, she might be able to poison their hearts and turn them to her service.
+Alternately, you could present both Corellon and Lolth as legendary champions from the past. Corellon could be one of the great heroes and patron ancestors of the Valenar, or one of the leaders of the Undying Court; while Lolth could be the legendary first commander of the drow, whose spirit lingers and hungers for revenge.
+Ultimately, it’s a question of the story you want to tell. Do you want to preserve the unique cultures of Eberron? Incorporate Corellon and Lolth into those cultures organically? Or explore the idea of these powers just discovering Eberron and awakening hidden memories in the blood of elf and drow?</Text>
+    </Description>
+    <Description>
+      <Name>Elves and Dragonmarks</Name>
+      <Text>The elven houses of Phiarlan and Thuranni carry the Mark of Shadow. They control the business of espionage throughout Khorvaire, but they also operate more legitimate businesses related to art and entertainment. Once they were a single house, but they split during the Last War; now they are ruthless competitors in both espionage and entertainment.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>

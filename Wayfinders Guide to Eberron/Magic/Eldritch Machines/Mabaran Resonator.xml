@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Mabaran Resonator</Name>
+      <Text>This horrific device draws on the power of Mabar, infusing the dead with the malign energies of the Endless Night. While it is active, any creature that dies within two miles of the resonator reanimates in one round as a zombie under the control of creature attuned to the device. At the DM’s discretion, more powerful creatures can return as other forms of undead.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Eldritch machine</Requirement>
+  <Name>Mabaran Resonator</Name>
+  <Description>This horrific device draws on the power of Mabar, infusing the dead with the malign energies of the Endless Night. While it is active, any creature that dies within two miles of the resonator reanimates in one round as a zombie under the control of creature attuned to the device. At the DM’s discretion, more powerful creatures can return as other forms of undead.</Description>
+  <Slot>None</Slot>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

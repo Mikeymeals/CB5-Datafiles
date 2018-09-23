@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Humans reach adulthood in their late teens and live less than a century.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+  </Features>
+  <Name>Human</Name>
+  <Flavour>“The dwarf is stoic. The elf is wise. The gnome is cunning. And humans? They can’t make up their mind, so they try to be all these things at once.”
+—Kessler, Sharn bard</Flavour>
+  <Size>Medium</Size>
+  <Description>Humans have dominated Khorvaire for thousands of years. They founded the Five Nations and make up the majority of the population in these countries. Despite their relatively short lifespan—or perhaps because of it—humans are innovative, adaptable, and aggressive, always pushing their limits and pursuing new ideas.
+Humans are extremely diverse; a barbarian from the Demon Wastes has little in common with a Brelish rogue. When you’re creating a human character, consider where you’re from and how that’s reflected in your class and background. Chapter 2 presents an overview of the nations of Khorvaire and ideas for characters tied to those nations. However, these are ideas—not restrictions. Aundair is a logical origin for a wizard, but your wizard could be a down-and-out arcanist from the alleys of Sharn or a Lhazaar pirate with a knack for the mystic arts.
+The variant human presented in the Player’s Handbook provides an additional opportunity to capture some of the flavor of Eberron. Does your choice of skill proficiency and feat reflect the culture you were raised in?</Description>
+  <Descriptions>
+    <Description>
+      <Name>Human Traits</Name>
+      <Text>It’s hard to make generalizations about humans, but your human character has these traits.</Text>
+    </Description>
+    <Description>
+      <Name>Humnans and Dragonmarks</Name>
+      <Text>Humans possess a wide range of Dragonmarks, and their houses are spread across Khorvaire. House Cannith is one of the most powerful houses, creating both magic and mundane items with the Mark of Making. House Orien maintains the Lightning Rail and trade caravans that run across the continent. House Deneith brokers the services of bodyguards and mercenaries. House Vadalis uses the Mark of Handling to breed fine mounts and other creatures. House Tharashk produces bounty hunters, prospectors, and inquisitives.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>

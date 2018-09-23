@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others’ demands, and sometimes prove unreliable, or at least unpredictable.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Fey Ancestry</Name>
+      <Text>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>charmed</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Subrace</Name>
+      <Text>Do you have a Dragonmark?</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Half-Elf</string>
+      </Races>
+    </SubRaceFeature>
+  </Features>
+  <Name>Half-Elf</Name>
+  <Flavour>“I’m not ‘half’ anything. You humans come from Sarlona. The elves are from Arenal. Me? I’m a true child of Khorvaire.”
+—Nandon Tam, Khoravar activist</Flavour>
+  <Size>Medium</Size>
+  <Description>Half-elves are spread across Khorvaire, from the Towering Woods of the Eldeen Reaches to the slums of Sharn. New half-elves are born in every generation as a result of pairings between humans, elves, and half-elves, and these newborns typically cling to the cultures of their parents. However, over the course of centuries half-elves have developed their own communities and traditions; this sense of identity has been strengthened by the rise of House Lyrandar and House Medani.
+In making a half-elf character, think about whether you were born into a Khoravar community, or if you were born to parents of different races. Is your half-elf identity a source of pride, or something that has been difficult for you? The elves of Aerenal have never allowed a half-elf into the Undying Court, and the Valenar elves don’t consider half-elves to be capable of channeling a Valenar ancestral spirit..</Description>
+  <Descriptions>
+    <Description>
+      <Name>The Khoravar</Name>
+      <Text>When two half-elves conceive, the child is always a half-elf. Over the course of generations, families and communities of half-elves have developed their own cultural identity. Members of these families generally dislike the term “half-elf;” they call themselves Khoravar, an Elven term meaning “children of Khorvaire.”
+Khoravar culture places a strong emphasis on generosity and hospitality toward other Khoravar. You aren’t expected to put yourself in danger for a stranger, but when possible, half-elves do what they can to help other Khoravar and to share information. Khoravar communities have weekly unity dinners where local news and events are shared; if you’re playing a half-elf, a unity dinner is a good opportunity for you to hear about local events and rumors. Of course, this is a doubleedged sword; hould you gain a reputation as a capable adventurer, Khoravar in need may approach you and ask for your assistance.
+Khoravar speak both Common and Elven, and among themselves they often blend these two together. This pidgin makes perfect sense to anyone who speaks both languages, but someone who only speaks one of the two languages could have to make an Intelligence check (DC 10) to understand the full meaning of a statement.
+While some Khoravar prefer to follow their own paths, many espouse the idea of “the bridge between:” encouraging Khoravar to facilitate communication and cooperation between members of different cultures or species. Such Khoravar often become mediators, diplomats, translators, or bards. Others are fascinated by their distant connection to the Fey, becoming Greensinger druids or warlocks bargaining with Archfey. As a Khoravar, do any of these paths appeal to you?</Text>
+    </Description>
+    <Description>
+      <Name>Half-Elves and Dragonmarks</Name>
+      <Text>Half-elves families carry two dragonmarks. House Medani holds the Mark of Detection, and offers services related to investigation, threat assessment, and security. House Lyrandar carries the Mark of Storms. Lyrandar has long dominated the shipping industry, and the recent development of the airship has increased its power and potential. House Lyrandar presents itself as a pillar for the Khoravar, and even if you don’t have a dragonmark you could work for the house, whether as a sailor or a house agent.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>

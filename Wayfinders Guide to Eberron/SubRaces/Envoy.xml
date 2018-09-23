@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Two different ability scores of your choice increase by 1</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Strength</Name>
+          <Text>Your Strength score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Dexterity</Name>
+          <Text>Your Dexterity score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Constitution</Name>
+          <Text>Your Constitution score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>Your Intelligence score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Wisdom</Name>
+          <Text>Your Wisdom score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Charisma</Name>
+          <Text>Your Charisma score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>2</Amount>
+      <UniqueID>WARFORGED_ENVOY_ABILITY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Specialized Design</Name>
+      <Text>You gain one skill proficiency of your choice, one tool proficiency your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Specialized Design</Name>
+      <Text>You gain one skill proficiency of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <Amount>1</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>WARFORGED_ENVOY_SKILL</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Specialized Design</Name>
+      <Text>You gain one tool proficiency your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARFORGED_ENVOY_TOOL</UniqueID>
+      <Condition>Tool and not Weapon and not Armor</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Integrated Tool</Name>
+      <Text>Choose one tool you’re proficient with. This tool integrated into your body and you double your proficiency bonus for any ability checks you make with it. You must have your hands free to use this integrated tool.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARFORGED_ENVOY_INTEGRATED_TOOL</UniqueID>
+      <Condition>Tool and not Weapon and not Armor</Condition>
+    </ItemChoiceConditionFeature>
+  </Features>
+  <Descriptions>
+    <Description>
+      <Name>Envoys: Specialized Design</Name>
+      <Text>As the name implies, most warforged were built to fight in the Last War. The vast majority of warforged are juggernauts or skirmishers—soldiers and scouts who fought under the banner of one of the Five Nations.
+Warforged envoys, however, were designed to perform other functions. As an envoy you have a skill a tool proficiency and a tool that is part of your body. When you make an envoy character, consider the following questions: what is your purpose? How does your skill and tool reflect that purpose? What form does your integrated tool take? If you have embedded thieves’ tools for instance, are your fingers actually lockpicks or can you produce keys from various parts of your body? The following characters are examples of warforged with integrated tools.
+Lute is a bard with the entertainer background; his namesake instrument folds out of his left arm.
+Compass Rose is a wizard with the outlander background. A keen explorer, she uses her built-in cartograher’s tools to records the paths she travels.
+Masque is an infiltrator. A rogue with the charlatan background and an integrated disguise kit, she was built to blend in and assassinate. Cannith built six warforged of her design, and Masque has vowed to hunt down and destroy the other five.
+In developing your integrated tool, remember that you must have your hands free to use it. Masque, the infiltrator mentioned above, doesn’t shapeshift like a changeling; she has to manually adjust her appearance.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Envoy</Name>
+  <Description>As an envoy, you were designed with a certain specialized function in mind. You might be an assassin, a healer, or an entertainer, to name a few possibilities. Envoys are the rarest of the warforged subraces, and yours could be a unique design.</Description>
+  <ParentRace>Warforged</ParentRace>
+</SubRace>

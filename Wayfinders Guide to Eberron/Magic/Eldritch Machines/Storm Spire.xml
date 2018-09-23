@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Storm Spire</Name>
+      <Text>You can sense weather patterns within a 100-mile radius of the spire and accurately predict the weather for up to 24 hours.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Storm Spire</Name>
+      <Text>While you are within 60 feet of the spire, you can use an action to cast any of the following spells: call lightning, gust of wind. You cast these as 5th level spells, and Intelligence is your spellcasting ability.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Call Lightning</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Storm Spire</Name>
+      <Text>While you are within 60 feet of the spire, you can use an action to cast any of the following spells: call lightning, gust of wind. You cast these as 5th level spells, and Intelligence is your spellcasting ability.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Gust of Wind</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Storm Spire</Name>
+      <Text>While you are within 5 feet of the spire, you can cast control weather as a ten-minute ritual. This allows you to pick a point within 100 miles of the spire and influence the weather within a 10-mile radius of that point. Maintaining this effect require concentration.
+You can also use an action to influence the weather within a ten-mile radius of the spire itself; you don’t have to use concentration to maintain this effect, and you can sustain this at the same time that you’re manipulating distant weather.
+</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Spell>Control Weather</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>concentration</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Eldritch machine</Requirement>
+  <Name>Storm Spire</Name>
+  <Description>This eldritch machine is a form of dragonmark focus item; you must have the Greater Mark of Storms to attune to this device. Storm spires allow House Lyrandar to influence the weather, which can be a boon for the local population or a curse if the Lyrandar baron chooses to demand payment for desired conditions. You gain the following benefits while you are attuned to a storm spuire:
+• You can sense weather patterns within a 100-mile radius of the spire and accurately predict the weather for up to 24 hours.
+• While you are within 60 feet of the spire, you can use an action to cast any of the following spells: call lightning, gust of wind. You cast these as 5th level spells, and Intelligence is your spellcasting ability.
+• While you are within 5 feet of the spire, you can cast control weather as a ten-minute ritual. This allows you to pick a point within 100 miles of the spire and influence the weather within a 10-mile radius of that point. Maintaining this effect require concentration.
+• You can also use an action to influence the weather within a ten-mile radius of the spire itself; you don’t have to use concentration to maintain this effect, and you can sustain this at the same time that you’re manipulating distant weather.</Description>
+  <Slot>None</Slot>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

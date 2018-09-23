@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Elf Variants</Name>
+      <Text>The Valenar and Aereni are physically similar but culturally distinct. Aereni are typically high elves, while Valenar are usually wood elves; but both of these subraces are options in these cultures. The Aereni place greater importance on perfecting a single skill than on training with weaponry, while the Valenar take pride in their skill with scimitars. These elves have a racial trait in place of the Elf Weapon Training trait. If your DM allows it, your elf character can forgo Elf Weapon Training and instead take the elf trait based on their culture:
+• An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency.
+• A Valenar elf gains proficiency with the scimitar, double scimitar, longbow, and shortbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ToolProficiencyFeature>
+          <Keywords />
+          <Name>Elf Weapon Training</Name>
+          <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Tools>
+            <string>longsword</string>
+            <string>shortsword</string>
+            <string>shortbow</string>
+            <string>longbow</string>
+          </Tools>
+        </ToolProficiencyFeature>
+        <ToolProficiencyFeature>
+          <Keywords />
+          <Name>Valenar Elf Weapon Training</Name>
+          <Text>A Valenar elf gains proficiency with the scimitar, double scimitar, longbow, and shortbow.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Tools>
+            <string>longbow</string>
+            <string>Double-bladed Scimitar</string>
+            <string>longbow</string>
+            <string>shortbow</string>
+          </Tools>
+        </ToolProficiencyFeature>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Aereni Elf Proficiency</Name>
+          <Text>An Aereni elf can choose one skill or tool proficiency. Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>Aereni Elf Skill Proficiency</Name>
+              <Text>Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfProficient</BonusType>
+              <OnlyAlreadyKnownSkills>true</OnlyAlreadyKnownSkills>
+              <UniqueID>AERENI_ELF_PROFICIENCY_SKILL</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <ToolProficiencyChoiceConditionFeature>
+              <Keywords />
+              <Name>Aereni Elf Tooll Proficiency</Name>
+              <Text>Your proficiency bonus is doubled for any ability check you make that uses this chosen proficiency.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>AERENI_ELF_PROFICIENCY_TOOL</UniqueID>
+              <Condition>Tool and not Weapon and not Armor</Condition>
+            </ToolProficiencyChoiceConditionFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>AERENI_ELF_PROFICIENCY</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+        </ChoiceFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>EBERRON_ELF_VARIANT</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Fleet of Foot</Name>
+      <Text>Your base walking speed increases to 35 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>35</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Mask of the Wild</Name>
+      <Text>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Wood Elf</Name>
+  <Description>As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.
+Wood elves’ skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

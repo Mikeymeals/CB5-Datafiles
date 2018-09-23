@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Humans tend toward no particular alignment. The best and the worst are found among them.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Select an Ability Score Increase</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Normal Human Ability Scores</Name>
+          <Text>Your ability scores each increase by 1.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Variant Human Traits</Name>
+          <Text>If your campaign uses the optional feat rules from the Player’s Handbook, your Dungeon Master might allow these variant traits, all of which replace the human’s Ability Score Increase trait.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>Two different ability scores of your choice increase by 1</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Strength</Name>
+                  <Text>Your Strength score increases by 1</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Prerequisite />
+                  <Modifier>AddScore</Modifier>
+                  <Strength>1</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases by 1</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Prerequisite />
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Constitution</Name>
+                  <Text>Your Constitution score increases by 1</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Prerequisite />
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>1</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Intelligence</Name>
+                  <Text>Your Intelligence score increases by 1</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Prerequisite />
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>1</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Wisdom</Name>
+                  <Text>Your Wisdom score increases by 1</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Prerequisite />
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>1</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Charisma</Name>
+                  <Text>Your Charisma score increases by 1</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Prerequisite />
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>1</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>2</Amount>
+              <UniqueID>HUMAN_VARIANT_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+            </ChoiceFeature>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>Skills</Name>
+              <Text>You gain proficiency in one skill of your choice.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>1</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+              <UniqueID>HUMAN_VARIANT_SKILL</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <CollectionChoiceFeature>
+              <Keywords />
+              <Name>Feat</Name>
+              <Text>You gain one feat of your choice</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>HUMAN_VARIANT_FEAT</UniqueID>
+              <Collection />
+              <AllowSameChoice>false</AllowSameChoice>
+            </CollectionChoiceFeature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>HUMAN_VARIANT</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>HUMAN_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Human</Name>
+  <Description>Unmarked Human</Description>
+  <ParentRace>Human</ParentRace>
+</SubRace>

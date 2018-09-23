@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity and Charisma scores increase by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>1</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Graceful</Name>
+      <Text>You have proficiency with the Acrobatics skill.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Acrobatics</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Swift Stride</Name>
+      <Text>Your walking speed increases by 5 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Shifting Feature</Name>
+      <Text>While shifted, your walking speed increases by an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn’t provoke opportunity attacks.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Swiftstride</Name>
+  <Description>Swiftstride shifters are graceful and quick. Typically feline in nature, swiftstride shifters are often aloof and difficult to pin down physically or socially.</Description>
+  <ParentRace>Shifter</ParentRace>
+</SubRace>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>2</Charisma>
+    </AbilityScoreFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Strength</Name>
+          <Text>Your Strength score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Dexterity</Name>
+          <Text>Your Dexterity score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Constitution</Name>
+          <Text>Your Constitution score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>Your Intelligence score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Wisdom</Name>
+          <Text>Your Wisdom score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>2</Amount>
+      <UniqueID>HALF_ELF_ABILITY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skill Versatility</Name>
+      <Text>You gain proficiency in two skills of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>HALF_ELF_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common, Elvish, and one extra language of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>HALF_ELF_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Elvish</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Descriptions />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Name>Half-Elf</Name>
+  <Description>Unmarked Half-Elf</Description>
+  <ParentRace>Half-Elf</ParentRace>
+</SubRace>

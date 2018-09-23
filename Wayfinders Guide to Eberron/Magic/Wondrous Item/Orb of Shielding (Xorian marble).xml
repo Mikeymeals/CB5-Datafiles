@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Orb of Shielding</Name>
+      <Text>While you are holding the orb, it shields you from psychic damage. Any time you take such damage, reduce it by 1d4.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Orb of Shielding (Xorian marble)</Name>
+  <Description>An orb of shielding is made from crystal or stone aligned to one of the planes. While you are holding the orb, it shields you from a particular type of energy. Any time you take damage of that type, reduce it by 1d4. The materials and their associated damage types are listed below.
+• Fermian basalt: Fire damage
+• Irian quartz: Radiant damage
+• Kythrian skarn: Acid or poison damage
+• Lamannian flint: Lightning or thunder damage
+• Mabaran obsidian: Necrotic damage
+• Quori Celestine, Xorian marble: Psychic damage
+• Risian shale: Cold damage
+• Shavarran chert: Force damage</Description>
+  <Slot>Weapon</Slot>
+  <Base>Orb</Base>
+  <Source>Wayfinders Guide to Eberron</Source>
+  <PrependName>Xorian marble</PrependName>
+  <PostName>of Shielding</PostName>
+  <Rarity>Common</Rarity>
+</MagicProperty>

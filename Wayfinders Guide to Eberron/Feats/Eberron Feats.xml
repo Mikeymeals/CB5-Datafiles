@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Revenant Blade</Name>
+      <Text>You are descended from a master of the double blade and their skills have passed on to you. You gain the following benefits:
+• Increase your Dexterity or Strength score by 1, to a maximum of 20.
+• While wielding a double-bladed weapon with two hands, the weapon has the finesse trait for your attacks with it, and you gain +1 AC.
+• On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon’s damage die for this attack increases to 2d4, instead of 1d4.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Elf</Prerequisite>
+      <Features>
+        <ChoiceFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Dexterity or Strength score by 1, to a maximum of 20.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Choices>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Dexterity</Name>
+              <Text>Increase your Dexterity score by 1, to a maximum of 20.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>0</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>1</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+            <AbilityScoreFeature>
+              <Keywords />
+              <Name>Strength</Name>
+              <Text>Increase your Strength score by 1, to a maximum of 20.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Modifier>AddScore</Modifier>
+              <Strength>1</Strength>
+              <Constitution>0</Constitution>
+              <Dexterity>0</Dexterity>
+              <Intelligence>0</Intelligence>
+              <Wisdom>0</Wisdom>
+              <Charisma>0</Charisma>
+            </AbilityScoreFeature>
+          </Choices>
+          <Amount>1</Amount>
+          <UniqueID>ELF_REVENANT_BLADE</UniqueID>
+          <AllowSameChoice>false</AllowSameChoice>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </ChoiceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name>Revenant Blade</Name>
+          <Text>While wielding a double-bladed weapon with two hands, the weapon has the finesse trait for your attacks with it, and you gain +1 AC.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Name = 'Double-bladed Scimitar'</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <ACBonus>1</ACBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>Dexterity</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <BaseItemChange />
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+        <Feature>
+          <Keywords />
+          <Name>Revenant Blade</Name>
+          <Text>On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon’s damage die for this attack increases to 2d4, instead of 1d4.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Bonus</Action>
+          <Prerequisite />
+        </Feature>
+      </Features>
+      <Source>Wayfinders Guide to Eberron</Source>
+    </MultiFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Greater Dragonmark</Name>
+      <Text>Your dragonmark has grown in size and power. This enhances your existing dragonmark, and the benefits are based on the mark that you already possess. A greater dragonmark provides the following benefits:
+• The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).
+• Increase one ability score by 1, to a maximum of 20. The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.
+• You learn a set of spells, each of which you can cast once without expending a spell slot or using a material component. The list of spells, the spellcasting ability for them, and the type of rest you must complete to regain the use of these spells are shown on the Greater Dragonmark Benefits table.
+To cast Leomund’s secret chest using this feat and the Mark of Warding, you must have a Siberys dragonshard with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell’s focus, and you can use it to summon and dismiss the chest.
+
+Detection – Charisma or Intelligence – See Invisibilty, True Seeing – Intelligence – Long
+Finding – Dexterity, Strength, or Wisdom – Locate Creature, Find the Path – Wisdom – Long
+Handling – Dexterity or Wisdom – Beast Sense, Dominate Beast – Wisdom – Long
+Healing – Dexterity or Wisdom – Mass Healing Word, Greater Restoration – Wisdom – Long
+Hospitality – Charisma or Dexterity – Sanctuary, Mordenkainen’s Magnificent Mansion – Charisma – Long
+Making – Dexterity or Intelligence – Fabricate, Creation – Intelligence – Long
+Passage – Dexterity or Constitution – Blink, Teleportation Circle – Constitution – Long
+Scribing – Intelligence or Charisma – Sending, Tongues – Intelligence – Long or Short
+Sentinel – Strength or Wisdom – Compel Duel, Warding Bond – Wisdom – Long or Short
+Shadow – Charisma or Dexterity – Nondetection, Mislead – Charisma – Long
+Storm – Charisma or Dexterity – Control Water, Control Wind – Charisma – Long
+Warding – Dexterity or Intelligence – Knock, Glyph of Warding, Leomund’s Secret Chest* -- Intelligence – Long</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>8th level, character must possess a dragonmark</Prerequisite>
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>Detection</Name>
+          <Text>Charisma or Intelligence – See Invisibilty, True Seeing – Intelligence – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Detection</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Charisma</Name>
+                  <Text>Your Charisma score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>1</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Intelligence</Name>
+                  <Text>Your Intelligence score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>1</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_DETECTION_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the see invisibility spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>See Invisibility</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the true seeing spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>True Seeing</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the see invisibility and the true seeing spells. Intelligence is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Finding</Name>
+          <Text>Dexterity, Strength, or Wisdom – Locate Creature, Find the Path – Wisdom – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Finding</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Strength</Name>
+                  <Text>Your Strength score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>1</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Wisdom</Name>
+                  <Text>Your Wisdom score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>1</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_FINDING_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the locate creature spell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Locate Creature</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the find the path spell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Find the Path</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the locate creature and find the path spells. Wisdom is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Handling</Name>
+          <Text>Dexterity or Wisdom – Beast Sense, Dominate Beast – Wisdom – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Handling</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Wisdom</Name>
+                  <Text>Your Wisdom score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>1</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_HANDLING_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the beast sense spell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Beast Sense</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the dominate beast spell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Dominate Beast</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the beast sense and dominate beast spells. Wisdom is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Healing</Name>
+          <Text>Dexterity or Wisdom – Mass Healing Word, Greater Restoration – Wisdom – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Healing</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Wisdom</Name>
+                  <Text>Your Wisdom score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>1</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_HEALING_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the mass healing word spell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Mass Healing Word</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the greater restoration spell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Greater Restoration</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the mass healing word and greater restoration spells. Wisdom is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Hospitality</Name>
+          <Text>Charisma or Dexterity – Sanctuary, Mordenkainen’s Magnificent Mansion – Charisma – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Hospitality</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Charisma</Name>
+                  <Text>Your Charisma score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>1</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_HOSPITALITY_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the sanctuary spell. Charisma is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Sanctuary</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the Mordenkainen's magnificent mansion spell. Charisma is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Mordenkainen's Magnificent Mansion</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the sanctuary and Mordenkainen's magnificent mansion spells. Charisma is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Making</Name>
+          <Text>Dexterity or Intelligence – Fabricate, Creation – Intelligence – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Making</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Intelligence</Name>
+                  <Text>Your Intelligence score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>1</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_MAKING_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the fabcricate spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Fabricate</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the creation spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Creation</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the fabcricate and creation spells. Intelligence is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Passage</Name>
+          <Text>Dexterity or Constitution – Blink, Teleportation Circle – Constitution – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Passage</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Constitution</Name>
+                  <Text>Your Constitution score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>1</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_PASSAGE_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the blink spell. Constitution is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Blink</Spell>
+              <SpellCastingAbility>Constitution</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the teleportation circle spell. Constitution is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Teleportation Circle</Spell>
+              <SpellCastingAbility>Constitution</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the blink and teleportation circle spells. Constitution is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Scribing</Name>
+          <Text>Intelligence or Charisma – Sending, Tongues – Intelligence – Long or Short</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Scribing</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Intelligence</Name>
+                  <Text>Your Intelligence score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>1</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Charisma</Name>
+                  <Text>Your Charisma score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>1</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_SCRIBING_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the sending spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long or short rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Sending</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>ShortRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the tongues spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long or short rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Tongues</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>ShortRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the blink and tongues spells. Intelligence is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long or short rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Sentinel</Name>
+          <Text>Strength or Wisdom – Compel Duel, Warding Bond – Wisdom – Long or Short</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Sentinel</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Strength</Name>
+                  <Text>Your Strength score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>1</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Wisdom</Name>
+                  <Text>Your Wisdom score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>1</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_SENTINEL_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the compel duell. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long or short rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Compelled Duel</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>ShortRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the warding bond. Wisdom is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long or short rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Warding Bond</Spell>
+              <SpellCastingAbility>Wisdom</SpellCastingAbility>
+              <SpellCastModifier>ShortRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the compel duell and warding bond spells. Wisdom is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long or short rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Shadow</Name>
+          <Text>Charisma or Dexterity – Nondetection, Mislead – Charisma – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Shadow</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Charisma</Name>
+                  <Text>Your Charisma score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>1</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_SHADOW_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the nondetection spell. Charisma is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Nondetection</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the mislead spell. Charisma is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Mislead</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the nondetection and mislead spells. Charisma is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Storm</Name>
+          <Text>Charisma or Dexterity – Control Water, Control Wind – Charisma – Long</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Storm</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Charisma</Name>
+                  <Text>Your Charisma score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>1</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_STORM_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the control wind spell. Charisma is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Control Winds</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the control water spell. Charisma is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Control Water</Spell>
+              <SpellCastingAbility>Charisma</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the control water and control wind spells. Charisma is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Warding</Name>
+          <Text>Dexterity or Intelligence – Knock, Glyph of Warding, Leomund’s Secret Chest* -- Intelligence – Long
+To cast Leomund’s secret chest using this feat and the Mark of Warding, you must have a Siberys dragonshard with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell’s focus, and you can use it to summon and dismiss the chest.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Mark of Warding</Prerequisite>
+          <Features>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>The die type of your dragonmarked Intuition Die increases by one (for example, from a d4 to a d6).</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Other</Action>
+              <Prerequisite />
+            </Feature>
+            <ChoiceFeature>
+              <Keywords />
+              <Name>Ability Score Increase</Name>
+              <Text>The abilities available to you are based on your mark, as shown on the Greater Dragonmark Benefits table.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Choices>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Dexterity</Name>
+                  <Text>Your Dexterity score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>1</Dexterity>
+                  <Intelligence>0</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+                <AbilityScoreFeature>
+                  <Keywords />
+                  <Name>Intelligence</Name>
+                  <Text>Your Intelligence score increases score by 1, to a maximum of 20.</Text>
+                  <Level>1</Level>
+                  <Hidden>true</Hidden>
+                  <NoDisplay>false</NoDisplay>
+                  <Action>Hidden</Action>
+                  <Modifier>AddScore</Modifier>
+                  <Strength>0</Strength>
+                  <Constitution>0</Constitution>
+                  <Dexterity>0</Dexterity>
+                  <Intelligence>1</Intelligence>
+                  <Wisdom>0</Wisdom>
+                  <Charisma>0</Charisma>
+                </AbilityScoreFeature>
+              </Choices>
+              <Amount>1</Amount>
+              <UniqueID>GREATER_MARK_OF_WARDING_ABILITY</UniqueID>
+              <AllowSameChoice>false</AllowSameChoice>
+              <Source>Wayfinders Guide to Eberron</Source>
+            </ChoiceFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the knock spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Knock</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the glyph of warding spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Glyph of Warding</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <BonusSpellFeature>
+              <Keywords />
+              <Name>Greater Dragonmark Spell</Name>
+              <Text>You learn the Leomund's secret chest spell. Intelligence is your spellcasting ability for this spell. Once you cast it you regain the ability to do so once you finish a long rest.
+To cast Leomund’s secret chest using this feat and the Mark of Warding, you must have a Siberys dragonshard with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell’s focus, and you can use it to summon and dismiss the chest.</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Default</Action>
+              <Prerequisite />
+              <Spell>Leomund's Secret Chest</Spell>
+              <SpellCastingAbility>Intelligence</SpellCastingAbility>
+              <SpellCastModifier>LongRest</SpellCastModifier>
+              <KeywordsToAdd />
+            </BonusSpellFeature>
+            <Feature>
+              <Keywords />
+              <Name>Greater Dragonmark</Name>
+              <Text>You learn the knock, glyph of warding and Leomund's secret chest spells. Intelligence is your spellcasting ability for these spells. Once you cast a spell using this trait you regain the ability to do so once you finish a long rest.
+To cast Leomund’s secret chest using this feat and the Mark of Warding, you must have a Siberys dragonshard with a value of at least 100 gp. While you have this dragonshard in hand, it serves as the spell’s focus, and you can use it to summon and dismiss the chest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+          <Source>Wayfinders Guide to Eberron</Source>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>GREATER_DRAGONMARK</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+      <Source>Wayfinders Guide to Eberron</Source>
+    </ChoiceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Aberrant Dragonmark</Name>
+      <Text>You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:
+• Increase your Constitution score by 1, to a maximum of 20.
+• You learn a cantrip from the sorcerer spell list. In addition, choose a 1st-level spell from the sorcerer spell list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Constitution is your spellcasting ability for these spells.
+• You can increase the power of your aberrant spells at the risk of your own vitality. When you cast a spell with your aberrant mark, you can use one of your Hit Dice to increase the spell’s level by 1. Immediately after you cast the spell, roll the Hit Die. You take damage equal to the number rolled.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>No existing dragonmark</Prerequisite>
+      <Features>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Ability Score Increase</Name>
+          <Text>Increase your Constitution score by 1, to a maximum of 20.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <Feature>
+          <Keywords />
+          <Name>Aberrent Dragonmark</Name>
+          <Text>You learn a cantrip from the sorcerer spell list. In addition, choose a 1st-level spell from the sorcerer spell list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Constitution is your spellcasting ability for these spells.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Aberrant Dragonmark</Name>
+          <Text>You learn a cantrip from the sorcerer spell list. Constitution is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Sorcerer and Cantrip</Condition>
+          <SpellCastingAbility>Constitution</SpellCastingAbility>
+          <UniqueID>ABERRANT_DRAGONMARK_CANTRIP</UniqueID>
+          <SpellCastModifier>Unmodified</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>aberrent</Name>
+            </Keyword>
+          </KeywordsToAdd>
+        </BonusSpellKeywordChoiceFeature>
+        <BonusSpellKeywordChoiceFeature>
+          <Keywords />
+          <Name>Aberrant Dragonmark</Name>
+          <Text>Choose a 1st-level spell from the sorcerer spell list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again. Constitution is your spellcasting ability for this spell.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Condition>Sorcerer and Level = 1</Condition>
+          <SpellCastingAbility>Constitution</SpellCastingAbility>
+          <UniqueID>ABERRANT_DRAGONMARK_SPELL</UniqueID>
+          <SpellCastModifier>LongRest</SpellCastModifier>
+          <Amount>1</Amount>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>aberrent</Name>
+            </Keyword>
+          </KeywordsToAdd>
+        </BonusSpellKeywordChoiceFeature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Aberrant Dragonmark</Name>
+          <Text>You can increase the power of your aberrant spells at the risk of your own vitality. When you cast a spell with your aberrant mark, you can use one of your Hit Dice to increase the spell’s level by 1. Immediately after you cast the spell, roll the Hit Die. You take damage equal to the number rolled.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Other</Action>
+          <Prerequisite />
+          <Spells>Aberrent</Spells>
+        </SpellModifyFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Wayfinders Guide to Eberron</Source>
+</FeatureContainer>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous Item</Requirement>
+  <Name>Scribe’s Pen</Name>
+  <Description>If you possess the Mark of Scribing, you can use this quill to write on any surface. This can be visible—traced in glowing mystical lines—or invisible to any creature without the Mark of Scribing. Invisible writing will be revealed by Detect Magic, See Invisibly, or True Seeing. Any creature with the Mark of Scribing can also reveal your writing or make it invisible as an action. If you mark a living creature, the mark will fade within a week.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Wayfinders Guide to Eberron</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>2</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 25 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>25</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Gnome Cunning</Name>
+      <Text>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>all Intelligence, Wisdom, and Charisma saving throws against magic</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Gnomish</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Gnome Subrace</Name>
+      <Text>Two subraces of gnomes are found among the worlds of D&amp;D: forest gnomes and rock gnomes. Choose one of these subraces.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Gnome</string>
+      </Races>
+    </SubRaceFeature>
+  </Features>
+  <Name>Gnome</Name>
+  <Flavour>“Five words can defeat a thousand swords.”
+—Zil proverb</Flavour>
+  <Size>Small</Size>
+  <Description>Gnomes possess a love of knowledge that many would describe as lust. Most gnomes hate physical violence and prefer to solve their problems with words—whether that’s a wizard’s word of power or a rogue’s careful threat. The common view of the gnome is that of a friendly busybody, always ready to lend a hand or share a story. But in fact, that cheerful gnome is often gathering information that could one day be useful.</Description>
+  <Descriptions>
+    <TableDescription>
+      <Name>Gnomes of Zilargo</Name>
+      <Text>It would be an exaggeration to say that every Zil gnome is a ruthless schemer. But intrigue is the favorite pastime of the Zil. As a Zil gnome, you’ve been taught to manipulate and deceive since childhood. You’ve been involved in dozens of schemes and feuds, and you’re likely still tied up in a few of them (consult the Zil Schemes table). Even if you have a good heart and noble goals, you may still prefer to use trickery and cunning instead of relying on honesty or brute force.
+Zil gnomes typically use the forest gnome subrace. The natural illusionist trait is a part of daily life in Zilargo, used both for entertainment and for trickery. The Thurimbar rod is a common magic item that amplifies this natural gift for purposes of creating music. The power to speak with small beasts is likewise something often put to practical use, and the Zil often use small animals as messengers or guides. While Zil gnomes don’t automatically have proficiency with Deception or Persuasion, these skills are common in Zil society; you could take the charlatan or criminal background as a way of reflecting your Zil upbringing.
+As a player character, one question is why you’ve left Zilargo and what ties you still have to it. You could be a sage gathering information for the Library of Korranberg, or an investigator sending stories of your adventures back to the Korranberg Chronicle. Family is very important to the Zil, and you could be pursuing the interests of your family… or seeking to interfere with the plans of a rival family. You could even be working for the mysterious Trust, the conspiracy that maintains order in Zilargo. If you are working for the Trust, you could have a specific mission, but you could also be a sleeper agent—gathering information and allies and waiting for the day when your skills will be put to use.</Text>
+      <Amount>1</Amount>
+      <UniqueID>GNOME_ZIL_SCHEMES</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>Your family is working on a new form of elemental binding, but they need Khyber dragonshards—lots of them.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You have a mysterious contact who sends you missions via sending; when you follow their instructions, you invariably receive a reward.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You’ve acquired a plot of land in Xen’drik. You’ve never been there, and if you don’t visit it within a year, you’ll lose the claim.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>Due to an unusual twist of Triumvirate law, you share the same name with a number of other Zil and you’re all legally considered to be the same person.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You’ve acquired a spellshard that contains a vast amount of text in a seemingly unbreakable code.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>You know the location of a wanted ware criminal. Will you turn them in, or try to get something in exchange for your silence?</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Text>You’ve been selling false treasure maps. But now you’ve found one that might be real.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Text>You’ve acquired a controlling stake in a distant dragonshard mine, but the mine was abandoned centuries ago due to “problems.” Kobolds? Aberrations? There’s only one way to find out.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Text>Your family is facing financial ruin and they’ve taken a lucrative life insurance policy on you It only pays out if you die under unusual circumstances, and they’re encouraging you to seek out ever more dangerous adventures.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Text>You’re peddling a life extension scheme where clients are petrified by a medusa and then restored after a predetermined amount of time.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <ListDescription>
+      <Name>Zil Names</Name>
+      <Text>Zil society is divided into major houses, each of which is composed of multiple families. Each gnome has three names: their personal name, their family name, and their house name. For example, Alina Lorridan Lyrris and Tallian Talius Lyrris are members of different families within House Lyrris. Gnomish names are long and lyrical; a Zil proverb claims “the sweetest song is the name of a friend.” Personal and clan names average three syllables in length, and there is a strong tradition of alliteration.</Text>
+      <Names>
+        <Names>
+          <ListOfNames>
+            <string>Alian</string>
+            <string>Castar</string>
+            <string>Dorius</string>
+            <string>Elymar</string>
+            <string>Haliar</string>
+            <string>Hasal</string>
+            <string>Illian</string>
+            <string>Jassian</string>
+            <string>Lassius</string>
+            <string>Sanadal</string>
+            <string>Tallian</string>
+            <string>Torius</string>
+          </ListOfNames>
+          <Title>Male Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Alina</string>
+            <string>Cassia</string>
+            <string>Dalia</string>
+            <string>Jandia</string>
+            <string>Lysse</string>
+            <string>Myssia</string>
+            <string>Ranadala</string>
+            <string>Saralyssa</string>
+            <string>Talina</string>
+            <string>Tandria</string>
+            <string>Tassi</string>
+            <string>Vassilia</string>
+          </ListOfNames>
+          <Title>Female Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Alyre</string>
+            <string>Alysse</string>
+            <string>Canatar</string>
+            <string>Del</string>
+            <string>Dorian</string>
+            <string>Hal</string>
+            <string>Josilyn</string>
+            <string>Kan</string>
+            <string>Lin</string>
+            <string>Lorridan</string>
+            <string>Lyrriman</string>
+            <string>Sil</string>
+            <string>Suvius</string>
+            <string>Syrralan</string>
+            <string>Talius</string>
+            <string>Til</string>
+            <string>Torralyn</string>
+          </ListOfNames>
+          <Title>Family Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Adredar</string>
+            <string>Clebdecher</string>
+            <string>Dalian</string>
+            <string>Davandi</string>
+            <string>Harlian</string>
+            <string>Hebberdesh</string>
+            <string>Korrian</string>
+            <string>Lonadar</string>
+            <string>Lyrris</string>
+            <string>Nezzelech</string>
+            <string>Santiar</string>
+            <string>Tarliach</string>
+          </ListOfNames>
+          <Title>Clan Names</Title>
+        </Names>
+      </Names>
+    </ListDescription>
+    <Description>
+      <Name>Gnomes of The Five Nations</Name>
+      <Text>Gnomes are found across the Five Nations, and most are well-integrated into the local cultures. Gnomes are often encountered as merchants, magewrights, chroniclers, scholars, and scoundrels. While the gnomes of the Five Nations aren’t as inherently devious as their Zil cousins, family is usually important to them. You may have a network of old favors and connections to the community you grew up in. But you might also have chosen to find your own path in life avoiding the intrigues your cousins adore.</Text>
+    </Description>
+    <Description>
+      <Name>Gnomes and Dragonmarks</Name>
+      <Text>The gnomes of House Sivis carry the Mark of Scribing. Members of the house are scribes and notaries, but they also maintain the sending stones that facilitate long-distance communication in Khorvaire.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Wayfinders Guide to Eberron</Source>
+</Race>
