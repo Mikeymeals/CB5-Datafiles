@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Draconic Potency</Name>
+      <Text>Against enemies of the Cult of the Dragon, the dagger’s bonus to attack rolls and damage rolls increases to +2, and the extra acid damage increases to 2d6.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Dragontooth Dagger</Name>
+      <Text>You gain a +1 bonus to attack rolls and damage rolls you make with this weapon. On a hit with this weapon, the target takes an extra 1d6 acid damage.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>1</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d6 acid</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures />
+  <Requirement>Weapon</Requirement>
+  <Name>Dragontooth Dagger</Name>
+  <Description>A dagger fashioned from the tooth of a dragon. While the blade is obviously a fang or predator’s tooth, the handle is leather wrapped around the root of the tooth, and there is no cross-guard.
+
+You gain a +1 bonus to attack rolls and damage rolls you make with this weapon. On a hit with this weapon, the target takes an extra 1d6 acid damage.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Weapon</Base>
+  <Source>Rise of Tiamat</Source>
+  <PrependName>Dragontooth</PrependName>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

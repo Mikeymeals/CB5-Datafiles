@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Dragonfang</Name>
+  <Descriptions />
+  <Source>Rise of Tiamat</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>studded leather</ACText>
+  <HP>78</HP>
+  <HPRoll>12d8+24</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>one of the following: acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning or poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dragon Fanatic</Name>
+      <Text>The dragonfang has advantage on saving throws against being charmed or frightened. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being charmed or frightened.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fanatic Advantage</Name>
+      <Text>Once per turn, if the dragonfang makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Limited Flight</Name>
+      <Text>The dragonfang can use a bonus action to gain a flying speed of 30 feet until the end of its turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The Dragonfang attacks twice with its shortsword.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3+2d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Orb of Dragon's Breath (2/Day)</Name>
+      <Text>Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>5d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

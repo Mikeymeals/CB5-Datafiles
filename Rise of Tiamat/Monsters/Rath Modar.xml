@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Rath Modar</Name>
+  <Descriptions />
+  <Source>Rise of Tiamat</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <ACText>16 with mage armor</ACText>
+  <HP>71</HP>
+  <HPRoll>11d8+22</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+    <string>Primordial</string>
+    <string>Thayan</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>Rath has a staff of fire, and scrolls of dimension door, feather fall, and fireball.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list:
+
+• Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp
+• 1st level (4 slots): chromatic orb, color spray, mage armor, magic missile
+• 2nd level (3 slots): detect thoughts, mirror image, phantasmal force
+• 3rd level (3 slots): counterspell, fireball, major image
+• 4th level (3 slots): confusion, greater invisibility
+• 5th level (2 slots): mislead, seeming
+• 6th level (1 slot): globe of invulnerability</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Quarterstaff</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Illusory Self (Recharges on a Short or Long Rest)</Name>
+      <Text>When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>fire bolt</string>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>shocking grasp</string>
+    <string>chromatic orb</string>
+    <string>color spray</string>
+    <string>mage armor</string>
+    <string>magic missile</string>
+    <string>detect thoughts</string>
+    <string>mirror image</string>
+    <string>phantasmal force</string>
+    <string>counterspell</string>
+    <string>fireball</string>
+    <string>major image</string>
+    <string>confusion</string>
+    <string>greater invisibility</string>
+    <string>mislead</string>
+    <string>seeming</string>
+    <string>globe of invulnerability</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

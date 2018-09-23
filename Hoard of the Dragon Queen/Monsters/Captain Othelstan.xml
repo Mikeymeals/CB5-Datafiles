@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Captain Othelstan</Name>
+  <Descriptions />
+  <Source>Hoard of the Dragon Queen</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>human</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>19</AC>
+  <ACText>splint, shield</ACText>
+  <HP>93</HP>
+  <HPRoll>11d10+33</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Action Surge (Recharges on a Short or Long Rest)</Name>
+      <Text>On his turn, Othelstan can take one additional action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tiamat's Blessing of Retribution</Name>
+      <Text>When Othelstan takes damage that reduces him to 0 hit points, he immediately regains 20 hit points. If he has 20 hit points or fewer at the end of his next turn, he dies.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Othelstan attacks twice with his flail or spear, or makes two ranged attacks with his spears.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Flail</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6+4",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

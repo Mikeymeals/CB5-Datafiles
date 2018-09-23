@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Increased Potency</Name>
+      <Text>While you are attuned to this weapon, its bonus on attack rolls and damage rolls increases to +2, and a hit deals an extra 2d6 necrotic damage (instead of 1d6).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>Hazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast detect magic (1 charge), detect evil and good (1 charge), or detect thoughts (2 charges). Each night at midnight, Hazirawn regains 1d4 expended charges.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>4</Value>
+      <ResourceID>HAZIRAWN</ResourceID>
+      <Recharge>Special</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Hazirawn</Name>
+      <Text>1 charge</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Detect Magic</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Hazirawn</Name>
+      <Text>1 charge</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Detect Evil and Good</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Hazirawn</Name>
+      <Text>2 charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Detect Thoughts</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Wounding</Name>
+      <Text>While you are attuned to the weapon, any creature that you hit with Hazirawn can’t regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Hazirawn</Name>
+      <Text>Even if you aren’t attuned to the sword, you gain a +1 bonus on attack rolls and damage rolls made with this weapon. If you are attuned to Hazirawn, you deal an extra 1d6 necrotic damage when you hit with the weapon.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>1</AttackBonus>
+      <DamageBonus>1</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d6 necrotic</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Increased Potency</Name>
+      <Text>While you are attuned to this weapon, its bonus on attack rolls and damage rolls increases to +2, and a hit deals an extra 2d6 necrotic damage (instead of 1d6).</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>1</AttackBonus>
+      <DamageBonus>1</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d6 necrotic</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedOnUseFeatures>
+  <Requirement>Weapon (greatsword)</Requirement>
+  <Name>Hazirawn</Name>
+  <Description>A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren’t attuned to the sword, you gain a +1 bonus on attack rolls and damage rolls made with this weapon. If you are attuned to Hazirawn, you deal an extra 1d6 necrotic damage when you hit with the weapon.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Greatsword</Base>
+  <Source>Hoard of the Dragon Queen</Source>
+  <PrependName>Hazirawn</PrependName>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

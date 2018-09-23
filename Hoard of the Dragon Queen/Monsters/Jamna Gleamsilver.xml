@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Jamna Gleamsilver</Name>
+  <Descriptions />
+  <Source>Hoard of the Dragon Queen</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>gnome</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>15</AC>
+  <ACText>leather armor</ACText>
+  <HP>22</HP>
+  <HPRoll>4d6+8</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Gnomish</string>
+    <string>Goblin</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Cunning Action</Name>
+      <Text>Jamna can take a bonus action to take the Dash, Disengage, or Hide action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gnome Cunning</Name>
+      <Text>Jamna has advantage on Intelligence, Wisdom and Charisma saving throws against magic.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.
+
+• Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost
+• 1st level (3 slots): charm person, color spray, disguise self, longstrider</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Jamna attacks twice with her shortswords.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3",
+  "Shortsword vs medium or larger</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>mage hand</string>
+    <string>minor illusion</string>
+    <string>prestidigitation</string>
+    <string>ray of frost</string>
+    <string>charm person</string>
+    <string>color spray</string>
+    <string>disguise self</string>
+    <string>longstrider</string>
+  </Spells>
+  <Slots>
+    <int>3</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

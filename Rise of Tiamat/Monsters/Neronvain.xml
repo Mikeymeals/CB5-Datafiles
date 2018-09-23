@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Neronvain</Name>
+  <Descriptions />
+  <Source>Rise of Tiamat</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>elf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <HP>117</HP>
+  <HPRoll>18d8+36</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Elvish</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Draconic Majesty</Name>
+      <Text>Neronvain adds his Charisma bonus to his AC (included).</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Fey Ancestry</Name>
+      <Text>Magic can't put Neronvain to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Neronvain makes two attacks, either with his shortsword or Eldritch Arrow.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6+3+3d8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Eldritch Arrow</Name>
+      <Text>Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d10) force damage plus 9 (2d8) poison damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d10+2d8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Poisonous Cloud (2/Day)</Name>
+      <Text>Poison gas fills a 20-foot-radius sphere centered on a point Neronvain can see within 50 feet of him. The gas spreads around corners and remains until the start of Neronvain's next turn. Each creature that starts its turn in the gas must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

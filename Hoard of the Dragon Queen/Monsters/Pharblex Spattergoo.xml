@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Pharblex Spattergoo</Name>
+  <Descriptions />
+  <Source>Hoard of the Dragon Queen</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bullywug</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>studded leather armor, shield</ACText>
+  <HP>59</HP>
+  <HPRoll>7d8+28</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Bullywug</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>Pharblex can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poison Strike (3/Day)</Name>
+      <Text>Once per turn, when Pharblex hits with a melee attack, he can expend a use of this trait to deal an extra 9 (2d8) poison damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list:
+
+• Cantrips (at will): druidcraft, guidance, poison spray
+• 1st level (4 slots): cure wounds, entangle, healing word, thunderwave
+• 2nd level (3 slots): barkskin, beast sense, spike growth
+• 3rd level (3 slots): plant growth, water walk</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Standing Leap</Name>
+      <Text>As part of his movement and without a running start, Pharblex can long jump up to 20 feet and high jump up to 10 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swamp Camouflage</Name>
+      <Text>Pharblex has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Pharblex attacks twice. Once with his bite and once with his spear.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit. reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+2",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>druidcraft</string>
+    <string>guidance</string>
+    <string>poison spray</string>
+    <string>cure wounds</string>
+    <string>entangle</string>
+    <string>healing word</string>
+    <string>thunderwave</string>
+    <string>barkskin</string>
+    <string>beast sense</string>
+    <string>spike growth</string>
+    <string>plant growth</string>
+    <string>water walk</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Damage Absorption</Name>
+      <Text>You have damage resistance to acid. If you already have damage resistance to acid from another source, you gain immunity to acid damage. If you already have immunity to acid damage from another source, you regain hit points equal to half of any acid damage you are dealt.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Draconic Majesty</Name>
+      <Text>While you are wearing no armor, you can add your Charisma bonus to your Armor Class. </Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Unarmored</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>ChaMod</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Dragon Breath</Name>
+      <Text>If you have a breath weapon that requires rest to recharge, it gains a recharge of 6.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Dragon Sight</Name>
+      <Text>You gain darkvision out to 60 feet, or to an additional 60 feet if you already have that sense. Once per day, you can gain blindsight out to 30 feet for 5 minutes.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Dragon Tongue</Name>
+      <Text>You can speak and understand Draconic. You also have advantage on any Charisma check you make against dragons that share the mask’s color.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Draconic</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Legendary Resistance (1/Day)</Name>
+      <Text>If you fail a saving throw, you can choose to succeed instead.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>DRAGON_MASK_LEGENDARY_RESISTANCE</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Damage Type</Name>
+      <Text>The mask’s damage type is acid.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Water Breathing</Name>
+      <Text>You can breathe underwater.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Black Dragon Mask</Name>
+  <Description>This horned mask of glossy ebony has horns and a skulllike mien. The mask reshapes to fit a wearer attuned to it. While you are wearing the mask and attuned to it, you can access the following properties.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Hoard of the Dragon Queen</Source>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

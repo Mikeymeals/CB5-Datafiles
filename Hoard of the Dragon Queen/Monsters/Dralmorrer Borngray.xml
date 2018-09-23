@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Dralmorrer Borngray</Name>
+  <Descriptions />
+  <Source>Hoard of the Dragon Queen</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>high elf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>studded leather, shield</ACText>
+  <HP>52</HP>
+  <HPRoll>7d10+14</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Bullywug</string>
+    <string>Draconic</string>
+    <string>Elvish</string>
+    <string>Goblin</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fey Ancestry</Name>
+      <Text>Dralmorrer has advantage on saving throws against being charmed, and magic can't put him to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list:
+
+• Cantrips (at will): fire bolt, prestidigitation, shocking grasp
+• 1st level (4 slots): longstrider, magic missile, shield, thunderwave
+• 2nd level (2 slots): magic weapon, misty step</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>War Magic</Name>
+      <Text>When Dralmorrer uses his action to cast a cantrip, he can also take a bonus action to make one weapon attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Weapon Bond</Name>
+      <Text>Provided his longsword is on the same plane Dralmorrer can take a bonus action to teleport it to his hand.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Dralmorrer attacks twice, either with his longsword or dagger.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>fire bolt</string>
+    <string>prestidigitation</string>
+    <string>shocking grasp</string>
+    <string>longstrider</string>
+    <string>magic missile</string>
+    <string>shield</string>
+    <string>thunderwave</string>
+    <string>magic weapon</string>
+    <string>misty step</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

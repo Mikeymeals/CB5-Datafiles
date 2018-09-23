@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Langdedrosa Cyanwrath</Name>
+  <Descriptions />
+  <Source>Hoard of the Dragon Queen</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>half-dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>17</AC>
+  <ACText>splint</ACText>
+  <HP>57</HP>
+  <HPRoll>6d12+18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Action Surge (Recharges on a Short or Long Rest)</Name>
+      <Text>On his turn, Langdedrosa can take one additional action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Improved Critical</Name>
+      <Text>Langdedrosa's weapon attacks score a critical hit on a roll of 19 or 20.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Langdedrosa attacks twice, either with his greatsword or spear.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greatsword</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or ranged 20 ft.,/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d6+4",
+  "Two Handed</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Lightning Breath (Recharge 5-6)</Name>
+      <Text>Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>0</AttackBonus>
+      <Damage>4d10</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

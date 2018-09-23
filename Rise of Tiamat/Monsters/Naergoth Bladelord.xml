@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Naergoth Bladelord</Name>
+  <Descriptions />
+  <Source>Rise of Tiamat</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>18</AC>
+  <ACText>plate</ACText>
+  <HP>135</HP>
+  <HPRoll>18d8+54</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>necrotic; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, Naergoth has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Naergoth makes three attacks, either with his longsword or longbow. He can use Life Drain in place of one longsword attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Life Drain</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 20 (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>5d6+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d8+5+3d6",
+  "Two Handed</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+1+3d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

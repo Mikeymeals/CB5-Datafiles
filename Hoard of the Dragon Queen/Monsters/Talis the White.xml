@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Talis the White</Name>
+  <Descriptions />
+  <Source>Hoard of the Dragon Queen</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>half-elf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>18</AC>
+  <ACText>scale mail +1, shield</ACText>
+  <HP>58</HP>
+  <HPRoll>9d8+18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Elvish</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>Talis has +1 scale mail and a wand of winter.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fey Ancestry</Name>
+      <Text>Talis has advantage on saving throws against being charmed, and magic can't put her to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list:
+
+• Cantrips (at will): guidance, resistance, thaumaturgy
+• 1st level (4 slots): command, cure wounds, healing word, inflict wounds
+• 2nd level (3 slots): blindness/deafness, lesser restoration, spiritual weapon (spear)
+• 3rd level (3 slots): dispel magic, mass healing word, sending
+• 4th level (3 slots): death ward, freedom of movement
+• 5th level (1 slot): insect plague</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Winter Strike (3/Day)</Name>
+      <Text>Once per turn, when Talis hits with a melee attack, she can expend a use of this trait to deal an extra 9 (2d8) cold damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20 ft./60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+2",
+  "Two Handed</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>guidance</string>
+    <string>resistance</string>
+    <string>thaumaturgy</string>
+    <string>command</string>
+    <string>cure wounds</string>
+    <string>healing word</string>
+    <string>inflict wounds</string>
+    <string>blindness/deafness</string>
+    <string>lesser restoration</string>
+    <string>spiritual weapon</string>
+    <string>dispel magic</string>
+    <string>mass healing word</string>
+    <string>sending</string>
+    <string>death ward</string>
+    <string>freedom of movement</string>
+    <string>insect plague</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>
