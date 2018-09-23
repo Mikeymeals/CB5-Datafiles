@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Nezznar the Black Spider</Name>
   <Descriptions />
+  <Description>Drow (dark elves) are a devious, scheming subterranean race that worships Lolth, the Demon Queen of Spiders. Drow society is strictly matriarchal. Male drow are relegated to servitor roles, and while most train as warriors, a few, such as Nezznar, become skilled wizards.</Description>
   <Source>Lost Mine of Phandelver</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>

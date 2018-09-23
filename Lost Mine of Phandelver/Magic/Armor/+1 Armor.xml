@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Armor +1</Name>
+      <Text>You have a +1 bonus to AC while wearing this armor.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and (Light or Medium or Heavy)</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </EquipFeatures>
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (light, medium, or heavy)</Requirement>
+  <Name>+1 Armor</Name>
+  <Description>The most basic form of magic armor is a superb product of physical and magical craft. You have a +1 bonus to your Armor Class while wearing this armor. A suit of +1 armor never rusts or deteriorates, and it magically resizes to fit its wearer.</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and (Light or Medium or Heavy)</Base>
+  <Source>Lost Mine of Phandelver</Source>
+  <PostName>+1</PostName>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

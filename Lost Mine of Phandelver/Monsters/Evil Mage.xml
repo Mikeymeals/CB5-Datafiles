@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Evil Mage</Name>
   <Descriptions />
+  <Description>Evil mages hunger for arcane power and dwell in isolated places, where they can perform terrible magical experiments without interference.</Description>
   <Source>Lost Mine of Phandelver</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>

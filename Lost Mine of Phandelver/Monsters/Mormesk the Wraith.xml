@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Mormesk the Wraith</Name>
   <Descriptions />
+  <Description>A wraith is the incorporeal remnant of a particularly hateful being. Most wraiths can transform those they have slain into spectral undead servitors. Mormesk chooses not to, preferring to let the dead stay dead.</Description>
   <Source>Lost Mine of Phandelver</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>undead</Name>
