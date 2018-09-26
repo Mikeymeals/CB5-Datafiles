@@ -39,6 +39,6 @@
   </Price>
   <Source>Player's Handbook</Source>
   <Weight>2</Weight>
-  <Damage>1d8</Damage>
+  <Damage>1d6</Damage>
   <DamageType>piercing</DamageType>
 </Item>
