@@ -973,7 +973,7 @@ When you determine the attitude your warlock character holds toward your patron,
         <TableEntry>
           <MinRoll>1</MinRoll>
           <MaxRoll>1</MaxRoll>
-          <Text>our patron has guided and helped your family for generations and is kindly toward you.</Text>
+          <Text>Your patron has guided and helped your family for generations and is kindly toward you.</Text>
         </TableEntry>
         <TableEntry>
           <MinRoll>2</MinRoll>
