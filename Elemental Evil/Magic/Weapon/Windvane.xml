@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Air Mastery</Name>
+      <Text>You gain the following benefits while you hold Windvane:
+• You can speak Auran fluently.
+• You have resistance to lightning damage.
+• You can cast dominate monster (save DC 17) on an air elemental. Once you have done so, Windvane can’t be used this way again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Dominate Monster</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Dawn</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Primordial</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>lightning</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Song of the Four Winds</Name>
+      <Text>While inside an air node, you can perform a ritual called the Song of the Four Winds, using Windvane to create a devastation orb of air (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Windvane can’t be used to perform the ritual again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WINDVANE_SONG_OF_FOUR_WINDS</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Flaw</Name>
+      <Text>Windvane makes its wielder mercurial and unreliable. While attuned to the weapon, you gain the following flaw: “I break my vows and plans. Duty and honor mean nothing to me.”</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Windvane</Name>
+      <Text>You have a +2 bonus to attack rolls and damage rolls you make with this magic weapon, which has the finesse weapon property. When you hit with it, the target takes an extra 1d6 lightning damage.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>2</AttackBonus>
+      <DamageBonus>2</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d6 lightning</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>Dexterity</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedOnUseFeatures>
+  <Requirement>Weapon (spear)</Requirement>
+  <Name>Windvane</Name>
+  <Description>A silver spear, Windvane has dark sapphires on the filigreed surface of its polished head. Held by its shining haft, the weapon feels insubstantial, as if clutching a cool, gently flowing breeze. The spear contains a spark of Yan-C-Bin, the Prince of Evil Air.
+You have a +2 bonus to attack rolls and damage rolls you make with this magic weapon, which has the finesse weapon property. When you hit with it, the target takes an extra 1d6 lightning damage.</Description>
+  <Slot>None</Slot>
+  <Base>spear</Base>
+  <Source>Elemental Evil</Source>
+  <PrependName>Tinderstrike</PrependName>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

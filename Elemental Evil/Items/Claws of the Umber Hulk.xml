@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>slashing</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Claws of the Umber Hulk</Name>
+  <Description>You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals 1d8 slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal).</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Elemental Evil</Source>
+  <Weight>0</Weight>
+  <Damage>1d8</Damage>
+  <DamageType>slashing</DamageType>
+</Item>

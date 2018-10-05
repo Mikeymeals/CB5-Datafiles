@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Claws of the Umber Hulk</Name>
+      <Text>While wearing both claws, you gain a burrowing speed of 20 feet, and you can tunnel through solid rock at a rate of 1 foot per round.
+You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals 1d8 slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal).
+While wearing the claws, you can’t manipulate objects or cast spells with somatic components.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Claws of the Umber Hulk</Name>
+      <Text>You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals 1d8 slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal).</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Claws of the Umber Hulk</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Claws of the Umber Hulk</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Claws of the Umber Hulk</Name>
+  <Description>These heavy gauntlets of brown iron are forged in the shape of an umber hulk’s claws, and they fit the wearer’s hands and forearms all the way up to the elbow. While wearing both claws, you gain a burrowing speed of 20 feet, and you can tunnel through solid rock at a rate of 1 foot per round.
+You can use a claw as a melee weapon while wearing it. You have proficiency with it, and it deals 1d8 slashing damage on a hit (your Strength modifier applies to the attack and damage rolls, as normal).
+While wearing the claws, you can’t manipulate objects or cast spells with somatic components.</Description>
+  <Slot>None</Slot>
+  <Source>Elemental Evil</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Fire Mastery</Name>
+      <Text>You gain the following benefits while you hold Tinderstrike:
+• You can speak Ignan fluently.
+• You have resistance to fire damage.
+• You can cast dominate monster (save DC 17) on a fire elemental. Once you have done so, Tinderstrike can’t be used this way again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Dominate Monster</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Dawn</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Primordial</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>fire</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Dance of the All-Consuming Fire</Name>
+      <Text>While inside a fire node, you can perform a ritual called the Dance of the All-Consuming Fire, using Tinderstrike to create a devastation orb of fire (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Tinderstrike can’t be used to perform the ritual again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>TINDERSTRIKE_DANCE_OF_ALL_CONSUMING_FIRE</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Flaw</Name>
+      <Text>Tinderstrike makes its wielder impatient and rash. While attuned to the weapon, you gain the following flaw: “I act without thinking and take risks without weighing the consequences.”</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Tinderstrike</Name>
+      <Text>You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 2d6 fire damage.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>2</AttackBonus>
+      <DamageBonus>2</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+2d6 fire</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedOnUseFeatures>
+  <Requirement>Weapon (dagger)</Requirement>
+  <Name>Tinderstrike</Name>
+  <Description>A flint dagger, Tinderstrike is uncommonly sharp, and sparks cascade off its edge whenever it strikes something solid. Its handle is always warm to the touch, and the blade smolders for 1d4 minutes after it is used to deal damage. It contains a spark of Imix, Prince of Evil Fire.
+You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 2d6 fire damage.</Description>
+  <Slot>None</Slot>
+  <Base>Dagger</Base>
+  <Source>Elemental Evil</Source>
+  <PrependName>Tinderstrike</PrependName>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Earth Mastery</Name>
+      <Text>You gain the following benefits while you hold Ironfang:
+• You can speak Terran fluently.
+• You have resistance to acid damage.
+• You have tremorsense out to a range of 60 feet.
+• You can sense the presence of precious metals and stones within 60 feet of you, but not their exact location.
+• You can cast dominate monster (save DC 17) on an earth elemental. Once you have done so, Ironfang can’t be used this way again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Dominate Monster</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Dawn</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Primordial</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>acid</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Shatter</Name>
+      <Text>Ironfang has 3 charges. You can use your action to expend 1 charge and cast the 2nd-level version of shatter (DC 17). Ironfang regains 1d3 expended charges daily at dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>IRONFANG_SHATTER</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Ironfang</Name>
+      <Text>2nd Level, 1 charge</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Shatter</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>The Rumbling</Name>
+      <Text>While inside an earth node, you can perform a ritual called the Rumbling, using Ironfang to create a devastation orb of earth (see the devastation orb description for the time and cost of the ritual). Once you perform the ritual, Ironfang can’t be used to perform the ritual again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>IRONFANG_THE_RUMBLING</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Flaw</Name>
+      <Text>Ironfang heightens its wielder’s destructive nature. While attuned to the weapon, you gain the following flaw: “I like to break things and cause ruin.”</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Ironfang</Name>
+      <Text>You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 1d8 thunder damage.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>2</AttackBonus>
+      <DamageBonus>2</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d8 thunder</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedOnUseFeatures>
+  <Requirement>Weapon (war pick)</Requirement>
+  <Name>Ironfang</Name>
+  <Description>A war pick forged from a single piece of iron, Ironfang has a fang-like head inscribed with ancient runes. The pick is heavy in the hand, but when the wielder swings the pick in anger, the weapon seems almost weightless. This weapon is immune to any form of rust, acid, or corrosion—nothing seems to mark it. Ironfang contains a spark of Ogremoch, the Prince of Evil Earth.
+You gain a +2 bonus to attack and damage rolls you make with this magic weapon. When you hit with it, the target takes an extra 1d8 thunder damage.</Description>
+  <Slot>None</Slot>
+  <Base>Warpick</Base>
+  <Source>Elemental Evil</Source>
+  <PrependName>Ironfang</PrependName>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>
