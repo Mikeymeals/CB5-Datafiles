@@ -111,7 +111,7 @@ For example, if you know the 1st-level spell charm person and have a 1st-level a
         <int>0</int>
         <int>0</int>
       </Slots>
-      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
@@ -133,7 +133,7 @@ For example, if you know the 1st-level spell charm person and have a 1st-level a
         <int>0</int>
         <int>0</int>
       </Slots>
-      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
@@ -155,7 +155,7 @@ For example, if you know the 1st-level spell charm person and have a 1st-level a
         <int>0</int>
         <int>0</int>
       </Slots>
-      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
@@ -177,7 +177,7 @@ For example, if you know the 1st-level spell charm person and have a 1st-level a
         <int>0</int>
         <int>0</int>
       </Slots>
-      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
@@ -199,7 +199,7 @@ For example, if you know the 1st-level spell charm person and have a 1st-level a
         <int>0</int>
         <int>0</int>
       </Slots>
-      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
@@ -221,7 +221,7 @@ For example, if you know the 1st-level spell charm person and have a 1st-level a
         <int>0</int>
         <int>0</int>
       </Slots>
-      <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
+      <SpellcastingID>ARCANE_TRICKSTER</SpellcastingID>
     </SpellSlotsFeature>
     <Feature>
       <Keywords />
