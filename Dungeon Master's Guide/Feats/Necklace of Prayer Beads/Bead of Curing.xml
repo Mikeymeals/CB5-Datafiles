@@ -17,7 +17,7 @@
           <Text>The bead contains the cure wounds spell at 2nd level or the lesser restoration spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</Text>
           <Level>0</Level>
           <Hidden>false</Hidden>
-          <NoDisplay>false</NoDisplay>
+          <NoDisplay>true</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
           <Spell>Lesser Restoration</Spell>
