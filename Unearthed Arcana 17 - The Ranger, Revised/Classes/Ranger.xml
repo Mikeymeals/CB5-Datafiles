@@ -64,7 +64,9 @@ In addition, you are skilled at navigating the wilderness. You gain the followin
     <SpellcastingFeature>
       <Keywords />
       <Name>Spellcasting</Name>
-      <Text>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does.</Text>
+      <Text>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does.
+The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot.</Text>
       <Level>2</Level>
       <Hidden>false</Hidden>
       <NoDisplay>false</NoDisplay>
@@ -84,11 +86,9 @@ In addition, you are skilled at navigating the wilderness. You gain the followin
     <SpellSlotsFeature>
       <Keywords />
       <Name>Spell Slots</Name>
-      <Text>The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
-For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot.
-1st: 2</Text>
+      <Text>1st: 2</Text>
       <Level>2</Level>
-      <Hidden>false</Hidden>
+      <Hidden>true</Hidden>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
