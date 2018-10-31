@@ -68,18 +68,29 @@ This feature has no effect on undead and constructs.</Text>
       <SpellcastingAbility>Charisma</SpellcastingAbility>
       <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
       <PrepareCountAdditional>0</PrepareCountAdditional>
-      <PrepareCount>Max(ChaMod + ClassLevel, 1)</PrepareCount>
+      <PrepareCount>Max(ChaMod + Floor(ClassLevel/2), 1)</PrepareCount>
       <PreparationChange>LongRest</PreparationChange>
     </SpellcastingFeature>
-    <SpellSlotsFeature>
+    <Feature>
       <Keywords />
       <Name>Preparing and Casting Spells</Name>
       <Text>The Paladin table shows how many spell slots you have to cast your spells.To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell’s level or higher.You regain all expended spell slots when you finish a long rest.
 You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
 For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2ndlevel slot. Casting the spell doesn’t remove it from your list of prepared spells.
-You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</Text>
+You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
+</Text>
       <Level>2</Level>
       <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 2</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
@@ -389,7 +400,7 @@ Some Channel Divinity effects require saving throws. When you use such an effect
       <Prerequisite />
       <ExtraAttacks>1</ExtraAttacks>
     </ExtraAttackFeature>
-    <Feature>
+    <BonusFeature>
       <Keywords />
       <Name>Aura of Protection</Name>
       <Text>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.
@@ -399,7 +410,21 @@ At 18th level, the range of this aura increases to 30 feet.</Text>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>Max(1, ChaMod)</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>Strength Constitution Dexterity Intelligence Wisdom Charisma</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
     <Feature>
       <Keywords />
       <Name>Aura of Courage</Name>
