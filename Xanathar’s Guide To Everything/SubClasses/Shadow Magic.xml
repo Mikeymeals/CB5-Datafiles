@@ -17,7 +17,7 @@ When you reach 3rd level in this class, you learn the darkness spell, which does
       <Keywords />
       <Name>Eyes of the Dark</Name>
       <Text>You learn the darkness spell, which doesn’t count against your number of sorcerer spells known. In addition, you can cast it by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell.</Text>
-      <Level>1</Level>
+      <Level>3</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
       <Action>Default</Action>
