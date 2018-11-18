@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Large</Size>
   <Name>Brown Bear</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Large</Size>
   <Keywords>
     <Keyword>
       <Name>beast</Name>
@@ -46,14 +46,14 @@
     </MonsterTrait>
     <MonsterAction>
       <Name>Bite</Name>
-      <Text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</Text>
-      <AttackBonus>5</AttackBonus>
+      <Text>Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
       <Damage>1d8+4</Damage>
     </MonsterAction>
     <MonsterAction>
       <Name>Claws</Name>
-      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</Text>
-      <AttackBonus>5</AttackBonus>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
       <Damage>2d6+4</Damage>
     </MonsterAction>
   </Actions>

@@ -6,7 +6,7 @@
       <Name>Martial Adept</Name>
       <Text>You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:
 • You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
-• If you already have superiority dice, you gain one more; otherwise, you have one superiority die, which is a d6. This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</Text>
+• You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</Text>
       <Level>0</Level>
       <Hidden>false</Hidden>
       <NoDisplay>false</NoDisplay>
@@ -30,7 +30,7 @@
         <ResourceFeature>
           <Keywords />
           <Name>Martial Adept Superiority Dice</Name>
-          <Text>If you already have superiority dice, you gain one more; otherwise, you have one superiority die, which is a d6. This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</Text>
+          <Text>You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest.</Text>
           <Level>0</Level>
           <Hidden>true</Hidden>
           <NoDisplay>true</NoDisplay>
@@ -38,7 +38,7 @@
           <Prerequisite />
           <ValueBonus>None</ValueBonus>
           <Value>1</Value>
-          <ResourceID>SUPERIORITY_DICE</ResourceID>
+          <ResourceID>MARTIAL_ADEPT_SUPERIORITY_DICE</ResourceID>
           <Recharge>ShortRest</Recharge>
           <ExclusionID />
         </ResourceFeature>

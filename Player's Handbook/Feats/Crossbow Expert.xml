@@ -7,8 +7,8 @@
       <Text>Thanks to extensive practice with the crossbow, you
 gain the following benefits:
 • You ignore the loading quality of crossbows with which you are proficient.
-• Being within 5 feet o f a hostile creature doesn’t impose disadvantage on your ranged attack rolls.
-• When you use the Attack action and attack with a onehanded weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.</Text>
+• Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls.
+• When you use the Attack action and attack with a onehanded weapon, you can use a bonus action to attack with a hand crossbow you are holding.</Text>
       <Level>0</Level>
       <Hidden>false</Hidden>
       <NoDisplay>false</NoDisplay>
@@ -26,6 +26,7 @@ gain the following benefits:
           <Prerequisite />
         </Feature>
       </Features>
+      <Source>Player's Handbook</Source>
     </MultiFeature>
   </Features>
   <Source>Player's Handbook</Source>

@@ -61,13 +61,23 @@
       <UniqueID>BARD_CANTRIPS</UniqueID>
       <Amount>1</Amount>
     </IncreaseSpellChoiceAmountFeature>
-    <SpellSlotsFeature>
+    <Feature>
       <Keywords />
       <Name>Spell Slots</Name>
-      <Text>The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+      <Text>The Bard table shows how many spell slots you have to cast your bard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
 For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</Text>
       <Level>1</Level>
       <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 2</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
@@ -758,7 +768,7 @@ The extra hit points increase when you reach certain levels in this class: to 1d
     <SpellChoiceFeature>
       <Keywords />
       <Name>Magical Secrets</Name>
-      <Text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
+      <Text>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any classes, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
 The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.
 You learn two additional spells from any class at 14th level and again at 18th level.</Text>
       <Level>10</Level>
@@ -943,8 +953,8 @@ You learn two additional spells from any class at 14th level and again at 18th l
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Items>
-            <string>leather</string>
-            <string>dagger</string>
+            <string>Leather</string>
+            <string>Dagger</string>
           </Items>
           <CP>0</CP>
           <SP>0</SP>
@@ -1005,7 +1015,7 @@ You learn two additional spells from any class at 14th level and again at 18th l
       <UniqueID>BARD_SKILLS</UniqueID>
     </SkillProficiencyChoiceFeature>
   </FirstClassFeatures>
-  <MulticlassingAbilityScores>Charisma</MulticlassingAbilityScores>
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
   <FeaturesToAddClassKeywordTo />
   <SpellsToAddClassKeywordTo />
   <Name>Bard</Name>

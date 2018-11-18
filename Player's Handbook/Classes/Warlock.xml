@@ -73,11 +73,21 @@
       <UniqueID>WARLOCK_CANTRIP</UniqueID>
       <Amount>1</Amount>
     </IncreaseSpellChoiceAmountFeature>
-    <SpellSlotsFeature>
+    <Feature>
       <Keywords />
       <Name>Spell Slots</Name>
       <Text>The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
-For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell.</Text>
+For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 3rd-level spell.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>1st: 1</Text>
       <Level>1</Level>
       <Hidden>true</Hidden>
       <NoDisplay>false</NoDisplay>
@@ -90,7 +100,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>1st: 2</Text>
       <Level>2</Level>
       <Hidden>true</Hidden>
@@ -112,7 +122,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>2nd: 2</Text>
       <Level>3</Level>
       <Hidden>true</Hidden>
@@ -134,7 +144,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>3rd: 2</Text>
       <Level>5</Level>
       <Hidden>true</Hidden>
@@ -156,7 +166,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>4th: 2</Text>
       <Level>7</Level>
       <Hidden>true</Hidden>
@@ -178,7 +188,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>5th: 2</Text>
       <Level>9</Level>
       <Hidden>true</Hidden>
@@ -200,7 +210,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>5th: 3</Text>
       <Level>11</Level>
       <Hidden>true</Hidden>
@@ -222,7 +232,7 @@ For example, when you are 5th level, you have two 3rd-level spell slots. To cast
     </SpellSlotsFeature>
     <SpellSlotsFeature>
       <Keywords />
-      <Name>Spell slots</Name>
+      <Name>Spell Slots</Name>
       <Text>5th: 4</Text>
       <Level>17</Level>
       <Hidden>true</Hidden>

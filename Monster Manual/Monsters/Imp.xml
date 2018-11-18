@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Tiny</Size>
   <Name>Imp</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Tiny</Size>
   <Keywords>
     <Keyword>
       <Name>fiend</Name>
@@ -27,9 +27,8 @@
   <Wisdom>12</Wisdom>
   <Charisma>14</Charisma>
   <Resistances>
-    <string>cold; bludgeoning</string>
-    <string>piercing</string>
-    <string>and slashing from nonmagical/nonsilver weapons</string>
+    <string>cold</string>
+    <string>bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons.</string>
   </Resistances>
   <Vulnerablities />
   <Immunities>

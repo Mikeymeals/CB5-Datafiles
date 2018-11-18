@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Black Bear</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>beast</Name>
@@ -46,14 +46,14 @@
     </MonsterTrait>
     <MonsterAction>
       <Name>Bite</Name>
-      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
-      <AttackBonus>3</AttackBonus>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
       <Damage>1d6+2</Damage>
     </MonsterAction>
     <MonsterAction>
       <Name>Claws</Name>
-      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</Text>
-      <AttackBonus>3</AttackBonus>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
       <Damage>2d4+2</Damage>
     </MonsterAction>
   </Actions>

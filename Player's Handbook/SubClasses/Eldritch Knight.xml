@@ -32,7 +32,7 @@
     <SpellcastingFeature>
       <Keywords />
       <Name>Preparing and Casting Spells</Name>
-      <Text>The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
+      <Text>The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.
 For example, if you know the  1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shieldusing either slot.</Text>
       <Level>1</Level>
       <Hidden>false</Hidden>
@@ -47,8 +47,9 @@ For example, if you know the  1st-level spell shield and have a 1st-level and a 
       <DisplayName>Eldritch Knight</DisplayName>
       <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
       <SpellcastingAbility>Intelligence</SpellcastingAbility>
-      <PrepareCountPerClassLevel>1</PrepareCountPerClassLevel>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
       <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PrepareCount>ClassLevel</PrepareCount>
       <PreparationChange>LongRest</PreparationChange>
     </SpellcastingFeature>
     <Feature>

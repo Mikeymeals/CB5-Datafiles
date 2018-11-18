@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Tiny</Size>
   <Name>Quasit</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Tiny</Size>
   <Keywords>
     <Keyword>
       <Name>fiend</Name>
@@ -29,9 +29,9 @@
     <string>cold</string>
     <string>fire</string>
     <string>lightning</string>
-    <string>bludgeoning</string>
-    <string>piercing</string>
-    <string>and slashing from nonmagical weapons</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
   </Resistances>
   <Vulnerablities />
   <Immunities>
