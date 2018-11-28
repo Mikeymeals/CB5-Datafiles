@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Gray Slaad</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>aberration</Name>
@@ -117,7 +117,7 @@ Someone who is proficient in Wisdom (Medicine) can remove the gem from an incapa
     <MonsterSkillBonus>
       <Skill>Perception</Skill>
       <Ability>None</Ability>
-      <Bonus>7</Bonus>
+      <Bonus>8</Bonus>
       <Text />
     </MonsterSkillBonus>
   </SkillBonus>

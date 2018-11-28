@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Lich</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>undead</Name>
@@ -127,7 +127,7 @@
     <MonsterSkillBonus>
       <Skill>Arcana</Skill>
       <Ability>None</Ability>
-      <Bonus>13</Bonus>
+      <Bonus>14</Bonus>
       <Text />
     </MonsterSkillBonus>
     <MonsterSkillBonus>

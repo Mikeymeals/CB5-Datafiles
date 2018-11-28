@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Large</Size>
   <Name>Gynosphinx</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Large</Size>
   <Keywords>
     <Keyword>
       <Name>monstrosity</Name>
@@ -75,8 +75,8 @@
     </MonsterTrait>
     <MonsterAction>
       <Name>Claw</Name>
-      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</Text>
-      <AttackBonus>9</AttackBonus>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
       <Damage>2d8+4</Damage>
     </MonsterAction>
   </Actions>

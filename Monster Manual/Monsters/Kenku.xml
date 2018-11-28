@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Kenku</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>
@@ -39,7 +39,7 @@
   <Traits>
     <MonsterTrait>
       <Name>Ambusher</Name>
-      <Text>In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised</Text>
+      <Text>In the first round of a combat, the kenku has advantage on attack rolls against any creature it surprised.</Text>
     </MonsterTrait>
     <MonsterTrait>
       <Name>Mimicry</Name>

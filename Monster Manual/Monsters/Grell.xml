@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Grell</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>aberration</Name>
@@ -56,7 +56,7 @@ The target is also grappled (escape DC 15). If the target is Medium or smaller, 
     </MonsterAction>
     <MonsterAction>
       <Name>Beak</Name>
-      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) piercing damage.</Text>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.</Text>
       <AttackBonus>4</AttackBonus>
       <Damage>2d4+2</Damage>
     </MonsterAction>

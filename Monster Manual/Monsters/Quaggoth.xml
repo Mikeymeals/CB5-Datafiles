@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Quaggoth</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>
@@ -38,7 +38,7 @@
   <Senses>
     <string>darkvision 120 ft.</string>
   </Senses>
-  <PassivePerception>-1</PassivePerception>
+  <PassivePerception>0</PassivePerception>
   <Languages>
     <string>Undercommon</string>
   </Languages>

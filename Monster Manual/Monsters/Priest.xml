@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Priest</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>
@@ -18,7 +18,7 @@
   <HP>27</HP>
   <HPRoll>5d8+5</HPRoll>
   <Speeds>
-    <string>25 ft.</string>
+    <string>30 ft.</string>
   </Speeds>
   <Strength>10</Strength>
   <Dexterity>10</Dexterity>
@@ -79,7 +79,7 @@
     <MonsterSkillBonus>
       <Skill>Religion</Skill>
       <Ability>None</Ability>
-      <Bonus>3</Bonus>
+      <Bonus>4</Bonus>
       <Text />
     </MonsterSkillBonus>
   </SkillBonus>

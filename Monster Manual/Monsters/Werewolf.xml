@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Werewolf</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>
@@ -57,7 +57,7 @@
   <Actions>
     <MonsterTrait>
       <Name>Multiattack (Humanoid or Hybrid Form Only)</Name>
-      <Text>The werewolf makes two attacks: one with its bite and one with its claws or spear.</Text>
+      <Text>The werewolf makes two attacks: two with its spear (humanoid form) or one with its bite and one with its claws (hybrid form).</Text>
     </MonsterTrait>
     <MonsterAction>
       <Name>Bite (Wolf or Hybrid Form Only)</Name>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Large</Size>
   <Name>Efreeti</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Large</Size>
   <Keywords>
     <Keyword>
       <Name>elemental</Name>
@@ -49,7 +49,7 @@
       <Text>The efreeti's innate spell casting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
 
 At will: detect magic
-3/day: enlarge/reduce, tongues
+3/day each: enlarge/reduce, tongues
 1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire</Text>
     </MonsterTrait>
     <MonsterTrait>

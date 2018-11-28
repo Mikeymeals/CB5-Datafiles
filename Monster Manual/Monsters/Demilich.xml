@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Tiny</Size>
   <Name>Demilich</Name>
   <Descriptions />
   <Source>Monster Manual</Source>
+  <Size>Tiny</Size>
   <Keywords>
     <Keyword>
       <Name>undead</Name>
@@ -13,7 +13,7 @@
   <AC>20</AC>
   <ACText>natural armor</ACText>
   <HP>80</HP>
-  <HPRoll>20d4</HPRoll>
+  <HPRoll>32d4</HPRoll>
   <Speeds>
     <string>0 ft.</string>
     <string>fly 30 ft. (hover)</string>
