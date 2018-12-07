@@ -35,6 +35,19 @@
       <IgnoreArmor>false</IgnoreArmor>
       <Condition>true</Condition>
     </SpeedFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Subrace</Name>
+      <Text>Choose a subrace or dragonmark</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Human</string>
+      </Races>
+    </SubRaceFeature>
   </Features>
   <Name>Human</Name>
   <Flavour>“The dwarf is stoic. The elf is wise. The gnome is cunning. And humans? They can’t make up their mind, so they try to be all these things at once.”

@@ -35,6 +35,19 @@
       <IgnoreArmor>false</IgnoreArmor>
       <Condition>true</Condition>
     </SpeedFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Half-Orc Subrace</Name>
+      <Text>Choose a subrace or dragonmark</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Half-Orc</string>
+      </Races>
+    </SubRaceFeature>
   </Features>
   <Name>Half-Orc</Name>
   <Flavour>“We’re hunters in a world of sheep”
