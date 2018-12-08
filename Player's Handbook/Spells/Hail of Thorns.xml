@@ -26,7 +26,7 @@
   </Keywords>
   <CantripDamage />
   <Name>Hail of Thorns</Name>
-  <CastingTime>1 action</CastingTime>
+  <CastingTime>1 bonus action</CastingTime>
   <Range>Self</Range>
   <Duration>Concentration, up to 1 minute</Duration>
   <Level>1</Level>
