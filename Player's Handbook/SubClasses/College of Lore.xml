@@ -41,7 +41,7 @@
           <Name>bard</Name>
         </Keyword>
       </KeywordsToAdd>
-      <AvailableSpellChoices>Level &lt; ClassSpellLevel</AvailableSpellChoices>
+      <AvailableSpellChoices>Level &lt;= ClassSpellLevel</AvailableSpellChoices>
       <SpellcastingID>BARD_SPELLCASTING</SpellcastingID>
       <UniqueID>BARD_LORE_MAGICAL_SECRET</UniqueID>
       <AddTo>LearnSpells</AddTo>
