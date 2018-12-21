@@ -31,7 +31,7 @@ The damage type associated with each dragon is used by features you gain later.<
           <Name>Black Dragon Ancestor</Name>
           <Text>Damage type: Acid</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -55,7 +55,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Blue Dragon Ancestor</Name>
           <Text>Damage type: Lightning</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -79,7 +79,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Brass Dragon Ancestor</Name>
           <Text>Damage type: Fire</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -103,7 +103,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Bronze Dragon Ancestor</Name>
           <Text>Damage type: Lightning</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -127,7 +127,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Copper Dragon Ancestor</Name>
           <Text>Damage type: Acid</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -151,7 +151,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Gold Dragon Ancestor</Name>
           <Text>Damage type: Fire</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -175,7 +175,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Green Dragon Ancestor</Name>
           <Text>Damage type: Poison</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -199,7 +199,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Red Dragon Ancestor</Name>
           <Text>Damage type: Fire</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -223,7 +223,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>Silver Dragon Ancestor</Name>
           <Text>Damage type: Cold</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
@@ -247,7 +247,7 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
           <Name>White Dragon Ancestor</Name>
           <Text>Damage type: Cold</Text>
           <Level>1</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Prerequisite />
