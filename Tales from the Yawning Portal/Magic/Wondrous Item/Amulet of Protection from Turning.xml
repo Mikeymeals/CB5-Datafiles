@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Amulet of Protection from Turning</Name>
+      <Text>While you wear this amulet of silver and turquoise, you have advantage on saving throws against effects that turn undead.
+If you fail a saving throw against such an effect, you can choose to succeed instead. You can do so three times, and expended uses recharge daily at dawn. 
+Each time an effect that turns undead is used against you, the amulet glows with silvery blue light for a few seconds.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>3</Value>
+      <ResourceID>AMULET_OF_PROTECTION_FROM_TURNING</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>effects that turn undead</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Amulet of Protection from Turning</Name>
+  <Description>While you wear this amulet of silver and turquoise, you have advantage on saving throws against effects that turn undead.
+If you fail a saving throw against such an effect, you can choose to succeed instead. You can do so three times, and expended uses recharge daily at dawn. 
+Each time an effect that turns undead is used against you, the amulet glows with silvery blue light for a few seconds.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Tales from the Yawning Portal</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

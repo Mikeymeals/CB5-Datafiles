@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>While you wear this gold bracelet, it grants you immunity to being petrified, and it allows you to cast flesh to stone (save DC 15) as an action. Once the spell has been cast three times, the bracelet can no longer cast it. Thereafter, you can cast stone shape as an action. After you have done this thirteen times, the bracelet loses its magic and turns from gold to lead.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>3 times</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Flesh to Stone</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Flesh to Stone</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Flesh to Stone</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Bracelet of Rock Magic</Name>
+      <Text>13 times, after casting flesh to stone 3 times</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spell>Stone Shape</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <Feature>
+      <Keywords />
+      <Name>Curse</Name>
+      <Text>The bracelet's affinity with earth manifests as an unusual curse. Creatures of flesh that are strongly related to earth and stone, such as stone giants and dwarves, have advantage on the saving throw against flesh to stone cast from the bracelet. If such a creature's save is successful, the bracelet breaks your attunement to it and casts the spell on you. You make your saving throw with disadvantage, and on a failed save you are petrified instantly.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Bracelet of Rock Magic</Name>
+  <Description>While you wear this gold bracelet, it grants you immunity to being petrified, and it allows you to cast flesh to stone (save DC 15) as an action. Once the spell has been cast three times, the bracelet can no longer cast it. Thereafter, you can cast stone shape as an action. After you have done this thirteen times, the bracelet loses its magic and turns from gold to lead.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Tales from the Yawning Portal</Source>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>

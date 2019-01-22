@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Potion of Mind Control</Name>
+      <Text>When you drink a potion of mind control, you can cast a dominate beast spell (save DC 15) on a specific creature if you do so before the end of your next turn. If you don't, the potion is wasted. If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The charmed creature has disadvantage on new saving throws to break the effect during this time.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Dominate Beast</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>NoRecharge</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures />
+  <Requirement>Potion</Requirement>
+  <Name>Potion of Mind Control (Beast)</Name>
+  <Description>When you drink a potion of mind control, you can cast a dominate spell (save DC 15) on a specific creature if you do so before the end of your next turn. If you don't, the potion is wasted.
+A potion of mind control produces the effect of a dominate beast, a dominate person (humanoid), or a dominate monster spell (see the table below). If the target's initial saving throw fails, the effect lasts for 1 hour, with no concentration required on your part. The charmed creature has disadvantage on new saving throws to break the effect during this time.
+
+Potion of ... - Rarity
+Mind control (beast) - Rare
+Mind control (humanoid) - Rare
+Mind control (monster) - Very rare</Description>
+  <Slot>None</Slot>
+  <Source>Tales from the Yawning Portal</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>
