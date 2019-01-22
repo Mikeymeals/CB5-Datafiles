@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Gift of Wind</Name>
+      <Text>While wearing the item, you can convert up to 20 feet of your movement on each of your turns into flight. If you don't land at the end of this flight, you fall unless you have another means of staying aloft. You can also cast feather fall once from the item, and you regain the ability to do so when you finish a short or long rest.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Feather Fall</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>ShortRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Boots</Requirement>
+  <Name>Pennant of the Vind Rune (Cloak)</Name>
+  <Description>The pair of boots or cloak is now a rare magic item that requires attunement. While wearing the item, you can convert up to 20 feet of your movement on each of your turns into flight. If you don't land at the end of this flight, you fall unless you have another means of staying aloft. You can also cast feather fall once from the item, and you regain the ability to do so when you finish a short or long rest.</Description>
+  <Slot>Wonderous</Slot>
+  <Base />
+  <Source>Storm King's Thunder</Source>
+  <PrependName>Vind</PrependName>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

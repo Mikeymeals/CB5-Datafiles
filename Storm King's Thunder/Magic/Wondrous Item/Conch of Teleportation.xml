@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Conch of Teleportation</Name>
+      <Text>This item is an ordinary, albeit rather large, conch shell that has been inscribed with the uvar rune. The conch measures 2½  feet long and weighs 20 pounds. As an action, you can cast the teleport spell by blowing into the shell. The destination is fixed, and there is no chance of either a mishap or the spell being oﬀ target. Anyone teleported by the conch appears in a specific location designated by the item's creator at the time the uvar rune is inscribed on the conch. It doesn't allow teleportation to any other destination. Once its spell is cast, the conch can't be used again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Teleport</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Dawn</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Conch of Teleportation</Name>
+  <Description>This item is an ordinary, albeit rather large, conch shell that has been inscribed with the uvar rune. The conch measures 2½  feet long and weighs 20 pounds. As an action, you can cast the teleport spell by blowing into the shell. The destination is fixed, and there is no chance of either a mishap or the spell being oﬀ target. Anyone teleported by the conch appears in a specific location designated by the item's creator at the time the uvar rune is inscribed on the conch. It doesn't allow teleportation to any other destination. Once its spell is cast, the conch can't be used again until the next dawn.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Storm King's Thunder</Source>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>
