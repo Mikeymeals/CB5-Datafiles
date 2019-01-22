@@ -112,6 +112,6 @@ You have a +2 bonus to attack rolls and damage rolls you make with this magic we
   <Slot>None</Slot>
   <Base>spear</Base>
   <Source>Elemental Evil</Source>
-  <PrependName>Tinderstrike</PrependName>
+  <PrependName>Windvane</PrependName>
   <Rarity>Legendary</Rarity>
 </MagicProperty>
