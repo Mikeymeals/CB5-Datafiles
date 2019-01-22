@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Gulthias Staff</Name>
+      <Text>Made from the branch of a Gulthias tree (see the blights entry in the Monster Manual), a Gulthias staﬀ is a spongy, black length of wood. Its evil makes beasts visibly uncomfortable while within 30 feet of it. The staﬀ has 10 charges and regains 1d6 + 4 of its expended charges daily at dusk. If the staﬀ is broken or burned to ashes, its wood releases a terrible, inhuman scream that can be heard out to a range of 300 feet. All blights that can hear the scream immediately wither and die.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>10</Value>
+      <ResourceID>GULTHIAS_STAFF</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Vampiric Strike</Name>
+      <Text>The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to regain a number of hit points equal to the damage dealt by the weapon. Each time a charge is spent, red blood oozes from the staff's pores, and you must succeed on a DC 12 Wisdom saving throw or be inflicted with short-term madness (see "Madness" in chapter 8 · of the Dungeon Master's Guide).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Blight Bane</Name>
+      <Text>While you are attuned to the staff, blights and other evil plant creatures don't regard you as hostile unless you harm them.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Staff</Requirement>
+  <Name>Gulthias Staff</Name>
+  <Description>Made from the branch of a Gulthias tree (see the blights entry in the Monster Manual), a Gulthias staﬀ is a spongy, black length of wood. Its evil makes beasts visibly uncomfortable while within 30 feet of it. The staﬀ has 10 charges and regains 1d6 + 4 of its expended charges daily at dusk. If the staﬀ is broken or burned to ashes, its wood releases a terrible, inhuman scream that can be heard out to a range of 300 feet. All blights that can hear the scream immediately wither and die.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Staff</Base>
+  <Source>Curse of Strahd</Source>
+  <PrependName>Gulthias</PrependName>
+  <Rarity>Rare</Rarity>
+</MagicProperty>
