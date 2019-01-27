@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Ghost Lantern</Name>
+      <Text>A restless spirit is trapped inside this lantern. While holding the lantern, you can command the spirit as a bonus action to shed bright light in a 30-foot radius and dim light for an additional 30 feet.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Ghost Lantern</Name>
+      <Text>If you fall unconscious within 10 feet of the lantern, the spirit emerges from it, magically stabilizes you with a touch, and then quickly returns to the lantern.
+The spirit is bound to the lantern and can't be harmed, turned, or raised from the dead. Casting a dispel evil and good spell on the lantern releases the spirit to the afterlife and renders the lantern nonmagical.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Ghost Lantern</Name>
+      <Text>While holding the lantern, you can use an action to order the spirit to leave the lantern and duplicate the effect of the mage hand spell. The spirit returns to the lantern when the spell ends.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Mage Hand</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Ghost Lantern</Name>
+  <Description>A restless spirit is trapped inside this lantern. While holding the lantern, you can command the spirit as a bonus action to shed bright light in a 30-foot radius and dim light for an additional 30 feet.
+While holding the lantern, you can use an action to order the spirit to leave the lantern and duplicate the effect of the mage hand spell. The spirit returns to the lantern when the spell ends.
+If you fall unconscious within 10 feet of the lantern, the spirit emerges from it, magically stabilizes you with a touch, and then quickly returns to the lantern.
+The spirit is bound to the lantern and can't be harmed, turned, or raised from the dead. Casting a dispel evil and good spell on the lantern releases the spirit to the afterlife and renders the lantern nonmagical.
+</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Tomb of Annihilation</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

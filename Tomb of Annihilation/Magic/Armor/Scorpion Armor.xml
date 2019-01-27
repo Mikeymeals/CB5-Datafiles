@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Scorpion Armor</Name>
+      <Text>This suit of plate armor is fashioned from giant scorpion chitin. While wearing this armor, you gain the following benefits:
+• The armor improves your combat readiness, granting you a +5 bonus to initiative as long as you aren't incapacitated.
+• The armor doesn't impose disadvantage on your Dexterity (Stealth) checks.
+• The armor doesn't impose disadvantage on saving throws made to resist the effects of extreme heat (see chapter 5 of the Dungeon Master's Guide).</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>5</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedEquipFeatures>
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (plate)</Requirement>
+  <Name>Scorpion Armor</Name>
+  <Description>This suit of plate armor is fashioned from giant scorpion chitin. While wearing this armor, you gain the following benefits:
+• The armor improves your combat readiness, granting you a +5 bonus to initiative as long as you aren't incapacitated.
+• The armor doesn't impose disadvantage on your Dexterity (Stealth) checks.
+• The armor doesn't impose disadvantage on saving throws made to resist the effects of extreme heat (see chapter 5 of the Dungeon Master's Guide).</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and Plate</Base>
+  <Source>Tomb of Annihilation</Source>
+  <PrependName>Scorpion</PrependName>
+  <Rarity>Rare</Rarity>
+</MagicProperty>
