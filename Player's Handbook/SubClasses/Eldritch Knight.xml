@@ -399,7 +399,7 @@ You can have up to two bonded w eapons, but can summon only one at a time with y
       <Keywords />
       <Name>Weapon  Bond</Name>
       <Text>Once you have bonded a weapon to yourself, you can’t be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
-You can have up to two bonded w eapons, but can summon only one at a time with your bonus action.</Text>
+You can have up to two bonded weapons, but can summon only one at a time with your bonus action.</Text>
       <Level>3</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
