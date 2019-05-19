@@ -75,7 +75,7 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
       <Action>Hidden</Action>
       <Prerequisite />
       <KeywordsToAdd />
-      <AvailableSpellChoices>Wizard and (Evocation or Abjuration) and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <AvailableSpellChoices>Wizard and (Evocation or Abjuration) and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19,3,4)))</AvailableSpellChoices>
       <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
       <UniqueID>ELDRITCH_KNIGHT_EVO_ABJ</UniqueID>
       <AddTo>LearnSpells</AddTo>
@@ -91,7 +91,7 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
       <Action>Hidden</Action>
       <Prerequisite />
       <KeywordsToAdd />
-      <AvailableSpellChoices>Wizard and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19&lt;3,4)))</AvailableSpellChoices>
+      <AvailableSpellChoices>Wizard and !Cantrip and Level &lt;= if(ClassLevel&lt;7,1,if(ClassLevel&lt;13,2,if(ClassLevel&lt;19,3,4)))</AvailableSpellChoices>
       <SpellcastingID>ELDRITCH_KNIGHT</SpellcastingID>
       <UniqueID>ELDRITCH_KNIGHT_ANY</UniqueID>
       <AddTo>LearnSpells</AddTo>
