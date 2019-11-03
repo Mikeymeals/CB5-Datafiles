@@ -11,12 +11,12 @@
       <Action>Hidden</Action>
       <Prerequisite />
       <Skills />
-      <SkillBonus>0</SkillBonus>
+      <SkillBonus>1</SkillBonus>
       <SkillPassive>false</SkillPassive>
       <AttackBonus>0</AttackBonus>
       <DamageBonus>0</DamageBonus>
       <SaveDCBonus>0</SaveDCBonus>
-      <InitiativeBonus>0</InitiativeBonus>
+      <InitiativeBonus>1</InitiativeBonus>
       <DamageBonusModifier>None</DamageBonusModifier>
       <BaseAbility>None</BaseAbility>
       <SavingThrowBonus>1</SavingThrowBonus>

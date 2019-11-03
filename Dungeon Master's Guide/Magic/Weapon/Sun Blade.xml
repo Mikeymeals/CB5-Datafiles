@@ -36,9 +36,9 @@ The sword's luminous blade emits bright light in a 15-foot radius and dim light 
       <DamageBonus>2</DamageBonus>
       <SaveDCBonus>0</SaveDCBonus>
       <InitiativeBonus>0</InitiativeBonus>
-      <DamageBonusText>+1d8 radiant vs undead</DamageBonusText>
+      <DamageBonusText />
       <DamageBonusModifier>None</DamageBonusModifier>
-      <BaseAbility>None</BaseAbility>
+      <BaseAbility>Strength Dexterity</BaseAbility>
       <SavingThrowBonus>0</SavingThrowBonus>
       <ProficiencyBonus>0</ProficiencyBonus>
       <SavingThrowAbility>None</SavingThrowAbility>
@@ -46,6 +46,37 @@ The sword's luminous blade emits bright light in a 15-foot radius and dim light 
       <ProficiencyOptions>
         <string>Shortsword</string>
       </ProficiencyOptions>
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+    </BonusFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d8 radiant</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>vs undead</OptionalText>
     </BonusFeature>
   </AttunedOnUseFeatures>
   <Requirement>Weapon (longsword)</Requirement>

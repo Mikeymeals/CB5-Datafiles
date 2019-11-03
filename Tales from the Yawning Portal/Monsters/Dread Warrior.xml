@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Medium</Size>
   <Name>Dread Warrior</Name>
   <Descriptions />
-  <Source>No Source</Source>
+  <Source>Tales from the Yawning Portal</Source>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>undead</Name>

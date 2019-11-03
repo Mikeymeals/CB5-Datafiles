@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Large</Size>
   <Name>Giant Crayfish</Name>
   <Descriptions />
-  <Source>No Source</Source>
+  <Source>Tales from the Yawning Portal</Source>
+  <Size>Large</Size>
   <Keywords>
     <Keyword>
       <Name>beast</Name>
@@ -52,7 +52,7 @@
     </MonsterTrait>
     <MonsterAction>
       <Name>Claw</Name>
-      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1dl0 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.</Text>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The crayfish has two claws, each of which can grapple only one target.</Text>
       <AttackBonus>4</AttackBonus>
       <Damage>1dl0+2</Damage>
     </MonsterAction>

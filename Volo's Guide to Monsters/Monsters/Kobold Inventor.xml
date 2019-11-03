@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Small</Size>
   <Name>Kobold Inventor</Name>
   <Descriptions />
   <Source>Volo's Guide to Monsters</Source>
+  <Size>Small</Size>
   <Keywords>
     <Keyword>
       <Name>humanoid</Name>
@@ -32,14 +32,23 @@
   <Senses>
     <string>darkvision 60 ft.</string>
   </Senses>
-  <PassivePerception>0</PassivePerception>
+  <PassivePerception>2</PassivePerception>
   <Languages>
     <string>Common</string>
     <string>Draconic</string>
   </Languages>
   <CR>0.25</CR>
   <XP>50</XP>
-  <Traits />
+  <Traits>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text> The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text> While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
   <Actions>
     <MonsterAction>
       <Name>Dagger</Name>

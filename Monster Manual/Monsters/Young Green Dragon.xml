@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Size>Large</Size>
   <Name>Young Green Dragon</Name>
   <Descriptions />
+  <Description />
   <Source>Monster Manual</Source>
+  <Size>Large</Size>
   <Keywords>
     <Keyword>
       <Name>dragon</Name>

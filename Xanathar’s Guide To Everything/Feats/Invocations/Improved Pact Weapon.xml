@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Features>
-    <Feature>
+    <MultiFeature>
       <Keywords />
       <Name>Improved Pact Weapon</Name>
       <Text>You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.
@@ -12,7 +12,35 @@ Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or h
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite>Pact of the Blade feature</Prerequisite>
-    </Feature>
+      <Features>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Name = 'shortbow' or Name = 'longbow' or Name = 'crossbow, light' or Name = 'Crossbow, Heavy'</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>Charisma</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+      </Features>
+      <Condition>SubClass("Warlock") = "Hexblade"</Condition>
+    </MultiFeature>
   </Features>
   <Source>Xanathar’s Guide To Everything</Source>
 </FeatureContainer>

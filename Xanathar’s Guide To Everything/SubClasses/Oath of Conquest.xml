@@ -173,7 +173,7 @@ At 18th level, the range of this aura increases to 30 feet.</Text>
 Once you use this feature, you can’t use it again until you finish a long rest.</Text>
       <Level>20</Level>
       <Hidden>false</Hidden>
-      <NoDisplay>true</NoDisplay>
+      <NoDisplay>false</NoDisplay>
       <Action>Action</Action>
       <Prerequisite />
       <ValueBonus>None</ValueBonus>

@@ -11,7 +11,7 @@
       <Action>Hidden</Action>
       <Prerequisite />
       <Choices>
-        <Feature>
+        <BonusFeature>
           <Keywords />
           <Name>Divine Fury - Necrotic</Name>
           <Text>Starting when you choose this path at 3rd level, you can channel divine fury into your weapon strikes. While you’re raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your barbarian level. The extra damage is necrotic.</Text>
@@ -20,8 +20,27 @@
           <NoDisplay>false</NoDisplay>
           <Action>Other</Action>
           <Prerequisite />
-        </Feature>
-        <Feature>
+          <Condition>AttackOption_rage</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>Floor(classlevel/2)</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusText>+1d6 necrotic</DamageBonusText>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+          <AllowsOffHand>false</AllowsOffHand>
+          <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+          <OptionalText>divine fury</OptionalText>
+        </BonusFeature>
+        <BonusFeature>
           <Keywords />
           <Name>Divine Fury - Radiant</Name>
           <Text>Starting when you choose this path at 3rd level, you can channel divine fury into your weapon strikes. While you’re raging, the first creature you hit on each of your turns with a weapon attack takes extra damage equal to 1d6 + half your barbarian level. The extra damage is radiant.</Text>
@@ -30,7 +49,26 @@
           <NoDisplay>false</NoDisplay>
           <Action>Other</Action>
           <Prerequisite />
-        </Feature>
+          <Condition>AttackOption_rage</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>Floor(classlevel/2)</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusText>+1d6 radiant</DamageBonusText>
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+          <AllowsOffHand>false</AllowsOffHand>
+          <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+          <OptionalText>divine fury</OptionalText>
+        </BonusFeature>
       </Choices>
       <Amount>1</Amount>
       <UniqueID>BARBARIAN_ZEALOT_DIVINE_FURY</UniqueID>

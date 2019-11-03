@@ -48,6 +48,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Acid</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Acid</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -72,6 +99,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Lightning</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Lightning</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -96,6 +150,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Fire</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Fire</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -120,6 +201,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Lightning</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Lightning</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -144,6 +252,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Acid</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Acid</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -168,6 +303,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Fire</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Fire</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -192,6 +354,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Poison</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Poison</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -216,6 +405,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Fire</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Fire</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -240,6 +456,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Cold</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Cold</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
         <MultiFeature>
@@ -264,6 +507,33 @@ At the same time, you can spend 1 sorcery point to gain resistance to that damag
               <Prerequisite />
               <Spells>Cold</Spells>
             </SpellModifyFeature>
+            <BonusFeature>
+              <Keywords />
+              <Name />
+              <Text />
+              <Level>6</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>true</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Condition>Spell and Cold</Condition>
+              <Skills />
+              <SkillBonus>0</SkillBonus>
+              <SkillPassive>false</SkillPassive>
+              <AttackBonus>0</AttackBonus>
+              <DamageBonus>ChaMod</DamageBonus>
+              <SaveDCBonus>0</SaveDCBonus>
+              <InitiativeBonus>0</InitiativeBonus>
+              <DamageBonusModifier>None</DamageBonusModifier>
+              <BaseAbility>None</BaseAbility>
+              <SavingThrowBonus>0</SavingThrowBonus>
+              <ProficiencyBonus>0</ProficiencyBonus>
+              <SavingThrowAbility>None</SavingThrowAbility>
+              <SizeChange>0</SizeChange>
+              <ProficiencyOptions />
+              <AllowsOffHand>false</AllowsOffHand>
+              <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+            </BonusFeature>
           </Features>
         </MultiFeature>
       </Choices>

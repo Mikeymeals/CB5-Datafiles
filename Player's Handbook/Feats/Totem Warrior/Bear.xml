@@ -19,7 +19,14 @@
       <Prerequisite />
     </Feature>
     <BonusFeature>
-      <Keywords />
+      <Keywords>
+        <Keyword>
+          <Name>barbarian</Name>
+        </Keyword>
+        <Keyword>
+          <Name>aspect</Name>
+        </Keyword>
+      </Keywords>
       <Name>Bear</Name>
       <Text>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</Text>
       <Level>6</Level>
