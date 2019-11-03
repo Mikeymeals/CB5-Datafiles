@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Camazotz, Demon Lord Of Bats And Fire</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>537</HP>
+  <HPRoll>43d10 + 301</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+    <string>fly 80 ft.</string>
+  </Speeds>
+  <Strength>30</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>25</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>22</Wisdom>
+  <Charisma>25</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>cold</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+    <string>darkvision 40 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+    <string>Derro</string>
+    <string>Draconic</string>
+    <string>Dwarvish</string>
+    <string>Infernal</string>
+    <string>Nurian</string>
+    <string>Primordial</string>
+    <string>Void Speech; telepathy 300 ft.</string>
+  </Languages>
+  <CR>22</CR>
+  <XP>41000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>Camazotz can use his action to polymorph into a form that resembles a giant bat covered in smoldering ashes, or back into his true, winged humanoid form. His statistics are the same in each form. Any equipment he is wearing or carrying isn't transformed. Either form turns into a pile of greasy ash if destroyed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Echolocation</Name>
+      <Text>Camazotz can't use his blindsight while deafened.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Hearing</Name>
+      <Text>Camazotz has advantage on Wisdom (Perception) checks that rely on hearing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gift of Vampirism</Name>
+      <Text>Camazotz may choose to raise those slain through Strength loss as vampires. They rise after 1d4 days, permanently dominated by Camazotz until such time as he sees fit to grant them free will. Camazotz may have no more than ten enslaved vampires at any given time.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Heat Mantle</Name>
+      <Text>Camazotz is infused with the heart of volcanoes. A creature who strikes Camazotz with a nonreach weapon or with an unarmed strike takes 7 (2d6) fire damage automatically.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Camazotz' innate spellcasting ability is Charisma (spell save DC 22, +14 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+At will: darkness, detect evil and good, dispel magic, plane shift, shapechange, telekinesis, teleport
+3/day each: banishment, haste, symbol
+1/day: earthquake</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Camazotz has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Summon Bats (1/Day)</Name>
+      <Text>Camazotz can summon 4d6 giant bats or 2d6 swarms of bats. The bats appear immediately and serve the demon for up to 1 hour.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Summon Demons (1/Day)</Name>
+      <Text>Camazotz can summon 2d4 barlgura of a variety native to his cavernous realm: squat and blubbery creatures with clawed batwings for arms and a fly speed of 40 ft.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Camazotz makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 5 ft., one target. Hit: 38 (8d6 + 10) piercing damage plus 7 (2d6) fire damage, and the target must make a successful DC 22 Constitution saving throw or have its Strength score reduced by 1d4. A creature reduced to 0 Strength dies.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>8d6 + 10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 31 (6d6 + 10) slashing damage plus 7 (2d6) fire damage, and the target must make a successful DC 22 Constitution saving throw or have its Strength score reduced by 1d4. A creature reduced to 0 Strength dies.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>6d6 + 10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fire Breath (Recharge 5-6)</Name>
+      <Text>Camazotz can breathe a 30-foot cone of unholy fire. Any creature caught in the area takes 55 (10d10) damage, half of which is fire, the other half is necrotic, or half as much damage with a successful DC 22 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Camazotz can take 2 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. Camazotz regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Detect</Name>
+      <Text>Camazotz makes a Wisdom (Perception) check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wing Attack (Costs 2 Actions)</Name>
+      <Text>Camazotz beats his wings, extinguishing mundane and magical light sources alike. Each creature within 10 feet must succeed on a DC 21 Dexterity saving throw or take 14 (4d6) fire damage. Camazotz can then fly up to half his flying speed.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

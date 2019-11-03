@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vaettir</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>chain shirt</ACText>
+  <HP>120</HP>
+  <HPRoll>16d8 + 48</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 30 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>the languages it knew in life</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Covetous Bond</Name>
+      <Text>Corpse-black vaettir can see the face of any creature holding or carrying any item the vaettir ever claimed as its own. It also detects the direction and distance to items it ever owned, so long as that item is currently owned by another. If the item changes hands, the new owner becomes the target of the vaettir's hunt. Bone-white vaettir see individuals who have offended them. Neither time nor distance affects these abilities, so long as both parties are on the same plane.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Deathless</Name>
+      <Text>The vaettir is destroyed when reduced to 0 hit points, but it returns to unlife where it fell on the next nightfall with full hit points. It can be killed only by removing its head, burning the corpse, and dumping the ashes in the sea, or by returning it to its burial mound, placing an open pair of scissors on its chest, and driving pins through its feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The vaettir's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:
+2/day each: gaseous form, hunter's mark
+1/day each: enlarge/reduce, phantom steed
+1/week each: bestow curse, geas, remove curse</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>Vaettir avoid daylight. A vaettir in direct sunlight has disadvantage on attack rolls and ability checks.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The vaettir makes two greataxe attacks or two longbow attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greataxe</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) slashing damage plus 3 (1d6) necrotic damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d12 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longbow</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Corpse Breath (Recharge 5-6)</Name>
+      <Text>The vaettir spews forth a 15.foot cone of putrid gas. Those caught in the area must succeed on a DC 13 Constitution saving throw or become poisoned for 1d4 rounds.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Maddening Gaze (1/Day)</Name>
+      <Text>The vaettir can lock eyes with a creature and drive it mad. Any creature within 30 feet of a vaettir that is the focus of its gaze must make a DC 12 Charisma saving throw or become confused (as the spell) for 1d4 rounds. If the save is successful, the target is immune to the effect for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

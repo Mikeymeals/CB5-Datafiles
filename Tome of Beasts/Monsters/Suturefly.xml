@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Suturefly</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <HP>7</HP>
+  <HPRoll>3d4</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 40 ft. (hover)</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>4</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Camouflage</Name>
+      <Text>A suturefly in forest surroundings has advantage on Dexterity (Stealth) checks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Detect Blasphemy</Name>
+      <Text>The most common variety of suturefly attacks any creature that blasphemes aloud, which it can detect at a range of 100 feet unless the blasphemer makes a successful DC 13 Charisma saving throw.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Sew</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the suturefly sews the target's mouth, nose, or eye closed. With supernatural speed, the suturefly repeatedly pierces the target's face, each time threading a loop of the target's own skin through the previous hole. These skin loops rapidly blacken, shrink, and draw the orifice tightly closed. It takes two actions and a sharp blade to sever the loops and reopen the orifice, and the process causes intense pain and 2 slashing damage. A victim whose mouth and nose have been sewn shut begins suffocating at the start of his or her next turn.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

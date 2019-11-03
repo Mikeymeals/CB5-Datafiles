@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Lorelei</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>18 mage armor</ACText>
+  <HP>76</HP>
+  <HPRoll>9d8 + 36</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>21</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>23</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Alluring Presence</Name>
+      <Text>All humanoids within 30 feet of a lorelei who look directly at her must succeed on a DC 17 Charisma saving throw or be drawn to her in the most direct path, regardless of the danger. This compulsion fades once the person gets within 5 feet of the lorelei. A creature can avoid this effect for one full round by choosing to avert its eyes at the start of its turn, but it then has disadvantage on any attacks or other rolls directed against the lorelei until the start of its next turn. A lorelei can suppress or resume this ability as a bonus action. Anyone who successfully saves against this effect cannot be affected by it from the same lorelei for 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Unearthly Grace</Name>
+      <Text>A lorelei applies her Charisma modifier to all of her saving throws in place of the normal ability modifier.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Spirit</Name>
+      <Text>The lorelei is under the effect of freedom of movement whenever she is in contact with a body of water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The lorelei is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). She requires no material components to cast her spells. The lorelei has the following sorcerer spells prepared:
+Cantrips (at will): detect magic, guidance, light, mending, poison spray, prestidigitation
+1st level (4 slots): comprehend languages, fog cloud, mage armor, ray of sickness
+2nd level (3 slots): hold person, misty step, suggestion
+3rdlevel (3 slots): hypnotic pattern, gaseous form, water walk
+4th level (2 slots): dominate beast, ice storm</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d4 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Charm</Name>
+      <Text>The lorelei targets one humanoid she can see within 30 feet of her. If the target can see or hear the lorelei, it must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the lorelei. The charmed target regards the lorelei as its one, true love, to be heeded and protected. Although the target isn't under the lorelei's control, it takes the lorelei's requests or actions in the most favorable way it can. Each time the lorelei or her companions cause the target to take damage, directly or indirectly, it repeats the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the lorelei is killed, is on a different plane of existence than the target, or takes a bonus action to end the effect.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stunning Glance</Name>
+      <Text>The lorelei mentally disrupts a creature within 30 feet with a look. The target must succeed on a DC 17 Wisdom saving throw or be stunned for 2 rounds. Anyone who successfully saves against this effect cannot be affected by it from the same lorelei for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

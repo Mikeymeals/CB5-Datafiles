@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Folk Of Leng</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <ACText>studded leather</ACText>
+  <HP>68</HP>
+  <HPRoll>8d8 + 32</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>22</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The folk of Leng's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:
+At will: comprehend languages, minor illusion
+3/day each: disguise self, suggestion
+1/day each: dream, etherealness</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The folk of Leng regains 5 hit points at the start of its turn. If the folk of Leng takes fire or radiant damage, this trait does not function at the start of its next turn. The folk of Leng dies only if it starts its turn with 0 hit points and does not regenerate. Even if slain, their bodies reform in a crypt of Leng and go on about their business.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Void Stare</Name>
+      <Text>The folk of Leng can see through doors and around corners as a bonus action. As a result, they are very rarely surprised.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Void Sailors</Name>
+      <Text>The folk of Leng can travel the airless void without harm.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Etheric Harpoon</Name>
+      <Text>Ranged Weapon Attack: +8 to hit, range 30 ft., one target. Hit: 10 (1d8 + 6) necrotic damage, and the target must make a successful DC 13 Wisdom saving throw or be grappled (escape DC 13). In addition, armor has no effect against the attack roll of an etheric harpoon; only the Dexterity modifier factored into the target's AC is considered.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d8 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Psychic Scimitar</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) psychic damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Hooked Spider Net (Recharge 5-6)</Name>
+      <Text>Ranged Weapon Attack. +4 to hit, range 20/50 ft., one target. Hit: 3 (1d6) piercing damage plus 19 (3d12) poison damage, and the target is restrained. A successful DC 14 Constitution saving throw halves the poison damage.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

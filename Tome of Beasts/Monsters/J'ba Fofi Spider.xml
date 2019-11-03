@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>J'ba Fofi Spider</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>75</HP>
+  <HPRoll>10d10 + 20</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 40 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Jungle Stealth</Name>
+      <Text>The j'ba fofi spider gains an additional +2 to Stealth (+7 in total) in forest or jungle terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Camouflaged Webs</Name>
+      <Text>It takes a successful DC 15 Wisdom (Perception) check to spot the j'ba fofi's web. A creature that fails to notice a web and comes into contact with it is restrained by the web. A restrained creature can pull free from the web by using an action and making a successful DC 12 Strength check. The web can be attacked and destroyed (AC 10; hp 5; vulnerable to fire damage; immune to bludgeoning, poison, and psychic damage).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The j'ba fofi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Symbiosis</Name>
+      <Text>No ordinary spider will attack the j'ba fofi unless magically controlled or the j'ba fofi attacks it first. In addition, every j'ba fofi is accompanied by a swarm of spiders (a variant of the swarm of insects), which moves and attacks according to the j'ba fofi's mental command (commanding the swarm does not require an action by the j'ba fofi).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Web Sense</Name>
+      <Text>While in contact with a web, the j'ba fofi knows the exact location of any other creature in contact with the same web.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Web Walker</Name>
+      <Text>The j'ba fofi ignores movement restrictions caused by webbing.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 8 (1d10 + 3) piercing damage plus 22 (5d8) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw. A target dropped to 0 hit points by this attack is stable but poisoned and paralyzed for 1 hour, even after regaining hit points.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d10 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

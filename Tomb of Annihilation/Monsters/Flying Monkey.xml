@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Flying Monkey</Name>
+  <Descriptions />
+  <Description>Flying monkeys are slightly more clever and curious than common monkeys, and they can be domesticated and taught to obey simple commands. They come in many colors and varieties, with feathered wings that have a span of about 5 feet. With the DM's permission, the find familiar spell can summon a flying monkey.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unalinged</Alignment>
+  <AC>12</AC>
+  <HP>3</HP>
+  <HPRoll>1d6</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 20 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is within 5 feet ofthe creature and the ally isn't incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack +1 to hit, reach 5 ft., 1 target. Hit: 1 (1d4-1) piercing damage.</Text>
+      <AttackBonus>1</AttackBonus>
+      <Damage>1d4-1 piercing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

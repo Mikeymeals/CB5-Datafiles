@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Buraq</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>17</AC>
+  <HP>152</HP>
+  <HPRoll>16d8 + 80</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+    <string>fly 90 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>radiant; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Primordial</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Angelic Weapons</Name>
+      <Text>The buraq's attacks are magical. When the buraq hits with its hooves, it deals an extra 4d8 radiant damage (included in the attack).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The buraq's innate spellcasting ability is Charisma (spell save DC 17). The buraq can innately cast the following spells, requiring no components:
+At will: comprehend languages, detect evil and good, holy aura, pass without trace
+3/day each: haste, longstrider
+1/day each: plane shift, wind walk</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The buraq has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Night Journey</Name>
+      <Text>When outdoors at night, a buraq's vision is not limited by nonmagical darkness. Once per month, the buraq can declare it is on a night journey; for the next 24 hours, it can use its Teleport once per round. Its destination must always be in an area of nonmagical darkness within its line of sight. At any point during the night journey, as a bonus action, the buraq can return itself and its rider to the location where it began the night journey.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The buraq makes two attacks with its hooves.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Hooves</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Teleport (1/Day)</Name>
+      <Text>The buraq magically teleports itself and its rider, along with any equipment it is wearing or carrying, to a location the buraq is familiar with, up to 1 mile away.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

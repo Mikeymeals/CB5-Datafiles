@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Weaving Spider</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>25</HP>
+  <HPRoll>10d4</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 40 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>5</PassivePerception>
+  <Languages>
+    <string>understands Common</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The weaving spider is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The weaving spider has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The weaving spider makes two trimming blade attacks or two needle shuttle attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Trimming Blade</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage and possible unmaking.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Poisoned Needle Shuttle</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 30 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become paralyzed. The target repeats the saving throw at the end of each of its turns, ending the effect on itself with a success.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Unmaking</Name>
+      <Text>The weaving spider's speed and its slim, sharp blade can slice cloth, leather, and paper into scraps very quickly. Whenever a weaving spider's trimming blade attack roll exceeds the target's armor class by 5 or more, the target must succeed on a DC 13 Dexterity saving throw or one of their possessions becomes unusable or damaged until repaired (DM's choice)</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

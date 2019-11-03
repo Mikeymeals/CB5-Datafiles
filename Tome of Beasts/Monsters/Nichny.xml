@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Nichny</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>112</HP>
+  <HPRoll>15d8 + 45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Elvish</string>
+    <string>Primordial</string>
+    <string>Sylvan</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Freedom of Movement</Name>
+      <Text>A nichny ignores difficult terrain and cannot be entangled, grappled, or otherwise impeded in its movements as if it is under the effect of a constant freedom of movement spell. This ability is negated for grapple attempts if the attacker is wearing gold or orichalcum gauntlets or using a gold or orichalcum chain as part of its attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Imbue Luck (1/Day)</Name>
+      <Text>Nichny can enchant a small gem or stone to bring good luck. If the nichny gives this lucky stone to another creature, the bearer receives a +1 bonus to all saving throws for 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The nichny's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At Will: detect magic, invisibility, magic missile, ray of frost
+3/day each: blink, dimension door, haste, polymorph (self only)
+1/day each: teleport, word of recall</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Luck Aura</Name>
+      <Text>A nichny is surrounded by an aura of luck. All creatures it considers friends within 10 feet of the nichny gain a +1 bonus to attack rolls, saving throws, and ability checks. Creatures that it considers its enemies take a -1 penalty to attack rolls, saving throws, and ability checks. The nichny can activate or suppress this aura on its turn as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The nichny has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Soothsaying</Name>
+      <Text>Once per week, a nichny can answer up to three questions about the past, present, or future. All three questions must be asked before the nichny can give its answers, which are short and may be in the form of a paradox or riddle. One answer always is false, and the other two must be true.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The nichny makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d12 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

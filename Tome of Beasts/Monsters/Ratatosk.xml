@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Ratatosk</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <HP>42</HP>
+  <HPRoll>12d4 + 12</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>4</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common; telepathy 100 ft.</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The ratatosk's spellcasting attribute is Charisma (save DC 14). It can innately cast the following spells without requiring material or somatic components:
+At will: animal messenger, message, vicious mockery
+1/day each: commune, mirror image
+3/day each: sending, suggestion</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Skitter</Name>
+      <Text>The ratatosk can take the Dash, Disengage, or Hide action as a bonus action on each of its turns.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Gore</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 14 (4d6) psychic damage and the target must make a successful DC 14 Wisdom saving throw or be charmed for 1 round. While charmed in this way, the creature regards one randomly determined ally as a foe.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>4d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Divisive Chatter (recharge 5-6)</Name>
+      <Text>Up to six creatures within 30 feet that can hear the ratatosk must make DC 14 Charisma saving throws. On a failure, the creature is affected as if by a confusion spell for 1 minute. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Desperate Lies</Name>
+      <Text>A creature that can hear the ratatosk must make a DC 14 Wisdom saving throw when it attacks the ratatosk. If the saving throw fails, the creature still attacks, but it must choose a different target creature. An ally must be chosen if no other enemies are within the attack's reach or range. If no other target is in the attack's range or reach, the attack is still made (and ammunition or a spell slot is expended, if appropriate) but it automatically misses and has no effect.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

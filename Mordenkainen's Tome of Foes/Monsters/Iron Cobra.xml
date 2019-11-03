@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Iron Cobra</Name>
+  <Descriptions>
+    <Description>
+      <Name>Clockworks</Name>
+      <Text>The gnomes’ efforts to invent and tinker with magic and mechanical devices produce many failed constructs, but also result in genuine advances, such as clockworks. Since their discovery, the methods used to craft clockworks have passed from one community of gnomes to another and down the generations.
+Constructed Nature. A clockwork doesn’t require air, food, drink, or sleep.
+</Text>
+    </Description>
+    <Description>
+      <Name>Individual Designs</Name>
+      <Text>A gnome artisan values an individualized clockwork more highly than a perfectly functioning one that copies too much from another creation⁠. A clockwork can be customized by adding clockwork enhancements.
+</Text>
+    </Description>
+    <TableDescription>
+      <Name>Clockwork Enhancements</Name>
+      <Text />
+      <Amount>0</Amount>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Title>Camouflaged</Title>
+          <Text>The clockwork gains proficiency in Stealth if it doesn’t already have it. While motionless, it is indistinguishable from a stopped machine.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Title>Sensors</Title>
+          <Text>The range of the clockwork’s Darkvision becomes 120 feet, unless it is higher, and it gains proficiency in Perception if it doesn’t already have it.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Title>Improved Armor</Title>
+          <Text>The clockwork’s AC increases by 2.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Title>Increased Speed</Title>
+          <Text>The clockwork’s speed increases by 10 feet.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Title>Reinforced Construction</Title>
+          <Text>The clockwork has resistance⁠ to force, lightning, and thunder damage.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Title>Self-Repairing</Title>
+          <Text>If the clockwork starts its turn with at least 1 hit point, it regains 5 Hit Points. If it takes lightning damage, this ability doesn’t function at the start of its next turn.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Title>Sturdy Frame</Title>
+          <Text>The clockwork’s hit point maximum increases by an amount equal to its number of Hit Dice.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Title>Suction</Title>
+          <Text>The clockwork gains a climbing speed of 30 feet.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Title>Vocal Resonator</Title>
+          <Text>The clockwork gains the ability to speak rudimentary Common or Gnomish (creator’s choice).</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Title>Water⁠ Propulsion</Title>
+          <Text>The clockwork gains a swimming speed of 30 feet.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <TableDescription>
+      <Name>Clockwork Malfunctions</Name>
+      <Amount>0</Amount>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Title>Faulty Sensors</Title>
+          <Text>Roll a d6 at the start of the clockwork’s turn. If you roll a 1, the clockwork is Blinded until the end of its turn.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Title>Flawed Targeting</Title>
+          <Text>Roll a d6 at the start of the clockwork’s turn. If you roll a 1, the clockwork makes Attack rolls with disadvantage until the end of its turn.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Title>Ground Fault</Title>
+          <Text>The clockwork has vulnerability to lightning damage.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Title>Imprinting Loop</Title>
+          <Text>Roll a d6 at the start of the clockwork’s turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won’t willingly harm that creature for 1 minute or until that creature attacks it or deals damage to it.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Title>Leaking Lubricant</Title>
+          <Text>Roll a d6 at the start of the clockwork’s turn. If you roll a 1, the clockwork gains 1 level of Exhaustion that it isn’t immune to.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Title>Limited Steering</Title>
+          <Text>The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its Movement. It can rotate freely if it doesn’t use any of its speeds on its turn.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Title>Overactive Sense of Self-Preservation</Title>
+          <Text>If the clockwork has half its Hit Points or fewer at the start of its turn in Combat, roll a d6. If you roll a 1, it retreats from combat⁠. If retreat isn’t possible, it continues fighting.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Title>Overheats</Title>
+          <Text>Roll a d6 at the start of the clockwork’s turn. If you roll a 1, the clockwork is Incapacitated until the end of its turn.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Title>Rusty Gears</Title>
+          <Text>The clockwork has disadvantage on Initiative rolls, and its speed decreases by 10 feet.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Title>Weak Armor</Title>
+          <Text>The clockwork isn’t immune to bludgeoning, piercing, and slashing damage from nonmagical attacks that aren’t adamantine.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+  </Descriptions>
+  <Description>An iron cobra is exactly what its name implies: a metal snake with a poisonous bite. In addition to standard poisons, gnomes load this clockwork with alchemical concoctions that can paralyze creatures and cloud their minds with paranoia.</Description>
+  <Flavour>Never depend on something built by a gnome. You can always rely on a gnome to take a good idea and make it impractical.
+—Mordenkainen</Flavour>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <HP>45</HP>
+  <HPRoll>7d8+14</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>bludgeoning from nonmagical attacks that aren’t adamantine</string>
+    <string>piercing from nonmagical attacks that aren’t adamantine</string>
+    <string>slashing from nonmagical attacks that aren’t adamantine</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands one language of its creator but can’t speak</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance⁠</Name>
+      <Text>The iron cobra has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random poison effect:
+1. Poison Damage: The target takes 13 (3d8) poison damage.
+2. Confusion: On its next turn, the target must use its action⁠ to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it’s holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the dash action⁠, moving toward the nearest creature.
+3. Paralysis: The target is paralyzed until the end of its next turn.
+</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3  piercing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

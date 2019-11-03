@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Kobold Scale Sorcerer</Name>
+  <Descriptions>
+    <Description>
+      <Name>Scale Sorcerers</Name>
+      <Text>A kobold scale sorcerer has an innate talent for arcane magic. When its tribe is threatened, the kobold lashes out with fire and poison against enemies, saving a bit of magic for itself in case it needs to flee or take advantage of a captor.</Text>
+    </Description>
+  </Descriptions>
+  <Description>Some kobolds have gifts bequeathed to them by dragons or gods, enabling them to rise above their peers. Others are born with a cruel inventiveness that few can match.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>kobold</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>27</HP>
+  <HPRoll>5d6+10</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>9</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:
+
+Cantrips (at will): fire bolt, mage hand, mending, poison spray
+
+1st level (4 slots): charm person, chromatic orb, expeditious retreat
+
+2nd level (2 slots): scorching ray</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sorcery Points</Name>
+      <Text>Sorcery Points. The kobold has 3 sorcery points. It can spend 1 or more sorcery points as a bonus action to gain one of the following benefits:
+
+Heightened Spell: When it casts a spell that forces a creature to a saving throw to resist the spell’s effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.
+
+Subtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The kobold has advantage on an attack roll against a creature it at least one of the kobold's allies is within 5 feet of the creature and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 4 (1d4+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>fire bolt</string>
+    <string>mage hand</string>
+    <string>mending</string>
+    <string>poison spray</string>
+    <string>charm person</string>
+    <string>chromatic orb</string>
+    <string>expeditious retrea</string>
+    <string>scorching ray</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </Slots>
+</Monster>

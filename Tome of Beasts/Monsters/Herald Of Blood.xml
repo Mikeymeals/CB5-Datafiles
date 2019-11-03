@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Herald Of Blood</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>115</HP>
+  <HPRoll>10d12 + 50</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft</string>
+    <string>fly 50 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>piercing</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 240 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Blood Armor</Name>
+      <Text>The herald of blood takes no damage from the first attack against it each round and ignores any nondamaging effects of the attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gift of Blood</Name>
+      <Text>As an action, the herald of blood can transform any fey, human, or goblin into a red hag, if the target willingly accepts this transformation.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Grant Blood Rage</Name>
+      <Text>As a bonus action, the herald of blood can grant a single living creature blood rage, giving it advantage on attacks for 3 rounds. At the end of this time, the target gains 1 level of exhaustion and suffers 13 (2d12) necrotic damage from blood loss.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Humanoid Form</Name>
+      <Text>A herald of blood can assume a humanoid form at will as a bonus action, and dismiss this form at will.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Melting Touch</Name>
+      <Text>When a herald of blood scores a critical hit or starts its turn with a foe grappled, it can dissolve one metal or wood item of its choosing in that foe's possession. A mundane item is destroyed automatically; a magical item survives if its owner makes a successful DC 17 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Engulfing Protoplasm</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 19 (2d12 + 6) slashing damage and the target must make a successful DC 17 Dexterity saving throw or be grappled by the herald of blood (escape DC 16). While grappled this way, the creature takes 39 (6d12) acid damage at the start of each of the herald's turns. The herald can have any number of creatures grappled this way.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d12 + 6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>A herald of blood can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. A herald of blood regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Move (1 Action)</Name>
+      <Text>The herald of blood moves up to half its speed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Call of Blood (2 Actions)</Name>
+      <Text>Melee Weapon Attack. +10 to hit, reach 5 ft., all creatures in reach. Hit: 39 (6d12) necrotic damage and each target must make a successful DC 17 Constitution saving throw or gain 1 level of exhaustion.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Majesty of Ragnarok (3 Actions)</Name>
+      <Text>The herald of blood emits a terrifying burst of eldritch power. All creatures within 100 feet and in direct line of sight of the herald take 32 (5d12) necrotic damage, gain 2 levels of exhaustion, and are permanently blinded. Targets that make a successful DC 15 Charisma saving throw are not blinded and gain only 1 level of exhaustion.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

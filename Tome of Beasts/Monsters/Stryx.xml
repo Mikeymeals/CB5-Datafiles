@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Stryx</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>13</AC>
+  <HP>10</HP>
+  <HPRoll>4d4</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+  </Languages>
+  <CR>0.125</CR>
+  <XP>25</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>Until a stryx speaks or opens its mouth, it is indistinguishable from a normal owl.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The stryx doesn't provoke opportunity attacks when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The stryx's innate spellcasting ability is Wisdom. It can cast the following spell, requiring no components:
+3/day: comprehend languages</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Hearing and Sight</Name>
+      <Text>The stryx has advantage on Wisdom (Perception) checks that rely on hearing or sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Talons</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

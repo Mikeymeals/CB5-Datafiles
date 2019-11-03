@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Gbahali (Postosuchus)</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>126</HP>
+  <HPRoll>12d12 + 48</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Chameleon Hide</Name>
+      <Text>The gbahali has advantage on Dexterity (Stealth) checks. If the gbahali moves one-half its speed or less, attacks made against it before the start of the gbahali's next turn have disadvantage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The gbahali makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 24 (3d12 + 5) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the gbahali can't bite another target.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d12 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

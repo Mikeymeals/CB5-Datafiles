@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Azza Gremlin</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <HP>7</HP>
+  <HPRoll>2d6</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 40 ft. (hover)</string>
+  </Speeds>
+  <Strength>5</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Contagious Lightning</Name>
+      <Text>A creature that touches the azza gremlin or hits it with a melee attack using a metal weapon receives a discharge of lightning. The creature must succeed on a DC 10 Constitution saving throw or attract lightning for 1 minute. For the duration, attacks that cause lightning damage have advantage against this creature, the creature has disadvantage on saving throws against lightning damage and lightning effects, and if the creature takes lightning damage, it is paralyzed until the end of its next turn. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Lightning Jolt</Name>
+      <Text>Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 3 (1d6) lightning damage, and the target is affected by Contagious Lightning.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Ride the Bolt</Name>
+      <Text>The azza gremlin can travel instantly along any bolt of lightning. When it is within 5 feet of a lightning effect, the azza can teleport to any unoccupied space inside or within 5 feet of that lightning effect.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

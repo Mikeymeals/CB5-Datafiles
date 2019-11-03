@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Baba Yaga's Horsemen, Bright Day</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>20</AC>
+  <ACText>plate and shield</ACText>
+  <HP>171</HP>
+  <HPRoll>18d8 + 90</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons</string>
+    <string>cold and fire</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Infernal; telepathy 100 ft.</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The horseman is a 12th-level spellcaster. Its spellcasting ability is Charisma (save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: sacred flame
+1/day each: dimension door, fire shield, haste, slow
+2/day: daylight
+3/day each: ethereal jaunt, phantom steed (appears as a horse colored appropriately to the horseman), plane shift (self and steed only)</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The horseman has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Peerless Rider</Name>
+      <Text>Any attacks directed at the horseman's mount targets the horseman instead. Its mount gains the benefit of the rider's damage and condition immunities, and if the horseman passes a saving throw against an area effect, the mount takes no damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Quick Draw</Name>
+      <Text>The horseman can switch between wielding its lance and longsword as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The horseman makes three attacks with its lance or longsword. It can use Temporal Strike with one of these attacks when it is available.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Lance</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft. (disadvantage within 5 ft.), one target. Hit: 12 (1d12 + 6) piercing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>disadvantage within 5 ft.</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>1d8 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Temporal Strike (recharge 5-6)</Name>
+      <Text>When the horseman strikes a target with a melee attack, in addition to taking normal damage, the target must succeed on a DC 17 Constitution saving throw or instantly age 3d10 years. A creature that ages this way has disadvantage on attack rolls, ability checks, and saving throws based on Strength, Dexterity, and Constitution until the aging is reversed. A creature that ages beyond its lifespan dies immediately. The aging reverses automatically after 24 hours, or it can be reversed magically by greater restoration or comparable magic. A creature that succeeds on the save is immune to the temporal strike effect for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

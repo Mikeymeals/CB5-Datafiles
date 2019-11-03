@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Bucca</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>27</HP>
+  <HPRoll>5d4 + 15</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>9</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Darakhul</string>
+    <string>Dwarvish</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The bucca doesn't provoke an opportunity attack when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Vulnerability to Sunlight</Name>
+      <Text>A bucca takes 1 point of radiant damage for every minute it is exposed to sunlight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The bucca's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:
+At will: invisibility
+3/day each: darkness, ensnaring strike, locate object</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Dagger</Name>
+      <Text>Melee Weapon Damage: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw against poison or take 1d2 Strength damage. The target must repeat the saving throw at the end of each of its turns, and it loses another 1d2 Strength for each failed saving throw. The effect ends when one of the saving throws succeeds or automatically after 4 rounds. All lost Strength returns after a long rest.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

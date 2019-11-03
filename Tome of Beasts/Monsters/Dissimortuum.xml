@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Dissimortuum</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>112</HP>
+  <HPRoll>15d8 + 45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The dissimortuum can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dissimortuum makes three claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 15 (3d8 + 2) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>3d8 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Terrifying Mask</Name>
+      <Text>Each non-undead creature within 60 feet of the dissimortuum that can see it must make a successful DC 15 Wisdom saving throw or be frightened for 1d8 rounds. If a target's saving throw is successful or the effect ends for it, the target becomes immune to all dissimortuum's terrifying masks for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

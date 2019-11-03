@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Lich Hound</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <HP>119</HP>
+  <HPRoll>14d8 + 56</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 50 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>piercing and bludgeoning from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 100 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Darakhul</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Hearing and Smell</Name>
+      <Text>The lich hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d12 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Ethereal Jaunt</Name>
+      <Text>As a bonus action, the lich hound can magically shift from the Material Plane to the Ethereal Plane, or vice versa.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gut Rip</Name>
+      <Text>As a bonus action, the lich hound tears into any adjacent prone creature, inflicting 19 (3d12) slashing damage. The target must succeed on a DC 14 Constitution saving throw or be incapacitated for 1d4 rounds. An incapacitated creature repeats the saving throw at the end of each of its turns; a successful save ends the condition early.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Howl</Name>
+      <Text>The eerie howl of lich hounds as they close in on their prey plays havoc on the morale of living creatures that hear it. Howling requires and action, and creatures that hear the howl of a lich hound within 100 feet must succeed on a DC 14 Wisdom saving throw or become frightened for 5 rounds. Creatures that successfully save against this effect cannot be affected by a lich hound's howl for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>0</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>0</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>0</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

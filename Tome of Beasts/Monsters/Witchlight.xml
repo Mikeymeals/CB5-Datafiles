@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Witchlight</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <HP>10</HP>
+  <HPRoll>4d4</HPRoll>
+  <Speeds>
+    <string>fly 50 ft.</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>radiant</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the language of its creator but can't speak</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dispel Magic Weakness</Name>
+      <Text>Casting dispel magic on a witchlight paralyzes it for 1d10 rounds.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Luminance</Name>
+      <Text>A witchlight normally glows as brightly as a torch. The creature can dim itself to the luminosity of a candle, but it cannot extinguish its light. Because of its glow, the witchlight has disadvantage on Dexterity (Stealth) checks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Thin As Light</Name>
+      <Text>While a witchlight is not incorporeal, it can pass through any opening that light can.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Light Ray</Name>
+      <Text>Ranged Weapon Attack: +6 to hit, range 30 ft., one target. Hit: 6 (1d4 + 4) radiant damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Flash (Recharge 5-6)</Name>
+      <Text>The witchlight emits a bright burst of light that blinds all sighted creatures within 30 feet for 1d4 rounds unless they succeed on a DC 10 Constitution saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

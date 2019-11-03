@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Young Mithral Dragon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>92</HP>
+  <HPRoll>16d8 + 20</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>ludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft.</string>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The dragon's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no material components:
+At will: tongues
+3/day: enhance ability</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dragon makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage, and the target loses 3 hit point from bleeding at the start of each of its turns for six rounds unless it receives magical healing. Bleeding damage is cumulative; the target loses 3 hp per round for each bleeding wound it has taken from a mithral dragon’s claws.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d10+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Breath Weapon (Recharge 5–6)</Name>
+      <Text>A mithral dragon can spit a 50-foot-long, 5-foot-wide line of metallic shards. Targets in its path take 21 (6d6) magical slashing damage and lose another 5 hit points from bleeding at the start of their turns for 6 rounds; slashing damage is halved by a successful DC 12 Dexterity saving throw, but bleeding damage is not affected. Only magical healing stops the bleeding before 6 rounds. The shards dissolve into wisps of smoke 1 round after the breath weapon’s use</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>0</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

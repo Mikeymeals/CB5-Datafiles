@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Living Wick</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>28</HP>
+  <HPRoll>8d6</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>5</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>sight 20 ft. (blind beyond the radius of its own light)</string>
+  </Senses>
+  <PassivePerception>3</PassivePerception>
+  <Languages>
+    <string>shares a telepathic link with the individual that lit its wick</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Controlled</Name>
+      <Text>Living wicks cannot move, attack, or perform actions when they are not lit. Living wicks only respond to the telepathic commands of the individual that lit them.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Light</Name>
+      <Text>Activated living wicks produce light as a torch.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Melting</Name>
+      <Text>A living wick loses one hit point for every 24 hours it remains lit.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Consume Self</Name>
+      <Text>A living wick can be commanded to rapidly burn through the remains of its wick, creating a devastating fireball. All creatures within 20 feet of the living wick take 7 (2d6) fire damage, or half damage with a successful DC 13 Dexterity saving throw. The fire spreads around corners and ignites flammable objects in the area that aren't being worn or carried. The wick is reduced to a lifeless puddle of wax.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

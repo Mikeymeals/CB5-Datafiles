@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sea Dragon Wyrmling</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>52</HP>
+  <HPRoll>8d8 + 16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 60 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 10 ft. darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d10 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Tidal Breath (Recharge 5-6)</Name>
+      <Text>The dragon exhales a crushing wave of frigid seawater in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw. On a failure, the target takes 11 (2d10) bludgeoning damage and 11 (2d10) cold damage, and is pushed 15 feet away from the dragon and knocked prone. On a successful save the creature takes half as much damage and isn't pushed or knocked prone.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Stone Juggernaut</Name>
+  <Descriptions />
+  <Description>A stone juggernaut is a rolling construct imbued with enough awareness to avoid obvious dangers such as open pits and chasms. It trundles across open battlefields or rolls down dungeon corridors, crushing anyone in its path. Every stone juggernaut has a unique shape and appearance. One might resemble an elephant with bejeweled tusks, while another might look like a scowling demon with flaming eyes and obsidian teeth.
+A stone juggernaut is fast, but it lacks maneuverability and can move in only one direction on its turn. It poses little danger to creatures it can't crush beneath its rollers. Its best tactic is to slam into a creature, knock it prone, and then roll over it.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>157</HP>
+  <HPRoll>15d10 + 75</HPRoll>
+  <Speeds>
+    <string>50 ft. (in one direction chosen at the start ofits turn)</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>1</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical attacks not made with adamantine weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devastating Roll</Name>
+      <Text> The juggernaut can move through the space of a prone creature. A creature whose space the juggernaut enters for the first time on a turn must make a DC 17 Dexterity saving throw, taking 55 (10d10) bludgeoning damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text> The juggernaut is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text> As long as it has 1 hit point left, the juggernaut magically regains all its hit point s daily at dawn. The juggernaut is destroyed and doesn't regenerate if it drops to 0 hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text> The juggernaut deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text> Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 25 (3d12 + 6) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>3d12 + 6  bludgeoning</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

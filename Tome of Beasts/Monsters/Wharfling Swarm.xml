@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Wharfling Swarm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>swarm of tiny beasts</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>63</HP>
+  <HPRoll>14d10 . 14</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>8</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>slashing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Swarm</Name>
+      <Text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny wharfling. The swarm can't regain hit points or gain temporary hit points.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bites</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 21 (6d6) piercing damage, or 10 (3d6) piercing damage if the swarm has half of its hit points or fewer.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>6d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Locking Bite</Name>
+      <Text>When a creature leaves a wharfling swarm's space, 1d3 wharflings remain grappled to them (escape DC 10). Each wharfling inflicts 5 (1d4 + 3) piercing damage at the start of the creature's turns until it escapes from the grapples.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pilfer</Name>
+      <Text>A wharfling swarm makes 1d6 Dexterity (Sleight of Hand) checks each round against every creature in the swarm's space. The DC for each check equals 10 plus the target creature's Dexterity modifier. For each successful check, the wharflings steal some small metallic object from the target, and the theft is unnoticed if the same result equals or exceeds the target's passive Perception.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

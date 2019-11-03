@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Dau</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>13</AC>
+  <HP>49</HP>
+  <HPRoll>9d6 + 18</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Deep Speech</string>
+    <string>Primordial</string>
+    <string>Sylvan</string>
+    <string>telepathy 60 ft.</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The dau has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The dau's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:
+At will: detect thoughts
+3/day each: invisibility, mirror image
+1/day each: mirage arcana, programmed illusion, project image</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dau makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage, and the dau regains hit points equal to the necrotic damage dealt. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Tangible Illusion (1/Day)</Name>
+      <Text>After casting an illusion spell of an object, the dau temporarily transforms that illusion into a physical, nonmagical object. The temporary object lasts 10 minutes, after which it reverts to being an illusion (or vanishes, if the duration of the original illusion expires). During that time, the illusion has all the physical properties of the object it represents, but not magical properties. The dau must touch the illusion to trigger this transformation, and the object can be no larger than 5 cubic feet.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Mirror Dodge (1/Day)</Name>
+      <Text>When the dau would be hit by an attack or affected by a spell, the dau replaces itself with an illusory duplicate and teleports to any unoccupied space within 30 feet in sight. The dau isn't affected and the illusory duplicate is destroyed.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

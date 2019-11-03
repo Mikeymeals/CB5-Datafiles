@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Bodak</Name>
+  <Descriptions>
+    <Description>
+      <Name>Ravaged Soul</Name>
+      <Text>The soul of a creature that becomes a bodak is so damaged that it is unfit for most forms of magical resurrection. Only a wish spell or similar magic can return a bodak to its former life.</Text>
+    </Description>
+    <Description>
+      <Name>Undead Nature</Name>
+      <Text>A bodak doesn't require air, food, drink, or sleep.</Text>
+    </Description>
+  </Descriptions>
+  <Description>A bodak is the undead remains of someone who revered Orcus. Devoid of life and soul, it exists only to cause death. Orcus can recall anything a bodak sees or hears. If he so chooses, he can speak through a bodak to address his enemies and followers directly.
+Even nature despises bodaks. The sun burns away a bodak's tainted flesh. The creature's gaze lays waste to the living. Anyone a bodak slays with its gaze withers, its face frozen in a mask of terror. The monster's mere presence is so unnatural that it chills the soul.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>58</HP>
+  <HPRoll>9d8+18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>necrotic</string>
+    <string>bludgeoning damage from nonmagical attacks</string>
+    <string>piercing damage from nonmagical attacks</string>
+    <string>slashing damage from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>the languages it knew in life</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aura of Annihilation</Name>
+      <Text>The bodak can activate or deactivate this feature as a bonus action. While active, the aura deals 5 necrotic damage to any creature that ends its turn within 30 feet of the bodak. Undead and fiends ignore this effect.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Death Gaze</Name>
+      <Text>When a creature that can see the bodak's eyes starts its turn within 30 feet of the bodak, the bodak can force it to make a DC 13 Constitution saving throw if the bodak isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is reduced to 0 hit points, unless it is immune to the frightened condition. Otherwise, a creature takes 16 (3d10) psychic damage on a failed save.
+Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it has disadvantage on attack rolls against the bodak until the start of its next turn. If the creature looks at the bodak in the meantime, it must immediately make the saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Hypersensitivity</Name>
+      <Text>The bodak takes 5 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage plus 9 (2d8) necrotic damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+2 bludgeoning + 2d8 necrotic</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Withering Gaze</Name>
+      <Text>One creature that the bodak can see within 60 feet of it must make a DC 13 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

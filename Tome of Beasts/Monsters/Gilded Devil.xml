@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Gilded Devil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>coin mail</ACText>
+  <HP>112</HP>
+  <HPRoll>15d8 + 45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal; telepathy (120 ft.)</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil's Sight</Name>
+      <Text>Magical darkness doesn't impede the devil's darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Liar's Largesse</Name>
+      <Text>A gilded devil has influence over the recipient of a gift for as long as that creature retains the gift. The recipient receives a -2 penalty on saving throws against the gilded devil's abilities and a further -10 penalty against scrying attempts made by the gilded devil. A remove curse spell removes this effect.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The gilded devil's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The gilded devil's spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The gilded devil can innately cast the following spells, requiring no material components:
+At will: detect thoughts, major image, suggestion
+3/day each: dominate person, polymorph, scorching ray (4 rays), scrying
+1/day: teleport (self plus 50 lb of objects only)</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The gilded devil makes two heavy flail attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Heavy Flail (Scourge of Avarice)</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d10+5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Betrayal of Riches (Recharge 5-6)</Name>
+      <Text>As a bonus action, a gilded devil can turn rings, necklaces, and other jewelry momentarily against their wearer. The devil can affect any visible item of jewelry on up to two creatures within 60 feet, twisting them into cruel barbs and spikes. Each target must succeed on a DC 15 Wisdom saving throw to halve the damage from this effect. If the saving throw fails, the victim takes 13 (3d8) piercing damage and an additional effect based on the item location targeted.
+An item is treated as jewelry if it is made of a precious material (such as silver, gold, ivory, or adamantine), adorned with gems, or both, and is worth at least 100 gp.
+Arms: STR Save or Melee Damage halved until a short rest
+Hand: STR Save or Drop any held item
+Eyes: DEX Save or Permanetly blinded
+Head: DEX Save Disadvantage on INT checks until long rest
+Feet: DEX Save or Speed halved for 24 hours
+Neck: CON Save or Stunned, unable to breathe for 1 round
+Other: No additional effects</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Scorn Base Metals</Name>
+      <Text>A gilded devil's attacks ignore any protection provided by nonmagical armor made of bronze, iron, steel, or similar metals. Protection provided by valuable metals such as adamantine, mithral, and gold apply, as do bonuses provided by non-metallic objects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Scourge of Avarice</Name>
+      <Text>As a bonus action, a gilded devil wearing jewelry worth at least 1,000 gp can reshape it into a +2 heavy flail. A creature struck by this jeweled flail suffers disadvantage on all Wisdom saving throws until his or her next short rest, in addition to normal weapon damage. The flail reverts to its base components 1 minute after it leaves the devil's grasp, or upon the gilded devil's death.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Voracious Greed</Name>
+      <Text>As an action, a gilded devil can consume nonmagical jewelry or coinage worth up to 1,000 gp. For each 200 gp consumed, it heals 5 hp of damage. A gilded devil can use this ability against the worn items of a grappled foe. The target must succeed on a DC 13 Dexterity saving throw to keep an item from being consumed.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

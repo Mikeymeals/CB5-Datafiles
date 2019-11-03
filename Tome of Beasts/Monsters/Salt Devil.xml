@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Salt Devil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>93</HP>
+  <HPRoll>11d8 + 44</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Gnoll</string>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil's Sight</Name>
+      <Text>Magical darkness doesn't impede the devil's darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The devil's spellcasting ability is Charisma (spell save DC 13). The devil can innately cast the following spells, requiring no material components:
+At will: darkness
+1/day each: harm, teleport</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Devil Summoning</Name>
+      <Text>Summon Devil (1/Day): The salt devil has a 40 percent chance of summoning one salt devil</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes two scimitar attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage. If the target is neither undead nor a construct, it also takes 5 (1d10) necrotic damage, or half damage with a successful DC 15 Constitution saving throw. Plants, oozes, and creatures with the Amphibious, Water Breathing, or Water Form traits have disadvantage on this saving throw. If the saving throw fails by 5 or more, the target also gains one level of exhaustion.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

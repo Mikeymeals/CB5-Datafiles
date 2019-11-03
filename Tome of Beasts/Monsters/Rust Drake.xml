@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Rust Drake</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>161</HP>
+  <HPRoll>19d8 + 76</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>burrow 5 ft.</string>
+    <string>fly 100 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>acid</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The drake makes one bite attack and one tail swipe attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage, and the target must succeed on a DC 16 Constitution save or contract Rust Drake Lockjaw.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail Swipe</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Vomits Scrap (Recharge 5-6)</Name>
+      <Text>A rust drake can vomit forth a 15-foot cone of rusted metal. Targets in the affected area take 55 (10d10) slashing damage, or half damage with a successful DC 15 Dexterity saving throw. In addition, affected creatures must also make a successful DC 15 Constitution saving throw or contract Rust Drake Tetanus.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rust Drake Lockjaw</Name>
+      <Text>This disease manifests symptoms in 1d4 days, when the affected creature experiences painful muscle spasms, particularly in the jaw. After each long rest, the creature must repeat the saving throw. If it fails, the victim takes 1d3 Dexterity damage and is paralyzed for 24 hours; if the saving throw succeeds, the creature takes no damage and feels well enough to act normally for the day. This continues until the creature dies from Dexterity loss, recovers naturally by making successful saving throws after two consecutive long rests, or is cured with lesser restoration or comparable magic. After the disease ends, the victim recovers 1d3 lost Dexterity with each long rest; greater restoration or comparable magic can restore it all at once.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

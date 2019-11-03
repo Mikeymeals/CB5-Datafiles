@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Scheznyki</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>153</HP>
+  <HPRoll>18d6 + 72</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 15 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+    <string>Elvish</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The scheznyki's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: dancing lights, darkness, detect evil and good, faerie fire, invisibility*, fly*, mage hand, ray of frost (*only when wearing a vanisher hat)
+5/day each: magic missile, ray of enfeeblement, silent image
+3/day each: locate object (radius 3,000 ft to locate a vanisher hat), hideous laughter, web
+1/day each: dispel magic, dominate person, hold person</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The scheznyki has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The scheznyki makes four war pick attacks or two hand crossbow attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Heavy Pick</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hand Crossbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

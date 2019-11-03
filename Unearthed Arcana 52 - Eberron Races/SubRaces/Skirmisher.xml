@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Dexterity score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>2</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Swift</Name>
+      <Text>Your walking speed is increased by 5 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Light Step</Name>
+      <Text>When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace. (See chapter 8 of the Player’s Handbook for more information about travel pace.)</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Unearthed Arcana 52 - Eberron Races</Source>
+  <Name>Skirmisher</Name>
+  <Description>You were built to scout the edges of battle and outmaneuver your enemies. You are lean and designed for speed.</Description>
+  <ParentRace>Warforged</ParentRace>
+</SubRace>

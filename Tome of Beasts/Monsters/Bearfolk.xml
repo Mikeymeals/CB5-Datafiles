@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Bearfolk</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bearfolk</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>14</AC>
+  <ACText>hide armor</ACText>
+  <HP>45</HP>
+  <HPRoll>6d8 + 18</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Frenzy (1/rest)</Name>
+      <Text>As a bonus action, the bearfolk can trigger a berserk frenzy that lasts 1 minute. While in frenzy, it gains resistance to bludgeoning, piercing, and slashing damage and has advantage on attack rolls. Attack rolls made against a frenzied bearfolk have advantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The bearfolk has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The bearfolk makes three attacks: one with its battleaxe, one with its warhammer, and one with its bite.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Battleaxe</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used two-handed.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Warhammer</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage, or 9 (1d10 + 4) bludgeoning damage if used two-handed.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

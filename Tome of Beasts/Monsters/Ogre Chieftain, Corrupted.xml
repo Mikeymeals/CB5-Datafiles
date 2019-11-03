@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Ogre Chieftain, Corrupted</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>splint</ACText>
+  <HP>127</HP>
+  <HPRoll>15d10 + 45</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aggressive</Name>
+      <Text>As a bonus action, the corrupted ogre chieftain can move up to its speed toward a hostile creature that it can see. Mutation. The corrupted ogre chieftain has one mutation from the list below:</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mutation</Name>
+      <Text>1 - Armored Hide: The corrupted ogre chieftain's skin is covered in dull, melted scales that give it resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
+2 - Extra Arm: The corrupted ogre chieftain has a third arm growing from its chest. The corrupted ogre chieftain can make three melee attacks or two ranged attacks.
+3 - Savant: The corrupted ogre chieftain's head is grossly enlarged. Increase its Charisma to 16. The corrupted ogre chieftain gains Innate Spellcasting (Psionics), and its innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no components: At will: misty step, shield; 1/day each: dominate monster, levitate.
+4 - Terrifying: The corrupted ogre chieftain's body is covered in horns, eyes, and fanged maws. Each creature of the corrupted ogre chieftain's choice that is within 60 feet of it and is aware of it must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this ogre chieftain's Frightful Presence for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The corrupted ogre chieftain makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greatclub</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Javelin</Name>
+      <Text>Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 12 (2d6 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

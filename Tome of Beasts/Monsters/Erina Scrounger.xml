@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Erina Scrounger</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>erina</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>12</AC>
+  <ACText>leather armor</ACText>
+  <HP>22</HP>
+  <HPRoll>4d6 + 8</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>burrow 20 ft.</string>
+  </Speeds>
+  <Strength>9</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Erina</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The erina has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Hardy</Name>
+      <Text>The erina has advantage on saving throws against poison.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spines</Name>
+      <Text>An enemy who hits the erina with a melee attack while within 5 feet of it takes 2 (1d4) piercing damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4 + 2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Sling</Name>
+      <Text>Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4 + 2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

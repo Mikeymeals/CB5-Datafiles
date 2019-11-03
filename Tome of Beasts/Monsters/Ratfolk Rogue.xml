@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Ratfolk Rogue</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ratfolk</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>15</AC>
+  <ACText>studded leather armor</ACText>
+  <HP>18</HP>
+  <HPRoll>4d6 + 4</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+    <string>swim 10 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Thieves Cant</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Cunning Action</Name>
+      <Text>A ratfolk rogue can use a bonus action to Dash, Disengage, or Hide.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Nimbleness</Name>
+      <Text>A ratfolk rogue can move through the space of any creature size Medium or larger.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>A ratfolk rogue has advantage on its attack roll against a creature if at least one of the ratfolk's allies is within 5 feet of the creature and the ally is capable of attacking.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sneak Attack (1/Turn)</Name>
+      <Text>A ratfolk rogue deals an extra 3 (1d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of one of its allies that isn't incapacitated and the rogue doesn't have disadvantage on the attack roll.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Light Crossbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rat Dagger Flurry</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., three targets. Hit: 7 (1d4 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

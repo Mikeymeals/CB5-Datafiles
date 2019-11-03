@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Vegepygmy</Name>
+  <Descriptions />
+  <Description>Vegepygmies, also called mold folk or moldies, are fungus creatures that inhabit dark areas that are warm and wet, including underground caves and dense forests where little sunlight penetrates. Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb nutrients from soil and many forms of organic matter, meaning that they rarely go hungry. A vegepygmy can hiss and make other noises by forcing air through its mouth, but it can't speak in a conventional sense. Among themselves, vegepygmies communicate by hissing, gestures, and rhythmic tapping on the body.
+Vegepygmies build and craft little; any gear they have is acquired from other creatures or built by copying simple construction they have witnessed.
+As a vegepygmy ages, it grows tougher and develops spore clusters on its body. Spore-bearing vegepygmies become chiefs. A vegepygmy chief can expel its spores in a burst, infecting nearby creatures.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>9</HP>
+  <HPRoll>2d6+2</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>lightning</string>
+    <string>piercing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Vegepygmy</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Plant Camouflage</Name>
+      <Text>The vegepygmy has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The vegepygmy regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn’t function at the start of the vegepygmy’s next turn. The vegepygmy dies only if it starts its turn with 0 hit points and doesn’t regenerate.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2 slashing</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Sling</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4+2) bludgeoning damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2 bludgeoning</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

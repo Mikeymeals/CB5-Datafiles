@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Map Mimic</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>32</HP>
+  <HPRoll>5d8 + 10</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 15 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>2</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Constrict Face</Name>
+      <Text>When a map mimic touches a Medium or smaller creature or vice versa, it adheres to the creature, enveloping the creature's face and covering its eyes and ears and airways (escape DC 13). The target creature is immediately blinded and deafened, and it begins suffocating at the beginning of the mimic's next turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance (Object Form Only)</Name>
+      <Text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mimic Page</Name>
+      <Text>The mimic can disguise itself as any tiny, flat object.a piece of leather, a plate.not only a map. In any form, a map mimic can make a map on its skin leading to its mother mimic.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Pseudopod</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage. If the mimic is in object form, the target is subjected to its Constrict Face trait.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

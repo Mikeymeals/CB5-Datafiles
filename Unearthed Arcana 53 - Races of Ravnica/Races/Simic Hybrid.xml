@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>2</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Strength</Name>
+          <Text>Your Strength score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Dexterity</Name>
+          <Text>Your Dexterity score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>Your Intelligence score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Wisdom</Name>
+          <Text>Your Wisdom score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Charisma</Name>
+          <Text>Your Charisma score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>SIMIC_HYBRID_ABILITY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Hybrids begin their lives as adult humans, elves, or vedalken. They age at a slightly accelerated rate, so their maximum life spans are probably reduced somewhat. The Guardian Project has not been operating long enough to observe the full effect of this phenomenon.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Most hybrids share the generally neutral outlook of the Simic Combine. They are more interested in scientific research and the standing of their guild than in moral or ethical questions. Those who leave the Combine, however. often do so because their philosophical outlook and alignment are more in line with a different guild's.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Your size is Medium, within the normal range of your humanoid base race.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Animal Enhancement</Name>
+      <Text>Your body has been altered to incorporate certain animal characteristics. You choose one animal enhancement now and a second enhancement at 5th level.
+At 1st level, choose one of the following options:
+Manta Glide. You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.
+Nimble Climber. You have a climbing speed equal to your walking speed.
+Underwater Adaptation. You can breathe air and water, and you have a swimming speed equal to your walking speed.
+
+At 5th level, your body evolves further, developing new characteristics. Choose one of the options you didn't take at 1st level, or one of the following options:
+Grappling Appendages. You have two special appendages growing alongside your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to try to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning damage equal to 1d6 +your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages can't precisely manipulate anything and can't wield weapons, magic items. or other specialized equipment.
+Carapace. Your skin in places is covered by a thick shell. You gain a +1 bonus to AC when you're not wearing heavy armor.
+Acid Spit. As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target takes 2d10 acid damage unless it succeeds on a Dexterity saving throw against a DC equal to 8 +your Constitution modifier+ your proficiency bonus. This damage increases by 1d10 when you reach 11th level (3dl0) and 17th level (4d10). You can use this trait a number of times equal to your Consitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SIMIC_HYBRID_ANIMAL_ENHANCEMENT</UniqueID>
+      <Collection>Category = 'Feats/Animal Enhancement' and Level = 1</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Animal Enhancement</Name>
+      <Text>At 5th level, your body evolves further, developing new characteristics. Choose one of the options you didn't take at 1st level, or one of the following options.</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>SIMIC_HYBRID_ANIMAL_ENHANCEMENT</UniqueID>
+      <Collection>Category = 'Feats/Animal Enhancement'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Elvish.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Elvish</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Simic Hybrid</Name>
+  <Size>Medium</Size>
+  <Description>The Simic Combine uses magic to fuse different life forms together. In recent years, the Simic Combine has extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the Guardian Project is to build a Simic army of soldiers perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes refer to themselves as guardians.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Extensive Adaptation</Name>
+      <Text>A hybrid's biological enhancements can change its appearance drastically, though most hybrids retain their basic physical form. AJI are augmented with characteristics of animals, mostly aquatic, reptilian, or amphibian creatures. These include crab claws, squid tentacles,wings or fins like those of manta rays, translucent or camouflaged skin, or shark-like maws filled with sharp teeth.
+Hybrids are the product of Simic magic. It's not impossible for a hybrid to leave the Simic Combine and join another guild, but the Simic would consider the individual a deserter. And the new guild might never fully welcome a hybrid who could easily be a Simic spy.
+</Text>
+    </Description>
+    <Description>
+      <Name>Simjc Hybrid Names</Name>
+      <Text>A hybrid usually bears the name given by their human, elf, or vedalken parents. Some hybrids assume a new name after their transformation- a name chosen personally or by those who transformed them.
+</Text>
+    </Description>
+    <Description>
+      <Name>Simic Hybrid Traits</Name>
+      <Text>Your hybrid character has the following racial traits.
+</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 53 - Races of Ravnica</Source>
+</Race>

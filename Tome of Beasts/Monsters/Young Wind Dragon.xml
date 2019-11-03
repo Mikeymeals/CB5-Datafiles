@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Young Wind Dragon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>150</HP>
+  <HPRoll>16d10 + 62</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 90 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhausted</string>
+    <string>paralyzed</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The dragon's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spell, requiring no material components:
+At will: feather fall</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fog Vision</Name>
+      <Text>The dragon sees normally through light or heavy obscurement caused by fog, mist, clouds, or high wind.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Uncontrollable</Name>
+      <Text>The dragon's movement is never impeded by difficult terrain, and its speed can't be reduced by spells or magical effects. It can't be restrained (per the condition), and it escapes automatically from any nonmagical restraints (such as chains, entanglement, or grappling) by spending 5 feet of movement. Being underwater imposes no penalty on its movement or attacks.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dragon makes three attacks: one with its bite and two with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d10 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Breath of Gales (Recharge 5-6)</Name>
+      <Text>The dragon exhales a blast of wind in a 30-foot cone. Each creature in that cone takes 11 (2d10) bludgeoning damage and is pushed 25 feet away from the dragon and knocked prone; a successful DC 16 Strength saving throw halves the damage and prevents being pushed and knocked prone. Unprotected flames in the cone are extinguished, and sheltered flames (such as those in lanterns) have a 75 percent chance of being extinguished.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

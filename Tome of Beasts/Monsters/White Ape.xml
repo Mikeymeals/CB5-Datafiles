@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>White Ape</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>114</HP>
+  <HPRoll>12d10 + 48</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Hatred for Spellcasters</Name>
+      <Text>The white ape does one extra die of damage (d8 or d10, respectively) per attack against an enemy it has seen cast a spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Arcane Wasting (Disease)</Name>
+      <Text>When the bodily fluid of an infected creature touches a humanoid or when an infected creature casts a spell (direct or indirect) on a humanoid, that humanoid must succeed on a DC 15 Constitution saving throw or become infected with arcane wasting. Beginning 1d6 days after infection, the infected creature must make a DC 15 Constitution saving throw at the end of each long rest. If the saving throw fails, the victim loses 1d3 Intelligence and 1d3 Wisdom. Lost Intelligence and Wisdom can't be recovered while the disease persists. If the saving throw succeeds, nothing happens; the disease ends after the second consecutive successful saving throws. Once the disease ends, lost Intelligence and Wisdom can be restored by greaterrestoration or comparable magic. The disease is also cured by lesser restoration if the caster makes a successful DC 15 spellcasting check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The ape makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or contract the arcane wasting disease (see sidebar).</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d10+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Frenzy (1/Day)</Name>
+      <Text>When two or more foes are adjacent to the ape, it can enter a deadly battle frenzy. Instead of using its normal multiattack, a frenzied white ape makes one bite attack and two claw attacks against each enemy within 5 feet of it. Melee attacks against the white ape are made with advantage from the end of that turn until the start of the white ape's next turn.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

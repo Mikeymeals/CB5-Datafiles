@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Crystalline Devil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>102</HP>
+  <HPRoll>12d8 + 48</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil's Sight</Name>
+      <Text>Magical darkness doesn't impede the devil's darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The crystalline devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sneak Attack (1/Turn)</Name>
+      <Text>The crystalline devil deals an extra 7 (2d6) damage when it hits a target with an attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the devil that isn't incapacitated and the devil doesn't have disadvantage on the attack roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>While in the form of a gemstone, the devil is an innate spellcaster. Its spellcasting ability is Charisma (spell save DC 13). The devil can innately cast the following spells, requiring no material components:
+2/day: command
+1/day: suggestion</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Devil Summoning</Name>
+      <Text>Some crystalline devils have an action option that allows them to summon other devils.
+Summon Devil (1/Day): The crystalline devil has a 25 percent chance of summoning one crystalline devil</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Betraying Carbuncle</Name>
+      <Text>The crystalline devil takes the form of a gemstone worth 500 gp. It radiates magic in this form, but it can't be destroyed. It is fully aware and can see and hear its surroundings. Reverting to its usual form requires another action.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Crystalline Spray (Recharge 5-6)</Name>
+      <Text>The crystalline devil magically sprays shards of crystal in a 15-foot cone. Each target in that area takes 17 (7d4) piercing damage, or half damage with a successful DC 15 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

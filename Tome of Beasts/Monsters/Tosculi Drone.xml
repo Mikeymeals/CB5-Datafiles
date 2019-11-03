@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Tosculi Drone</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <HP>22</HP>
+  <HPRoll>4d6 + 8</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>4</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Tosculi</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Gliding Wings</Name>
+      <Text>The tosculi drone can use its wings to slowly descend when falling (as if under the effect of the feather fall spell). It can move up to 5 feet horizontally for every foot it falls. The tosculi drone can't gain height with these wings alone. If subjected to a strong wind or lift of any kind, it can use the updraft to glide farther.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Skittering</Name>
+      <Text>Up to two tosculi can share the same space at one time. The tosculi has advantage on melee attack rolls while sharing its space with another tosculi that isn't incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d4 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Light Crossbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

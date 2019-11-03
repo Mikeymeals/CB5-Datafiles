@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Psoglav Demon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>115</HP>
+  <HPRoll>11d10 + 55</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>23</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>19</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal; telepathy 60 ft.</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The psoglav's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spell, requiring no material components:
+1/day: greater invisibility</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapon</Name>
+      <Text>The psoglav's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Door (4/Day)</Name>
+      <Text>The psoglav has the ability to travel between shadows as if by means of a dimension door spell. The magical transport must begin and end in an area with at least some dim light. The shadow door can span a maximum of 90 feet.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The psoglav demon makes three bite attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5).</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d12 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Shadow Stealing Ray (Recharge 5-6)</Name>
+      <Text>The psoglav emits a beam from its single eye. One target within 60 feet of the psoglav is hit automatically by the ray. The target is knocked 20 feet back and must succeed on a DC 15 Dexterity saving throw or be knocked prone. The target's shadow stays in the space the target was originally in, and acts as an undead shadow under the command of the psoglav demon. If the creature hit with the shadow stealing ray flees the encounter, it is without a natural shadow for 1d12 days before the undead shadow fades and the creature's natural shadow returns. The undead shadow steals the body of its creature of origin if that creature is killed during the encounter; in that case, the creature's alignment shifts to evil and it falls under the command of the psoglav. The original creature regains its natural shadow immediately if the undead shadow is slain. A creature can only have its shadow stolen by the shadow stealing ray once per day, even if hit by the rays of two different psoglav demons, but it can be knocked back by it every time it is hit.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

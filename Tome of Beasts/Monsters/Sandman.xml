@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sandman</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <HP>82</HP>
+  <HPRoll>11d8 + 33</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Celestial</string>
+    <string>Giant</string>
+    <string>Infernal</string>
+    <string>Umbral</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Eye-Closer's Curse</Name>
+      <Text>If a sandman obtains a critical hit or successful surprise attack against an opponent, its talons scratch a rune onto the target's eyeballs that snaps their eyelids shut, leaving them blinded. This effect can be ended with greater restoration, remove curse, or comparable magic.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The sandman's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
+At will: darkness, minor illusion, plane shift (at night only), phantom steed, prestidigitation, sleep (11d8)
+3/day each: hypnotic pattern, major image
+1/day each: dream, phantasmal killer (5d10)</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stuff of Dreams</Name>
+      <Text>Made partially from dreams and imagination, a sandman takes only half damage from critical hits and from sneak attacks. All of the attack's damage is halved, not just bonus damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Surprise Attack</Name>
+      <Text>If the sandman hits a surprised creature during the first round of combat, the target takes 14 (4d6) extra damage from the attack.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sandman makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

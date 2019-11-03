@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Apau Perape</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>95</HP>
+  <HPRoll>10d10 + 40</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>cold</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ape</string>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Diseased Ichor</Name>
+      <Text>Every time the apau perape takes piercing or slashing damage, a spray of caustic blood spurts from the wound toward the attacker. This spray forms a line 10 feet long and 5 feet wide. The first creature in the line must make a successful DC 15 Constitution saving throw against disease or be infected by Mechuiti's Ichor disease. The creature is poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the Constitution saving throw or reduce its hit point maximum by 5 (2d4). The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The apau perape is an innate spellcaster. Its spellcasting ability is Charisma (spell save DC 13). The apau perape can innately cast the following spells, requiring no material components:
+1/day each: fear, wall of fire</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The apau perape has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The apau perape makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Variant: Demon Summoning</Name>
+      <Text>Some apau perapes have an action option that allows them to summon other demons.
+Summon Demon (1/Day): The apau perape chooses what to summon and attempts a magical summoning
+The apau perape has a 50 percent chance of summoning one apau perape or one giant ape.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

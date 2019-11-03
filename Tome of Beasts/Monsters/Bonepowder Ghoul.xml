@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Bonepowder Ghoul</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>195</HP>
+  <HPRoll>26d6 + 104</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>19</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+    <string>Draconic</string>
+    <string>Dwarvish</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amorphous</Name>
+      <Text>The bonepowder ghoul can move through a space as narrow as 1 inch wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Coalesce</Name>
+      <Text>Whenever a bonepowder ghoul drains life force from victims with Gravedust, it can use that energy transform its shape into a more solid form and maintain it. The new form is Small and semi-transparent but roughly the shape of a normal ghoul. In this form, the ghoul isn't amorphous and can't form a whirlwind, but it can speak normally and manipulate objects. The altered form lasts for 1 minute for every point of necrotic damage it delivered against living foes.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turning Defiance</Name>
+      <Text>The bonepowder ghoul and any other ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The bonepowder ghoul's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: chill touch, darkness, dispel magic, ray of enfeeblement
+3/day: blindness/deafness, circle of death (7th level; 10d6)
+1/day: finger of death</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) plus 1d4 Strength damage, and the target must succeed on a DC 17 Constitution saving throw or be paralyzed for 1d4 + 1 rounds. If the target creature is humanoid, it must succeed on a second DC 19 Constitution saving throw or contract darakhul fever.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>3d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Gravedust</Name>
+      <Text>A bonepowder ghoul can project a 40-ft. cone of grave dust. All targets within the area must make a DC 19 Dexterity saving throw to avoid taking 4d8 necrotic damage, and must make a second DC 17 Constitution saving throw to avoid being infected with darakhul fever.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Whirlwind (Recharge 5-6)</Name>
+      <Text>A bonepowder ghoul can generate a whirlwind of bones and teeth. All creatures within a 20-foot cube take 66 (12d10) slashing damage and are drained of 1d6 Strength; a successful DC 17 Dexterity saving throw reduces damage to half and negates the Strength loss. The whirlwind dissipates after one round.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

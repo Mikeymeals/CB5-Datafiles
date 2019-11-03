@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Young Spinosaurus</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>105</HP>
+  <HPRoll>10d12 + 40</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Tamed</Name>
+      <Text>The spinosaurus never willingly attacks any reptilian humanoid, and if forced or magically compelled to do so it suffers disadvantage on attack rolls. Up to three Medium or one Large creatures can ride the spinosaurus. This trait disappears if the spinosaurus spends a month away from any reptilian humanoid.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The spinosaurus makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 10ft., one target. Hit: 25 (3d12 + 6) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained and the spinosaurus can't bite another target.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>3d12 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6 + 6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

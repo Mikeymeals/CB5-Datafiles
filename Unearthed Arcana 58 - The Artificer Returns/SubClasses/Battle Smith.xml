@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tools of the Trade</Name>
+      <Text>By the time you adopt this specialty at 3rd level, you’re deeply familiar with employing its tools.
+Proficiencies. You gain proficiency with leatherworker’s tools and smith’s tools, assuming you don’t already have them. You also gain leatherworker’s tools and smith’s tools for free—the result of tinkering you’ve done as you’ve prepared for this specialization.
+Crafting. If you craft a magic item in the armor category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Smith’s tools</string>
+        <string>Leatherworker’s tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Crafting</Name>
+      <Text>If you craft a magic item in the armor category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Items>
+        <string>Smith’s tools</string>
+        <string>Leatherworker’s tools</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Battle Smith Spells</Name>
+      <Text>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
+heroism, searing smite</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Heroism</string>
+        <string>Searing Smite</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Battle Smith Spells</Name>
+      <Text>branding smite, warding bond</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Branding Smite</string>
+        <string>Warding Bond</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Battle Smith Spells</Name>
+      <Text>aura of vitality, blinding smite</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Aura of Vitality</string>
+        <string>Blinding Smite</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Battle Smith Spells</Name>
+      <Text>aura of purity, staggering smite</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Aura of Purity</string>
+        <string>Staggering Smite</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Battle Smith Spells</Name>
+      <Text>banishing smite, mass cure wounds</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Banishing Smite</string>
+        <string>Mass Cure Wounds</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Battle Ready</Name>
+      <Text>When you reach 3rd level, your combat training and your experiments with magic and have paid off in two ways:
+• You gain proficiency with martial weapons.
+• When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and Martial</Condition>
+      <Description>martial weapons</Description>
+    </ToolKWProficiencyFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Battle Ready</Name>
+      <Text>When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>Intelligence</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+    </BonusFeature>
+    <FormsCompanionsFeature>
+      <Keywords />
+      <Name>Iron Defender</Name>
+      <Text>By 3rd level, the tinkering in your free time has borne you a faithful companion, an iron defender. This metallic creature resembles a hound, a cougar, a bear, or another four-legged creature of your choice. It is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the iron defender stat block.
+In combat, the iron defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, or Help action.
+If the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith’s tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The iron defender returns to life after 1 minute with all its hit points restored.
+At the end of a long rest, you can create a new iron defender if you have your smith’s tools with you. If you already have an iron defender from this feature, the first one immediately perishes.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <DisplayName>Iron Defender</DisplayName>
+      <UniqueID>ARTIFICER_BATTLE_SMITH_IRON_DEFENDER</UniqueID>
+      <FormsCompanionsOptions>Name = "Iron Defender"</FormsCompanionsOptions>
+      <FormsCompanionsCount>1</FormsCompanionsCount>
+    </FormsCompanionsFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_BATTLE_SMITH_IRON_DEFENDER</UniqueID>
+      <HPBonus>Floor((MonsterCon-10)/2) + IntMod + ClassLevel*5</HPBonus>
+      <SavesBonus>if(proficient, value - 2 + proficiencybonus, value)</SavesBonus>
+      <SkillsBonus>if(proficient, value - 2 + proficiencybonus, value)</SkillsBonus>
+      <AttackBonus>value-2+proficiencybonus</AttackBonus>
+      <DamageBonus>value-2+proficiencybonus</DamageBonus>
+      <Senses />
+      <Speed />
+      <Languages />
+    </FormsCompanionsBonusFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Arcane Jolt</Name>
+      <Text>At 6th level, you learn new ways to channel arcane energy through your weapon attacks and your iron defender.
+First, your iron defender’s bite attack is now considered magical for the purposes of bypassing resistances and immunities, thanks to enhancements you’ve made to the creature in your free time.
+Second, when you or your iron defender hits a target with a magic weapon attack, you can channel magical energy through the strike to create one of the following effects:
+• The target takes an extra 2d4 force damage.
+• Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d4 hit points to it.
+You can channel this magical energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses of this feature when you finish a long rest.
+</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>Max(1, IntMod)</Value>
+      <ResourceID>ARTIFICER_BATTLE_SMITH_ARCANE_JOLT</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Improved Defender</Name>
+      <Text>At 14th level, your Arcane Jolt and iron defender become more powerful:
+• The extra damage and the healing of your Arcane Jolt both increase to 4d4.
+• Whenever your iron defender uses its Defensive Pounce, the attacker takes force damage equal to 1d4 + your Intelligence modifier.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Arcane Jolt</Name>
+      <Text>The iron defender’s bite attack is now considered magical for the purposes of bypassing resistances and immunities.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_BATTLE_SMITH_IRON_DEFENDER</UniqueID>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Arcane Jolt</TraitBonusName>
+      <TraitBonusText>The iron defender’s bite attack is now considered magical for the purposes of bypassing resistances and immunities.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Arcane Jolt</Name>
+      <Text>When you or your iron defender hits a target with a magic weapon attack, you can channel magical energy through the strike to create one of the following effects:
+• The target takes an extra 2d4 force damage.
+• Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d4 hit points to it.
+You can channel this magical energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses of this feature when you finish a long rest.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_BATTLE_SMITH_IRON_DEFENDER</UniqueID>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Arcane Jolt</TraitBonusName>
+      <TraitBonusText>When you or your iron defender hits a target with a magic weapon attack, you can channel magical energy through the strike to create one of the following effects:
+• The target takes an extra 2d4 force damage.
+• Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d4 hit points to it.
+You can channel this magical energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once on a turn. You regain all expended uses of this feature when you finish a long rest.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Improved Defender</Name>
+      <Text>The extra damage and the healing of your Arcane Jolt both increase to 4d4.</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Improved Defender</TraitBonusName>
+      <TraitBonusText>The extra damage and the healing of your Arcane Jolt both increase to 4d4.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Improved Defender</Name>
+      <Text>Whenever your iron defender uses its Defensive Pounce, the attacker takes force damage equal to 1d4 + your Intelligence modifier.</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Improved Defender</TraitBonusName>
+      <TraitBonusText>Whenever your iron defender uses its Defensive Pounce, the attacker takes force damage equal to 1d4 + your Intelligence modifier.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 58 - The Artificer Returns</Source>
+  <Name>Battle Smith</Name>
+  <SheetName>Battle Smith</SheetName>
+  <Description>Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both materiel and personnel. To aid in their work, Battle Smiths are usually accompanied by an iron defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and an iron defender.
+Battle Smiths played a key role in House Cannith’s work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war’s horrific battles.</Description>
+  <ParentRace>Artificer</ParentRace>
+</SubClass>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Sluagh Swarm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>swarm of tiny fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <HP>54</HP>
+  <HPRoll>12d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 50 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Lone Slaughs: An individual sluagh has a challenge rating of 1/8 (25 XP), 2 hit points, and does 3 (1d6) cold damage</Name>
+      <Text>They travel in swarms for a reason.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swarm</Name>
+      <Text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny fey. The swarm can't regain hit points or gain temporary hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadowy Stealth</Name>
+      <Text>While in dim light or darkness, the sluagh swarm can take the Hide action as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Weakness</Name>
+      <Text>While in sunlight, the sluagh swarm has disadvantage on attack rolls, ability checks, and saving throws.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Chilling Touch</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 28 (8d6) cold damage or 14 (4d6) cold damage if the swarm has half of its hit points or fewer. The target must make a successful DC 13 Constitution saving throw or be unable to regain hit points. An affected creature repeats the saving throw at the end of its turns, ending the effect on itself with a successful save. The effect can also be ended with a greater restoration spell or comparable magic.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>8d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

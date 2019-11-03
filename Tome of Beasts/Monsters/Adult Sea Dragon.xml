@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Adult Sea Dragon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>225</HP>
+  <HPRoll>18d12 + 108</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 80 ft.</string>
+    <string>swim 60 ft.</string>
+  </Speeds>
+  <Strength>25</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>23</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>16</CR>
+  <XP>15000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The dragon can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If the dragon fails a saving throw, it can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The dragon deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) cold damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d10 + 7</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d6 + 7</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d8 + 7</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Frightful Presence</Name>
+      <Text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tidal Breath (Recharge 5-6)</Name>
+      <Text>The dragon exhales a crushing wave of frigid seawater in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw. On a failure, the target takes 33 (6d10) bludgeoning damage and 33 (6d10) cold damage, and is pushed 30 feet away from the dragon and knocked prone. On a successful save the creature takes half as much damage and isn't pushed or knocked prone.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>The dragon can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Detect</Name>
+      <Text>The dragon makes a Wisdom (Perception) check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tail Attack</Name>
+      <Text>The dragon makes a tail attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wing Attack (Costs 2 Actions)</Name>
+      <Text>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then move up to half its flying speed, or half its swim speed if in the water.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>10</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

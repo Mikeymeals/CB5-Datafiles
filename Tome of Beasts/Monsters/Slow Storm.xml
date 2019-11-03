@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Slow Storm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>19</AC>
+  <HP>225</HP>
+  <HPRoll>18d12 + 108</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft.</string>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>15</CR>
+  <XP>13000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Bone Wrack</Name>
+      <Text>When hit by the slow storm's slam or breath weapon attack, the storm absorbs moisture from the living creatures' joints, causing stiffness and pain. In addition to 1d4 Dexterity drain, any creature caught within the slow storm's breath weapon that fails another DC 18 Constitution save suffers crushing pain in bones and joints. Any round in which the pained creature moves, it takes 1d4 necrotic damage per 5 feet moved. Bone wracking pain lasts until the affected creature regains at least 1 point of lost Dexterity.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The slow storm's innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no material components:
+At will: lightning bolt
+3/day: chain lightning</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Storm Form</Name>
+      <Text>A creature that enters or starts its turn inside the slow storm's whirlwind takes 9 (2d8) force damage. A creature can take this damage just once per round. In addition, ranged missile weapon attacks against the slow storm have disadvantage because of the high-speed wind.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 31 (4d12 + 5) bludgeoning damage plus 9 (2d8) piercing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>4d12 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Static Shock (Recharge 5-6)</Name>
+      <Text>The slow storm exhales its electrical power in a 30-foot cone. Targets in the area of effect take 54 (12d8) lightning damage, 1d4 Dexterity loss, and suffer bone wrack. A successful DC 18 Constitution saving throw halves the Dexterity loss and prevents the bone wrack.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

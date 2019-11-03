@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Al-Aeshma Genie</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>172</HP>
+  <HPRoll>15d10 + 90</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 90 ft. (hover)</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Auran</string>
+    <string>Common</string>
+    <string>Ignan</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Air Hatred</Name>
+      <Text>The al-Aeshma has advantage on attack rolls against airborne opponents.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Bound</Name>
+      <Text>The al-Aeshma must always be anchored to the earth. Even in gaseous form or sandstorm form, part of it must always touch the ground. The al-Aeshma's maximum altitude while flying is 50 ft. If it is not touching, it loses its immunities and gains vulnerability to lightning and thunder.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Elemental Demise</Name>
+      <Text>When an al-Aeshma dies, its body disintegrates into a swirling spray of coarse sand, leaving behind equipment it was wearing or carrying.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ill Wind</Name>
+      <Text>As a bonus action when in gaseous form, the al.Aeshma can befoul its space with a choking scent. When the al-Aeshma moves through another creature's space in gaseous form, the creature must succeed on a DC 18 Constitution saving throw or be incapacitated until the end of its next turn. Ill Wind lasts until the al-Aeshma leaves gaseous form or chooses to end the ability as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The al-Aeshma's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:
+At will: detect evil and good, detect magic, thunderwave
+3/day each: destroy food and water (as create food and water, but makes food and drink unpalatable), tongues, wind walk
+1/day each: creation, gaseous form, insect plague, invisibility, major image</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The al-Aeshma regains 10 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. The al.Aeshma dies only if it starts its turn at 0 hit points and doesn't regenerate.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The al-Aeshma makes three scimitar attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage, plus 3 (1d6) necrotic damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Dust Devil</Name>
+      <Text>A 5-foot-radius, 30-foot-tall cylinder of sand magically forms on a point the al-Aeshma can see within 120 feet of it. The dust devil lasts as long as the al-Aeshma maintains concentration (as if a spell). Any creature but the al-Aeshma that enters the dust devil must succeed on a DC 18 Strength saving throw or be restrained by it; any number of creatures may be restrained this way. At the start of a restrained creature's turn, it takes 7 (2d6) slashing damage plus 7 (2d6) necrotic damage. The al-Aeshma can move the dust devil up to 60 feet as an action; restrained creatures move with it. The dust devil ends if the al-Aeshma loses sight of it. A creature can use its action to free a creature restrained by the dust devil, including itself, by making a DC 18 Strength check. If the check succeeds, it moves to the nearest space outside the dust devil.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

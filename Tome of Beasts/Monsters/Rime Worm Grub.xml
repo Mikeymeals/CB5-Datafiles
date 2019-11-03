@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Rime Worm Grub</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>6d8 + 18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft</string>
+    <string>burrow (snow</string>
+    <string>ice) 20 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 200 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Born of Rime</Name>
+      <Text>A rime worm grub can breathe air or water with equal ease.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ravenous</Name>
+      <Text>At the grub stage, the worm is painfully hungry. Rime worm grubs can make opportunity attacks against enemies who disengage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The rime worm makes one tendril attack and one gnash attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tendril</Name>
+      <Text>Melee Weapon Attack. +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Gnash</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

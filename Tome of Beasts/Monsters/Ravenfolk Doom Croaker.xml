@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Ravenfolk Doom Croaker</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>kenku</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>studded leather armor</ACText>
+  <HP>88</HP>
+  <HPRoll>16d8 + 16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Feather Speech</string>
+    <string>Huginn</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Mimicry</Name>
+      <Text>Ravenfolk doom croakers can mimic the voices of others with uncanny accuracy. They have advantage on Charisma (Deception) checks involving audible mimicry.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The doom croaker has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The doom croaker's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components:
+At will: comprehend languages
+3/day each: counterspell, fear, phantom steed
+1/day each: blight, call lightning, clairvoyance, insect plague
+1/week: legend lore</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Ghost Wings</Name>
+      <Text>The ravenfolk doom croaker furiously "beats" a set of phantasmal wings. Every creature within 5 feet of the ravenfolk must make a successful DC 13 Dexterity saving throw or be blinded until the start of the ravenfolk's next turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Radiant Runestaff</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage plus 4 (1d8) radiant damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidate</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>radiant</Name>
+    </Keyword>
+    <Keyword>
+      <Name>necrotic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>reach</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Astral Arms</Name>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Unearthed Arcana 59 - Barbarian and Monk</Source>
+  <Weight>0</Weight>
+  <Damage>Martial Arts Die</Damage>
+  <DamageType>radiant or necrotic</DamageType>
+</Item>

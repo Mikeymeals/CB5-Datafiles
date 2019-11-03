@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Gray Thirster</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <HP>39</HP>
+  <HPRoll>6d8 + 12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands all languages it knew in life but can't speak</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Thirst</Name>
+      <Text>The gray thirster projects a 30-foot aura of desiccating thirst. The first time a creature enters the aura on its turn, or when it starts its turn in the aura, it must make a successful DC 12 Constitution saving throw or gain one level of exhaustion. If the saving throw is successful, the creature is immune to the gray thirster's Thirst for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The gray thirster makes two claw attacks and one Withering Turban attack</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Withering Turban</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit: 5 (1d4 + 3) necrotic damage. If the target failed a saving throw against the Thirst trait at any point in this encounter, its hit point maximum is reduced by an amount equal to the damage it took from this attack. This reduction lasts until the target has no exhaustion levels.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Drought (1/Day)</Name>
+      <Text>The gray thirster draws the moisture from a 20-foot radius area centered on itself. Nonmagical water and other liquids in this area turn to dust. Each creature that is neither undead nor a construct in the area takes 9 (2d8) necrotic damage, or half damage with a successful DC 13 Constitution saving throw. Plants, oozes, and creatures with the Amphibious, Water Breathing, or Water Form traits have disadvantage on this saving throw. Liquids carried by a creature that makes a successful saving throw are not destroyed.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

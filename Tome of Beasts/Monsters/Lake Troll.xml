@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Lake Troll</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>126</HP>
+  <HPRoll>12d10 + 60</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The lake troll can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The lake troll has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The lake troll regains 10 hit points at the start of its turn. If the lake troll takes cold or fire damage, it regains only 5 hit points at the start of its next turn; if it takes both cold and fire damage, this trait doesn't function at the start of the lake troll's next turn. The lake troll dies only if it starts its turn with 0 hit points and doesn't regenerate.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The lake troll makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the lake troll hits a creature with both claw attacks in the same turn, the target creature must make a successful DC 16 Dexterity saving throw or its weapon (if any) gains a permanent and cumulative -1 penalty to damage rolls. If the penalty reaches -5, the weapon is destroyed. A damaged weapon can be repaired with appropriate artisan's tools during a long rest.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8+5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

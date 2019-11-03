@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Alquam, Demon Lord Of Night</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>20</AC>
+  <ACText>natural armor</ACText>
+  <HP>350</HP>
+  <HPRoll>28d12 + 168</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 100 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>23</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>20</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>21</CR>
+  <XP>33000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Born of Darkness</Name>
+      <Text>Alquam can take the Hide action as a bonus action on each turn while it is in dim light or darkness, even if it is being observed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Alquam's innate spellcasting ability is Charisma (save DC 18). It can innately cast the following spells without material components.
+At will: darkness, silence
+3/day each: fear, invisibility, teleport
+1/day: circle of death</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Senses</Name>
+      <Text>Alquam has advantage on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/day)</Name>
+      <Text>If Alquam fails a saving throw, it can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Alquam has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>Alquam's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Alquam's Lair</Name>
+      <Text>On initiative count 20 (losing initiative ties), Alquam takes a lair action to cause one of the following effects; Alquam can’t use the same effect two rounds in a row:
+- Alquam snuffs all light sources within the lair. Spells that create light are dispelled, mundane light sources are extinguished, and magical light sources are suppressed. Even light created by artifacts is reduced to dim light with half its normal radius of illumination. This lasts until initiative count 20 on the following round.
+- Haunting, maddening music emanates from a point Alquam can see. Creatures within 50 feet of the origin that can hear the music must make a DC 15 Wisdom saving throw. Those that fail are charmed, incapacitated, and have their speed reduced to 0 until they take damage or until initiative count 20 on the following round.
+- Black tendrils writhe around up to three creatures Alquam can see within 100 feet. The creatures must succeed on a DC 15 Strength saving throw or be restrained until initiative count 20 on the following round.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regional Effects</Name>
+      <Text>The region containing Alquam’s lair is warped by the demon lord’s magic, which creates one or more of the following effects:
+- Within 1 mile of the lair all light sources except artifacts shed light to only half the usual radius.
+- Owls and other nocturnal beasts become enraged and hostile within 5 miles of the lair, attacking intruders individually and in swarms.
+- Within 1 mile of the lair, Alquam can cast his senses into any area of dim light or darkness as if using clairvoyance.
+If Alquam dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Alquam makes one bite attack, one wing attack, and one talons attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 26 (4d10 + 4) piercing damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>4d10 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Wing</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 17 (3d8 + 4) bludgeoning damage and the target must succeed on a DC 17 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>3d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Talons</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) slashing damage and the target is grappled and restrained (escape DC 17). Alquam can grapple one creature at a time if it is on the ground or two if it is flying. Talons grappling a creature can't attack any other creature.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>3d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Alquam can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. Alquam regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Attack</Name>
+      <Text>Alquam makes one attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Move</Name>
+      <Text>Alquam flies half its speed without provoking opportunity attacks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shroud (2 actions)</Name>
+      <Text>Alquam radiates magical darkness in a 30.foot radius. The darkness lasts until the start of Alquam's next turn.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

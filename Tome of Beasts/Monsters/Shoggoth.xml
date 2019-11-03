@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Shoggoth</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>387</HP>
+  <HPRoll>25d12 + 225</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>climb 30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>28</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances>
+    <string>fire</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>thunder</string>
+    <string>slashing</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+    <string>prone</string>
+    <string>stunned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+    <string>tremorsense 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>19</CR>
+  <XP>22000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Anaerobic</Name>
+      <Text>A shoggoth doesn't need oxygen to live. It can exist with equal comfort at the bottom of the ocean or in the vacuum of outer space.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Absorb Flesh</Name>
+      <Text>The body of a creature that dies while grappled by a shoggoth is completely absorbed into the shoggoth's mass. No portion of it remains to be used in raise dead, reincarnate, and comparable spells that require touching the dead person's body.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Amorphous</Name>
+      <Text>A shoggoth can move through a space as small as 1 foot wide. It must spend 1 extra foot of movement for every foot it moves through a space smaller than itself, but it isn't subject to any other penalties for squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Hideous Piping</Name>
+      <Text>The fluting noises made by a shoggoth are otherworldly and mind-shattering. A creature that can hear this cacophony at the start of its turn and is within 120 feet of a shoggoth must succeed on a DC 15 Wisdom saving throw or be confused (as the spell confusion) for 1d4 rounds. Creatures that roll a natural 20 on this saving throw become immune to the Hideous Piping for 24 hours. Otherwise, characters who meet the conditions must repeat the saving throw every round.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Senses</Name>
+      <Text>A shoggoth has advantage on Wisdom (Perception) checks that rely on hearing or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rolling Charge</Name>
+      <Text>If the shoggoth moves at least 20 feet straight toward a creature and hits it with a slam attack on the same turn, that creature must succeed on a DC 20 Dexterity saving throw or be knocked prone. If the creature is knocked prone, the shoggoth immediately moves into the creature's space as a bonus action and crushes the creature beneath its bulk. The crushed creature can't breathe, is restrained, and takes 11 (2d10) bludgeoning damage at the start of each of the shoggoth's turns. A crushed creature remains in its space and does not move with the shoggoth. A crushed creature can escape by using an action and making a successful DC 19 Strength check. On a success, the creature crawls into an empty space within 5 feet of the shoggoth.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The shoggoth makes 1d4 + 1 slam attacks. Reroll the number of attacks at the start of each of the shoggoth's turns.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage, and the target is grappled (escape DC 18) and restrained. The shoggoth can grapple any number of creatures simultaneously, and this has no effect on its number of attacks.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>4d10 + 8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -25,6 +25,6 @@ If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has 
   <Slot>Armor</Slot>
   <Base>Armor and (Medium or Heavy) and not(Hide)</Base>
   <Source>Dungeon Master's Guide</Source>
-  <PrependName>Mithral </PrependName>
+  <PrependName>Mithral</PrependName>
   <Rarity>Uncommon</Rarity>
 </MagicProperty>

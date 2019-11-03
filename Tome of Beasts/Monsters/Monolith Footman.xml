@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Monolith Footman</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>60</HP>
+  <HPRoll>8d10 + 16</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't adamantine</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Elvish</string>
+    <string>Umbral</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Blatant Dismissal</Name>
+      <Text>While in the courts or castles of the fey, a monolith footman that scores a successful hit with its longsword can try to force the substitution of the target with a shadow double. The target must succeed at a DC 10 Charisma saving throw or become invisible, silent, and paralyzed, while an illusory version of itself remains visible and audible.and under the monolith footman's control, shouting for a retreat or the like. Outside fey locales, this ability does not function.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fey Flame</Name>
+      <Text>The ritual powering a monolith footman grants it an inner flame that it can use to enhance its weapon or its fists with additional fire or cold damage, depending on the construct's needs.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Simple Construction</Name>
+      <Text>Monolith footmen are designed with a delicate fey construction. They burst into pieces and are destroyed when they receive a critical hit.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 9 (2d8) cold or fire damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 9 (2d8) cold or fire damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

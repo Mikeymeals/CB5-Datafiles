@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Ancient Flame Dragon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>22</AC>
+  <ACText>natural armor</ACText>
+  <HP>481</HP>
+  <HPRoll>26d20 + 208</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 40 ft.</string>
+    <string>fly 80 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>27</Constitution>
+  <Intelligence>19</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>22</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 60 ft.</string>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Giant</string>
+    <string>Ignan</string>
+    <string>Infernal</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>24</CR>
+  <XP>62000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If the dragon fails a saving throw, it can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fire Incarnate</Name>
+      <Text>All fire damage dealt by the dragon ignores fire resistance but not fire immunity.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flame Dragon's Lair</Name>
+      <Text>On initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can’t use the same effect two rounds in a row.
+- A cloud of smoke swirls in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners and the area is lightly obscured. Each creature in the cloud must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A blinded creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+- The ground erupts with volcanic force at a point the dragon can see within 120 feet of it. Any creature within 20 feet of the point must make a successful DC 15 Dexterity saving throw or be knocked prone and trapped in the ground. A creature trapped in this way is restrained and can’t stand up. A creature can end the restraint if it or another creature takes an action to make a successful DC 15 Strength check.
+- A wall of fire rises up from the ground within 120 feet of the dragon. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, can take any shape the dragon wants, and blocks line of sight. When the wall appears, each creature in its area must make a DC 15 Dexterity saving throw. A creature that fails the saving throw takes 21 (6d6) fire damage. Each creature that enters the wall for the first time each turn or ends its turn there takes 21 (6d6) fire damage. The wall is extinguished when the dragon uses this lair action again or when the dragon dies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regional Effects</Name>
+      <Text>The region containing a legendary flame dragon’s lair is warped by the dragon’s magic, which creates one or more of the following effects:
+- Arguments and misunderstandings erupt easily within 6 miles of the lair. Friendships are easily broken and criminal acts are common.
+- Temperatures rise within 6 miles of the lair. Crops wither, producing famines.
+- Sulfur geysers form in and around the dragon’s lair. Some of them erupt only once an hour, so they’re spotted only with a successful DC 20 Wisdom (Perception) check. A creature on top of an erupting geyser takes 21 (6d6) fire damage, or half damage with a successful DC 15 Dexterity saving throw.
+If the dragon dies, the arguments and misunderstandings disappear immediately and the temperatures go back to normal within 1d10 days. Any geysers remain where they are.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dragon can use its Frightful Presence. It then makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 14 (4d6) fire damage.</Text>
+      <AttackBonus>13</AttackBonus>
+      <Damage>2d10 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.</Text>
+      <AttackBonus>13</AttackBonus>
+      <Damage>2d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.</Text>
+      <AttackBonus>13</AttackBonus>
+      <Damage>2d8 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Frightful Presence</Name>
+      <Text>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fire Breath (Recharge 5-6)</Name>
+      <Text>The dragon exhales fire in a 90-foot cone. Each creature in that area takes 91 (26d6) fire damage, or half damage with a successful DC 23 Dexterity saving throw. Each creature in that area must also succeed on a DC 21 Wisdom saving throw or go on a rampage for 1 minute. A rampaging creature must attack the nearest living creature or smash some object smaller than itself if no creature can be reached with a single move. A rampaging creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shifting Flames</Name>
+      <Text>The dragon magically polymorphs into a creature that has immunity to fire damage and a size and challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>The dragon can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Detect</Name>
+      <Text>The dragon makes a Wisdom (Perception) check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tail Attack</Name>
+      <Text>The dragon makes a tail attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wing Attack (Costs 2 Actions)</Name>
+      <Text>The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>14</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

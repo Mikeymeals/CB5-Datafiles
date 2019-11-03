@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Aldani (Lobsterfolk)</Name>
+  <Descriptions>
+    <Description>
+      <Name>Aldani Bribes</Name>
+      <Text>If disturbed, aldani try to frighten intruders away without killing them. When confronted by creatures who aren't easily startled, they offer bribes in exchange for being left alone. These bribes take the form of treasures that the aldani collect from the bottoms of rivers and lakes.</Text>
+    </Description>
+    <Description>
+      <Name>Cursed by Ubtao</Name>
+      <Text>The aldani are the monstrous descendants of Chultan humans belonging to the Aldani tribe. The fishers of the tribe trapped the lobsters of the rivers by the thousands, until no lobsters remained. Their greed made Ubtao angry, and he cursed the fishers by transforming them into lobsterfolk. The fishers accepted their punishment and embraced their new existence. However, they were scorned by other members of their tribe and forced to take refuge in the rivers they had once plundered. Although the Aldani tribe went extinct, the lobsterfolk remain to this day.</Text>
+    </Description>
+  </Descriptions>
+  <Description>Many Chultan natives can recall childhood fables of the aldani, the eerie lobsterfolk that lived in the rivers and lakes of their homeland. As there have been no sightings of the aldani in years, it is widely believed that they were wiped out. In truth, many aldani survived and retreated to the lakes of the Aldani Basin in the heart of Chult.
+An aldani looks like a giant lobster that walks upright. Its face is mostly encased in armor, looking almost humanoid except for its long eyestalks. Despite their frightful appearance, aldani avoid conflict. Reclusive and xenophobic, they hide in their lakes and rivers.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>49</HP>
+  <HPRoll>9d8+9</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>0</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The aldani can breathe air and water</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The aldani makes two attacks with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, and the target is grappled (escape DC 11). The aldani has two claws, each of which can grapple only one target.
+</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d8+1 slashing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

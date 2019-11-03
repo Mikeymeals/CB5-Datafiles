@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Bastet Temple Cat</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <HP>40</HP>
+  <HPRoll>9d6 + 9</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Nurian</string>
+    <string>and Sylvan</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The temple cat has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The temple cat's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The temple cat can innately cast the following spells, requiring no material components:
+At will: guidance
+3/day each: charm person, cure wounds
+1/day: enhance ability (only Cat's Grace)</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Priestly Purr</Name>
+      <Text>When a cleric or paladin who worships Bastet spends an hour preparing spells while a Bastet temple cat is within 5 feet, that spellcaster can choose two 1st-level spells and one 2nd-level spell that they are able to cast and imbue them into the temple cat. The temple cat can cast these spells 1/day each without a verbal component. These spells are cast as if they were included in the temple cat's Innate Spellcasting trait.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The temple cat makes one bite attack and one claws attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d4 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fascinating Lure</Name>
+      <Text>The temple cat purrs loudly, targeting a humanoid it can see within 30 feet that can hear the temple cat. The target must succeed on a DC 14 Wisdom saving throw or be charmed. While charmed by the temple cat, the target must move toward the cat at normal speed and try to pet it or pick it up. A charmed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful, the creature is immune to the temple cat's Fascinating Lure for the next 24 hours. The temple cat has advantage on attack rolls against any creature petting or holding it.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Ushabti</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>105</HP>
+  <HPRoll>10d10 + 50</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>19</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ancient language of DM's choice</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dynastic Aura</Name>
+      <Text>A creature that starts its turn within 15 feet of the ushabti must make a DC 17 Constitution saving throw, unless the ushabti is incapacitated. On a failed save, the creature has its breath stolen; it takes 9 (2d8) necrotic damage, and until the end of the ushabti's next turn, can't cast spells that require a verbal component or speak louder than a whisper. If a creature's saving throw is successful, the creature is immune to this ushabti's Dynastic Aura for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Healing Leech</Name>
+      <Text>If a creature within 30 feet of the ushabti regains hit points from a spell or a magical effect, the creature gains only half the normal number of hit points and the ushabti gains the other half.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The ushabti is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The ushabti has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The ushabti's weapon attacks are magical.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The ushabti makes one attack with Medjai's scepter and one with its khopesh.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Medjai's Scepter</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) poison damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Khopesh</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

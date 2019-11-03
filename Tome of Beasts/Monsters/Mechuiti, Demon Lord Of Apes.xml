@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Mechuiti, Demon Lord Of Apes</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>370</HP>
+  <HPRoll>20d20 + 160</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+    <string>climb 60 ft.</string>
+  </Speeds>
+  <Strength>29</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>27</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>22</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>cold</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>acid</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+    <string>Primordial</string>
+    <string>telepathy 300 ft.</string>
+  </Languages>
+  <CR>27</CR>
+  <XP>105000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Legendary Resistance (4/Day)</Name>
+      <Text>If Mechuiti fails a saving throw, it can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Mechuiti has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>Mechuiti's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Diseased Ichor</Name>
+      <Text>Every time Mechuiti takes piercing or slashing damage, a spray of caustic blood spurts from the wound toward the attacker. This spray forms a line 10 feet long and 5 feet wide. The first creature in the line must make a successful DC 24 Constitution saving throw against disease or be infected by Mechuiti's Ichor disease. The creature is poisoned until the disease is cured. Every 24 hours that elapse, the target must make a successful DC 24 Constitution saving throw or reduce its hit point maximum by 5 (2d4). The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Mechuiti's spellcasting ability is Charisma (spell save DC 22, +14 to hit with spell attacks). Mechuiti can innately cast the following spells, requiring no material components:
+At will: dispel magic, fireball, hold monster, wall of fire
+3/day each: fire storm, power word stun
+1/day each: meteor swarm, power word kill</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Speak with Apes</Name>
+      <Text>Mechuiti can communicate simple concepts to apes.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mechuiti's Lair</Name>
+      <Text>On initiative count 20 (losing initiative ties), Mechuiti takes a lair action to cause one of the following effects. Mechuiti can’t use the same effect two rounds in a row.
+- Mechuiti targets one creature it can see within 120 feet of it, and a fissure full of lava opens under the target’s feet. The target must succeed on a DC 20 Dexterity saving throw or take 28 (8d6) fire damage.
+- The whole volcano trembles and shakes. Each creature on a solid surface other than a demon must succeed on a DC 20 Dexterity saving throw or be knocked prone. All ground in the volcano becomes difficult terrain for creatures other than a demon until initiative count 20 on the next round.
+- Volcanic gases form a cloud in a 20-foot-radius sphere centered on a point Mechuiti can see within 120 feet of it. The sphere spreads around corners, and its area is lightly obscured. It lasts until initiative count 20 on the next round. Each creature that starts its turn in the cloud must succeed on a DC 15 Constitution saving throw or be poisoned until the end of its next turn. While poisoned in this way, a creature is incapacitated.
+- The pain of all creatures other than demons within 120 feet of Mechuiti is intensified. Until initiative count 20 on the next round, every time a creature affected this way takes damage, he must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regional Effects</Name>
+      <Text>The region containing Mechuiti’s lair is warped by its presence, which creates one or more of the following effects.
+- Mechuiti can make the volcano erupt at will. A cloud of hot ashes and smoke covers a 6 mile area around the volcano, and magma flows from the volcano’s cone.
+- When intelligent creatures within 6 miles sleep, they dream with Mechuiti. Unless they make a successful DC 15 Wisdom saving throw, they are compelled to seek out and join Mechuiti’s cult.
+- Water within 1 mile of the lair carries Mechuiti’s Ichor disease. Any creature that drinks the water must make a successful DC 15 Constitution saving throw against disease or be infected. An infected creature is poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw. On a failure, its hit point maximum is reduced by 5 (2d4). The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target’s hit point maximum lasts until the disease is cured.
+When Mechuiti dies, all these regional effects fade immediately.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Mechuiti uses its Frightful Presence and makes one bite attack and two with claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 5 (1d10) fire damage.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>2d10 + 9</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 20 (2d10 + 9) slashing damage. If Mechuiti scores a critical hit, it rolls damage dice three times instead of twice.</Text>
+      <AttackBonus>17</AttackBonus>
+      <Damage>2d10 + 9</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Immolating Breath (Recharge 5-6)</Name>
+      <Text>Mechuiti exhales fire and acid in a 60-foot cone. Each creature in that cone takes 21 (6d6) fire damage plus 21 (6d6) acid damage, or half damage with a successful DC 24 Dexterity saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immolating Corona</Name>
+      <Text>Mechuiti's fiery crown explodes into a burst of yellow-green flames. All creatures within 30 feet of Mechuiti take 10 (3d6) fire damage plus 10 (3d6) acid damage, or half damage with a successful DC 24 Dexterity saving throw. If the saving throw fails, the creature also catches fire and takes 3 (1d6) fire damage at the start of each of its turns while on fire. A creature can use an action to extinguish a fire on itself or on another creature within 5 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Frightful Presence</Name>
+      <Text>Each creature of Mechuiti's choice that is within 120 feet of Mechuiti and aware of it must succeed on a DC 24 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Mechuiti's Frightful Presence for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Mechuiti can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. Mechuiti regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Move</Name>
+      <Text>Mechuiti moves up to half its speed, using any move it wishes.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Burn from Inside</Name>
+      <Text>Mechuiti targets a creature within 120 feet that has Mechuiti's Ichor disease. The creature takes 10 (3d6) fire damage plus 10 (3d6) acid damage, or half damage with a successful DC 24 Constitution saving throw. If the saving throw fails, the creature also catches fire and takes 3 (1d6) fire damage at the start of each of its turns while on fire. A creature can use an action to extinguish a fire on itself or on another creature within reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spell (Costs 2 Actions)</Name>
+      <Text>Mechuiti casts a spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fiery Corona (Costs 2 Actions)</Name>
+      <Text>Mechuiti uses Immolating Corona.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidate</Skill>
+      <Ability>None</Ability>
+      <Bonus>14</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

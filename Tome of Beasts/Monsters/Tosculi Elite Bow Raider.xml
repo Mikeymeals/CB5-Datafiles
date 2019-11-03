@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Tosculi Elite Bow Raider</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>tosculi</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>97</HP>
+  <HPRoll>13d8 + 39</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Gnoll</string>
+    <string>Infernal</string>
+    <string>Tosculi</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Deadly Precision</Name>
+      <Text>The tosculi elite bow raider's ranged attacks do an extra 9 (2d8) damage (included below).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Evasive</Name>
+      <Text>Ranged weapon attacks against the tosculi elite bow raider have disadvantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Smell</Name>
+      <Text>The tosculi elite bow raider has advantage on Wisdom (Perception) checks that rely on smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Skirmisher</Name>
+      <Text>The tosculi elite bow raider can Dash as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The tosculi elite bow raider makes two longbow attacks or two claws attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longbow</Name>
+      <Text>Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

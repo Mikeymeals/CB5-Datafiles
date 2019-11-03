@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Kishi Demon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor, shield</ACText>
+  <HP>119</HP>
+  <HPRoll>14d8 + 56</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>22</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+    <string>telepathy</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Two Heads</Name>
+      <Text>The demon has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The demon's spellcasting ability is Charisma (spell save DC 17). The demon can innately cast the following spells, requiring no material components: At will: detect evil and good, detect magic, suggestion
+3/day: glibness
+1/day: dominate person</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The demon has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Trophy Shield</Name>
+      <Text>If the kishi demon killed an opponent this turn, as a bonus action, it takes part of the slain creature's essence along with a grisly trophy and mounts it upon its shield. For 24 hours, the Armor Class of the kishi demon becomes 20, and creatures of the same race as the slain creature have disadvantage on attack rolls against the kishi demon.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Demon Summoning</Name>
+      <Text>Some kishi demons have an action option that allows them to summon other demons.
+Summon Demon (1/Day): The kishi demon has a 35 percent chance of summoning one kishi demon</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The demon makes one bite attack and three spear attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

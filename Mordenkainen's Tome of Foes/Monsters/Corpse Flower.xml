@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Corpse Flower</Name>
+  <Descriptions>
+    <Description>
+      <Name>Horrible Odor</Name>
+      <Text>With or without humanoid corpses nested in its body, a corpse flower exudes a stench of decay that can overwhelm the senses of nearby creatures, causing them to become nauseated. The stench, which serves as a defense mechanism, fades 2d4 days after the corpse flower dies.</Text>
+    </Description>
+  </Descriptions>
+  <Description>A corpse flower can sprout atop the grave of an evil necromancer or the remains of powerful undead. Unless it is uprooted and burned while it is still a seedling, the corpse flower grows to enormous size over several weeks, then tears itself free of the earth and begins scavenging humanoid corpses from battlefields and graveyards. Using its fibrous tentacles, it stuffs the remains into its body and feeds on carrion to repair itself. The plant has a malevolent bent and despises the living.</Description>
+  <Flavour>Corpse-flower seedlings are quite useful for various purposes. Simply kill and bury a necromancer, and you should have a good crop in about a week.
+—Mordenkainen</Flavour>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <HP>127</HP>
+  <HPRoll>15d10+45</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Corpses</Name>
+      <Text>When first encountered, a corpse flower contains the corpses of 1d6 + 3 humanoids. A corpse flower can hold the remains of up to nine dead humanoids. These remains have total cover against attacks and other effects outside the corpse flower. If the corpse flower dies, the corpses within it can be pulled free.
+While it has at least one humanoid corpse in its body, the corpse flower can use a bonus action⁠ to do one of the following:
+ • The corpse flower digests one humanoid corpse in its body and instantly regains 11 (2d10) hit points. Nothing of the digested body remains. Any equipment on the corpse is expelled from the corpse flower in its space.
+ • The corpse flower animates one dead humanoid in its body, turning it into a zombie. The zombie⁠ appears in an unoccupied space within 5 feet of the corpse flower and acts immediately after it in the initiative order. The zombie⁠ acts as an ally of the corpse flower but isn’t under its control, and the flower’s stench clings to it (see the Stench of Death trait).
+</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider⁠ Climb⁠</Name>
+      <Text>The corpse flower can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stench of Death</Name>
+      <Text>Each creature that starts its turn within 10 feet of the corpse flower or one of its zombies must make a DC 14 Constitution saving throw, unless the creature is a construct or undead. On a failed save, the creature is incapacitated until the end of the turn. Creatures that are immune to poison damage or the poisoned condition automatically succeed on this saving throw. On a successful save, the creature is immune to the stench of all corpse flowers for 24 hours.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The corpse flower makes three tentacle attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage, and the target must succeed on a DC 14 Constitution saving throw or take 14 (4d6) poison damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 2  bludgeoning</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Harvest the Dead</Name>
+      <Text>The corpse flower grabs one unsecured dead humanoid within 10 feet of it and stuffs the corpse into itself, along with any equipment⁠ the corpse is wearing or carrying. The remains can be used with the Corpses trait.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

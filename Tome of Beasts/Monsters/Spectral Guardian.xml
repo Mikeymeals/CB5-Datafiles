@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Spectral Guardian</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <HP>110</HP>
+  <HPRoll>13d8 + 52</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages it knew in life but can't speak</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The spectral guardian can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tomb Bound</Name>
+      <Text>The spectral guardian is bound to the area it defends. It can't move more than 100 feet from the place it is bound to protect.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Withering Miasma</Name>
+      <Text>A creature that starts its turn in the spectral guardian's space must make a successful DC 15 Constitution saving throw or take 18 (4d8) necrotic damage and its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a long rest.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Arcane Guardian</Name>
+      <Text>Some spectral guardians were not warriors in life, but powerful magic users. An arcane guardian has a challenge rating of 8 (3,900 XP) and the following added trait: Spellcasting. The arcane guardian is a 9th level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The guardian knows the following sorcerer spells, which do not require material components:
+Cantrips (at will): acid splash, chill touch, dancing lights,minor illusion, ray of frost
+1st level (4 slots): mage armor, ray of sickness
+2nd level (3 slots): darkness, scorching ray
+3rd level (3 slots): fear, slow, stinking cloud
+4th level (3 slots): blight, ice storm
+5th level (1 slot): cone of cold</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The spectral guardian makes two spectral rend attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Spectral Rend</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. If the target is a creature, it must succeed on a DC 14 Wisdom saving throw or be frightened and have its speed reduced to 0; both effects last until the end of its next turn.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

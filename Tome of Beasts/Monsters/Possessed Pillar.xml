@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Possessed Pillar</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>95</HP>
+  <HPRoll>10d10 + 40</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't adamantine</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages of its creator but can't speak</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The pillar is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The pillar has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The pillar's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Steal Weapons</Name>
+      <Text>The eldritch magic that powers the pillar produces a magnetic power that seizes metal objects that touch it, including metal weapons. When a creature successfully strikes the pillar with a metal melee weapon, the attacker must make a successful DC 15 Strength or Dexterity saving throw or the weapon becomes stuck to the pillar until the pillar releases it or is destroyed. The saving throw uses the same ability as the attack used. The pillar can release all metal weapons stuck to it whenever it wants. A pillar always drops all weapons stuck to it when it believes it's no longer threatened. This ability affects armor only during a grapple.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the pillar remains motionless, it is indistinguishable from a statue or a carved column.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The pillar makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d8 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

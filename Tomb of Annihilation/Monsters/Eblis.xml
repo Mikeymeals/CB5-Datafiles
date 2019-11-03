@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Eblis</Name>
+  <Descriptions />
+  <Description>Eblis (pronounced EH-blee) are thought to be reincarnations of evil humans who were punished by gods for acts of larceny and kidnapping. These intelligent, evil cranes loom 8 feet tall and lay eggs as mundane birds do. They can manipulate objects with their beaks and feet.
+Eblis try to sway other creatures into doing their bidding, and their plots are self·serving. They live to destroy creatures that offend them and delight in luring humanoids to an unexpected death. Eblis also like to collect treasure, which they sometimes use to reward those who serve them. They build crude huts and nests out of grass and reeds, wherein they hide their treasure.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <HP>26</HP>
+  <HPRoll>4d10+4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Auran</string>
+    <string>Common</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The eblis's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:
+1/day each: blur, hypnotic pattern, minor illusion</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The eblis attacks twice with its beak.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Beak</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Blur</string>
+    <string>Hypnotic Pattern</string>
+    <string>Minor Illusion</string>
+  </Spells>
+  <Slots />
+</Monster>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Aridni</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <HP>82</HP>
+  <HPRoll>15d6 + 30</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>9</Strength>
+  <Dexterity>21</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Gnoll</string>
+    <string>Sylvan</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The aridni doesn't provoke an opportunity attack when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The aridni has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The aridni's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells:
+At will: dancing lights, detect magic, invisibility
+3/day: charm person, faerie fire, mage armor
+1/day: spike growth</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Short Sword</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Pixie Bow</Name>
+      <Text>Ranged Weapon Attack: +8 to hit, range 40/160 ft., one target. Hit: 7 (1d4 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d4 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Slaver Arrows</Name>
+      <Text>An aridni can add a magical effect in addition to the normal damage done by its arrows. If so, the aridni chooses from the following effects:</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name />
+      <Text>Confusion. The target must succeed on a DC 14 Wisdom saving throw or become confused (as the spell) for 2d4-1 rounds.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name />
+      <Text>Fear. The target must succeed on a DC 14 Wisdom saving throw or become frightened for 2d4 rounds.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name />
+      <Text>Hideous Laughter. The target must succeed on a DC 14 Wisdom saving throw or become incapacitated for 2d4 rounds. While incapacitated, the target is prone and laughing uncontrollably.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name />
+      <Text>Sleep. The target must succeed on a DC 14 Wisdom saving throw or fall asleep for 2d4 minutes. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

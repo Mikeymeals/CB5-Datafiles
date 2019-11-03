@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Red-Banded Line Spider</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <HP>2</HP>
+  <HPRoll>1d4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>4</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>2</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The spider can climb difficult surfaces, including upside down and on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Web Walker</Name>
+      <Text>The spider ignores movement restrictions caused by webbing.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 3 (1d6) poison damage and be poisoned until the start of the spider's next turn. The target fails the saving throw automatically and takes an extra 1d6 poison damage if it is bitten by another red-banded line spider while poisoned this way.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Swingline</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit: the spider immediately moves the full length of the webbing (up to 60 feet) to the target and delivers a bite with advantage. This attack can be used only if the spider is higher than its target and at least 10 feet away.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>up to 60 feet</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

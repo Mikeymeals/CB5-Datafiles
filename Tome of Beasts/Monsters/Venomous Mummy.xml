@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Venomous Mummy</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>11</AC>
+  <ACText>natural armor</ACText>
+  <HP>58</HP>
+  <HPRoll>9d8 + 18</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>the languages it knew in life</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Selket's Venom</Name>
+      <Text>The venomous mummy's body and wrappings are magically imbued with substances that are highly toxic. Any creature that comes in physical contact with the venomous mummy (e.g., touching the mummy barehanded, grappling, using a bite attack) must succeed on a DC 12 Constitution saving throw or be poisoned with Selket's venom. The poisoned target takes 3 (1d6) poison damage every 10 minutes. Selket's venom is a curse, so it lasts until ended by the remove curse spell or comparable magic.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Toxic Smoke</Name>
+      <Text>The venomous mummy's poisonimbued wrappings and flesh create toxic fumes when burned. If a venomous mummy takes fire damage, it is surrounded by a cloud of toxic smoke in a 10-foot radius. This cloud persists for one full round. A creature that starts its turn inside the cloud or enters it for the first time on its turn takes 14 (4d6) poison damage, or half damage with a successful DC 12 Constitution saving throw.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Venomous Fist</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be affected by the Selket's venom curse (see above).</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

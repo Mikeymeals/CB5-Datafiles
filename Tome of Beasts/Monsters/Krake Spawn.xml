@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Krake Spawn</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>150</HP>
+  <HPRoll>12d12 + 72</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>24</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal</string>
+    <string>Primordial</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The krake spawn can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Jet</Name>
+      <Text>While underwater, the krake spawn can take the withdraw action to jet backward at a speed of 140 feet. It must move in a straight line while using this ability.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The krake spawn's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:
+At will: protection from energy, ray of frost
+1/day each: ice storm, wall of ice</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The krake spawn makes eight tentacle attacks and one bite attack. It can subsitute one constrict attack for two tentacle attacks if it has a creature grappled at the start of the krake spawn’s turn, but it never constricts more than once per turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 10 ft, one target. Hit: 12 (1d10 + 7) slashing damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>1d10+7</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 10 (1d6 + 7) necrotic damage. If two tentacle attacks hit the same target in one turn, the target is also grappled (escape DC 17).</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>1d6+7</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Constrict</Name>
+      <Text>The constricted creature takes 26 (3d12 + 7) bludgeoning damage and is grappled (escape DC 17) and restrained.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ink Cloud (Recharge 6)</Name>
+      <Text>The krake spawn emits black, venomous ink in a 30-foot cloud as a bonus action while underwater. The cloud affects vision as the darkness spell, and any creature that starts its turn inside the cloud takes 10 (3d6) poison damage, or half damage with a successful DC 18 Constitution saving throw. The krake spawn’s darkvision is not impaired by this cloud. The cloud persists for 1 minute, then disperses.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Vomit Forth the Deeps (1/Day)</Name>
+      <Text>The krake spawn sprays halfdigested food from its maw over a 15-foot cone. This acidic slurry causes 3 (1d6) acid damage and targets must make a successful DC 18 Constitution saving throw or be incapacitated until the end of their next turn.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

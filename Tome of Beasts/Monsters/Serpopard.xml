@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Serpopard</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>85</HP>
+  <HPRoll>10d10 + 30</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Swamp Stealth</Name>
+      <Text>The serpopard gains an additional +2 to Stealth (+7 in total) in sand or swamp terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sinuous Strikeback</Name>
+      <Text>The serpopard can take any number of reactions in a round, but it can react only once to each trigger.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The serpopard makes two bite attacks and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Musk (Recharges after a Short or Long Rest)</Name>
+      <Text>The serpopard releases a jet of foul-smelling musk in a 15-foot cone that lasts for 2d4 rounds. Creatures in the cone must make DC 13 Dexterity saving throws. If the save succeeds, the creature moves to the nearest empty space outside the cone; if the saving throw fails, the creature becomes drenched in musk. A creature that enters the area of the cone while the musk persists is saturated automatically. A creature saturated in musk is poisoned. In addition, every creature that starts its turn within 5 feet of a saturated creature must make a successful DC 15 Constitution saving throw or be poisoned until the start of its next turn. Serpopard musk (and the poisoning) wear off naturally in 1d4 hours. A saturated creature can end the effect early by spending 20 minutes thoroughly washing itself, its clothes, and its equipment with water and soap.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

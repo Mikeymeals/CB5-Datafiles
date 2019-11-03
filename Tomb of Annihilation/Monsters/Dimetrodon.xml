@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Dimetrodon</Name>
+  <Descriptions />
+  <Description>This sail-backed reptile is commonly found in area where dlnosaurs live. It hunts on shores and in shallow water, filling a similar role as a crocodile.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
+  <HP>19</HP>
+  <HPRoll>3d8+6</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Source</Name>
+      <Text>Volo's Guide to Monsters, p. 139</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

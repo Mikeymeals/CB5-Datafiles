@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Clockwork Myrmidon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>153</HP>
+  <HPRoll>18d10+54</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The clockwork myrmidon is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The clockwork myrmidon has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The clockwork myrmidon makes two attacks: two pick attacks or two slam attacks, or one of each.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Heavy Pick</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d12 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Alchemical Flame Jet (Recharge 5-6)</Name>
+      <Text>The clockwork myrmidon can spew a jet of alchemical fire in a line 20 feet long and 5 feet wide. Any creature in the path of the jet takes 26 (4d12) fire damage, or half damage with a successful DC 15 Dexterity saving throw. The clockwork myrmidon can use this attack four times before its internal reservoir is emptied.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Grease Spray (Recharge 5-6)</Name>
+      <Text>As a bonus action, the clockwork myrmidon's chest can fire a spray of alchemical grease with a range of 30 feet, covering a 10-by-10 foot square area and turning it into difficult terrain. Each creature standing in the affected area must succeed on a DC 15 Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a DC 15 Dexterity saving throw or fall prone. The clockwork myrmidon can use this attack four times before its internal reservoir is emptied.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Alchemical Fireball</Name>
+      <Text>The clockwork myrmidon's alchemical flame reservoir explodes when the construct is destroyed, spraying nearby creatures with burning fuel. A creature within 5 feet of the myrmidon takes 19 (3d12) fire damage, or half damage with a successful DC 15 Dexterity saving throw. This explosion doesn't occur if the clockwork myrmidon has already fired its alchemical flame jet four times.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

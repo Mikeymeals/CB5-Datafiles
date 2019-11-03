@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Ghoul, Darakhul</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>scale mail; 18 with shield</ACText>
+  <HP>78</HP>
+  <HPRoll>12d8 + 24</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Master of Disguise</Name>
+      <Text>A darakhul in a prepared disguise has advantage on Charisma (Deception) checks made to pass as a living creature. While using this ability, the darakhul loses its stench.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stench</Name>
+      <Text>Any creature that starts its turn within 5 feet of the darakhul must make a successful DC 12 Constitution saving throw or be poisoned until the start of its next turn. A successful saving throw makes the creature immune to the darakhul's stench for 24 hours. A darakhul using this ability can't also benefit from Master of Disguise.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>The darakhul has disadvantage on Wisdom (Perception) checks that rely on sight and on attack rolls while it, the object it is trying to see or attack in direct sunlight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turning Defiance</Name>
+      <Text>The darakhul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Darakhul Fever</Name>
+      <Text>Spread mainly through bite wounds, this rare disease makes itself known within 24 hours by swiftly debilitating the infected. A creature so afflicted must make a DC 17 Constitution saving throw after every long rest. On a failed save the victim takes 14 (4d6) necrotic damage, and its hit point maximum is reduced by an amount equal to the damage taken. This reduction can't be removed until the victim recovers from darakhul fever, and even then only by greater restoration or similar magic. The victim recovers from the disease by making successful saving throws on two consecutive days. Greater restoration cures the disease; lesser restoration allows the victim to make the daily Constitution check with advantage. Primarily spread among humanoids, the disease can affect ogres, and therefore other giants may be susceptible. If the infected creature dies while infected with darakhul fever, roll 1d20, add the character's current Constitution modifier, and find the result on the Adjustment Table to determine what undead form the victim's body rises in. Adjustment Table Roll Result:
+1-9 None; victim is simply dead
+10-16 Ghoul
+17-20 Ghast
+21+ Darakhul</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The darakhul bites once, claws once, and makes one war pick attack. Using a shield limits the darakhul to making either its claw or war pick attack, but not both.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and if the target creature is humanoid it must succeed on a DC 11 Constitution saving throw or contract darakhul fever.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must make a successful DC 12 Constitution saving throw or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a humanoid creature is paralyzed for 2 or more rounds (the victim fails at least 2 saving throws), consecutive or nonconsecutive, the creature contracts darakhul fever.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>War Pick</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

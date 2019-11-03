@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Risen Reaver</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>studded leather</ACText>
+  <HP>168</HP>
+  <HPRoll>16d10 + 80</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any languages it knew in life</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Life Sense</Name>
+      <Text>The risen reaver automatically detects all living creatures within 120 feet. This sense is blocked by 3 feet of wood, 1 foot of earth or stone, an inch of metal, or a thin sheet of lead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pounce</Name>
+      <Text>When the risen reaver hits an enemy with its blade attack after moving at least 20 feet, the target creature must make a DC 15 Strength saving throw. On a failure, the creature falls prone and the risen reaver can use a bonus action to make a single blade attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Infused Arsenal</Name>
+      <Text>As a bonus action, the risen reaver can absorb one unattended weapon into its body. For every weapon it absorbs, it deals +1 damage with its blade attacks ( maximum of +3).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Skitter</Name>
+      <Text>The risen reaver can take the Dash action as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The risen reaver makes three blade attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Blade</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d10 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

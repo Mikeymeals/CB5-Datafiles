@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Kongamato</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>112</HP>
+  <HPRoll>15d10 + 30</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The kongamato doesn't provoke an opportunity attacks when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Breaker of Boats</Name>
+      <Text>The kongamato deals double damage to objects and structures made of wood or lighter materials.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Carry Off</Name>
+      <Text>A single kongamato can carry away prey up to 50 lbs, or a single rider under that weight. A grouo of them can carry up to 100 lbs.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The kongamato makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained and the kongamato can't bite another target. When the kongamato moves, any target it is grappling moves with it.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>4d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

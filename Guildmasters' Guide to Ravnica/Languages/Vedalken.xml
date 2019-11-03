@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Vedalken</Name>
+  <Description>The Vedalken language is renowned for its technical treatises and its catalogs of knowledge about the natural world and the aether that pervades it.</Description>
+  <Skript>Vedalken</Skript>
+  <TypicalSpeakers>Vedalken</TypicalSpeakers>
+  <Source>Guildmasters' Guide to Ravnica</Source>
+</Language>

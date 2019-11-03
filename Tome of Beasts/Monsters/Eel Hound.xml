@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Eel Hound</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>77</HP>
+  <HPRoll>14d8 + 14</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The eel hound can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The eel hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Slick Spittle</Name>
+      <Text>By spending 2 rounds dribbling spittle on an area, an eel hound can cover a 5-foot square with its slippery saliva. This area is treated as if under the effects of a grease spell, but it lasts for 1 hour.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Slithering Bite</Name>
+      <Text>A creature an eel hound attacks can't make opportunity attacks against it until the start of the creature's next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage, and the target is grappled (escape DC 14).</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

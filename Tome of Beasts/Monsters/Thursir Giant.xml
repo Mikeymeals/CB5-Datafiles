@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Thursir Giant</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil (50%) lawful evil (50%)</Alignment>
+  <AC>13</AC>
+  <ACText>chain shirt</ACText>
+  <HP>114</HP>
+  <HPRoll>12d10 + 48</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Dwarven</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Cast Iron Stomach</Name>
+      <Text>The giant can consume half of its weight in food without ill effect, and it has advantage against anything that would give it the poisoned condition. Poisonous and spoiled foodstuffs are common in a thursir lair.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The giant makes two warhammer attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Warhammer</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 15 (2d10 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d10 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Runic Blood (3/day)</Name>
+      <Text>Thursir giants can inscribe the thurs rune on a weapon. A creature hit by the weapon takes an additional 1d8 lightning damage, and the target can't take reactions until the start of its next turn. The thurs rune lasts for one hour, or for three hits, whichever comes first.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

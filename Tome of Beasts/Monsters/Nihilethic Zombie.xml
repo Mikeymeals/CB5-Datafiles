@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Nihilethic Zombie</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>9</AC>
+  <ACText>natural armor</ACText>
+  <HP>22</HP>
+  <HPRoll>3d8 + 9</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>6</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>6</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>necrotic</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing and slashing from nonmagical weapons (only when in ethereal form)</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understand Void Speech and the languages it knew in life but can't speak</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Undead Fortitude</Name>
+      <Text>If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dual State</Name>
+      <Text>Like its nihileth creator, a nihilethic zombie can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam (Material Form Only)</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage and the target must make a successful DC 13 Constitution saving throw or become diseased. The disease has little effect for 1 minute; during that time, it can be removed by bless, lesser restoration, or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is at least partially underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is either fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 2d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth that commands the attacking zombie.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>4d6+1</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Withering Touch (Ethereal Form)</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) necrotic damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6+1</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Form Swap</Name>
+      <Text>As a bonus action, the nihilethic zombie can alter between its material and ethereal forms at will.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sacrifice Life</Name>
+      <Text>A nihilethic zombie can sacrifice itself to heal a nihileth within 30 feet of it. All of its remaining hit points transfer to the nihileth in the form of healing. The nihilethic zombie is reduced to 0 hit points and it doesn't make an Undead Fortitude saving throw. A nihileth cannot be healed above its maximum hit points in this manner.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Void Body</Name>
+      <Text>The nihilethic zombie can reduce the damage it takes from a single source by 1d12 points. This reduction cannot be applied to radiant damage.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

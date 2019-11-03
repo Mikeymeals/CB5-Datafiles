@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Kot Bayun</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>15</AC>
+  <HP>44</HP>
+  <HPRoll>8d8 + 8</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Folk Cure</Name>
+      <Text>A kot bayun's tales have the effect of a lesser restoration spell at will, and once per week it can have the effect of greater restoration. The kot bayun designates one listener to benefit from its ability, and that listener must spend one uninterrupted hour listening to the cat's tales. Kot bayuns are reluctant to share this benefit and must be bargained with or under the effect of domination to grant the boon.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The kot bayun's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:
+3/day each: fog cloud, invisibility (self only)
+1/day: blink</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The kot bayun makes one bite attack and one claws attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5ft., one target. Hit: 14 (2d10 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d10 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Slumbering Song</Name>
+      <Text>The kot bayun puts creatures to sleep with its haunting melody. While a kot bayun sings, it can target one hearing creature within a 100-foot radius. This target must succeed on a DC 13 Charisma saving throw or fall asleep. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. Each round the kot bayun maintains its song, it can select a new target. A creature that successfully saves is immune to the effect of that kot bayun's song for 24 hours. The slumbering song even affects elves, but they have advantage on the Charisma saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

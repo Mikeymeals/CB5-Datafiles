@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Lindwurm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <HP>136</HP>
+  <HPRoll>16d10 + 48</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>cold</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>paralyzed</string>
+    <string>prone</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 120 ft. on ice</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Lindwurm Fever</Name>
+      <Text>A creature infected with this disease by a lindwurm's bite gains one level of exhaustion an hour after being infected. The creature must make a DC 14 Constitution saving throw after each long rest. On a failure, the creature gains one level of exhaustion and recovers no hit dice from the long rest. On a success, the creature recovers from one level of exhaustion and regains hit dice normally. If the infected creature reduces itself to zero exhaustion by making successful saving throws, the disease is cured.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Skittering Skater</Name>
+      <Text>Lindwurms suffer no penalties from difficult terrain on ice and are immune to the effects of the grease spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Snake Belly</Name>
+      <Text>When lying with its sensitive stomach on the ice, a lindwurm can sense approaching creatures by the vibrations they cause, granting them tremorsense.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The lindwurm makes one bite attack, one claw attack, and one constrict attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or contract lindwurm fever.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (3d8 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Constrict</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the lindwurm can constrict only this target.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

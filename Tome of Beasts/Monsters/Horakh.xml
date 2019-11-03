@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Horakh</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>161</HP>
+  <HPRoll>19d8 + 76</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 30 ft.</string>
+  </Senses>
+  <PassivePerception>4</PassivePerception>
+  <Languages>
+    <string>understands Undercommon</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shadow Stealth</Name>
+      <Text>A horakh can hide as a bonus action if it's in dim light or darkness.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Standing Leap</Name>
+      <Text>As part of its movement, the horakh can jump up to 20 feet horizontally and 10 feet vertically, with or without a running start.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The horakh makes two claw attacks and one bite attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) slashing damage. If the bite attack hits a target that's grappled by the horakh, the target must make a successful DC 16 Dexterity saving throw or one of its eyes is bitten out. A creature with just one remaining eye has disadvantage on ranged attack rolls and on Wisdom (Perception) checks that rely on sight. If both (or all) eyes are lost, the target is blinded. The regenerate spell and comparable magic can restore lost eyes. Also see Implant Egg, below.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>4d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage. If both attacks hit the same Medium or smaller target in a single turn, the target is grappled (escape DC 14).</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Implant Egg</Name>
+      <Text>If a horakh's bite attack reduces a grappled creature to 0 hit points, or it bites a target that's already at 0 hit points, it implants an egg in the creature's eye socket. The deposited egg grows for 2 weeks before hatching. If the implanted victim is still alive, it loses 1d2 Constitution every 24 hours and has disadvantage on attack rolls and ability checks. After the first week, the victim is incapacitated and blinded. When the egg hatches after 2 weeks, an immature horakh erupts from the victim's head, causing 1d10 bludgeoning, 1d10 piercing, and 1d10 slashing damage. A lesser restoration spell can kill the egg during its incubation.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

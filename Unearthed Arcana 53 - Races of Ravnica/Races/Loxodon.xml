@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 2, and your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>2</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Loxodons physically mature at the same rate as humans, but they live about 450 years. They highly value the weight of wisdom and experience and are considered young until they reach the age of 60.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Most loxodons are lawful, believing in the value of a peaceful, ordered life. They also tend toward good.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Loxodons stand between 7 and 8 feet tall. Their massive bodies weigh between 300 and 400 pounds. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Powerful Build</Name>
+      <Text>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>1</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+    </BonusFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Loxodon Bravery</Name>
+      <Text>You have advantage on saving throws against being frightened.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>freightened</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <ACFeature>
+      <Keywords />
+      <Name>Natural Armor</Name>
+      <Text>You have thick, leathery skin. When you aren’t wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Expression>13 + DexMod + ShieldBonus</Expression>
+    </ACFeature>
+    <Feature>
+      <Keywords />
+      <Name>Keen Smell</Name>
+      <Text>Thanks to your sensitive trunk, you have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation) checks that involve smell.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Mason’s Proficiency</Name>
+      <Text>You gain proficiency with mason’s tools.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Mason’s tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Stonecunning</Name>
+      <Text>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Loxodon</Name>
+  <Size>Medium</Size>
+  <Description>The humanoid elephants called loxodons are often oases of calm in the busy streets of Ravnica. They hum or chant in sonorous tones and move slowly or sit in perfect stillness. 1f provoked to action, loxodons are true terrors- bellowing with rage, trumpeting and flapping their ears. Their serene wisdom, fierce loyalty, and unwavering conviction are tremendous assets to their guilds.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Lumbering Giants</Name>
+      <Text>Loxodons tower above most other humanoids, standing over 7 feet tall. They have the heads- trunks, tusks, ears, and faces-of elephants, and hulking bipedal bodies covered by thick, leathery skin. Each of their hands has four thick digits, and their feet are the flat-bottomed, oval-shaped feet of elephants.
+Like that of an elephant, a loxodon's trunk is a useful appendage. In addition to providing a keen sense of smell, the trunk can be used to lift and carry even heavy objects. The trunk can be used to carry both food and liquid to the mouth and can even act as a snorkel.</Text>
+    </Description>
+    <Description>
+      <Name>Gifted Stoneworkers</Name>
+      <Text>Loxodons are tireless, patient artisans with an unrivaled intuition about their craft. Although they make nurturing spiritual leaders, their gift for stonework is so ingrained that they are often at a loss when they try to impart that knowledge to others. Among the Selesnya, it primarily falls to loxodons to build the guild's magnificent, cathedral-like arboretum structures.
+</Text>
+    </Description>
+    <Description>
+      <Name>Relentlessly Loyal</Name>
+      <Text>Loxodons believe in the value of community and life, and thus are most often found in the Selesnya Conclave. Some find fulfillment in the cause of order byjoining the Orzhov Syndicate or the Azorius Senate.
+Loxodons believe that the members of a group have a responsibility to look out for each other. Once they have joined a guild or bonded with other individuals in any capacity, loxodons devote themselves to maintaining that bond. They coordinate their efforts and are often willing to sacrifice themselves for the sake of the group. They
+expect reciprocal loyalty and commitment from the other members of their communities and can be severe in their disappointment when their trust is betrayed.
+The primary difference between loxodons who join different guilds is their sense of the size of the community they belong to. For loxodons in the Selesnya Conclave, their community is the world and all living beings in it-everything valuable, meant to live in harmony. and interdependent. For Azorius loxodons, community primarily means a society of different peoples who need adherence to law and order so they can function together. For those in the Orzhov Syndicate, community means the syndicate alone, with its interests taking priority over those of any other group.
+</Text>
+    </Description>
+    <ListDescription>
+      <Name>Loxodon Names</Name>
+      <Text>A loxodon's name includes subtle tones, produced in a loxodon's resonant nasal chambers, that indicate status, family connection, and community role. Since most non-loxodons can't distinguish these underlying tones, let alone produce them. loxodons often translate them into titles. such as Hierarch. Revered, Grandmother, Healer, or Saint when interacting with other races.</Text>
+      <Names>
+        <Names>
+          <ListOfNames>
+            <string>Bayul</string>
+            <string>Berov</string>
+            <string>Brooj</string>
+            <string>Chedumov</string>
+            <string>Dobrun</string>
+            <string>Droozh</string>
+            <string>Golomov</string>
+            <string>Heruj</string>
+            <string>llromov</string>
+            <string>Kel</string>
+            <string>Nikoom</string>
+            <string>Ondros</string>
+            <string>Radomov</string>
+            <string>Svetel</string>
+            <string>Tamuj</string>
+            <string>Throom</string>
+            <string>Vasool</string>
+          </ListOfNames>
+          <Title>Male Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Ajj</string>
+            <string>Boja</string>
+            <string>Dancu</string>
+            <string>Dooja</string>
+            <string>Elyuja</string>
+            <string>Fanoor</string>
+            <string>Irij</string>
+            <string>Jasoo</string>
+            <string>Katrun</string>
+            <string>Lyooda</string>
+            <string>Mayja</string>
+            <string>Radu</string>
+            <string>Shuja</string>
+            <string>Soofya</string>
+            <string>Totoor</string>
+            <string>Verij</string>
+            <string>Vesmova</string>
+            <string>Yoolna</string>
+            <string>Zarij</string>
+            <string>Zoorja</string>
+          </ListOfNames>
+          <Title>Female Names</Title>
+        </Names>
+      </Names>
+    </ListDescription>
+    <Description>
+      <Name>Loxodon Traits</Name>
+      <Text>Your loxodon character has the following racial traits.
+</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 53 - Races of Ravnica</Source>
+</Race>

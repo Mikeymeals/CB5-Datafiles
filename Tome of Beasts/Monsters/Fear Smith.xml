@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Fear Smith</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>123</HP>
+  <HPRoll>19d8 + 38</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 15 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from weapons that aren't made of cold iron</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Distortion Gaze</Name>
+      <Text>Those who meet the gaze of the fear smith experience the world seeming to twist at unnatural angles beneath their feet. When a creature that can see the fear smith's eye starts its turn within 30 feet of the fear smith, the creature must make a successful DC 16 Wisdom saving throw or become disoriented. While disoriented, the creature falls prone each time it tries to move or take the Dash or Disengage action. To recover from disorientation, a creature must start its turn outside the fear smith's gaze and make a successful DC 16 Wisdom saving throw. To use this ability, the fear smith can't be incapacitated and must see the affected creature. A creature that isn't surprised can avert its eyes at the start of its turn to avoid the effect. In that case, no saving throw is necessary but the creature treats the fear smith as invisible until the start of the creature's next turn. If during its turn the creature chooses to look at the fear smith, it must immediately make the saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Hidden Eye</Name>
+      <Text>The fear smith has advantage on saving throws against the blinded condition.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The fear smith's innate spellcasting ability is Charisma (spell save DC 16). The fear smith can innately cast the following spells, requiring no verbal or material components:
+At will: detect thoughts, fear
+2/day each: charm person, command, confusion</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The fear smith has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The fear smith makes three claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., 1 creature. Hit: 16 (2d12 + 3) slashing damage. If the target is disoriented by Distortion Gaze, this attack does an additional 13 (3d8) psychic damage and heals the fear smith by an equal amount.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d12+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Heartstopping Stare</Name>
+      <Text>The fear smith terrifies a creature within 30 feet with a look. The target must succeed on a DC 16 Wisdom saving throw or be stunned for 1 round and take 13 (3d8) psychic damage and heal the fear smith by an equal amount.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidate</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

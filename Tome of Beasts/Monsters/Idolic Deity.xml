@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Idolic Deity</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>90</HP>
+  <HPRoll>12d6 + 48</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>telepathy 60 ft.</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Stealth in darkness</Name>
+      <Text>The idolic diety gains an additional +3 to Stealth (+11 in total) in dim light or darkness.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Apostasy Aura</Name>
+      <Text>The idolic deity's presence causes devout followers to doubt their faith. A cleric or paladin that can see the idolic deity and wishes to cast a spell or use a class feature must make a DC 16 Wisdom saving throw. On a failed save, the spell or class feature is spent as if it was used, but it has no effect.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The idolic deity can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Stealth</Name>
+      <Text>While in dim light or darkness, the idolic deity can take the Hide action as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The idolic deity uses Seduce the Righteous and makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage plus 18 (4d8) psychic damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Seduce the Righteous</Name>
+      <Text>The idolic deity targets one creature it can see within 30 feet. The target has disadvantage on attack rolls, saving throws, or ability checks (the idolic deity chooses which) until the end of its next turn. A protection from evil and good spell cast on the target prevents this effect, as does a magic circle.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

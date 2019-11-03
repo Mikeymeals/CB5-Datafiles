@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Gypsosphinx</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>171</HP>
+  <HPRoll>18d10 + 72</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 70 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>psychic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 90 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Darakhul</string>
+    <string>Sphinx</string>
+  </Languages>
+  <CR>14</CR>
+  <XP>11500</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Inscrutable</Name>
+      <Text>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The sphinx's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mystic Sight</Name>
+      <Text>A gypsosphinx sees death coming and can foretell the manner of a person's death. This ability does not come with any urge to share that information. Gypsosphinxes are notorious for hinting, teasing, and even lying about a creature's death ("If we fight, I will kill you and eat your heart. I have seen it," is a favorite bluff).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:
+Cantrips: (at will): mage hand, mending, minor illusion, poison spray
+1st level (4 slots): comprehend languages, detect magic, identify
+2nd level (3 slots): blur, darkness, locate object
+3rd level (3 slots): dispel magic, glyph of warding, major image
+4th level (3 slots): blight, greater invisibility
+5th level (1 slot): cloudkill</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sphinx makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>3d10 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 32 (6d8 + 5) slashing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>6d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Rake</Name>
+      <Text>If the sphinx succeeds with both claw attacks, it automatically follows up with a rake attack. If the target fails a DC 17 Dexterity check, it is knocked prone and takes 14 (2d8 + 5) slashing damage.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>The sphinx can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one option can be used at a time and only at the end of another creature's turn. It regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Bite Attack</Name>
+      <Text>The sphinx makes one bite attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Teleport (Costs 2 Actions)</Name>
+      <Text>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cast a Spell (Costs 3 Actions)</Name>
+      <Text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Ink Devil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>14</AC>
+  <HP>54</HP>
+  <HPRoll>12d6 + 12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>20</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal; telepathy (120 ft.)</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil's Sight</Name>
+      <Text>Magical darkness doesn't impede the devil's darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The ink devil's spellcasting ability is Charisma (spell save DC 14). The ink devil can cast the following spells, requiring no material components:
+At will: detect magic, illusory script, invisibility, teleportation (self plus 50 lb of objects only)
+1/day each: glyph of warding, planar ally (1d4 + 1 lemures 40 percent, or 1 ink devil 25 percent)</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., single target. Hit: 11 (2d6 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., single target. Hit: 14 (3d6 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>3d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Disrupt Concentration</Name>
+      <Text>Their sharp, shrill tongues and sharper claws make ink devils more distracting than their own combat prowess might indicate. As a bonus action, an ink devil can force a single foe within 30 feet of the ink devil to make a DC 13 Wisdom saving throw or lose concentration until the beginning of the target's next turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Corrupt Scroll</Name>
+      <Text>An ink devil can corrupt the magic within any scroll by touch. Any such corrupted scroll requires a DC 13 Intelligence saving throw to use successfully. If the check fails, the scroll's spell affects the caster if it is an offensive spell, or it affects the nearest devil if it is a beneficial spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Devil's Mark</Name>
+      <Text>Ink devils can flick ink from their fingertips at a single target within 15 feet of the devil. The target must succeed on a Dexterity saving throw (DC 13), or the affected creature gains a devil's mark.a black, red, or purple tattoo in the shape of an archduke's personal seal (most often Mammon or Totivillus but sometimes Arbeyach, Asmodeus, Beelzebub, Dispater, or others). All devils have advantage on spell attacks made against the devil-marked creature, and the creature has disadvantage on saving throws made against spells and abilities used by devils. The mark can be removed only by a remove curse spell or comparable magic. In addition, the mark detects as faintly evil and often shifts its position on the body. Paladins, witchfinders, and some clerics may consider such a mark proof that a creature has made a pact with a devil.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

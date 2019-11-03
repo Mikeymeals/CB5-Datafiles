@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Clockwork Hound</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
+  <HP>71</HP>
+  <HPRoll>11d8 + 22</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The clockwork hound is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The clockwork hound has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Diligent Tracker</Name>
+      <Text>Clockwork hounds are designed to guard areas and track prey. They have advantage on all Wisdom (Perception) and Wisdom (Survival) checks when tracking.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d10 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tripping Tongue</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 9 (1d8 + 5) slashing damage, and the target must succeed on a DC 13 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Explosive Core</Name>
+      <Text>The mechanism that powers the hound explodes when the construct is destroyed. All creatures within 5 feet of the hound take 7 (2d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

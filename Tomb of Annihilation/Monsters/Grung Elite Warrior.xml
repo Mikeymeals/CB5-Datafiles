@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Grung Elite Warrior</Name>
+  <Descriptions>
+    <Description>
+      <Name>Castes and Colors</Name>
+      <Text>Grung society is a caste system. All grungs are a dull greenish gray when they are born, but each individual takes on the color of its caste as it grows to adulthood.
+Green grungs are the tribe's warriors, hunters, and laborers. Blue grungs work as artisans and in other domestic roles. Supervising and guiding both groups are the purple grungs, which serve as administrators and commanders. (Use the grung stat block to represent members of the green, blue, and purple castes.)
+Red grungs are the tribe's scholars and spellcasters, and they are superior to purple. blue, and green grungs. (Use the grung wildling stat block to represent members of the red caste.)
+Higher castes include orange grungs, which are elite warriors that have authority over all lesser grungs, and gold grungs, which hold the highest leadership positions. A tribe's sovereign is always a gold grung. (Use the grung elite warrior stat block to represent members of the orange and gold castes.)</Text>
+    </Description>
+  </Descriptions>
+  <Description>Grungs are aggressive frog-like humanoids found in rainforests and jungles. They are fiercely territorial and see themselves as superior to most other creatures.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>grung</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <HP>49</HP>
+  <HPRoll>9d6+18</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+    <string>climb 25 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Grung</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The grung can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poisonous Skin</Name>
+      <Text>Any creature that grapples the grung or otherwise comes into direct contact with the grung’s skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with the grung can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Standing Leap</Name>
+      <Text>The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 it, one target. Hit: 5 (1d4+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3 piercing</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6+3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3 piercing</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Mesmerizing Chirr (Recharge 6)</Name>
+      <Text>The grung makes a chirring noise to which grungs are immune. Each humanoid or beast that is within 15 feet of the grung and able to hear it must succeed on a DC 12 Wisdom saving throw or be stunned until the end of the grung’s next turn.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

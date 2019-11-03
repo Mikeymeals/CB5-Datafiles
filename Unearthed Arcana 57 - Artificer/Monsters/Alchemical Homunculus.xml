@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Alchemical Homunculus</Name>
+  <Descriptions />
+  <Source>Unearthed Arcana 57 - Artificer</Source>
+  <Size>Tiny</Size>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>0</HP>
+  <HPRoll>equal to five times your level in this class + your Intelligence modifier</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>4</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages you speak</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>0</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Might of the Master</Name>
+      <Text>The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus’s skill bonuses and the bonuses to hit and damage of its Acidic Spittle.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Acidic Spittle</Name>
+      <Text>Ranged Weapon Attack:+4to hit, range 30 ft., one targetyou can see. Hit:1d6 + 2acid damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2 acid</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Alchemical Salve (3/Day)</Name>
+      <Text>The homunculus produces a salve and touches one creature you designate. The target receives one of the following magical benefits of your choice:
+Buoyancy. The target gains a flying speed of 10 feet for 10 minutes.
+Inspiration. The target feels giddy and effective, gaining advantage on certain ability checks in the next hour. The target chooses the checks before or after rolling. The magic runs out after the target has used it on a number of checks equal to your Intelligence modifier (minimum of 1).
+Resilience. The target gains a number of temporary hit points equal to 2d6 + your Intelligence modifier.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Orobas Devil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>261</HP>
+  <HPRoll>14d10 + 126</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>28</Constitution>
+  <Intelligence>23</Intelligence>
+  <Wisdom>26</Wisdom>
+  <Charisma>21</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 90 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Darakhul</string>
+    <string>Draconic</string>
+    <string>Giant</string>
+    <string>Infernal</string>
+    <string>Undercommon</string>
+    <string>Void Speech; telepathy 100 ft.</string>
+  </Languages>
+  <CR>14</CR>
+  <XP>11500</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Knowing (3/day)</Name>
+      <Text>An orobas can predict actions and alter chance accordingly. Three times per day, it can choose to have advantage on any attack or skill check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The orobas has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The orobas's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sage Advice</Name>
+      <Text>An orobas sometimes twists responses to a divination. It softens the answer, leaves crucial information out of the response, manipulates a convoluted answer, or outright lies. An orobas always has advantage on Deception and Persuasion checks when revealing the result of a divination.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The orobas' spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+Constant: detect evil and good
+At will: augury, protection from evil and good, teleport (self plus 50 lb of objects only)
+5/day each: bestow curse, fireball, scorching ray
+3/day each: antimagic field, chain lightning, contact other plane, dimension door, wall of fire
+1/day each: eyebite, find the path, foresight</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The orobas makes four attacks: one with its bite, one with its claw, one with its flail, and one with its stomp.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 18 (3d6 + 8) piercing damage. The target must succeed on a DC 18 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points and it takes 14 (4d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flail</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage plus 18 (4d8) acid damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Stomp</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

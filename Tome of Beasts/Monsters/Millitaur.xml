@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Millitaur</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>85</HP>
+  <HPRoll>10d10 + 30</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>burrow 20 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>poison; bludgeoning and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The millitaur makes two handaxe attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Handaxe</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 2 (1d4) poison damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

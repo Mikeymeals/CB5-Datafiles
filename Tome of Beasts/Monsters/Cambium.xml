@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Cambium</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>264</HP>
+  <HPRoll>23d10 + 138</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>23</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>14</CR>
+  <XP>11500</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The cambium's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). The cambium can innately cast the following spells, requiring no material components:
+Constant: levitate
+At will: alter self, detect thoughts, hold person, plane shift, spare the dying
+3/day: cure wounds 21 (4d8 + 3), ray of sickness 18 (4d8), protection from poison, heal
+1/day: finger of death</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The cambium makes four needle fingers attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Needle Fingers</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage. In addition, the target must make a DC 19 Constitution saving throw; if it fails, the cambium can either inflict Ability Damage or Imbalance Humors. A target makes this saving throw just once per turn, even if struck by more than one needle fingers attack.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>3d10 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Ability Damage (3/Day)</Name>
+      <Text>When the target of the cambium's needle fingers fails its Constitution saving throw, one of its ability scores (cambium's choice) is reduced by 1d4 until it finishes a long rest. If this reduces a score to 0, the creature is unconscious until it regains at least one point.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Imbalance Humors (3/Day)</Name>
+      <Text>When the target of the cambium's needle fingers fails its Constitution saving throw, apply one of the following effects:</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sanguine Flux: The target cannot be healed</Name>
+      <Text>aturally or magically.until after their next long rest.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Choleric Flux: The target becomes confused (as the spell) for 3d6 rounds</Name>
+      <Text>The target can repeat the saving throw at the end of each of its turns to shrug off the flux before the duration ends.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Melancholic Flux: The target is incapacitated for 1d4 rounds and slowed (as the spell) for 3d6 rounds</Name>
+      <Text>The target can repeat the saving throw at the end of each of its turns to shrug off the flux before the duration ends.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Phlegmatic Flux: A successful DC 18 Constitution saving throw negates this effect</Name>
+      <Text>A failed saving throw means the target gains one level of exhaustion which lasts for 3d6 rounds.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

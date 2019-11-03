@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Edimmu</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <HP>75</HP>
+  <HPRoll>10d8 + 30</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common but can't speak</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Rejuvenation</Name>
+      <Text>If destroyed, an edimmu rises again in 2d4 days. Permanently destroying one requires properly burying its mortal remains in consecrated or hallowed ground. Edimmus rarely venture more than a mile from the place of their death.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The edimmu can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Water Siphon</Name>
+      <Text>Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 21 (6d6) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken and it is stunned for 1 minute and gains one level of exhaustion. A stunned creature repeats the saving throw at the end of each of its turns, ending the stun on itself on a success. The hit point reduction lasts until the creature finishes a long rest and drinks abundant water or until it is affected by greater restoration or comparable magic. The target dies if this effect reduces its hit point maximum to 0.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>6d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

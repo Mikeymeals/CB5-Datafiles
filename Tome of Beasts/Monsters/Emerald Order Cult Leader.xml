@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Emerald Order Cult Leader</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>any race</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral or evil</Alignment>
+  <AC>14</AC>
+  <ACText>breastplate</ACText>
+  <HP>117</HP>
+  <HPRoll>18d8+36</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>20</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any three languages</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Key of Prophecy</Name>
+      <Text>The Emerald Order cult leader can always act in a surprise round, but if he fails to notice a foe, he is still considered surprised until he takes an action. He receives a +3 bonus on initiative checks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The Emerald Order cult leader's innate spellcasting ability is Wisdom (spell save DC 16). He can innately cast the following spells, requiring no material components:
+2/day each: detect thoughts, dimension door, haste, slow
+1/day each: suggestion, teleport</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The Emerald Order cult leader is a 10th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). The cult leader has the following cleric spells prepared:
+Cantrips (at will): guidance, light, sacred flame, spare the dying, thaumaturgy
+1st level (4 slots): cure wounds, identify, guiding bolt
+2nd level (3 slots): lesser restoration, silence, spiritual weapon
+3rd level (3 slots): dispel magic, mass healing word, spirit guardians
+4th level (3 slots): banishment, death ward, guardian of faith
+5th level (2 slots): flame strike</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The Emerald Order cult leader makes one melee attack and casts a cantrip.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Mace</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 3 (1d6) bludgeoning damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Esoteric Vengeance</Name>
+      <Text>As a reaction when struck by a melee attack, the emerald order cult leader can expend a spell slot to do 10 (3d6) necrotic damage to the attacker. If the emerald order cult leader expends a spell slot of 2nd level or higher, the damage increases by 1d6 for each level above 1st.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

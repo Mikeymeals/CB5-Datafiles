@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Weeping Treant</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>105</HP>
+  <HPRoll>10d12 + 40</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>bludgeoning and piercing</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Druidic</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The treant deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Treespeech</Name>
+      <Text>A weeping treant can converse with plants, and most plants greet them with a friendly or helpful attitude.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Acidic Tears</Name>
+      <Text>Thick tears of dark sap stream continuously down the treant’s face and trunk. These tears are highly acidic - anyone who attacks the treant from a range of 5 feet or less must succeed on a DC 15 Dexterity saving throw or take 6 (1d12) acid damage from splashed tears. This acidic matter continues doing 6 (1d12) acid damage at the start of each of the creature's turns until it or an adjacent ally uses an action to wipe off the tears or three rounds elapse.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The treant makes three slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., single target. Hit: 15 (3d6 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d10 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

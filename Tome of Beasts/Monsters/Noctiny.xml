@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Noctiny</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>noctiny</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>studded leather armor</ACText>
+  <HP>52</HP>
+  <HPRoll>8d8 + 16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>plus the language spoken by the noctini's fext master</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The noctiny has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pact Wrath</Name>
+      <Text>One of the noctiny's weapons is infused with power. Its attacks with this weapon count as magical, and it adds its Charisma bonus to the weapon's damage (included below).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The noctiny is a 3rd-level spellcaster. Its spellcasting ability score is Charisma (save DC 13, +5 to hit with spell attacks). It knows the following warlock spells.
+Cantrips (at will): chill touch, eldritch blast, poison spray
+1st level (4 slots): armor of agathys, charm person, hellish rebuke, hex
+2nd level (2 slots): crown of madness, misty step</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The noctiny makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Pact Staff</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage or 8 (1d8 + 4) bludgeoning damage if used in two hands.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

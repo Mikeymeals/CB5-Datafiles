@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Urochar (Strangling Watcher)</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>256</HP>
+  <HPRoll>19d12 + 133</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>24</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>1</PassivePerception>
+  <Languages>
+    <string>understands Darakhul and Void Speech</string>
+  </Languages>
+  <CR>17</CR>
+  <XP>18000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Death Throes</Name>
+      <Text>When a strangling watcher dies, it releases all the fear it consumed in its lifetime in a single, soul-rending wave. All creatures within 60 feet of it must succeed on a DC 19 Charisma saving throw or become frightened. A frightened creature takes 13 (2d12) psychic damage at the start of each of its turns from the centuries of accumulated dread. It can repeat the Charisma saving throw at the end of each of its turns, ending the effect on a success.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The watcher's innate spellcasting ability is Charisma (spell save DC 19). It can cast the following spells, requiring no material components:
+At will: feather fall
+3/day each: blur, meld into stone, phantasmal killer
+1/day each: black tentacles, eyebite, greater invisibility</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Climb</Name>
+      <Text>The watcher can climb any surface, including upside down on ceilings, without making an ability check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Squeeze</Name>
+      <Text>Despite their size, strangling watchers have slender, boneless bodies, enabling them to squeeze through passages only a Small-sized creature could fit through, without affecting their movement or combat capabilities.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The watcher makes four attacks with its tentacles.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained. Each of its four tentacles can grapple one target.</Text>
+      <AttackBonus>13</AttackBonus>
+      <Damage>3d8 + 7</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Paralyzing Gaze (Recharge 5-6)</Name>
+      <Text>The watcher can target one creature within 60 feet with its eerie gaze. The target must succeed on a DC 19 Wisdom saving throw or become paralyzed for 1 minute. The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the watcher's gaze for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>The urochar can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one option can be used at a time and only at the end of another creature's turn. The strangling watcher regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Crush Attack</Name>
+      <Text>The urochar crushes one creature grappled by its tentacle. The target takes 25 (4d8 + 7) bludgeoning damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tentacle Attack</Name>
+      <Text>The watcher makes one tentacle attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tentacle Leap (Costs 2 Actions)</Name>
+      <Text>Using a tentacle, the urochar moves up to 20 feet to an unoccupied space adjacent to a wall, ceiling, floor, or other solid surface. This move doesn't trigger reactions. The urochar must have at least one tentacle free (not grappling a creature) to use this action. Grappled creatures move with the urochar.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Emerald Eye</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <HP>54</HP>
+  <HPRoll>12d4 + 24</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 30 ft. (hover)</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire; piercing damage</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+    <string>exhausted</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>telepathy 250 ft.</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Bound</Name>
+      <Text>An emerald eye cannot move more than 25 feet away from the creature that it is psychically linked to. It begins existence bound to its creator, but a free emerald eye can bind itself to another creature as in the Bind action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The emerald eye is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slash</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (5d4 + 2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>5d4 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Attraction (Recharge 5-6)</Name>
+      <Text>An emerald eye can compel one creature to move toward a particular person or object. If the creature fails a DC 13 Charisma saving throw, it feels a powerful compulsion to move toward whatever the emerald eye chooses. The target creature must be within 25 feet of the emerald eye when attraction is triggered, but the creature is then free to move beyond this range while remaining under the effect. Nothing seems out of the ordinary to the creature, but it does not knowingly put itself or its allies in harm's way to reach the object. The creature may attempt another DC 13 Charisma saving throw at the start of each of its turns; a success ends the effect.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Bind (3/Day)</Name>
+      <Text>The emerald eye can bind itself psychically to a creature with an Intelligence of 6 or greater. The attempt fails if the target succeeds on a DC 13 Charisma saving throw. The attempt is unnoticed by the target, regardless of the result.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Telepathic Lash (3/Day)</Name>
+      <Text>An emerald eye can overwhelm one humanoid creature within 25 feet with emotions and impulses the creature is hard-pressed to control. If the target fails a DC 13 Wisdom saving throw, it is stunned for 1 round.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

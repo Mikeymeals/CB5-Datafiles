@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Sathaq Worm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>172</HP>
+  <HPRoll>15d12 + 75</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>burrow 20 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>6</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances>
+    <string>fire; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>thunder</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>acid</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>tremorsense 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Deep Speech and Terran</string>
+    <string>but can't speak</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Agonizing Aura</Name>
+      <Text>The sathaq worms' presence induces pain in creatures native to the Material Plane. Any creature that starts its turn within 30 feet of the sathaq worm must make a DC 17 Fortitude saving throw. On a failed save, the creature is poisoned until the start of its next turn. If a creature's saving throw succeeds, it is immune to the sathaq worm's Agonizing Aura for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Earth Glide</Name>
+      <Text>The sathaq worm can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The sathaq worm deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the sathaq worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 7 (2d6) bludgeoning damage plus 7 (2d6) slashing damage plus 7 (2d6) acid damage at the start of each of the sathaq worm's turns. The sathaq worm can have only one creature swallowed at a time. If the sathaq worm takes 20 damage or more on a single turn from a creature inside it, the sathaq worm must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 5 feet of the sathaq worm. If the sathaq worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>4d8 + 6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

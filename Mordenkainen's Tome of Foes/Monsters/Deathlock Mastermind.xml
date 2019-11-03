@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Deathlock Mastermind</Name>
+  <Descriptions>
+    <Description>
+      <Name>Deathlock⁠</Name>
+      <Text>The forging of a pact between a warlock and a patron is no minor occasion—at least not for the warlock⁠. The consequences of breaking that pact can be dire and, in some cases, lethal. A warlock⁠ who fails to live up to a bargain with an evil patron runs the risk of rising from the dead as a deathlock, a foul undead driven to serve its otherworldly patron from beyond the grave.
+An extraordinarily powerful necromancer might also discover the dark methods of creating a deathlock and then bind it to service, acting in this respect as the deathlock’s patron.</Text>
+    </Description>
+    <Description>
+      <Name>Obedient and Obsessed</Name>
+      <Text>An overpowering urge to serve consumes the mind of a newly awakened deathlock. All goals and ambitions it had in life that don’t please its patron fall away as its master’s desires become the purpose that drives the deathlock⁠⁠. The creature immediately resumes work on its patron’s behalf. Accomplishing a difficult goal might mean the deathlock⁠⁠ is forced to serve another powerful creature or might entail in gathering servants of its own.
+Whatever the goal, it always reflects the patron’s interests, ranging from small-scale concerns to matters of cosmic scope. A deathlock in the thrall of a fiend might work to destroy a specific temple dedicated to a good god, while one that serves a great old one could be charged with hunting for the materials needed to call forth a horrifying entity into the world.</Text>
+    </Description>
+    <Description>
+      <Name>Undead⁠ Nature</Name>
+      <Text>A deathlock doesn’t require air, food, drink, or sleep.</Text>
+    </Description>
+    <Description>
+      <Name>Patron-Specific Spells</Name>
+      <Text>You can customize a deathlock by replacing some or all of the spells in its Spellcasting trait with spells specific to its patron. Here are examples.
+Archfey patron: blink, dominate beast, dominate person, faerie fire, greater invisibility, hunger of Hadar, hypnotic pattern, phantasmal force, seeming, sleep
+Fiend patron: blindness/deafness, burning hands, command, fire shield, fireball, flame strike, hellish rebuke, scorching ray, stinking cloud, wall of fire
+Great Old One patron: clairvoyance, detect thoughts, dissonant whispers, dominate person, Evard's black tentacles, hunger of Hadar, phantasmal force, sending, Tasha's hideous laughter, telekinesis</Text>
+    </Description>
+  </Descriptions>
+  <Description>Though deathlocks exist to serve their patrons, they retain some freedom when it comes to devising particular tactics⁠ and carrying out their plans. Powerful deathlocks recruit lesser creatures to help them carry out their missions and, in this capacity, become the masterminds behind vast conspiracies and intrigues that culminate in the accomplishment of great acts of evil.</Description>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>16 with mage armor</ACText>
+  <HP>110</HP>
+  <HPRoll>20d8+20</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>necrotic</string>
+    <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
+    <string>piercing from nonmagical attacks that aren’t silvered</string>
+    <string>slashing from nonmagical attacks that aren’t silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft. (including magical darkness)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>the languages it knew in life</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The deathlock’s innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:
+At will: detect magic, disguise self, mage armor</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The deathlock is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:
+cantrips (at will): chill touch, mage hand, minor illusion, poison spray
+1st–5th level (2 5th-level slots): arms of Hadar, blight, counterspell, crown of madness, darkness, dimension door, dispel magic, fly, hold monster, invisibility</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance⁠</Name>
+      <Text>The deathlock has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Deathly Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3 necrotic damage).</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage />
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Grave Bolts</Name>
+      <Text>Ranged Spell Attack: +6 to hit, range 120 ft., one or two targets⁠. Hit: 18 (4d8) necrotic damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or become restrained as shadowy tendrils wrap around it for 1 minute. A restrained⁠ target can use its action⁠ to repeat the saving throw, ending the effect on itself on a success.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>4d8  necrotic</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Detect Magic</string>
+    <string>Disguise Self</string>
+    <string>Mage Armor</string>
+    <string>Chill Touch</string>
+    <string>Mage Hand</string>
+    <string>Minor Illusion</string>
+    <string>Poison Spray</string>
+    <string>Arms of Hadar</string>
+    <string>Blight</string>
+    <string>Counterspell</string>
+    <string>Crown of Madness</string>
+    <string>Darkness</string>
+    <string>Dimension Door</string>
+    <string>Dispel Magic</string>
+    <string>Fly</string>
+    <string>Hold Monster</string>
+    <string>Invisibility</string>
+  </Spells>
+  <Slots>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>2</int>
+  </Slots>
+</Monster>

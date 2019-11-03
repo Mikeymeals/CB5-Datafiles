@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Dogmole</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>71</HP>
+  <HPRoll>11d8 + 22</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>burrow 10 ft.</string>
+    <string>swim 10 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Burrow</Name>
+      <Text>Dogmoles cannot burrow into solid rock, but they can move through softer material like soil or loose rubble, leaving a usable tunnel 5 feet in diameter.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wormkiller Rage</Name>
+      <Text>Wild dogmole packs are famed for their battles against monsters in the dark caverns of the world. If the dogmole draws blood against vermin, a purple worm, or other underground invertebrates, it gains a +4 boost to its Strength and Constitution, but suffers a -2 penalty to its AC. The wormkiller rage lasts for 3 rounds. It cannot end the rage voluntarily while the creatures that sent it into a rage still lives.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dogmole makes one claw attack and one bite attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 +2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>3d6 +2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

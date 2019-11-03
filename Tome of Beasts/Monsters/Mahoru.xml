@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Mahoru</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>91</HP>
+  <HPRoll>14d8 + 28</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>swim 60 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The mahoru can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Sight and Smell</Name>
+      <Text>The mahoru has advantage on Wisdom (Perception) checks that rely on sight or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The mahoru has advantage on attack rolls against a creature if at least one of the mahoru's allies is within 5 feet of the creature and the ally isn't incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Blood Frenzy</Name>
+      <Text>The mahoru has advantage on melee attack rolls against any creature that isn't at maximum hit points.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>3d10 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Roar</Name>
+      <Text>When a mahoru roars all creatures with hearing within 30 feet of it must succeed on a DC 14 Wisdom saving throw or become frightened until the end of the mahoru's next turn. If the target fails the saving throw by 5 or more, it's also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Roar of all mahoru for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Vorpal Bite</Name>
+      <Text>A mahoru's saw-like jaws are excel at dismembering prey. When the mahoru scores a critical hit, the target must succeed on a DC 14 Strength saving throw or lose an appendage. Roll on the following table for the result:
+1-2: right hand
+3-4: left hand
+5-6: right food
+7-8: left foot
+9: right forearm
+10: left forearm
+11: right lower leg
+12: left lower leg</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

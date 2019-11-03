@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>simic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>animal_enhancement</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Manta Glide</Name>
+      <Text>You have ray-like fins that you can use as wings to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>simic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>animal_enhancement</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Nimble Climber</Name>
+      <Text>You have a climbing speed equal to your walking speed.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>simic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>animal_enhancement</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Underwater Adaptation</Name>
+      <Text>You can breathe air and water, and you have a swimming speed equal to your walking speed.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <BonusFeature>
+      <Keywords>
+        <Keyword>
+          <Name>simic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>animal_enhancement</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Grappling Appendages</Name>
+      <Text>You have two special appendages growing alongside your arms. Choose whether they're both claws or tentacles. As an action, you can use one of them to try to grapple a creature. Each one is also a natural weapon, which you can use to make an unarmed strike. If you hit with it, the target takes bludgeoning damage equal to 1d6 +your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after hitting, you can try to grapple the target as a bonus action. These appendages can't precisely manipulate anything and can't wield weapons, magic items. or other specialized equipment.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Unarmed</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <BaseItemChange>Grappling Appendage (Simic Hybrid)</BaseItemChange>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions>
+        <string>Unarmed strike</string>
+      </ProficiencyOptions>
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+    </BonusFeature>
+    <BonusFeature>
+      <Keywords>
+        <Keyword>
+          <Name>simic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>animal_enhancement</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Carapace</Name>
+      <Text>Your skin in places is covered by a thick shell. You gain a +1 bonus to AC when you're not wearing heavy armor.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Armor and not Heavy) or Unarmored</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+    </BonusFeature>
+    <ResourceFeature>
+      <Keywords>
+        <Keyword>
+          <Name>simic</Name>
+        </Keyword>
+        <Keyword>
+          <Name>animal_enhancement</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Acid Spit</Name>
+      <Text>As an action, you can spray acid from glands in your mouth, targeting one creature or object you can see within 30 feet of you. The target takes 2d10 acid damage unless it succeeds on a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. This damage increases by 1d10 when you reach 11th level (3d10) and 17th level (4d10). You can use this trait a number of times equal to your Consitution modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>Max(1, ConMod)</Value>
+      <ResourceID>SIMIC_HYBRID_ACID_SPIT</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <Source>Unearthed Arcana 53 - Races of Ravnica</Source>
+</FeatureContainer>

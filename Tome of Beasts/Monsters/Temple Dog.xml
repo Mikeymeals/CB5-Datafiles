@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Temple Dog</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>good</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>97</HP>
+  <HPRoll>15d8 + 30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Celestial and Common but can't speak</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The temple dog has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Protector's Initiative</Name>
+      <Text>If the temple dog is entering combat against a clear threat to its temple, it has advantage on its initiative roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rushing Slam</Name>
+      <Text>If the temple dog moves at least 10 feet straight toward a target and then makes a slam attack against that target, it can make an additional slam attack against a second creature within 5 feet of the first target as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage plus 9 (2d4 + 4) bludgeoning damage, and the target is grappled (escape DC 14). The target must also make a successful DC 15 Constitution saving throw or be stunned until the end of its next turn.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone and pushed 5 feet. The temple dog can immediately enter the position the target was pushed out of, if it chooses to.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

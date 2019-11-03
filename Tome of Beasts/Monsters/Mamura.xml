@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Mamura</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>97</HP>
+  <HPRoll>13d6 + 52</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Goblin</string>
+    <string>Sylvan</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>All-Around Vision</Name>
+      <Text>Attackers never gain advantage on attacks or bonus damage against a mamura from the presence of nearby allies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The mamura has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Friend to Darkness</Name>
+      <Text>In darkness or dim light, the mamura has advantage on Stealth checks. It can attempt to hide as a bonus action at the end of its turn if it's in dim light or darkness.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Distraction</Name>
+      <Text>Because of the mamura's alien and forbidding aura, any spellcaster within 20 feet of the mamura must make a successful DC 14 spellcasting check before casting a spell; if the check fails, they lose their action but not the spell slot. They must also make a successful DC 14 spellcasting check to maintain concentration if they spend any part of their turn inside the aura.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The mamura doesn't provoke an opportunity attack when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The mamura makes three claw attacks and one whiptail sting attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, range 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, and the target must succeed on a DC 15 Constitution saving throw or be poisoned for 1 round. The poison duration is cumulative with multiple failed saving throws.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Whiptail Stinger</Name>
+      <Text>Melee Weapon Attack: +7 to hit, range 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage, and the target must succeed on a DC 15 Constitution saving throw or take 1d6 poison damage. If the target is also poisoned by the mamura's claws, it takes another 1d6 poison damage at the start of each of its turns while the poisoning remains in effect.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

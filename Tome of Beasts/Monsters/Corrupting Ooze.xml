@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Corrupting Ooze</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>ooze</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
+  <HP>115</HP>
+  <HPRoll>10d10 + 60</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>2</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances>
+    <string>slashing</string>
+    <string>bludgeoning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft.</string>
+    <string>tremorsense 60 ft.</string>
+  </Senses>
+  <PassivePerception>-1</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Corrupting Touch</Name>
+      <Text>When a corrupting ooze scores a critical hit or starts its turn with a foe grappled, it can dissolve one leather, metal, or wood item of its choosing in the possession of the target creature. A mundane item is destroyed automatically; a magical item is destroyed if its owner fails to make a successful DC 16 Dexterity saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Strong Swimmer</Name>
+      <Text>A corrupting ooze naturally floats on the surface of water. It swims with a pulsating motion that propels it faster than walking speed.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 3 (1d6) acid damage, and the target is grappled (escape DC 13).</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

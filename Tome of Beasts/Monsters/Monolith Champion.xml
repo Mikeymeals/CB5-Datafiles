@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Monolith Champion</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>102</HP>
+  <HPRoll>12d10 + 36</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't adamantine</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Elvish</string>
+    <string>Umbral</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Blatant Dismissal</Name>
+      <Text>While in a fey court or castle, a monolith champion that scores a successful hit with its greatsword can try to force the substitution of the target with a shadow double. The target must succeed at a DC 14 Charisma saving throw or become invisible, silent, and paralyzed, while an illusory version of itself remains visible and audible.and under the monolith champion's control, shouting for a retreat or the like. Outside fey locales, this ability does not function.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Fey Flame</Name>
+      <Text>The ritual powering a monolith champion grants it an inner flame that it can use to enhance its weapon or its fists with additional fire or cold damage, depending on the construct's needs.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The champion makes two greatsword attacks or two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greatsword</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage plus 11 (2d10) cold or fire damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 11 (2d10) cold or fire damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

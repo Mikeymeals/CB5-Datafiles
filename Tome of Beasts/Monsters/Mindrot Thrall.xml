@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Mindrot Thrall</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>82</HP>
+  <HPRoll>11d8 + 33</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances>
+    <string>bludgeoning and piercing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>tremorsense 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common but cannot speak</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fungal Aura</Name>
+      <Text>A creature that starts its turn within 5 feet of a mindrot thrall must succeed on a DC 13 Constitution saving throw or become infected with mindrot spores.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The mindrot thrall makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Acid Breath (Recharge 4-6)</Name>
+      <Text>The thrall exhales a blast of acidic spores from its rotten lungs in a 15-foot cone. Each creature in that area takes 36 (8d8) acid damage, or half damage with a successful DC 13 Dexterity saving throw. If the saving throw fails, the creature is also infected with mindrot spores.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mindrot Spores</Name>
+      <Text>Infection occurs when mindrot spores are inhaled or swallowed. Infected creatures must make a DC 13 Constitution saving throw at the end of every long rest; nothing happens if the saving throw succeeds, but if it fails, the creature takes 9 (2d8) acid damage and its hit point maximum is reduced by the same amount. The infection ends when the character makes successful saving throws after two consecutive long rests, or receives the benefits of a lesser restoration spell or comparable magic. A creature slain by this disease becomes a mindrot thrall after 24 hours unless the corpse is destroyed.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

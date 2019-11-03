@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Vapor Lynx</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>127</HP>
+  <HPRoll>15d10 + 45</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The lynx's innate spellcasting ability is Charisma. It can cast the following spell, requiring no material components:
+3/day: gaseous form</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Smoky Constitution</Name>
+      <Text>The vapor lynx spends its time in both gaseous and solid form. Its unique constitution makes it immune to all fog- or gas-related spells and attacks, including its own. A vapor lynx sees clearly through light or heavy obscurement caused by fog, mist, or spells such as fog cloud.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The vapor lynx makes one bite attack and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (3d8 + 4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Poison Breath (Recharge 5-6)</Name>
+      <Text>The vapor lynx exhales a 40- foot radius poison fog, which heavily obscures a spherical area around the lynx. Any breathing creature that ends its turn in the fog must make a DC 14 Constitution saving throw or become poisoned for 1d4 + 1 rounds.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

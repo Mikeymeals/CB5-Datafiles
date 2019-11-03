@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Deep One</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>91</HP>
+  <HPRoll>14d8 + 28</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>A deep one can breathe air or water with equal ease.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Frenzied Rage</Name>
+      <Text>On its next turn after a deep one takes 10 or more damage from a single attack, it has advantage on its claws attack and adds +2 to damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Lightless Depths</Name>
+      <Text>A deep one is immune to the pressure effects of the deep ocean.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ocean Change</Name>
+      <Text>A deep one born to a human family resembles a human child, but transforms into an adult deep one between the ages of 16 and 30.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack. +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

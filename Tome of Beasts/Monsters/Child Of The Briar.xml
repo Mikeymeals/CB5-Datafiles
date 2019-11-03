@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Child Of The Briar</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <HP>50</HP>
+  <HPRoll>20d4</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 10 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Briarclick</string>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fey Blood</Name>
+      <Text>Children of the briar count as both plant and fey for any effect related to type.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>A child of the briar makes two claw attacks. If both attacks hit the same target, the target is grappled (escape DC 13) and the child of the briar uses its Thorny Grapple on it.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spitdart Tongue (Recharge 4-6)</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage. Every child of the briar can shoot thorns from its mouth.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Entangle</Name>
+      <Text>Two children of the briar working together can cast a version of the entangle spell with no components, at will. Both creatures must be within 10 feet of each other, and both must use their action to cast the spell. The entangled area must include at least one of the casters but doesn't need to be centered on either caster. Creatures in the area must make a DC 13 Strength saving throw or be restrained. All children of the briar are immune to the spell's effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Thorny Grapple</Name>
+      <Text>A child of the briar's long thorny limbs help it grapple creatures up to Medium size. A grappled creature takes 2 (1d4) piercing damage at the end of the child's turn for as long as it remains grappled.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

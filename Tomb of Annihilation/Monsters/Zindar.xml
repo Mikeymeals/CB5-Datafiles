@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Zindar</Name>
+  <Descriptions>
+    <Description>
+      <Name>Zindar's Traits</Name>
+      <Text>Ideal. "I take pride in my work, and I like to keep all my business dealings honest."
+Bond. "Port Nyanzaru is my home. I take a dim view of those who would bring harm to the city and its inhabitants."
+Flaw. "I don't get mad. I get even."
+</Text>
+    </Description>
+  </Descriptions>
+  <Description>This half-gold dragon runs Port Nyanzaru's docks and keeps track ofship manifests. Asorcerer of impressive ability, Zindar is well paid by the merchant princes for his work. He is also a key member of the Ytepka Society and a great source of information about the city. Zindar has a soft spot for adventurers, but he knows the dangers of Chult well enough to understand that most of those who embark on expeditions to explore the jungle never return.
+Zindar makes extensive use of spells in his day-today work, casting message to deliver missives to dock workers, detect thoughts for reading ship captains' minds, knock for unsealing containers for inspection, clairvoyance for peering into ship holds, dominate beast to pacify nervous animals, and so forth.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>half-dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>110</HP>
+  <HPRoll>17d8 + 34</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>fire</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Dwarvish</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text> Zindar is a 14th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Zindar knows the following sorcerer spells:
+Cantrips (at will): fire bolt, friends, light, mage hand, mending, message
+1st level (6 slots): magic missile, shield, sleep
+2nd level (4 slots): detect thoughts, knock
+3rd level (3 slots): clairvoyance, tongues
+4th level (3 slots): dominate beast, stoneskin
+5th level (3 slots): hold monster, telekinesis
+6th level (1 slot): true seeing
+7th level (1 slot): fire storm</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dragon Wings</Name>
+      <Text> As a bonus action on his turn, Zindar can sprout a pair of dragon wings from his back, gaining a flying speed of 30 feet until he dismisses them as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Quarterstaff</Name>
+      <Text> Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with two hands.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 2  bludgeoning</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Breath Weapon (Recharge 5-6)</Name>
+      <Text>Zindar uses one of the following options:
+Fire Breath. Zindar exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.
+Weakening Breath: Zindar exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>9</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Investigation</Skill>
+      <Ability>None</Ability>
+      <Bonus>9</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Fire Bolt</string>
+    <string>Friends</string>
+    <string>Light</string>
+    <string>Mage Hand</string>
+    <string>Mending</string>
+    <string>Message</string>
+    <string>Magic Missile</string>
+    <string>Shield</string>
+    <string>Sleep</string>
+    <string>Detect Thoughts</string>
+    <string>Knock</string>
+    <string>Clairvoyance</string>
+    <string>Tongues</string>
+    <string>Dominate Beast</string>
+    <string>Stoneskin</string>
+    <string>Hold Monster</string>
+    <string>Telekinesis</string>
+    <string>True Seeing</string>
+    <string>Fire Storm</string>
+  </Spells>
+  <Slots>
+    <int>6</int>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>1</int>
+  </Slots>
+</Monster>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Iron Defender</Name>
+  <Descriptions />
+  <Source>Unearthed Arcana 58 - The Artificer Returns</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>0</HP>
+  <HPRoll>equal to five times your level in this class +your Intelligence modifier + the iron defender’s Constitution modifier</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages you speak</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>0</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Might of the Master</Name>
+      <Text>The following numbers increase by 1 when your proficiency bonus increases by 1: the iron defender’s skill bonuses, the bonuses to hit and damage of its bite, and the number of hit points restored by its Repair action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8 + 2 piercing</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Repair (3/Day)</Name>
+      <Text>The magical mechanisms inside the iron defender restore 2d8 + 2 hit points to itself or to one construct or object within 5 feet of it</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Defensive Pounce</Name>
+      <Text>The iron defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the iron defender.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

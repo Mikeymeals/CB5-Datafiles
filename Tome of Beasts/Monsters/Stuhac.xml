@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Stuhac</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>190</HP>
+  <HPRoll>20d8 + 100</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb 40 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire; bludgeoning and piercing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal; telepathy 100 ft.</string>
+  </Languages>
+  <CR>13</CR>
+  <XP>10000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Mountain Stride</Name>
+      <Text>Mountain slopes and stone outcroppings pose no obstacle to a stuhac's movement. In mountainous areas, it scrambles through difficult terrain without hindrance.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Powerful Leap</Name>
+      <Text>The stuhac can jump three times the normal distance: 66 feet horizontally or 27 feet vertically with a running start, or half those distances from a stationary start.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The stuhac can use its action to polymorph into one of two forms: that of an elderly humanoid male, and its natural form. It cannot alter either form's appearance or capabilities using this ability, and damage sustained in one form transfers to the other form.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The stuhac makes two claw attacks and one bite attack, or two claw attacks and one hobble.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) piercing damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>4d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 29 (5d8 + 6) slashing damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>5d8 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Hobble</Name>
+      <Text>A stuhac can cripple a creature by telekinetically tearing its tendons and ligaments. A stuhac can target one creature within 100 feet. The target must make a successful DC 16 Constitution saving throw or take 13 (3d8) force damage and its speed is reduced by 20 feet. Magical movement (flight, teleportation, etc.) is unaffected. This damage can only be cured through magical healing, not by spending hit dice or resting.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>10</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Mordant Snare</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>264</HP>
+  <HPRoll>16d20 + 96</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>burrow 20 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>15</CR>
+  <XP>13000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The mordant snare has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Absorb Channeled Energy</Name>
+      <Text>If a mordant snare is in the area of effect of a turn undead attempt, it gains temporary hit points. For each mordant puppet that would have been affected by the turning if it were a zombie, the mordant snare gains 10 temporary hit points, to a maximum of 60.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Buried</Name>
+      <Text>Until it does something to reveal its presence, a buried mordant snare is treated as if it's invisible.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mordant Puppets</Name>
+      <Text>A mordant snare can control up to four bodies per tentacle. These "puppets" look and move like zombies. Treat each one as a zombie, but limited in movement to the 30-foot-by-30-foot area above the buried snare. Unlike normal zombies, any creature within 5 feet of a mordant puppet when the puppet takes piercing or slashing damage takes 3 (1d6) acid damage (spray from the wound). All puppets attached to a particular tentacle are destroyed if the mordant snare attacks with that tentacle; this does 9 (2d8) acid damage per puppet to all creatures within 5 feet of any of those puppets, or half damage with a successful DC 16 Dexterity saving throw. Damage done to puppet zombies doesn't affect the mordant snare. If the snare is killed, all of its puppets die immediately without causing any acid damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The mordant snare makes four melee attacks, using any combination of tentacle attacks, spike attacks, and filament attacks. No creature can be targeted by more than one filament attack per turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Spike</Name>
+      <Text>Ranged Weapon Attack: +8 to hit, range 20/60 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 3 (1d6) acid damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage plus 7 (2d6) acid damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>2d10 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Filaments</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage plus 10 (3d6) acid damage, and the target is grappled (escape DC 16) and restrained.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>3d10 + 6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>10</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

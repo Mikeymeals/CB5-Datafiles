@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Tosculi Warrior</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <HP>58</HP>
+  <HPRoll>9d6 + 27</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Tosculi</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Skittering</Name>
+      <Text>Up to two tosculi can share the same space at one time. The tosculi has advantage on attack rolls while sharing its space with another tosculi that isn't incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The tosculi warrior makes one bite attack, one claws attack, and one stinger attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d4 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d4 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Stinger</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw against poison or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d4 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Prepare Host</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one paralyzed creature. Hit: 10 (2d4 + 5) piercing damage, and the target is paralyzed for 8 hours. The paralysis can be ended with a successful DC 20 Wisdom (Medicine) check or by a spell or magical effect that cures disease. (Because only paralyzed creatures can be targeted, a hit by this attack is automatically a critical hit; bonus damage is included in the damage listing.)</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d4 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Mallqui</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>120</HP>
+  <HPRoll>16d8 + 48</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>9</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>the languages it knew in life</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The mallqui regains 10 hit points at the start of its turn. If the mallqui takes damage from its Water Sensitivity trait, its regeneration doesn't function at the start of the mallqui's next turn. The mallqui dies only if it starts its turn with 0 hit points and doesn't regenerate.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The mallqui's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It can cast the following spells, requiring no material components:
+At will: druidcraft, produce flame
+4/day each: create or destroy water, entangle
+2/day: locate animals or plants
+1/day each: dispel magic, plant growth, wind wall</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Sensitivity</Name>
+      <Text>The flesh of a mallqui putrefies and dissolves rapidly when soaked with water in the following ways:
+- Splashed with a waterskin or equivalent: 1d10 damage
+- Attacked by creature made of water: Normal damage plus an extra 1d10 damage
+- Caught in rain: 2d10 damage per round (DC 11 Dexterity saving throw for half)
+- Immersed in water: 4d10 damage per round (DC 13 Dexterity saving throw for half)
+Alternatively, the saving throw and DC of the spell used to conjure or control the water damaging the mallqui can be used in place of the saving throws above</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The mallqui can use its xeric aura and makes two attacks with its desiccating touch.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Desiccating Touch</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 20 (5d6 + 3) necrotic damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>5d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Xeric Aura</Name>
+      <Text>All creatures within 20 feet of the mallqui must succeed on a DC 15 Constitution saving throw or take 11 (2d10) necrotic damage and gain a level of exhaustion. A creature becomes immune to the mallqui's xeric aura for the next 24 hours after making a successful save against it.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Xeric Blast</Name>
+      <Text>Ranged Spell Attack: +7 to hit, range 30/90 ft., one target. Hit: 13 (3d6 + 3) necrotic damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d6 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Subek</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>subek</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>8d10 + 32</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Hold Breath</Name>
+      <Text>The subek can hold its breath for 15 minutes.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Flood Fever</Name>
+      <Text>During flood season, the subek is overcome with bloodthirsty malice. Its alignment shifts to chaotic evil, it gains the Blood Frenzy trait, and it loses the capacity to speak Common and its bonuses to History and Investigation.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Blood Frenzy</Name>
+      <Text>The subek has advantage on melee attack rolls against any creature that doesn't have all its hit points.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The subek makes one bite attack and one claws attack. If both attacks hit the same target, the subek can make a thrash attack as a bonus action against that target.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>4d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Thrash</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d10) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d10</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Investigation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

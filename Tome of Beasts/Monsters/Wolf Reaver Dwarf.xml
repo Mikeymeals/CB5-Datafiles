@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Wolf Reaver Dwarf</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>dwarf</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any chaotic</Alignment>
+  <AC>16</AC>
+  <ACText>chain shirt, shield</ACText>
+  <HP>76</HP>
+  <HPRoll>9d8+36</HPRoll>
+  <Speeds>
+    <string>35 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Dwarvish</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Danger Sense</Name>
+      <Text>The wolf reaver dwarf has advantage on Dexterity saving throws against attacks it can see when it is not blinded, deafened, or incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dwarven Resistance</Name>
+      <Text>The wolf reaver dwarf has advantage on saving throws against poison.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The wolf reaver dwarf has advantage on attacks if at least one of the dwarf’s allies is within 5 feet of the target and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Reckless</Name>
+      <Text>At the start of its turn, the wolf reaver dwarf can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The wolf reaver dwarf makes two melee or ranged attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Battleaxe</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

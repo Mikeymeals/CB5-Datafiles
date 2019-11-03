@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Putrid Haunt</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>44</HP>
+  <HPRoll>8d8 + 8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances>
+    <string>bludgeoning and piercing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dead Still</Name>
+      <Text>Treat a putrid haunt as invisible while it's buried in swamp muck.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swamp Shamble</Name>
+      <Text>Putrid haunts suffer no movement penalties in marshy terrain.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Vomit Leeches (Recharge 6)</Name>
+      <Text>A putrid haunt can vomit forth the contents of its stomach onto a target within 5 feet. Along with the bile and mud from its stomach, this includes 2d6 undead leeches that attach to the target. A creature takes 1 necrotic damage per leech on it at the start of the creature's turn, and the putrid haunt gains the same number of temporary hit points. As an action, a creature can remove or destroy 1d3 leeches from itself or an adjacent ally.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

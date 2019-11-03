@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Rusalka</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>88</HP>
+  <HPRoll>16d8 + 16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison; piercing and slashing damage from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Withered Tresses</Name>
+      <Text>If a rusalka is kept out of water for 24 consecutive hours, its hair and body dry into desiccated swamp weeds and the creature is utterly destroyed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The rusalka's innate casting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:
+At will: control water, suggestion, tongues, water walk (can be ended freely at will)
+1/day: dominate person</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Watery Camouflage</Name>
+      <Text>In dim light or darkness, a rusalka that's underwater is invisible.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Breathless Kiss</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: the target is grappled (escape DC 13) and the rusalka draws all the air from the target's lungs with a kiss. If the rusalka has movement remaining, she drags the grappled creature into deep water, where it begins suffocating.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>escape DC 13</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Drowning Hair (1/Day)</Name>
+      <Text>The rusalka's long hair tangles around a creature the rusalka has grappled. The creature takes 33 (6d10) necrotic damage, or half damage with a successful DC 15 Constitution saving throw. In addition, until it escapes the rusalka's grapple, it is restrained and has disadvantage on Strength checks to break free of the grapple.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Uraeus</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>40</HP>
+  <HPRoll>9d4 + 18</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances>
+    <string>fire; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 10 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Celestial and Common but can't speak</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The uraeus doesn't provoke opportunity attacks when it flies out of an enemy's reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ward Bond</Name>
+      <Text>As a bonus action, the uraeus forms a magical bond with a willing creature within 5 feet. Afterward, no matter how great the distance between them, the uraeus knows the distance and direction to its bonded ward and is aware of the creature's general state of health. The bond lasts until the uraeus or the ward dies, or the uraeus ends the bond as an action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 9 (2d8) poison damage, and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target takes 9 (2d8) fire damage at the start of its turn. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on a success.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Searing Breath (Recharge 5-6)</Name>
+      <Text>The uraeus exhales a 15-foot cone of fire. Creatures in the area take 10 (3d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Bonded Savior</Name>
+      <Text>When the uraeus' bonded ward takes damage, the uraeus can transfer the damage to itself instead. The uraeus' damage resistance and immunity don't apply to transferred damage.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

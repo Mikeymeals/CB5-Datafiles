@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Fellforged</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>135</HP>
+  <HPRoll>18d8 + 54</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>any languages it knew in life</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Expelled Spirit</Name>
+      <Text>While the fellforged body was made to bind spirits, the wraith within is vulnerable to turning attempts. Any successful turn attempt exorcises the wraith from its clockwork frame. The expelled wraith retains its current hp total and fights normally. The construct dies without an animating spirit.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the fellforged has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Unnatural Aura</Name>
+      <Text>All animals, whether wild or domesticated, can sense the unnatural presence of fellforged at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so, and they remain panicked as long as they are within that range.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The fellforged makes two necrotic slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Necrotic Slam</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Violent Escapement</Name>
+      <Text>With little regard for the clockwork bodies they inhabit, fellforged wraiths can stress and strain their mechanisms in such a violent manner that flywheels become unbalanced, gears shatter, and springs snap. As a bonus action, this violent burst of gears and pulleys deals 7 (2d6) piercing damage to all foes within 5 feet who fail a DC 14 Dexterity saving throw. Each use of this ability imposes a cumulative reduction in movement of 5 feet upon the fellforged. If its speed is reduced to 0 feet, the fellforged becomes paralyzed.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

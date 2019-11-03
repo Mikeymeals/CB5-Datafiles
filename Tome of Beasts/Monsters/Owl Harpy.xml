@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Owl Harpy</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <HP>112</HP>
+  <HPRoll>15d8 + 45</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 80 ft. (hover).</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>thunder</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Abyssal</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Quiet Flight</Name>
+      <Text>The owl harpy gains an additional +3 to Stealth (+9 in total) while flying.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dissonance</Name>
+      <Text>The owl harpy can't use its blindsight while deafened.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The owl harpy's innate spellcasting ability is Charisma. The owl harpy can innately cast the following spells, requiring no material components:
+3/day: darkness</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The owl harpy makes two claw attacks and two talon attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d4 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Talons</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Hovering Darkness</Name>
+      <Text>An owl harpy that hovers in flight can shake a fine, magical dander from her wings over a creature within 20 feet and directly below her. The creature must succeed on a DC 15 Constitution saving throw or fall unconscious and be poisoned for 10 minutes. It wakes up if it takes damage or if a creature uses an action to shake it awake, but waking up doesn't end the poisoning.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Luring Song</Name>
+      <Text>The owl harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 15 Wisdom saving throw or be charmed until the song ends. The harpy must use a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy becomes incapacitated. While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. A charmed target that is more than 5 feet away from the harpy must move at its highest rate (including dashing, if necessary) along the most direct route to get within 5 feet of the harpy. The charmed creature doesn't maneuver to avoid opportunity attacks, but it can repeat the saving throw every time it takes damage from anything other than the harpy. It also repeats the saving throw before entering damaging terrain (lava or a pit, for example), if the most direct route includes a dangerous space. A creature also repeats the saving throw at the end of each of its turns. A successful saving throw ends the effect on that creature and makes the creature immune to this harpy's song for 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Bereginyas</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <HP>70</HP>
+  <HPRoll>20d4 + 20</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>bludgeoning</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The bereginyas makes two claw attacks. If both attacks hit the same target, the target is grappled (escape DC 12) and the bereginyas immediately uses Smother against it as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Smother</Name>
+      <Text>If the bereginyas grapples an opponent, it extends a semi-solid gaseous tendril down the target's throat as a bonus action. The target must make a successful DC 14 Strength saving or it is immediately out of breath and begins suffocating. Suffocation ends if the grapple is broken or if the bereginyas is killed.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

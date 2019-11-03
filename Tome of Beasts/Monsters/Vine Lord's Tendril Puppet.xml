@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vine Lord's Tendril Puppet</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>13</AC>
+  <ACText>studded leather armor</ACText>
+  <HP>34</HP>
+  <HPRoll>4d8 + 16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>6</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Poor Vision</Name>
+      <Text>Tendril puppets see almost nothing beyond 30 feet away.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The tendril puppet regains 5 hit points at the start of its turn if it has at least 1 hit point and is in jungle terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Root Mind</Name>
+      <Text>Within a vine lord's forest or jungle, the tendril puppet's blindsight extends to 60 feet, it succeeds on all Wisdom (Perception) checks, and it can't be surprised.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Green Strider</Name>
+      <Text>The tendril puppet ignores movement restrictions and damage caused by natural undergrowth.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The tendril puppet has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Assegai</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hurl Thorns</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and the thorn explodes in a 10-foot-radius sphere centered on the target. Every creature in the affected area other than the original target takes 4 (1d8) piercing damage, or half damage with a successful DC 13 Dexterity saving throw.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

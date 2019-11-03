@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Gug</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>270</HP>
+  <HPRoll>20d12 + 140</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>24</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>25</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>confusion</string>
+    <string>exhaustion</string>
+    <string>paralysis</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 240 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Deep Speech</string>
+    <string>Giant</string>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Towering Strength</Name>
+      <Text>A gug can lift items up to 4,000 pounds as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The gug makes two slam attacks, two stomp attacks, or one of each.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit: 16 (2d8 + 7) bludgeoning damage. If a creature is hit by this attack twice in the same turn, the target must make a successful DC 19 Constitution saving throw or gain one level of exhaustion.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>2d8 + 7</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Stomp</Name>
+      <Text>Melee Weapon Attack. +11 to hit, reach 10 ft. Hit: 20 (2d12 + 7) bludgeoning damage.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>A gug can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. A gug regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Move</Name>
+      <Text>The gug moves up to half its speed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Attack</Name>
+      <Text>The gug makes one slam or stomp attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Grab</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: the target is grappled (escape DC 17).</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>escape DC 17</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Swallow</Name>
+      <Text>The gug swallows one creature it has grappled. The creature takes 26 (3d12 + 7) bludgeoning damage immediately plus 13 (2d12) acid damage at the start of each of the gug's turns. A swallowed creature is no longer grappled but is blinded and restrained, and has total cover against attacks and other effects from outside the gug. If the gug takes 75 points of damage in a single turn, the swallowed creature is expelled and falls prone next to the gug. When the gug dies, a swallowed creature can crawl from the corpse by using 10 feet of movement.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Throw</Name>
+      <Text>The gug throws one creature it has grappled. The creature is thrown a distance of 2d4 times 10 feet in the direction the gug chooses, and takes 20 (2d12 + 7) bludgeoning damage (plus falling damage if they are thrown into a chasm or off a cliff). A gug can throw a creature up to Large size. Small creatures are thrown twice as far, but the damage is the same.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

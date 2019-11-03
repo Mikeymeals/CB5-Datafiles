@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Cactid</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>8d10 + 32</HPRoll>
+  <Speeds>
+    <string>5 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Sylvan</string>
+    <string>but can't speak</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Hail of Needles (1/Day)</Name>
+      <Text>When reduced below 10 hp (even below 0 hp), the cactid releases a hail of needles as a reaction. All creatures within 15 feet take 21 (6d6) piercing damage, or half damage with a successful DC 14 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The cactid makes two attacks with its tendrils and uses Reel.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tendril</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 15 ft., one creature. Hit: 10 (2d6 + 3) bludgeoning damage plus 3 (1d6) piercing damage, and a Medium or smaller target is grappled (escape DC 13). Until this grapple ends, the target is restrained. If the target is neither undead nor a construct, the cactid drains the target's body fluids; at the start of each of the target's turns, the target must make a DC 13 Constitution saving throw. On a failed save, the creature's hit point maximum is reduced by 3 (1d6). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction lasts until the creature finishes a long rest and drinks abundant water or until it receives a greater restoration spell or comparable magic. The cactid has two tendrils, each of which can grapple one target at a time.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Reel</Name>
+      <Text>Each creature grappled by the cactid is pulled up to 5 feet straight toward the cactid.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

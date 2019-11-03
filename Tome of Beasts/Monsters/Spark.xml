@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Spark</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>84</HP>
+  <HPRoll>13d4 + 52</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>4</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire</string>
+    <string>force</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The spark's innate casting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: shocking grasp
+3/day: lightning bolt
+1/day: call lightning</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Inhabit</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: The target must succeed on a DC 14 Charisma saving throw or become dominated by the spark, as the dominate person spell. The spark instantly enters the target's space and merges into the target's physical form. While inhabiting a creature, a spark takes no damage from physical attacks. The target creature receives a +4 bonus to its Dexterity and Charisma scores while it's inhabited. The speech and actions of an inhabited creature are noticeably jerky and erratic to any creature with passive Perception 14 or higher. Each time the spark uses innate spellcasting, the host can attempt another DC 14 Charisma saving throw. A successful save expels the spark, which appears in an unoccupied space within 5 feet of the former host. The inhabiting spark slowly burns out its host's nervous system. The inhabited creature must make a successful DC 15 Constitution saving throw at the end of each 24 hour-period or take 2d6 lightning damage and have its maximum hit points reduced by the same amount. The creature dies if this damage reduces its hit point maximum to 0. The reduction lasts until the inhabited creature completes a long rest after the spark is expelled.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

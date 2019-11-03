@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Bagiennik</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>75</HP>
+  <HPRoll>10d8 + 30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Healing Oil</Name>
+      <Text>A bagiennik can automatically stabilize a dying creature by using an action to smear some of its oily secretion on the dying creature's flesh. A similar application on an already-stable creature or one with 1 or more hit points acts as a potion of healing, restoring 2d4 + 2 hit points. Alternatively, the bagiennik's secretion can have the effect of a lesser restoration spell. However, any creature receiving a bagiennik's Healing Oil must make a successful DC 13 Constitution saving throw or be slowed for 1 minute.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The bagiennik makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>4d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Acid Spray</Name>
+      <Text>Ranged Weapon Attack: +6 to hit, range 15 ft., one target. Hit: 14 (2d10 + 3) acid damage. The target must make a successful DC 13 Dexterity saving throw or fall prone in the slick oil, which covers an area 5 feet square. A creature that enters the oily area or ends its turn there must also make the Dexterity saving throw to avoid falling prone. A creature needs to make only one saving throw per 5-foot-square per turn, even if it enters and ends its turn in the area. The slippery effect lasts for 3 rounds.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d10 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

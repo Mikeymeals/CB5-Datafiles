@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Stygian Fat-Tailed Scorpion</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>10</HP>
+  <HPRoll>4d4</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>2</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The scorpion makes three attacks: two with its claws and one with its sting.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Sting</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, plus 21 (6d6) poison damage and the target is poisoned until it completes a short or long rest. A successful DC 10 Constitution saving throw reduces the poison damage to half and prevents the poisoned condition. If the target fails this saving throw while already poisoned, it gains one level of exhaustion in addition to the other effects.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>6d6+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

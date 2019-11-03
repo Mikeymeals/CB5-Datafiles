@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Anubian</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <HP>44</HP>
+  <HPRoll>8d8 + 8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Primordial</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Sand Stealth</Name>
+      <Text>The anubian gains an additional +2 (+7 in total) to Stealth in sand terrain</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sand Step</Name>
+      <Text>Instead of moving, the anubian's humanoid form collapses into loose sand and immediately reforms at another unoccupied space within 10 feet. This movement doesn't provoke opportunity attacks. After using this trait in sand terrain, the anubian can Hide as part of this movement even if under direct observation. Anubians can sand step under doors or through similar obstacles, provided there's a gap large enough for sand to sift through.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Vulnerability to Water</Name>
+      <Text>For every 5 feet the anubian moves while touching water or for every gallon of water splashed on it, it takes 2 (1d4) cold damage. An anubian completely immersed in water takes 10 (4d4) cold damage at the start of its turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The anubian makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Haboob (1/Day)</Name>
+      <Text>The anubian creates a sandstorm in a cylinder 30-feet high, that reaches to within 5 feet of it. The storm moves with the anubian. The area is heavily obscured, and each creature other than an anubian that enters the sandstorm or ends its turn there must make a successful DC 13 Strength saving throw or be restrained by it. Also, each creature other than an anubian that ends its turn inside the sandstorm takes 3 (1d6) slashing damage. The anubian can maintain the haboob for up to 10 minutes as if concentrating on a spell. While maintaining the haboob, the anubian's speed is reduced to 5 feet and it can't sand step. Creatures restrained by the sandstorm move with the anubian. A creature can free itself or an adjacent creature from the sandstorm by using its action and making a DC 13 Strength check. A successful check ends the restraint on the target creature.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

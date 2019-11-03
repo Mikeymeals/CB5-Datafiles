@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Flutterflesh</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>187</HP>
+  <HPRoll>22d10 + 66</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>Fly 60 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>radiant</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>paralyzed</string>
+    <string>exhaustion</string>
+    <string>poison</string>
+    <string>stunned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 240 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The flutterflesh's attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance</Name>
+      <Text>The flutterflesh has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Creeping Death</Name>
+      <Text>A creature that starts its turn within 30 feet of the flutterflesh must make a successful DC 15 Constitution saving throw or take 14 (4d6) necrotic damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The flutterflesh regains 10 hit points at the start of its turn. If the flutterflesh takes radiant or fire damage, this trait doesn't function at the start of its next turn. The flutterflesh dies only if it starts its turn with 0 hit points and doesn't regenerate.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The flutterflesh makes two bone spur attacks or two tormenting gaze attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bone Spur</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necrotic damage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d12 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Tormenting Gaze</Name>
+      <Text>A target creature within 120 feet and able to see the flutterflesh takes 18 (4d8) psychic damage and is paralyzed for 1d4 rounds, or takes half damage and isn't paralyzed with a successful DC 15 Wisdom saving throw. Tormenting gaze can't be used against the same target twice in a single turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slash</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. On a critical hit, the target takes an additional 27 (5d10) slashing damage and must make a DC 12 Constitution saving throw. On a failure, the flutterflesh lops off and absorbs one of the target's limbs (chosen randomly) and heals hit points equal to the additional slashing damage it inflicted.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

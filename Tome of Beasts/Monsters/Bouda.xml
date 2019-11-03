@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Bouda</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>93</HP>
+  <HPRoll>11d8 + 44</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>lightning; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Celestial</string>
+    <string>Infernal</string>
+    <string>Nurian; telepathy 100 ft.</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The bouda can use its action to polymorph into a human, a hyena, or its true form, which is a hyena-humanoid hybrid. Its statistics, other than its Mephitic Claw attack, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if destroyed, before turning to dust.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Defiling Smear (1/Day)</Name>
+      <Text>The bouda can secrete a disgusting whitish-yellow substance with the viscosity of tar to mark food and territory. As a bonus action, the bouda marks a single adjacent 5-foot space, object, or helpless creature. Any living creature within 30 feet of the smear at the start of its turn must succeed on a DC 15 Constitution saving throw against poison or be poisoned for 1d6 rounds. A creature that makes a successful saving throw is immune to that particular bouda's defiling smear for 24 hours. The stench of a smear remains potent for one week.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The bouda's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can cast the following spells, requiring no material components: Constant: detect evil and good, detect magic
+At will: thaumaturgy
+3/day: darkness, expeditious retreat
+1/day: contagion</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The bouda makes one bite attack and one mephitic claw attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 10 (3d6) poison damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Mephitic Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage, and the target must make a successful DC 15 Constitution saving throw or become poisoned for 1 round by the visible cloud of vermin swarming around the bouda's forearms.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Ravenous Gorge</Name>
+      <Text>The bouda consumes the organs of a corpse in a space it occupies. It gains temporary hit points equal to the dead creature's HD that last 1 hour. Organs consumed by this ability are gone, and the creature can't be restored to life through spells and magical effects that require a mostly intact corpse.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

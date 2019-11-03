@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Empty Cloak</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>10d8</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Elvish and Umbral but can't speak</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Diligent Sentinel</Name>
+      <Text>Empty cloaks are designed to watch for intruders. They gain advantage on Wisdom (Perception) checks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Construction</Name>
+      <Text>Empty cloaks are designed with a delicate shadow construction. They burst into pieces, then dissipate into shadow, on a critical hit.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wrapping Embrace</Name>
+      <Text>Empty cloaks can share the same space as one Medium or smaller creature. The empty cloak has advantage on attack rolls against any creature in the same space with it.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Razor Cloak</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shadow Slam</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 6 (1d4 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4 + 4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Shadow Snare</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: Large or smaller creatures are restrained. To escape, the restrained creature or an adjacent ally must use an action to make a successful DC 14 Strength check. The shadow snare has 15 hit points and AC 12.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Clockwork Abomination</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>8d10 + 32</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>-1</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Additional Legs</Name>
+      <Text>Four legs allow the clockwork abomination to climb at a speed equal to its base speed and to ignore difficult terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Piston Reach</Name>
+      <Text>The abomination's melee attacks have a deceptively long reach thanks to the pistons powering them.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The clockwork abomination is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Infernal Power Source</Name>
+      <Text>When a clockwork abomination falls to 0 hp, its infernal battery explodes. Creatures within 10 feet of the clockwork abomination take 14 (4d6) fire damage, or half damage with a successful DC 14 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The clockwork abomination makes one bite attack and one slam attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d8 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Breath Weapon (Recharge 5-6)</Name>
+      <Text>The clockwork abomination's Infernal Power Source allows it to breathe fire in a 20-foot cone. Targets in this cone take 22 (4d10) fire damage, or half damage with a successful DC 14 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

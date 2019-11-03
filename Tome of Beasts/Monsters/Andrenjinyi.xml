@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Andrenjinyi</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>228</HP>
+  <HPRoll>13d20 + 91</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+    <string>burrow 20 ft.</string>
+    <string>climb 20 ft.</string>
+    <string>swim 60 ft.</string>
+  </Speeds>
+  <Strength>30</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>25</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>23</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Celestial</string>
+    <string>Giant</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>15</CR>
+  <XP>13000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The andrenjinyi can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The andrenjinyi's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:
+At will: create water, speak with animals, stoneshape
+3/day each: control weather, dispel magic, reincarnate
+1/day each: blight, commune with nature, contagion, flesh to stone, plant growth</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The andrenjinyi has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The andrenjinyi's weapon attacks are magical.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The andrenjinyi makes two attacks, one with its bite and one with its constriction. If both attacks hit the same target, then the target is Swallowed Whole.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 36 (4d12 + 10) piercing damage.</Text>
+      <AttackBonus>15</AttackBonus>
+      <Damage>4d12 + 10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Constrict</Name>
+      <Text>Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 36 (4d12 + 10) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends the target is restrained, and the andrenjinyi can't constrict another target.</Text>
+      <AttackBonus>15</AttackBonus>
+      <Damage>4d12 + 10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Rainbow Arch</Name>
+      <Text>The andrenjinyi can instantaneously teleport between sources of fresh water within 1 mile as an action. It can't move normally or take any other action on the turn when it uses this power. When this power is activated, a rainbow manifests between the origin and destination, lasting for 1 minute.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swallow Whole</Name>
+      <Text>If the bite and constrict attacks hit the same target in one turn, the creature is swallowed whole. The target is blinded and restrained, and has total cover against attacks and other effects outside the andrenjinyi. The target takes no damage inside the andrenjinyi. The andrenjinyi can have three Medium-sized creatures or four Small-sized creatures swallowed at a time. If the andrenjinyi takes 20 damage or more in a single turn from a swallowed creature, the andrenjinyi must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 5 feet of the andrenjinyi. If the andrenjinyi is slain, a swallowed creature is no longer restrained by it and can escape from the andrenjinyi by using 15 feet of movement, exiting prone. The andrenjinyi can regurgitate swallowed creatures as a free action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Transmuting Gullet</Name>
+      <Text>When a creature is swallowed by an andrenjinyi, it must make a successful DC 19 Wisdom saving throw each round at the end of its turn or be affected by true polymorph into a new form chosen by the andrenjinyi. The effect is permanent until dispelled or ended with a wish or comparable magic.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

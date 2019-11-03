@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Haugbui</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>136</HP>
+  <HPRoll>16d8 + 64</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 40 ft. (hover)</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>20</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>the languages it spoke in life; telepathy 120 ft.</string>
+  </Languages>
+  <CR>13</CR>
+  <XP>10000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The haugbui can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The haugbui's innate spellcasting ability is Wisdom (spell save DC 18). It can innately cast the following spells, requiring no material components:
+Constant: detect thoughts, invisibility, mage hand, scrying
+At will: dancing lights, druidcraft, mending, spare the dying
+7/day each: bane, create or destroy water, fog cloud, purify food and drink
+5/day each: blindness/deafness, gust of wind, locate object, moonbeam, shatter
+3/day each: bestow curse, dispel magic, plant growth, remove curse, telekinesis
+1/day each: blight, contagion, dream
+1/week each: geas, hallow</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If the haugbui fails a saving throw it can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sepulchral Scrying (1/Day)</Name>
+      <Text>An invisible magical eye is created under the haugbui's control, allowing it to watch its territory without leaving the burial mound. The eye travels at the speed of thought and can be up to 5 miles from the haugbui's location. The haugbui can see and hear as if it were standing at the eye's location, and it can use its innate spellcasting abilities as if it were at the eye's location. The eye can be noticed with a successful DC 18 Wisdom (Perception) check and can be dispelled as if it were 3rd-level spell. Spells that block other scrying spells work against Sepulchral Scrying as well. Unless dismissed by its creator or dispelled, lasts for up to 12 hours after its creation; only one can be created per 24-hour period.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the haugbui has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance</Name>
+      <Text>The haugbui has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The haugbui makes two psychic claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Psychic Claw</Name>
+      <Text>Ranged Magical Attack: +10 to hit, range 40 ft., one target. Hit: 32 (6d8 + 5) psychic damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>6d8 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>10</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

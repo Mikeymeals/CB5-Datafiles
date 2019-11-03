@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Leshy</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>84</HP>
+  <HPRoll>13d8 + 26</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The leshy's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:
+At will: animal friendship, pass without trace, speak with animals
+1/day each: entangle, plant growth, shillelagh, speak with plants, hideous laughter</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Camouflage</Name>
+      <Text>A leshy has advantage on Stealth checks if it is at least lightly obscured by foliage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mimicry</Name>
+      <Text>A leshy can mimic the calls and voices of any creature it has heard. To use this ability, the leshy makes a Charisma (Deception) check. Listeners who succeed on an opposed Wisdom (Insight) or Intelligence (Nature).DM's choice.realize that something is mimicking the sound. The leshy has advantage on the check if it's mimicking a general type of creature (a crow's call, a bear's roar) and not a specific individual's voice.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The leshy makes two club attacks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Change Size</Name>
+      <Text>The leshy appears to change its size, becoming as tall as a massive oak (Gargantuan) or as short as a blade of grass (Tiny). The change is entirely illusory, so the leshy's statistics do not change.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Club</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

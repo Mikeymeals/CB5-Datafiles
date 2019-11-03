@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Drowned Maiden</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>90</HP>
+  <HPRoll>20d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Grasping Hair</Name>
+      <Text>The drowned maiden's hair attacks as though it were three separate limbs, each of which can be attacked (AC 19; 15 hit points; immunity to necrotic, poison, and psychic damage; resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered). A lock of hair can be broken if a creature takes an action and succeeds on a DC 15 Strength check against it.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The drowned maiden's innate spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:
+At will: disguise self, silence</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The drowned maiden makes two claw attacks and one hair attack, each of which it can replace with one kiss attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 3) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hair</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 20 ft., one target. Hit: 14 (2d10 + 3) slashing damage, and the target is grappled (escape DC 16). Three creatures can be grappled at a time.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d10 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Kiss</Name>
+      <Text>The drowned maiden can kiss one target that is grappled and adjacent to her. The target must succeed on a DC 15 Charisma saving throw or take 1d6 Strength damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Reel</Name>
+      <Text>The drowned maiden pulls a grappled creature of Large size or smaller up to 15 feet straight toward herself.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

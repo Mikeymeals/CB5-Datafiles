@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Fire Dancer Swarm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>swarm of tiny elementals</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <HP>90</HP>
+  <HPRoll>12d8 + 36</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft. (hover)</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>stunned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ignan</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fire Form</Name>
+      <Text>A creature that touches the swarm or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the first time the swarm enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone uses an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Illumination</Name>
+      <Text>The swarm sheds bright light in a 30-foot radius and dim light to an additional 30 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swarm</Name>
+      <Text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Susceptibility</Name>
+      <Text>For every 5 feet the swarm moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Swarm</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 0 ft., one target in the swarm's space. Hit: 21 (6d6) fire damage, or 10 (3d6) fire damage if the swarm has half or fewer hit points.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>6d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

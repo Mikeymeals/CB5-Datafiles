@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Feyward Tree</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>94</HP>
+  <HPRoll>9d12 + 36</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't adamantine</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>A feyward tree has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Contractibility and Conductivity</Name>
+      <Text>Certain spells and effects function differently against feyward trees:
+A magical attack that deals cold damage slows a feyward tree (as the slow spell) for 3 rounds.
+A magical attack that deals lightning damage breaks any slow effect on the feyward tree and heals 1 hit point for each 3 damage the attack would otherwise deal. If the amount of healing would cause the tree to exceed its full normal hp, it gains any excess as temporary hp. The tree gets no saving throw against lightning effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The feyward tree is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The feyward tree's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Warden's Reach</Name>
+      <Text>Creatures within 15 feet of a feyward tree provoke opportunity attacks even if they take the Disengage action before leaving its reach.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The tree makes two razor-leafed branch attacks, and may use a bonus action to make a razor-leafed branch attack against any creature standing next to it.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Razor-Leafed Branch</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 21 (3d8 + 8) slashing damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>3d8 + 8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Flaying Leaves (Recharge 5-6)</Name>
+      <Text>The tree can launch a barrage of razor-sharp cold iron leaves from its branches in a 20-footradius burst. All creatures caught within this area must make a successful DC 16 Dexterity saving throw or take 21 (6d6) slashing damage, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

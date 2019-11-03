@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Grim Jester</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>136</HP>
+  <HPRoll>16d8 + 64</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Celestial</string>
+    <string>Common</string>
+    <string>Gnomish</string>
+    <string>telepathy 60 ft.</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The jester's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It can innately cast the following spells requiring no components:
+At will: disguise self, grease, inflict wounds, magic mouth, misty step
+3/day each: contagion, mirror image
+1/day each: delayed blast fireball, finger of death, mislead, seeming</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Last Laugh</Name>
+      <Text>Unless it is destroyed in a manner amusing to the god of death that created it, the grim jester is brought back after 1d20 days in a place of the god's choosing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mock the Dying</Name>
+      <Text>Death saving throws made within 60 feet of the jester have disadvantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance</Name>
+      <Text>The jester has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Joker's Shuffle (recharge 6)</Name>
+      <Text>The jester forces one Medium or Small humanoid within 60 feet to make a DC 17 Charisma saving throw. If the saving throw fails, the jester and the target exchange locations via teleportation and an illusion causes them to swap appearance: the jester looks and sounds like the target, and the target looks and sounds like the jester. The illusion lasts for 1 hour unless it is dismissed earlier by the jester as a bonus action, or dispelled (DC 17).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Killing Joke (recharge 6)</Name>
+      <Text>The jester performs an ancient, nihilistic joke of necromantic power. This joke has no effect on undead or constructs. All other creatures within 60 feet of the jester must make a DC 17 Wisdom saving throw. Those that fail fall prone in a fit of deadly laughter. The laughter lasts 1d4 rounds, during which time the victim is incapacitated and unable to stand up from prone. At the end of its turn each round, an incapacitated victim must make a successful DC 17 Constitution saving throw or be reduced to 0 hit points. The laughter can be ended early by rendering the victim unconscious or with greater restoration or comparable magic.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Ridicule Hope (recharge 4-6)</Name>
+      <Text>When a spell that restores hit points is cast within 60 feet of the jester, the jester can cause that spell to inflict damage instead of curing it. The damage equals the hit points the spell would have cured.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Sleight of Hand</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

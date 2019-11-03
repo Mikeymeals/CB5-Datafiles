@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Isonade</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>222</HP>
+  <HPRoll>12d20 + 96</HPRoll>
+  <Speeds>
+    <string>swim 100 ft.</string>
+  </Speeds>
+  <Strength>30</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>26</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>ability damage/drain</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 90 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Aquan and Elvish</string>
+    <string>but cannot speak</string>
+  </Languages>
+  <CR>14</CR>
+  <XP>11500</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Atmospheric Immunity</Name>
+      <Text>The isonade can comfortably exist at any level of the sea and suffers no penalties at any depth.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The isonade has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Breathing</Name>
+      <Text>The isonade can breathe only underwater.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The isonade's innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no material components:
+At will: animal messenger
+3/day each: control water, earthquake
+1/day each: control weather, storm of vengeance, tsunami</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The isonade makes one tail slap attack and one bite attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 42 (5d12+ 10) piercing damage and the target is grappled (escape DC 20). If the target was already grappled from a previous bite, it's also swallowed whole (see below).</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>5d12+ 10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail Slap</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 31 (6d6 + 10) bludgeoning damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>6d6 + 10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Breach</Name>
+      <Text>The isonade leaps out of the water to crash down onto a target with devastating effect. The isonade must move 30 feet in a straight line toward its target before jumping. When jumping, the isonade travels up to 30 feet through the air before landing. Any creature occupying the space where the isonade lands takes 76 (12d10 + 10) bludgeoning damage and becomes submerged 10 feet below the surface of the water. Targets that make a successful DC 20 Strength saving throw take half damage and are not submerged, but are moved to the nearest unoccupied space. Boats and structures are not immune to this attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swallow Whole</Name>
+      <Text>When the isonade's bite attack hits a target grappled from a previous bite attack, the target is also swallowed. The grapple ends, but the target is blinded and restrained, it has total cover against attacks and other effects outside the isonade, and it takes 36 (8d8) acid damage at the start of each of the isonade's turns. An isonade can have two Large, four Medium, or six Small creatures swallowed at a time. If the isonade takes 40 damage or more from a swallowed creature in a single turn, it must succeed on a DC 20 Constitution saving throw or regurgitate all swallowed creatures, which fall prone within 10 feet of the isonade. If the isonade dies, a swallowed creature is no longer restrained by it and can escape by using 20 feet of movement, exiting prone.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

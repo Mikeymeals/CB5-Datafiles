@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cantrip</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>enchantment</Name>
+    </Keyword>
+    <Keyword>
+      <Name>psychic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>warlock</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sorcerer</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage>
+    <CantripDamage>
+      <Level>0</Level>
+      <Damage>1d6 psychic</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>5</Level>
+      <Damage>2d6 psychic</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>11</Level>
+      <Damage>3d6 psychic</Damage>
+    </CantripDamage>
+    <CantripDamage>
+      <Level>17</Level>
+      <Damage>4d6 psychic</Damage>
+    </CantripDamage>
+  </CantripDamage>
+  <Name>Mind Silver</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>60 feet</Range>
+  <Duration>1 round</Duration>
+  <Level>0</Level>
+  <Description>You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes 1d6 psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a d4 and subtract the number rolled from the save.
+This spell’s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).</Description>
+  <Descriptions />
+  <Source>Unearthed Arcana 60 - Sorcerer and Warlock</Source>
+  <FormsCompanionsCount>0</FormsCompanionsCount>
+</Spell>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Cobbleswarm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>swarm of tiny monstrosities</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>36</HP>
+  <HPRoll>8d8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>slashing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>prone</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the swarm remains motionless, it is indistinguishable from normal stones.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shift and Tumble</Name>
+      <Text>As a bonus action, the swarm can push a prone creature whose space it occupies 5 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shifting Floor</Name>
+      <Text>Whenever the swarm moves into a creature's space or starts its turn in another creature's space, that other creature must make a successful DC 13 Dexterity saving throw or fall prone. A prone creature must make a successful DC 13 Dexterity (Acrobatics) check to stand up in a space occupied by the swarm.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swarm</Name>
+      <Text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny stone. The swarm can't regain hit points or gain temporary hit points.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Stings</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its hit points or fewer.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>4d4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

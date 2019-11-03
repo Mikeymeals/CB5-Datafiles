@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Eala</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural</ACText>
+  <HP>40</HP>
+  <HPRoll>9d6 + 9</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly</string>
+    <string>60 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The eala makes two attacks with its wing blades.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Wing Blades</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fire Breath (recharge 5-6)</Name>
+      <Text>The eala breathes fire in a 20-foot cone. Every creature in the area must make a DC 11 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save or half as much on a successful one. The eala's fire breath ignites flammable objects and melts soft metals in the area that aren't being worn or carried.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Swan Song</Name>
+      <Text>When the eala is reduced to 0 hit points, it can use its last breath sing a plaintive and beautiful melody. Creatures within 20 feet that can hear the eala must succeed on a DC 13 Charisma saving throw or be incapacitated for 1 round. A creature incapacitated in this way has its speed reduced to 0.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

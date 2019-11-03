@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Soul Eater</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>16</AC>
+  <HP>104</HP>
+  <HPRoll>16d8 + 32</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 100 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+    <string>stunned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Infernal</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Caster Link</Name>
+      <Text>When a soul eater is summoned, it creates a mental link between itself and its conjurer. If the soul eater's assigned target (see Find Target ability, below) dies before the soul eater can drain the target's soul, or if the soul eater is defeated by its target (but not slain), it returns to its conjurer at full speed and attacks. While the soul eater and the conjurer share the same plane, it can use its Find Target ability to locate its conjurer.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Find Target</Name>
+      <Text>When a soul eater's conjurer orders it to find a creature, it can do so unerringly, despite the distance or intervening obstacles, provided the target is on the same plane of existence. The conjurer must have seen the desired target and must speak the target's name.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The soul eater makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) psychic damage, or half as much psychic damage with a successful DC 15 Constitution saving throw.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Soul Drain</Name>
+      <Text>If the soul eater reduces a target to 0 hit points, the soul eater can devour that creature's soul as a bonus action. The victim must make a DC 13 Constitution saving throw. Success means the target is dead but can be restored to life by normal means. Failure means the target's soul is consumed by the soul eater and the target can't be restored to life with clone, raise dead, or reincarnation. A resurrection, miracle, or wish spell can return the target to life, but only if the caster succeeds on a DC 15 spellcasting check. If the soul eater is killed within 120 feet of its victim's corpse and the victim has been dead for no longer than 1 minute, the victim's soul returns to the body and restores it to life, leaving the victim unconscious and stable with 0 hit points.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

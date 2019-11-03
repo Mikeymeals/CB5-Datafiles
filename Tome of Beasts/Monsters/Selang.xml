@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Selang</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>9d8 + 36</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>lightning</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The selang's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:
+At will: dancing lights, minor illusion
+3/day each: alter self, fear, sleep, suggestion</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The selang makes two dagger attacks or two short bow attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage, plus sleep poison.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Short Bow</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 80/320, one target. Hit: 5 (1d6 + 2) piercing damage plus sleep poison.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Sleep Poison</Name>
+      <Text>An injured creature must succeed on a DC 14 Constitution saving throw or be poisoned for 2d6 rounds. A creature poisoned in this way is unconscious. An unconscious creature wakes if it takes damage, or if a creature uses its action to shake it awake.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Alien Piping</Name>
+      <Text>A selang can confuse and injure its enemies by playing weird, ear-bending harmonies on alien pipes, made from the beaks, cartilage, and throat sacs of a dorreq. When the selang plays a tune on these pipes, all creatures within 60 feet must make a successful DC 14 Wisdom saving throw or be affected by contagion, confusion, irresistible dance, or hideous laughter, depending on what alien and otherworldly music the dark satyr chooses to play. A creature that saves successfully against this psychic effect is immune to the piping for 24 hours. The selang can use each of these spell-like effects once per day.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

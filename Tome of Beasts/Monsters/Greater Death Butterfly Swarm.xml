@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Greater Death Butterfly Swarm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>swarm of tiny beasts</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>84</HP>
+  <HPRoll>13d12</HPRoll>
+  <Speeds>
+    <string>5 ft.</string>
+    <string>fly 40 ft. (hover)</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>cold</string>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>petrified</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Potent Poison</Name>
+      <Text>The death butterfly swarm's poison affects corporeal undead who are otherwise immune to poison.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swarm</Name>
+      <Text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit point.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Weight of Wings</Name>
+      <Text>As death butterfly swarm but with DC 16 Dexterity saving throw</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The swarm makes a Bite attack against every target in its spaces.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bites</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 0 ft., every target in the swarm's space. Hit: 24 (6d6 +3) piercing damage, or 13 (3d6 + 3) piercing damage if the swarm has half of its hit points or fewer. The target also takes 17 (5d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 15 Constitution saving throw reduces poison damage by half and prevents the poisoned condition.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>6d6 +3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

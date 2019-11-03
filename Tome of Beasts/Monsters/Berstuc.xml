@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Berstuc</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>157</HP>
+  <HPRoll>15d10 + 75</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>burrow 20 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Sylvan; telepathy 120 ft.</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>False Presence</Name>
+      <Text>The berstuc counts as a fey for purposes of spells and magical effects that detect otherworldly creatures. Beasts and plants are comfortable around the berstuc and will not attack it unless ordered to or provoked.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The berstuc has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Twisted Path</Name>
+      <Text>The berstuc leaves no path through natural terrain and can't be tracked with skill checks or other natural means. Creatures that travel with it can't retrace their own trails, and they become hopelessly lost after 1 hour of travel. Creatures led astray by a berstuc have disadvantage on attempts to discern their location or to navigate for 24 hours.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The berstuc makes three slam attacks and Absorbs once.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage and the target is grappled (escape DC 16).</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Absorb</Name>
+      <Text>The berstuc draws a Medium or smaller creature it has grappled into its body. An absorbed creature is no longer grappled but is blinded and restrained, has total cover from attacks and other effects from outside the berstuc, and takes 14 (2d8 + 5) piercing damage plus 27 (5d10) poison damage at the start of each of the berstuc's turns. The berstuc can hold one absorbed creature at a time. If the berstuc takes 20 damage or more on a single turn from a creature inside it, the berstuc must succeed on a DC 17 Constitution saving throw or expel the absorbed creature, which falls prone within 5 feet of the berstuc. If the berstuc dies, an absorbed creature is no longer restrained and can escape from the corpse by using 5 feet of movement, exiting prone.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>9</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text>+8 in forest terrain</Text>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Survival</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

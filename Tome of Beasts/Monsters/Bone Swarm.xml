@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Bone Swarm</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>swarm of tiny undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>198</HP>
+  <HPRoll>36d10</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>piercing and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>bludgeoning</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Strength of Bone</Name>
+      <Text>A bone swarm can choose to deal bludgeoning, piercing, or slashing damage, and adds 1.5x its Strength bonus on swarm damage rolls as bits and pieces of broken skeletons claw, bite, stab, and slam at the victim.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Swarm</Name>
+      <Text>The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a human skull. The swarm can't regain hit points or gain temporary hit points.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The bone swarm can attack every hostile creature in its space with swirling bones.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Swirling Bones</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: 31 (5d8 + 9) bludgeoning, piercing, or slashing damage (includes Strength of Bone special ability).</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>5d8 + 9</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Death's Embrace (Recharge 5-6)</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: the target is grappled (escape DC 16) and enveloped within the swarm's bones. The swarm can force the creature to move at its normal speed wherever the bone swarm wishes. Any non-area attack against the bone swarm has a 50 percent chance of hitting a creature grappled in Death's Embrace instead.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Dragon Eel</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>230</HP>
+  <HPRoll>20d12 + 100</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>swim 60 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>paralyzed</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Limited Amphibiousness</Name>
+      <Text>The dragon eel can breathe air and water, but it needs to be submerged at least once every six hours to avoid suffocation.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shocking Touch</Name>
+      <Text>A dragon eel's body generates a potent charge of lightning. A creature that touches or makes a successful melee attack against a dragon eel takes 5 (1d10) lightning damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Storm Glide</Name>
+      <Text>During storms, the dragon eel can travel through the air as if under the effects of a fly spell, except using its swim speed.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The dragon eel makes one bite attack and one tail slap attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) piercing damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 18 Constitution saving throw or become paralyzed for 1d4 rounds.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>4d8 + 8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail Slap</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) bludgeoning damage plus 5 (1d10) lightning damage and push the target up to 10 feet away.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>5d8 + 8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Lightning Breath (Recharge 6)</Name>
+      <Text>The dragon eel exhales lightning in a 60-foot line that is 5 feet wide. Each target in that line takes 55 (10d10) lightning damage, or half damage with a successful DC 18 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Acrobatics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

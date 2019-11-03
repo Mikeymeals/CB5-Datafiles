@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Deep One Archimandrite</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>153</HP>
+  <HPRoll>18d10 + 54</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>thunder</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 240 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>A deep one can breathe air or water with equal ease.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Frenzied Rage</Name>
+      <Text>On its next turn after a deep one archimandrite takes 10 or more damage from a single attack, it has advantage on its attacks, it adds +4 to damage, and it can make one extra unholy trident attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The deep one archimandrite's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: bless, revivify, sacred flame, shocking grasp, suggestion
+3/day each: charm person, lightning bolt, sanctuary, shatter
+1/day each: chain lightning, cone of cold, ice storm</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (1/Day)</Name>
+      <Text>If the deep one archimandrite fails a saving throw, it can count it as a success instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Lightless Depths</Name>
+      <Text>A deep one hybrid priest is immune to the pressure effects of the deep ocean.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Voice of the Archimandrite</Name>
+      <Text>With a ringing shout, the deep one archimandrite summons all deep ones within a mile to come to his aid. This is not a spell but a command that ocean creatures and deep ones heed willingly.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>A deep one archimandrite makes one claw attack and 1 unholy trident attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack. +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Unholy Trident</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 13 (2d12) necrotic damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

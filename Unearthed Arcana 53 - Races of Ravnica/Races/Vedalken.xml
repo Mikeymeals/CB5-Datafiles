@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence score increases by 2, and your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>2</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Vedalken mature at the same rate humans do, and most are expected to settle down into an adult life around age 40. Their lifespans are typically 350 to 500 years long.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Vedalken are most often lawful and rarely evil.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Vedalken are taller than humans but slenderer. They are 6 to 6½ feet tall on average and usually weigh less than 200 pounds. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Vedalken Dispassion</Name>
+      <Text>You have advantage on all Intelligence, Wisdom, and Charisma saving throws.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>all Intelligence, Wisdom, and Charisma</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Tireless Precision</Name>
+      <Text>You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice.
+Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.
+</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Tireless Precision</Name>
+      <Text>You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand.
+Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Arcana</string>
+        <string>History</string>
+        <string>Investigation</string>
+        <string>Medicine</string>
+        <string>Performance</string>
+        <string>Sleight of Hand</string>
+      </Skills>
+      <Amount>1</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>VEDALKEN_TIRELESS_PRECISION_SKILL</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tireless Precision</Name>
+      <Text>You are also proficient with one tool of your choice.
+Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>VEDALKEN_TIRELESS_PRECISION_TOOL</UniqueID>
+      <Condition>Tool and not Weapon and not Armor and not Shield</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Vedalken</Name>
+  <Size>Medium</Size>
+  <Description>Nothing is perfect. Vedalken not only believe this fact, they rejoice in it. Every imperfection is a chance for improvement, and progress is an endless march toward a state of perfection that can never be reached. This viewpoint leads vedalken to pursue their work with delighted enthusiasm, never deterred by setbacks and excited by every opportunity for improvement.
+Vedalken are tall and slender, standing almost a head taller than humans on average but weighing about the same. Their hairless skin comes in a range of shades of blue. Their eyes are darker shades of blue or violet. They lack external ears, their noses are broad and fiat, and they are partially amphibious.
+</Description>
+  <Descriptions>
+    <Description>
+      <Name>Cool Rationality</Name>
+      <Text>Despite being talkative, vedalken keep their personal lives private. and they tend to engage more with ideas than with people. They form close friendships based on mutual interests or compelling disagreements, and their interactions dwell on their thoughts about those issues rather than their feelings about them.
+To members of other races, vedalken often seem cold, even emotionless. That assessment isn't fair- they feel emotion every bit as intensely as other folk do, but they are skilled at not displaying it. Cool rationality guides their actions, they make and follow careful plans, and they are patient enough to do nothing when the ideal outcome relies on such inaction.
+</Text>
+    </Description>
+    <Description>
+      <Name>Reasoning Toward Perfection</Name>
+      <Text>Their curious intellects and rational minds incline vedalken toward membership in the Azorius Senate, the Simic Combine, and (less often) the lzzet League. Whatever their guild affiliation, they put their intelligence to use in crafting and improving things, whether those things are laws, procedures, or magical sciences. Vedalken believe that the path toward the impossible goal of perfection is paved with bricks of education, careful deliberation, and controlled experimentation. Some vedalken direct their energy toward perfecting themselves, whether by means of Simic bioengineering or through extensive study, and others concentrate on perfecting society through the careful drafting and application of laws.
+</Text>
+    </Description>
+    <ListDescription>
+      <Name>Vedalken Names</Name>
+      <Text>Vedalken are given names at birth, but usually choose new names for themselves as part of their transition into adulthood. They rarely use family names.</Text>
+      <Names>
+        <Names>
+          <ListOfNames>
+            <string>Aglar</string>
+            <string>Bellin</string>
+            <string>DaHid</string>
+            <string>Firellan</string>
+            <string>Kavin</string>
+            <string>Koplony</string>
+            <string>Lomar</string>
+            <string>Mathvan</string>
+            <string>Modar</string>
+            <string>Nebun</string>
+            <string>Nhillosh</string>
+            <string>Nitt</string>
+            <string>Otrovac</string>
+            <string>Ovlan</string>
+            <string>Pelener</string>
+            <string>Rill</string>
+            <string>Trivaz</string>
+            <string>Uldin</string>
+            <string>Yolov</string>
+            <string>Zataz</string>
+          </ListOfNames>
+          <Title>Male Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Azi</string>
+            <string>Barvisa</string>
+            <string>Brazia</string>
+            <string>Direll</string>
+            <string>Fainn</string>
+            <string>Griya</string>
+            <string>Hallia</string>
+            <string>Katrille</string>
+            <string>Kovel</string>
+            <string>Lilla</string>
+            <string>Mirela</string>
+            <string>Morai</string>
+            <string>Nedress</string>
+            <string>Ossya</string>
+            <string>Pierenn</string>
+            <string>Roya</string>
+            <string>Sestri</string>
+            <string>Triel</string>
+            <string>Uzana</string>
+            <string>Yaraghiya</string>
+            <string>Zlovol</string>
+          </ListOfNames>
+          <Title>Female Names</Title>
+        </Names>
+      </Names>
+    </ListDescription>
+    <Description>
+      <Name>Vedalken Traits</Name>
+      <Text>Your vedalken character has the following racial traits.
+</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 53 - Races of Ravnica</Source>
+</Race>

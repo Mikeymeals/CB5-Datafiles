@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Wastrilith</Name>
+  <Descriptions>
+    <Description>
+      <Name>Demons</Name>
+      <Text>Incarnations of chaos and evil, demons display endless variation in appearance and in how they go about wreaking havoc across the multiverse.
+</Text>
+    </Description>
+    <Description>
+      <Name>Despoilers</Name>
+      <Text>A wastrilith contaminates the waters around it. Its noxious presence even affects nearby sources of water when the demon travels on land. The corrupted water, which contains a measure of the demon’s essence, responds to its commands—perhaps hardening to prevent foes from escaping, or erupting in a surge that drags would-be victims into its reach.</Text>
+    </Description>
+    <Description>
+      <Name>Silent Corrupters</Name>
+      <Text>Creatures that ingest water that has been corrupted by a wastrilith risk their very souls. Those who drink the poisonous liquid might wither away until they finally die, or remain alive only to become a thrall of chaos and evil. To represent this defilement, you can use the optional rule on abyssal corruption in chapter 2 of the Dungeon Master’s Guide, causing the poisoned creature to be corrupted.</Text>
+    </Description>
+  </Descriptions>
+  <Description>Found in the waters of the Abyss and other bodies of water contaminated by the plane’s fell influence, wastriliths establish themselves as lords of the deep and rule their dominions with cruelty.</Description>
+  <Flavour>The corruption left behind when a wastrilith visits the world can persist for decades. If left unchecked, it can become a bridge to the Abyss.
+—Mordenkainen</Flavour>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>157</HP>
+  <HPRoll>15d10+75</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 80 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>19</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>13</CR>
+  <XP>10000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The wastrilith can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Corrupt Water⁠</Name>
+      <Text>At the start of each of the wastrilith’s turns, exposed water within 30 feet of it is befouled. underwater, this effect lightly obscures the area until a current clears it away. Water⁠ in containers remains corrupted until it evaporates.
+A creature that consumes this foul water or swims in it must make a DC 18 Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 14 (4d6) poison damage and is poisoned for 1 minute. At the end of this time, the poisoned⁠ creature must repeat the saving throw. On a failure, the creature takes 18 (4d8) poison damage and is poisoned⁠ until it finishes a long rest.
+If another demon drinks the foul water as an action⁠, it gains 11 (2d10) temporary hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance⁠</Name>
+      <Text>The wastrilith has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Undertow</Name>
+      <Text>As a bonus action⁠ when the wastrilith is underwater, it can cause all water within 60 feet of it to be difficult terrain for other creatures until the start of its next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The wastrilith uses Grasping Spout and makes three attacks: one with its bite and two with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 30 (4d12 + 4) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>4d12 + 4  piercing</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) slashing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>4d6 + 4  slashing</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Grasping Spout</Name>
+      <Text>The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a DC 17 Strength saving throw, and it has disadvantage if it’s underwater. On a failed save, it takes 22 (4d8 + 4) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn’t pulled.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Son Of Fenris</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>175</HP>
+  <HPRoll>14d12 + 84</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+    <string>burrow 15 ft. (30 ft. in ice or snow)</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>23</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>psychic</string>
+    <string>radiant</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 60 ft.</string>
+    <string>tremorsense 100 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Celestial</string>
+    <string>Draconic</string>
+    <string>Elvish</string>
+    <string>Dwarvish</string>
+    <string>Giant</string>
+    <string>Infernal</string>
+    <string>telepathy 60 ft.</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Hearing and Smell</Name>
+      <Text>The son of Fenris has advantage on Wisdom (Perception) checks that rely on hearing or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The son of Fenris' weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The son of Fenris is a 15th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. It has the following cleric spells prepared:
+Cantrips (at will): guidance, light, sacred flame, spare the dying, thaumaturgy
+1st level (4 slots): bane, command, guiding bolt, sanctuary
+2nd level (3 slots): blindness/deafness, hold person, silence
+3rd level (3 slots): animate dead, bestow curse, dispel magic
+4th level (3 slots): banishment, death ward, locate creature
+5th level (2 slots): contagion, scrying
+6th level (1 slot): harm
+7th level (1 slot): plane shift
+8th level (1 slot): earthquake</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Trampling Charge</Name>
+      <Text>If the son of Fenris moves at least 20 feet straight toward a creature and hits it with a slam attack on that turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If it is knocked prone, the son of Fenris can make another slam attack against it as a bonus action.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The son of Fenris makes one bite attack and one slam attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 18). If the target was already grappled, it is swallowed instead. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects from outside the son of Fenris, and it takes 28 (8d6) acid damage at the start of each of the son of Fenris's turns. It can swallow only one creature at a time. If it takes 45 damage or more on a single turn from the swallowed creature, it must succeed on a DC 17 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the son of Fenris. If the son of Fenris dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d10 + 8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) bludgeoning damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d10 + 8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Acid Breath (Recharge 5-6)</Name>
+      <Text>The son of Fenris exhales acid in a 60-foot line that is 10 feet wide. Each creature in the line takes 45 (10d8) acid damage, or half damage with a successful DC 18 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>9</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

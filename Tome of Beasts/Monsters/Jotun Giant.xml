@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Jotun Giant</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>20</AC>
+  <ACText>natural armor</ACText>
+  <HP>407</HP>
+  <HPRoll>22d20 + 176</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+  </Speeds>
+  <Strength>30</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>26</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>20</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>22</CR>
+  <XP>41000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Immortality</Name>
+      <Text>Jotuns suffer no ill effects from age, and are immune to effects that reduce ability scores and hit point maximum.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The Jotun giant's innate spellcasting ability is Wisdom (spell save DC 19). It can innately cast the following spells, requiring no material components:
+At will: earthquake, shapechange, speak with animals
+3/day: bestow curse, gust of wind
+1/day: divination</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The giant has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The giant's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Too Big to Notice</Name>
+      <Text>The sheer size of the Jotun giant often causes those near it to confuse one at rest for part of the landscape. The jotun has advantage on Stealth checks when not moving.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The giant makes two greatclub attacks and a frightful presence attack, or one rock throwing attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greatclub</Name>
+      <Text>Melee Weapon Attack: +16 to hit, reach 30 ft., one target. Hit: 55 (10d8 + 10) bludgeoning damage.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>10d8 + 10</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +16 to hit, range 90/240 ft., one target. Hit: 49 (6d12 + 10) bludgeoning damage.</Text>
+      <AttackBonus>16</AttackBonus>
+      <Damage>6d12 + 10</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Frightful Presence</Name>
+      <Text>Each creature of the giant's choice that is within 120 feet of the giant and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. Once a creature's saving throw is successful, it is immune to the giant's Frightful Presence for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Rock Catching</Name>
+      <Text>If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>The Jotun giant can take 1 legendary action, and only at the end of another creature's turn</Name>
+      <Text>The giant regains the spent legendary action at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Detect</Name>
+      <Text>The Jotun giant makes a Wisdom (Perception) check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Planar Return</Name>
+      <Text>If banished, a Jotun giant can return to the plane it departed 2/day. If banished a third time, it cannot return.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sweeping Blow</Name>
+      <Text>The Jotun giant can sweep its greatclub in an arc around itself. The sweep affects a semicircular path 30 feet wide around the giant. All targets in that area take 46 (8d8 + 10) bludgeoning damage, or no damage with a successful DC 19 Dexterity saving throw.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

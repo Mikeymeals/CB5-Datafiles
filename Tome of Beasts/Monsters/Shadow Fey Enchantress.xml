@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Shadow Fey Enchantress</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shadow fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>breastplate</ACText>
+  <HP>123</HP>
+  <HPRoll>19d8 + 38</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>17</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Umbral</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fey Ancestry</Name>
+      <Text>The shadow fey has advantage on saving throws against being charmed, and magic can't put her to sleep.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The shadow fey's innate spellcasting ability is Charisma. She can cast the following spells innately, requiring no material components.
+4/day: misty step (when in shadows, dim light, or darkness only)</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The shadow fey is a 10th-level spellcaster. Her spellcasting ability is Charisma (save DC 15, +7 to hit with spell attacks). She knows the following bard spells.
+Cantrips (at will): blade ward, friends, message, vicious mockery
+1st level (4 slots): bane, charm person, faerie fire
+2nd level (3 slots): enthrall, hold person
+3rd level (3 slots): conjure fey, fear, hypnotic pattern
+4th level (3 slots): confusion, greater invisibility, phantasmal killer
+5th level (2 slots): animate objects, dominate person, hold monster</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the shadow fey has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Traveler in Darkness</Name>
+      <Text>The shadow fey has advantage on Intelligence (Arcana) checks made to know about shadow roads and shadow magic spells or items.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The shadow fey makes two rapier attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Rapier</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 17 (5d6) psychic damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Beguiling Whispers (recharge 5-6)</Name>
+      <Text>The shadow fey speaks sweet words to a creature she can see within 60 feet, that can hear the enchantress. The creature must succeed on a DC 15 Charisma saving throw or be charmed for 1 minute. While charmed in this way, the creature has disadvantage on Wisdom and Charisma saving throws made to resist spells cast by the enchantress.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Leadership (recharges after a Short or Long Rest)</Name>
+      <Text>The enchantress can utter a special command or warning to a creature she can see within 30 feet of her. The creature must not be hostile to the enchantress and it must be able to hear (the command is inaudible to all but the target creature). For 1 minute, the creature adds a d4 to its attack rolls and saving throws. A creature can benefit from only one enchantress's Leadership at a time. This effect ends if the enchantress is incapacitated.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

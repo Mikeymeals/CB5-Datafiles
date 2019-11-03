@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom and Charisma scores both increase by 1. In addition, one ability score of your choice increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>One ability score of your choice increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Strength</Name>
+          <Text>Your Strength score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Dexterity</Name>
+          <Text>Your Dexterity score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Constitution</Name>
+          <Text>Your Constitution score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Intelligence</Name>
+          <Text>Your Intelligence score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Wisdom</Name>
+          <Text>Your Wisdom score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>0</Charisma>
+        </AbilityScoreFeature>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Charisma</Name>
+          <Text>Your Charisma score increases by 1</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Modifier>AddScore</Modifier>
+          <Strength>0</Strength>
+          <Constitution>0</Constitution>
+          <Dexterity>0</Dexterity>
+          <Intelligence>0</Intelligence>
+          <Wisdom>0</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>KALASHTAR_ABILITY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Kalashtar develop physically at the same rate as humans do and have similar lifespans.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all sentient beings, but some kalashtar resist the virtuous influence of their spirit.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Kalashtar are similar in build to humans, though they are typically a few inches taller. Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Dual Mind</Name>
+      <Text>When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll. You can use this trait immediately before or after you roll, but before any of the roll’s effects occur.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Mental Discipline</Name>
+      <Text>You have resistance to psychic damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>psychic</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Mind Link</Name>
+      <Text>You can speak telepathically to any creature you can see within 60 feet of you. You don’t need to share a language with the creature for it to understand your telepathic messages, but the creature must be able to understand at least one language or be telepathic itself.
+As a bonus action when you’re speaking telepathically to a creature, you can give that creature the ability to speak telepathically to you until the start of your next turn. To use this ability, the creature must be within 60 feet of you and be able to see you.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Psychic Glamour</Name>
+      <Text>Choose one of the following skills: Insight, Intimidation, Performance, or Persuasion. You have advantage on all ability checks you make with that skill.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <Feature>
+          <Keywords />
+          <Name>Insight</Name>
+          <Text>You have advantage on all ability checks you make with Insight.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Intimidation</Name>
+          <Text>You have advantage on all ability checks you make with Intimidation.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Performance</Name>
+          <Text>You have advantage on all ability checks you make with Performance.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+        <Feature>
+          <Keywords />
+          <Name>Persuasion</Name>
+          <Text>You have advantage on all ability checks you make with Persuasion.</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+        </Feature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>KALASHTAR_PSYHIC_GLAMOR</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Severed from Dreams</Name>
+      <Text>Kalashtar sleep, but they don’t connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to magical spells and effects that require you to dream, like the dream spell, but not to spells and effects that put you to sleep, like the sleep spell.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances />
+      <Vulnerabilities />
+      <Immunities>
+        <string>magical spells and effects that require you to dream</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Quori</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common, Quori, and one other language of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>1</Amount>
+      <UniqueID>KALASHTAR_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Name>Kalashtar</Name>
+  <Flavour>I am a kalashtar, born of two worlds. Over a thousand years ago, my ancestor bound her bloodline to the spirit Kashtai, and I am a child of that union. Kashtai moves within me. Her memories come to me in dreams, and at times her voice whispers in the silence of my mind. As long as at least one of my sisters is alive, Kashtai will survive—and as long as she lives, she will fight il-Lashtavar.
+—Lakashtai, servant of the light</Flavour>
+  <Size>Medium</Size>
+  <Description>The kalashtar are a compound race created from the union of humanity and renegade spirits from the plane of dreams—spirits called quori. Kalashtar are often seen as wise, spiritual people with great compassion for others. But there is an unmistakable alien quality to the kalashtar, as they are haunted by the conflicts of their otherworldly spirits.</Description>
+  <Descriptions>
+    <TableDescription>
+      <Name>Bound to Spirits</Name>
+      <Text>Every kalashtar has a connection to a spirit of light, shared by other members of their bloodline. Kalashtar appear human, but the spiritual connection affects them in a variety of ways. Kalashtar have symmetrical, slightly angular features. The eyes of a kalashtar often glow when it is focused on a task or feeling strong emotions.
+The kalashtar can’t directly communicate with their quori spirits. A kalashtar might experience this relationship as a sense of instinct and inspiration, drawing on the memories of the spirit when they dream. This connection grants kalashtar minor psionic abilities, as well as protection from psychic attacks. All of these dream-spirits are virtuous, but some are warriors and others are more contemplative. Work together with the DM to determine the nature of the linked spirit. Typically, a kalashtar knows the name and nature of their spirit, but for some—for instance, an orphan kalashtar raised among outsiders—may know nothing of their spirit or the source of their psychic gifts.
+The bond to the spirit can cause some kalashtar to display unusual quirks of behavior. You can roll or select a trait from the following table.</Text>
+      <Amount>1</Amount>
+      <UniqueID>KALASHTAR_BOUND_TO_SPIRITS</UniqueID>
+      <TableName>Kalashtar Quirks</TableName>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You try to understand the motives and feelings of your enemies.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You prefer using telepathy over speaking aloud.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You feel a strong drive to protect the innocent.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You apply dream logic to mundane situations.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You discuss things out loud with your quori spirit.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>You suppress your emotions and rely on logic.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Text>You are strongly influenced by the emotions of those around you.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Text>You prefer to find nonviolent solutions to problems whenever possible.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Text>You are driven by a warrior spirit and will fight for any noble cause.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Text>You are obsessed with Dreaming Dark conspiracies.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <Description>
+      <Name>Hunted by Nightmares</Name>
+      <Text>The virtuous spirits tied to the kalashtar fled from the dream-realm of Dal Quor to escape evil spirits that dominate the realm. The rebel quori believe that through meditation and devotion, they can change the fundamental nature of Dal Quor, shifting the balance from darkness to light. Most kalashtar communities focus on acts of devotion known as the Path of Light. But the dark powers of Dal Quor have their own plans on Eberron. Through the force known as the Dreaming Dark, these monsters manipulate the folk of Khorvaire to eliminate kalashtar whenever possible.
+Many kalashtar defend themselves from the Dreaming Dark by focusing on devotion to the Path of Light but some among the kalashtar seek out the agents of the Dreaming Dark and oppose their plans, or protect the innocent however they can. Some kalashtar grow up isolated from others, knowing nothing about Dal Quor or the Dreaming Dark. Such orphans may use their abilities for personal gain or otherwise act against the virtuous instincts of their quori spirits; this can cause internal conflicts and violent mood swings.</Text>
+    </Description>
+    <ListDescription>
+      <Name>Kalashtar Names</Name>
+      <Text>A kalashtar name mixes a personal prefix to the name of the quori spirit within the kalashtar. Each spirit has a gender identity, but this might not match the gender identity of the kalashtar host. A female kalashtar may have what others would consider a masculine name, because she’s tied to a spirit with a masculine identity. Kalashtar orphans are unlikely to know the name of their spirit and take names from another source.</Text>
+      <Names>
+        <Names>
+          <ListOfNames>
+            <string>Hareth</string>
+            <string>Khad</string>
+            <string>Kosh</string>
+            <string>Melk</string>
+            <string>Tash</string>
+            <string>Ulad</string>
+            <string>Vash</string>
+          </ListOfNames>
+          <Title>Male Quori Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Ashana</string>
+            <string>Ashtai</string>
+            <string>Ishara</string>
+            <string>Nari</string>
+            <string>Tana</string>
+            <string>Tari</string>
+            <string>Vakri</string>
+          </ListOfNames>
+          <Title>Female Quori Names</Title>
+        </Names>
+        <Names>
+          <ListOfNames>
+            <string>Coratash</string>
+            <string>Dalavash</string>
+            <string>Dolishara</string>
+            <string>Halakosh</string>
+            <string>Khoratari</string>
+            <string>Koratana</string>
+            <string>Lanhareth</string>
+            <string>Molavakri</string>
+            <string>Nevitash</string>
+            <string>Sorashana</string>
+            <string>Torashtai</string>
+            <string>Valakhad</string>
+            <string>Vishara</string>
+          </ListOfNames>
+          <Title>Kalashtar Names</Title>
+        </Names>
+      </Names>
+    </ListDescription>
+    <Description>
+      <Name>Kalashtar Traits</Name>
+      <Text>Your kalashtar character has the following traits.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 52 - Eberron Races</Source>
+</Race>

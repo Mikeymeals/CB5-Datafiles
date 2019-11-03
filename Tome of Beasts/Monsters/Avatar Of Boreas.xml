@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Avatar Of Boreas</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>20</AC>
+  <ACText>natural armor</ACText>
+  <HP>168</HP>
+  <HPRoll>16d8 + 96</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>fly 120 ft.</string>
+  </Speeds>
+  <Strength>25</Strength>
+  <Dexterity>22</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>19</Wisdom>
+  <Charisma>21</Charisma>
+  <Resistances>
+    <string>acid</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>poison</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>petrification</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Dwarvish</string>
+    <string>Giant</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>17</CR>
+  <XP>18000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Chilling Presence</Name>
+      <Text>Boreas freezes everything within 150 feet of him. After 5 rounds, nonmagical fires up to the size of a campfire are quenched. Water freezes within 1 minute. Spells that protect against cold are subjected to an immediate dispel magic (at +10 spellcasting ability) when within 150 feet of Boreas.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wind Form</Name>
+      <Text>Boreas can shift between his humanoid body and a body made of wind and mist as an action; he can never be forced to shift forms. In wind form, he can use a whirlwind blast attack and use his spells, but no weapon attack. Truesight reveals both forms at once.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Freedom of the Wind</Name>
+      <Text>Locks, shackles, ropes, and other bindings cannot hold Boreas.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Boreas's innate spellcasting ability is Charisma (spell save DC 19). He can innately cast the following spells, requiring no material components:
+At will: create water, detect magic, guidance, invisibility, polymorph, speak with animals, true seeing, wind wall
+3/day each: call lightning, control weather, cure wounds, dispel magic, ice storm, lesser restoration
+1/day each: chain lightning, earthquake, finger of death, heal, shapechange, wall of ice, word of recall</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The avatar of Boreas regains 10 hit points at the start of its turn. If the avatar of Boreas takes fire damage, this trait does not function at the start of its next turn. The avatar of Boreas dies only if it starts its turn with 0 hit points and does not regenerate.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Boreas makes 4 spear attacks, or 4 longbow attacks, or 2 whirlwind blasts.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ice Spear (Humanoid Form)</Name>
+      <Text>Melee Weapon Attack. +13 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 17 (5d6) cold damage.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>North Wind Longbow</Name>
+      <Text>Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 10 (1d8+6) piercing damage plus 9 (2d8) cold damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>1d8+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Whirlwind Blast (Wind Form Only)</Name>
+      <Text>Ranged Spell Attack: +11 to hit, range 50 ft., one target. Hit: 37 (5d12 + 5) slashing damage.</Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>5d12+5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Boreas can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. Boreas regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ice Spear</Name>
+      <Text>Boreas makes an ice spear attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>North Wind's Glare</Name>
+      <Text>Boreas freezes a foe with a look. One creature within 60 feet that the avatar of Boreas can see must make a successful DC 19 Constitution saving throw or be petrified until the start of the avatar's next turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Whirlwind Movement (Costs 2 Actions)</Name>
+      <Text>Boreas erupts into an icy whirlwind. Mundane and magical light sources alike within 20 feet are automatically extinguished. Each creature within 20 feet of the avatar must succeed on a DC 21 Dexterity saving throw or take 14 (4d6) cold damage. The avatar can then fly up to half its flying speed.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

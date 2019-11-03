@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tools of the Trade</Name>
+      <Text>By the time you adopt this specialty at 3rd level, you’re deeply familiar with employing its tools. 
+Proficiencies. You gain proficiency with alchemist’s supplies and the herbalism kit, assuming you don’t already have them. You also gain alchemist’s supplies and an herbalism kit for free—the result of tinkering you’ve done as you’ve prepared for this specialization.
+Crafting. If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Alchemist’s supplies</string>
+        <string>Herbalism kit</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Crafting</Name>
+      <Text>If you craft a magic item in the potion category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Items>
+        <string>Herbalism kit</string>
+        <string>Alchemist’s supplies</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Alchemist Spells</Name>
+      <Text>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.
+purify food and drink, ray of sickness</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Purify Food and Drink</string>
+        <string>Ray of Sickness</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Alchemist Spells</Name>
+      <Text>Melf’s acid arrow, web</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Melf's Acid Arrow</string>
+        <string>Web</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Alchemist Spells</Name>
+      <Text>create food and water, stinking cloud</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Create Food and Water</string>
+        <string>Stinking Cloud</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Alchemist Spells</Name>
+      <Text>blight, death ward</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Blight</string>
+        <string>Death Ward</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <BonusSpellPrepareFeature>
+      <Keywords />
+      <Name>Alchemist Spells</Name>
+      <Text>cloudkill, raise dead</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Spells>
+        <string>Cloudkill</string>
+        <string>Raise Dead</string>
+      </Spells>
+      <Condition>false</Condition>
+      <SpellcastingID>ARTIFICER</SpellcastingID>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>artificer</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AddTo>LearnSpells</AddTo>
+    </BonusSpellPrepareFeature>
+    <FormsCompanionsFeature>
+      <Keywords />
+      <Name>Alchemical Homunculus</Name>
+      <Text>At 3rd level, you learn ancient methods for magically creating a special homunculus that is formed by alchemical substances.
+Whenever you finish a long rest and your alchemist’s supplies are with you, you can form this homunculus in an unoccupied space within 5 feet of you. If you already have a homunculus from this feature, the first one immediately dies.
+The homunculus is friendly to you and your companions, and it obeys your commands. See this creature’s game statistics in the Alchemical Homunculus stat block. You determine the homunculus’s appearance, which includes wings and bits of alchemical equipment. Some alchemists prefer mechanical-looking birds, whereas others like winged vials or miniature cauldrons.
+In combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or to take the Dash, Disengage, or Help action.
+If the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your alchemist’s supplies as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The homunculus returns to life with all its hit points restored.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <DisplayName>Alchemical Homunculus</DisplayName>
+      <UniqueID>ARTIFICER_ALCHEMICAL_HOMUNCULUS</UniqueID>
+      <FormsCompanionsOptions>Name = "Alchemical Homunculus"</FormsCompanionsOptions>
+      <FormsCompanionsCount>1</FormsCompanionsCount>
+    </FormsCompanionsFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ARTIFICER_ALCHEMICAL_HOMUNCULUS</UniqueID>
+      <HPBonus>IntMod + ClassLevel*5</HPBonus>
+      <SavesBonus>if(proficient, value - 2 + proficiencybonus, value)</SavesBonus>
+      <SkillsBonus>if(proficient, value - 2 + proficiencybonus, value)</SkillsBonus>
+      <AttackBonus>value-2+proficiencybonus</AttackBonus>
+      <DamageBonus>value-2+proficiencybonus</DamageBonus>
+      <Senses />
+      <Speed />
+      <Languages />
+    </FormsCompanionsBonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Alchemical Mastery</Name>
+      <Text>At 6th level, your command of magical chemicals has become masterful, enhancing the healing and damage you create through them. When you cast a spell using your alchemist’s supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)
+In addition, you can cast lesser restoration without expending a spell slot, provided you use alchemist’s supplies as the spellcasting focus. You can do so a number of times per day equal to your Intelligence modifier (minimum of once).</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Alchemical Mastery</Name>
+      <Text>When you cast a spell using your alchemist’s supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid or poison damage, and the bonus equals your Intelligence modifier (minimum of +1)</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Spells>Healing or Acid or Poison</Spells>
+    </SpellModifyFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Alchemical Mastery</Name>
+      <Text>You can cast lesser restoration without expending a spell slot, provided you use alchemist’s supplies as the spellcasting focus. You can do so a number of times per day equal to your Intelligence modifier.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>Lesser Restoration</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Alchemical Mastery</Name>
+      <Text>You can cast lesser restoration without expending a spell slot, provided you use alchemist’s supplies as the spellcasting focus. You can do so a number of times per day equal to your Intelligence modifier.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>IntMod</Value>
+      <ResourceID>ARTIFICER_ALCHEMICAL_MASTERY</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Chemical Savant</Name>
+      <Text>By 14th level, you have been exposed to so many chemicals and unlocked their secrets that they pose little risk to you, and you can use them to quickly end certain ailments. You gain resistance to acid damage and poison damage, and you are now immune to the poisoned condition.
+In addition, you can cast greater restoration once without expending a spell slot and without providing the material component, provided you use alchemist’s supplies as the spellcasting focus. You regain the ability to do so when you finish a long rest.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>poison</string>
+        <string>acid</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities>
+        <string>poisoned</string>
+      </Immunities>
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Chemical Savant</Name>
+      <Text>You can cast greater restoration once without expending a spell slot and without providing the material component, provided you use alchemist’s supplies as the spellcasting focus. You regain the ability to do so when you finish a long rest.</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Greater Restoration</Spell>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <SpellCastModifier>LongRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Unearthed Arcana 58 - The Artificer Returns</Source>
+  <Name>Alchemist</Name>
+  <SheetName>Alchemist</SheetName>
+  <Description>An Alchemist is an expert at combining exotic reagents to produce mystical effects. Among artificers, members of this subclass are the greatest healers, as well as the ones most adept at wielding dangerous chemicals.</Description>
+  <ParentRace>Artificer</ParentRace>
+</SubClass>

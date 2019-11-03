@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Ghost Knight</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>17</AC>
+  <ACText>half plate</ACText>
+  <HP>97</HP>
+  <HPRoll>15d8+30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Charge</Name>
+      <Text>If the ghost knight is mounted and moves at least 30 feet in a straight line toward a target and hits it with a melee attack on the same turn, the target takes an extra 7 (2d6) damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mounted Warrior</Name>
+      <Text>When mounted, the ghost knight has advantage on attacks against unmounted creatures smaller than its mount. If the ghost knight's mount is subjected to an effect that allows it to take half damage with a successful Dexterity saving throw, the mount instead takes no damage if it succeeds on the saving throw and half damage if it fails.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turning Defiance</Name>
+      <Text>The ghost knight and all darakhul or ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Undead Nature</Name>
+      <Text>A ghost knight doesn't require air, food, drink, or sleep</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The ghost knight makes three melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d4 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Battleaxe</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) slashing damage if used with two hands, plus 10 (3d6) necrotic damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Lance</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 10 (3d6) necrotic damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d12 + 3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Animal Handling</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

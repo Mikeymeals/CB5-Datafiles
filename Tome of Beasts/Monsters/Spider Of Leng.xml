@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Spider Of Leng</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>144</HP>
+  <HPRoll>17d10 + 51</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>17</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>poison</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 240 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Eldritch Understanding</Name>
+      <Text>A spider of Leng can read and use any scroll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The spider of Leng's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: comprehend languages, detect magic, shocking grasp
+3/day each: shield, silence
+1/day each: arcane eye, confusion, hypnotic pattern, stoneskin</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poisonous Blood</Name>
+      <Text>An attacker who hits a spider of Leng with a melee attack from within 5 feet must make a successful DC 15 Dexterity saving throw or take 7 (2d6) poison damage and be poisoned until the start of its next turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shocking Riposte</Name>
+      <Text>When a spider of Leng casts shield, it can also make a shocking grasp attack for 9 (2d8) lightning damage against one enemy within 5 feet as part of the same reaction.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>A spider of Leng makes two claw attacks, two staff attacks, or one of each.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage plus 4 (1d8) poison damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d10 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spit Venom</Name>
+      <Text>Ranged Weapon Attack: +6 to hit, range 60 ft., one target. Hit: 16 (3d8 + 3) poison damage, and the target must make a successful DC 14 Constitution saving throw or be poisoned and blinded until the end of its next turn.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>3d8 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Staff of Leng</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 13 (2d12) psychic damage, and the target must make a successful DC 15 Wisdom saving throw or be stunned until the start of the spider's next turn.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6 + 2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Ancient Hatred</Name>
+      <Text>When reduced to 0 hp, the spider of Leng makes one final spit venom attack before dying.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

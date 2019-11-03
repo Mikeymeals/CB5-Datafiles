@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Zanskaran Viper</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>38</HP>
+  <HPRoll>4d10 + 16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 10 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>2</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 1) piercing damage, and the target must make a successful DC 14 Constitution saving throw or become poisoned. While poisoned this way, the target is blind and takes 7 (2d6) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a success.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>2d8 + 1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

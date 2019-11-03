@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Alkilith</Name>
+  <Descriptions>
+    <Description>
+      <Name>Demons</Name>
+      <Text>Incarnations of chaos and evil, demons display endless variation in appearance and in how they go about wreaking havoc across the multiverse.
+</Text>
+    </Description>
+    <Description>
+      <Name>Symptoms of Doom</Name>
+      <Text>The appearance of an alkilith in the world heralds a great wrongness and an imminent catastrophe. An alkilith searches for an aperture such as a window or a door around which it can take root, stretching its body around the opening and anchoring itself with a sticky secretion. If left undisturbed, the opening becomes attuned to the Abyss and eventually becomes a portal to that plane (see “Planar Portals” in chapter 2 of the Dungeon Master’s Guide).</Text>
+    </Description>
+    <Description>
+      <Name>Spawn of Juiblex</Name>
+      <Text>Alkiliths spring⁠ from the cast-off bits of Juiblex’s hideous, shuddering body, then gradually become self-aware and set out to find their way onto the material plane. Since most cultists consider them too risky for summoning—they can, after all, create portals to the Abyss—alkiliths must find other escape routes out of their native plane.</Text>
+    </Description>
+  </Descriptions>
+  <Description>An alkilith is easily mistaken for some kind of foul fungal growth that appears on doorways, windows, and other portals. These dripping infestations conceal the demonic nature of the alkilith, making what should be a dire warning appear strange but otherwise innocuous. Wherever alkiliths take root, they weaken the fabric of reality, creating a portal through which even nastier demons can invade.</Description>
+  <Flavour />
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>demon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>157</HP>
+  <HPRoll>15d8+90</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>22</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Abyssal but can’t speak</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amorphous</Name>
+      <Text>The alkilith can move through a space as narrow as 1 inch wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the alkilith is motionless, it is indistinguishable from an ordinary slime or fungus.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Foment Madness⁠</Name>
+      <Text>Any creature that isn’t a demon that starts its turn within 30 feet of the alkilith must succeed on a DC 18 Wisdom saving throw, or it hears a faint buzzing in its head for a moment and has disadvantage on its next attack roll, saving throw, or ability check.
+If the saving throw against Foment Madness⁠ fails by 5 or more, the creature is instead subjected to the confusion spell for 1 minute (no concentration required by the alkilith). While under the effect of that confusion⁠, the creature is immune to Foment Madness⁠.
+</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance⁠</Name>
+      <Text>The alkilith has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The alkilith makes three tentacle attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 18 (4d6 + 4) acid damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>4d6 + 4  acid</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Liosalfar</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>17</AC>
+  <HP>110</HP>
+  <HPRoll>20d10</HPRoll>
+  <Speeds>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>25</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic</string>
+    <string>radiant</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>exhaustion (see Lightform special ability)</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+    <string>truesight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Celestial</string>
+    <string>Elemental</string>
+    <string>Elvish</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Alien Mentality</Name>
+      <Text>A liosalfar's exotic consciousness renders it immune to psychic effects, and any attempt to read their thoughts leaves the reader confused for 1 round.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Darkness Vulnerability</Name>
+      <Text>Magical darkness is harmful to a liosalfar: They take 2d10 necrotic damage, or half damage with a successful DC 14 Constitution saving throw, each time they start their turn inside magical darkness. Natural darkness is unpleasant to them but not harmful.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The liosalfar can move through other creatures and objects as difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The liosalfar's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At Will: augury, color spray, dancing lights, detect magic, flare, light, silent image, spare the dying
+2/day each: alter self, blur, divination, hypnotic pattern, prismatic spray, scorching ray
+1/day each: hallucinatory terrain, plane shift, sunbeam</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Lightform</Name>
+      <Text>Liosalfar are composed entirely of light. They are incorporeal and not subject to ability damage, polymorph, petrification, or attacks that alter their form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Prismatic Glow</Name>
+      <Text>Liosalfar shed rainbow illumination equal to a daylight spell. They cannot extinguish this glow without perishing but can reduce it to the level of torchlight at will. Even when using alter self they have a faint, diffused glow that's visible in dim light or darkness.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The liosalfar makes two Disrupting Touch attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Disrupting Touch</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 26 (4d12) radiant damage, and the target must succeed on a DC 15 Wisdom saving throw or become stunned for 1 round.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>4d12</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

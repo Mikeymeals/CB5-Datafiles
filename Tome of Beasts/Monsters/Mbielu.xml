@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Mbielu</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>95</HP>
+  <HPRoll>10d12 + 30</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Toxic Skin</Name>
+      <Text>A creature that touches the mbielu or hits it with a melee attack exposes itself to the mbielu's poisonous skin. The creature must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a creature also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 20 (3d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>3d10 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Rollover</Name>
+      <Text>If the mbielu is grappled by a Large creature, it rolls on top of the grappler and crushes it. The mbielu automatically escapes from the grapple and the grappler takes 20 (3d10 + 4) bludgeoning damage.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

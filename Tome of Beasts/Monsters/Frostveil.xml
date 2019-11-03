@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Frostveil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>16</AC>
+  <HP>67</HP>
+  <HPRoll>9d8 + 27</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly (varies; see Windborne ability)</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances>
+    <string>bludgeoning and piercing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>cold</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>frightened</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 100 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Chilling Acid</Name>
+      <Text>The frostveil's frozen acidic mist breaks down flesh and organic materials into useable nutrients. Creatures who strike the frostveil with a non-reach melee weapon or an unarmed strike take 4 (1d8) acid damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the frostveil remains motionless, it is indistinguishable from a formation of frost and ice.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Windborne</Name>
+      <Text>While in blowing wind, the frostveil can fly with a speed of 30 feet. In a strong wind this speed increases to 60 feet.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The frostveil makes three tendril attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tendril</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage. If two tendrils hit the same target in a single turn, the target is engulfed.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Engulf</Name>
+      <Text>When a frostveil wraps itself around a Medium or smaller creature, the target takes 14 (2d8 + 5) bludgeoning damage plus 13 (3d8) acid damage and is grappled (escape DC 15). The target takes another 9 (2d8) bludgeoning damage plus 13 (3d8) acid damage at the end of each of its turns when it's still grappled by the frostveil. A frostveil can't attack while it has a creature engulfed. Damage from attacks against the frostveil is split evenly between the frostveil and the engulfed creature; the only exceptions are slashing and psychic damage, which affect only the frostveil.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spirit Spores (recharge 6)</Name>
+      <Text>In distress, frostveils release a puff of psychotropic spores in a 10-foot cloud around themselves. Creatures within the cloud of spores must succeed on a DC 13 Constitution saving throw against poison or suffer hallucinations, as per a confusion spell, for 1d3 rounds.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

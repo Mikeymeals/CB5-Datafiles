@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Spire Walker</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>38</HP>
+  <HPRoll>11d4 + 22</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances>
+    <string>piercing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>lightning</string>
+    <string>thunder</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Energized Body</Name>
+      <Text>A creature that hits the spire walker with a melee attack using a metal weapon takes 5 (1d10) lightning damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The spire walker's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). The spire walker can innately cast the following spells, requiring no material components:
+At will: produce spark (as the cantrip produce flame, but it does lightning damage)
+3/day each: dancing lights, feather fall, invisibility
+1/day each: faerie fire, thunderwave</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Steeple Step</Name>
+      <Text>The spire walker can use 10 feet of its movement to step magically from its position to the point of a steeple, mast, or other spire-like feature that is in view within 30 feet. The spire walker has advantage on Dexterity (Acrobatics) checks and Dexterity saving throws while it is standing on a steeple or any similar narrow, steep structure or feature.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Lightning Dart</Name>
+      <Text>Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 1 piercing damage plus 9 (2d8) lightning damage. If the attack misses, the target still takes 4 (1d8) lightning damage. Whether the attack hits or misses its intended target, every other creature within 10 feet of the target takes 9 (2d8) lightning damage, or half damage with a successful DC 14 Dexterity saving throw.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

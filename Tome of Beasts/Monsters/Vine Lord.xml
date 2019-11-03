@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vine Lord</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>105</HP>
+  <HPRoll>14d8 + 42</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 30 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Green Strider</Name>
+      <Text>The vine lord ignores movement restrictions and damage caused by natural undergrowth.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The vine lord has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The vine lord regains 10 hit points at the start of its turn if it has at least 1 hit point and is within its home forest or jungle.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Root Mind</Name>
+      <Text>Within its home forest or jungle, the vine lord's blindsight extends to 60 ft., it succeeds on all Wisdom (Perception) checks, and it can't be surprised.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The vine lord makes two claw attacks and four tendril attacks. A single creature can't be the target of more than one tendril attack per turn.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Spore Sacs (1/week)</Name>
+      <Text>The vine lord can release seeds from specialized sacs on its tendrils. These seeds sprout into 1d4 green spore pods that reach maturity in 3 days. The pods contain noxious spores that are released when the pod is stepped on, picked, or otherwise tampered with. A humanoid or beast that inhales these spores must succeed on a DC 14 Constitution saving throw against disease or tendrils start growing inside the creature's body. If the disease is not cured within 3 months, the tendrils take over the creature's nervous system and the victim becomes a tendril puppet.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tendril</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 7 (1d4 + 5) slashing damage plus 3 (1d6) poison damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d4 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Awaken the Green (1/Day)</Name>
+      <Text>The vine lord magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the vine lord. The tree remains animate for 1 day or until it dies; until the vine lord dies or is more than 120 feet from the tree; or until the vine lord takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

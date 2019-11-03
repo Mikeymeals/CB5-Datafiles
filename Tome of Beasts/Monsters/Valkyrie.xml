@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Valkyrie</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>16</AC>
+  <ACText>chain mail) or 18 (chain mail with shield</ACText>
+  <HP>112</HP>
+  <HPRoll>15d8 + 45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>19</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Dwarvish</string>
+    <string>Giant</string>
+    <string>and see Gift of Tongues</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Asgardian Weapons</Name>
+      <Text>The valkyrie's weapon attacks are magical. When she hits with any weapon, it does an extra 11 (2d10) radiant damage (included in attacks listed below).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cloak of Doom</Name>
+      <Text>Any living creature that starts its turn within 60 feet of a valkyrie senses her unsettling presence and must succeed on a DC 16 Charisma saving throw or be frightened for 1d4 rounds. Those who succeed are immune to the effect for 24 hours. The valkyrie can suppress this aura at will.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Gift of Tongues</Name>
+      <Text>Valkyries become fluent in any language they hear spoken for at least 1 minute, and they retain this knowledge forever.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The valkyrie's innate spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
+At will: bane, bless, invisibility, sacred flame, spare the dying, speak with animals, thaumaturgy
+5/day each: gentle repose, healing word, warding bond
+3/day each: beacon of hope, mass healing word, revivify
+1/day each: commune, death ward, freedom of movement, geas</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Longsword</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) radiant damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d8 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +8 to hit, reach 10 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 11 (2d10) radiant damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>A valkyrie can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one option can be used at a time and only at the end of another creature's turn. A valkyrie regains spent legendary actions at the start of her turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cast a Cantrip</Name>
+      <Text>The valkyrie casts one spell from her at-will list.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spear or Longsword Attack</Name>
+      <Text>The valkyrie makes one longsword or spear attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Harvest the Fallen (Costs 2 Actions)</Name>
+      <Text>A valkyrie can take the soul of a newly dead body and bind it into a weapon or shield. Only one soul can be bound to any object. Individuals whose souls are bound can't be raised by any means short of a wish or comparable magic. A valkyrie can likewise release any soul that has been bound by another valkyrie, or transfer a bound soul from one object to another. Once bound, the soul grants the item a +1 bonus for every 4 character levels of the soul (maximum of +3), and this replaces any other magic on the item. At the DM's discretion, part of this bonus can become an appropriate special quality (a fire giant's soul might create a flaming weapon, for example).</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

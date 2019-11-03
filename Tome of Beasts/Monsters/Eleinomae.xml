@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Eleinomae</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>18</AC>
+  <HP>112</HP>
+  <HPRoll>15d8 + 45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Aquan</string>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Unearthly Grace</Name>
+      <Text>The eleinomae's Charisma modifier is added to its armor class (included above).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Reed Walk</Name>
+      <Text>The eleinomae can move across undergrowth or rivers without making an ability check. Additionally, difficult terrain of this kind doesn't cost it extra moment.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The eleinomae's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
+At will: dancing lights
+3/day each: charm person, suggestion
+2/day each: hallucinatory terrain, major image</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The eleinomae makes three dagger attacks and one reed flower net attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 3 (1d6) poison damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d4 + 4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Reed Flower Net</Name>
+      <Text>Ranged Weapon Attack: +7 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target has disadvantage on Wisdom saving throws for 1 minute, and is restrained. A creature can free itself or another creature within reach from restraint by using an action to make a successful DC 15 Strength check or by doing 5 slashing damage to the net (AC 10).</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>AC 10</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

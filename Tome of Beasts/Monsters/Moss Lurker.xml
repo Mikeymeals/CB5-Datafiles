@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Moss Lurker</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>10d6 + 10</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blind</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Giant</string>
+    <string>Sylvan</string>
+    <string>Trollkin</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Camouflage</Name>
+      <Text>A moss lurker has advantage on Dexterity (Stealth) checks to hide in forested or swampy terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Love of Heavy Weapons</Name>
+      <Text>While moss lurkers can use heavy weapons, they have disadvantage while wielding them.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Keen Hearing and Smell</Name>
+      <Text>The moss lurker has advantage on Wisdom (Perception) checks that rely on hearing or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poisoned Gifts</Name>
+      <Text>A moss lurker can contaminate liquids or food with poison. Someone who consumes the contaminated substance must make a successful DC 11 Constitution saving throw or become poisoned for 1 hour. When the poison is introduced, the moss lurker can choose a poison that also causes the victim to fall unconscious, or to become paralyzed while poisoned in this way. An unconscious creature wakes if it takes damage, or if a creature uses an action to shake it awake.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Great Sword or Maul</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing or bludgeoning damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Mushroom-Poisoned Javelin</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 6 (1d12) poison damage and the target is poisoned until the start of the moss lurker's next turn. A successful DC 11 Constitution save halves the poison damage and prevents poisoning.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6 + 2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dropped Boulder</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 100 ft. (vertically), one target. Hit: 10 (3d6) bludgeoning damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>vertically</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

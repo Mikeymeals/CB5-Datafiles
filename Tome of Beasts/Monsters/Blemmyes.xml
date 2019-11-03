@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Blemmyes</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>168</HP>
+  <HPRoll>16d10 + 80</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Giant</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Carnivorous Compulsion</Name>
+      <Text>If it can see an incapacitated creature, the blemmyes must succeed on a DC 11 Wisdom save or be compelled to move toward that creature and attack it.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The blemmyes makes two slam attacks and one bite attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) piercing damage. If the target is a Medium or smaller incapacitated creature, that creature is swallowed. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects from outside the blemmyes, and it takes 14 (4d6) acid damage at the start of each of the blemmyes' turns. If the blemmyes takes 20 damage or more during a single turn from a creature inside it, the blemmyes must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 5 feet of the blemmyes. The blemmyes can have only one target swallowed at a time. If the blemmyes dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>4d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Wisdom saving throw or be stunned until the end of its next turn.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Rock</Name>
+      <Text>Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit: 27 (4d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Wisdom saving throw or be frightened until the end of its next turn.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>4d10 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

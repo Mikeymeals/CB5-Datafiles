@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Dragonleaf Tree</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>152</HP>
+  <HPRoll>16d10 + 64</HPRoll>
+  <Speeds>
+    <string>5 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>19</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>A dragonleaf tree enjoys the same immunities as its progenitor. Black</string>
+    <string>copper</string>
+    <string>and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass</string>
+    <string>gold</string>
+    <string>and red trees are immune to fire damage; and silver and white trees are immune to cold damage.</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>deafened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>can understand the language of its creator or designated master</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Loyal to Dragon Master</Name>
+      <Text>A dragonleaf tree only follows commands from its designated master (or from any creatures to whom the master grants control). It has advantage on saving throws against any charm or compulsion spell or effect. Additionally, the tree has advantage on any saving throw to resist Bluff, Diplomacy, or Intimidate checks made to influence it to act against its masters.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Weaknesses</Name>
+      <Text>Dragonleaf trees with immunity to fire also have vulnerability to cold, and trees with immunity to cold have vulnerability to fire.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 58 (10d10 + 3) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>10d10 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Leaves</Name>
+      <Text>Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 45 (10d8) slashing damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>10d8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Breath Weapon (Recharge 6)</Name>
+      <Text>dragonleaf tree can issue forth a breath weapon from its leaves appropriate to the dragon it honors. The creature's breath weapon deals 49 (14d6) damage, or half damage to targets that make a successful DC 15 Dexterity saving throw. A black, copper, or green tree breathes a 60-foot line of acid; a blue or bronze tree breathes a 60-foot line of lightning; a brass, gold, or red tree breathes a 30-foot cone of fire; and a silver or white tree breathes a 30-foot cone of cold.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Skin Bat</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>14</HP>
+  <HPRoll>4d6</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Summon Bat Swarm</Name>
+      <Text>The high-frequency cries of a skin bat attract nearby mundane bats. When a skin bat faces danger, 0-3 (1d4-1) swarms of bats arrive within 1d6 rounds. These swarms are not under the skin bat's command, but they tend to reflexively attack whatever the skin bat is fighting.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage and the target must make a successful DC 10 Constitution saving throw or be paralyzed for 1d4 rounds. In addition, the skin bat attaches itself to the target. The skin bat can't bite a different creature while it's attached, and its bite attack automatically hits a creature the skin bat is attached to. Removing a skin bat requires a successful DC 11 Strength check and inflicts 5 (1d4 + 3) slashing damage to the creature the bat is being removed from. A successful save renders the target immune to skin bat poison for 24 hours.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

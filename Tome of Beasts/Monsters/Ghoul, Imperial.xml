@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Ghoul, Imperial</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>breastplate</ACText>
+  <HP>93</HP>
+  <HPRoll>17d8 + 17</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>burrow 15 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Turning Defiance</Name>
+      <Text>The iron ghoul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The imperial ghoul makes one bite attack and one claws attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and if the target creature is humanoid it must succeed on a DC 11 Constitution saving throw or contract darakhul fever.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d8+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach, one target. Hit: 17 (4d6 + 3) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>4d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Light Crossbow</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 80/320, one target. Hit: 8 (1d8 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8 + 2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

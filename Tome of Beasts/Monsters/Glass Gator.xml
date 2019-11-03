@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Glass Gator</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>7d10 + 7</HPRoll>
+  <Speeds>
+    <string>30 ft</string>
+    <string>swim 50 ft</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>Blindsight 30 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The glass gator can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Lunge</Name>
+      <Text>When the glass gator leaps at least 10 feet toward a creature and hits that creature with a claws attack on the same turn, it can immediately constrict the target as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Transparency</Name>
+      <Text>The glass gator has advantage on Dexterity (Stealth) checks while underwater or in dim light.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Standing Leap</Name>
+      <Text>The glass gator can long jump up to 15 feet from water or up to 10 feet on land, with or without a running start.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the glass gator can't attack a different target.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d4 + 2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Constrict</Name>
+      <Text>One creature that's already grappled by the glass gator takes 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) poison damage, or half as much poison damage with a successful DC 11 Constitution saving throw.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Silt Cloud (Recharges after a Short or Long Rest)</Name>
+      <Text>After taking damage while in water, the glass gator thrashes to stir up a 10-foot-radius cloud of silt around itself. The area inside the sphere is heavily obscured for 1 minute (10 rounds) in still water or 5 (2d4) rounds in a strong current. After stirring up the silt, the glass gator can move its speed.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

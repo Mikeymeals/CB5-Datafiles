@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Mammon</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>20</AC>
+  <ACText>natural armor</ACText>
+  <HP>378</HP>
+  <HPRoll>28d12 + 196</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>23</Intelligence>
+  <Wisdom>21</Wisdom>
+  <Charisma>26</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from weapons that aren't silvered</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>25</CR>
+  <XP>75000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>Mammon's innate spellcasting ability is Charisma (spell save DC 24, +16 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+At will: charm person, detect magic, dispel magic, fabricate (Mammon can create valuable objects), heat metal, magic aura
+3/day each: animate objects, counterspell, creation, instant summons, legend lore, teleport
+1/day each: imprisonment (minimus containment only, inside gems), sunburst</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/day)</Name>
+      <Text>If Mammon fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>Mammon has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>Mammon's weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mammon's Lair</Name>
+      <Text>On initiative count 20 (losing initiative ties), Mammon takes a lair action to cause one of the following effects; Mammon can’t use the same effect two rounds in a row:
+- Mammon infuses a pile of treasure in his lair with life. It becomes an earth elemental made of precious metals and gems. The elemental acts immediately and lasts until destroyed or until Mammon uses this action again.
+- Stacked piles of treasure shift and slide, collapsing onto a creature Mammon can see. The creature is restrained until initiative count 20 on the following round, or until it or an adjacent ally uses an action to make a successful DC 18 Strength check to free it.
+- Mammon magically teleports from one area of treasure to another within 150 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regional Effects</Name>
+      <Text>The region containing Mammon’s lair is warped by the archdevil’s magic, which creates one or more of the following effects:
+- Treasure in the possession of creatures other than Mammon turns to worthless materials such as lead, wood, or gravel, after spending 24 hours within 1 mile of the lair. The resulting junk resumes its valuable form when Mammon claims it, or by means of a wish spell or comparable magic.
+- Creatures that spend more than 1 hour within 1 mile of Mammon’s lair become obsessed with gaining the most generous payment or portion of wealth in any dealing unless they succeed on a DC 18 Wisdom saving throw. A creature that saves successfully is immune to this effect for 24 hours. The effect can be removed by a greater restoration spell or comparable magic.
+- Any naturally occurring treasure in Mammon’s home plane reverts to worthless junk if removed from the plane. Similarly, any mundane item left behind transforms into something fantastically valuable, as long as it remains on the plane.
+If Mammon dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>Mammon makes three attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Purse</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage plus 18 (4d8) radiant damage</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>7d8+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Molten Coins</Name>
+      <Text>Ranged Weapon Attack: +14 to hit, range 40/120 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage plus 18 (4d8) fire damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>3d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Your Weight In Gold (Recharge 5-6)</Name>
+      <Text>Mammon can use this ability as a bonus action immediately after hitting a creature with his purse attack. The creature must make a DC 24 Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified by being turned to solid gold. Otherwise, a creature that fails the saving throw is restrained. A restrained creature repeats the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature receives a greater restoration spell or comparable magic.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>Mammon can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. Mammon regains spent legendary actions at the start of his turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Attack</Name>
+      <Text>Mammon makes one purse or molten coins attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Make It Rain!</Name>
+      <Text>Mammon casts gold and jewels into a 5-foot radius within 60 feet. One creature within 60 feet of the treasure that can see it must make a DC 24 Wisdom saving throw. On a failure, the creature must use its reaction to move its speed toward the trinkets, which vanish at the end of the turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Deep Pockets (3 actions)</Name>
+      <Text>Mammon recharges his Your Weight In Gold ability.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

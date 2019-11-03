@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Behtu</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>hide armor</ACText>
+  <HP>52</HP>
+  <HPRoll>8d6 + 24</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Behtu</string>
+    <string>Common</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6 + 3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortspear</Name>
+      <Text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4 + 3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fire Breath (Recharge 6)</Name>
+      <Text>The behtu exhales fire in a 15-foot cone. Each creature in that area takes 21 (5d8) fire damage, or half damage with a successful DC 13 Dexterity saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ichorous Infusions</Name>
+      <Text>Behtu war parties carry 1d6 vials of ichorous infusions. They often ingest an infusion before an ambush. For the next 2d6 rounds, the behtus gain a +4 bonus to their Strength and Constitution scores and quadruple their base speed (including their climb speed). Behtus also take a -4 penalty to their Intelligence and Wisdom scores for the duration of the infusion. A non-behtu character who ingests a behtu infusion becomes poisoned and takes 10 (3d6) poison damage; a successful DC 14 Constitution saving throw against poison reduces damage to half and negates the poisoned condition.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Xhkarsh</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural and mystic armor</ACText>
+  <HP>133</HP>
+  <HPRoll>14d10 + 56</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+    <string>climb 30 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>21</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Deep Speech</string>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The xhkarsh makes two claw attacks and two stinger attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Stinger</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) piercing damage, and the target must succeed on a DC 15 Charisma saving throw or have its fate corrupted. A creature with corrupted fate has disadvantage on Charisma checks and Charisma saving throws, and it is immune to divination spells and to effects that sense emotions or read thoughts. The target's fate can be restored by a dispel evil and good spell or comparable magic.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Seize Strand</Name>
+      <Text>The xhkarsh targets one creature within 5 feet of it whose fate has been corrupted. The target creature must succeed on a DC 15 Charisma saving throw or a portion of the xhkarsh's consciousness inhabits its body. The target retains control of its body, but the xhkarsh can control its actions for 1 minute each day and can modify its memories as a bonus action (as if using the modify memory spell, DC 15). The target is unaware of the xhkarsh's presence, but can make a DC 18 Wisdom (Insight) check once every 24 hours to notice the presence of the xhkarsh. This effect lasts until the xhkarsh ends it or the target's fate is restored by a dispel evil and good spell or comparable magic. A creature becomes immune to this effect for 24 hours when it succeeds on the saving throw to resist the effect or after the effect ends on it for any reason. A single xhkarsh can seize up to four strands at the same time.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Invisibility</Name>
+      <Text>The xhkarsh turns invisible until it attacks or casts a spell, or until its concentration ends. Equipment the xhkarsh wears or carries becomes invisible with it.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

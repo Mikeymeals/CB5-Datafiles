@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Lunar Devil</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>94</HP>
+  <HPRoll>9d10 + 45</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+    <string>lightwalking 80 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>21</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>cold; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Draconic</string>
+    <string>Elvish</string>
+    <string>Infernal</string>
+    <string>Sylvan</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil's Sight</Name>
+      <Text>Magical darkness doesn't impede the devil's darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The devil's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:
+At will: fly, major image, planar binding
+3/day: greater invisibility
+1/day: wall of ice</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Light Incorporeality</Name>
+      <Text>The devil is semi-incorporeal when standing in moonlight, and is immune to all nonmagical attacks in such conditions. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source, with the exception of force damage. Holy water can affect the devil as it does incorporeal undead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Lightwalking</Name>
+      <Text>Once per round, the lunar devil magically teleports, along with any equipment it is wearing or carrying, from one beam of moonlight to another within 80 feet. This relocation uses half of its speed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Variant: Devil Summoning</Name>
+      <Text>Summon Devil (1/Day): The devil can attempt a magical summoning. The devil has a 40 percent chance of summoning either 2 chain devils or 1 lunar devil.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes three attacks: one with its bite, one with its claws, and one with its tail. Alternatively, it can use Hurl Moonlight twice.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d12 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d8 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hurl Moonlight</Name>
+      <Text>Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 19 (3d12) cold damage and the target must succeed on a DC 15 Constitution saving throw or become blinded for 4 rounds.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d12</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

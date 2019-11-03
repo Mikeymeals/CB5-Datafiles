@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Mi-Go</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>plant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>8d8 + 40</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>19</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>25</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances>
+    <string>radiant</string>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 30 ft.</string>
+    <string>darkvision 240 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Mi-go</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Astral Travelers</Name>
+      <Text>Mi-go do not require air or heat to survive, only sunlight (and very little of that). They can enter a sporulated form capable of surviving travel through the void and returning to consciousness when conditions are right.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sneak Attack (1/Turn)</Name>
+      <Text>The mi-go does an extra 7 (2d6) damage when it hits a target with a claw attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the mi-go that isn't incapacitated and the mi-go doesn't have disadvantage on the attack roll.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Disquieting Technology</Name>
+      <Text>The mi-go are a highly advanced race, and may carry items of powerful technology. Mi-go technology can be represented using the same rules as magic items, but their functions are very difficult to determine: identify is useless, but an hour of study and a successful DC 19 Arcana check can reveal the purpose and proper functioning of a mi.go item.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The mi-go makes two attacks with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage, and the target is grappled (escape DC 13). If both claw attacks strike the same target in a single turn, the target takes an additional 13 (2d12) psychic damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>3d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Spore Release</Name>
+      <Text>When a mi-go dies, it releases its remaining spores. All living creatures within 10 feet take 14 (2d8 + 5) poison damage and become poisoned; a successful DC 16 Constitution saving throw halves the damage and prevents poisoning. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on itself with a success.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Medicine</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

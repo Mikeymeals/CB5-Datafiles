@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Star Spawn Of Cthulhu</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>187</HP>
+  <HPRoll>15d10 + 105</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
+    <string>fly 50 ft.</string>
+  </Speeds>
+  <Strength>25</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>30</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>23</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>slashing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>poison</string>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 300 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>15</CR>
+  <XP>13000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Interdimensional Movement</Name>
+      <Text>A star spawn of Cthulhu can use misty step as a bonus action once per round.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Psychic Tower</Name>
+      <Text>When an attack that causes psychic damage is directed against the spawn, the attack rebounds against the attacker. Resolve the attack as if the attacker were the original target and using the star spawn's ability modifiers and proficiency bonus rather than the original attacker's.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Void Traveler</Name>
+      <Text>The star spawn of Cthulhu requires no air, warmth, ambient pressure, food, or water, enabling it to travel safely through interstellar space and similar voids.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The star spawn can use disintegrating gaze if it's available, and also make one claws attack and one dimensional stomp attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Crushing Claws</Name>
+      <Text>Melee Weapon Attack. +12 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage plus 13 (3d8) necrotic damage.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Disintegrating Gaze (Recharge 5-6)</Name>
+      <Text>Ranged Spell Attack: +15 to hit, range 60 ft., one target in line of sight. Hit: 32 (5d12) necrotic damage, and the target must make a successful DC 20 Constitution saving throw or dissipate into vapor as if affected by a gaseous form spell. An affected creature repeats the saving throw at the end of each of its turns; on a success, the effect ends on that creature, but on a failure, the creature takes another 32 (5d12) necrotic damage and remains gaseous. A creature reduced to 0 hit points by this necrotic damage is permanently disintegrated and can be restored only by a wish or comparable magic that doesn't require some portion of a corpse to work.</Text>
+      <AttackBonus>15</AttackBonus>
+      <Damage>Recharge 5-6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dimensional Stomp</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 18 (2d20 + 7) bludgeoning damage, and the target must make a successful DC 15 Dexterity saving throw or be teleported to a new location as if affected by the dimension door spell. The destination is chosen by the star spawn, but it cannot be in the same space as another object or creature.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d20 + 7</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>10</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Myling</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>10d6 + 10</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>burrow 10 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+    <string>stunned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The myling makes one bite and two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage, and the target is grappled (escape DC 12). If the target was grappled by the myling at the start of the myling's turn, the bite attack hits automatically.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d4 + 2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d6 + 1</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Buried Alive</Name>
+      <Text>If the myling starts its turn on its chosen burial ground, it sinks into the earth. If it has a creature grappled, that creature sinks with the myling. A Medium or larger creature sinks up to its waist; a Small creature sinks up to its neck. If the myling still has the victim grappled at the start of the myling's next turn, both of them disappear into the earth. While buried this way, a creature is considered stunned. It can free itself with a successful DC 20 Strength (Athletics) check, but only one check is allowed; if it fails, the creature is powerless to aid itself except with magic. The creature must also make a DC 10 Constitution saving throw; if it succeeds, the creature has a lungful of air and can hold its breath for (Constitution modifier + 1) minutes before suffocation begins. Otherwise, it begins suffocating immediately. Allies equipped with digging tools can reach it in four minutes divided by the number of diggers; someone using an improvised tool (a sword, a plate, bare hands) counts as only one-half of a digger.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

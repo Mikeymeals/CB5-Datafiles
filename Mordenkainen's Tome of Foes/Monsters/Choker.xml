@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Choker</Name>
+  <Descriptions>
+    <Description>
+      <Name>Sly Trappers</Name>
+      <Text>A choker’s usual method for luring prey involves positioning the body of its latest catch just outside its hiding⁠ spot. Whenever it gets hungry, it tears off a few chunks of flesh to feed itself. In the meantime, the corpse serves to entice other curious humanoids—explorers, drow, duergar, or the choker’s favorite prey, goblins—to come within reach.
+When a target presents itself, the choker’s starfish-shaped hands dart out of its hiding⁠ spot, wrap around the victim’s throat, and pin the unfortunate creature against the cavern wall while choking out its life. Because its arms are so long, the choker can keep its body deep inside the crevice where it hides, beyond the reach of most normal weapons⁠.</Text>
+    </Description>
+    <Description>
+      <Name>Lone Hunters</Name>
+      <Text>Chokers tend to set their ambushes alone, rather than working in concert, but where one creature is found, others are likely to be nearby. They communicate through eerie, keening howls that travel long distances through rock but are difficult to identify⁠ or locate in a typical echo-filled cavern.</Text>
+    </Description>
+  </Descriptions>
+  <Description>The choker is a subterranean predator far more dangerous than its small size and spindly, rubbery limbs would suggest.
+Chokers have cartilage rather than a bony skeleton⁠. This flexible internal structure enables them to easily slip into narrow fissures and niches in the walls of their cavern homes. They lurk in these spots, silent and unseen, waiting for prey to happen by.</Description>
+  <Flavour>Chokers are cowardly and dim-witted creatures, useless as guard beasts⁠, and utterly awful as servants. Yet for wizards of shorter stature, securing one as a familiar does negate the need for a ladder⁠.
+—Mordenkainen</Flavour>
+  <Source>Mordenkainen's Tome of Foes</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>aberration</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>13</HP>
+  <HPRoll>3d6+3</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Deep Speech</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Aberrant Quickness (Recharges after a Short or Long Rest)</Name>
+      <Text>The choker can take an extra action⁠ on its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Boneless</Name>
+      <Text>The choker can move through and occupy a space as narrow as 4 inches wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spider Climb⁠</Name>
+      <Text>The choker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The choker makes two tentacle attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tentacle</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 3 (1d6) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the choker can’t use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can’t breathe or speak until the grapple ends.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4 + 3 bludgeoning + 1d6 piercing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

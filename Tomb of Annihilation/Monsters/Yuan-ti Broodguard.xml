@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Yuan-ti Broodguard</Name>
+  <Descriptions />
+  <Description>Broodguards are humanoids transformed by yuan-ti into simple-minded, scaly creatures that do their masters' bidding. The transformation process warps not only a subject's body but also its mind, making it instinctively obey any yuan-ti and filling it with a seething rage that rises at the sight of non-reptilian creatures.
+Although broodguards have low intelligence, they are able to perform simple yet important tasks, such as guarding eggs or patrolling for intruders. Broodguards can speak but rarely do so, preferring to use snake-like hisses and guttural noises.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>yuan-ti</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>7d8 + 14</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>15</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>4</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>Poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>Poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Draconic</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Mental Resistance</Name>
+      <Text> The broodguard has advantage on saving throws against being charmed, and magic can't paralyze it.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Reckless</Name>
+      <Text> At the start ofits turn, the broodguard can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text> The broodguard makes three attacks: one with its bite and two with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d8 + 2  piercing</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text> Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (ld6 + 2) slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>ld6 + 2  slashing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

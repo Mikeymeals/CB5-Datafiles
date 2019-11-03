@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Cormanthor Refugee</Name>
+  <Description>You are one of hundreds of refugees that were driven from Hillsfar or that fled the destruction of Myth Drannor and who now shelter in hidden camps under the northern eaves of the Cormanthor Forest. If you up grew in the camps, you have never been to a settlement other than the village of Elventree. As a guest of the elves, you have learned their ways and the ways of the forest. You are also a traumatized, as residual wild magic, energies released by the fall of Thultanar upon Myth Drannor, and the constant fear of raids hunting for nonhumans to fight in Hillsfar's Arena have taken their toll on you, as they have on everyone in the camps.</Description>
+  <Descriptions />
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Skill Proficiencies</Name>
+      <Text>Nature, Survival</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Nature</string>
+        <string>Survival</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Language Proficiencies</Name>
+      <Text>Elven</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Elvish</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tool Proficiencies</Name>
+      <Text>One type of artisan's tools</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>COMANTHOR_REFUGEE_TOOLPROF</UniqueID>
+      <Condition>Tool and Artisan</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A two-person tent, a set of traveler's clothes, a belt pouch, 5 gp</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Tent, Two-person</string>
+        <string>Clothes, Traveler's</string>
+        <string>Pouch</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>5</GP>
+    </FreeItemAndGoldFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Artisan's tools</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>COMANTHOR_REFUGEE_ARTISAN_TOOLS</UniqueID>
+      <Condition>Tool and Artisan</Condition>
+    </ItemChoiceConditionFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A holy symbol</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>COMANTHOR_REFUGEE_HOLY_SYMBOL</UniqueID>
+      <Condition>Divine and Focus</Condition>
+    </ItemChoiceConditionFeature>
+    <Feature>
+      <Keywords />
+      <Name>Lifestyle</Name>
+      <Text>Poor</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Feature: Shelter of the Elven Clergy</Name>
+      <Text>The clerics of Elventree have vowed to care for the Cormanthor refugees. They will help you when they can, including providing you and your companions with free healing and care at temples, shrines, and other established presences in Elventree. They will also provide you (but only you) with a poor lifestyle.
+[Note: This feature is a variant of the Acolyte feature.]</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Text>I long for a home that never really existed, whether in the camps, Hillsfar, or Myth Drannor.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Text>Though I am not an elf, I am a fervent, radical worshipper of the elven gods.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Text>I live in the moment, knowing my life could be turned upside down any day.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Text>I appreciate beauty in all of its forms.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Text>I hate the dark elves and the Netherese for each driving the elves out of Cormanthyr in the past.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Text>I am a forest bumpkin who grew up in a tent in the woods and is wholly ignorant of city life.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>7</MinRoll>
+      <MaxRoll>7</MaxRoll>
+      <Text>I was raised alongside children of many other races. I harbor no racial prejudices at all.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>8</MinRoll>
+      <MaxRoll>8</MaxRoll>
+      <Text>The elves have just the right word for so many things that cannot be expressed as well in other languages. I pepper my speech with elven words, phrases, and sayings.</Text>
+    </TableEntry>
+  </PersonalityTrait>
+  <Ideal>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title>Patient</Title>
+      <Text>The elves have taught me to think and plan for the long-term. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title>Rebellious</Title>
+      <Text>Governments and politicians drove my family to the camps. I subtly defy authority whenever I think I can get away with it. (Chaotic)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title>Self-Absorbed</Title>
+      <Text>I've had to look out for number one so long that it has become second nature. (Any)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title>Wanderlust</Title>
+      <Text>I want to see as much of the world beyond the camps as I can. (Any)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title>Generous</Title>
+      <Text>I give everything I can to help those in need, regardless of who they are. (Good)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title>To the Abyss with Them</Title>
+      <Text>The people of Hillsfar cast me out. I won't risk my hide to help them. (Evil)</Text>
+    </TableEntry>
+  </Ideal>
+  <Bond>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Text>The elves took me in when I had nowhere else to go. In return, I do what I can to help elves in need.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Text>I seek revenge against the people of Hillsfar for driving my family into the forest.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Text>My family lost everything when they were driven from Hillsfar. I strive to rebuild that fortune.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Text>The forest has provided me with food and shelter. In return, I protect forests and those who dwell within.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Text> am deeply, tragically in love with someone whose racial lifespan is far longer or shorter than mine.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Text>Members of my extended family did not make it to the camps or have been kidnapped to fight in the Arena. I search for them tirelessly.</Text>
+    </TableEntry>
+  </Bond>
+  <Flaw>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Text>I am very uncomfortable indoors and underground.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Text>I am haughty. I grew up among the elves and emulate them. Other races are crude in comparison.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Text>Elf this, elf that. I am sick and tired of the elves.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Text>I am a miser. Having lost everything once before, I clutch my possessions and wealth very tightly.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Text>I am a moocher. I am so used to others providing for me that I have come to expect everyone to do it.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Text>I believe the gods have cursed me, my family, and all of the Cormanthor refugees. We are all doomed, doomed I tell you!</Text>
+    </TableEntry>
+  </Flaw>
+  <Source>Hillsfar Regional - Character Options</Source>
+</Background>

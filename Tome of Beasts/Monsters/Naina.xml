@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Naina</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>231</HP>
+  <HPRoll>22d10 + 110</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 120 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Darakhul</string>
+    <string>Draconic</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Sensitive</Name>
+      <Text>The naina detects magic as if it were permanently under the effect of a detect magic spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The naina is a 9th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). The naina has the following sorcerer spells prepared:
+Cantrips (at will): dancing lights, mage hand, mending, ray of frost, resistance, silent image
+1st level (4 slots): charm person, thunderwave, witch bolt
+2nd level (3 slots): darkness, invisibility, locate object
+3rd level (3 slots): dispel magic, hypnotic pattern
+4th level (3 slots): dimension door
+5th level (1 slot): dominate person</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The naina can use her action to polymorph into one of her two forms: a drake or a female humanoid. She cannot alter either form's appearance or capabilities (with the exception of her breath weapon) using this ability, and damage sustained in one form transfers to the other form.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The naina makes two claw attacks and one bite attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite (drake form only)</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>drake form only</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw (drake form only)</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) slashing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>drake form only</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Poison Breath (Recharge 5-6)</Name>
+      <Text>While in drake form (only), the naina breathes a 20-foot cone of poison gas, paralytic gas, or sleep gas.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Poison</Name>
+      <Text>A creature caught in this poison gas takes 18 (4d8) poison damage and is poisoned; a successful DC 17 Constitution saving throw reduces damage to half and negates the poisoned condition. While poisoned this way, the creature must repeat the saving throw at the end of each of its turns. On a failure, it takes 9 (2d8) poison damage and the poisoning continues; on a success, the poisoning ends.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Paralysis</Name>
+      <Text>A creature caught in this paralytic gas must succeed on a DC 17 Constitution saving throw or be paralyzed for 2d4 rounds. A paralyzed creature repeats the saving throw at the end of each of its turns; a successful save ends the paralysis.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sleep</Name>
+      <Text>A creature caught in this sleeping gas must succeed on a DC 17 Constitution saving throw or fall unconscious for 6 rounds. A sleeping creature repeats the saving throw at the end of each of its turns; it wakes up if it makes the save successfully.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Constitution score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>1</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>A typical warforged is between two and thirty years old. The maximum lifespan of the warforged remains a mystery; so far, warforged have shown no signs of deterioration due to age.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality — or lack thereof — of the beings with which they served.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Your size is Medium. Most warforged stand between 5 and 6 1/2 feet tall. Weight and build are affected by subrace.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <Feature>
+      <Keywords />
+      <Name>Warforged Resilience</Name>
+      <Text>You were created to have remarkable fortitude, represented by the following benefits.
+• You have advantage on saving throws against being poisoned, and you have resistance to poison damage.
+• You are immune to disease.
+• You don’t need to eat, drink, or breathe.
+• You don’t need to sleep and don’t suffer the effects of exhaustion due to lack of rest, and magic can’t put you to sleep.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sentry’s Rest</Name>
+      <Text>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Integrated Protection</Name>
+      <Text>Your body has built-in defensive layers, which determine your armor class. You gain no benefit from wearing armor, but if you are using a shield, you apply its bonus as normal.
+You can alter your body to enter different defensive modes; each time you finish a long rest, choose one mode to adopt from the Integrated Protection table, provided you meet the mode’s prerequisite.
+Integrated Protection
+Mode – Prerequisite – Effect
+Darkwood Core (unarmored) – None – 11 + your Dexterity modifier (add proficiency modifier if proficient with light armor).
+Composite Plating (armor) – Medium armor proficiency – 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus.
+Heavy Plating (armor) – Heavy armor proficiency – 16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <ACFeature>
+          <Keywords />
+          <Name>Darkwood Core (unarmored, not proficient with light armor)</Name>
+          <Text>11 + your Dexterity modifier (add proficiency modifier if proficient with light armor).</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Expression>if(Unarmored, 11 + DexMod, 10 + DexMod) + ShieldBonus</Expression>
+        </ACFeature>
+        <ACFeature>
+          <Keywords />
+          <Name>Darkwood Core (unarmored, proficient with light armor)</Name>
+          <Text>11 + your Dexterity modifier (add proficiency modifier if proficient with light armor).</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Expression>if(Unarmored, 11 + DexMod + ProficiencyBonus, 10 + DexMod) + ShieldBonus</Expression>
+        </ACFeature>
+        <ACFeature>
+          <Keywords />
+          <Name>Composite Plating (armor)</Name>
+          <Text>Medium armor proficiency – 13 + your Dexterity modifier (maximum of 2) + your proficiency bonus.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Medium armor proficiency</Prerequisite>
+          <Expression>if(Unarmored, 13 + Min(2, DexMod) + ProficiencyBonus, 10 + DexMod) + ShieldBonus</Expression>
+        </ACFeature>
+        <ACFeature>
+          <Keywords />
+          <Name>Heavy Plating (armor)</Name>
+          <Text>16 + your proficiency bonus; disadvantage on Dexterity (Stealth) checks.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite>Heavy armor proficiency</Prerequisite>
+          <Expression>if(Unarmored, 16 + ProficiencyBonus, 10 + DexMod) + ShieldBonus</Expression>
+        </ACFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>WARFORGED_INTEGRATED_PROTECTION</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <SubRaceFeature>
+      <Keywords />
+      <Name>Subrace</Name>
+      <Text>As a warforged, your body was designed for a specific purpose. Choose one of these subraces: envoy, juggernaut, or skirmisher.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Races>
+        <string>Warforged</string>
+      </Races>
+    </SubRaceFeature>
+  </Features>
+  <Name>Warforged</Name>
+  <Flavour>„Pierce was built by design, while you were built by accident”, Lakashtai said. “The sould is what matters, not the shape of the vessel.”
+“What makes you think he has a soul?” Gerrion said.
+“What makes you think you do?”
+—Keith Baker, The Shattered Land</Flavour>
+  <Size>Medium</Size>
+  <Description>The warforged were built to fight in the Last War. The first warforged were mindless automatons, but House Cannith devoted vast resources to improving these steel soldiers. An unexpected breakthrough produced fully sentient soldiers, blending organic and inorganic materials. Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond the war. A warforged can be a steadfast ally, a cold-hearted killing machine, or a visionary in search of purpose and meaning.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Living Steel and Stone</Name>
+      <Text>Warforged are formed from a blend of organic and inorganic materials. Root-like cords infused with alchemical fluids serve as their muscles wrapped around a framework of steel, darkwood or stone. Armored plates form a protective outer shell and reinforce joints. All warforged share a common facial design, with a hinged jaw and crystal eyes embedded beneath a reinforced brow ridge. A sigil is engraved into the center of the forehead; this is unique to each warforged. Beyond these common elements of warforged design, the precise materials and build of a warforged vary based on the purpose for which it was designed. A juggernaut warrior is a massive brute with a heavy steel frame, while a skirmisher can be crafted from wood and light mithral to grant it lithe and elegant movement.
+While they’re formed from stone and steel, warforged are living humanoids. Resting, healing magic, and the Medicine skill all provide the same benefits to warforged that they do to other humanoids. A warforged can focus its mind on its body as it rests, adjusting its shape and form to assume one of a few defensive postures. A warforged who expects heavy combat might focus on durability, while during a time of peace they might be content to adopt a lighter, less aggressive form.</Text>
+    </Description>
+    <Description>
+      <Name>Warforged Personality</Name>
+      <Text>The warforged were built to serve and to fight. For most of their existence, warforged had a clearly defined function and were encouraged to focus purely on that role. The Treaty of Thronehold gave them freedom, but many warforged struggle both to find a place in the post-war world and to relate to the creatures that created them.
+The typical warforged shows little emotion. Many warforged embrace a concrete purpose—protecting allies, completing a contract, or other pursuits—and devote themselves to this task as they once did to war. However, there are warforged who delight in exploring their feelings and their freedom. Most warforged have no interest in religion, but some embrace faith and mysticism, seeking higher purpose and deeper meaning.
+The typical warforged has a muscular, sexless body shape. Some warforged ignore the concept of gender entirely, while others adopt a gender identity in emulation of creatures around them.</Text>
+    </Description>
+    <TableDescription>
+      <Name>Quirks</Name>
+      <Text>Whether due to some flaw in their creation or simple ignorance of how other creatures operate, warforged often acquire an odd personality trait or two. A warforged player can choose to roll or select a trait from the Warforged Quirks table.</Text>
+      <Amount>1</Amount>
+      <UniqueID>WARFORGED_QUIRK</UniqueID>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>1</MaxRoll>
+          <Text>You analyze (out loud) the potential threat posed by every creature you meet.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>2</MinRoll>
+          <MaxRoll>2</MaxRoll>
+          <Text>You don’t understand emotions and often misread emotional cues.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>3</MinRoll>
+          <MaxRoll>3</MaxRoll>
+          <Text>You are fiercely protective of anyone you consider a friend.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>4</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>You often say the things you are thinking aloud without realizing it.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>5</MaxRoll>
+          <Text>You try to apply wartime tactics and discipline to every situation.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>6</MinRoll>
+          <MaxRoll>6</MaxRoll>
+          <Text>You don’t know how to filter your feelings and are prone to dramatic emotional outbursts.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>7</MinRoll>
+          <MaxRoll>7</MaxRoll>
+          <Text>You don’t understand clothing beyond its utility and assume what a creature wears denotes its job and status.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>8</MinRoll>
+          <MaxRoll>8</MaxRoll>
+          <Text>You are obsessed with your appearance, and constantly polish and buff your armor.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>9</MinRoll>
+          <MaxRoll>9</MaxRoll>
+          <Text>You are deeply concerned with following proper procedures and protocols.</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>10</MinRoll>
+          <MaxRoll>10</MaxRoll>
+          <Text>War is the only thing that makes sense to you, and you’re always looking for a fight.</Text>
+        </TableEntry>
+      </Entries>
+      <BackgroundOption>None</BackgroundOption>
+    </TableDescription>
+    <ListDescription>
+      <Name>Warforged Names</Name>
+      <Text>Warforged were assigned numerical designations for use in military service. Many of them adopted nicknames, often given to them by their comrades. As free individuals, some have chosen new names as a way to express their path in life. A few take on human names, often the name of a fallen friend or mentor.</Text>
+      <Names>
+        <Names>
+          <ListOfNames>
+            <string>Anchor</string>
+            <string>Banner</string>
+            <string>Bastion</string>
+            <string>Blade</string>
+            <string>Blue</string>
+            <string>Bow</string>
+            <string>Church</string>
+            <string>Crunch</string>
+            <string>Crystal</string>
+            <string>Dagger</string>
+            <string>Dent</string>
+            <string>Five</string>
+            <string>Glaive</string>
+            <string>Hammer</string>
+            <string>Iron</string>
+            <string>Lucky</string>
+            <string>Mace</string>
+            <string>Pants</string>
+            <string>Pierce</string>
+            <string>Red</string>
+            <string>Rusty</string>
+            <string>Scout</string>
+            <string>Seven</string>
+            <string>Shield</string>
+            <string>Slash</string>
+            <string>Smith</string>
+            <string>Spike</string>
+            <string>Stone</string>
+            <string>Temple</string>
+            <string>Vault</string>
+            <string>Wall</string>
+            <string>Wood</string>
+          </ListOfNames>
+          <Title>Warforged Names</Title>
+        </Names>
+      </Names>
+    </ListDescription>
+    <Description>
+      <Name>Warforged Traits</Name>
+      <Text>Your warforged character has the following traits.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Unearthed Arcana 52 - Eberron Races</Source>
+</Race>

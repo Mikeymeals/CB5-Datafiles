@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Gargantuan</Size>
+  <Name>Elemental Locus</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>290</HP>
+  <HPRoll>20d20 + 80</HPRoll>
+  <Speeds>
+    <string>5 ft.</string>
+  </Speeds>
+  <Strength>28</Strength>
+  <Dexterity>1</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>poison</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+    <string>tremorsense 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Primordial</string>
+  </Languages>
+  <CR>17</CR>
+  <XP>18000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The elemental locus has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immortal</Name>
+      <Text>The elemental locus does not age and does not die when it drops to 0 hit points. If the elemental locus drops to 0 hit points, it falls into a quiescent state for 25 weeks before returning to activity with full hit points. Its spawned elementals continue fighting whatever enemies attacked the elemental locus; if no enemies are present, they defend the locus's area.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Massive</Name>
+      <Text>The elemental locus is larger than most Gargantuan creatures, occupying a space of 60 by 60 feet. Its movement is not affected by difficult terrain or by Huge or smaller creatures. Other creatures can enter and move through the elemental locus's space, but they must make a successful DC 20 Strength (Athletics) check after each 10 feet of movement. Failure indicates they fall prone and can move no farther that turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spawn Elementals</Name>
+      <Text>As a bonus action, the elemental locus loses 82 hit points and spawns an air, earth, fire, or water elemental to serve it. Spawned elementals answer to their creator's will and are not fully independent. The types of elementals the locus can spawn depend on the terrain it embodies; for example, an elemental locus of the desert can spawn earth, fire, and air elementals, but not water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The elemental locus deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The elemental locus makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 36 (6d8 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone.</Text>
+      <AttackBonus>15</AttackBonus>
+      <Damage>6d8 + 9</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

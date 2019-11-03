@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Small</Size>
+  <Name>Devilbound Gnomish Prince</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>gnome</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any evil</Alignment>
+  <AC>12</AC>
+  <ACText>15 with mage armor</ACText>
+  <HP>104</HP>
+  <HPRoll>19d6 + 38</HPRoll>
+  <Speeds>
+    <string>25 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>22</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing damage from nonmagical weapons that aren’t silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal</string>
+    <string>Gnomish</string>
+  </Languages>
+  <CR>9</CR>
+  <XP>5000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Banishing Word (1/Day)</Name>
+      <Text>When the devilbound gnomish prince hits with an attack, he can choose to banish the target to the Eleven Hells. The target vanishes from its current location and is incapacitated until its return. At the end of the devilbound gnomish prince's next turn, the target returns to the spot it previously occupied or the nearest unoccupied space and takes 55 (10d10) psychic damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Infernal Blessing</Name>
+      <Text>The devilbound gnomish prince gains 21 temporary hit points when it reduces a hostile creature to 0 hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Infernal Tie</Name>
+      <Text>The devilbound gnomish prince can perceive through his imp's senses, communicate telepathically through its mind, and speak through his imp's mouth as long as both of them are on the same plane of existence.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The devilbound gnomish prince's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). He can innately cast the following spells, requiring no material components:
+At will: detect magic, false life, mage armor
+1/rest each: create undead, forcecage, power word stun</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devilbound gnomish prince has advantage on all saving throws against spells and magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The devilbound gnomish prince is a 15th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The devilbound gnomish prince has the following warlock spells prepared:
+Cantrips (at will): chill touch, eldritch blast, minor illusion, prestidigitation
+5th level (3 slots):banishment, command, contact other plane, counterspell, dimension door, fireball, fly, flame strike, hallow, hex, hold monster, invisibility, scorching ray, scrying, wall of fire, witch bolt</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Dagger</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4 + 2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

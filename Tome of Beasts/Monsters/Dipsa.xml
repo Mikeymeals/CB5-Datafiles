@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Tiny</Size>
+  <Name>Dipsa</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>ooze</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <HP>27</HP>
+  <HPRoll>6d4 + 12</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>climb 20 ft.</string>
+    <string>swim 20 ft.</string>
+  </Speeds>
+  <Strength>3</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>6</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances>
+    <string>acid</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Swamp Stealth</Name>
+      <Text>The dipsa gains an additional +2 (+9 in total) to Stealth in swamp terrain.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Amorphous</Name>
+      <Text>The dipsa can move through a space as narrow as 1 inch wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Discreet Bite</Name>
+      <Text>The bite of a dipsa is barely perceptible and the wound is quickly anesthetized. A creature bitten must succeed on a DC 15 Wisdom (Perception) check to notice the attack or any damage taken from it.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Translucent</Name>
+      <Text>The dipsa can take the Hide action as a bonus action on each of its turns.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the dipsa's space. Hit: 1 piercing damage, and the dipsa attaches to the target. A creature with a dipsa attached takes 3 (1d6) acid damage per round per dipsa, and it must make a successful DC 12 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction to a creature's hit point maximum lasts until it is affected by a lesser restoration spell or comparable magic.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

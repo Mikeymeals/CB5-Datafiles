@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Vila</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>15</AC>
+  <HP>77</HP>
+  <HPRoll>14d8 + 14</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sylvan</string>
+    <string>telepathy 60 ft. (beasts only)</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Dance of the Luckless (1/Day)</Name>
+      <Text>Vila who dance for one hour create a fairy ring of small gray mushrooms. The ring lasts seven days and has a 50-foot diameter per dancing vila. Non.vila who fall asleep (including magical sleep) inside the ring have disadvantage on skill checks for 24 hours from the time they awaken.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Forest Quickness</Name>
+      <Text>While in forest surroundings, a vila receives a +4 bonus on initiative checks.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Forest Meld</Name>
+      <Text>A vila can meld into any tree in her forest for as long as she wishes, similar to the meld into stone spell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The vila's innate spellcasting ability is Charisma (spell save DC 14). She can innately cast the following spells, requiring no material components:
+3/day: sleep
+1/week: control weather</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>A vila makes two shortsword attacks or two shortbow attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>+1 Shortsword</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d6 + 6) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>+1 Shortbow</Name>
+      <Text>Ranged Weapon Attack: +9 to hit, range 80/320 ft., one target. Hit: 9 (1d6 + 6) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>1d6 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fascinate (1/Day)</Name>
+      <Text>When the vila sings, all those within 60 feet of her and who can hear her must make a successful DC 14 Charisma saving throw or be stunned for 1d4 rounds. Those who succeed on the saving throw are immune to that vila's singing for 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Forest Song (1/Day)</Name>
+      <Text>The vila magically calls 2d6 wolves or 2 wampus cats. The called creatures arrive in 1d4 rounds, acting as allies of the vila and obeying its spoken commands. The beasts remain for 1 hour, until the vila dies, or until the vila dismisses them as a bonus action.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Animal Handling</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Intimidation</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

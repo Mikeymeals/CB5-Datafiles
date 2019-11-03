@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Ngobou</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>85</HP>
+  <HPRoll>10d10 + 30</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>9</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>9</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string />
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Trampling Charge</Name>
+      <Text>If the ngobou moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the ngobou can make one stomp attack against it as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Elephants' Bane</Name>
+      <Text>The ngobou has advantage on attacks against elephants. It can detect by scent whether an elephant has been within 180 feet of its location anytime in the last 48 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spikes</Name>
+      <Text>A creature that grapples an ngobou takes 9 (2d8) piercing damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Gore</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 38 (6d10 + 5) piercing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>6d10 + 5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Stomp</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 18 (3d8 + 5) bludgeoning damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d8 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

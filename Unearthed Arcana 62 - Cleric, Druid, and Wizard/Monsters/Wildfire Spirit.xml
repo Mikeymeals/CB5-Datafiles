@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Wildfire Spirit</Name>
+  <Descriptions />
+  <Source>Unearthed Arcana 62 - Cleric, Druid, and Wizard</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any chaotic alignment</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>0</HP>
+  <HPRoll>equal to the wildfire spirit’s Constitution modifier + your Wisdom modifier + five times your level in this class</HPRoll>
+  <Speeds />
+  <Strength>10</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages you speak</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>0</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Soul Bond</Name>
+      <Text>The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Flame Seed</Name>
+      <Text>Ranged Weapon Attack: +4 to hit, range 30 ft., one target you can see. Hit: 1d6 + 2 fire damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fiery Teleportation (Recharges after a Short or Long Rest)</Name>
+      <Text>The spirit and each willing creature of your choice within 5 feet of it teleport up to 30 feet to unoccupied spaces you can see. Each creature within 10 feet of the space that the spirit left must succeed on a Dexterity saving throw against your spell save DC or take 1d6 + 2 fire damage.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Nature</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

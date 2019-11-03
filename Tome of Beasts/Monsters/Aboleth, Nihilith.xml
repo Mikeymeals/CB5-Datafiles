@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Aboleth, Nihilith</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>135</HP>
+  <HPRoll>18d10 + 36</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>swim 40 ft.</string>
+    <string>fly 40 ft. (ethereal only</string>
+    <string>hover)</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>9</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder (only when in ethereal form); bludgeoning</string>
+    <string>piercing and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>necrotic</string>
+    <string>poison; bludgeoning</string>
+    <string>piercing and slashing from nonmagical weapons (only when in ethereal form)</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Void Speech</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Undead Fortitude</Name>
+      <Text>If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Dual State</Name>
+      <Text>A nihileth exists upon the Material Plane in one of two forms and can switch between them at will. In its material form, it has resistance to damage from nonmagical weapons. In its ethereal form, it is immune to damage from nonmagical weapons. The creature's ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within. A nihileth in ethereal form can move through air as though it were water, with a fly speed of 40 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Void Aura</Name>
+      <Text>The undead nihileth is surrounded by a chilling cloud. A living creature that starts its turn within 5 feet of a nihileth must make a successful DC 14 Constitution saving throw or be slowed until the start of its next turn. In addition, any creature that has been diseased by a nihileth or a nihilethic zombie takes 7 (2d6) cold damage every time it starts its turn within the aura.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Infecting Telepathy</Name>
+      <Text>If a creature communicates telepathically with the nihileth, or uses a psychic attack against it, the nihileth can spread its disease to the creature. The creature must succeed on a DC 14 Wisdom save or become infected with the same disease caused by the nihileth's tentacle attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Nihileth 's Lair</Name>
+      <Text>On initiative count 20 (losing initiative ties), the nihileth can take a lair action to create one of the magical effects as per an aboleth, or the void absorbance action listed below. The nihileth cannot use the same effect two rounds in a row.
+- Void Absorbance: A nihileth can pull the life force from those it has converted to nihilethic zombies to replenish its own life. This takes 18 (6d6) hit points from zombies within 30 feet of the nihileth, spread evenly between the zombies, and healing the nihileth. If a zombie reaches 0 hit points from this action, it perishes with no Undead Fortitude saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regional Effects</Name>
+      <Text>The regional effects of a nihileth’s lair are the same as that of an aboleth, except as following.
+- Water sources within 1 mile of a nihileth’s lair are not only supernaturally fouled but can spread the disease of the nihileth. A creature who drinks from such water must make a successful DC 14 Constitution check or become infected.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The nihileth makes three tentacle attacks or three withering touches, depending on what form it is in.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tentacle (Material Form Only)</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>2d6+5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Withering Touch (Ethereal Form Only)</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d6+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Form Swap</Name>
+      <Text>As a bonus action, the nihileth can alter between its material and ethereal forms at will.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Tail (Material Form Only)</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>3d6+5</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Enslave (3/day)</Name>
+      <Text>The nihileth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the nihileth until the nihileth dies or until it is on a different plane of existence from the target. The charmed target is under the nihileth's control and can't take reactions, and the nihileth and the target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the nihileth.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Void Body</Name>
+      <Text>The nihileth can reduce the damage it takes from a single source to 0. Radiant damage can only be reduced by half.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name>A nihileth can take 3 legendary actions, choosing from the options below</Name>
+      <Text>Only one legendary action option can be used at a time and only at the end of another creature's turn. The nihileth regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Detect</Name>
+      <Text>The aboleth makes a Wisdom (Perception) check.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Tail Swipe</Name>
+      <Text>The aboleth makes one tail attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Psychic Drain (Costs 2 Actions)</Name>
+      <Text>One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name />
+      <Text>The nihileth cannot use the same effect two rounds in a row.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name />
+      <Text>A nihileth can pull the life force from those it has converted to nihilethic zombies to replenish its own life. This takes 18 (6d6) hit points from zombies within 30 feet of the nihileth, spread evenly between the zombies, and healing the nihileth. If a zombie reaches 0 hit points from this action, it perishes with no Undead Fortitude saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>The regional effects of a nihileth's lair are the same as that of an aboleth, except as following</Name>
+      <Text />
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water sources within 1 mile of a nihileth's lair are not only supernaturally fouled but can spread the disease of the nihileth</Name>
+      <Text>A creature who drinks from such water must make a successful DC 14 Constitution check or become infected.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

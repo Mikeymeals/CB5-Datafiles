@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Tabaxi Minstrel</Name>
+  <Descriptions />
+  <Description>Tabaxi are catfolk who hail from the land of Maztica. The ultimate wanderers, Tabaxi rarely stay in one place for long. They love to collect interesting artifacts, gather tales, and lay eyes on all the world's wonders. This curiosity pushes them to leave no secrets uncovered, and no treasures or legends lost. They revere a fickle deity called the Cat Lord, who is said to wander the world.
+Tahaxi hunters are trained to survive in the wild, making them excellent guides. Tabaxi minstrels gather in small troupes and make themselves at home in any settlement, earning coin through music and storytelling.
+Names
+A tabaxi typically has a single name, determined by his or her clan and based on a complex formula involving astrology, prophecy, clan history, and other factors. Male and female tabaxi use the same names, and most use nicknames derived from or inspired by their full names. Tabaxi clan names are usually based on a geographical feature located in or near a clan's territory. Sample tabaxi names include Nest of Eggs ("Eggs"), Dead Leaf ("Leaf'), Eyes of Onyx ("Onyx"), Lost Spear ("Lost"), and Daylight Moon ("Moon"). Clan names include Distant Rain, Hundred Feathers, Sleeping Creek, Bright Cliffs, and Snoring Mountain.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>tabaxi</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>12</AC>
+  <HP>22</HP>
+  <HPRoll>Sd8</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>climb 20 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>-1</PassivePerception>
+  <Languages>
+    <string>Common plus any two languages</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Feline Agility</Name>
+      <Text> When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until It moves 0 feet on one of its turns.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Inspire (1/Day)</Name>
+      <Text> While taking a short rest, the tabaxi can spend 1 minute singing, playing an instrument, telling a story, or reciting a poem to soothe and inspire creatures other than itself. Up to five creatures of the tabaxi's choice that can see and hear its performance gain 8 temporary hit points at the end of the tabaxi's short rest.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text> The tabaxi makes two claws attacks or two dart attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text> Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d4  slashing</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Dart</Name>
+      <Text> Ranged Weapon Attack: +4 to hit, range 20/ 60 ft., one target. Hit: 4 (1d4 + 2) piercing damage</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4 + 2  piercing</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

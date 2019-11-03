@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Acererak</Name>
+  <Descriptions>
+    <Description>
+      <Name>Acererak’s Traits</Name>
+      <Text>Ideal. "Why be a god when I can be a creator of gods?"
+Bond. "I build dungeons to trap and slay powerful adventurers. Their deaths and souls are my nourishment."
+Flaw. "I underestimate the resolve of my enemies."
+</Text>
+    </Description>
+  </Descriptions>
+  <Description>Acererak is an archlich who travels between worlds and is known to take sick pleasure in devouring the souls of adventurers, whom he lures into trap-ridden dungeons where they suffer horrible deaths. One such dungeon lies under the lost city of Omu. This dungeon is called the Tomb of the Nine Gods, for Acererak slew nine false gods and sealed them within it. More recently, he built a necromantic device called the Soulmonger, then hid it in the heart of the tomb.</Description>
+  <Source>Tomb of Annihilation</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>21</AC>
+  <ACText>natural armor</ACText>
+  <HP>285</HP>
+  <HPRoll>30d8+150</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>13</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>27</Intelligence>
+  <Wisdom>21</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+    <string>slashing from nonmagical attacks</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>stunned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Dwarvish</string>
+    <string>Elvish</string>
+    <string>Giant</string>
+    <string>Infernal</string>
+    <string>Primordial</string>
+    <string>Undercommon</string>
+  </Languages>
+  <CR>23</CR>
+  <XP>50000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Special Equipment</Name>
+      <Text>Acererak carries the Staff of the Forgotten One (see appendix C). He wears a talisman of the sphere and has a sphere of annihilation under his control.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If Acererak fails a saving throw, he can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rejuvenation</Name>
+      <Text>Acererak's body turns to dust when he drops to 0 hit points, and his equipment is left behind. Acererak gains a new body after 1d10 days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:
+Cantrips (at will): mage hand, ray of frost, shocking grasp
+lst level (at will): ray ofsickness, shield
+2nd level (at will): arcane lock, knock
+3rd level (at will): animate dead, counterspell
+4th level (3 slots): blight, ic:e storm, phantasmal killer
+5th level (3 slots): cloudkill, hold monster, wall of force
+6th level (3 slots): chain lightning, circle of death, disintegrate
+7th level (3 slots): finger of death, plane shift, teleport
+8th level (2 slots): maze, mind blank
+9th level (2 slots): power word kill, time stop</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance</Name>
+      <Text>Acererak has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Paralyzing Touch</Name>
+      <Text>Melee Spell Attack:+8 to hit, reach 5 ft ., one creature. Hit: 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>3d6 cold</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Staff (+3 Quarterstaff)</Name>
+      <Text>Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 10 (3d6) necrotic damage, or 8 (1d8 + 4) bludgeoning damage plus 10 (3d6) necrotic damage when used with two hands. </Text>
+      <AttackBonus>11</AttackBonus>
+      <Damage>1d6 + 4 bludgeoning + 3d6 necrotic</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Invoke Curse</Name>
+      <Text>While holding the Staff of the Forgotten One, Acererak expends l charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a DC 23 Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. Greater restoration, remove curse, or similar magic ends the curse on the target.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>Acererak can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Acererak regains spent legendary actions at the start of his turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>At-Will Spell</Name>
+      <Text>Acererak casts one of his at-will spells.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Melee Attack</Name>
+      <Text>Acererak uses Paralyzing Touch or makes one melee attack with his staff.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Frightening Gaze (Costs 2 Actions)</Name>
+      <Text>Acererak fixes his gaze on one creature ne can see within 10 feet of him. The target must succeed on a DC 20 Wisdom saving throw against this magic or become frightened for l minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Acererak's gaze for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Talisman of the Sphere (Costs 2 Actions)</Name>
+      <Text>Acererak uses his talisman of the sphere to move the sphere of annihilation under his control up to 90 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Disrupt Life (Costs 3 Actions)</Name>
+      <Text>Each creature within 20 feet of Acererak must make a DC 20 Constitution saving throw against this magic, taking 42 (12d6) necrotic damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>14</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>14</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Mage Hand</string>
+    <string>Ray of Frost</string>
+    <string>Shocking Grasp</string>
+    <string>Ray of Sickness</string>
+    <string>Shield</string>
+    <string>Arcane Lock</string>
+    <string>Knock</string>
+    <string>Animate Dead</string>
+    <string>Counterspell</string>
+    <string>Blight</string>
+    <string>Ice Storm</string>
+    <string>Phantasmal Killer</string>
+    <string>Cloudkill</string>
+    <string>Hold Monster</string>
+    <string>Wall of Force</string>
+    <string>Chain Lightning</string>
+    <string>Circle of Death</string>
+    <string>Disintegrate</string>
+    <string>Finger of Death</string>
+    <string>Plane Shift</string>
+    <string>Teleport</string>
+    <string>Maze</string>
+    <string>Mind Blank</string>
+    <string>Power Word Kill</string>
+    <string>Time Stop</string>
+  </Spells>
+  <Slots>
+    <int>-1</int>
+    <int>-1</int>
+    <int>-1</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>2</int>
+  </Slots>
+</Monster>

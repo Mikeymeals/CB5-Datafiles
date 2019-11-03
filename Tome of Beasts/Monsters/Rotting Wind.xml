@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Large</Size>
+  <Name>Rotting Wind</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <HP>82</HP>
+  <HPRoll>11d10 + 22</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 60 ft. (hover)</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this)</string>
+  </Senses>
+  <PassivePerception>-1</PassivePerception>
+  <Languages>
+    <string>-</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Air Form</Name>
+      <Text>The rotting wind can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Befouling Presence</Name>
+      <Text>All normal plant life and liquid in the same space as a rotting wind at the end of the wind's turn is blighted and cursed. Normal vegetation dies in 1d4 days, while plant creatures take double damage from the wind of decay action. Unattended liquids become noxious and undrinkable.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Invisibility</Name>
+      <Text>The rotting wind is invisible as per a greater invisibility spell.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Wind of Decay</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 0 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 14 (4d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d6 + 5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

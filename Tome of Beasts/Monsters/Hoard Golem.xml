@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Huge</Size>
+  <Name>Hoard Golem</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>161</HP>
+  <HPRoll>14d12 + 70</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>3</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>1</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>psychic; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons that aren't adamantine</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhausted</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the language of its creator but can't speak</string>
+  </Languages>
+  <CR>12</CR>
+  <XP>8400</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Strike with Awe</Name>
+      <Text>Creatures within 120 feet of an immobile hoard golem suffer disadvantage on Wisdom (Perception) checks. A creature's sheer glee on discovering a vast hoard of treasure distracts it from its surroundings.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Immutable Form</Name>
+      <Text>The golem is immune to any spell or effect that would alter its form.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The golem has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The golem's weapon attacks are magical.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The golem makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 39 (6d10 + 6) bludgeoning damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>6d10 + 6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Thieving Whirlwind (Recharge 5-6)</Name>
+      <Text>The hoard golem transforms into a 20-foot radius whirlwind of the treasures of which it is composed. In this form, it has immunity to all slashing and piercing damage. As a whirlwind, it can enter other creatures' spaces and stop there. Every creature in a space the whirlwind occupies must make a DC 17 Dexterity saving throw. On a failure, a target takes 40 (6d10 + 7) bludgeoning damage and the whirlwind removes the most valuable visible item on the target, including wielded items, but not armor. If the saving throw is successful, the target takes half the bludgeoning damage and retains all possessions. The golem can remain in whirlwind form for up to 3 rounds, or it can transform back to its normal form on any of its turns as a bonus action.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Athletics</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

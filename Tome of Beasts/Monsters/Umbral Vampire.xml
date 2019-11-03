@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>Medium</Size>
+  <Name>Umbral Vampire</Name>
+  <Descriptions />
+  <Source>Tome of Beasts</Source>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <HP>84</HP>
+  <HPRoll>13d8 + 26</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 40 ft. (hover)</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>19</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder; bludgeoning</string>
+    <string>piercing</string>
+    <string>and slashing from nonmagical weapons</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Umbral</string>
+    <string>Void Speech</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The umbral vampire can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The umbral vampire's innate spellcasting ability is Charisma (spell save DC 15). The umbral vampire can innately cast the following spells, requiring no material components:
+At will: mirror image, plane shift (plane of shadows only)
+1/day each: bane (when in dim light or darkness only), black tentacles</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Blend</Name>
+      <Text>When in dim light or darkness, the umbral vampire can Hide as a bonus action, even while being observed.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Strike from Shadow</Name>
+      <Text>The reach of the umbral vampire's umbral grasp attack increases by 10 feet and its damage increases by 4d6 when both the umbral vampire and the target of the attack are in dim light or darkness and the umbral vampire is hidden from its target.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in direct sunlight, the umbral vampire has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Umbral Grasp</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) cold damage and the target's Strength score is reduced by 1d6. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a shadow rises from the corpse 1d4 hours later.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>4d6 + 4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+      <Text />
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
