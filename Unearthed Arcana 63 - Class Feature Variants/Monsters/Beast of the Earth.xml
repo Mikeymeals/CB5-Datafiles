@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Beast of the Earth</Name>
+  <Descriptions />
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>12</AC>
+  <HP>0</HP>
+  <HPRoll>equal the beast’s Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>climb or swim 40 ft. (your choice when you bond with the beast)</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages you speak</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>0</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Charge</Name>
+      <Text>If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. The DC equals your spell save DC. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Primal Rebirth</Name>
+      <Text>If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ready Companion</Name>
+      <Text>As a bonus action, you can command the beast to make its maul attack or to Hide.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Maul</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6 + 2 slashing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

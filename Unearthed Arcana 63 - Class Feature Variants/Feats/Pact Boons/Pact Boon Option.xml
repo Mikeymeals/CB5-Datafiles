@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Pact of the Talisman</Name>
+      <Text>Your patron gives you a special amulet, a talisman that can aid you, or anyone else who wears it, when the need is great. When the wearer makes an ability check with a skill in which they lack proficiency, they can add a d4 to the roll.
+If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet.
+The talisman turns to ash when you die</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+</FeatureContainer>

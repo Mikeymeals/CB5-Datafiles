@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Elemental Spell</Name>
+      <Text>When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, thunder.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Spells>Acid or Cold or Fire or Lightning or Thunder</Spells>
+    </SpellModifyFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Seeking Spell</Name>
+      <Text>When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Spells>Attack or Save</Spells>
+    </SpellModifyFeature>
+    <SpellModifyFeature>
+      <Keywords />
+      <Name>Unerring Spell</Name>
+      <Text>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll.
+You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <Spells>Attack</Spells>
+    </SpellModifyFeature>
+  </Features>
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+</FeatureContainer>

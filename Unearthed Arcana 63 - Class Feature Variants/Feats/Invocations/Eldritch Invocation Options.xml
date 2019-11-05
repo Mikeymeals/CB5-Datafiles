@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords />
+      <Name>Bond of the Talisman</Name>
+      <Text>While someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you.</Text>
+      <Level>12</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite>Pact of the Talisman feature</Prerequisite>
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Chain Master’s Fury</Name>
+      <Text>As a bonus action, you can command your familiar to make one attack.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite>Pact of the Chain feature</Prerequisite>
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Eldritch Armor</Name>
+      <Text>As an action, you can touch a suit of armor that isn’t being worn or carried by anyone and instantly don it, provided you aren’t wearing armor already. You are proficient with this suit of armor until it’s removed.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite>Pact of the Blade feature</Prerequisite>
+    </Feature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Far Scribe</Name>
+      <Text>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of 1).
+You can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.
+As an action, you can magically erase a name on the page by touching the name on it.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite>Pact of the Tome feature</Prerequisite>
+      <Spell>Sending</Spell>
+      <SpellCastingAbility>Charisma</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+    </BonusSpellFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Gift of the Protectors</Name>
+      <Text>A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of 1).
+When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.
+As an action, you can magically erase a name on the page by touching the name on it.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite>Pact of the Tome feature</Prerequisite>
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_TOME_GIFT_OF_THE_PROTECTORS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <FormsCompanionsBonusFeature>
+      <Keywords />
+      <Name>Investment of the Chain Master</Name>
+      <Text>When you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:
+• The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.
+• The familiar no longer needs to breathe.
+• The familiar’s weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
+• If the familiar forces a creature to make a saving throw, it uses your spell save DC.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Pact of the Chain feature</Prerequisite>
+      <UniqueID>find familiar</UniqueID>
+      <Senses />
+      <Speed />
+      <Languages />
+      <TraitBonusName>Investment of the Chain Master</TraitBonusName>
+      <TraitBonusText>When you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:
+• The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.
+• The familiar no longer needs to breathe.
+• The familiar’s weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
+• If the familiar forces a creature to make a saving throw, it uses your spell save DC.</TraitBonusText>
+    </FormsCompanionsBonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Protection of the Talisman</Name>
+      <Text>When the wearer of your talisman makes a saving throw in which they lack proficiency, they can add a d4 to the roll.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite>Pact of the Talisman feature</Prerequisite>
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Rebuke of the Talisman</Name>
+      <Text>When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your Charisma modifier (minimum of 1 damage) and push it up to 10 feet away from the talisman’s wearer.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite>Pact of the Talisman feature</Prerequisite>
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+</FeatureContainer>

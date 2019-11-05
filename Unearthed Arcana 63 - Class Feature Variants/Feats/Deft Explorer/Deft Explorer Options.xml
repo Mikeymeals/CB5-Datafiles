@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Canny</Name>
+      <Text>Choose one skill: Animal Handling, Athletics, History, Insight, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You gain proficiency in the chosen skill if you don’t already have it, and you can add double your proficiency bonus to ability checks using that skill.
+In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Canny</Name>
+          <Text>Choose one skill: Animal Handling, Athletics, History, Insight, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You gain proficiency in the chosen skill if you don’t already have it, and you can add double your proficiency bonus to ability checks using that skill.
+</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills>
+            <string>Animal Handling</string>
+            <string>Athletics</string>
+            <string>History</string>
+            <string>Insight</string>
+            <string>Investigation</string>
+            <string>Medicine</string>
+            <string>Nature</string>
+            <string>Perception</string>
+            <string>Stealth</string>
+            <string>Survival</string>
+          </Skills>
+          <Amount>1</Amount>
+          <ProficiencyMultiplier>2</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+          <UniqueID>RANGER_CANNY_SKILL</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name>Canny</Name>
+          <Text>In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Amount>2</Amount>
+          <UniqueID>RANGER_CANNY_LANGUAGE</UniqueID>
+        </LanguageChoiceFeature>
+      </Features>
+      <Condition>true</Condition>
+    </MultiFeature>
+    <SpeedFeature>
+      <Keywords>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Roving</Name>
+      <Text>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Tireless</Name>
+      <Text>As an action, you can give yourself a number of temporary hit points equal to 1d10 + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest. In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>Max(1, WisMod)</Value>
+      <ResourceID>RANGER_TIRELESS</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+</FeatureContainer>

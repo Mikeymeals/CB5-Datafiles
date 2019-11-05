@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Ambush</Name>
+      <Text>When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Bait and Switch</Name>
+      <Text>When you’re within 5 feet of an ally on your turn, you can expend one superiority die and switch places with that ally, provided you spend at least 5 feet of movement. This movement doesn’t provoke opportunity attacks.
+Roll the superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Brace</Name>
+      <Text>When an enemy you can see moves within 5 feet of you, you can use your reaction to expend one superiority die and make one weapon attack against that creature. If the attack hits, add the superiority die to the attack’s damage roll.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Restraining Strike</Name>
+      <Text>Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target (see chapter 9 in the Player’s Handbook for rules on grappling). Add the superiority die to your Strength (Athletics) check. The target is also restrained while grappled in this way.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Silver Tongue</Name>
+      <Text>When you make a Charisma (Deception) check or a Charisma (Persuasion) check, you can expend one superiority die, and add the superiority die to the ability check.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Snipe</Name>
+      <Text>As a bonus action, you can expend one superiority die and make a ranged weapon attack. You can draw a thrown weapon as part of making this attack. If you hit, add the superiority die to the attack’s damage roll.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Studious Eye</Name>
+      <Text>When you make a Wisdom (Insight) check or an Intelligence (Investigation) check, you can expend one superiority die, and add the superiority die to the ability check.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+</FeatureContainer>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Beast of the Air</Name>
+  <Descriptions />
+  <Source>Unearthed Arcana 63 - Class Feature Variants</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>13</AC>
+  <HP>0</HP>
+  <HPRoll>equal the beast’s Constitution modifier + your Wisdom modifier + five times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands the languages you speak</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>0</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Flyby</Name>
+      <Text>The beast doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Primal Rebirth</Name>
+      <Text>If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ready Companion</Name>
+      <Text>As a bonus action, you can command the beast to make its shred attack or to Hide.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Shred</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 + 3 slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

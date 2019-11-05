@@ -160,7 +160,7 @@ As an action, you present your holy symbol, and a sphere of twilight emanates fr
       <Level>2</Level>
       <Hidden>false</Hidden>
       <NoDisplay>false</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
     </Feature>
     <ResistanceFeature>
